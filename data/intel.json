@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-03-11T20:29:12.448940+00:00",
+  "updated_at": "2026-03-11T20:30:37.963598+00:00",
   "market": {
-    "brent_usd": 90.39,
-    "wti_usd": 88.53,
-    "brent_change_pct": 2.95,
-    "wti_change_pct": 6.09
+    "brent_usd": 90.38,
+    "wti_usd": 88.55,
+    "brent_change_pct": 2.94,
+    "wti_change_pct": 6.11
   },
   "indicators": {
     "ormuz_flow_pct": 3,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 8.5,
-    "vix": 24.27
+    "vix": 24.23
   },
   "ormuz_status": {
     "open": false,
@@ -19,46 +19,46 @@
   },
   "events": [
     {
-      "timestamp": "11 MAR 2026 · 20:29 UTC",
+      "timestamp": "11 MAR 2026 · 20:30 UTC",
       "headline": "CAMBODIA ARRESTS LAOTIAN MAN WITH 5 KG OF ILLICIT DRUGS",
       "detail": "Cambodian police arrested a Laotian man on Saturday for allegedly smuggling nearly 5 kilos of crystal methamphetamine from Laos into Cambodia, an anti-drug police officer said.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:29 UTC",
+      "timestamp": "11 MAR 2026 · 20:30 UTC",
       "headline": "EIA FORECASTS LOWER OIL PRICES IN 2026 AND 2027 DUE TO PERSISTENT STOCK BUILDS",
       "detail": "We forecast that production of petroleum and other liquids will continue to exceed global demand, which results in Brent crude oil prices falling from an average of $69 per barrel (b) in 2025 to $58/b",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:29 UTC",
+      "timestamp": "11 MAR 2026 · 20:30 UTC",
       "headline": "MARITIME EXPORTS OF PETROLEUM PRODUCTS INCREASED IN JANUARY 2026",
       "detail": "U.S. exports of refined petroleum products carried on clean product tankers have increased steadily over the last year, with exports totaling 6.3 million barrels per day (b/d) in January 2026, about 1",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:29 UTC",
+      "timestamp": "11 MAR 2026 · 20:30 UTC",
       "headline": "NEW U.S. ELECTRIC GENERATING CAPACITY EXPECTED TO REACH A RECORD HIGH IN 2026",
       "detail": "U.S. power plant developers and operators plan to add 86 gigawatts (GW) of new utility-scale electric generating capacity to the U.S. power grid in 2026 in our latest Preliminary Monthly Electric Gene",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:29 UTC",
+      "timestamp": "11 MAR 2026 · 20:30 UTC",
       "headline": "TEN YEARS AFTER FIRST SABINE PASS CARGO, U.S. LNG EXPORTS ARE STILL ON THE RISE",
       "detail": "Ten years ago, on February 24, 2016, the first liquefied natural gas (LNG) cargo from the Sabine Pass Terminal was exported from the United States, marking the beginning of a new era in U.S. LNG expor",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:29 UTC",
+      "timestamp": "11 MAR 2026 · 20:30 UTC",
       "headline": "U.S. LNG DEVELOPERS SIGN HIGHEST VOLUME OF SALE AND PURCHASE CONTRACTS SINCE 202",
       "detail": "U.S. developers signed sale and purchase agreements (SPA) for 40 million tons per annum of liquefied natural gas (LNG) in 2025 from planned export facilities, according to U.S. Department of Energy (D",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.39 (+2.95%)",
-    "WTI: $88.53 (+6.09%)",
-    "VIX: 24.27 · RIESGO: CRÍTICO",
+    "BRENT: $90.38 (+2.94%)",
+    "WTI: $88.55 (+6.11%)",
+    "VIX: 24.23 · RIESGO: CRÍTICO",
     "ORMUZ: CIERRE FACTICIO: NAVEGACIÓN PARALIZADA POR MINADO O HOSTILIDADES. FLUJ",
     "CAMBODIA ARRESTS LAOTIAN MAN WITH 5 KG OF ILLICIT DRUGS",
     "EIA FORECASTS LOWER OIL PRICES IN 2026 AND 2027 DUE TO PERSISTENT STOCK BUILDS",
