@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TABLERO ESTRUCTURAL — GOLFO PÉRSICO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+:root{
+  --bg:#050c09;--panel:#080f0b;--border:#122212;
+  --green:#00ff88;--green-dim:#00cc66;--green-dark:#002a15;
+  --amber:#ffaa00;--red:#ff3333;--blue:#4488ff;
+  --white:#b8ccb8;--muted:#3a5a3a;
+  --scan:rgba(0,255,136,0.022);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--green);font-family:'Share Tech Mono',monospace;overflow:hidden;height:100vh;width:100vw;}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
+  background:repeating-linear-gradient(0deg,transparent,transparent 2px,var(--scan) 2px,var(--scan) 4px);}
+body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
+  background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,0.72) 100%);}
+
+#app{display:grid;grid-template-columns:300px 1fr 290px;grid-template-rows:50px 1fr;height:100vh;width:100vw;}
+
+/* ── HEADER ── */
+#header{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;
+  padding:0 18px;background:linear-gradient(90deg,#000 0%,#081208 40%,#081208 60%,#000 100%);
+  border-bottom:1px solid var(--green-dim);position:relative;z-index:1001;}
+#header::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--green),transparent);opacity:.35;}
+.h-title{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:7px;color:var(--green);text-shadow:0 0 18px var(--green);}
+.h-center{display:flex;flex-direction:column;align-items:center;gap:1px;}
+.h-sub{font-size:8px;letter-spacing:4px;color:var(--muted);}
+.h-status{font-size:10px;color:var(--blue);letter-spacing:2px;}
+
+/* ── PANELS ── */
+#panel-left,#panel-right{background:linear-gradient(180deg,#071007 0%,var(--panel) 100%);
+  overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:12px;z-index:10;}
+#panel-left{border-right:1px solid var(--border);}
+#panel-right{border-left:1px solid var(--border);}
+::-webkit-scrollbar{width:3px;}::-webkit-scrollbar-thumb{background:var(--green-dark);}
+
+.psec{border:1px solid var(--border);padding:10px;position:relative;background:rgba(8,15,10,0.4);}
+.psec::before{content:'';position:absolute;top:-1px;left:8px;right:8px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--green-dim),transparent);opacity:.4;}
+.stitle{font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:3px;
+  color:var(--muted);margin-bottom:12px;display:flex;align-items:center;gap:5px;}
+.stitle::before{content:'▸';color:var(--green-dim);font-size:10px;}
+
+/* Layer Toggles */
+.litem{display:flex;align-items:center;gap:9px;padding:6px 4px;cursor:pointer;
+  border-bottom:1px solid rgba(255,255,255,.025);transition:background .12s;user-select:none;}
+.litem:hover{background:rgba(0,255,136,.04);}
+.ltog{width:26px;height:13px;border-radius:7px;border:1px solid var(--muted);
+  position:relative;flex-shrink:0;transition:all .18s;background:var(--bg);}
+.ltog.on{border-color:var(--green-dim);background:var(--green-dark);}
+.ltog::after{content:'';position:absolute;top:2px;left:2px;width:7px;height:7px;
+  border-radius:50%;background:var(--muted);transition:all .18s;}
+.ltog.on::after{left:15px;background:var(--green);box-shadow:0 0 5px var(--green);}
+.llbl{font-size:10px;letter-spacing:1px;color:var(--white);flex:1;}
+
+/* Dependency Bars */
+.dep-item{margin-bottom:8px;}
+.dep-label{display:flex;justify-content:space-between;font-size:9px;color:var(--muted);margin-bottom:4px;}
+.dep-label span:last-child{color:var(--white);}
+.dep-bar{height:6px;background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:2px;overflow:hidden;}
+.dep-fill{height:100%;background:var(--muted);transition:width 0.8s ease;}
+
+/* Stats Grid */
+.sgrid{display:grid;grid-template-columns:1fr 1fr;gap:6px;}
+.sbox{border:1px solid var(--border);padding:8px 5px;text-align:center;background:rgba(0,0,0,0.2);}
+.sval{font-family:'Bebas Neue',sans-serif;font-size:20px;line-height:1;margin-bottom:3px;}
+.slbl{font-size:7px;letter-spacing:1.5px;color:var(--muted);}
+
+/* Lenses Panel */
+#lens-panel{border-color:var(--blue);}
+#lens-panel::before{background:linear-gradient(90deg,transparent,var(--blue),transparent);}
+.lens-btn{width:100%;padding:8px;margin-bottom:6px;background:transparent;border:1px solid var(--border);
+  color:var(--muted);font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:2px;
+  cursor:pointer;transition:all 0.2s;text-align:left;padding-left:12px;}
+.lens-btn:hover{border-color:var(--muted);color:var(--white);}
+.lens-btn.active{border-color:var(--blue);color:var(--blue);background:rgba(68,136,255,0.08);box-shadow:inset 2px 0 0 var(--blue);}
+.lens-content{font-size:10.5px;line-height:1.6;color:var(--white);padding:8px;border-left:1px solid var(--border);margin-top:8px;}
+.lens-content strong{color:var(--blue);font-weight:normal;font-size:11.5px;}
+
+/* Map */
+.map-wrap{position:relative;overflow:hidden;}
+#map{width:100%;height:100%;}
+.leaflet-container{background:#030d06!important;}
+.leaflet-popup-content-wrapper{background:rgba(3,10,6,.97)!important;border:1px solid var(--green-dim)!important;border-radius:0!important;color:var(--white)!important;font-family:'Share Tech Mono',monospace!important;font-size:10px!important;line-height:1.4;}
+.leaflet-popup-tip{background:var(--green-dim)!important;}
+.leaflet-popup-close-button{color:var(--green)!important;}
+.dark-fallback { filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%); }
+
+/* ═══════════════════════════════════════════════
+   RESPONSIVE DESIGN (MÓVILES Y TABLETS)
+   ═══════════════════════════════════════════════ */
+@media (max-width: 950px) {
+  body { height: auto; overflow-y: auto; overflow-x: hidden; }
+  #app { display: flex; flex-direction: column; height: auto; min-height: 100vh; }
+  #map-wrap { order: 1; width: 100vw; height: 45vh; min-height: 350px; border-bottom: 2px solid var(--border); z-index: 100; }
+  #panel-left { order: 2; border-right: none; border-bottom: 1px solid var(--border); overflow-y: visible; padding-bottom: 20px; }
+  #panel-right { order: 3; border-left: none; overflow-y: visible; padding-bottom: 40px; }
+  .h-title { font-size: 15px; letter-spacing: 2px; }
+  .h-sub { display: none; }
+  #header { padding: 0 10px; position: sticky; top: 0; z-index: 9999; }
+  .litem { padding: 12px 6px; }
+  .lens-btn { padding: 14px; font-size: 13px; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+<header id="header">
+  <div class="h-title">TABLERO ESTRUCTURAL</div>
+  <div class="h-center">
+    <span class="h-sub">GOLFO PÉRSICO · CONVEMAR · COMERCIO INTERNACIONAL</span>
+  </div>
+  <div class="h-status">ENFOQUE ANALÍTICO ESTÁTICO</div>
+</header>
+
+<aside id="panel-left">
+  <div class="psec">
+    <div class="stitle">Capas Activas</div>
+    <div id="layer-list"></div>
+  </div>
+  
+  <div class="psec" style="flex:1">
+    <div class="stitle">Dependencia Comercial</div>
+    <div style="font-size:9px;color:var(--muted);margin-bottom:12px;line-height:1.4;">
+      Destino de las exportaciones de crudo que transitan por el Estrecho de Ormuz. Refleja la asimetría del riesgo macroeconómico.
+    </div>
+    <div id="dependency-bars">
+      <div class="dep-item"><div class="dep-label"><span>CHINA</span><span>34%</span></div><div class="dep-bar"><div class="dep-fill" style="width:34%;background:var(--amber)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>INDIA</span><span>22%</span></div><div class="dep-bar"><div class="dep-fill" style="width:22%;background:var(--amber)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>JAPÓN</span><span>14%</span></div><div class="dep-bar"><div class="dep-fill" style="width:14%;background:var(--blue)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>COREA DEL SUR</span><span>10%</span></div><div class="dep-bar"><div class="dep-fill" style="width:10%;background:var(--blue)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>RESTO DEL MUNDO</span><span>20%</span></div><div class="dep-bar"><div class="dep-fill" style="width:20%;background:var(--muted)"></div></div></div>
+    </div>
+  </div>
+</aside>
+
+<div class="map-wrap" id="map-wrap">
+  <div id="map"></div>
+</div>
+
+<aside id="panel-right">
+  
+  <div class="psec">
+    <div class="stitle">Mercados en Tiempo Real (Dual Shock)</div>
+    <div class="tradingview-widget-container" style="margin-bottom:8px; border:1px solid rgba(255,255,255,0.06); background:rgba(0,0,0,0.2);">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "TVC:UKOIL",
+          "title": "Crudo Brent"
+        },
+        {
+          "proName": "TVC:NATGAS",
+          "title": "Gas Natural"
+        }
+      ],
+      "colorTheme": "dark",
+      "isTransparent": true,
+      "showSymbolLogo": false,
+      "locale": "es"
+    }
+      </script>
+    </div>
+    <div class="sgrid">
+      <div class="sbox"><div class="sval" style="color:var(--amber)">21M</div><div class="slbl">bbl/día Ormuz</div></div>
+      <div class="sbox"><div class="sval" style="color:var(--red)">106:1</div><div class="slbl">RATIO MISIL/DRON</div></div>
+      <div class="sbox"><div class="sval" style="color:var(--blue)">$1B</div><div class="slbl">BURN RATE DIARIO (US)</div></div>
+      <div class="sbox"><div class="sval" style="color:var(--white)">VETADO</div><div class="slbl">ESTATUS ONU (CSNU)</div></div>
+    </div>
+  </div>
+
+  <div id="lens-panel" class="psec" style="flex:1">
+    <div class="stitle" style="color:var(--blue)">Lentes de Análisis</div>
+    <div id="lens-btns"></div>
+    <div class="lens-content" id="lens-content"></div>
+  </div>
+</aside>
+
+</div>
+
+<script>
+// ═══════════════════════════════════════════════
+//  MAP INIT
+// ═══════════════════════════════════════════════
+const map = L.map('map',{zoomControl:false}).setView([25.5, 53.5], 5);
+const primaryLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 20
+});
+const fallbackLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19, className: 'dark-fallback'
+});
+primaryLayer.on('tileerror', () => { map.removeLayer(primaryLayer); fallbackLayer.addTo(map); });
+primaryLayer.addTo(map);
+L.control.zoom({position:'bottomleft'}).addTo(map);
+
+// ═══════════════════════════════════════════════
+//  FUNCIONES DE ICONOS
+// ═══════════════════════════════════════════════
+
+function makeIcon(color){
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+    <circle cx="7" cy="7" r="5" fill="${color}" stroke="rgba(255,255,255,0.2)" stroke-width="0.7" style="filter:drop-shadow(0 0 3px ${color})"/></svg>`;
+  return L.divIcon({className:'',html:svg,iconSize:[14,14],iconAnchor:[7,7]});
+}
+
+function makeDiamondIcon(color){
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <polygon points="8,1 15,8 8,15 1,8" fill="${color}" stroke="rgba(255,255,255,0.3)" stroke-width="1"/></svg>`;
+  return L.divIcon({className:'',html:svg,iconSize:[16,16],iconAnchor:[8,8]});
+}
+
+function makeNuclearIcon(color){
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="${color}">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v4h-2zm0 6h2v2h-2z"/></svg>`;
+  return L.divIcon({className:'',html:svg,iconSize:[16,16],iconAnchor:[8,8]});
+}
+
+function makeStarIcon(color){
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="${color}" stroke="rgba(0,0,0,0.5)" stroke-width="1">
+    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>`;
+  return L.divIcon({className:'',html:svg,iconSize:[18,18],iconAnchor:[9,9]});
+}
+
+// ═══════════════════════════════════════════════
+//  CAPA GEOJSON ASÍNCRONA (BRICS+)
+// ═══════════════════════════════════════════════
+const bricsGeoLayer = L.layerGroup();
+fetch('https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json')
+  .then(res => res.json())
+  .then(data => {
+    L.geoJson(data, {
+      filter: function(feature) {
+        // Códigos ISO de miembros clave de BRICS+ en la región
+        return ['IRN', 'SAU', 'ARE', 'EGY', 'ETH'].includes(feature.id);
+      },
+      style: { 
+        color: '#ff66cc', 
+        fillColor: '#ff66cc', 
+        fillOpacity: 0.15, 
+        weight: 1.5, 
+        dashArray: '4 4' 
+      },
+      onEachFeature: function(feature, layer) {
+        let text = `<b>${feature.properties.name}</b><br>Miembro BRICS+ (Expansión 2024).`;
+        if(feature.id === 'IRN') text += "<br>Integración para mitigar sanciones occidentales.";
+        if(feature.id === 'SAU' || feature.id === 'ARE') text += "<br>Pivot estratégico y diversificación de alianzas.";
+        if(feature.id === 'EGY' || feature.id === 'ETH') text += "<br>Control de la ruta geoeconómica del Mar Rojo/Suez.";
+        layer.bindPopup(text);
+      }
+    }).addTo(bricsGeoLayer);
+  })
+  .catch(err => console.error("Error cargando GeoJSON:", err));
+
+// ═══════════════════════════════════════════════
+//  DATA LAYERS PRINCIPALES
+// ═══════════════════════════════════════════════
+const LAYERS = [
+  // ── 1. ECONOMÍA, DERECHO Y SANCIONES ──
+  { id:'bypass', label:'Infraestructura Bypass', color:'#ff9900', active:true, items:[
+      L.polyline([[26.0, 49.6], [24.5, 45.0], [24.0, 38.0]], {color:'#ff9900', weight:3, dashArray:'5 5'}).bindPopup("<b>East-West Pipeline (Arabia Saudita)</b><br>Capacidad: ~5.0 Mb/d. Permite exportar desde el Mar Rojo, evadiendo Ormuz."),
+      L.polyline([[23.7, 53.7], [24.0, 55.0], [25.1, 56.3]], {color:'#ff9900', weight:3, dashArray:'5 5'}).bindPopup("<b>ADCOP (EAU)</b><br>Capacidad: ~1.5 Mb/d. Conecta campos terrestres con el Golfo de Omán.")
+  ]},
+  { id:'convemar', label:'Zonas Jurídicas (CONVEMAR)', color:'#4488ff', active:true, items:[
+      L.polygon([[26.8, 56.2], [26.4, 56.5], [26.1, 56.3], [26.4, 55.9]], {color:'#4488ff', fillColor:'#4488ff', fillOpacity:0.15, weight:1})
+       .bindPopup("<b>Solapamiento de Aguas Territoriales (Ormuz)</b><br>Ancho: 39km. Al ser menor a 24 millas náuticas, rige el <b>Paso en Tránsito</b> inalienable para la comunidad internacional.")
+  ]},
+  { id:'ghost_fleet', label:'Zonas STS (Flota Fantasma)', color:'#ff33cc', active:false, items:[
+      L.polygon([[25.0, 56.8], [25.5, 57.2], [25.1, 57.8], [24.7, 57.3]], {color:'#ff33cc', fillColor:'#ff33cc', fillOpacity:0.2, weight:1, dashArray:'4 4'})
+       .bindPopup("<b>Zona de Transferencia STS (Golfo de Omán)</b><br>Área de evasión de sanciones mediante el apagado de transpondedores AIS."),
+      L.polygon([[3.5, 100.2], [4.0, 100.8], [3.2, 101.5], [2.8, 100.5]], {color:'#ff33cc', fillColor:'#ff33cc', fillOpacity:0.2, weight:1, dashArray:'4 4'})
+       .bindPopup("<b>Zona de Transferencia STS (Estrecho de Malaca)</b><br>Segundo nodo crítico para blanqueo de crudo sancionado hacia Asia.")
+  ]},
+  { id:'sovereign_funds', label:'Fondos Soberanos (Poder Financiero)', color:'#ffd700', active:false, items:[
+      L.marker([24.71, 46.67], {icon: makeDiamondIcon('#ffd700')}).bindPopup("<b>PIF (Arabia Saudita)</b><br>AUM: ~$925B. Motor de la Visión 2030."),
+      L.marker([24.45, 54.37], {icon: makeDiamondIcon('#ffd700')}).bindPopup("<b>ADIA (EAU)</b><br>AUM: ~$993B. Blindaje diplomático mediante inversión externa."),
+      L.marker([25.28, 51.53], {icon: makeDiamondIcon('#ffd700')}).bindPopup("<b>QIA (Qatar)</b><br>AUM: ~$510B. Adquisición de activos estratégicos europeos.")
+  ]},
+
+  // ── 2. INFRAESTRUCTURA DIGITAL Y MULTIPOLARIDAD ──
+  { id:'subsea_cables', label:'Infraestructura Digital (Cables)', color:'#00ffff', active:false, items:[
+      L.polyline([[12.5, 43.3], [15.0, 41.5], [20.0, 38.5], [27.0, 34.5], [29.9, 32.5]], {color:'#00ffff', weight:2, dashArray:'2 4'}).bindPopup("<b>Red de Cables Submarinos (Mar Rojo)</b><br>Cuello de botella digital global. Conecta Europa con Asia. Vulnerable a sabotaje asimétrico."),
+      L.polyline([[24.5, 58.5], [25.5, 55.5], [26.5, 53.5], [29.0, 48.0]], {color:'#00ffff', weight:2, dashArray:'2 4'}).bindPopup("<b>Cables Submarinos (Golfo Pérsico/FALCON)</b><br>Infraestructura crítica de telecomunicaciones de las monarquías del Golfo.")
+  ]},
+  { id:'brics_bloc', label:'Arquitectura Multipolar (BRICS+)', color:'#ff66cc', active:false, items:[
+      bricsGeoLayer // <- AQUÍ INYECTAMOS LA CAPA GEOGRÁFICA EXACTA
+  ]},
+
+  // ── 3. LEGITIMACIÓN Y PROLIFERACIÓN ──
+  { id:'nuclear_iran', label:'Programa Nuclear (OIEA/TNP)', color:'#00ffff', active:false, items:[
+      L.marker([33.724, 51.725], {icon: makeNuclearIcon('#00ffff')}).bindPopup("<b>Complejo de Enriquecimiento Natanz</b><br>Instalación subterránea principal. Eje de las inspecciones del OIEA."),
+      L.marker([34.885, 50.995], {icon: makeNuclearIcon('#00ffff')}).bindPopup("<b>Planta de Enriquecimiento Fordow</b><br>Excavada en la montaña. Invulnerable a ataques convencionales estándar."),
+      L.marker([32.553, 51.926], {icon: makeNuclearIcon('#00ffff')}).bindPopup("<b>Centro de Tecnología Nuclear de Isfahán</b><br>Conversión de uranio (yellowcake a UF6)."),
+      L.marker([28.829, 50.887], {icon: makeNuclearIcon('#00ffff')}).bindPopup("<b>Central Nuclear de Bushehr</b><br>Reactor civil (tecnología rusa).")
+  ]},
+  { id:'religious_nodes', label:'Centros de Legitimación (Fe)', color:'#ffffff', active:false, items:[
+      L.marker([21.422, 39.826], {icon: makeStarIcon('#ffffff')}).bindPopup("<b>La Meca y Medina (Arabia Saudita)</b><br>Legitimidad dinástica: 'Guardián de los Dos Santos Lugares'. Vector de poder blando sunita."),
+      L.marker([34.639, 50.875], {icon: makeStarIcon('#ffffff')}).bindPopup("<b>Qom (Irán)</b><br>Capital del chiismo político (Velayat-e Faqih). Centro de exportación revolucionaria."),
+      L.marker([31.995, 44.314], {icon: makeStarIcon('#ffffff')}).bindPopup("<b>Nayaf (Irak)</b><br>Sede del Gran Ayatolá Sistani. Tradición chiita 'quietista', contrapeso ideológico a Qom."),
+      L.marker([31.776, 35.234], {icon: makeStarIcon('#ffffff')}).bindPopup("<b>Al-Quds / Jerusalén</b><br>Tercer lugar santo del Islam. Eje discursivo para la proyección de influencia iraní sobre el mundo árabe.")
+  ]},
+
+  // ── 4. ARQUITECTURA MILITAR GEOPOLÍTICA ──
+  { id:'bases_us', label:'EE.UU. (Despliegue Estructural)', color:'#4488ff', active:false, items:[
+      L.marker([25.117, 51.315], {icon: makeIcon('#4488ff')}).bindPopup("<b>Al Udeid Air Base (Qatar)</b><br>Sede avanzada de CENTCOM. Eje logístico regional."),
+      L.marker([26.270, 50.610], {icon: makeIcon('#4488ff')}).bindPopup("<b>NSA Bahrain</b><br>Sede de la Quinta Flota y Comando Central Naval (NAVCENT)."),
+      L.marker([36.529, 44.351], {icon: makeIcon('#4488ff')}).bindPopup("<b>Base Aérea Al-Harir / Erbil (Irak - KRG)</b><br>Nodo estratégico en el Kurdistán iraquí. Clave para inteligencia y operaciones especiales."),
+      L.marker([33.430, 38.930], {icon: makeIcon('#4488ff')}).bindPopup("<b>Al-Tanf Garrison (Siria)</b><br>Posición estratégica en la triple frontera para bloquear el 'puente terrestre' logístico de Irán."),
+      L.marker([11.547, 43.148], {icon: makeIcon('#4488ff')}).bindPopup("<b>Camp Lemonnier (Yibuti)</b><br>Vigilancia del chokepoint de Bab el-Mandeb."),
+      L.marker([37.001, 35.425], {icon: makeIcon('#4488ff')}).bindPopup("<b>Incirlik Air Base (Turquía)</b><br>Operada bajo EUCOM/OTAN. Alberga arsenal nuclear táctico B61."),
+      L.marker([24.050, 47.580], {icon: makeIcon('#4488ff')}).bindPopup("<b>Prince Sultan Air Base (Arabia Saudita)</b><br>Defensa del núcleo petrolero y escudo antimisiles."),
+      L.marker([24.248, 54.547], {icon: makeIcon('#4488ff')}).bindPopup("<b>Al Dhafra Air Base (EAU)</b><br>Nodo clave para operaciones aéreas e ISR (Inteligencia, Vigilancia, Reconocimiento)."),
+      L.marker([33.785, 42.441], {icon: makeIcon('#4488ff')}).bindPopup("<b>Al Asad Airbase (Irak)</b><br>Proyección en la Mesopotamia occidental. Frecuente blanco de milicias."),
+      L.marker([32.356, 36.259], {icon: makeIcon('#4488ff')}).bindPopup("<b>Muwaffaq Salti Air Base (Jordania)</b><br>Hub vital para drones y cobertura del flanco occidental."),
+      L.marker([28.878, 48.163], {icon: makeIcon('#4488ff')}).bindPopup("<b>Camp Arifjan (Kuwait)</b><br>Centro logístico de las fuerzas del Ejército (USARCENT).")
+  ]},
+  { id:'bases_otan', label:'Potencias Europeas (UK/FR)', color:'#aa66ff', active:false, items:[
+      L.marker([26.210, 50.650], {icon: makeIcon('#aa66ff')}).bindPopup("<b>HMS Jufair (Bahréin)</b><br>Reino Unido / Apoyo naval permanente al este de Suez."),
+      L.marker([24.430, 54.410], {icon: makeIcon('#aa66ff')}).bindPopup("<b>Camp de la Paix (EAU)</b><br>Francia / Presencia conjunta (Naval, Aérea, Terrestre) frente a Ormuz.")
+  ]},
+  { id:'bases_rus_chn', label:'Competidores (Rusia/China)', color:'#ffcc00', active:false, items:[
+      L.marker([34.910, 35.880], {icon: makeIcon('#ffcc00')}).bindPopup("<b>Tartus (Siria)</b><br>Rusia / Única instalación naval rusa en el Mediterráneo."),
+      L.marker([35.400, 35.940], {icon: makeIcon('#ffcc00')}).bindPopup("<b>Hmeimim (Siria)</b><br>Rusia / Plataforma de proyección aérea en Levante."),
+      L.marker([11.590, 43.120], {icon: makeIcon('#ffcc00')}).bindPopup("<b>Base Naval PLA (Yibuti)</b><br>China / Primera base militar de ultramar. Asegura SLOCs comerciales."),
+      L.marker([25.120, 62.330], {icon: makeIcon('#ffcc00')}).bindPopup("<b>Puerto de Gwadar (Pakistán)</b><br>China / Infraestructura civil dual (CPEC). Acceso rápido a Ormuz.")
+  ]},
+  { id:'bases_tur', label:'Autonomía Regional (Turquía)', color:'#00cccc', active:false, items:[
+      L.marker([25.260, 51.450], {icon: makeIcon('#00cccc')}).bindPopup("<b>Tariq bin Ziyad (Qatar)</b><br>Turquía / Fuerza Conjunta Turco-Qatarí."),
+      L.marker([2.040, 45.280], {icon: makeIcon('#00cccc')}).bindPopup("<b>Camp TURKSOM (Somalia)</b><br>Turquía / Mayor base en el exterior, influencia en el Cuerno de África.")
+  ]},
+  { id:'nodos_iran', label:'Irán y Eje de la Resistencia', color:'#ff3333', active:false, items:[
+      L.marker([27.183, 56.267], {icon: makeIcon('#ff3333')}).bindPopup("<b>Base Naval Bandar Abbas (Irán)</b><br>Sede IRGC. Estrangulamiento táctico en Ormuz."),
+      L.marker([15.350, 44.200], {icon: makeIcon('#ff3333')}).bindPopup("<b>Saná / Al Hudaydah (Yemen)</b><br>Ansar Alá (Hutíes) / Nodo asimétrico para control de Bab el-Mandeb."),
+      L.marker([34.450, 40.890], {icon: makeIcon('#ff3333')}).bindPopup("<b>Al Bukamal (Siria/Irak)</b><br>Punto de control de milicias / Puente Terrestre logístico de Teherán hacia el Mediterráneo."),
+      L.marker([33.270, 35.200], {icon: makeIcon('#ff3333')}).bindPopup("<b>Sur del Líbano</b><br>Hezbollah / Plataforma de disuasión asimétrica y arsenal balístico.")
+  ]},
+  { id:'flashpoints', label:'Puntos de Fricción Geopolítica', color:'#ff0055', active:false, items:[
+      L.polyline([[38.9, 46.2], [39.0, 46.4], [39.1, 46.5]], {color:'#ff0055', weight:4, dashArray:'6 6'})
+       .bindPopup("<b>Corredor de Zangezur (Syunik, Armenia)</b><br>Estatus: <b>Bajo mandato del FSB Ruso (Tratado 2020)</b>.<br>Fricción directa entre Turquía (que exige apertura extraterritorial) e Irán (que traza una línea roja militar para no perder su frontera armenia).")
+  ]}
+];
+
+// Construir e Inicializar Capas
+const layerGroups = {};
+const ll = document.getElementById('layer-list');
+
+LAYERS.forEach(layer => {
+  const group = L.layerGroup(layer.items);
+  layerGroups[layer.id] = group;
+  if(layer.active) group.addTo(map);
+
+  const d = document.createElement('div'); d.className = 'litem';
+  d.innerHTML = `<div class="ltog ${layer.active?'on':''}"></div><div class="llbl" style="color:${layer.color}">${layer.label}</div>`;
+  const t = d.querySelector('.ltog');
+  d.addEventListener('click', () => {
+    const on = t.classList.toggle('on');
+    if(on) group.addTo(map);
+    else map.removeLayer(group);
+  });
+  ll.appendChild(d);
+});
+
+// ═══════════════════════════════════════════════
+//  LENTES ANALÍTICOS
+// ═══════════════════════════════════════════════
+const LENSES = [
+  {
+    title: 'Atrición Financiera y Asimetría',
+    targetLayer: null, 
+    content: `<strong>Agotamiento Logístico (OSINT):</strong><br><br>Monitores independientes (ej. <i>iran-cost-ticker</i>) exponen el verdadero límite del hegemón: el <i>burn rate</i> militar. Una campaña de alta intensidad consume ~$1B USD diarios.<br><br>La asimetría es insostenible: interceptar drones Shahed de $35k con misiles PAC-3 de $3.7M genera un ratio de costo destructivo de 106:1. En pocas semanas, este ritmo de fuego agota el inventario estratégico de interceptores de EE.UU., vulnerando sus otros frentes de disuasión global.`
+  },
+  {
+    title: 'Infraestructura y Bypass',
+    targetLayer: 'bypass',
+    content: `<strong>Análisis de Resiliencia Física:</strong><br><br>Capacidad de Ormuz (~21 Mb/d) vs. vías alternativas (East-West y ADCOP: ~6.5 Mb/d). El cuello de botella es estructuralmente insalvable ante un bloqueo total.`
+  },
+  {
+    title: 'Régimen Jurídico Marítimo',
+    targetLayer: 'convemar',
+    content: `<strong>Derecho Internacional Público:</strong><br><br>Sin aguas internacionales en Ormuz, rige el <strong>Derecho de Paso en Tránsito</strong> (Art. 38 CONVEMAR). La tensión subyacente es la exigencia de Irán de aplicar el <i>Paso Inocente</i>, sujeto a suspensión.`
+  },
+  {
+    title: 'Guerra Híbrida y Nodos Digitales',
+    targetLayer: 'subsea_cables',
+    content: `<strong>Vulnerabilidad de Infraestructura Crítica:</strong><br><br>El análisis tradicional sobrevalora las líneas de comunicación marítimas (SLOC) energéticas y subestima las digitales.<br><br>Por el lecho del Mar Rojo y el Golfo Pérsico transitan los <strong>cables de fibra óptica</strong> que procesan trillones de dólares en transacciones financieras diarias entre Europa y Asia. Un sabotaje asimétrico en esta infraestructura genera un daño económico global veloz.`
+  },
+  {
+    title: 'Diplomacia Multipolar (BRICS+)',
+    targetLayer: 'brics_bloc',
+    content: `<strong>Reconfiguración de Alianzas:</strong><br><br>Frente a la parálisis del Consejo de Seguridad de la ONU, la diplomacia fluye hacia estructuras alternativas.<br><br>La inclusión simultánea de <strong>Egipto, Etiopía, Irán, Arabia Saudita y Emiratos Árabes Unidos</strong> en los BRICS refleja un pacto de integración mediado por el bloque sino-ruso. Esto otorga al foro un dominio territorial sobre el Mar Rojo y el Golfo Pérsico, acelerando las agendas de desdolarización.`
+  },
+  {
+    title: 'Geopolítica de la Fe y Legitimación',
+    targetLayer: 'religious_nodes',
+    content: `<strong>Poder Blando e Ideología:</strong><br><br>La religión opera como una herramienta estatal.<br><br>Arabia Saudita basa su legitimidad en el control de La Meca. En la esfera chiita, existe tensión política entre <strong>Qom</strong> (doctrina estatal iraní) y <strong>Nayaf</strong> (tradición quietista en Irak). <strong>Jerusalén</strong> actúa como el máximo vector discursivo panislámico.`
+  },
+  {
+    title: 'Programa Nuclear (TNP y OIEA)',
+    targetLayer: 'nuclear_iran',
+    content: `<strong>Diplomacia y No Proliferación:</strong><br><br>Las instalaciones de Natanz y Fordow determinan el <i>breakout time</i> (tiempo para obtener material fisible).<br><br>En el marco del Derecho Internacional, el debate oscila entre el derecho inalienable al enriquecimiento civil (TNP) y el colapso del régimen de inspecciones intrusivas (Protocolo Adicional).`
+  },
+  {
+    title: 'Evasión y Flota Fantasma',
+    targetLayer: 'ghost_fleet',
+    content: `<strong>Derecho y Sanciones Internacionales:</strong><br><br>El crudo sancionado elude controles mediante transferencias <i>Ship-to-Ship (STS)</i> con transpondedores apagados, forzando los límites jurisdiccionales del Derecho Marítimo y los seguros (P&I Clubs).`
+  },
+  {
+    title: 'Shock Dual: Agro y Shale',
+    targetLayer: null, 
+    content: `<strong>Impacto en Mercados Periféricos:</strong><br><br>Para economías periféricas, una crisis en el Golfo produce un <i>shock contradictorio</i>.<br><br>Por un lado, destruye la balanza comercial agrícola al disparar el costo de la <strong>Urea y fertilizantes nitrogenados</strong> (derivados del gas). Por otro lado, un crudo sostenido atrae inversiones masivas hacia cuencas locales de <strong>Shale Oil/Gas</strong> y offshore, buscando seguridad energética lejos de Medio Oriente.`
+  }
+];
+
+const lensBtnsContainer = document.getElementById('lens-btns');
+const lensContent = document.getElementById('lens-content');
+
+LENSES.forEach((lens, idx) => {
+  const btn = document.createElement('button');
+  btn.className = 'lens-btn';
+  btn.innerHTML = `▸ ${lens.title}`;
+  btn.addEventListener('click', () => activateLens(idx));
+  lensBtnsContainer.appendChild(btn);
+});
+
+function activateLens(idx) {
+  // Resetear estilos
+  Array.from(lensBtnsContainer.children).forEach((btn, i) => {
+    btn.classList.toggle('active', i === idx);
+  });
+  
+  // Mostrar texto
+  lensContent.innerHTML = LENSES[idx].content;
+
+  // Encender capa
+  const targetId = LENSES[idx].targetLayer;
+  if(targetId) {
+    const layerIndex = LAYERS.findIndex(l => l.id === targetId);
+    if(layerIndex !== -1) {
+      const toggles = document.querySelectorAll('.ltog');
+      const listItems = document.querySelectorAll('.litem');
+      if(toggles[layerIndex] && !toggles[layerIndex].classList.contains('on')){
+        listItems[layerIndex].click();
+      }
+    }
+  }
+}
+
+// Iniciar con el primer lente
+activateLens(0);
+</script>
+</body>
+</html>

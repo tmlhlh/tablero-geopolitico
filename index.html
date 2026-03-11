@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio Geopolítico</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #050c09; --green: #00ff88; --muted: #3a5a3a; --border: #122212; --white: #b8ccb8; }
+  body { background: var(--bg); color: var(--white); font-family: 'Share Tech Mono', monospace; margin: 0; padding: 40px 20px; display: flex; justify-content: center; }
+  .container { max-width: 800px; width: 100%; }
+  header { border-bottom: 1px solid var(--green); padding-bottom: 20px; margin-bottom: 40px; }
+  h1 { font-family: 'Bebas Neue', sans-serif; color: var(--green); font-size: 40px; letter-spacing: 5px; margin: 0; }
+  p.subtitle { color: var(--muted); font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 5px; }
+  
+  .project-card { border: 1px solid var(--border); background: rgba(8,15,10,0.6); padding: 25px; margin-bottom: 20px; transition: border-color 0.3s; text-decoration: none; display: block; }
+  .project-card:hover { border-color: var(--green); background: rgba(0,255,136,0.05); }
+  .project-title { font-family: 'Bebas Neue', sans-serif; font-size: 24px; color: var(--white); letter-spacing: 2px; margin-bottom: 10px; }
+  .project-desc { color: var(--muted); font-size: 14px; line-height: 1.6; }
+  .tags { margin-top: 15px; display: flex; gap: 10px; }
+  .tag { font-size: 10px; padding: 4px 8px; border: 1px solid var(--muted); color: var(--green); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>ANÁLISIS ESTRATÉGICO Y GEOPOLÍTICA</h1>
+    <p class="subtitle">Portafolio Interactivo de Inteligencia de Fuentes Abiertas (OSINT)</p>
+  </header>
+
+  <a href="tablero-ormuz.html" class="project-card">
+    <div class="project-title">1. Golfo Pérsico: Cuellos de Botella y Arquitectura de Seguridad</div>
+    <div class="project-desc">
+      Tablero interactivo que cruza variables de Economía Internacional (shock dual de commodities), Derecho Público (CONVEMAR) y el despliegue militar asimétrico en el Estrecho de Ormuz y el Mar Rojo.
+    </div>
+    <div class="tags">
+      <span class="tag">Derecho Internacional</span>
+      <span class="tag">Comercio</span>
+      <span class="tag">Defensa</span>
+    </div>
+  </a>
+
+  <div class="project-card" style="opacity: 0.4; cursor: default;">
+    <div class="project-title">2. Próximo Análisis en Desarrollo...</div>
+    <div class="project-desc">Evaluación de vectores estratégicos en progreso.</div>
+  </div>
+
+</div>
+
+</body>
+</html>
