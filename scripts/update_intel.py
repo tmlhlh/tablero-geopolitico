@@ -29,26 +29,43 @@ YAHOO_SYMBOLS = {
 
 # Feeds RSS (sin API key)
 RSS_FEEDS = [
-    # Reuters - energía y commodities
-    "https://feeds.reuters.com/reuters/businessNews",
-    # BBC - noticias mundo
-    "https://feeds.bbci.co.uk/news/world/rss.xml",
-    # EIA - energía US
-    "https://www.eia.gov/rss/todayinenergy.xml",
+RSS_FEEDS = [
+    "https://feeds.reuters.com/reuters/businessNews", # REUTERS (Internacional)
+    "https://feeds.bbci.co.uk/news/world/rss.xml", # BBC (Británica)
+    "https://www.eia.gov/rss/todayinenergy.xml", # EIA (Energía)
+    "https://cnnespanol.cnn.com/feed/", # CNN (EEUU)
+    "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada", # El País (España)
+    "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml", # La Nación (Argentina)
+    "https://www.aljazeera.com/xml/rss/all.xml",              # Al-Jazeera (Qatar/Mundo Árabe)
+    "https://www.xinhuanet.com/english/rss/worldrss.xml",     # Xinhua (China - Visión oficial)
+    "https://www.rt.com/rss/news/",                           # RT News (Rusia - Perspectiva táctica/militar)
+    "https://rss.dw.com/rdf/rss-sp-top"                       # Deutsche Welle (Alemania - Eje UE en español)
+]
 ]
 
 # Keywords para filtrar noticias relevantes al Golfo/energía
 KEYWORDS = [
-    "oil", "petroleum", "crude", "energy", "opec", "gulf", "iran", "ormuz", "hormuz",
-    "saudi", "aramco", "gas", "lng", "tanker", "shipping", "strait", "middle east",
-    "petróleo", "golfo", "barril", "energía",
+    # Inglés
+    "oil", "crude", "energy", "hormuz", "strait", "tanker", "iran", "strike", "mine", 
+    "missile", "drone", "blockade", "closure", "red sea", "navy", "sunk", "attack",
+    # Español
+    "petróleo", "crudo", "energía", "ormuz", "estrecho", "buque", "irán", "ataque", 
+    "mina", "misil", "bloqueo", "cerrado", "mar rojo", "naval", "hundido", "explosión"
 ]
 
-# Palabras que indican alta severidad
-CRITICAL_KEYWORDS = ["attack", "strike", "war", "sanctions", "closure", "blockade",
-                      "explosion", "missile", "ataque", "guerra", "cierre", "bloqueo"]
-ALERT_KEYWORDS = ["disruption", "tension", "threat", "rise", "spike", "concern",
-                  "perturbación", "tensión", "amenaza", "alza"]
+# Palabras que indican alta severidad (Color Rojo en el feed)
+CRITICAL_KEYWORDS = [
+    "attack", "strike", "war", "closure", "blockade", "explosion", "missile", 
+    "mine", "minelaying", "sunk", "sink", "destroyed", "collision",
+    "ataque", "guerra", "cierre", "bloqueo", "explosión", "misil", 
+    "mina", "minado", "hundido", "destruido", "colisión"
+]
+
+# Palabras que indican alerta (Color Ámbar en el feed)
+ALERT_KEYWORDS = [
+    "disruption", "tension", "threat", "seized", "warning", "drill", "incident",
+    "perturbación", "tensión", "amenaza", "incautado", "advertencia", "simulacro", "incidente"
+]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (tablero-intel-bot/1.0)"}
 
@@ -106,8 +123,10 @@ def is_relevant(item: dict) -> bool:
 
 def classify_severity(item: dict) -> str:
     text = (item["title"] + " " + item["description"]).lower()
+    # Si la noticia menciona palabras críticas, es CRÍTICO
     if any(kw in text for kw in CRITICAL_KEYWORDS):
         return "CRÍTICO"
+    # Si menciona alertas, es ALERTA
     if any(kw in text for kw in ALERT_KEYWORDS):
         return "ALERTA"
     return "INFO"
@@ -146,53 +165,76 @@ def infer_risk_level(brent_change: float, events: list) -> str:
     return "BAJO"
 
 
-def infer_ormuz_status(events: list, brent_change: float) -> dict:
-    """Infiere el estado de flujo mediante un Índice de Presión Ponderado."""
+def infer_ormuz_status(events: list, brent_change: float, vix_price: float) -> dict:
+    """
+    Infiere el estado de flujo con sensibilidad táctica extrema y 
+    correlación de pánico financiero (VIX).
+    """
+    # Consolidamos todo el texto de los eventos para el análisis de saturación
     text_all = " ".join((e["headline"] + " " + e["detail"]).lower() for e in events)
     
-    # Categorías de riesgo (Ponderación por impacto en el flujo)
-    # Agregamos 'mine' y 'minelaying' como disparadores críticos de parálisis
-    crit_keys = [
-        "closed", "blockade", "sink", "sunk", "destroyed", "cerrado", "hundido", "mine", "minelaying", "mina"] # -40% cada una  
-    high_keys = ["attack", "missile", "drone", "explosion", "strike", "ataque", "misil"] # -15% cada una
-    mid_keys  = ["seized", "incident", "threat", "warning", "tension", "incidente"]    # -5% cada una
+    # 1. CATEGORÍAS DE PESO (Ponderación por impacto operativo)
+    # Subimos a 50/60 los puntos de 'mina' y 'hundido' porque paralizan el seguro marítimo
+    weights = {
+        # Impacto Crítico (Parálisis inmediata)
+        "closed": 60, "cerrado": 60, "blockade": 60, "bloqueo": 60,
+        "mine": 55, "mina": 55, "minelaying": 70, "minado": 70,
+        "sunk": 50, "hundido": 50, "sink": 50, "destroyed": 50,
+        
+        # Impacto Alto (Riesgo cinético activo)
+        "attack": 25, "ataque": 25, "missile": 30, "misil": 30, 
+        "drone": 20, "strike": 25, "explosion": 25, "explosión": 25,
+        
+        # Impacto Medio (Tensión diplomática/logística)
+        "seized": 15, "incautado": 15, "threat": 10, "amenaza": 10,
+        "warning": 10, "tension": 10, "tensión": 10, "incident": 10
+    }
 
-    # Cálculo de Presión (Hits acumulativos)
+    # 2. CÁLCULO DE PRESIÓN POR SATURACIÓN
+    # No solo vemos si la palabra está, sino cuántas veces aparece en distintos medios
     pressure = 0
-    pressure += sum(text_all.count(kw) for kw in crit_keys) * 40
-    pressure += sum(text_all.count(kw) for kw in high_keys) * 15
-    pressure += sum(text_all.count(kw) for kw in mid_keys) * 5
-    
-    # Impacto del Mercado (Brent): Si el Brent sube, la presión sube
+    for kw, weight in weights.items():
+        count = text_all.count(kw)
+        if count > 0:
+            # Aplicamos un multiplicador por saturación (máximo 3 fuentes para no sesgar)
+            saturation = min(count, 3)
+            pressure += (weight * saturation)
+
+    # 3. IMPACTO DE MERCADO (BRENT + VIX)
+    # El Brent positivo suma presión lineal
     if brent_change > 0:
-        pressure += (brent_change * 3)
+        pressure += (brent_change * 4)
 
-    # Estado Binario para el Summary
-    is_closed = any(kw in text_all for kw in ["closed", "closure", "blocked", "cerrado"])
-    is_disrupted = is_closed or pressure > 20 or brent_change > 4
+    # El VIX (Pánico Global) actúa como multiplicador de presión
+    # Un VIX > 25 indica que los mercados ya están huyendo del riesgo
+    if vix_price > 25:
+        pressure += (vix_price - 20) * 2.5
 
-    # CÁLCULO FINAL DEL FLUJO (Dynamic Floor)
-    # Partimos de 100 y restamos la presión. 
-    # El mínimo técnico operativo que definimos es 3% (flujo residual/contrabando)
+    # 4. DETERMINACIÓN DEL ESTADO
+    # Definimos 'Cerrado' si hay palabras clave explícitas o la presión es extrema
+    is_closed_news = any(kw in text_all for kw in ["closed", "cerrado", "blockade", "bloqueo", "mina", "mine"])
+    
+    # CÁLCULO FINAL DEL FLUJO (Piso técnico del 3%)
+    # Si la presión es alta, el flujo cae exponencialmente hacia el flujo residual
     flow_pct = max(100 - pressure, 3)
 
-    # Forzamos caída si hay confirmación de cierre
-    if is_closed:
-        flow_pct = min(flow_pct, 10) # Si dice "cerrado", máximo 10%
+    # Si hay confirmación de cierre o minas, el flujo no puede superar el 10%
+    if is_closed_news:
+        flow_pct = min(flow_pct, 10)
 
-    # Redacción del Resumen Dinámico
-    if flow_pct < 15:
-        summary = f"COLAPSO DE FLUJO: Tráfico en Ormuz al {flow_pct:.1f}%. Bloqueo de facto o cierre militar."
-    elif flow_pct < 60:
-        summary = f"DISRUPCIÓN SEVERA: Flujo reducido al {flow_pct:.1f}% por hostilidades activas."
-    elif flow_pct < 95:
-        summary = f"TENSIÓN OPERATIVA: Fricción logística detectada. Flujo: {flow_pct:.1f}%."
+    # 5. REDACCIÓN DE RESUMEN ESTRATÉGICO
+    if flow_pct <= 10:
+        summary = f"CIERRE FACTICIO: Navegación paralizada por minado o hostilidades. Flujo residual: {flow_pct:.1f}%."
+    elif flow_pct < 45:
+        summary = f"DISRUPCIÓN CRÍTICA: Múltiples ataques detectados. Riesgo de seguro extremo. Flujo: {flow_pct:.1f}%."
+    elif flow_pct < 85:
+        summary = f"TENSIÓN LOGÍSTICA: Fricción operativa y desvíos preventivos. Flujo: {flow_pct:.1f}%."
     else:
-        summary = "FLUJO NOMAL: Navegación operativa sin disrupciones significativas."
+        summary = "FLUJO NOMAL: Sin disrupciones sistémicas reportadas en los nodos principales."
 
     return {
-        "open": not is_closed,
-        "disrupted": is_disrupted,
+        "open": flow_pct > 15,
+        "disrupted": pressure > 20,
         "summary": summary,
         "flow_pct": round(flow_pct, 1)
     }
@@ -214,12 +256,14 @@ def build_intel() -> dict:
     all_items = []
     for url in RSS_FEEDS:
         items = parse_rss(url)
-        print(f"    {url.split('/')[2]}: {len(items)} items")
-        all_items.extend(items)
+        if items:
+            print(f"    {url.split('/')[2]}: {len(items)} items")
+            all_items.extend(items)
 
     # Filtrar relevantes y ordenar por fecha
     relevant = [i for i in all_items if is_relevant(i)]
     relevant.sort(key=lambda i: parse_date(i["pubDate"]), reverse=True)
+    
     # Desduplicar por título similar
     seen, deduped = set(), []
     for item in relevant:
@@ -242,21 +286,24 @@ def build_intel() -> dict:
             "severity":  sev,
         })
 
-    ormuz  = infer_ormuz_status(events, brent["change_pct"])
-    risk   = infer_risk_level(brent["change_pct"], events)
+    # CONEXIÓN CRÍTICA: Pasamos el VIX a la inferencia de Ormuz
+    ormuz = infer_ormuz_status(events, brent["change_pct"], vix["price"])
+    risk  = infer_risk_level(brent["change_pct"], events)
 
-    # Spread de seguros: proxy basado en cambio de precio
-    # En escenarios reales el spread sube con la volatilidad
+    # Spread de seguros: Ahora más realista usando el VIX como base de riesgo
+    # Si el VIX sube de 20, el costo de asegurar un tanquero sube exponencialmente
     base_spread = 0.8
-    spread = round(base_spread + abs(brent["change_pct"]) * 0.3, 1)
-    if not ormuz["open"]:   spread += 4.0
-    elif ormuz["disrupted"]: spread += 1.5
+    vix_factor = max(0, (vix["price"] - 15) * 0.2)
+    spread = round(base_spread + vix_factor + abs(brent["change_pct"]) * 0.3, 1)
+    
+    if not ormuz["open"]:    spread += 5.0 # Recargo por zona de guerra/cierre
+    elif ormuz["disrupted"]: spread += 2.0
 
     # Ticker items: precio + top headlines
     ticker = [
         f"BRENT: ${brent['price']} ({brent['change_pct']:+.2f}%)",
         f"WTI: ${wti['price']} ({wti['change_pct']:+.2f}%)",
-        f"VIX: {vix['price']} · RIESGO GEOPOLÍTICO: {risk}",
+        f"VIX: {vix['price']} · RIESGO: {risk}",
         f"ORMUZ: {ormuz['summary'].upper()[:70]}",
     ] + [e["headline"][:80] for e in events[:4]]
 
@@ -282,8 +329,6 @@ def build_intel() -> dict:
         "events":      events,
         "ticker_items": ticker,
         "dependency_bars": {
-            # Estáticos — refleja estructura estructural de largo plazo
-            # (no cambia hora a hora, solo se actualiza manualmente)
             "china_pct": 34,
             "india_pct": 22,
             "japan_pct": 14,
@@ -291,7 +336,6 @@ def build_intel() -> dict:
             "other_pct": 20,
         },
     }
-
 
 def write_output(data: dict) -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
