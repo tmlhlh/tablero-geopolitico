@@ -90,13 +90,15 @@ def infer_ormuz_status(events: list, brent_chg: float, vix: float) -> dict:
     pressure += (brent_chg * 5 if brent_chg > 0 else 0)
     pressure += (max(0, vix - 20) * 3)
 
-    # CÁLCULO DE FLUJO (Mínimo residual 3%)
+# CÁLCULO DE FLUJO (Mínimo residual 3%)
     flow = max(100 - pressure, 3)
     
-    # CIERRE DE FACTO: Si hay minas, hundimientos o presión > 60, el flujo colapsa
+    # CIERRE DE FACTO: Ajuste de sensibilidad extrema
+    # Si hay noticias de minas, hundimientos o la presión supera el umbral de conflicto (50)
     crit_trigger = any(re.search(rf"\b{k}(s|es)?\b", txt) for k in ["closed", "cerrado", "blockade", "bloqueo", "mine", "mina", "sunk", "hundido"])
-    if crit_trigger or pressure > 60:
-        flow = min(flow, 8.5) # Forzamos caída por debajo del umbral operativo
+    
+    if crit_trigger or pressure > 50:
+        flow = min(flow, 3.0)
 
     # Determinación del Summary
     if flow <= 10:
