@@ -24,21 +24,24 @@ RSS_FEEDS = [
 # ── FILTROS TÁCTICOS ───────────────────────────────────────
 TOP_PRIORITY = ["hormuz", "ormuz", "strait", "estrecho", "brent", "wti", "vix"]
 EXCLUSIONS = ["metanfetamina", "narcotráfico", "droga", "detenido", "fútbol", "laos"]
-KEYWORDS = ["oil", "tanker", "iran", "strike", "mine", "missile", "drone", "blockade", "sunk", "attack", "petróleo", "ormuz", "buque", "irán", "ataque", "mina", "misil", "bloqueo", "hundido"]
-CRITICAL_KEYWORDS = ["attack", "war", "closure", "blockade", "missile", "mine", "sunk", "ataque", "guerra", "cierre", "bloqueo", "misil", "mina", "hundido"]
-ALERT_KEYWORDS = ["disruption", "tension", "threat", "incident", "tensión", "amenaza", "incidente"]
+# Agregamos soporte para plurales en español (s/es)
+KEYWORDS = ["oil", "tanker", "iran", "strike", "mine", "missile", "drone", "blockade", "sunk", "attack", "petróleo", "buque", "irán", "ataque", "mina", "misil", "bloqueo", "hundido"]
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
 # ── FUNCIONES ──────────────────────────────────────────────
 def fetch_url(url: str):
-    req = Request(url, headers=HEADERS)
-    with urlopen(req, timeout=15) as r: return r.read()
+    try:
+        req = Request(url, headers=HEADERS)
+        with urlopen(req, timeout=15) as r: return r.read()
+    except: return None
 
 def fetch_yahoo(symbol: str):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=2d"
+    raw = fetch_url(url)
+    if not raw: return {"price": 0, "change": 0}
     try:
-        data = json.loads(fetch_url(url))
+        data = json.loads(raw)
         meta = data["chart"]["result"][0]["meta"]
         price = meta.get("regularMarketPrice", 0)
         prev = meta.get("previousClose", price)
@@ -46,28 +49,37 @@ def fetch_yahoo(symbol: str):
     except: return {"price": 0, "change": 0}
 
 def parse_rss(url: str):
+    raw = fetch_url(url)
+    if not raw: return []
     try:
-        root = ET.fromstring(fetch_url(url).decode("utf-8", errors="replace"))
+        root = ET.fromstring(raw.decode("utf-8", errors="replace"))
         return [{"title": i.findtext("title"), "desc": i.findtext("description"), "date": i.findtext("pubDate")} for i in root.iter("item")]
     except: return []
 
 def is_relevant(item: dict):
     txt = f"{item['title']} {item['desc']}".lower()
     if any(ex in txt for ex in EXCLUSIONS): return False
-    # El s? permite detectar 'mina' y 'minas'
-    return any(re.search(rf"\b{re.escape(k)}s?\b", txt) for k in KEYWORDS + TOP_PRIORITY)
+    # Regex flexible para plurales: mina/minas, ataque/ataques, bloqueo/bloqueos
+    return any(re.search(rf"\b{re.escape(k)}(s|es)?\b", txt) for k in KEYWORDS + TOP_PRIORITY)
 
 def infer_ormuz_status(events: list, brent_chg: float, vix: float) -> dict:
     txt = " ".join((e["headline"] + " " + e["detail"]).lower() for e in events)
+    # Pesos tácticos
     weights = {"closed":60, "cerrado":60, "blockade":60, "bloqueo":60, "mine":55, "mina":55, "sunk":50, "hundido":50, "attack":25, "ataque":25}
-    pressure = sum(weights[k] * min(len(re.findall(rf"\b{k}s?\b", txt)), 3) for k in weights if re.search(rf"\b{k}s?\b", txt))
-    pressure += (brent_chg * 4 if brent_chg > 0 else 0) + (max(0, vix-20) * 2.5)
+    pressure = 0
+    for k, w in weights.items():
+        count = len(re.findall(rf"\b{re.escape(k)}(s|es)?\b", txt))
+        if count > 0: pressure += (w * min(count, 3))
     
+    pressure += (brent_chg * 4 if brent_chg > 0 else 0) + (max(0, vix-20) * 2.5)
     flow = max(100 - pressure, 3)
-    is_closed = any(re.search(rf"\b{k}s?\b", txt) for k in ["closed", "cerrado", "blockade", "bloqueo", "mina", "mine"])
+    
+    # Confirmación de cierre si hay palabras clave críticas
+    is_closed = any(re.search(rf"\b{k}(s|es)?\b", txt) for k in ["closed", "cerrado", "blockade", "bloqueo", "mina", "mine"])
     if is_closed: flow = min(flow, 10)
 
-    return {"flow": round(flow, 1), "summary": f"CIERRE FACTICIO: Flujo al {flow}%" if flow < 15 else "OPERATIVO"}
+    summary = f"CIERRE FACTICIO: Flujo al {flow}%" if flow < 15 else ("DISRUPCIÓN SEVERA" if flow < 50 else "OPERATIVO")
+    return {"flow": round(flow, 1), "summary": summary, "disrupted": flow < 90}
 
 def build_intel():
     brent = fetch_yahoo(YAHOO_SYMBOLS["brent"])
@@ -82,18 +94,28 @@ def build_intel():
     events = []
     for i in relevant[:6]:
         txt = f"{i['title']} {i['desc']}".lower()
-        sev = "CRÍTICO" if any(re.search(rf"\b{k}s?\b", txt) for k in CRITICAL_KEYWORDS) else "INFO"
-        events.append({"headline": i['title'].upper()[:80], "detail": i['desc'][:200], "severity": sev, "timestamp": "RECUPERADO"})
+        # Clasificar severidad para el color en el panel lateral
+        sev = "CRÍTICO" if any(re.search(rf"\b{k}(s|es)?\b", txt) for k in ["attack", "mine", "sunk", "war", "ataque", "mina", "hundido"]) else "INFO"
+        events.append({
+            "headline": i['title'].upper()[:80], 
+            "detail": i['desc'][:200] if i['desc'] else "Sin detalles adicionales.", 
+            "severity": sev, 
+            "timestamp": "INTEL RECIENTE"
+        })
 
     ormuz = infer_ormuz_status(events, brent["change"], vix["price"])
+    
+    # Determinación del nivel de riesgo
+    risk_level = "CRÍTICO" if ormuz["flow"] < 15 else ("ALTO" if ormuz["disrupted"] else "MEDIO")
     
     return {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "market": {"brent_usd": brent["price"], "brent_chg": brent["change"]},
         "indicators": {
             "ormuz_flow_pct": ormuz["flow"],
-            "vix": vix["price"], # ESTO ARREGLA EL NaN
-            "insurance_spread_pct": round(0.8 + max(0, (vix["price"]-15)*0.2), 1)
+            "vix": vix["price"],
+            "risk_level": risk_level, # FIX: Agregamos esto para evitar el NAN
+            "insurance_spread_pct": round(0.8 + max(0, (vix["price"]-15)*0.3), 1)
         },
         "ormuz_status": {"summary": ormuz["summary"]},
         "events": events,
