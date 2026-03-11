@@ -1,7 +1,7 @@
 """
 update_intel.py
-Recopila datos de fuentes públicas gratuitas (Yahoo Finance + RSS) y escribe data/intel.json
-Versión Final: Filtros tácticos anti-ruido, análisis bilingüe y pánico financiero (VIX).
+Recopila datos de fuentes públicas (Yahoo Finance + RSS) y escribe data/intel.json.
+Versión Final: Filtros tácticos, análisis bilingüe y pánico financiero.
 """
 
 import json
@@ -12,7 +12,7 @@ from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 
-# ── 1. CONFIGURACIÓN ESTRUCTURAL ──────────────────────────
+# ── 1. CONFIGURACIÓN ──────────────────────────────────────
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "intel.json"
 
 YAHOO_SYMBOLS = {
@@ -25,7 +25,7 @@ RSS_FEEDS = [
     "https://feeds.reuters.com/reuters/businessNews",
     "https://feeds.bbci.co.uk/news/world/rss.xml",
     "https://www.eia.gov/rss/todayinenergy.xml",
-    "https://cnnespanol.cnn.com/feed/",
+    "https://cnnespanol.cnn.com/category/mundo/feed/", # Ruta más estable de CNN
     "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada",
     "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml",
     "https://www.aljazeera.com/xml/rss/all.xml",
@@ -34,30 +34,27 @@ RSS_FEEDS = [
     "https://rss.dw.com/rdf/rss-sp-top"
 ]
 
-# ── 2. FILTROS TÁCTICOS Y SEMÁNTICA ───────────────────────
+# ── 2. FILTROS TÁCTICOS ───────────────────────────────────
 
-# Keywords de alta prioridad (Garantizan relevancia)
 TOP_PRIORITY = ["hormuz", "ormuz", "strait", "estrecho", "brent", "wti", "vix", "suez", "bab el-mandeb"]
 
-# Muro de exclusión (Anti-ruido: evita casos como 'metanfetamina' triggereando 'mina')
 EXCLUSIONS = [
     "metanfetamina", "narcotráfico", "droga", "narcóticos", "detenido", "arrestado", 
     "fútbol", "farándula", "celebrity", "robó", "laos", "meth", "narcotraficante"
 ]
 
-# Keywords generales de monitoreo
 KEYWORDS = [
     "oil", "crude", "energy", "tanker", "iran", "strike", "mine", "missile", "drone", 
     "blockade", "closure", "red sea", "navy", "sunk", "attack", "petróleo", "crudo", 
     "energía", "buque", "irán", "ataque", "mina", "misil", "bloqueo", "mar rojo", "naval"
 ]
 
-# Definición de Severidad (ESTO FALTABA EN TU VERSIÓN)
 CRITICAL_KEYWORDS = [
     "attack", "strike", "war", "closure", "blockade", "explosion", "missile", 
     "mine", "minelaying", "sunk", "sink", "destroyed", "ataque", "guerra", "cierre", 
     "bloqueo", "explosión", "misil", "mina", "minado", "hundido"
 ]
+
 ALERT_KEYWORDS = [
     "disruption", "tension", "threat", "seized", "warning", "incident",
     "perturbación", "tensión", "amenaza", "incautado", "incidente"
@@ -65,7 +62,7 @@ ALERT_KEYWORDS = [
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (tablero-intel-bot/1.0)"}
 
-# ── 3. FUNCIONES DE APOYO (HELPERS) ───────────────────────
+# ── 3. HELPERS ───────────────────────────────────────────
 
 def fetch_url(url: str, timeout: int = 15) -> bytes:
     req = Request(url, headers=HEADERS)
@@ -104,14 +101,24 @@ def parse_rss(url: str) -> list[dict]:
         print(f"  ⚠ RSS {url}: {e}")
         return []
 
+def parse_date(pub_date: str) -> datetime:
+    """Parsea fechas de RSS con fallback a 'ahora'."""
+    formats = ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT", "%Y-%m-%dT%H:%M:%S%z"]
+    for fmt in formats:
+        try:
+            return datetime.strptime(pub_date.strip(), fmt).replace(tzinfo=timezone.utc)
+        except:
+            continue
+    return datetime.now(timezone.utc)
+
+def format_event_date(dt: datetime) -> str:
+    return dt.strftime("%d %b %Y · %H:%M UTC").upper()
+
 def is_relevant(item: dict) -> bool:
-    """Filtro de relevancia con protección por límites de palabra (\b)."""
     text = (item["title"] + " " + item["description"]).lower()
     if any(ex in text for ex in EXCLUSIONS): return False
-    # Check TOP_PRIORITY con límites de palabra
     for tp in TOP_PRIORITY:
         if re.search(rf"\b{re.escape(tp)}\b", text): return True
-    # Check KEYWORDS con límites de palabra
     for kw in KEYWORDS:
         if re.search(rf"\b{re.escape(kw)}\b", text): return True
     return False
@@ -122,13 +129,11 @@ def classify_severity(item: dict) -> str:
     if any(re.search(rf"\b{re.escape(kw)}\b", text) for kw in ALERT_KEYWORDS): return "ALERTA"
     return "INFO"
 
-# ── 4. LÓGICA DE INFERENCIA GEOPOLÍTICA ───────────────────
+# ── 4. INFERENCIA GEOPOLÍTICA ────────────────────────────
 
 def infer_ormuz_status(events: list, brent_change: float, vix_price: float) -> dict:
-    """Análisis dinámico de flujo basado en eventos tácticos y pánico de mercado."""
     text_all = " ".join((e["headline"] + " " + e["detail"]).lower() for e in events)
     
-    # Pesos por saturación (más fuentes mencionando lo mismo = más presión)
     weights = {
         "closed": 60, "cerrado": 60, "blockade": 60, "bloqueo": 60,
         "mine": 55, "mina": 55, "minelaying": 70, "minado": 70,
@@ -137,19 +142,16 @@ def infer_ormuz_status(events: list, brent_change: float, vix_price: float) -> d
 
     pressure = 0
     for kw, weight in weights.items():
-        # Buscamos la palabra exacta para evitar falsos positivos
         count = len(re.findall(rf"\b{re.escape(kw)}\b", text_all))
         if count > 0:
             pressure += (weight * min(count, 3))
 
-    # Factor Brent y VIX (Pánico financiero)
     if brent_change > 0: pressure += (brent_change * 4)
     if vix_price > 25: pressure += (vix_price - 20) * 2.5
 
     is_closed_news = any(re.search(rf"\b{kw}\b", text_all) for kw in ["closed", "cerrado", "blockade", "bloqueo", "mina", "mine"])
-    flow_pct = max(100 - pressure, 3) # Mínimo 3% de flujo residual
-    
-    if is_closed_news: flow_pct = min(flow_pct, 10) # Techo del 10% si hay minas/cierre confirmado
+    flow_pct = max(100 - pressure, 3)
+    if is_closed_news: flow_pct = min(flow_pct, 10)
 
     if flow_pct <= 10:
         summary = f"CIERRE FACTICIO: Tráfico paralizado por minado u hostilidades. Flujo: {flow_pct:.1f}%."
@@ -162,11 +164,10 @@ def infer_ormuz_status(events: list, brent_change: float, vix_price: float) -> d
 
     return {"open": flow_pct > 15, "disrupted": pressure > 20, "summary": summary, "flow_pct": round(flow_pct, 1)}
 
-# ── 5. MOTOR DE CONSTRUCCIÓN (BUILDER) ────────────────────
+# ── 5. MOTOR PRINCIPAL ───────────────────────────────────
 
 def build_intel() -> dict:
     now = datetime.now(timezone.utc)
-    print("  Fetching precios (Yahoo Finance)...")
     brent = fetch_yahoo_quote(YAHOO_SYMBOLS["brent"])
     wti = fetch_yahoo_quote(YAHOO_SYMBOLS["wti"])
     vix = fetch_yahoo_quote(YAHOO_SYMBOLS["vix"])
@@ -196,7 +197,6 @@ def build_intel() -> dict:
             "severity": sev,
         })
 
-    # Cálculo final
     ormuz = infer_ormuz_status(events, brent["change_pct"], vix["price"])
     vix_factor = max(0, (vix["price"] - 15) * 0.2)
     spread = round(0.8 + vix_factor + abs(brent["change_pct"]) * 0.3, 1)
@@ -204,7 +204,7 @@ def build_intel() -> dict:
     return {
         "updated_at": now.isoformat(),
         "market": {"brent_usd": brent["price"], "brent_change_pct": brent["change_pct"], "vix": vix["price"]},
-        "indicators": {"ormuz_flow_pct": ormuz["flow_pct"], "insurance_spread_pct": spread},
+        "indicators": {"ormuz_flow_pct": ormuz["flow_pct"], "insurance_spread_pct": spread, "risk_level": "ALTO" if ormuz["disrupted"] else "MEDIO"},
         "ormuz_status": ormuz,
         "events": events,
         "ticker_items": [f"BRENT: ${brent['price']} ({brent['change_pct']:+.2f}%)", f"VIX: {vix['price']}", f"ORMUZ: {ormuz['summary'].upper()[:70]}"] + [e["headline"][:80] for e in events[:4]],
