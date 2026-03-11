@@ -1,0 +1,32 @@
+name: Update Intel Feed
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # cada hora, en punto
+  workflow_dispatch:        # también ejecutable manualmente desde Actions
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # necesario para hacer push del intel.json
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run intel script
+        run: python scripts/update_intel.py
+
+      - name: Commit & push intel.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/intel.json
+          git diff --cached --quiet || git commit -m "chore: update intel feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
