@@ -1,74 +1,58 @@
 {
-  "updated_at": "2026-03-11T20:49:35.533415+00:00",
+  "updated_at": "2026-03-11T20:53:25.924557+00:00",
   "market": {
     "brent_usd": 89.92,
-    "brent_change_pct": 2.41,
-    "vix": 24.23
+    "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 90.4,
-    "insurance_spread_pct": 3.4,
+    "ormuz_flow_pct": 64.4,
     "vix": 24.23,
-    "risk_level": "MEDIO"
+    "insurance_spread_pct": 2.6
   },
   "ormuz_status": {
-    "open": true,
-    "disrupted": false,
-    "summary": "FLUJO NORMAL: Sin disrupciones sistémicas significativas.",
-    "flow_pct": 90.4
+    "summary": "OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "11 MAR 2026 · 20:49 UTC",
-      "headline": "EIA FORECASTS LOWER OIL PRICES IN 2026 AND 2027 DUE TO PERSISTENT STOCK BUILDS",
-      "detail": "We forecast that production of petroleum and other liquids will continue to exceed global demand, which results in Brent crude oil prices falling from an average of $69 per barrel (b) in 2025 to $58/b",
-      "severity": "INFO"
+      "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
+      "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "CRÍTICO",
+      "timestamp": "RECUPERADO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:49 UTC",
-      "headline": "U.S. NATURAL GAS PRODUCTION TO REACH RECORD HIGHS IN 2026 AND 2027",
-      "detail": "We forecast that U.S. natural gas marketed production will increase by 2% to average 120.8 billion cubic feet per day (Bcf/d) in 2026 and then further increase to a record-high 122.3 Bcf/d in 2027 in ",
-      "severity": "INFO"
+      "headline": "¿CÓMO TERMINA ESTO? CUATRO ESCENARIOS POSIBLES PARA EL FINAL DE LA GUERRA EN IRÁ",
+      "detail": "El conflicto abierto con Estados Unidos e Israel plantea distintos desenlaces posibles",
+      "severity": "CRÍTICO",
+      "timestamp": "RECUPERADO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:49 UTC",
-      "headline": "MARITIME EXPORTS OF PETROLEUM PRODUCTS INCREASED IN JANUARY 2026",
-      "detail": "U.S. exports of refined petroleum products carried on clean product tankers have increased steadily over the last year, with exports totaling 6.3 million barrels per day (b/d) in January 2026, about 1",
-      "severity": "INFO"
+      "headline": "WHY DOES IRAN WAR POSE MORE DILEMMAS FOR EUROPE?",
+      "detail": "Europe faces stiff competition with Asia for energy supplies as Russia profits.",
+      "severity": "CRÍTICO",
+      "timestamp": "RECUPERADO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:49 UTC",
-      "headline": "U.S. LNG DEVELOPERS SIGN HIGHEST VOLUME OF SALE AND PURCHASE CONTRACTS SINCE 202",
-      "detail": "U.S. developers signed sale and purchase agreements (SPA) for 40 million tons per annum of liquefied natural gas (LNG) in 2025 from planned export facilities, according to U.S. Department of Energy (D",
-      "severity": "INFO"
+      "headline": "ALERTA MÁXIMA: EL FBI REVELA EL PLAN DE IRÁN PARA ATACAR CALIFORNIA CON DRONES D",
+      "detail": "El FBI alertó sobre un presunto plan de Irán para atacar con drones desde barcos secretos, lo que encendió las alarmas en California. La información fue confirmada por ABC News",
+      "severity": "INFO",
+      "timestamp": "RECUPERADO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:49 UTC",
-      "headline": "U.S. EXPORTS OF MAJOR TRANSPORTATION FUELS IN 2025 WERE ABOUT THE SAME AS IN 202",
-      "detail": "In 2025, exports of major petroleum-based transportation fuels, including distillate fuel oil, motor gasoline, and jet fuel, averaged 2.4 million barrels per day (b/d), about the same as the previous ",
-      "severity": "INFO"
+      "headline": "UN’S FAILURE TO STOP IRANIAN ATTACKS SENDING ‘DANGEROUS SIGNAL’: QATAR",
+      "detail": "Qatar&#039;s envoy to UN condemns Iranian drone, missile strikes across the Gulf as &#039;clear violation of international law&#039;.",
+      "severity": "CRÍTICO",
+      "timestamp": "RECUPERADO"
     },
     {
-      "timestamp": "11 MAR 2026 · 20:49 UTC",
-      "headline": "ANNUAL U.S. CRUDE OIL EXPORTS DECREASE FOR FIRST TIME SINCE 2021",
-      "detail": "Annual U.S. crude oil exports in 2025 decreased 3% from 2024, the first annual decrease since 2021. Exports decreased to Europe and the Asia and Oceania region, the two top regional destinations for U",
-      "severity": "INFO"
+      "headline": "DÍA 12 DE LA GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN: TODO LO QUE HAY QUE SAB",
+      "detail": "El reporte de la jornada para entender la ofensiva militar, las represalias y el creciente temor a una expansión del enfrentamiento",
+      "severity": "CRÍTICO",
+      "timestamp": "RECUPERADO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.92 (+2.41%)",
+    "BRENT: $89.92",
     "VIX: 24.23",
-    "ORMUZ: FLUJO NORMAL: SIN DISRUPCIONES SISTÉMICAS SIGNIFICATIVAS.",
-    "EIA FORECASTS LOWER OIL PRICES IN 2026 AND 2027 DUE TO PERSISTENT STOCK BUILDS",
-    "U.S. NATURAL GAS PRODUCTION TO REACH RECORD HIGHS IN 2026 AND 2027",
-    "MARITIME EXPORTS OF PETROLEUM PRODUCTS INCREASED IN JANUARY 2026",
-    "U.S. LNG DEVELOPERS SIGN HIGHEST VOLUME OF SALE AND PURCHASE CONTRACTS SINCE 202"
-  ],
-  "dependency_bars": {
-    "china_pct": 34,
-    "india_pct": 22,
-    "japan_pct": 14,
-    "korea_pct": 10,
-    "other_pct": 20
-  }
+    "ORMUZ: OPERATIVO"
+  ]
 }
