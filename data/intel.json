@@ -1,59 +1,53 @@
 {
-  "updated_at": "2026-03-11T21:29:53.968132+00:00",
+  "updated_at": "2026-03-11T21:38:15.839304+00:00",
   "market": {
     "brent_usd": 90.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 57.3,
+    "ormuz_flow_pct": 3.0,
     "vix": 24.23,
-    "risk_level": "ALTO",
-    "insurance_spread_pct": 4.0
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 4.5
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
+      "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
+      "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
       "headline": "DÍA 12 DE LA GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN: TODO LO QUE HAY QUE SAB",
       "detail": "El reporte de la jornada para entender la ofensiva militar, las represalias y el creciente temor a una expansión del enfrentamiento",
-      "severity": "INFO",
-      "timestamp": "INTEL RECIENTE"
+      "severity": "INFO"
     },
     {
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
-      "severity": "INFO",
-      "timestamp": "INTEL RECIENTE"
+      "severity": "CRÍTICO"
     },
     {
       "headline": "GUERRA EN MEDIO ORIENTE: UN ANALISTA INTERNACIONAL EXPLICÓ POR QUÉ SE TRATA DE U",
       "detail": "Mookie Tenembaum analizó la escalada entre Irán, Israel y Estados Unidos; aseguró que “no hay estrategia iraní, hay tácticas iraníes”; además, explicó el rol de Rusia",
-      "severity": "INFO",
-      "timestamp": "INTEL RECIENTE"
+      "severity": "INFO"
     },
     {
       "headline": "POR QUÉ MEDIO ORIENTE ES UNA REGIÓN EN PERMANENTE CONFLICTO Y CUÁL ES EL ROL DE ",
       "detail": "El analista internacional Guido Feld visitó los estudios de LN+ y aseguró que “Irán es aliado de Rusia, pero Rusia está consumida por la guerra con Ucrania”; “Europa está tomando una postura defensiva",
-      "severity": "INFO",
-      "timestamp": "INTEL RECIENTE"
+      "severity": "INFO"
     },
     {
       "headline": "LA GUERRA DE IRÁN AGRAVA LA FRACTURA INTERNA EN LA UE TRAS LAS PALABRAS DE VON D",
       "detail": "La presidenta de la Comisión Europea fue fuertemente cuestionada dentro del bloque por sugerir que Europa debe resignar protagonismo en el nuevo escenario global ",
-      "severity": "INFO",
-      "timestamp": "INTEL RECIENTE"
-    },
-    {
-      "headline": "UN SECURITY COUNCIL ADOPTS GULF COUNTRIES’ DRAFT RESOLUTION",
-      "detail": "The UN Security Council has passed a resolution put forward by GCC members calling on Iran to halt attacks on the Gulf. ",
-      "severity": "CRÍTICO",
-      "timestamp": "INTEL RECIENTE"
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.26 (+0.00%)",
     "VIX: 24.23",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
