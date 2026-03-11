@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-11T21:38:15.839304+00:00",
+  "updated_at": "2026-03-11T22:24:08.610102+00:00",
   "market": {
-    "brent_usd": 90.26,
+    "brent_usd": 91.4,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,11 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
-    {
-      "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
-      "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "INFO"
-    },
     {
       "headline": "DÍA 12 DE LA GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN: TODO LO QUE HAY QUE SAB",
       "detail": "El reporte de la jornada para entender la ofensiva militar, las represalias y el creciente temor a una expansión del enfrentamiento",
@@ -40,13 +35,18 @@
       "severity": "INFO"
     },
     {
-      "headline": "LA GUERRA DE IRÁN AGRAVA LA FRACTURA INTERNA EN LA UE TRAS LAS PALABRAS DE VON D",
-      "detail": "La presidenta de la Comisión Europea fue fuertemente cuestionada dentro del bloque por sugerir que Europa debe resignar protagonismo en el nuevo escenario global ",
+      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “LA GUERRA EN MEDIO ORIENTE SE LIBRA EN ",
+      "detail": "En un intercambio con LN+, señaló que “las últimas horas fueron las más duras para Irán”; “Putin está saliendo favorecido”, manifestó",
+      "severity": "INFO"
+    },
+    {
+      "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
+      "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.26 (+0.00%)",
+    "BRENT: $91.4 (+0.00%)",
     "VIX: 24.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
