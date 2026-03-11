@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-03-11T20:53:25.924557+00:00",
+  "updated_at": "2026-03-11T20:58:45.775486+00:00",
   "market": {
-    "brent_usd": 89.92,
+    "brent_usd": 90.25,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 64.4,
     "vix": 24.23,
-    "insurance_spread_pct": 2.6
+    "risk_level": "ALTO",
+    "insurance_spread_pct": 3.6
   },
   "ormuz_status": {
     "summary": "OPERATIVO"
@@ -16,42 +17,42 @@
     {
       "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
       "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "CRÍTICO",
-      "timestamp": "RECUPERADO"
+      "severity": "INFO",
+      "timestamp": "INTEL RECIENTE"
     },
     {
       "headline": "¿CÓMO TERMINA ESTO? CUATRO ESCENARIOS POSIBLES PARA EL FINAL DE LA GUERRA EN IRÁ",
       "detail": "El conflicto abierto con Estados Unidos e Israel plantea distintos desenlaces posibles",
-      "severity": "CRÍTICO",
-      "timestamp": "RECUPERADO"
-    },
-    {
-      "headline": "WHY DOES IRAN WAR POSE MORE DILEMMAS FOR EUROPE?",
-      "detail": "Europe faces stiff competition with Asia for energy supplies as Russia profits.",
-      "severity": "CRÍTICO",
-      "timestamp": "RECUPERADO"
+      "severity": "INFO",
+      "timestamp": "INTEL RECIENTE"
     },
     {
       "headline": "ALERTA MÁXIMA: EL FBI REVELA EL PLAN DE IRÁN PARA ATACAR CALIFORNIA CON DRONES D",
       "detail": "El FBI alertó sobre un presunto plan de Irán para atacar con drones desde barcos secretos, lo que encendió las alarmas en California. La información fue confirmada por ABC News",
       "severity": "INFO",
-      "timestamp": "RECUPERADO"
+      "timestamp": "INTEL RECIENTE"
     },
     {
       "headline": "UN’S FAILURE TO STOP IRANIAN ATTACKS SENDING ‘DANGEROUS SIGNAL’: QATAR",
       "detail": "Qatar&#039;s envoy to UN condemns Iranian drone, missile strikes across the Gulf as &#039;clear violation of international law&#039;.",
       "severity": "CRÍTICO",
-      "timestamp": "RECUPERADO"
+      "timestamp": "INTEL RECIENTE"
     },
     {
       "headline": "DÍA 12 DE LA GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN: TODO LO QUE HAY QUE SAB",
       "detail": "El reporte de la jornada para entender la ofensiva militar, las represalias y el creciente temor a una expansión del enfrentamiento",
-      "severity": "CRÍTICO",
-      "timestamp": "RECUPERADO"
+      "severity": "INFO",
+      "timestamp": "INTEL RECIENTE"
+    },
+    {
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
+      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
+      "severity": "INFO",
+      "timestamp": "INTEL RECIENTE"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.92",
+    "BRENT: $90.25",
     "VIX: 24.23",
     "ORMUZ: OPERATIVO"
   ]
