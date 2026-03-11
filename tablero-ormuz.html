@@ -23,7 +23,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
 body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
   background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,0.72) 100%);}
 
-#app{display:grid;grid-template-columns:300px 1fr 290px;grid-template-rows:50px 1fr;height:100vh;width:100vw;}
+/* ── APP LAYOUT (overridden below with footer row) ── */
 
 /* ── HEADER ── */
 #header{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;
@@ -110,6 +110,30 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
   .litem { padding: 12px 6px; }
   .lens-btn { padding: 14px; font-size: 13px; }
 }
+
+/* Step buttons (scenario mode) */
+.step-btn{padding:5px 10px;background:transparent;border:1px solid var(--border);
+  color:var(--muted);font-family:'Bebas Neue',sans-serif;font-size:10px;letter-spacing:1.5px;
+  cursor:pointer;transition:all 0.15s;text-align:center;margin-bottom:2px;white-space:nowrap;}
+.step-btn:hover{border-color:var(--muted);color:var(--white);}
+.step-btn.active{border-color:#ff3333;color:#ff3333;background:rgba(255,51,51,0.07);box-shadow:inset 2px 0 0 #ff3333;}
+
+/* ── HEADER extras ── */
+.h-date{font-size:10px;color:var(--amber);letter-spacing:2px;}
+.h-status{display:flex;align-items:center;gap:7px;font-size:9px;letter-spacing:2px;color:var(--green);}
+.pulse{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:pr 1.8s ease-in-out infinite;flex-shrink:0;}
+@keyframes pr{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
+
+/* ── FOOTER ── */
+#footer{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;
+  padding:0 14px;background:#000;border-top:1px solid var(--border);
+  font-size:8px;color:var(--muted);letter-spacing:1.5px;height:28px;overflow:hidden;}
+.fticker{flex:1;overflow:hidden;white-space:nowrap;margin:0 12px;}
+.ftinner{display:inline-block;animation:tickscroll 60s linear infinite;}
+@keyframes tickscroll{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
+
+/* ── GRID with footer row ── */
+#app{display:grid;grid-template-columns:300px 1fr 290px;grid-template-rows:50px 1fr 28px;height:100vh;width:100vw;}
 </style>
 </head>
 <body>
@@ -119,8 +143,12 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
   <div class="h-title">TABLERO ESTRUCTURAL</div>
   <div class="h-center">
     <span class="h-sub">GOLFO PÉRSICO · CONVEMAR · COMERCIO INTERNACIONAL</span>
+    <span class="h-date" id="live-date">—</span>
   </div>
-  <div class="h-status">ENFOQUE ANALÍTICO ESTÁTICO</div>
+  <div class="h-status">
+    <div class="pulse"></div>
+    <span>ANÁLISIS ESTÁTICO — OSINT</span>
+  </div>
 </header>
 
 <aside id="panel-left">
@@ -151,33 +179,37 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
 <aside id="panel-right">
   
   <div class="psec">
-    <div class="stitle">Mercados en Tiempo Real (Dual Shock)</div>
-    <div class="tradingview-widget-container" style="margin-bottom:8px; border:1px solid rgba(255,255,255,0.06); background:rgba(0,0,0,0.2);">
-      <div class="tradingview-widget-container__widget"></div>
-      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
-      {
-      "symbols": [
+    <div class="stitle">Mercados en Tiempo Real</div>
+
+    <!-- Brent Mini Chart -->
+    <div style="margin-bottom:6px;">
+      <div style="font-size:8px;letter-spacing:2px;color:var(--muted);margin-bottom:3px;">▸ BRENT CRUDE · TVC:UKOIL</div>
+      <div class="tradingview-widget-container" style="height:130px;overflow:hidden;border:1px solid var(--border);background:#000;">
+        <div class="tradingview-widget-container__widget" style="height:130px;"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
         {
-          "proName": "TVC:UKOIL",
-          "title": "Crudo Brent"
-        },
-        {
-          "proName": "TVC:NATGAS",
-          "title": "Gas Natural"
+          "symbol": "TVC:UKOIL",
+          "width": "100%",
+          "height": 130,
+          "locale": "es",
+          "dateRange": "1D",
+          "colorTheme": "dark",
+          "isTransparent": true,
+          "autosize": true,
+          "largeChartUrl": "",
+          "noTimeScale": false,
+          "chartOnly": false
         }
-      ],
-      "colorTheme": "dark",
-      "isTransparent": true,
-      "showSymbolLogo": false,
-      "locale": "es"
-    }
-      </script>
+        </script>
+      </div>
     </div>
+
+    <!-- Stats Grid -->
     <div class="sgrid">
       <div class="sbox"><div class="sval" style="color:var(--amber)">21M</div><div class="slbl">bbl/día Ormuz</div></div>
-      <div class="sbox"><div class="sval" style="color:var(--red)">106:1</div><div class="slbl">RATIO MISIL/DRON</div></div>
-      <div class="sbox"><div class="sval" style="color:var(--blue)">$1B</div><div class="slbl">BURN RATE DIARIO (US)</div></div>
-      <div class="sbox"><div class="sval" style="color:var(--white)">VETADO</div><div class="slbl">ESTATUS ONU (CSNU)</div></div>
+      <div class="sbox"><div class="sval" style="color:var(--red)">106:1</div><div class="slbl">ratio misil/dron</div></div>
+      <div class="sbox"><div class="sval" style="color:var(--blue)">$1B</div><div class="slbl">burn rate / día</div></div>
+      <div class="sbox"><div class="sval" style="color:var(--muted)">VETADO</div><div class="slbl">CSNU (status)</div></div>
     </div>
   </div>
 
@@ -189,6 +221,13 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
 </aside>
 
 </div>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <span style="color:var(--green-dim);letter-spacing:3px;white-space:nowrap">ANÁLISIS ESTRATÉGICO</span>
+  <div class="fticker"><span class="ftinner" id="ticker-text"></span></div>
+  <span style="white-space:nowrap">EIA · OSINT · ANÁLISIS PROPIO</span>
+</footer>
 
 <script>
 // ═══════════════════════════════════════════════
@@ -348,6 +387,65 @@ const LAYERS = [
   { id:'flashpoints', label:'Puntos de Fricción Geopolítica', color:'#ff0055', active:false, items:[
       L.polyline([[38.9, 46.2], [39.0, 46.4], [39.1, 46.5]], {color:'#ff0055', weight:4, dashArray:'6 6'})
        .bindPopup("<b>Corredor de Zangezur (Syunik, Armenia)</b><br>Estatus: <b>Bajo mandato del FSB Ruso (Tratado 2020)</b>.<br>Fricción directa entre Turquía (que exige apertura extraterritorial) e Irán (que traza una línea roja militar para no perder su frontera armenia).")
+  ]},
+
+  // ── ESCENARIO NATANZ ──
+  { id:'natanz_strike', label:'Escenario: Vector de Ataque IAF', color:'#ffdd44', active:false, items:[
+      // Vector F-35I Nevatim → Natanz (via Iraq)
+      L.polyline([[31.15,35.39],[30.5,38],[30,42],[29.5,46],[29,50],[33.724,51.725]],
+        {color:'#ffdd44', weight:2, dashArray:'6 3', opacity:0.85})
+        .bindPopup("<b>Vector de Ataque F-35I — IAF</b><br>Ruta estimada: Nevatim → espacio aéreo iraquí (autorización tácita) → Natanz.<br>~1.600 km. Requiere reabastecimiento en vuelo (KC-135 israelíes)."),
+      // Radio de combate F-35I desde Nevatim (~1.100km)
+      L.circle([31.15,35.39], {radius:1100000, color:'#ffdd44', weight:1, dashArray:'4 4', fill:false, opacity:0.25})
+        .bindPopup("<b>Radio de combate F-35I Adir (~1.100 km)</b><br>Natanz queda dentro del alcance con reabastecimiento."),
+      // Base Nevatim resaltada
+      L.marker([31.15,35.39], {icon: makeDiamondIcon('#ffdd44')})
+        .bindPopup("<b>Base Aérea Nevatim (Israel)</b><br>Sede del escuadrón F-35I 'Adir'.<br>Plataforma principal para proyección de largo alcance."),
+      // Carrier USS Abraham Lincoln
+      L.marker([23.5,60.0], {icon: makeDiamondIcon('#4488ff')})
+        .bindPopup("<b>USS Abraham Lincoln CSG</b><br>Posición estimada: Mar de Arabia (OSINT).<br>Capacidad de llegar a Ormuz en &lt;24h.<br>Escolta: 2×CG, 2×DDG, 1×SSN."),
+      // B-2 desde Whiteman AFB (Missouri) — vuelo sin escala
+      L.polyline([[38.7,-93.5],[42,-60],[45,-30],[38,0],[33,20],[30,40],[27.2,56.3]],
+        {color:'#ff6666', weight:1.5, dashArray:'8 4', opacity:0.5})
+        .bindPopup("<b>Vector estratégico: B-2A Spirit desde Whiteman AFB (Missouri)</b><br>Vuelo sin escala. Reabastecido sobre el Atlántico. Carga: GBU-57 MOP (13.600 kg).<br>RU negó Diego García y RAF Fairford para operaciones ofensivas.")
+  ]},
+
+  { id:'iran_response', label:'Escenario: Respuesta Balística Iraní', color:'#ff3333', active:false, items:[
+      // Alcance misil balístico iraní ~2.000km desde Natanz
+      L.circle([33.724,51.725], {radius:2000000, color:'#ff3333', weight:1, dashArray:'4 3', fill:false, opacity:0.3})
+        .bindPopup("<b>Alcance misil balístico iraní (~2.000 km)</b><br>Cubre: Israel, Arabia Saudita, EAU, bases US en la región.<br>Arsenales: Shahab-3, Emad, Ghadr-110."),
+      // Track misil → Nevatim
+      L.polyline([[33.724,51.725],[32,48],[31,44],[31.15,35.39]],
+        {color:'#ff4444', weight:1.5, dashArray:'3 3', opacity:0.75})
+        .bindPopup("<b>Trayectoria estimada: Shahab-3 → Nevatim (Israel)</b><br>Tiempo de vuelo: ~12 minutos. Interceptable con Arrow-3/David's Sling."),
+      // Track misil → Prince Sultan (Arabia Saudita)
+      L.polyline([[33.724,51.725],[31,50],[28,49],[25,48],[24.05,47.58]],
+        {color:'#ff4444', weight:1.5, dashArray:'3 3', opacity:0.75})
+        .bindPopup("<b>Trayectoria estimada: Emad → Prince Sultan AB (Arabia Saudita)</b><br>Base USAF activa. Objetivo de alto valor estratégico."),
+      // Track misil → Al Udeid (Qatar)
+      L.polyline([[33.724,51.725],[31,52],[28,52],[25.117,51.315]],
+        {color:'#ff4444', weight:1.5, dashArray:'3 3', opacity:0.75})
+        .bindPopup("<b>Trayectoria estimada: Misil balístico → Al Udeid AB (Qatar)</b><br>HQ CENTCOM. Blanco de máxima prioridad en doctrina IRGC."),
+      // Natanz resaltado como origen
+      L.circle([33.724,51.725], {radius:40000, color:'#ff3333', weight:2, fillColor:'#ff3333', fillOpacity:0.15, opacity:0.9})
+        .bindPopup("<b>Natanz — Origen del vector de respuesta</b><br>Complejo de enriquecimiento subterráneo. Blanco del ataque israelí.")
+  ]},
+
+  { id:'ormuz_scenario', label:'Escenario: Cierre de Ormuz', color:'#ff6600', active:false, items:[
+      // Zona de peligro Ormuz
+      L.circle([26.566,56.25], {radius:80000, color:'#ff4400', weight:2, fillColor:'#ff4400', fillOpacity:0.12, opacity:0.8})
+        .bindPopup("<b>Zona de Peligro — Estrecho de Ormuz</b><br>Radio de acción IRGC desde Bandar Abbas.<br>Capacidad: minado, misiles antibuque, lanchas suicidas."),
+      // Zona de espera flotilla bloqueada (Golfo de Omán)
+      L.circle([23.5,58.5], {radius:150000, color:'#888800', weight:1, dashArray:'5 3', fillColor:'#888800', fillOpacity:0.07, opacity:0.5})
+        .bindPopup("<b>Zona de Espera — Flotilla Bloqueada</b><br>Área estimada de acumulación de buques tanque ante cierre de Ormuz.<br>Hasta 300+ buques en espera durante la crisis del Ever Given (2021)."),
+      // Ruta alternativa: East-West Pipeline (ya existe en bypass, aquí la contextualizamos)
+      L.polyline([[26.0,49.6],[24.5,45.0],[24.0,38.0]],
+        {color:'#ff9900', weight:2.5, dashArray:'5 5', opacity:0.7})
+        .bindPopup("<b>East-West Pipeline — Única alternativa terrestre</b><br>Capacidad: ~5 Mb/d vs. ~21 Mb/d de Ormuz.<br>Cubre solo el 24% del flujo normal. Insuficiente ante un bloqueo total."),
+      // Ruta Cabo de Buena Esperanza
+      L.polyline([[26.5,56.2],[15,55],[0,44],[-15,35],[-34.5,18],[-34.5,-15]],
+        {color:'#888844', weight:1.5, dashArray:'6 4', opacity:0.5})
+        .bindPopup("<b>Ruta alternativa: Cabo de Buena Esperanza</b><br>+14 días de viaje. +$1.2M en costos por buque.<br>Capacidad insuficiente para absorber el volumen de Ormuz.")
   ]}
 ];
 
@@ -417,8 +515,31 @@ const LENSES = [
   },
   {
     title: 'Shock Dual: Agro y Shale',
-    targetLayer: null, 
+    targetLayer: null,
     content: `<strong>Impacto en Mercados Periféricos:</strong><br><br>Para economías periféricas, una crisis en el Golfo produce un <i>shock contradictorio</i>.<br><br>Por un lado, destruye la balanza comercial agrícola al disparar el costo de la <strong>Urea y fertilizantes nitrogenados</strong> (derivados del gas). Por otro lado, un crudo sostenido atrae inversiones masivas hacia cuencas locales de <strong>Shale Oil/Gas</strong> y offshore, buscando seguridad energética lejos de Medio Oriente.`
+  },
+  {
+    title: '🔴 28-Feb: Op. Epic Fury / Roaring Lion',
+    scenarioMode: true,
+    // Capas que se activan exclusivamente (apaga todo lo demás)
+    exclusiveLayers: ['nuclear_iran','bases_us','natanz_strike','iran_response','ormuz_scenario'],
+    steps: [
+      {
+        label: 'H+0',
+        activeLayers: ['nuclear_iran','bases_us','natanz_strike'],
+        content: `<div style="font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:2px;color:#ff6666;margin-bottom:6px">H+0 — 28 FEB · MADRUGADA · "EPIC FURY"</div>Ataque coordinado sorpresa EEUU-Israel. <strong>~200 F-35I Adir</strong> desde Nevatim y Ramon, escoltados por KC-46 Pegasus despegados de Ben Gurión. F-22 Raptor (Langley) abren el corredor suprimiendo defensas iraníes.<br><br>Primer objetivo: residencia de Khamenei en Teherán. El Líder Supremo muere en el ataque junto a su esposa y nieta de 14 meses. Natanz alcanzado. Más de <strong>900 impactos en 24 provincias</strong> en las primeras horas.`
+      },
+      {
+        label: 'H+6',
+        activeLayers: ['nuclear_iran','bases_us','natanz_strike'],
+        content: `<div style="font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:2px;color:#ff6666;margin-bottom:6px">H+6 — B-2 SPIRIT ENTRAN AL TEATRO</div><strong>4 B-2A Spirit</strong> desde Base Whiteman (Missouri) — sin escala intermedia, reabastecidos sobre el Atlántico — lanzan GBU-57 MOP (13.600 kg) sobre Fordow e Isfahán. USS Abraham Lincoln y USS Gerald R. Ford aportan F/A-18 y Tomahawk desde el Golfo de Omán.<br><br>Imágenes satelitales de <i>Vantor</i> confirman daños en accesos subterráneos de Natanz. OIEA descarta fuga radiológica. Irán declara "acto de guerra".`
+      },
+      {
+        label: 'H+24',
+        activeLayers: ['nuclear_iran','bases_us','natanz_strike','iran_response','ormuz_scenario'],
+        content: `<div style="font-family:'Bebas Nye',sans-serif;font-size:11px;letter-spacing:2px;color:#ff6666;margin-bottom:6px">H+24 — "PROMESA VERDADERA 4"</div>Irán lanza <strong>+500 misiles balísticos y +2.000 drones</strong> contra Israel y bases en Kuwait, Bahréin, Qatar, EAU, Jordania, Arabia Saudita e Iraq. 6 soldados EEUU muertos en Kuwait. Refinería Aramco <strong>Ras Tanura</strong> atacada con drones.<br><br>Bandar Abbas bombardeado, flota IRGC destruida parcialmente. Ormuz: tráfico severamente perturbado, seguros suspendidos. WTI sube a <strong>~$81/bbl</strong>. Qatar Energy cesa producción de GNL.`
+      }
+    ]
   }
 ];
 
@@ -428,36 +549,115 @@ const lensContent = document.getElementById('lens-content');
 LENSES.forEach((lens, idx) => {
   const btn = document.createElement('button');
   btn.className = 'lens-btn';
+  if(lens.scenarioMode) {
+    btn.style.borderColor = 'rgba(255,51,51,0.4)';
+    btn.style.color = '#ff6666';
+  }
   btn.innerHTML = `▸ ${lens.title}`;
   btn.addEventListener('click', () => activateLens(idx));
   lensBtnsContainer.appendChild(btn);
 });
 
+function setLayerState(layerId, on) {
+  const idx = LAYERS.findIndex(l => l.id === layerId);
+  if(idx === -1) return;
+  const toggles = document.querySelectorAll('.ltog');
+  const listItems = document.querySelectorAll('.litem');
+  const isOn = toggles[idx] && toggles[idx].classList.contains('on');
+  if(on && !isOn)  listItems[idx].click();
+  if(!on && isOn)  listItems[idx].click();
+}
+
+function applyScenarioStep(lens, stepIdx) {
+  // Update step button states
+  const stepBtns = document.querySelectorAll('.step-btn');
+  stepBtns.forEach((b,i) => b.classList.toggle('active', i === stepIdx));
+
+  const step = lens.steps[stepIdx];
+
+  // Solo encender las capas de este paso (nunca apagar otras)
+  step.activeLayers.forEach(lid => setLayerState(lid, true));
+
+  // Update content area (preserve step buttons, replace only the text below)
+  const titles = {'H+0':'PRE-ATAQUE','H+6':'ATAQUE IAF','H+24':'RESPUESTA + ORMUZ'};
+  document.getElementById('lens-step-content').innerHTML =
+    `<div style="font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:2px;color:#ff6666;margin-bottom:6px">${step.label} — ${titles[step.label]||''}</div>` + step.content;
+
+  // Fly map to theater
+  map.flyTo([30, 48], 5, {duration: 1.2});
+}
+
 function activateLens(idx) {
-  // Resetear estilos
+  // Reset button styles
   Array.from(lensBtnsContainer.children).forEach((btn, i) => {
     btn.classList.toggle('active', i === idx);
   });
-  
-  // Mostrar texto
-  lensContent.innerHTML = LENSES[idx].content;
 
-  // Encender capa
-  const targetId = LENSES[idx].targetLayer;
-  if(targetId) {
-    const layerIndex = LAYERS.findIndex(l => l.id === targetId);
-    if(layerIndex !== -1) {
-      const toggles = document.querySelectorAll('.ltog');
-      const listItems = document.querySelectorAll('.litem');
-      if(toggles[layerIndex] && !toggles[layerIndex].classList.contains('on')){
-        listItems[layerIndex].click();
+  const lens = LENSES[idx];
+
+  if(lens.scenarioMode) {
+    // ── SCENARIO MODE ──
+    // 2. Build step buttons + content container
+    const stepBtnsHtml = lens.steps.map((s, i) =>
+      `<button class="step-btn${i===0?' active':''}" onclick="applyScenarioStep(LENSES[${idx}],${i})">${s.label}</button>`
+    ).join('');
+
+    lensContent.innerHTML = `
+      <div style="margin-bottom:8px;display:flex;flex-direction:row;flex-wrap:wrap;gap:4px" id="step-btn-wrap">
+        ${stepBtnsHtml}
+      </div>
+      <div id="lens-step-content" style="font-size:10.5px;line-height:1.6;color:var(--white);
+        padding:8px;border-left:1px solid var(--border);margin-top:4px"></div>`;
+
+    // 3. Apply first step
+    applyScenarioStep(lens, 0);
+
+  } else {
+    // ── STANDARD MODE ──
+    lensContent.innerHTML = lens.content;
+
+    const targetId = lens.targetLayer;
+    if(targetId) {
+      const layerIndex = LAYERS.findIndex(l => l.id === targetId);
+      if(layerIndex !== -1) {
+        const toggles = document.querySelectorAll('.ltog');
+        const listItems = document.querySelectorAll('.litem');
+        if(toggles[layerIndex] && !toggles[layerIndex].classList.contains('on')){
+          listItems[layerIndex].click();
+        }
       }
     }
   }
 }
 
-// Iniciar con el primer lente
+// ═══════════════════════════════════════════════
+//  INIT + TICKER + RELOJ UTC
+// ═══════════════════════════════════════════════
 activateLens(0);
+
+const TICKER_ITEMS = [
+  'OP. EPIC FURY (EEUU) + ROARING LION (ISRAEL) — 28 FEB 2026',
+  'KHAMENEI CONFIRMADO MUERTO — TRIUNVIRATO PROVISIONAL EN TEHERÁN',
+  'NATANZ ALCANZADO — OIEA DESCARTA FUGA RADIOLÓGICA',
+  'IRÁN: +500 MISILES + 2.000 DRONES — "PROMESA VERDADERA 4"',
+  'RAS TANURA (ARAMCO) ATACADA — PRODUCCIÓN SAUDÍ COMPROMETIDA',
+  'QATAR ENERGY CESA PRODUCCIÓN GNL — IMPACTO GLOBAL',
+  '6 SOLDADOS EEUU MUERTOS EN KUWAIT · 3 AVIONES DERRIBADOS',
+  'USS ABRAHAM LINCOLN + USS GERALD R. FORD — DOS CSG EN TEATRO',
+  'B-2A SPIRIT DESDE WHITEMAN AFB — GBU-57 MOP SOBRE FORDOW',
+  'WTI ~$81/BBL · SEGUROS MARÍTIMOS SUSPENDIDOS EN GOLFO',
+  'ORMUZ: TRÁFICO SEVERAMENTE PERTURBADO — SIN CIERRE FORMAL',
+  'UK AUTORIZA DIEGO GARCÍA Y FAIRFORD PARA APOYO DEFENSIVO',
+];
+document.getElementById('ticker-text').textContent = TICKER_ITEMS.join('   ◆   ');
+
+function tickClock(){
+  const el = document.getElementById('live-date');
+  if(el) el.textContent = new Date().toUTCString().toUpperCase().replace('GMT','UTC');
+}
+tickClock();
+setInterval(tickClock, 1000);
+
 </script>
 </body>
 </html>
