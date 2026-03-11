@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-11T22:24:08.610102+00:00",
+  "updated_at": "2026-03-11T23:22:24.660447+00:00",
   "market": {
-    "brent_usd": 91.4,
+    "brent_usd": 93.31,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,26 @@
   },
   "events": [
     {
+      "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
+      "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
+      "headline": "OIL TANKERS ABLAZE AS TRUMP VOWS TO ‘FINISH THE JOB’ IN IRAN: LIVE UPDATES, VIDE",
+      "detail": "\n            <img alt=\"Preview\" align=\"left\" style=\"margin-right: 10px;\" src=\"https://mf.b37mrtl.ru/files/2026.03/thumbnail/69b1ef35203027646e269a67.png\" /> Several oil tankers along with a major port",
+      "severity": "INFO"
+    },
+    {
+      "headline": "TRUMP: ‘I DON’T KNOW’ ABOUT REPORT US AT FAULT IN SCHOOL STRIKE",
+      "detail": "Donald Trump denied knowledge of a military investigation finding the US responsible for the Minab girls&#039; school strike.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "headline": "IRAN-LINKED HACKERS HIT MEDICAL GIANT STRYKER IN RETALIATORY CYBERATTACK",
+      "detail": "Group claims to have seized 50 terabytes of data in response to deadly US-Israeli strikes on Iranian school.   ",
+      "severity": "CRÍTICO"
+    },
+    {
       "headline": "DÍA 12 DE LA GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN: TODO LO QUE HAY QUE SAB",
       "detail": "El reporte de la jornada para entender la ofensiva militar, las represalias y el creciente temor a una expansión del enfrentamiento",
       "severity": "INFO"
@@ -23,30 +43,10 @@
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
       "severity": "CRÍTICO"
-    },
-    {
-      "headline": "GUERRA EN MEDIO ORIENTE: UN ANALISTA INTERNACIONAL EXPLICÓ POR QUÉ SE TRATA DE U",
-      "detail": "Mookie Tenembaum analizó la escalada entre Irán, Israel y Estados Unidos; aseguró que “no hay estrategia iraní, hay tácticas iraníes”; además, explicó el rol de Rusia",
-      "severity": "INFO"
-    },
-    {
-      "headline": "POR QUÉ MEDIO ORIENTE ES UNA REGIÓN EN PERMANENTE CONFLICTO Y CUÁL ES EL ROL DE ",
-      "detail": "El analista internacional Guido Feld visitó los estudios de LN+ y aseguró que “Irán es aliado de Rusia, pero Rusia está consumida por la guerra con Ucrania”; “Europa está tomando una postura defensiva",
-      "severity": "INFO"
-    },
-    {
-      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “LA GUERRA EN MEDIO ORIENTE SE LIBRA EN ",
-      "detail": "En un intercambio con LN+, señaló que “las últimas horas fueron las más duras para Irán”; “Putin está saliendo favorecido”, manifestó",
-      "severity": "INFO"
-    },
-    {
-      "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
-      "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.4 (+0.00%)",
+    "BRENT: $93.31 (+0.00%)",
     "VIX: 24.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
