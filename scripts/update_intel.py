@@ -70,46 +70,41 @@ def is_relevant(item: dict):
 # ── 3. LÓGICA DE INTELIGENCIA ────────────────────────────
 
 def infer_ormuz_status(events: list, brent_chg: float, vix: float) -> dict:
+    """Análisis táctico con lookback extendido y sensibilidad de saturación."""
+    # Consolidamos texto de un pool mayor de noticias para evitar 'olvidos'
     txt = " ".join((e["headline"] + " " + e["detail"]).lower() for e in events)
     
-    # Pesos por tipo de noticia (Ponderación táctica)
     weights = {
         "closed": 60, "cerrado": 60, "blockade": 60, "bloqueo": 60,
         "mine": 55, "mina": 55, "sunk": 50, "hundido": 50, 
-        "attack": 30, "ataque": 30, "missile": 25, "misil": 25
+        "attack": 35, "ataque": 35, "missile": 30, "misil": 30,
+        "buque": 15, "tanker": 15, "explos": 25 # Captura explosión/explosion
     }
     
     pressure = 0
     for k, w in weights.items():
-        # Contamos cuántas veces aparece cada término (saturación informativa)
-        matches = len(re.findall(rf"\b{re.escape(k)}(s|es)?\b", txt))
+        # Buscamos variantes y plurales de forma más agresiva
+        matches = len(re.findall(rf"{re.escape(k)}", txt))
         if matches > 0:
-            pressure += (w * min(matches, 3)) # Máximo 3 noticias por tipo para evitar sesgo
+            pressure += (w * min(matches, 4)) # Permitimos más acumulación
     
-    # Sumamos pánico financiero (Brent y VIX)
     pressure += (brent_chg * 5 if brent_chg > 0 else 0)
-    pressure += (max(0, vix - 20) * 3)
+    pressure += (max(0, vix - 18) * 3) # Bajamos el piso del VIX para detectar miedo antes
 
-# CÁLCULO DE FLUJO (Mínimo residual 3%)
+    # CÁLCULO DE FLUJO
     flow = max(100 - pressure, 3)
     
-    # CIERRE DE FACTO: Ajuste de sensibilidad extrema
-    # Si hay noticias de minas, hundimientos o la presión supera el umbral de conflicto (50)
-    crit_trigger = any(re.search(rf"\b{k}(s|es)?\b", txt) for k in ["closed", "cerrado", "blockade", "bloqueo", "mine", "mina", "sunk", "hundido"])
+    # TRIGGER CRÍTICO: Si hay mención de minas o hundimientos, O la presión es > 40
+    # el flujo colapsa al mínimo residual inmediatamente.
+    crit_terms = ["mine", "mina", "sunk", "hundido", "blockade", "bloqueo", "cerrado"]
+    is_crit = any(re.search(rf"\b{k}", txt) for k in crit_terms)
     
-    if crit_trigger or pressure > 50:
-        flow = min(flow, 3.0)
+    if is_crit or pressure > 40:
+        flow = 3.0 # El 'cero absoluto' operativo
 
-    # Determinación del Summary
-    if flow <= 10:
-        summary = f"CIERRE FACTICIO: Flujo al {flow:.1f}%."
-    elif flow < 50:
-        summary = f"DISRUPCIÓN SEVERA: Flujo al {flow:.1f}%."
-    else:
-        summary = "ESTRECHO OPERATIVO"
-
-    return {"flow": round(flow, 1), "summary": summary, "pressure": pressure}
-
+    summary = f"CIERRE FACTICIO: Flujo al {flow}%" if flow < 10 else ("DISRUPCIÓN SEVERA" if flow < 50 else "OPERATIVO")
+    return {"flow": flow, "summary": summary, "pressure": pressure}
+    
 # ── 4. CONSTRUCCIÓN DEL JSON ─────────────────────────────
 
 def build_intel():
@@ -122,21 +117,22 @@ def build_intel():
     relevant = [i for i in raw_items if is_relevant(i)]
     relevant.sort(key=lambda x: x['date'] or '', reverse=True)
     
-    events = []
-    for i in relevant[:6]:
+    # ANALIZAMOS LAS TOP 20 PARA EL CÁLCULO (aunque mostremos 6)
+    pool_for_calculation = []
+    for i in relevant[:20]:
         txt = f"{i['title']} {i['desc']}".lower()
-        sev = "CRÍTICO" if any(re.search(rf"\b{k}(s|es)?\b", txt) for k in ["attack", "mine", "sunk", "war", "ataque", "mina", "hundido"]) else "INFO"
-        events.append({
+        sev = "CRÍTICO" if any(re.search(rf"{k}", txt) for k in ["attack", "mine", "sunk", "ataque", "mina", "hundido"]) else "INFO"
+        pool_for_calculation.append({
             "headline": i['title'].upper()[:80],
-            "detail": i['desc'][:200] if i['desc'] else "Sin detalles.",
-            "severity": sev,
-            "timestamp": "INTEL RECIENTE"
+            "detail": i['desc'][:200] if i['desc'] else "",
+            "severity": sev
         })
 
-    ormuz = infer_ormuz_status(events, brent["change"], vix["price"])
+    # Calculamos el status con el pool de 20 noticias
+    ormuz = infer_ormuz_status(pool_for_calculation, brent["change"], vix["price"])
     
-    # Nivel de Riesgo (FIX para el NAN)
-    risk_level = "CRÍTICO" if ormuz["flow"] < 15 else ("ALTO" if ormuz["pressure"] > 30 else "MEDIO")
+    # Nivel de Riesgo
+    risk_level = "CRÍTICO" if ormuz["flow"] < 10 else ("ALTO" if ormuz["pressure"] > 25 else "MEDIO")
     
     return {
         "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -144,11 +140,11 @@ def build_intel():
         "indicators": {
             "ormuz_flow_pct": ormuz["flow"],
             "vix": vix["price"],
-            "risk_level": risk_level, # Esto arregla el NAN en el tablero
-            "insurance_spread_pct": round(0.8 + max(0, (vix["price"]-15)*0.35), 1)
+            "risk_level": risk_level,
+            "insurance_spread_pct": round(0.8 + max(0, (vix["price"]-15)*0.4), 1)
         },
         "ormuz_status": {"summary": ormuz["summary"]},
-        "events": events,
+        "events": pool_for_calculation[:6], # Solo mostramos las 6 más frescas
         "ticker_items": [f"BRENT: ${brent['price']} ({brent['change']:+.2f}%)", f"VIX: {vix['price']}", f"ORMUZ: {ormuz['summary']}"]
     }
 
