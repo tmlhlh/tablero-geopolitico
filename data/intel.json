@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-03-11T19:41:13.444257+00:00",
+  "updated_at": "2026-03-11T19:57:12.219812+00:00",
   "market": {
     "brent_usd": 89.76,
-    "wti_usd": 87.67,
+    "wti_usd": 87.86,
     "brent_change_pct": 2.23,
-    "wti_change_pct": 5.06
+    "wti_change_pct": 5.28
   },
   "indicators": {
-    "ormuz_flow_pct": 100,
+    "ormuz_flow_pct": 93.3,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.5,
-    "vix": 24.92
+    "vix": 24.56
   },
   "ormuz_status": {
     "open": true,
     "disrupted": false,
-    "summary": "Estrecho de Ormuz operativo. Flujo normal de tráfico marítimo."
+    "summary": "TENSIÓN OPERATIVA: Fricción logística detectada. Flujo: 93.3%."
   },
   "events": [
     {
-      "timestamp": "11 MAR 2026 · 19:41 UTC",
+      "timestamp": "11 MAR 2026 · 19:57 UTC",
       "headline": "U.S. WHOLESALE DAY-AHEAD ELECTRICITY PRICES ROSE IN 2025 WITH HIGHER NATURAL GAS",
       "detail": "Average wholesale day-ahead electricity prices at most major trading hubs in the Lower 48 states were higher in 2025 than in 2024, driven largely by higher natural gas prices to electric generators. T",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 19:41 UTC",
+      "timestamp": "11 MAR 2026 · 19:57 UTC",
       "headline": "RECORD NATURAL GAS STOCK WITHDRAWALS DURING WEEK ENDING JANUARY 30, 2026",
       "detail": "Working natural gas stocks fell 360 billion cubic feet (Bcf) in the Lower 48 states for the week ending January 30, 2026, amid Winter Storm Fern-the largest weekly net withdrawal reported in the histo",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 19:41 UTC",
+      "timestamp": "11 MAR 2026 · 19:57 UTC",
       "headline": "EIA FORECASTS LOWER OIL PRICES IN 2026 AND 2027 DUE TO PERSISTENT STOCK BUILDS",
       "detail": "We forecast that production of petroleum and other liquids will continue to exceed global demand, which results in Brent crude oil prices falling from an average of $69 per barrel (b) in 2025 to $58/b",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 19:41 UTC",
+      "timestamp": "11 MAR 2026 · 19:57 UTC",
       "headline": "MANY STATES SLIGHTLY INCREASED THEIR TAXES AND FEES ON GASOLINE IN THE PAST YEAR",
       "detail": "State taxes and fees on motor gasoline as of January 1, 2026, ranged from a high of 70.9 cents per gallon (c/gal) in California to a low of 9.0 c/gal in Alaska. State gasoline taxes averaged 33.5 c/ga",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 19:41 UTC",
+      "timestamp": "11 MAR 2026 · 19:57 UTC",
       "headline": "U.S. NATURAL GAS PRODUCTION TO REACH RECORD HIGHS IN 2026 AND 2027",
       "detail": "We forecast that U.S. natural gas marketed production will increase by 2% to average 120.8 billion cubic feet per day (Bcf/d) in 2026 and then further increase to a record-high 122.3 Bcf/d in 2027 in ",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 19:41 UTC",
+      "timestamp": "11 MAR 2026 · 19:57 UTC",
       "headline": "MARITIME EXPORTS OF PETROLEUM PRODUCTS INCREASED IN JANUARY 2026",
       "detail": "U.S. exports of refined petroleum products carried on clean product tankers have increased steadily over the last year, with exports totaling 6.3 million barrels per day (b/d) in January 2026, about 1",
       "severity": "INFO"
@@ -57,9 +57,9 @@
   ],
   "ticker_items": [
     "BRENT: $89.76 (+2.23%)",
-    "WTI: $87.67 (+5.06%)",
-    "VIX: 24.92 · RIESGO GEOPOLÍTICO: MEDIO",
-    "ORMUZ: ESTRECHO DE ORMUZ OPERATIVO. FLUJO NORMAL DE TRÁFICO MARÍTIMO.",
+    "WTI: $87.86 (+5.28%)",
+    "VIX: 24.56 · RIESGO GEOPOLÍTICO: MEDIO",
+    "ORMUZ: TENSIÓN OPERATIVA: FRICCIÓN LOGÍSTICA DETECTADA. FLUJO: 93.3%.",
     "U.S. WHOLESALE DAY-AHEAD ELECTRICITY PRICES ROSE IN 2025 WITH HIGHER NATURAL GAS",
     "RECORD NATURAL GAS STOCK WITHDRAWALS DURING WEEK ENDING JANUARY 30, 2026",
     "EIA FORECASTS LOWER OIL PRICES IN 2026 AND 2027 DUE TO PERSISTENT STOCK BUILDS",
