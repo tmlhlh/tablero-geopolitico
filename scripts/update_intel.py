@@ -1,7 +1,8 @@
 """
-update_intel.py
-Recopila datos de fuentes públicas (Yahoo Finance + RSS) y escribe data/intel.json.
-Versión Final: Filtros tácticos, análisis bilingüe y pánico financiero.
+update_intel.py — VERSIÓN FINAL CORREGIDA
+- Fix: VIX en indicators (evita NaN).
+- Fix: Detección inteligente de plurales (evita Ormuz abierto por error).
+- Seguridad: Filtro anti-metanfetamina mediante Word Boundaries.
 """
 
 import json
@@ -25,7 +26,7 @@ RSS_FEEDS = [
     "https://feeds.reuters.com/reuters/businessNews",
     "https://feeds.bbci.co.uk/news/world/rss.xml",
     "https://www.eia.gov/rss/todayinenergy.xml",
-    "https://cnnespanol.cnn.com/category/mundo/feed/", # Ruta más estable de CNN
+    "https://cnnespanol.cnn.com/category/mundo/feed/",
     "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada",
     "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml",
     "https://www.aljazeera.com/xml/rss/all.xml",
@@ -102,7 +103,6 @@ def parse_rss(url: str) -> list[dict]:
         return []
 
 def parse_date(pub_date: str) -> datetime:
-    """Parsea fechas de RSS con fallback a 'ahora'."""
     formats = ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT", "%Y-%m-%dT%H:%M:%S%z"]
     for fmt in formats:
         try:
@@ -117,16 +117,17 @@ def format_event_date(dt: datetime) -> str:
 def is_relevant(item: dict) -> bool:
     text = (item["title"] + " " + item["description"]).lower()
     if any(ex in text for ex in EXCLUSIONS): return False
+    # Regex inteligente: busca la palabra o su plural (s?) con límites de palabra
     for tp in TOP_PRIORITY:
-        if re.search(rf"\b{re.escape(tp)}\b", text): return True
+        if re.search(rf"\b{re.escape(tp)}s?\b", text): return True
     for kw in KEYWORDS:
-        if re.search(rf"\b{re.escape(kw)}\b", text): return True
+        if re.search(rf"\b{re.escape(kw)}s?\b", text): return True
     return False
 
 def classify_severity(item: dict) -> str:
     text = (item["title"] + " " + item["description"]).lower()
-    if any(re.search(rf"\b{re.escape(kw)}\b", text) for kw in CRITICAL_KEYWORDS): return "CRÍTICO"
-    if any(re.search(rf"\b{re.escape(kw)}\b", text) for kw in ALERT_KEYWORDS): return "ALERTA"
+    if any(re.search(rf"\b{re.escape(kw)}s?\b", text) for kw in CRITICAL_KEYWORDS): return "CRÍTICO"
+    if any(re.search(rf"\b{re.escape(kw)}s?\b", text) for kw in ALERT_KEYWORDS): return "ALERTA"
     return "INFO"
 
 # ── 4. INFERENCIA GEOPOLÍTICA ────────────────────────────
@@ -142,14 +143,15 @@ def infer_ormuz_status(events: list, brent_change: float, vix_price: float) -> d
 
     pressure = 0
     for kw, weight in weights.items():
-        count = len(re.findall(rf"\b{re.escape(kw)}\b", text_all))
+        # Buscamos singular o plural (\bs?) para capturar 'mina' y 'minas'
+        count = len(re.findall(rf"\b{re.escape(kw)}s?\b", text_all))
         if count > 0:
             pressure += (weight * min(count, 3))
 
     if brent_change > 0: pressure += (brent_change * 4)
     if vix_price > 25: pressure += (vix_price - 20) * 2.5
 
-    is_closed_news = any(re.search(rf"\b{kw}\b", text_all) for kw in ["closed", "cerrado", "blockade", "bloqueo", "mina", "mine"])
+    is_closed_news = any(re.search(rf"\b{kw}s?\b", text_all) for kw in ["closed", "cerrado", "blockade", "bloqueo", "mina", "mine"])
     flow_pct = max(100 - pressure, 3)
     if is_closed_news: flow_pct = min(flow_pct, 10)
 
@@ -204,7 +206,12 @@ def build_intel() -> dict:
     return {
         "updated_at": now.isoformat(),
         "market": {"brent_usd": brent["price"], "brent_change_pct": brent["change_pct"], "vix": vix["price"]},
-        "indicators": {"ormuz_flow_pct": ormuz["flow_pct"], "insurance_spread_pct": spread, "risk_level": "ALTO" if ormuz["disrupted"] else "MEDIO"},
+        "indicators": {
+            "ormuz_flow_pct": ormuz["flow_pct"], 
+            "insurance_spread_pct": spread, 
+            "vix": vix["price"], # FIX: Esto arregla el NaN en el tablero
+            "risk_level": "ALTO" if ormuz["disrupted"] else "MEDIO"
+        },
         "ormuz_status": ormuz,
         "events": events,
         "ticker_items": [f"BRENT: ${brent['price']} ({brent['change_pct']:+.2f}%)", f"VIX: {vix['price']}", f"ORMUZ: {ormuz['summary'].upper()[:70]}"] + [e["headline"][:80] for e in events[:4]],
