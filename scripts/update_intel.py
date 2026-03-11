@@ -40,7 +40,6 @@ RSS_FEEDS = [
     "https://www.rt.com/rss/news/",                           # RT News (Rusia - Perspectiva táctica/militar)
     "https://rss.dw.com/rdf/rss-sp-top"                       # Deutsche Welle (Alemania - Eje UE en español)
 ]
-]
 
 # Keywords para filtrar noticias relevantes al Golfo/energía
 KEYWORDS = [
