@@ -41,24 +41,22 @@ RSS_FEEDS = [
     "https://rss.dw.com/rdf/rss-sp-top"                       # Deutsche Welle (Alemania - Eje UE en español)
 ]
 
-# Keywords para filtrar noticias relevantes al Golfo/energía
+# 1. Keywords que garantizan relevancia inmediata (Alta Prioridad)
+TOP_PRIORITY = ["hormuz", "ormuz", "strait", "estrecho", "brent", "wti", "vix"]
+
+# 2. Keywords de exclusión (El filtro anti-ruido)
+EXCLUSIONS = [
+    "metanfetamina", "narcotráfico", "droga", "detenido", "arrestado", "fútbol", 
+    "farándula", "entertainment", "celeb", "robó", "laos", "meth"
+]
+
+# 3. Tu lista de KEYWORDS actual (se mantiene, pero se procesará distinto)
 KEYWORDS = [
-    # Inglés
-    "oil", "crude", "energy", "hormuz", "strait", "tanker", "iran", "strike", "mine", 
+    "oil", "crude", "energy", "tanker", "iran", "strike", "mine", "minas",
     "missile", "drone", "blockade", "closure", "red sea", "navy", "sunk", "attack",
-    # Español
-    "petróleo", "crudo", "energía", "ormuz", "estrecho", "buque", "irán", "ataque", 
-    "mina", "misil", "bloqueo", "cerrado", "mar rojo", "naval", "hundido", "explosión"
+    "petróleo", "crudo", "energía", "buque", "irán", "ataque", "mina", "misil", 
+    "bloqueo", "cerrado", "mar rojo", "naval", "hundido", "explosión"
 ]
-
-# Palabras que indican alta severidad (Color Rojo en el feed)
-CRITICAL_KEYWORDS = [
-    "attack", "strike", "war", "closure", "blockade", "explosion", "missile", 
-    "mine", "minelaying", "sunk", "sink", "destroyed", "collision",
-    "ataque", "guerra", "cierre", "bloqueo", "explosión", "misil", 
-    "mina", "minado", "hundido", "destruido", "colisión"
-]
-
 # Palabras que indican alerta (Color Ámbar en el feed)
 ALERT_KEYWORDS = [
     "disruption", "tension", "threat", "seized", "warning", "drill", "incident",
@@ -115,8 +113,25 @@ def parse_rss(url: str) -> list[dict]:
 
 
 def is_relevant(item: dict) -> bool:
+    """Filtro de relevancia con protección contra falsos positivos."""
     text = (item["title"] + " " + item["description"]).lower()
-    return any(kw in text for kw in KEYWORDS)
+    
+    # A. Si contiene términos de ruido, se descarta inmediatamente
+    if any(ex in text for ex in EXCLUSIONS):
+        return False
+        
+    # B. Si contiene palabras de alta prioridad, se acepta (usando límites de palabra)
+    for tp in TOP_PRIORITY:
+        if re.search(rf"\b{re.escape(tp)}\b", text):
+            return True
+
+    # C. Match por palabra completa para el resto de KEYWORDS
+    # Esto evita que 'metanfetamina' triggeree 'mina'
+    for kw in KEYWORDS:
+        if re.search(rf"\b{re.escape(kw)}\b", text):
+            return True
+            
+    return False
 
 
 def classify_severity(item: dict) -> str:
