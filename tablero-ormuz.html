@@ -95,34 +95,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
 .leaflet-popup-close-button{color:var(--green)!important;}
 .dark-fallback { filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%); }
 
-/* ═══════════════════════════════════════════════
-   RESPONSIVE DESIGN (MÓVILES Y TABLETS)
-   ═══════════════════════════════════════════════ */
-@media (max-width: 950px) {
-  body { height: auto; overflow-y: auto; overflow-x: hidden; }
-  #app { display: flex; flex-direction: column; height: auto; min-height: 100vh; }
-  #map-wrap { order: 1; width: 100vw; height: 45vh; min-height: 350px; border-bottom: 2px solid var(--border); z-index: 100; }
-  #panel-left { order: 2; border-right: none; border-bottom: 1px solid var(--border); overflow-y: visible; padding-bottom: 20px; }
-  #panel-right { order: 3; border-left: none; overflow-y: visible; padding-bottom: 40px; }
-  .h-title { font-size: 15px; letter-spacing: 2px; }
-  .h-sub { display: none; }
-  #header { padding: 0 10px; position: sticky; top: 0; z-index: 9999; }
-  .litem { padding: 12px 6px; }
-  .lens-btn { padding: 14px; font-size: 13px; }
-}
-
-/* Step buttons (scenario mode) */
-.step-btn{padding:5px 10px;background:transparent;border:1px solid var(--border);
-  color:var(--muted);font-family:'Bebas Neue',sans-serif;font-size:10px;letter-spacing:1.5px;
-  cursor:pointer;transition:all 0.15s;text-align:center;margin-bottom:2px;white-space:nowrap;}
-.step-btn:hover{border-color:var(--muted);color:var(--white);}
-.step-btn.active{border-color:#ff3333;color:#ff3333;background:rgba(255,51,51,0.07);box-shadow:inset 2px 0 0 #ff3333;}
-
-/* ── HEADER extras ── */
-.h-date{font-size:10px;color:var(--amber);letter-spacing:2px;}
-.h-status{display:flex;align-items:center;gap:7px;font-size:9px;letter-spacing:2px;color:var(--green);}
-.pulse{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:pr 1.8s ease-in-out infinite;flex-shrink:0;}
-@keyframes pr{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
+/* ── APP LAYOUT ── */
+#app{display:grid;grid-template-columns:300px 1fr 290px;grid-template-rows:50px 1fr 28px;height:100vh;width:100vw;}
 
 /* ── FOOTER ── */
 #footer{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;
@@ -132,8 +106,42 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
 .ftinner{display:inline-block;animation:tickscroll 60s linear infinite;}
 @keyframes tickscroll{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
 
-/* ── GRID with footer row ── */
-#app{display:grid;grid-template-columns:300px 1fr 290px;grid-template-rows:50px 1fr 28px;height:100vh;width:100vw;}
+/* ── HEADER extras ── */
+.h-date{font-size:10px;color:var(--amber);letter-spacing:2px;}
+.h-status{display:flex;align-items:center;gap:7px;font-size:9px;letter-spacing:2px;color:var(--green);}
+.pulse{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:pr 1.8s ease-in-out infinite;flex-shrink:0;}
+@keyframes pr{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.7)}}
+
+/* Step buttons (scenario mode) */
+.step-btn{padding:5px 10px;background:transparent;border:1px solid var(--border);
+  color:var(--muted);font-family:'Bebas Neue',sans-serif;font-size:10px;letter-spacing:1.5px;
+  cursor:pointer;transition:all 0.15s;text-align:center;margin-bottom:2px;white-space:nowrap;}
+.step-btn:hover{border-color:var(--muted);color:var(--white);}
+.step-btn.active{border-color:#ff3333;color:#ff3333;background:rgba(255,51,51,0.07);box-shadow:inset 2px 0 0 #ff3333;}
+
+/* ═══════════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════════ */
+@media (max-width: 950px) {
+  body { height: auto; overflow-y: auto; overflow-x: hidden; }
+  #app {
+    display: flex !important;
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  #header  { order:0; position:sticky; top:0; z-index:9999; padding:0 12px; flex-shrink:0; }
+  #map-wrap{ order:1; width:100vw; height:50vh; min-height:280px; flex-shrink:0; border-bottom:2px solid var(--border); }
+  #panel-left  { order:2; width:100vw; border-right:none; border-bottom:1px solid var(--border); overflow-y:visible; height:auto; padding-bottom:16px; }
+  #panel-right { order:3; width:100vw; border-left:none; overflow-y:visible; height:auto; padding-bottom:24px; }
+  #footer  { order:4; width:100vw; flex-shrink:0; }
+  .h-title { font-size:14px; letter-spacing:2px; }
+  .h-sub, .h-date { display:none; }
+  .h-status { font-size:8px; }
+  .litem { padding:11px 6px; }
+  .lens-btn { padding:12px; font-size:12px; }
+}
 </style>
 </head>
 <body>
@@ -233,7 +241,19 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
 // ═══════════════════════════════════════════════
 //  MAP INIT
 // ═══════════════════════════════════════════════
-const map = L.map('map',{zoomControl:false}).setView([25.5, 53.5], 5);
+const map = L.map('map',{zoomControl:false, clickTolerance:10}).setView([25.5, 53.5], 5);
+
+// ── fatLine: polyline con hit area invisible de 20px ──
+// Uso idéntico a L.polyline — devuelve un layerGroup con popup funcional
+function fatLine(latlngs, opts, popupContent) {
+  const visible = L.polyline(latlngs, opts);
+  const hit = L.polyline(latlngs, { weight:20, opacity:0, interactive:true });
+  if(popupContent) {
+    visible.bindPopup(popupContent);
+    hit.bindPopup(popupContent);
+  }
+  return L.layerGroup([visible, hit]);
+}
 const primaryLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     maxZoom: 20
 });
@@ -308,144 +328,130 @@ fetch('https://raw.githubusercontent.com/johan/world.geo.json/master/countries.g
 const LAYERS = [
   // ── 1. ECONOMÍA, DERECHO Y SANCIONES ──
   { id:'bypass', label:'Infraestructura Bypass', color:'#ff9900', active:true, items:[
-      L.polyline([[26.0, 49.6], [24.5, 45.0], [24.0, 38.0]], {color:'#ff9900', weight:3, dashArray:'5 5'}).bindPopup("<b>East-West Pipeline (Arabia Saudita)</b><br>Capacidad: ~5.0 Mb/d. Permite exportar desde el Mar Rojo, evadiendo Ormuz."),
-      L.polyline([[23.7, 53.7], [24.0, 55.0], [25.1, 56.3]], {color:'#ff9900', weight:3, dashArray:'5 5'}).bindPopup("<b>ADCOP (EAU)</b><br>Capacidad: ~1.5 Mb/d. Conecta campos terrestres con el Golfo de Omán.")
+      fatLine([[26.0,49.6],[24.5,45.0],[24.0,38.0]], {color:'#ff9900',weight:3,dashArray:'5 5'}, "<b>East-West Pipeline (Arabia Saudita)</b><br>Capacidad: ~5.0 Mb/d. Permite exportar desde el Mar Rojo, evadiendo Ormuz."),
+      fatLine([[23.7,53.7],[24.0,55.0],[25.1,56.3]], {color:'#ff9900',weight:3,dashArray:'5 5'}, "<b>ADCOP (EAU)</b><br>Capacidad: ~1.5 Mb/d. Conecta campos terrestres con el Golfo de Omán.")
   ]},
   { id:'convemar', label:'Zonas Jurídicas (CONVEMAR)', color:'#4488ff', active:true, items:[
-      L.polygon([[26.8, 56.2], [26.4, 56.5], [26.1, 56.3], [26.4, 55.9]], {color:'#4488ff', fillColor:'#4488ff', fillOpacity:0.15, weight:1})
+      L.polygon([[26.8,56.2],[26.4,56.5],[26.1,56.3],[26.4,55.9]], {color:'#4488ff',fillColor:'#4488ff',fillOpacity:0.15,weight:1})
        .bindPopup("<b>Solapamiento de Aguas Territoriales (Ormuz)</b><br>Ancho: 39km. Al ser menor a 24 millas náuticas, rige el <b>Paso en Tránsito</b> inalienable para la comunidad internacional.")
   ]},
   { id:'ghost_fleet', label:'Zonas STS (Flota Fantasma)', color:'#ff33cc', active:false, items:[
-      L.polygon([[25.0, 56.8], [25.5, 57.2], [25.1, 57.8], [24.7, 57.3]], {color:'#ff33cc', fillColor:'#ff33cc', fillOpacity:0.2, weight:1, dashArray:'4 4'})
+      L.polygon([[25.0,56.8],[25.5,57.2],[25.1,57.8],[24.7,57.3]], {color:'#ff33cc',fillColor:'#ff33cc',fillOpacity:0.2,weight:1,dashArray:'4 4'})
        .bindPopup("<b>Zona de Transferencia STS (Golfo de Omán)</b><br>Área de evasión de sanciones mediante el apagado de transpondedores AIS."),
-      L.polygon([[3.5, 100.2], [4.0, 100.8], [3.2, 101.5], [2.8, 100.5]], {color:'#ff33cc', fillColor:'#ff33cc', fillOpacity:0.2, weight:1, dashArray:'4 4'})
+      L.polygon([[3.5,100.2],[4.0,100.8],[3.2,101.5],[2.8,100.5]], {color:'#ff33cc',fillColor:'#ff33cc',fillOpacity:0.2,weight:1,dashArray:'4 4'})
        .bindPopup("<b>Zona de Transferencia STS (Estrecho de Malaca)</b><br>Segundo nodo crítico para blanqueo de crudo sancionado hacia Asia.")
   ]},
   { id:'sovereign_funds', label:'Fondos Soberanos (Poder Financiero)', color:'#ffd700', active:false, items:[
-      L.marker([24.71, 46.67], {icon: makeDiamondIcon('#ffd700')}).bindPopup("<b>PIF (Arabia Saudita)</b><br>AUM: ~$925B. Motor de la Visión 2030."),
-      L.marker([24.45, 54.37], {icon: makeDiamondIcon('#ffd700')}).bindPopup("<b>ADIA (EAU)</b><br>AUM: ~$993B. Blindaje diplomático mediante inversión externa."),
-      L.marker([25.28, 51.53], {icon: makeDiamondIcon('#ffd700')}).bindPopup("<b>QIA (Qatar)</b><br>AUM: ~$510B. Adquisición de activos estratégicos europeos.")
+      L.marker([24.71,46.67], {icon:makeDiamondIcon('#ffd700')}).bindPopup("<b>PIF (Arabia Saudita)</b><br>AUM: ~$925B. Motor de la Visión 2030."),
+      L.marker([24.45,54.37], {icon:makeDiamondIcon('#ffd700')}).bindPopup("<b>ADIA (EAU)</b><br>AUM: ~$993B. Blindaje diplomático mediante inversión externa."),
+      L.marker([25.28,51.53], {icon:makeDiamondIcon('#ffd700')}).bindPopup("<b>QIA (Qatar)</b><br>AUM: ~$510B. Adquisición de activos estratégicos europeos.")
   ]},
 
   // ── 2. INFRAESTRUCTURA DIGITAL Y MULTIPOLARIDAD ──
   { id:'subsea_cables', label:'Infraestructura Digital (Cables)', color:'#00ffff', active:false, items:[
-      L.polyline([[12.5, 43.3], [15.0, 41.5], [20.0, 38.5], [27.0, 34.5], [29.9, 32.5]], {color:'#00ffff', weight:2, dashArray:'2 4'}).bindPopup("<b>Red de Cables Submarinos (Mar Rojo)</b><br>Cuello de botella digital global. Conecta Europa con Asia. Vulnerable a sabotaje asimétrico."),
-      L.polyline([[24.5, 58.5], [25.5, 55.5], [26.5, 53.5], [29.0, 48.0]], {color:'#00ffff', weight:2, dashArray:'2 4'}).bindPopup("<b>Cables Submarinos (Golfo Pérsico/FALCON)</b><br>Infraestructura crítica de telecomunicaciones de las monarquías del Golfo.")
+      fatLine([[12.5,43.3],[15.0,41.5],[20.0,38.5],[27.0,34.5],[29.9,32.5]], {color:'#00ffff',weight:2,dashArray:'2 4'}, "<b>Red de Cables Submarinos (Mar Rojo)</b><br>Cuello de botella digital global. Conecta Europa con Asia. Vulnerable a sabotaje asimétrico."),
+      fatLine([[24.5,58.5],[25.5,55.5],[26.5,53.5],[29.0,48.0]], {color:'#00ffff',weight:2,dashArray:'2 4'}, "<b>Cables Submarinos (Golfo Pérsico/FALCON)</b><br>Infraestructura crítica de telecomunicaciones de las monarquías del Golfo.")
   ]},
   { id:'brics_bloc', label:'Arquitectura Multipolar (BRICS+)', color:'#ff66cc', active:false, items:[
-      bricsGeoLayer // <- AQUÍ INYECTAMOS LA CAPA GEOGRÁFICA EXACTA
+      bricsGeoLayer
   ]},
 
   // ── 3. LEGITIMACIÓN Y PROLIFERACIÓN ──
   { id:'nuclear_iran', label:'Programa Nuclear (OIEA/TNP)', color:'#00ffff', active:false, items:[
-      L.marker([33.724, 51.725], {icon: makeNuclearIcon('#00ffff')}).bindPopup("<b>Complejo de Enriquecimiento Natanz</b><br>Instalación subterránea principal. Eje de las inspecciones del OIEA."),
-      L.marker([34.885, 50.995], {icon: makeNuclearIcon('#00ffff')}).bindPopup("<b>Planta de Enriquecimiento Fordow</b><br>Excavada en la montaña. Invulnerable a ataques convencionales estándar."),
-      L.marker([32.553, 51.926], {icon: makeNuclearIcon('#00ffff')}).bindPopup("<b>Centro de Tecnología Nuclear de Isfahán</b><br>Conversión de uranio (yellowcake a UF6)."),
-      L.marker([28.829, 50.887], {icon: makeNuclearIcon('#00ffff')}).bindPopup("<b>Central Nuclear de Bushehr</b><br>Reactor civil (tecnología rusa).")
+      L.marker([33.724,51.725], {icon:makeNuclearIcon('#00ffff')}).bindPopup("<b>Complejo de Enriquecimiento Natanz</b><br>Instalación subterránea principal. Eje de las inspecciones del OIEA."),
+      L.marker([34.885,50.995], {icon:makeNuclearIcon('#00ffff')}).bindPopup("<b>Planta de Enriquecimiento Fordow</b><br>Excavada en la montaña. Invulnerable a ataques convencionales estándar."),
+      L.marker([32.553,51.926], {icon:makeNuclearIcon('#00ffff')}).bindPopup("<b>Centro de Tecnología Nuclear de Isfahán</b><br>Conversión de uranio (yellowcake a UF6)."),
+      L.marker([28.829,50.887], {icon:makeNuclearIcon('#00ffff')}).bindPopup("<b>Central Nuclear de Bushehr</b><br>Reactor civil (tecnología rusa).")
   ]},
   { id:'religious_nodes', label:'Centros de Legitimación (Fe)', color:'#ffffff', active:false, items:[
-      L.marker([21.422, 39.826], {icon: makeStarIcon('#ffffff')}).bindPopup("<b>La Meca y Medina (Arabia Saudita)</b><br>Legitimidad dinástica: 'Guardián de los Dos Santos Lugares'. Vector de poder blando sunita."),
-      L.marker([34.639, 50.875], {icon: makeStarIcon('#ffffff')}).bindPopup("<b>Qom (Irán)</b><br>Capital del chiismo político (Velayat-e Faqih). Centro de exportación revolucionaria."),
-      L.marker([31.995, 44.314], {icon: makeStarIcon('#ffffff')}).bindPopup("<b>Nayaf (Irak)</b><br>Sede del Gran Ayatolá Sistani. Tradición chiita 'quietista', contrapeso ideológico a Qom."),
-      L.marker([31.776, 35.234], {icon: makeStarIcon('#ffffff')}).bindPopup("<b>Al-Quds / Jerusalén</b><br>Tercer lugar santo del Islam. Eje discursivo para la proyección de influencia iraní sobre el mundo árabe.")
+      L.marker([21.422,39.826], {icon:makeStarIcon('#ffffff')}).bindPopup("<b>La Meca y Medina (Arabia Saudita)</b><br>Legitimidad dinástica: 'Guardián de los Dos Santos Lugares'. Vector de poder blando sunita."),
+      L.marker([34.639,50.875], {icon:makeStarIcon('#ffffff')}).bindPopup("<b>Qom (Irán)</b><br>Capital del chiismo político (Velayat-e Faqih). Centro de exportación revolucionaria."),
+      L.marker([31.995,44.314], {icon:makeStarIcon('#ffffff')}).bindPopup("<b>Nayaf (Irak)</b><br>Sede del Gran Ayatolá Sistani. Tradición chiita 'quietista', contrapeso ideológico a Qom."),
+      L.marker([31.776,35.234], {icon:makeStarIcon('#ffffff')}).bindPopup("<b>Al-Quds / Jerusalén</b><br>Tercer lugar santo del Islam. Eje discursivo para la proyección de influencia iraní sobre el mundo árabe.")
   ]},
 
   // ── 4. ARQUITECTURA MILITAR GEOPOLÍTICA ──
   { id:'bases_us', label:'EE.UU. (Despliegue Estructural)', color:'#4488ff', active:false, items:[
-      L.marker([25.117, 51.315], {icon: makeIcon('#4488ff')}).bindPopup("<b>Al Udeid Air Base (Qatar)</b><br>Sede avanzada de CENTCOM. Eje logístico regional."),
-      L.marker([26.270, 50.610], {icon: makeIcon('#4488ff')}).bindPopup("<b>NSA Bahrain</b><br>Sede de la Quinta Flota y Comando Central Naval (NAVCENT)."),
-      L.marker([36.529, 44.351], {icon: makeIcon('#4488ff')}).bindPopup("<b>Base Aérea Al-Harir / Erbil (Irak - KRG)</b><br>Nodo estratégico en el Kurdistán iraquí. Clave para inteligencia y operaciones especiales."),
-      L.marker([33.430, 38.930], {icon: makeIcon('#4488ff')}).bindPopup("<b>Al-Tanf Garrison (Siria)</b><br>Posición estratégica en la triple frontera para bloquear el 'puente terrestre' logístico de Irán."),
-      L.marker([11.547, 43.148], {icon: makeIcon('#4488ff')}).bindPopup("<b>Camp Lemonnier (Yibuti)</b><br>Vigilancia del chokepoint de Bab el-Mandeb."),
-      L.marker([37.001, 35.425], {icon: makeIcon('#4488ff')}).bindPopup("<b>Incirlik Air Base (Turquía)</b><br>Operada bajo EUCOM/OTAN. Alberga arsenal nuclear táctico B61."),
-      L.marker([24.050, 47.580], {icon: makeIcon('#4488ff')}).bindPopup("<b>Prince Sultan Air Base (Arabia Saudita)</b><br>Defensa del núcleo petrolero y escudo antimisiles."),
-      L.marker([24.248, 54.547], {icon: makeIcon('#4488ff')}).bindPopup("<b>Al Dhafra Air Base (EAU)</b><br>Nodo clave para operaciones aéreas e ISR (Inteligencia, Vigilancia, Reconocimiento)."),
-      L.marker([33.785, 42.441], {icon: makeIcon('#4488ff')}).bindPopup("<b>Al Asad Airbase (Irak)</b><br>Proyección en la Mesopotamia occidental. Frecuente blanco de milicias."),
-      L.marker([32.356, 36.259], {icon: makeIcon('#4488ff')}).bindPopup("<b>Muwaffaq Salti Air Base (Jordania)</b><br>Hub vital para drones y cobertura del flanco occidental."),
-      L.marker([28.878, 48.163], {icon: makeIcon('#4488ff')}).bindPopup("<b>Camp Arifjan (Kuwait)</b><br>Centro logístico de las fuerzas del Ejército (USARCENT).")
+      L.marker([25.117,51.315], {icon:makeIcon('#4488ff')}).bindPopup("<b>Al Udeid Air Base (Qatar)</b><br>Sede avanzada de CENTCOM. Eje logístico regional."),
+      L.marker([26.270,50.610], {icon:makeIcon('#4488ff')}).bindPopup("<b>NSA Bahrain</b><br>Sede de la Quinta Flota y Comando Central Naval (NAVCENT)."),
+      L.marker([36.529,44.351], {icon:makeIcon('#4488ff')}).bindPopup("<b>Base Aérea Al-Harir / Erbil (Irak - KRG)</b><br>Nodo estratégico en el Kurdistán iraquí. Clave para inteligencia y operaciones especiales."),
+      L.marker([33.430,38.930], {icon:makeIcon('#4488ff')}).bindPopup("<b>Al-Tanf Garrison (Siria)</b><br>Posición estratégica en la triple frontera para bloquear el 'puente terrestre' logístico de Irán."),
+      L.marker([11.547,43.148], {icon:makeIcon('#4488ff')}).bindPopup("<b>Camp Lemonnier (Yibuti)</b><br>Vigilancia del chokepoint de Bab el-Mandeb."),
+      L.marker([37.001,35.425], {icon:makeIcon('#4488ff')}).bindPopup("<b>Incirlik Air Base (Turquía)</b><br>Operada bajo EUCOM/OTAN. Alberga arsenal nuclear táctico B61."),
+      L.marker([24.050,47.580], {icon:makeIcon('#4488ff')}).bindPopup("<b>Prince Sultan Air Base (Arabia Saudita)</b><br>Defensa del núcleo petrolero y escudo antimisiles."),
+      L.marker([24.248,54.547], {icon:makeIcon('#4488ff')}).bindPopup("<b>Al Dhafra Air Base (EAU)</b><br>Nodo clave para operaciones aéreas e ISR."),
+      L.marker([33.785,42.441], {icon:makeIcon('#4488ff')}).bindPopup("<b>Al Asad Airbase (Irak)</b><br>Proyección en la Mesopotamia occidental. Frecuente blanco de milicias."),
+      L.marker([32.356,36.259], {icon:makeIcon('#4488ff')}).bindPopup("<b>Muwaffaq Salti Air Base (Jordania)</b><br>Hub vital para drones y cobertura del flanco occidental."),
+      L.marker([28.878,48.163], {icon:makeIcon('#4488ff')}).bindPopup("<b>Camp Arifjan (Kuwait)</b><br>Centro logístico de las fuerzas del Ejército (USARCENT).")
   ]},
   { id:'bases_otan', label:'Potencias Europeas (UK/FR)', color:'#aa66ff', active:false, items:[
-      L.marker([26.210, 50.650], {icon: makeIcon('#aa66ff')}).bindPopup("<b>HMS Jufair (Bahréin)</b><br>Reino Unido / Apoyo naval permanente al este de Suez."),
-      L.marker([24.430, 54.410], {icon: makeIcon('#aa66ff')}).bindPopup("<b>Camp de la Paix (EAU)</b><br>Francia / Presencia conjunta (Naval, Aérea, Terrestre) frente a Ormuz.")
+      L.marker([26.210,50.650], {icon:makeIcon('#aa66ff')}).bindPopup("<b>HMS Jufair (Bahréin)</b><br>Reino Unido / Apoyo naval permanente al este de Suez."),
+      L.marker([24.430,54.410], {icon:makeIcon('#aa66ff')}).bindPopup("<b>Camp de la Paix (EAU)</b><br>Francia / Presencia conjunta (Naval, Aérea, Terrestre) frente a Ormuz.")
   ]},
   { id:'bases_rus_chn', label:'Competidores (Rusia/China)', color:'#ffcc00', active:false, items:[
-      L.marker([34.910, 35.880], {icon: makeIcon('#ffcc00')}).bindPopup("<b>Tartus (Siria)</b><br>Rusia / Única instalación naval rusa en el Mediterráneo."),
-      L.marker([35.400, 35.940], {icon: makeIcon('#ffcc00')}).bindPopup("<b>Hmeimim (Siria)</b><br>Rusia / Plataforma de proyección aérea en Levante."),
-      L.marker([11.590, 43.120], {icon: makeIcon('#ffcc00')}).bindPopup("<b>Base Naval PLA (Yibuti)</b><br>China / Primera base militar de ultramar. Asegura SLOCs comerciales."),
-      L.marker([25.120, 62.330], {icon: makeIcon('#ffcc00')}).bindPopup("<b>Puerto de Gwadar (Pakistán)</b><br>China / Infraestructura civil dual (CPEC). Acceso rápido a Ormuz.")
+      L.marker([34.910,35.880], {icon:makeIcon('#ffcc00')}).bindPopup("<b>Tartus (Siria)</b><br>Rusia / Única instalación naval rusa en el Mediterráneo."),
+      L.marker([35.400,35.940], {icon:makeIcon('#ffcc00')}).bindPopup("<b>Hmeimim (Siria)</b><br>Rusia / Plataforma de proyección aérea en Levante."),
+      L.marker([11.590,43.120], {icon:makeIcon('#ffcc00')}).bindPopup("<b>Base Naval PLA (Yibuti)</b><br>China / Primera base militar de ultramar."),
+      L.marker([25.120,62.330], {icon:makeIcon('#ffcc00')}).bindPopup("<b>Puerto de Gwadar (Pakistán)</b><br>China / Infraestructura civil dual (CPEC). Acceso rápido a Ormuz.")
   ]},
   { id:'bases_tur', label:'Autonomía Regional (Turquía)', color:'#00cccc', active:false, items:[
-      L.marker([25.260, 51.450], {icon: makeIcon('#00cccc')}).bindPopup("<b>Tariq bin Ziyad (Qatar)</b><br>Turquía / Fuerza Conjunta Turco-Qatarí."),
-      L.marker([2.040, 45.280], {icon: makeIcon('#00cccc')}).bindPopup("<b>Camp TURKSOM (Somalia)</b><br>Turquía / Mayor base en el exterior, influencia en el Cuerno de África.")
+      L.marker([25.260,51.450], {icon:makeIcon('#00cccc')}).bindPopup("<b>Tariq bin Ziyad (Qatar)</b><br>Turquía / Fuerza Conjunta Turco-Qatarí."),
+      L.marker([2.040,45.280],  {icon:makeIcon('#00cccc')}).bindPopup("<b>Camp TURKSOM (Somalia)</b><br>Turquía / Mayor base en el exterior.")
   ]},
   { id:'nodos_iran', label:'Irán y Eje de la Resistencia', color:'#ff3333', active:false, items:[
-      L.marker([27.183, 56.267], {icon: makeIcon('#ff3333')}).bindPopup("<b>Base Naval Bandar Abbas (Irán)</b><br>Sede IRGC. Estrangulamiento táctico en Ormuz."),
-      L.marker([15.350, 44.200], {icon: makeIcon('#ff3333')}).bindPopup("<b>Saná / Al Hudaydah (Yemen)</b><br>Ansar Alá (Hutíes) / Nodo asimétrico para control de Bab el-Mandeb."),
-      L.marker([34.450, 40.890], {icon: makeIcon('#ff3333')}).bindPopup("<b>Al Bukamal (Siria/Irak)</b><br>Punto de control de milicias / Puente Terrestre logístico de Teherán hacia el Mediterráneo."),
-      L.marker([33.270, 35.200], {icon: makeIcon('#ff3333')}).bindPopup("<b>Sur del Líbano</b><br>Hezbollah / Plataforma de disuasión asimétrica y arsenal balístico.")
+      L.marker([27.183,56.267], {icon:makeIcon('#ff3333')}).bindPopup("<b>Base Naval Bandar Abbas (Irán)</b><br>Sede IRGC. Estrangulamiento táctico en Ormuz."),
+      L.marker([15.350,44.200], {icon:makeIcon('#ff3333')}).bindPopup("<b>Saná / Al Hudaydah (Yemen)</b><br>Ansar Alá (Hutíes) / Nodo asimétrico para control de Bab el-Mandeb."),
+      L.marker([34.450,40.890], {icon:makeIcon('#ff3333')}).bindPopup("<b>Al Bukamal (Siria/Irak)</b><br>Puente Terrestre logístico de Teherán hacia el Mediterráneo."),
+      L.marker([33.270,35.200], {icon:makeIcon('#ff3333')}).bindPopup("<b>Sur del Líbano</b><br>Hezbollah / Plataforma de disuasión asimétrica y arsenal balístico.")
   ]},
   { id:'flashpoints', label:'Puntos de Fricción Geopolítica', color:'#ff0055', active:false, items:[
-      L.polyline([[38.9, 46.2], [39.0, 46.4], [39.1, 46.5]], {color:'#ff0055', weight:4, dashArray:'6 6'})
-       .bindPopup("<b>Corredor de Zangezur (Syunik, Armenia)</b><br>Estatus: <b>Bajo mandato del FSB Ruso (Tratado 2020)</b>.<br>Fricción directa entre Turquía (que exige apertura extraterritorial) e Irán (que traza una línea roja militar para no perder su frontera armenia).")
+      fatLine([[38.9,46.2],[39.0,46.4],[39.1,46.5]], {color:'#ff0055',weight:4,dashArray:'6 6'},
+        "<b>Corredor de Zangezur (Syunik, Armenia)</b><br>Estatus: <b>Bajo mandato del FSB Ruso (Tratado 2020)</b>.<br>Fricción directa entre Turquía e Irán.")
   ]},
 
   // ── ESCENARIO NATANZ ──
   { id:'natanz_strike', label:'Escenario: Vector de Ataque IAF', color:'#ffdd44', active:false, items:[
-      // Vector F-35I Nevatim → Natanz (via Iraq)
-      L.polyline([[31.15,35.39],[30.5,38],[30,42],[29.5,46],[29,50],[33.724,51.725]],
-        {color:'#ffdd44', weight:2, dashArray:'6 3', opacity:0.85})
-        .bindPopup("<b>Vector de Ataque F-35I — IAF</b><br>Ruta estimada: Nevatim → espacio aéreo iraquí (autorización tácita) → Natanz.<br>~1.600 km. Requiere reabastecimiento en vuelo (KC-135 israelíes)."),
-      // Radio de combate F-35I desde Nevatim (~1.100km)
-      L.circle([31.15,35.39], {radius:1100000, color:'#ffdd44', weight:1, dashArray:'4 4', fill:false, opacity:0.25})
-        .bindPopup("<b>Radio de combate F-35I Adir (~1.100 km)</b><br>Natanz queda dentro del alcance con reabastecimiento."),
-      // Base Nevatim resaltada
-      L.marker([31.15,35.39], {icon: makeDiamondIcon('#ffdd44')})
-        .bindPopup("<b>Base Aérea Nevatim (Israel)</b><br>Sede del escuadrón F-35I 'Adir'.<br>Plataforma principal para proyección de largo alcance."),
-      // Carrier USS Abraham Lincoln
-      L.marker([23.5,60.0], {icon: makeDiamondIcon('#4488ff')})
-        .bindPopup("<b>USS Abraham Lincoln CSG</b><br>Posición estimada: Mar de Arabia (OSINT).<br>Capacidad de llegar a Ormuz en &lt;24h.<br>Escolta: 2×CG, 2×DDG, 1×SSN."),
-      // B-2 desde Whiteman AFB (Missouri) — vuelo sin escala
-      L.polyline([[38.7,-93.5],[42,-60],[45,-30],[38,0],[33,20],[30,40],[27.2,56.3]],
-        {color:'#ff6666', weight:1.5, dashArray:'8 4', opacity:0.5})
-        .bindPopup("<b>Vector estratégico: B-2A Spirit desde Whiteman AFB (Missouri)</b><br>Vuelo sin escala. Reabastecido sobre el Atlántico. Carga: GBU-57 MOP (13.600 kg).<br>RU negó Diego García y RAF Fairford para operaciones ofensivas.")
+      fatLine([[31.15,35.39],[30.5,38],[30,42],[29.5,46],[29,50],[33.724,51.725]],
+        {color:'#ffdd44',weight:2,dashArray:'6 3',opacity:0.85},
+        "<b>Vector de Ataque F-35I — IAF</b><br>Ruta estimada: Nevatim → espacio aéreo iraquí → Natanz.<br>~1.600 km. Reabastecimiento en vuelo (KC-46 Pegasus)."),
+      L.circle([31.15,35.39], {radius:1100000,color:'#ffdd44',weight:1,dashArray:'4 4',fill:false,opacity:0.25})
+        .bindPopup("<b>Radio de combate F-35I Adir (~1.100 km)</b><br>Natanz dentro del alcance con reabastecimiento."),
+      L.marker([31.15,35.39], {icon:makeDiamondIcon('#ffdd44')})
+        .bindPopup("<b>Base Aérea Nevatim (Israel)</b><br>Sede del escuadrón F-35I 'Adir'. Plataforma de largo alcance."),
+      L.marker([23.5,60.0], {icon:makeDiamondIcon('#4488ff')})
+        .bindPopup("<b>USS Abraham Lincoln + USS Gerald R. Ford CSG</b><br>Dos carrier groups en teatro. Golfo de Omán / Mar de Arabia."),
+      fatLine([[38.7,-93.5],[42,-60],[45,-30],[38,0],[33,20],[30,40],[27.2,56.3]],
+        {color:'#ff6666',weight:1.5,dashArray:'8 4',opacity:0.5},
+        "<b>Vector B-2A Spirit — Whiteman AFB (Missouri)</b><br>Vuelo sin escala, reabastecido sobre el Atlántico. Carga: GBU-57 MOP (13.600 kg).<br>RU negó Diego García y Fairford para ops ofensivas.")
   ]},
 
   { id:'iran_response', label:'Escenario: Respuesta Balística Iraní', color:'#ff3333', active:false, items:[
-      // Alcance misil balístico iraní ~2.000km desde Natanz
-      L.circle([33.724,51.725], {radius:2000000, color:'#ff3333', weight:1, dashArray:'4 3', fill:false, opacity:0.3})
-        .bindPopup("<b>Alcance misil balístico iraní (~2.000 km)</b><br>Cubre: Israel, Arabia Saudita, EAU, bases US en la región.<br>Arsenales: Shahab-3, Emad, Ghadr-110."),
-      // Track misil → Nevatim
-      L.polyline([[33.724,51.725],[32,48],[31,44],[31.15,35.39]],
-        {color:'#ff4444', weight:1.5, dashArray:'3 3', opacity:0.75})
-        .bindPopup("<b>Trayectoria estimada: Shahab-3 → Nevatim (Israel)</b><br>Tiempo de vuelo: ~12 minutos. Interceptable con Arrow-3/David's Sling."),
-      // Track misil → Prince Sultan (Arabia Saudita)
-      L.polyline([[33.724,51.725],[31,50],[28,49],[25,48],[24.05,47.58]],
-        {color:'#ff4444', weight:1.5, dashArray:'3 3', opacity:0.75})
-        .bindPopup("<b>Trayectoria estimada: Emad → Prince Sultan AB (Arabia Saudita)</b><br>Base USAF activa. Objetivo de alto valor estratégico."),
-      // Track misil → Al Udeid (Qatar)
-      L.polyline([[33.724,51.725],[31,52],[28,52],[25.117,51.315]],
-        {color:'#ff4444', weight:1.5, dashArray:'3 3', opacity:0.75})
-        .bindPopup("<b>Trayectoria estimada: Misil balístico → Al Udeid AB (Qatar)</b><br>HQ CENTCOM. Blanco de máxima prioridad en doctrina IRGC."),
-      // Natanz resaltado como origen
-      L.circle([33.724,51.725], {radius:40000, color:'#ff3333', weight:2, fillColor:'#ff3333', fillOpacity:0.15, opacity:0.9})
-        .bindPopup("<b>Natanz — Origen del vector de respuesta</b><br>Complejo de enriquecimiento subterráneo. Blanco del ataque israelí.")
+      L.circle([33.724,51.725], {radius:2000000,color:'#ff3333',weight:1,dashArray:'4 3',fill:false,opacity:0.3})
+        .bindPopup("<b>Alcance misil balístico iraní (~2.000 km)</b><br>Cubre Israel, Arabia Saudita, EAU y todas las bases US en la región.<br>Arsenales: Shahab-3, Emad, Ghadr-110."),
+      fatLine([[33.724,51.725],[32,48],[31,44],[31.15,35.39]],
+        {color:'#ff4444',weight:1.5,dashArray:'3 3',opacity:0.75},
+        "<b>Shahab-3 → Nevatim (Israel)</b><br>Tiempo de vuelo: ~12 min. Interceptable con Arrow-3/David's Sling."),
+      fatLine([[33.724,51.725],[31,50],[28,49],[25,48],[24.05,47.58]],
+        {color:'#ff4444',weight:1.5,dashArray:'3 3',opacity:0.75},
+        "<b>Emad → Prince Sultan AB (Arabia Saudita)</b><br>Base USAF activa. Objetivo de alto valor estratégico."),
+      fatLine([[33.724,51.725],[31,52],[28,52],[25.117,51.315]],
+        {color:'#ff4444',weight:1.5,dashArray:'3 3',opacity:0.75},
+        "<b>Misil balístico → Al Udeid AB (Qatar)</b><br>HQ CENTCOM. Blanco de máxima prioridad en doctrina IRGC."),
+      L.circle([33.724,51.725], {radius:40000,color:'#ff3333',weight:2,fillColor:'#ff3333',fillOpacity:0.15,opacity:0.9})
+        .bindPopup("<b>Natanz — Origen del vector de respuesta</b><br>Blanco del ataque israelí-estadounidense.")
   ]},
 
   { id:'ormuz_scenario', label:'Escenario: Cierre de Ormuz', color:'#ff6600', active:false, items:[
-      // Zona de peligro Ormuz
-      L.circle([26.566,56.25], {radius:80000, color:'#ff4400', weight:2, fillColor:'#ff4400', fillOpacity:0.12, opacity:0.8})
+      L.circle([26.566,56.25], {radius:80000,color:'#ff4400',weight:2,fillColor:'#ff4400',fillOpacity:0.12,opacity:0.8})
         .bindPopup("<b>Zona de Peligro — Estrecho de Ormuz</b><br>Radio de acción IRGC desde Bandar Abbas.<br>Capacidad: minado, misiles antibuque, lanchas suicidas."),
-      // Zona de espera flotilla bloqueada (Golfo de Omán)
-      L.circle([23.5,58.5], {radius:150000, color:'#888800', weight:1, dashArray:'5 3', fillColor:'#888800', fillOpacity:0.07, opacity:0.5})
-        .bindPopup("<b>Zona de Espera — Flotilla Bloqueada</b><br>Área estimada de acumulación de buques tanque ante cierre de Ormuz.<br>Hasta 300+ buques en espera durante la crisis del Ever Given (2021)."),
-      // Ruta alternativa: East-West Pipeline (ya existe en bypass, aquí la contextualizamos)
-      L.polyline([[26.0,49.6],[24.5,45.0],[24.0,38.0]],
-        {color:'#ff9900', weight:2.5, dashArray:'5 5', opacity:0.7})
-        .bindPopup("<b>East-West Pipeline — Única alternativa terrestre</b><br>Capacidad: ~5 Mb/d vs. ~21 Mb/d de Ormuz.<br>Cubre solo el 24% del flujo normal. Insuficiente ante un bloqueo total."),
-      // Ruta Cabo de Buena Esperanza
-      L.polyline([[26.5,56.2],[15,55],[0,44],[-15,35],[-34.5,18],[-34.5,-15]],
-        {color:'#888844', weight:1.5, dashArray:'6 4', opacity:0.5})
-        .bindPopup("<b>Ruta alternativa: Cabo de Buena Esperanza</b><br>+14 días de viaje. +$1.2M en costos por buque.<br>Capacidad insuficiente para absorber el volumen de Ormuz.")
+      L.circle([23.5,58.5], {radius:150000,color:'#888800',weight:1,dashArray:'5 3',fillColor:'#888800',fillOpacity:0.07,opacity:0.5})
+        .bindPopup("<b>Zona de Espera — Flotilla Bloqueada</b><br>Área de acumulación de buques tanque ante cierre de Ormuz."),
+      fatLine([[26.0,49.6],[24.5,45.0],[24.0,38.0]],
+        {color:'#ff9900',weight:2.5,dashArray:'5 5',opacity:0.7},
+        "<b>East-West Pipeline — Única alternativa terrestre</b><br>Capacidad: ~5 Mb/d vs. ~21 Mb/d de Ormuz. Cubre solo el 24%."),
+      fatLine([[26.5,56.2],[15,55],[0,44],[-15,35],[-34.5,18],[-34.5,-15]],
+        {color:'#888844',weight:1.5,dashArray:'6 4',opacity:0.5},
+        "<b>Ruta alternativa: Cabo de Buena Esperanza</b><br>+14 días de viaje. +$1.2M en costos por buque.")
   ]}
 ];
 
