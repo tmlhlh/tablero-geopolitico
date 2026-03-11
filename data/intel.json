@@ -1,0 +1,68 @@
+{
+  "updated_at": "2026-02-28T22:00:00Z",
+  "source": "fallback-static",
+  "ormuz_status": {
+    "disrupted": true,
+    "flow_pct": 35,
+    "note": "Tráfico severamente perturbado. Seguros suspendidos."
+  },
+  "indicators": {
+    "ormuz_flow_pct": 35,
+    "risk_level": "CRÍTICO",
+    "vix": 38.4,
+    "insurance_spread_pct": 312
+  },
+  "dependency_bars": {
+    "china_pct": 34,
+    "india_pct": 22,
+    "japan_pct": 14,
+    "korea_pct": 10,
+    "other_pct": 20
+  },
+  "ticker_items": [
+    "OP. EPIC FURY (EEUU) + ROARING LION (ISRAEL) — 28 FEB 2026",
+    "KHAMENEI CONFIRMADO MUERTO — TRIUNVIRATO PROVISIONAL EN TEHERÁN",
+    "NATANZ ALCANZADO — OIEA DESCARTA FUGA RADIOLÓGICA",
+    "IRÁN: +500 MISILES + 2.000 DRONES — \"PROMESA VERDADERA 4\"",
+    "RAS TANURA (ARAMCO) ATACADA — PRODUCCIÓN SAUDÍ COMPROMETIDA",
+    "QATAR ENERGY CESA PRODUCCIÓN GNL — IMPACTO GLOBAL",
+    "6 SOLDADOS EEUU MUERTOS EN KUWAIT · 3 AVIONES DERRIBADOS",
+    "USS ABRAHAM LINCOLN + USS GERALD R. FORD — DOS CSG EN TEATRO",
+    "B-2A SPIRIT DESDE WHITEMAN AFB — GBU-57 MOP SOBRE FORDOW",
+    "WTI ~$81/BBL · SEGUROS MARÍTIMOS SUSPENDIDOS EN GOLFO",
+    "ORMUZ: TRÁFICO SEVERAMENTE PERTURBADO — SIN CIERRE FORMAL",
+    "UK AUTORIZA DIEGO GARCÍA Y FAIRFORD PARA APOYO DEFENSIVO"
+  ],
+  "events": [
+    {
+      "timestamp": "28 FEB 2026",
+      "severity": "CRÍTICO",
+      "headline": "ORMUZ: TRÁFICO REDUCIDO AL 35%",
+      "detail": "Seguros marítimos suspendidos en el Golfo. Desvío masivo por Cabo de Buena Esperanza. +14 días de travesía y ~$1M costo adicional por barco."
+    },
+    {
+      "timestamp": "28 FEB 2026",
+      "severity": "CRÍTICO",
+      "headline": "RAS TANURA (ARAMCO) ATACADA",
+      "detail": "Drones del IRGC impactan refinería principal de Arabia Saudita. Producción interrumpida parcialmente. VIX supera 38."
+    },
+    {
+      "timestamp": "28 FEB 2026",
+      "severity": "CRÍTICO",
+      "headline": "QATAR ENERGY SUSPENDE PRODUCCIÓN GNL",
+      "detail": "Cese de operaciones por riesgo en el Golfo. Mercados europeos de gas bajo presión extrema."
+    },
+    {
+      "timestamp": "28 FEB 2026",
+      "severity": "ALERTA",
+      "headline": "DOS CSG EEUU EN TEATRO",
+      "detail": "USS Abraham Lincoln y USS Gerald R. Ford operando en el Mar Arábigo y Golfo de Omán respectivamente."
+    },
+    {
+      "timestamp": "28 FEB 2026",
+      "severity": "ALERTA",
+      "headline": "FORDOW NEUTRALIZADO — B-2A / GBU-57 MOP",
+      "detail": "Bombarderos furtivos desde Whiteman AFB lanzan munición perforante contra instalaciones nucleares subterráneas. OIEA descarta fuga radiológica."
+    }
+  ]
+}
