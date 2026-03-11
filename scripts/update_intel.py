@@ -147,29 +147,55 @@ def infer_risk_level(brent_change: float, events: list) -> str:
 
 
 def infer_ormuz_status(events: list, brent_change: float) -> dict:
-    """Infiere estado de Ormuz a partir de noticias y movimiento de precio."""
-    text_all = " ".join(
-        (e["headline"] + " " + e["detail"]).lower() for e in events
-    )
-    closure_keywords   = ["closed", "closure", "blocked", "blockade", "cerrado", "bloqueo"]
-    disruption_keywords= ["disrupted", "perturbado", "tension", "attack", "ataque", "perturbation"]
+    """Infiere el estado de flujo mediante un Índice de Presión Ponderado."""
+    text_all = " ".join((e["headline"] + " " + e["detail"]).lower() for e in events)
+    
+    # Categorías de riesgo (Ponderación por impacto en el flujo)
+    # Agregamos 'mine' y 'minelaying' como disparadores críticos de parálisis
+    crit_keys = [
+        "closed", "blockade", "sink", "sunk", "destroyed", "cerrado", "hundido", "mine", "minelaying", "mina"] # -40% cada una  
+    high_keys = ["attack", "missile", "drone", "explosion", "strike", "ataque", "misil"] # -15% cada una
+    mid_keys  = ["seized", "incident", "threat", "warning", "tension", "incidente"]    # -5% cada una
 
-    closed    = any(kw in text_all for kw in closure_keywords)
-    disrupted = closed or any(kw in text_all for kw in disruption_keywords) or brent_change > 5
+    # Cálculo de Presión (Hits acumulativos)
+    pressure = 0
+    pressure += sum(text_all.count(kw) for kw in crit_keys) * 40
+    pressure += sum(text_all.count(kw) for kw in high_keys) * 15
+    pressure += sum(text_all.count(kw) for kw in mid_keys) * 5
+    
+    # Impacto del Mercado (Brent): Si el Brent sube, la presión sube
+    if brent_change > 0:
+        pressure += (brent_change * 3)
 
-    if closed:
-        summary = "Estrecho de Ormuz cerrado — tráfico marítimo interrumpido."
-    elif disrupted:
-        summary = "Tráfico en Ormuz perturbado — tensiones elevan costos logísticos."
+    # Estado Binario para el Summary
+    is_closed = any(kw in text_all for kw in ["closed", "closure", "blocked", "cerrado"])
+    is_disrupted = is_closed or pressure > 20 or brent_change > 4
+
+    # CÁLCULO FINAL DEL FLUJO (Dynamic Floor)
+    # Partimos de 100 y restamos la presión. 
+    # El mínimo técnico operativo que definimos es 3% (flujo residual/contrabando)
+    flow_pct = max(100 - pressure, 3)
+
+    # Forzamos caída si hay confirmación de cierre
+    if is_closed:
+        flow_pct = min(flow_pct, 10) # Si dice "cerrado", máximo 10%
+
+    # Redacción del Resumen Dinámico
+    if flow_pct < 15:
+        summary = f"COLAPSO DE FLUJO: Tráfico en Ormuz al {flow_pct:.1f}%. Bloqueo de facto o cierre militar."
+    elif flow_pct < 60:
+        summary = f"DISRUPCIÓN SEVERA: Flujo reducido al {flow_pct:.1f}% por hostilidades activas."
+    elif flow_pct < 95:
+        summary = f"TENSIÓN OPERATIVA: Fricción logística detectada. Flujo: {flow_pct:.1f}%."
     else:
-        summary = "Estrecho de Ormuz operativo. Flujo normal de tráfico marítimo."
+        summary = "FLUJO NOMAL: Navegación operativa sin disrupciones significativas."
 
-    # Flujo estimado
-    flow_pct = 40 if closed else (80 if disrupted else 100)
-
-    return {"open": not closed, "disrupted": disrupted, "summary": summary,
-            "flow_pct": flow_pct}
-
+    return {
+        "open": not is_closed,
+        "disrupted": is_disrupted,
+        "summary": summary,
+        "flow_pct": round(flow_pct, 1)
+    }
 
 # ── Main ─────────────────────────────────────────────────
 
