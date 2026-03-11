@@ -171,11 +171,11 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
       Destino de las exportaciones de crudo que transitan por el Estrecho de Ormuz. Refleja la asimetría del riesgo macroeconómico.
     </div>
     <div id="dependency-bars">
-      <div class="dep-item"><div class="dep-label"><span>CHINA</span><span>34%</span></div><div class="dep-bar"><div class="dep-fill" style="width:34%;background:var(--amber)"></div></div></div>
-      <div class="dep-item"><div class="dep-label"><span>INDIA</span><span>22%</span></div><div class="dep-bar"><div class="dep-fill" style="width:22%;background:var(--amber)"></div></div></div>
-      <div class="dep-item"><div class="dep-label"><span>JAPÓN</span><span>14%</span></div><div class="dep-bar"><div class="dep-fill" style="width:14%;background:var(--blue)"></div></div></div>
-      <div class="dep-item"><div class="dep-label"><span>COREA DEL SUR</span><span>10%</span></div><div class="dep-bar"><div class="dep-fill" style="width:10%;background:var(--blue)"></div></div></div>
-      <div class="dep-item"><div class="dep-label"><span>RESTO DEL MUNDO</span><span>20%</span></div><div class="dep-bar"><div class="dep-fill" style="width:20%;background:var(--muted)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>CHINA</span><span id="dep-china-label">34%</span></div><div class="dep-bar"><div class="dep-fill" id="dep-china" style="width:34%;background:var(--amber)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>INDIA</span><span id="dep-india-label">22%</span></div><div class="dep-bar"><div class="dep-fill" id="dep-india" style="width:22%;background:var(--amber)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>JAPÓN</span><span id="dep-japan-label">14%</span></div><div class="dep-bar"><div class="dep-fill" id="dep-japan" style="width:14%;background:var(--blue)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>COREA DEL SUR</span><span id="dep-korea-label">10%</span></div><div class="dep-bar"><div class="dep-fill" id="dep-korea" style="width:10%;background:var(--blue)"></div></div></div>
+      <div class="dep-item"><div class="dep-label"><span>RESTO DEL MUNDO</span><span id="dep-other-label">20%</span></div><div class="dep-bar"><div class="dep-fill" id="dep-other" style="width:20%;background:var(--muted)"></div></div></div>
     </div>
   </div>
 </aside>
@@ -212,12 +212,56 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
       </div>
     </div>
 
-    <!-- Stats Grid -->
+    <!-- WTI Mini Chart -->
+    <div style="margin-bottom:6px;">
+      <div style="font-size:8px;letter-spacing:2px;color:var(--muted);margin-bottom:3px;">▸ WTI CRUDE · TVC:USOIL</div>
+      <div class="tradingview-widget-container" style="height:130px;overflow:hidden;border:1px solid var(--border);background:#000;">
+        <div class="tradingview-widget-container__widget" style="height:130px;"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+        {
+          "symbol": "TVC:USOIL",
+          "width": "100%",
+          "height": 130,
+          "locale": "es",
+          "dateRange": "1D",
+          "colorTheme": "dark",
+          "isTransparent": true,
+          "autosize": true,
+          "largeChartUrl": "",
+          "noTimeScale": false,
+          "chartOnly": false
+        }
+        </script>
+      </div>
+    </div>
+
+    <!-- Indicadores Críticos (dinámicos vía intel feed) -->
+    <div style="font-size:8px;letter-spacing:2px;color:var(--muted);margin-bottom:4px;">▸ INDICADORES CRÍTICOS</div>
     <div class="sgrid">
-      <div class="sbox"><div class="sval" style="color:var(--amber)">21M</div><div class="slbl">bbl/día Ormuz</div></div>
-      <div class="sbox"><div class="sval" style="color:var(--red)">106:1</div><div class="slbl">ratio misil/dron</div></div>
-      <div class="sbox"><div class="sval" style="color:var(--blue)">$1B</div><div class="slbl">burn rate / día</div></div>
-      <div class="sbox"><div class="sval" style="color:var(--muted)">VETADO</div><div class="slbl">CSNU (status)</div></div>
+      <div class="sbox">
+        <div class="sval" id="stat-ormuz" style="color:var(--green)">—</div>
+        <div class="slbl">ORMUZ FLUJO</div>
+      </div>
+      <div class="sbox">
+        <div class="sval" id="stat-risk" style="color:var(--amber)">—</div>
+        <div class="slbl">RIESGO GEOPOLÍTICO</div>
+      </div>
+      <div class="sbox">
+        <div class="sval" id="stat-vix" style="color:var(--blue)">—</div>
+        <div class="slbl">VIX VOLATILIDAD</div>
+      </div>
+      <div class="sbox">
+        <div class="sval" id="stat-spread" style="color:var(--amber)">—</div>
+        <div class="slbl">SPREAD SEGUROS</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intel Feed: eventos recientes -->
+  <div class="psec" id="intel-feed-panel">
+    <div class="stitle">Intel Feed</div>
+    <div id="intel-events">
+      <div style="font-size:9px;color:var(--muted);letter-spacing:1px;">CARGANDO INTELIGENCIA...</div>
     </div>
   </div>
 
@@ -641,7 +685,29 @@ function activateLens(idx) {
 // ═══════════════════════════════════════════════
 activateLens(0);
 
-const TICKER_ITEMS = [
+// ═══════════════════════════════════════════════
+//  RELOJ UTC
+// ═══════════════════════════════════════════════
+function tickClock(){
+  const el = document.getElementById('live-date');
+  if(el) el.textContent = new Date().toUTCString().toUpperCase().replace('GMT','UTC');
+}
+tickClock();
+setInterval(tickClock, 1000);
+
+// ═══════════════════════════════════════════════
+//  INTEL FEED — consume data/intel.json desde GitHub
+//  Actualizado cada hora vía GitHub Actions (RSS + Yahoo Finance)
+// ═══════════════════════════════════════════════
+
+const GITHUB_RAW_URL =
+  'https://raw.githubusercontent.com/TPereyraRRII/tablero-ormuz/main/data/intel.json';
+
+const RISK_COLOR = { BAJO:'#00ff88', MEDIO:'#ffaa00', ALTO:'#ff6600', CRÍTICO:'#ff3333' };
+const SEV_COLOR  = { INFO:'#00cc66', ALERTA:'#ffaa00', CRÍTICO:'#ff3333' };
+
+// Ticker de fallback mientras carga
+const TICKER_FALLBACK = [
   'OP. EPIC FURY (EEUU) + ROARING LION (ISRAEL) — 28 FEB 2026',
   'KHAMENEI CONFIRMADO MUERTO — TRIUNVIRATO PROVISIONAL EN TEHERÁN',
   'NATANZ ALCANZADO — OIEA DESCARTA FUGA RADIOLÓGICA',
@@ -655,14 +721,92 @@ const TICKER_ITEMS = [
   'ORMUZ: TRÁFICO SEVERAMENTE PERTURBADO — SIN CIERRE FORMAL',
   'UK AUTORIZA DIEGO GARCÍA Y FAIRFORD PARA APOYO DEFENSIVO',
 ];
-document.getElementById('ticker-text').textContent = TICKER_ITEMS.join('   ◆   ');
+document.getElementById('ticker-text').textContent = TICKER_FALLBACK.join('   ◆   ');
 
-function tickClock(){
-  const el = document.getElementById('live-date');
-  if(el) el.textContent = new Date().toUTCString().toUpperCase().replace('GMT','UTC');
+async function loadIntel() {
+  const statusEl = document.querySelector('.h-status span');
+  const origText = statusEl ? statusEl.textContent : '';
+  if (statusEl) statusEl.textContent = 'ACTUALIZANDO INTEL...';
+
+  try {
+    const res = await fetch(GITHUB_RAW_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const d = await res.json();
+    applyIntel(d);
+
+    const ts = new Date(d.updated_at);
+    const tsStr = ts.toUTCString().toUpperCase().replace('GMT','UTC');
+    if (statusEl) statusEl.textContent = `ACT: ${tsStr}`;
+
+  } catch (err) {
+    console.warn('Intel feed error:', err);
+    if (statusEl) statusEl.textContent = origText;
+  }
 }
-tickClock();
-setInterval(tickClock, 1000);
+
+function applyIntel(d) {
+  const setEl = (id, val) => { const el=document.getElementById(id); if(el) el.textContent=val; };
+  const setColor = (id, color) => { const el=document.getElementById(id); if(el) el.style.color=color; };
+
+  // ── Indicadores críticos ──
+  setEl('stat-ormuz',  d.indicators.ormuz_flow_pct + '%');
+  setEl('stat-risk',   d.indicators.risk_level);
+  setEl('stat-vix',    d.indicators.vix.toFixed(1));
+  setEl('stat-spread', '+' + d.indicators.insurance_spread_pct.toFixed(1) + '%');
+
+  const rc = RISK_COLOR[d.indicators.risk_level] || '#ffaa00';
+  setColor('stat-risk',  rc);
+  setColor('stat-ormuz', d.indicators.ormuz_flow_pct < 80 ? '#ff6600' : '#00ff88');
+
+  // ── Pulso header: naranja si perturbado ──
+  const pulseEl = document.querySelector('.pulse');
+  if (pulseEl && d.ormuz_status) {
+    const c = d.ormuz_status.disrupted ? '#ff6600' : '#00ff88';
+    pulseEl.style.background = c;
+    pulseEl.style.boxShadow  = `0 0 6px ${c}`;
+  }
+
+  // ── Ticker ──
+  if (d.ticker_items?.length) {
+    document.getElementById('ticker-text').textContent = d.ticker_items.join('   ◆   ');
+  }
+
+  // ── Barras de dependencia ──
+  const bars = {
+    'dep-china': d.dependency_bars?.china_pct,
+    'dep-india': d.dependency_bars?.india_pct,
+    'dep-japan': d.dependency_bars?.japan_pct,
+    'dep-korea': d.dependency_bars?.korea_pct,
+    'dep-other': d.dependency_bars?.other_pct,
+  };
+  Object.entries(bars).forEach(([id, pct]) => {
+    if (pct == null) return;
+    const fill  = document.getElementById(id);
+    const label = document.getElementById(id + '-label');
+    if (fill)  fill.style.width = pct + '%';
+    if (label) label.textContent = pct + '%';
+  });
+
+  // ── Feed de eventos ──
+  const eventsEl = document.getElementById('intel-events');
+  if (eventsEl && d.events?.length) {
+    eventsEl.innerHTML = d.events.map(ev => `
+      <div style="border-left:2px solid ${SEV_COLOR[ev.severity]||'#3a5a3a'};
+                  padding:5px 8px;margin-bottom:7px;background:rgba(0,0,0,0.2)">
+        <div style="font-size:7px;color:var(--muted);letter-spacing:1px;margin-bottom:2px">
+          ${ev.timestamp} · <span style="color:${SEV_COLOR[ev.severity]}">${ev.severity}</span>
+        </div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:1.5px;
+                    color:var(--white);margin-bottom:2px">${ev.headline}</div>
+        <div style="font-size:9px;color:var(--muted);line-height:1.4">${ev.detail}</div>
+      </div>
+    `).join('');
+  }
+}
+
+// Cargar al inicio + refrescar cada hora
+loadIntel();
+setInterval(loadIntel, 60 * 60 * 1000);
 
 </script>
 </body>
