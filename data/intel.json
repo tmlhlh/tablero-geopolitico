@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-03-11T20:58:45.775486+00:00",
+  "updated_at": "2026-03-11T21:04:46.628286+00:00",
   "market": {
-    "brent_usd": 90.25,
+    "brent_usd": 90.33,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 64.4,
+    "ormuz_flow_pct": 8.5,
     "vix": 24.23,
-    "risk_level": "ALTO",
-    "insurance_spread_pct": 3.6
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 4.0
   },
   "ormuz_status": {
-    "summary": "OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%."
   },
   "events": [
     {
@@ -24,6 +24,12 @@
       "headline": "¿CÓMO TERMINA ESTO? CUATRO ESCENARIOS POSIBLES PARA EL FINAL DE LA GUERRA EN IRÁ",
       "detail": "El conflicto abierto con Estados Unidos e Israel plantea distintos desenlaces posibles",
       "severity": "INFO",
+      "timestamp": "INTEL RECIENTE"
+    },
+    {
+      "headline": "WHY DOES IRAN WAR POSE MORE DILEMMAS FOR EUROPE?",
+      "detail": "Europe faces stiff competition with Asia for energy supplies as Russia profits.",
+      "severity": "CRÍTICO",
       "timestamp": "INTEL RECIENTE"
     },
     {
@@ -43,17 +49,11 @@
       "detail": "El reporte de la jornada para entender la ofensiva militar, las represalias y el creciente temor a una expansión del enfrentamiento",
       "severity": "INFO",
       "timestamp": "INTEL RECIENTE"
-    },
-    {
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
-      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
-      "severity": "INFO",
-      "timestamp": "INTEL RECIENTE"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.25",
+    "BRENT: $90.33 (+0.00%)",
     "VIX: 24.23",
-    "ORMUZ: OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%."
   ]
 }
