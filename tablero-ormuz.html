@@ -244,24 +244,24 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
       </div>
       <div class="sbox">
         <div class="sval" id="stat-risk" style="color:var(--amber)">—</div>
-        <div class="slbl">RIESGO GEOPOLÍTICO</div>
+        <div class="slbl">RIESGO GEO.</div>
       </div>
       <div class="sbox">
         <div class="sval" id="stat-vix" style="color:var(--blue)">—</div>
-        <div class="slbl">VIX VOLATILIDAD</div>
+        <div class="slbl">VIX</div>
       </div>
       <div class="sbox">
         <div class="sval" id="stat-spread" style="color:var(--amber)">—</div>
-        <div class="slbl">SPREAD SEGUROS</div>
+        <div class="slbl">Δ SEGUROS</div>
       </div>
     </div>
   </div>
 
-  <!-- Intel Feed: eventos recientes -->
+  <!-- Intel Feed -->
   <div class="psec" id="intel-feed-panel">
     <div class="stitle">Intel Feed</div>
     <div id="intel-events">
-      <div style="font-size:9px;color:var(--muted);letter-spacing:1px;">CARGANDO INTELIGENCIA...</div>
+      <div style="font-size:9px;color:var(--muted);letter-spacing:1px;padding:4px 0;">CARGANDO INTELIGENCIA...</div>
     </div>
   </div>
 
@@ -696,17 +696,15 @@ tickClock();
 setInterval(tickClock, 1000);
 
 // ═══════════════════════════════════════════════
-//  INTEL FEED — consume data/intel.json desde GitHub
-//  Actualizado cada hora vía GitHub Actions (RSS + Yahoo Finance)
+//  INTEL FEED — data/intel.json · GitHub Actions cron
+//  Fallback estático si el fetch falla
 // ═══════════════════════════════════════════════
-
 const GITHUB_RAW_URL =
-  'https://raw.githubusercontent.com/TPereyraRRII/tablero-ormuz/main/data/intel.json';
+  'https://raw.githubusercontent.com/tmlhlh/tablero-geopolitico/main/data/intel.json';
 
 const RISK_COLOR = { BAJO:'#00ff88', MEDIO:'#ffaa00', ALTO:'#ff6600', CRÍTICO:'#ff3333' };
 const SEV_COLOR  = { INFO:'#00cc66', ALERTA:'#ffaa00', CRÍTICO:'#ff3333' };
 
-// Ticker de fallback mientras carga
 const TICKER_FALLBACK = [
   'OP. EPIC FURY (EEUU) + ROARING LION (ISRAEL) — 28 FEB 2026',
   'KHAMENEI CONFIRMADO MUERTO — TRIUNVIRATO PROVISIONAL EN TEHERÁN',
@@ -721,90 +719,106 @@ const TICKER_FALLBACK = [
   'ORMUZ: TRÁFICO SEVERAMENTE PERTURBADO — SIN CIERRE FORMAL',
   'UK AUTORIZA DIEGO GARCÍA Y FAIRFORD PARA APOYO DEFENSIVO',
 ];
+
+// Arrancar con fallback; se sobreescribe si el fetch tiene éxito
 document.getElementById('ticker-text').textContent = TICKER_FALLBACK.join('   ◆   ');
+
+// Indicadores de fallback (escenario 28-Feb-2026)
+const FALLBACK_STATS = {
+  indicators: { ormuz_flow_pct: 35, risk_level: 'CRÍTICO', vix: 38.4, insurance_spread_pct: 312 },
+  dependency_bars: { china_pct:34, india_pct:22, japan_pct:14, korea_pct:10, other_pct:20 },
+  ormuz_status: { disrupted: true },
+  events: [
+    { timestamp:'28 FEB 2026', severity:'CRÍTICO', headline:'ORMUZ SEVERAMENTE PERTURBADO',
+      detail:'Tráfico reducido al ~35%. Seguros marítimos suspendidos. Desvío por Cabo de Buena Esperanza.' },
+    { timestamp:'28 FEB 2026', severity:'CRÍTICO', headline:'RAS TANURA ATACADA',
+      detail:'Drones iraníes impactan refinería Aramco. Producción saudí comprometida.' },
+    { timestamp:'28 FEB 2026', severity:'ALERTA',  headline:'QATAR ENERGY CESA GNL',
+      detail:'Suspensión de operaciones por riesgo en el Golfo. Mercados europeos bajo presión.' },
+  ],
+  ticker_items: TICKER_FALLBACK,
+};
+
+// Aplicar fallback inmediatamente (visible si el fetch falla o tarda)
+applyIntel(FALLBACK_STATS);
 
 async function loadIntel() {
   const statusEl = document.querySelector('.h-status span');
-  const origText = statusEl ? statusEl.textContent : '';
-  if (statusEl) statusEl.textContent = 'ACTUALIZANDO INTEL...';
-
   try {
     const res = await fetch(GITHUB_RAW_URL + '?t=' + Date.now());
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
     const d = await res.json();
     applyIntel(d);
-
-    const ts = new Date(d.updated_at);
-    const tsStr = ts.toUTCString().toUpperCase().replace('GMT','UTC');
-    if (statusEl) statusEl.textContent = `ACT: ${tsStr}`;
-
-  } catch (err) {
-    console.warn('Intel feed error:', err);
-    if (statusEl) statusEl.textContent = origText;
+    const ts = new Date(d.updated_at).toUTCString().toUpperCase().replace('GMT','UTC');
+    if (statusEl) statusEl.textContent = 'ACT: ' + ts;
+  } catch(err) {
+    // Feed no disponible: fallback ya visible, no hacer nada
+    console.warn('Intel feed offline, usando fallback:', err.message);
+    if (statusEl) statusEl.textContent = 'ANÁLISIS ESTÁTICO · 28 FEB 2026';
   }
 }
 
 function applyIntel(d) {
-  const setEl = (id, val) => { const el=document.getElementById(id); if(el) el.textContent=val; };
-  const setColor = (id, color) => { const el=document.getElementById(id); if(el) el.style.color=color; };
+  const setEl    = (id, v)  => { const e=document.getElementById(id); if(e) e.textContent=v; };
+  const setColor = (id, c)  => { const e=document.getElementById(id); if(e) e.style.color=c; };
 
-  // ── Indicadores críticos ──
-  setEl('stat-ormuz',  d.indicators.ormuz_flow_pct + '%');
-  setEl('stat-risk',   d.indicators.risk_level);
-  setEl('stat-vix',    d.indicators.vix.toFixed(1));
-  setEl('stat-spread', '+' + d.indicators.insurance_spread_pct.toFixed(1) + '%');
+  // Indicadores
+  const ind = d.indicators;
+  if (ind) {
+    setEl('stat-ormuz',  ind.ormuz_flow_pct + '%');
+    setEl('stat-risk',   ind.risk_level);
+    setEl('stat-vix',    Number(ind.vix).toFixed(1));
+    setEl('stat-spread', '+' + Number(ind.insurance_spread_pct).toFixed(0) + '%');
+    setColor('stat-ormuz', ind.ormuz_flow_pct < 80 ? '#ff6600' : '#00ff88');
+    setColor('stat-risk',  RISK_COLOR[ind.risk_level] || '#ffaa00');
+    setColor('stat-vix',   ind.vix > 30 ? '#ff6600' : '#4fc3f7');
+    setColor('stat-spread', '#ff6600');
+  }
 
-  const rc = RISK_COLOR[d.indicators.risk_level] || '#ffaa00';
-  setColor('stat-risk',  rc);
-  setColor('stat-ormuz', d.indicators.ormuz_flow_pct < 80 ? '#ff6600' : '#00ff88');
-
-  // ── Pulso header: naranja si perturbado ──
-  const pulseEl = document.querySelector('.pulse');
-  if (pulseEl && d.ormuz_status) {
+  // Pulso header
+  const pulse = document.querySelector('.pulse');
+  if (pulse && d.ormuz_status) {
     const c = d.ormuz_status.disrupted ? '#ff6600' : '#00ff88';
-    pulseEl.style.background = c;
-    pulseEl.style.boxShadow  = `0 0 6px ${c}`;
+    pulse.style.background = c;
+    pulse.style.boxShadow  = '0 0 6px ' + c;
   }
 
-  // ── Ticker ──
-  if (d.ticker_items?.length) {
+  // Ticker
+  if (d.ticker_items?.length)
     document.getElementById('ticker-text').textContent = d.ticker_items.join('   ◆   ');
+
+  // Barras dependencia
+  const dep = d.dependency_bars;
+  if (dep) {
+    [['dep-china',dep.china_pct],['dep-india',dep.india_pct],
+     ['dep-japan',dep.japan_pct],['dep-korea',dep.korea_pct],['dep-other',dep.other_pct]]
+    .forEach(([id, pct]) => {
+      if (pct == null) return;
+      const fill  = document.getElementById(id);
+      const label = document.getElementById(id + '-label');
+      if (fill)  fill.style.width = pct + '%';
+      if (label) label.textContent = pct + '%';
+    });
   }
 
-  // ── Barras de dependencia ──
-  const bars = {
-    'dep-china': d.dependency_bars?.china_pct,
-    'dep-india': d.dependency_bars?.india_pct,
-    'dep-japan': d.dependency_bars?.japan_pct,
-    'dep-korea': d.dependency_bars?.korea_pct,
-    'dep-other': d.dependency_bars?.other_pct,
-  };
-  Object.entries(bars).forEach(([id, pct]) => {
-    if (pct == null) return;
-    const fill  = document.getElementById(id);
-    const label = document.getElementById(id + '-label');
-    if (fill)  fill.style.width = pct + '%';
-    if (label) label.textContent = pct + '%';
-  });
-
-  // ── Feed de eventos ──
-  const eventsEl = document.getElementById('intel-events');
-  if (eventsEl && d.events?.length) {
-    eventsEl.innerHTML = d.events.map(ev => `
+  // Intel events
+  const evEl = document.getElementById('intel-events');
+  if (evEl && d.events?.length) {
+    evEl.innerHTML = d.events.map(ev => `
       <div style="border-left:2px solid ${SEV_COLOR[ev.severity]||'#3a5a3a'};
-                  padding:5px 8px;margin-bottom:7px;background:rgba(0,0,0,0.2)">
+           padding:5px 8px;margin-bottom:7px;background:rgba(0,0,0,0.25)">
         <div style="font-size:7px;color:var(--muted);letter-spacing:1px;margin-bottom:2px">
-          ${ev.timestamp} · <span style="color:${SEV_COLOR[ev.severity]}">${ev.severity}</span>
+          ${ev.timestamp} &nbsp;·&nbsp;
+          <span style="color:${SEV_COLOR[ev.severity]}">${ev.severity}</span>
         </div>
-        <div style="font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:1.5px;
-                    color:var(--white);margin-bottom:2px">${ev.headline}</div>
-        <div style="font-size:9px;color:var(--muted);line-height:1.4">${ev.detail}</div>
-      </div>
-    `).join('');
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:1.5px;
+             color:var(--white);margin-bottom:2px">${ev.headline}</div>
+        <div style="font-size:9px;color:var(--muted);line-height:1.5">${ev.detail}</div>
+      </div>`).join('');
   }
 }
 
-// Cargar al inicio + refrescar cada hora
+// Cargar datos frescos + refrescar cada hora
 loadIntel();
 setInterval(loadIntel, 60 * 60 * 1000);
 
