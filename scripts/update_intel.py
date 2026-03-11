@@ -29,7 +29,6 @@ YAHOO_SYMBOLS = {
 
 # Feeds RSS (sin API key)
 RSS_FEEDS = [
-RSS_FEEDS = [
     "https://feeds.reuters.com/reuters/businessNews", # REUTERS (Internacional)
     "https://feeds.bbci.co.uk/news/world/rss.xml", # BBC (Británica)
     "https://www.eia.gov/rss/todayinenergy.xml", # EIA (Energía)
