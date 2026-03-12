@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Petrodólar — Geopolítica Energética</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+:root {
+  --bg:        #04080a;
+  --panel:     #060d10;
+  --green:     #00ff88;
+  --green-dim: #00cc66;
+  --muted:     #2a4a3a;
+  --border:    #0d1f18;
+  --white:     #b8ccb8;
+  --amber:     #ffaa00;
+  --gold:      #ffd700;
+  --red:       #ff3333;
+  --purple:    #aa66ff;
+  --cyan:      #00ccff;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);
+  color:var(--white);font-family:'Share Tech Mono',monospace;}
+
+/* ── HEADER ── */
+#header{
+  position:fixed;top:0;left:0;right:0;height:48px;z-index:1000;
+  background:linear-gradient(180deg,#000 0%,rgba(4,8,10,0.95) 100%);
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;padding:0 16px;
+}
+.h-title{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:5px;
+  color:var(--gold);text-shadow:0 0 15px rgba(255,215,0,0.35);}
+.h-sub{font-size:8px;letter-spacing:2.5px;color:var(--muted);margin-top:3px;}
+.h-center{text-align:center;}
+.h-date{font-size:9px;letter-spacing:2px;color:var(--green-dim);}
+.h-meta{font-size:8px;color:var(--muted);margin-top:2px;}
+.h-right{text-align:right;font-size:9px;color:var(--muted);letter-spacing:1px;}
+#clock{font-size:13px;color:var(--green);letter-spacing:2px;}
+
+/* ── MAP ── */
+#map{position:fixed;top:48px;left:0;right:0;bottom:120px;z-index:1;}
+.leaflet-container{background:#04080a;}
+
+/* ── SLIDE PANEL (bottom) ── */
+#slide-panel{
+  position:fixed;bottom:0;left:0;right:0;height:120px;z-index:1000;
+  background:linear-gradient(0deg,#000 0%,rgba(4,8,10,0.97) 100%);
+  border-top:1px solid var(--border);
+  display:flex;align-items:stretch;
+}
+
+/* Prev/Next buttons */
+.nav-btn{
+  width:56px;display:flex;align-items:center;justify-content:center;
+  font-size:20px;color:var(--muted);cursor:pointer;
+  border:none;background:none;transition:color 0.2s;flex-shrink:0;
+  letter-spacing:0;font-family:'Share Tech Mono',monospace;
+}
+.nav-btn:hover{color:var(--gold);}
+.nav-btn:disabled{color:#111;cursor:default;}
+
+/* Slide content area */
+#slide-content{
+  flex:1;display:flex;flex-direction:column;justify-content:center;
+  padding:10px 16px;overflow:hidden;
+}
+#slide-counter{
+  font-size:8px;letter-spacing:3px;color:var(--muted);margin-bottom:4px;
+}
+#slide-title{
+  font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:3px;
+  color:var(--gold);line-height:1;margin-bottom:6px;
+  transition:opacity 0.4s;
+}
+#slide-body{
+  font-size:9px;line-height:1.6;color:var(--white);
+  transition:opacity 0.4s;
+}
+#slide-body b{color:var(--gold);}
+#slide-body .hl-green{color:var(--green);}
+#slide-body .hl-red{color:var(--red);}
+#slide-body .hl-amber{color:var(--amber);}
+#slide-body .hl-purple{color:var(--purple);}
+
+/* Progress dots */
+#slide-dots{
+  width:56px;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:5px;flex-shrink:0;padding:8px 0;
+}
+.dot{
+  width:5px;height:5px;border-radius:50%;
+  background:var(--muted);transition:all 0.3s;cursor:pointer;
+}
+.dot.active{background:var(--gold);box-shadow:0 0 6px rgba(255,215,0,0.6);transform:scale(1.4);}
+.dot.visited{background:var(--green-dim);}
+
+/* ── MAP OVERLAYS: animated flows ── */
+@keyframes flowPulse{0%{opacity:0.2;}50%{opacity:0.9;}100%{opacity:0.2;}}
+@keyframes nodePulse{0%{transform:scale(1);opacity:1;}50%{transform:scale(1.6);opacity:0.5;}100%{transform:scale(1);opacity:1;}}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+@keyframes slideUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+
+.flow-label{
+  background:rgba(4,8,10,0.85);border:1px solid var(--muted);
+  color:var(--white);font-family:'Share Tech Mono',monospace;
+  font-size:9px;letter-spacing:1px;padding:3px 7px;
+  white-space:nowrap;
+}
+.node-icon{
+  display:flex;align-items:center;justify-content:center;
+  border-radius:50%;font-size:10px;
+  animation: nodePulse 2s ease-in-out infinite;
+}
+.event-marker{
+  background:rgba(4,8,10,0.9);border-radius:3px;
+  font-family:'Share Tech Mono',monospace;font-size:8px;
+  padding:2px 5px;letter-spacing:1px;white-space:nowrap;
+  border-left:2px solid var(--red);
+}
+
+/* Leaflet popup override */
+.leaflet-popup-content-wrapper{
+  background:#060d10;border:1px solid var(--border);border-radius:2px;
+  box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+.leaflet-popup-content{color:var(--white);font-family:'Share Tech Mono',monospace;
+  font-size:10px;margin:10px 12px;line-height:1.6;}
+.leaflet-popup-tip{background:#060d10;}
+.leaflet-popup-close-button{color:var(--muted) !important;}
+.leaflet-popup-close-button:hover{color:var(--green) !important;}
+
+/* Stat overlay top-right */
+#stat-overlay{
+  position:fixed;top:58px;right:10px;z-index:900;
+  background:rgba(4,8,10,0.92);border:1px solid var(--border);
+  padding:8px 12px;min-width:130px;
+  transition:opacity 0.5s;
+}
+.stat-label{font-size:7px;letter-spacing:2px;color:var(--muted);margin-bottom:2px;}
+.stat-value{font-family:'Bebas Neue',sans-serif;font-size:26px;
+  letter-spacing:2px;line-height:1;}
+.stat-sub{font-size:7px;color:var(--muted);margin-top:2px;}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div id="header">
+  <div>
+    <div class="h-title">EL PETRODÓLAR</div>
+    <div class="h-sub">GEOPOLÍTICA ENERGÉTICA · ANÁLISIS HISTÓRICO</div>
+  </div>
+  <div class="h-center">
+    <div id="clock" class="h-date"></div>
+    <div class="h-meta">TOMÁS PEREYRA · OSINT · ANÁLISIS PROPIO</div>
+  </div>
+  <div class="h-right">
+    <div style="color:var(--gold);letter-spacing:2px;font-size:9px;">TABLERO 03</div>
+    <div style="margin-top:3px;">PETRODÓLAR</div>
+  </div>
+</div>
+
+<!-- MAP -->
+<div id="map"></div>
+
+<!-- STAT OVERLAY -->
+<div id="stat-overlay">
+  <div class="stat-label" id="stat-label">RESERVAS USD GLOBAL</div>
+  <div class="stat-value" id="stat-value" style="color:var(--gold);">—</div>
+  <div class="stat-sub" id="stat-sub"></div>
+</div>
+
+<!-- SLIDE PANEL -->
+<div id="slide-panel">
+  <button class="nav-btn" id="btn-prev" onclick="navigate(-1)">◀</button>
+  <div id="slide-content">
+    <div id="slide-counter"></div>
+    <div id="slide-title"></div>
+    <div id="slide-body"></div>
+  </div>
+  <div id="slide-dots"></div>
+  <button class="nav-btn" id="btn-next" onclick="navigate(1)">▶</button>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  CLOCK
+// ═══════════════════════════════════════════════════════
+function updateClock(){
+  const n=new Date();
+  document.getElementById('clock').textContent=
+    n.toISOString().replace('T',' ').slice(0,19)+' UTC';
+}
+updateClock(); setInterval(updateClock,1000);
+
+// ═══════════════════════════════════════════════════════
+//  MAP INIT
+// ═══════════════════════════════════════════════════════
+const map = L.map('map',{
+  zoomControl:false,
+  attributionControl:true,
+  worldCopyJump:false,
+  minZoom:2,maxZoom:8,
+}).setView([25,35],3);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
+  attribution:'© CartoDB',maxZoom:19,subdomains:'abcd',
+}).addTo(map);
+L.control.zoom({position:'bottomright'}).addTo(map);
+
+// ═══════════════════════════════════════════════════════
+//  LAYER MANAGEMENT
+// ═══════════════════════════════════════════════════════
+let activeLayers = [];
+
+function clearLayers(){
+  activeLayers.forEach(l=>{ try{ map.removeLayer(l); }catch(e){} });
+  activeLayers = [];
+}
+
+function addLayer(l){
+  l.addTo(map);
+  activeLayers.push(l);
+  return l;
+}
+
+// ── Icon helpers ──
+function makeNodeIcon(color, size=22, symbol='●'){
+  return L.divIcon({
+    className:'',
+    html:`<div class="node-icon" style="width:${size}px;height:${size}px;
+      background:radial-gradient(circle,${color}33 0%,${color}11 70%);
+      border:1.5px solid ${color};box-shadow:0 0 10px ${color}55;
+      animation-delay:${Math.random()*2}s;">
+      <span style="color:${color};font-size:${size*0.45}px;line-height:1;">${symbol}</span>
+    </div>`,
+    iconSize:[size,size],iconAnchor:[size/2,size/2],
+  });
+}
+
+function makeEventIcon(color, year){
+  return L.divIcon({
+    className:'',
+    html:`<div class="event-marker" style="border-left-color:${color};color:${color};">${year}</div>`,
+    iconSize:[50,18],iconAnchor:[25,9],
+  });
+}
+
+// ── Animated polyline (draws progressively) ──
+function animatedLine(latlngs, opts, delay=0){
+  const line = L.polyline([], opts);
+  line.addTo(map);
+  activeLayers.push(line);
+  let i=0;
+  setTimeout(()=>{
+    const iv = setInterval(()=>{
+      if(i >= latlngs.length){ clearInterval(iv); return; }
+      line.addLatLng(latlngs[i]);
+      i++;
+    }, 18);
+  }, delay);
+  return line;
+}
+
+// ── Flow label ──
+function flowLabel(latlng, text, delay=0){
+  const m = L.marker(latlng, {
+    icon: L.divIcon({
+      className:'',
+      html:`<div class="flow-label" style="opacity:0;transition:opacity 0.5s;">${text}</div>`,
+      iconSize:[1,1],iconAnchor:[0,0],
+    }),
+    interactive:false,
+  });
+  setTimeout(()=>{
+    m.addTo(map);
+    activeLayers.push(m);
+    setTimeout(()=>{
+      const el = m.getElement();
+      if(el) el.querySelector('.flow-label').style.opacity='1';
+    },100);
+  }, delay);
+  return m;
+}
+
+// ── Country highlight (circle overlay) ──
+function countryCircle(latlng, radius, color, opts={}){
+  return addLayer(L.circle(latlng, {
+    radius, color, fillColor:color,
+    fillOpacity:0.08, weight:1, dashArray:'3 4',
+    ...opts
+  }));
+}
+
+// ═══════════════════════════════════════════════════════
+//  SLIDES DEFINITION
+// ═══════════════════════════════════════════════════════
+const SLIDES = [
+
+  // ── 0: APERTURA ──────────────────────────────────────
+  {
+    title: 'EL DÓLAR HUÉRFANO',
+    year:  '15 AGO 1971',
+    body:  `<b>Nixon cierra la ventanilla del oro.</b> El sistema de Bretton Woods colapsa.<br>
+            El dólar, hasta entonces convertible en oro a <b>USD 35/onza</b>, queda sin ancla.<br>
+            <span class="hl-red">El "privilegio exorbitante" está en riesgo.</span>
+            La hegemonía financiera americana necesita un nuevo fundamento.`,
+    stat:  { label:'PRECIO DEL ORO', value:'$35', sub:'USD/oz · Bretton Woods (1944)', color:'var(--gold)' },
+    view:  [38,-98,4],
+    render(){
+      clearLayers();
+      // EEUU pulsante
+      addLayer(L.marker([38,-98], { icon: makeNodeIcon('#ffd700',30,'$') })
+        .bindPopup(`<b>Fort Knox — Reservas de oro de EEUU</b><br>
+          El sistema de Bretton Woods (1944) garantizaba que cualquier banco central<br>
+          podía cambiar sus dólares por oro a USD 35/onza.<br><br>
+          Para 1971, las tenencias extranjeras de dólares <b>superaban ampliamente</b><br>
+          el respaldo en oro disponible en Fort Knox.<br><br>
+          Nixon suspende la convertibilidad. El dólar queda huérfano.`));
+      // Línea hacia Europa (flujo de dólares saliendo)
+      animatedLine([[38,-98],[51,10],[35,35],[25,55]], {color:'#ffd700',weight:1.5,dashArray:'4 4',opacity:0.3});
+      flowLabel([48,30],'← dólares sin respaldo', 600);
+    }
+  },
+
+  // ── 1: EL SHOCK ──────────────────────────────────────
+  {
+    title: 'LA OAPEC SACA EL ARMA',
+    year:  '17 OCT 1973',
+    body:  `Guerra de Yom Kippur: Israel gana en el campo de batalla,
+            pero la coalición árabe descubre un arma más poderosa.<br>
+            <b>Embargo petrolero a los aliados de Israel.</b> La producción cae apenas un <b class="hl-red">7%</b>
+            pero el pánico cuadruplica el precio: <span class="hl-red">USD 3 → USD 12/barril.</span>
+            Occidente descubre su vulnerabilidad energética.`,
+    stat:  { label:'PRECIO DEL BARRIL', value:'$12', sub:'4× en 3 meses · OAPEC embargo', color:'var(--red)' },
+    view:  [23,40,4],
+    render(){
+      clearLayers();
+      // Países OAPEC
+      const oapec = [
+        [[24,46],'Arabia Saudita'],[[29,48],'Kuwait'],[[25,51],'EAU'],
+        [[33,44],'Iraq'],[[27,30],'Egipto'],[[33,13],'Libia'],
+        [[36,4],'Argelia'],[[16,48],'Yemen'],
+      ];
+      oapec.forEach(([ll,name],i)=>{
+        setTimeout(()=>{
+          addLayer(L.marker(ll,{icon:makeNodeIcon('#ff3333',20,'⬡')})
+            .bindPopup(`<b>${name}</b><br>Miembro OAPEC<br>Participante del embargo 1973`));
+          countryCircle(ll, 300000, '#ff3333');
+        }, i*120);
+      });
+      // Líneas de embargo (flujo cortado hacia Occidente)
+      setTimeout(()=>{
+        animatedLine([[24,46],[38,-98]], {color:'#ff3333',weight:2,dashArray:'6 4',opacity:0.5}, 0);
+        animatedLine([[24,46],[51,10]], {color:'#ff3333',weight:2,dashArray:'6 4',opacity:0.5}, 200);
+        flowLabel([35,-20],'✕ EMBARGO', 1200);
+        flowLabel([38,25],'✕ EMBARGO', 1400);
+      }, 1200);
+    }
+  },
+
+  // ── 2: EL PACTO DE YEDA ──────────────────────────────
+  {
+    title: 'EL PACTO DE YEDA',
+    year:  'JUL 1974',
+    body:  `<b>William Simon llega a Yeda con una propuesta.</b>
+            El intercambio es simple: <span class="hl-gold" style="color:var(--gold)">seguridad militar</span>
+            por <span class="hl-gold" style="color:var(--gold)">petróleo en dólares</span> + inversión en Treasuries.<br>
+            Arabia recibe paraguas nuclear y F-15s.
+            Washington recupera la demanda infinita de su moneda.<br>
+            <b>El acuerdo se mantiene secreto 41 años.</b>`,
+    stat:  { label:'TREASURIES SAUDÍES', value:'$135B', sub:'Cifra pública 2024 · pico estimado mayor', color:'var(--gold)' },
+    view:  [23,40,5],
+    render(){
+      clearLayers();
+      // Arabia
+      const arabia = addLayer(L.marker([24,46],{icon:makeNodeIcon('#ffd700',28,'♦')})
+        .bindPopup(`<b>Reino de Arabia Saudita — Yeda, Julio 1974</b><br><br>
+          <b>Lo que entrega Arabia:</b><br>
+          · Precio del crudo denominado exclusivamente en USD<br>
+          · Excedentes invertidos en Bonos del Tesoro EEUU<br><br>
+          <b>Lo que recibe Arabia:</b><br>
+          · Garantía de seguridad total (Casa de Saúd)<br>
+          · Armamento avanzado: F-15, tanques M1 Abrams<br>
+          · Paraguas nuclear implícito<br><br>
+          El acuerdo permanece clasificado por 41 años.`));
+      countryCircle([24,46], 500000, '#ffd700');
+      // EEUU
+      addLayer(L.marker([38,-98],{icon:makeNodeIcon('#ffd700',28,'$')})
+        .bindPopup(`<b>Washington — Secretario del Tesoro William Simon</b><br><br>
+          Objetivo: anclar la demanda global de dólares a un recurso físico.<br>
+          Si el petróleo solo se vende en USD, la demanda de la moneda<br>
+          vuelve a ser prácticamente infinita.<br><br>
+          "El privilegio exorbitante" regresa — pero ahora anclado al petróleo,<br>
+          no al oro.`));
+      // Línea del pacto
+      setTimeout(()=>{
+        animatedLine([[24,46],[38,-98]],{color:'#ffd700',weight:2.5,opacity:0.8},0);
+        flowLabel([30,0],'SEGURIDAD MILITAR →',800);
+        flowLabel([26,20],'← PETRÓLEO EN USD + TREASURIES',1400);
+      },500);
+    }
+  },
+
+  // ── 3: EL RECICLAJE ──────────────────────────────────
+  {
+    title: 'LA ALQUIMIA DEL RECICLAJE',
+    year:  '1974 — 2000',
+    body:  `El sistema opera como una <b>máquina perpetua:</b>
+            el mundo compra petróleo en dólares →
+            Arabia acumula excedentes →
+            Arabia compra Treasuries →
+            EEUU financia su déficit →
+            EEUU sostiene 700 bases y 11 portaaviones.<br>
+            <span class="hl-green">Resultado: la Guerra Fría se gana con dólares, no con bombas.</span>`,
+    stat:  { label:'RESERVAS USD GLOBAL', value:'71%', sub:'Año 2000 · pico del sistema', color:'var(--green)' },
+    view:  [20,30,2],
+    render(){
+      clearLayers();
+      // Los tres nodos del triángulo
+      const nodes = [
+        [[38,-98],'$','var(--gold)','Washington\nEEUU emite dólares para comprar petróleo'],
+        [[24,46],'♦','var(--amber)','Riad\nArabia recibe dólares, compra Treasuries'],
+        [[35,139],'円','var(--cyan)','Tokio · Berlín · París\nImportadores: venden moneda local, compran USD para adquirir petróleo'],
+      ];
+      nodes.forEach(([ll,sym,col,popup])=>{
+        addLayer(L.marker(ll,{icon:makeNodeIcon(col,26,sym)})
+          .bindPopup(`<b>${popup.split('\n')[0]}</b><br>${popup.split('\n')[1]}`));
+      });
+      // Flujos del triángulo con delays
+      animatedLine([[35,139],[24,46],[38,-98],[35,139]],
+        {color:'#ffd700',weight:2,dashArray:'5 3',opacity:0.6}, 0);
+      // Labels
+      flowLabel([30,90],'USD por petróleo →',800);
+      flowLabel([32,20],'← Treasuries',1300);
+      flowLabel([50,-40],'← dólares reciclados',1800);
+      // Países importadores secundarios
+      const importers = [[51,10],[48,2],[40,-4],[36,14],[55,37]];
+      importers.forEach((ll,i)=>{
+        setTimeout(()=>countryCircle(ll, 400000, '#ffd700', {fillOpacity:0.04,weight:0.5}), i*100+500);
+      });
+    }
+  },
+
+  // ── 4: EL SISTEMA EN SU PICO ─────────────────────────
+  {
+    title: 'EL MUNDO VERDE',
+    year:  '1980 — 2000',
+    body:  `En su punto álgido, el sistema petrodólar <b>financia la hegemonía global americana:</b>
+            déficit sin límites, gasto militar sostenido, Guerra Fría ganada.<br>
+            <b>71% de las reservas globales en dólares.</b>
+            <span class="hl-green">~95% del comercio petrolero en USD.</span>
+            Ninguna alternativa viable. El mundo entero juega con las reglas de Washington.`,
+    stat:  { label:'COMERCIO PETRÓLEO EN USD', value:'~95%', sub:'Estimado 1980-2000', color:'var(--green)' },
+    view:  [20,10,2],
+    render(){
+      clearLayers();
+      // Mapa mundial con países coloreados en verde (aliados petrodólar)
+      const dollarWorld = [
+        [51,10],[48,2],[40,-4],[36,14],[55,37],[38,-98],[25,-80],
+        [35,139],[37,127],[23,121],[22,114],[13,100],[4,114],
+        [28,77],[1,104],[-33,-70],[-15,-47],
+        [30,31],[30,3],[4,9],[0,38],
+      ];
+      dollarWorld.forEach((ll,i)=>{
+        setTimeout(()=>countryCircle(ll, 500000, '#00ff88', {fillOpacity:0.07,weight:0.8,dashArray:'2 6'}), i*40);
+      });
+      // Arabia en el centro
+      addLayer(L.marker([24,46],{icon:makeNodeIcon('#ffd700',24,'♦')}));
+      addLayer(L.marker([38,-98],{icon:makeNodeIcon('#00ff88',24,'$')}));
+      // Líneas radiales desde Arabia
+      const radials = [[51,10],[38,-98],[35,139],[37,127],[28,77],[30,31]];
+      radials.forEach((ll,i)=>{
+        setTimeout(()=>animatedLine([[24,46],ll],
+          {color:'#ffd700',weight:1,opacity:0.25,dashArray:'3 6'}), i*150);
+      });
+      flowLabel([20,-10],'SISTEMA EN SU PICO', 1000);
+    }
+  },
+
+  // ── 5: LAS GRIETAS ───────────────────────────────────
+  {
+    title: 'LAS PRIMERAS GRIETAS',
+    year:  '2000 — 2011',
+    body:  `Quien desafía el sistema, paga el precio.<br>
+            <b class="hl-red">Iraq 2000:</b> Saddam vende petróleo en euros. <span class="hl-red">2003: invasión.</span>
+            El petróleo vuelve a dólares inmediatamente post-invasión.<br>
+            <b class="hl-red">Libia 2009:</b> Gaddafi propone "dinar de oro" africano.
+            <span class="hl-red">2011: intervención OTAN.</span><br>
+            La historia no se repite, pero rima.`,
+    stat:  { label:'RESERVAS USD GLOBAL', value:'71%→66%', sub:'Erosión lenta 2000-2011', color:'var(--amber)' },
+    view:  [25,25,4],
+    render(){
+      clearLayers();
+      // Iraq
+      const iraqMarker = addLayer(L.marker([33,44],{icon:makeEventIcon('#ff3333','IRAQ 2000')})
+        .bindPopup(`<b>Iraq — Saddam Hussein, 2000</b><br><br>
+          Anuncia la venta de petróleo en <b>euros</b>, no en dólares.<br>
+          Amenaza directa al sistema petrodólar.<br><br>
+          <span style="color:#ff3333;"><b>2003: Invasión de EEUU.</b></sp
