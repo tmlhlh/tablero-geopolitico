@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-03-12T12:53:28.034706+00:00",
+  "updated_at": "2026-03-12T14:02:10.206382+00:00",
   "market": {
-    "brent_usd": 94.72,
+    "brent_usd": 95.69,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.96,
+    "vix": 26.46,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.6
+    "insurance_spread_pct": 4.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "12 MAR 2026 · 12:46 UTC",
-      "headline": "SUBE EL PRECIO DEL PETRÓLEO TRAS ATAQUES DE IRÁN A BUQUES EXTRANJEROS Y SE AGRAV",
-      "detail": "El valor del barril de crudo llegó a superar los 100 dólares este jueves, en una nueva jornada de ofensivas en Medio Oriente",
+      "timestamp": "12 MAR 2026 · 13:15 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
+      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 MAR 2026 · 12:13 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
-      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
+      "timestamp": "12 MAR 2026 · 12:46 UTC",
+      "headline": "SUBE EL PRECIO DEL PETRÓLEO TRAS ATAQUES DE IRÁN A BUQUES EXTRANJEROS Y SE AGRAV",
+      "detail": "El valor del barril de crudo llegó a superar los 100 dólares este jueves, en una nueva jornada de ofensivas en Medio Oriente",
       "severity": "CRÍTICO"
     },
     {
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "12 MAR 2026 · 06:31 UTC",
-      "headline": "IRAN TARGETS GULF NATIONS WITH MISSILES, DRONES AS OIL PRICES SOAR",
-      "detail": "Bahrain reports an attack on fuel tanks as Saudi Arabia shoots down drones headed towards an oilfield.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "11 MAR 2026 · 17:45 UTC",
       "headline": "LA BATALLA EN EL ESTRECHO DE ORMUZ AGRAVA LAS CONSECUENCIAS ECONÓMICAS DE LA GUE",
       "detail": "El mando militar iraní reitera que “no dejará pasar un solo litro de petróleo” con destino a EE UU, Israel o sus socios. “Prepárense para un barril de petróleo a 200 dólares”, advierte",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "10 MAR 2026 · 17:07 UTC",
+      "headline": "BBC VISITS KEY DUBAI PORT IN IRAN'S FIRING LINE",
+      "detail": "Trade at the Middle East's biggest port has been hit hard since Iran's blockade of the Strait of Hormuz began.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.72 (+0.00%)",
-    "VIX: 25.96",
+    "BRENT: $95.69 (+0.00%)",
+    "VIX: 26.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
