@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-11T23:22:24.660447+00:00",
+  "updated_at": "2026-03-12T01:19:08.023307+00:00",
   "market": {
-    "brent_usd": 93.31,
+    "brent_usd": 94.1,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,38 +15,44 @@
   },
   "events": [
     {
-      "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
-      "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "INFO"
+      "timestamp": "11 MAR 2026 · 23:56 UTC",
+      "headline": "‘PROUD AS A QATARI’: COUNTRY’S PM SALUTES RESILIENCE AMID IRANIAN ATTACKS",
+      "detail": "The country s prime minister urges resilience, says government committed to ensuring people s lives are not disrupted.",
+      "severity": "CRÍTICO"
     },
     {
+      "timestamp": "11 MAR 2026 · 23:33 UTC",
+      "headline": "UCRANIA RECHAZA A UNA DELEGACIÓN ENVIADA POR HUNGRÍA Y SE AGRAVA LA DISPUTA POR ",
+      "detail": "Kiev negó reuniones oficiales a funcionarios húngaros que buscaban inspeccionar el oleoducto Druzhba; la tensión crece tras la incautación de Budapest de vehículos blindados con 82 millones de dólares en efectivo y oro t",
+      "severity": "ALERTA"
+    },
+    {
+      "timestamp": "11 MAR 2026 · 23:19 UTC",
+      "headline": "MASSIVE FIRES ON TWO OIL TANKERS AFTER ATTACK IN IRAQI WATERS",
+      "detail": "Two foreign tankers were seen ablaze in Iraqi territorial waters after a strike near the al-Faw port.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 MAR 2026 · 22:43 UTC",
       "headline": "OIL TANKERS ABLAZE AS TRUMP VOWS TO ‘FINISH THE JOB’ IN IRAN: LIVE UPDATES, VIDE",
-      "detail": "\n            <img alt=\"Preview\" align=\"left\" style=\"margin-right: 10px;\" src=\"https://mf.b37mrtl.ru/files/2026.03/thumbnail/69b1ef35203027646e269a67.png\" /> Several oil tankers along with a major port",
+      "detail": "Several oil tankers along with a major port in Oman are reportedly in flames amid ongoing the US-Israeli war with Iran Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
+      "timestamp": "11 MAR 2026 · 22:38 UTC",
       "headline": "TRUMP: ‘I DON’T KNOW’ ABOUT REPORT US AT FAULT IN SCHOOL STRIKE",
-      "detail": "Donald Trump denied knowledge of a military investigation finding the US responsible for the Minab girls&#039; school strike.",
+      "detail": "Donald Trump denied knowledge of a military investigation finding the US responsible for the Minab girls school strike.",
       "severity": "CRÍTICO"
     },
     {
+      "timestamp": "11 MAR 2026 · 22:32 UTC",
       "headline": "IRAN-LINKED HACKERS HIT MEDICAL GIANT STRYKER IN RETALIATORY CYBERATTACK",
-      "detail": "Group claims to have seized 50 terabytes of data in response to deadly US-Israeli strikes on Iranian school.   ",
-      "severity": "CRÍTICO"
-    },
-    {
-      "headline": "DÍA 12 DE LA GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN: TODO LO QUE HAY QUE SAB",
-      "detail": "El reporte de la jornada para entender la ofensiva militar, las represalias y el creciente temor a una expansión del enfrentamiento",
-      "severity": "INFO"
-    },
-    {
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
-      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
+      "detail": "Group claims to have seized 50 terabytes of data in response to deadly US-Israeli strikes on Iranian school.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.31 (+0.00%)",
+    "BRENT: $94.1 (+0.00%)",
     "VIX: 24.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
