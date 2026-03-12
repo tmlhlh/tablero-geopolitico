@@ -145,6 +145,50 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);
 .stat-value{font-family:'Bebas Neue',sans-serif;font-size:26px;
   letter-spacing:2px;line-height:1;}
 .stat-sub{font-size:7px;color:var(--muted);margin-top:2px;}
+/* ── ADAPTACIÓN PARA MÓVILES (RESPONSIVE) ── */
+@media (max-width: 768px) {
+  /* 1. Encabezado más compacto */
+    .h-title { font-size: 16px; letter-spacing: 2px; }
+      #clock { display: none; } /* Oculta el reloj para evitar amontonamiento */
+
+        /* 2. Popups del mapa (Cuadros de información) */
+          .leaflet-popup {
+              max-width: 85vw !important; /* Limita el ancho al 85% de la pantalla */
+                }
+                  .leaflet-popup-content {
+                      width: auto !important; /* Anula el ancho fijo predeterminado */
+                          max-width: 100% !important;
+                              font-size: 12px; /* Letra más legible */
+                                  line-height: 1.5;
+                                      margin: 10px 14px;
+                                          word-wrap: break-word; /* Obliga al texto a bajar de línea */
+                                            }
+
+                                              /* 3. Panel de diapositivas inferior */
+                                                #slide-panel {
+                                                    height: auto; /* Altura dinámica para que no recorte el texto */
+                                                        min-height: 140px;
+                                                            max-height: 40vh; /* Máximo el 40% de la pantalla */
+                                                                padding-bottom: 15px; 
+                                                                  }
+                                                                    #slide-content {
+                                                                        overflow-y: auto; /* Permite deslizar si hay mucho texto */
+                                                                            padding: 10px;
+                                                                              }
+                                                                                #slide-title { font-size: 16px; margin-bottom: 4px; }
+                                                                                  #slide-body { font-size: 11.5px; line-height: 1.5; }
+                                                                                    .nav-btn { width: 45px; } /* Achica los botones laterales */
+
+                                                                                      /* 4. Cuadro de estadísticas (Arriba a la derecha) */
+                                                                                        #stat-overlay {
+                                                                                            top: 55px;
+                                                                                                right: 5px;
+                                                                                                    min-width: 100px;
+                                                                                                        padding: 6px 10px;
+                                                                                                          }
+                                                                                                            .stat-value { font-size: 18px; }
+                                                                                                            }
+                                                                                                            
 </style>
 </head>
 <body>
