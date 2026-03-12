@@ -579,27 +579,30 @@ CHOKEPOINTS.forEach(cp => {
 
 // ── Rutas alternativas ──
 const arcticLine = L.layerGroup([
-  // Segmento 1: Shanghái → hasta el antimeridiano por el lado asiático
+  // Segmento 1: Hamburgo → Mar de Barents → costa rusa → antimeridiano
   fatLine(
-    [[31.0,122.0],[55.0,130.0],[65.0,140.0],[72.0,155.0],[78.0,170.0],[80.0,180.0]],
+    [[53.5,10.0],[57.0,5.0],[62.0,5.0],[68.0,15.0],[71.0,25.0],[72.0,33.0],
+     [73.5,53.0],[73.0,68.0],[73.5,80.0],[75.0,95.0],[74.0,112.0],
+     [73.0,130.0],[71.5,140.0],[70.0,152.0],[67.0,163.0],[65.0,170.0],[66.0,180.0]],
     {color:'#aa66ff',weight:2,dashArray:'6 4',opacity:0.8},
-    `<b>Ruta del Mar del Norte (Ártico)</b><br>
-    Shanghái → Hamburgo vía paso ártico<br>
-    <strong>−40% distancia vs. Suez</strong> · −15-18 días<br><br>
-    Rusia controla el corredor. Exige contratación de rompehielos nucleares.<br>
+    `<b>Ruta del Mar del Norte (СМП)</b><br>
+    Hamburgo → Shanghái vía costa ártica rusa<br>
+    Mar de Barents · Mar de Kara · Mar de Láptev<br>
+    Mar Siberiano Oriental · Mar de Chukotka<br><br>
+    <strong>−40% distancia vs. Suez</strong> · −15-18 días<br>
+    Rusia controla el corredor y exige rompehielos nucleares.<br>
     40 rompehielos rusos (7 nucleares) vs. 2 de EEUU.<br>
     Tráfico +85% entre 2018-2022 (Rosatom).`
   ),
-  // Segmento 2: desde el antimeridiano por el lado americano → Hamburgo
+  // Segmento 2: desde antimeridiano → Mar de Bering → Mar de Ojotsk → Shanghái
   fatLine(
-    [[80.0,-180.0],[79.0,-160.0],[76.0,-120.0],[72.0,-60.0],[66.0,-30.0],[62.0,-10.0],[57.0,5.0],[53.5,10.0]],
+    [[66.0,-180.0],[64.0,-170.0],[60.0,-178.0],[56.0,163.0],[52.0,152.0],
+     [47.0,142.0],[43.0,135.0],[38.0,122.0],[31.0,122.0]],
     {color:'#aa66ff',weight:2,dashArray:'6 4',opacity:0.8},
-    `<b>Ruta del Mar del Norte (Ártico)</b><br>
-    Shanghái → Hamburgo vía paso ártico<br>
-    <strong>−40% distancia vs. Suez</strong> · −15-18 días<br><br>
-    Rusia controla el corredor. Exige contratación de rompehielos nucleares.<br>
-    40 rompehielos rusos (7 nucleares) vs. 2 de EEUU.<br>
-    Tráfico +85% entre 2018-2022 (Rosatom).`
+    `<b>Ruta del Mar del Norte (СМП)</b><br>
+    Mar de Bering · Mar de Ojotsk · Mar de Japón<br>
+    → Shanghái<br><br>
+    <strong>−40% distancia vs. Suez</strong> · −15-18 días`
   ),
 ]);
 
