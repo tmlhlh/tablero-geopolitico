@@ -336,6 +336,27 @@ function makeStarIcon(color){
   return L.divIcon({className:'',html:svg,iconSize:[18,18],iconAnchor:[9,9]});
 }
 
+function makeCarrierIcon(color, uncertain){
+  // Silueta estilizada de portaaviones. Si uncertain=true, agrega borde pulsante.
+  const pulse = uncertain
+    ? `<animate attributeName="stroke-opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>`
+    : '';
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="28" height="14" viewBox="0 0 28 14">
+    <rect x="1" y="5" width="22" height="5" rx="2" fill="${color}" opacity="0.9"/>
+    <rect x="18" y="2" width="8" height="3" rx="1" fill="${color}" opacity="0.7"/>
+    <rect x="6"  y="3" width="2" height="2" rx="0.5" fill="${color}"/>
+    <rect x="10" y="3" width="2" height="2" rx="0.5" fill="${color}"/>
+    <rect x="14" y="3" width="2" height="2" rx="0.5" fill="${color}"/>
+    <rect x="1"  y="10" width="22" height="1.5" rx="1" fill="${color}" opacity="0.4"/>
+    <rect x="0"  y="4" width="28" height="7" rx="3" fill="none"
+          stroke="${color}" stroke-width="${uncertain ? 1.5 : 0}"
+          stroke-dasharray="${uncertain ? '3 2' : 'none'}">
+      ${pulse}
+    </rect>
+  </svg>`;
+  return L.divIcon({className:'',html:svg,iconSize:[28,14],iconAnchor:[14,7]});
+}
+
 // ═══════════════════════════════════════════════
 //  CAPA GEOJSON ASÍNCRONA (BRICS+)
 // ═══════════════════════════════════════════════
@@ -428,7 +449,77 @@ const LAYERS = [
       L.marker([32.356,36.259], {icon:makeIcon('#4488ff')}).bindPopup("<b>Muwaffaq Salti Air Base (Jordania)</b><br>Hub vital para drones y cobertura del flanco occidental."),
       L.marker([28.878,48.163], {icon:makeIcon('#4488ff')}).bindPopup("<b>Camp Arifjan (Kuwait)</b><br>Centro logístico de las fuerzas del Ejército (USARCENT).")
   ]},
-  { id:'bases_otan', label:'Potencias Europeas (UK/FR)', color:'#aa66ff', active:false, items:[
+
+  // ── CSG POSTURE (11 MAR 2026) ──
+  { id:'csg_posture', label:'CSG Posture (11 MAR 2026)', color:'#00aaff', active:false, items:[
+
+      // USS Abraham Lincoln (CVN-72) — combat ops CENTCOM AOR
+      L.marker([20.5, 61.0], {icon:makeCarrierIcon('#00aaff', false)}).bindPopup(`
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:2px;color:#00aaff;margin-bottom:6px">
+          USS ABRAHAM LINCOLN (CVN-72)
+        </div>
+        <b>Abraham Lincoln CSG (ABECSG)</b><br>
+        5ª Flota · CENTCOM AOR<br>
+        Estado: <span style="color:#ff3333"><b>COMBAT OPS</b></span><br>
+        Desplegado: NOV 2025 · +107 días en el mar<br>
+        <hr style="border-color:#333;margin:6px 0">
+        <span style="font-size:10px;color:#888">Fuente: DVIDS / DOW · 8 MAR 2026</span>`),
+
+      // USS Gerald R. Ford (CVN-78) — Mar Rojo Norte, acceso restringido por Bab el-Mandeb
+      L.marker([27.8, 34.2], {icon:makeCarrierIcon('#ffaa00', true)}).bindPopup(`
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:2px;color:#ffaa00;margin-bottom:6px">
+          USS GERALD R. FORD (CVN-78) — POSICIÓN ESTIMADA
+        </div>
+        <b>Gerald R. Ford CSG (GRFCSG)</b><br>
+        5ª Flota · Mar Rojo Norte<br>
+        Estado: <span style="color:#ffaa00"><b>EN TRÁNSITO / ACCESO RESTRINGIDO</b></span><br>
+        Desplegado: JUN 2025 · +257 días en el mar<br>
+        <hr style="border-color:#333;margin:6px 0">
+        <b>⚠ Análisis OSINT:</b> Posición en Mar Rojo Norte confirmada al 8-MAR (DVIDS).
+        Cruce de Bab el-Mandeb <b>no confirmado</b>. Corredor bajo control hutí activo.
+        Confirmación pendiente de fuentes abiertas.<br>
+        <hr style="border-color:#333;margin:6px 0">
+        <span style="font-size:10px;color:#888">Fuente: DVIDS / @IANELLISJONES · 8 MAR 2026</span>`),
+
+      // USS George H.W. Bush (CVN-77) — en tránsito hacia teatro
+      L.marker([36.5, 19.0], {icon:makeCarrierIcon('#4488ff', true)}).bindPopup(`
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:2px;color:#4488ff;margin-bottom:6px">
+          USS GEORGE H.W. BUSH (CVN-77) — EN TRÁNSITO
+        </div>
+        <b>Bush CSG</b><br>
+        2ª Flota → desplegando hacia CENTCOM/EUCOM<br>
+        Estado: <span style="color:#4488ff"><b>DEPLOYING SOON</b></span><br>
+        <hr style="border-color:#333;margin:6px 0">
+        <span style="font-size:10px;color:#888">Fuente: FOX News / @LUCASFOXNEWS · 8 MAR 2026</span>`),
+
+      // Zona de acceso restringido — Bab el-Mandeb
+      L.polygon([
+        [13.5, 42.5], [13.5, 44.5],
+        [11.0, 44.5], [11.0, 42.5]
+      ], {
+        color:'#ff3333', fillColor:'#ff3333',
+        fillOpacity:0.18, weight:1.5, dashArray:'6 4'
+      }).bindPopup(`
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:2px;color:#ff3333;margin-bottom:6px">
+          BAB EL-MANDEB — ACCESO RESTRINGIDO
+        </div>
+        <b>Corredor bajo control de fuego hutí</b><br>
+        Campaña de misiles y drones de Ansar Alá desde OCT 2023.<br>
+        Tráfico comercial desviado al Cabo de Buena Esperanza.<br>
+        <b>Tránsito del Ford (CVN-78) hacia CENTCOM AOR no confirmado.</b><br>
+        <hr style="border-color:#333;margin:6px 0">
+        <span style="font-size:10px;color:#888">OSINT · 11 MAR 2026</span>`),
+
+      // Línea de tránsito bloqueado — Ford hacia Ormuz
+      fatLine(
+        [[27.8,34.2],[25.0,38.0],[18.0,41.5],[13.5,43.0]],
+        {color:'#ffaa00', weight:2, dashArray:'8 5', opacity:0.7},
+        `<b>Ruta de tránsito Ford (CVN-78) → CENTCOM AOR</b><br>
+        Estado: <span style="color:#ff3333"><b>PENDIENTE — Bab el-Mandeb no cruzado (estimado)</b></span><br>
+        El CSG requiere corredor seguro o neutralización de capacidades hutíes antes del cruce.`
+      ),
+
+  ]},
       L.marker([26.210,50.650], {icon:makeIcon('#aa66ff')}).bindPopup("<b>HMS Jufair (Bahréin)</b><br>Reino Unido / Apoyo naval permanente al este de Suez."),
       L.marker([24.430,54.410], {icon:makeIcon('#aa66ff')}).bindPopup("<b>Camp de la Paix (EAU)</b><br>Francia / Presencia conjunta (Naval, Aérea, Terrestre) frente a Ormuz.")
   ]},
