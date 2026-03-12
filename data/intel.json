@@ -1,24 +1,36 @@
 {
-  "updated_at": "2026-03-12T20:31:05.939906+00:00",
+  "updated_at": "2026-03-12T21:29:31.539824+00:00",
   "market": {
-    "brent_usd": 97.18,
+    "brent_usd": 97.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
+    "ormuz_flow_pct": 3.1,
     "vix": 27.29,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.1%"
   },
   "events": [
     {
-      "timestamp": "12 MAR 2026 · 20:25 UTC",
+      "timestamp": "12 MAR 2026 · 21:22 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 21:05 UTC",
+      "headline": "NOTICIAS DE CALIFORNIA EN VIVO: LA CASA BLANCA DESCARTA ATAQUES CON DRONES DE IR",
+      "detail": "Sigue nuestra cobertura al instante de las noticias de California hoy en vivo: nuevas leyes, clima y anuncios de Gavin Newsom; todas las actualizaciones minuto a minuto de EE.UU. este jueves 12 de mar",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 20:32 UTC",
+      "headline": "IRAN'S NEW SUPREME LEADER VOWS TO BLOCK STRAIT OF HORMUZ IN FIRST STATEMENT",
+      "detail": "A message attributed to Mojtaba Khamenei also says Iran will continue targeting US bases in the region.",
+      "severity": "INFO"
     },
     {
       "timestamp": "12 MAR 2026 · 20:23 UTC",
@@ -27,9 +39,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "12 MAR 2026 · 20:11 UTC",
-      "headline": "NOTICIAS DE CALIFORNIA EN VIVO: LA CASA BLANCA DESCARTA ATAQUES CON DRONES DE IR",
-      "detail": "Sigue nuestra cobertura al instante de las noticias de California hoy en vivo: nuevas leyes, clima y anuncios de Gavin Newsom; todas las actualizaciones minuto a minuto de EE.UU. este jueves 12 de mar",
+      "timestamp": "12 MAR 2026 · 20:20 UTC",
+      "headline": "EMIRATI MINISTER TELLS BBC IRAN MUST END STRIKES ON GULF",
+      "detail": "The UAE says more than 1,800 drones and missiles have been projected at the country since the war began.",
       "severity": "CRÍTICO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "HOW WILL THE WAR ON IRAN IMPACT THE US ECONOMY?",
       "detail": "Outcomes depend on how quickly oil tankers can return to the Strait of Hormuz, experts said.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 19:30 UTC",
-      "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
-      "detail": "El bloqueo del estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 19:24 UTC",
-      "headline": "“UN ATAQUE A LA ECONOMÍA MUNDIAL”: LAS CONSECUENCIAS DEL CONFLICTO EN MEDIO ORIE",
-      "detail": "Pase lo que pase en el estrecho de Ormuz, los mercados energéticos han cambiado para siempre.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.18 (+0.00%)",
+    "BRENT: $97.28 (+0.00%)",
     "VIX: 27.29",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.1%"
   ]
 }
