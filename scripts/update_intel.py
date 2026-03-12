@@ -69,16 +69,26 @@ def strip_html(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
-def format_date(rss_date: str) -> str:
-    """Convierte fecha RSS a '11 MAR 2026 · 23:22 UTC'. Fallback a ahora."""
+def parse_date(rss_date: str) -> datetime:
+    """Convierte el string de fecha a un objeto datetime real para ordenar."""
     if not rss_date:
-        return datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC").upper()
+        return datetime.min.replace(tzinfo=timezone.utc)
     for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
                 "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S.%f%z"]:
         try:
-            return datetime.strptime(rss_date.strip(), fmt).strftime("%d %b %Y · %H:%M UTC").upper()
+            dt = datetime.strptime(rss_date.strip(), fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
         except: continue
-    return datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC").upper()
+    return datetime.min.replace(tzinfo=timezone.utc)
+
+def format_date(dt: datetime) -> str:
+    """Convierte el datetime al formato visual del tablero."""
+    if dt == datetime.min.replace(tzinfo=timezone.utc):
+        return datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC").upper()
+    return dt.strftime("%d %b %Y · %H:%M UTC").upper()
+
 
 def is_relevant(item: dict):
     txt = f"{item['title']} {item['desc']}".lower()
