@@ -502,4 +502,235 @@ const SLIDES = [
         .bindPopup(`<b>Iraq — Saddam Hussein, 2000</b><br><br>
           Anuncia la venta de petróleo en <b>euros</b>, no en dólares.<br>
           Amenaza directa al sistema petrodólar.<br><br>
-          <span style="color:#ff3333;"><b>2003: Invasión de EEUU.</b></sp
+          <span style="color:#ff3333;"><b>2003: Invasión de EEUU.</b></span><br>
+          El petróleo iraquí vuelve a venderse en dólares<br>
+          en las semanas posteriores a la caída de Bagdad.<br><br>
+          Coincidencia o causalidad — el patrón es claro.`));
+      countryCircle([33,44], 400000, '#ff3333', {fillOpacity:0.1});
+      // Libia
+      setTimeout(()=>{
+        addLayer(L.marker([27,17],{icon:makeEventIcon('#ff6600','LIBIA 2009')})
+          .bindPopup(`<b>Libia — Muammar Gaddafi, 2009</b><br><br>
+            Propone un "<b>dinar de oro</b>" panafricano respaldado en oro<br>
+            para el comercio de petróleo. Recibiría apoyo de varios países africanos.<br><br>
+            <span style="color:#ff3333;"><b>2011: Intervención de la OTAN.</b></span><br>
+            Gaddafi eliminado. El proyecto abandonado.<br><br>
+            Francia fue uno de los principales impulsores de la intervención.<br>
+            Los cables diplomáticos de WikiLeaks sugieren que el oro libio<br>
+            era un factor en el cálculo.`));
+        countryCircle([27,17], 450000, '#ff6600', {fillOpacity:0.1});
+      }, 600);
+      // Flechas de intervención
+      setTimeout(()=>{
+        animatedLine([[38,-98],[33,44]],{color:'#ff3333',weight:1.5,dashArray:'4 4',opacity:0.5});
+        animatedLine([[48,2],[27,17]],{color:'#ff6600',weight:1.5,dashArray:'4 4',opacity:0.5});
+        flowLabel([36,15],'INTERVENCIÓN →',900);
+      },1200);
+    }
+  },
+
+  // ── 6: LA EROSIÓN ESTRUCTURAL ─────────────────────────
+  {
+    title: 'LA EROSIÓN ESTRUCTURAL',
+    year:  '2022 — 2026',
+    body:  `No todos los países son intervenibles. Las potencias grandes aprenden la lección.<br>
+            <b class="hl-purple">Rusia 2022:</b> sanciones SWIFT → vende en rublos, yuanes, rupias.
+            <b class="hl-red">25% del comercio energético ruso fuera del USD.</b><br>
+            <b>Saudi-China 2023:</b> primera venta de petróleo saudí en yuanes.
+            <span class="hl-amber">15% del comercio China-Golfo en yuanes.</span><br>
+            El sistema no colapsa — se <b>fragmenta.</b>`,
+    stat:  { label:'RESERVAS USD GLOBAL', value:'58%', sub:'2024 · −13pp en 24 años', color:'var(--red)' },
+    view:  [35,55,3],
+    render(){
+      clearLayers();
+      // Rusia
+      addLayer(L.marker([55,37],{icon:makeEventIcon('#aa66ff','RUSIA 2022')})
+        .bindPopup(`<b>Rusia — Post-invasión Ucrania, 2022</b><br><br>
+          Exclusión del sistema SWIFT obliga a buscar alternativas.<br>
+          · Venta de gas/petróleo en rublos a "países hostiles"<br>
+          · Acuerdos bilaterales en yuanes con China<br>
+          · Comercio en rupias con India<br><br>
+          <b>~25% del comercio energético ruso fuera del dólar</b> (2024)<br><br>
+          Primera superpotencia en operar fuera del sistema<br>
+          sin consecuencia militar directa.`));
+      countryCircle([60,60], 1200000, '#aa66ff', {fillOpacity:0.07});
+
+      // China-Arabia
+      setTimeout(()=>{
+        addLayer(L.marker([24,46],{icon:makeEventIcon('#ff6600','SAUDI 2023')})
+          .bindPopup(`<b>Arabia Saudita — Primera venta de petróleo en yuanes, 2023</b><br><br>
+            El acuerdo de Yeda de 1974 se fisura por primera vez.<br>
+            Arabia comienza a diversificar hacia China.<br><br>
+            · Acuerdo swap divisas yuan-riyal (2016)<br>
+            · Primera transacción de crudo en yuanes (2023)<br>
+            · ~15% del comercio energético China-Golfo en yuanes (2025)<br><br>
+            <b>El dólar deja de ser requisito sine qua non</b><br>
+            para la compra de energía.`));
+        addLayer(L.marker([35,105],{icon:makeNodeIcon('#ff6600',22,'¥')})
+          .bindPopup(`<b>China — Sistema alternativo emergente</b><br><br>
+            Petroyuan: sistema para comprar/vender crudo en renminbi.<br>
+            CIPS (sistema interbancario chino) como alternativa a SWIFT.<br><br>
+            El objetivo no es reemplazar al dólar — es crear<br>
+            una esfera alternativa donde el dólar no sea obligatorio.`));
+        animatedLine([[35,105],[24,46]],{color:'#ff6600',weight:2,opacity:0.6});
+        flowLabel([30,75],'¥ yuanes por crudo',800);
+      }, 700);
+
+      // BRICS
+      setTimeout(()=>{
+        addLayer(L.marker([20,78],{icon:makeEventIcon('#00ccff','BRICS 2023')})
+          .bindPopup(`<b>Cumbre BRICS — Moneda común propuesta, 2023</b><br><br>
+            Propuesta de canasta respaldada en commodities: oro, petróleo, granos.<br>
+            Estado: piloto de comercio bilateral, no lanzamiento pleno.<br><br>
+            Miembros originales + expansión 2024: Brasil, Rusia, India, China,<br>
+            Sudáfrica, Arabia Saudita, EAU, Irán, Etiopía, Egipto.<br><br>
+            Representan ~45% del PIB mundial en PPP.`));
+      }, 1400);
+
+      // Línea de erosión visual
+      setTimeout(()=>{
+        flowLabel([50,20],'SISTEMA FRAGMENTÁNDOSE', 1600);
+      }, 1600);
+    }
+  },
+
+  // ── 7: EL ARTI ───────────────────────────────────────
+  {
+    title: 'DEL PETRODÓLAR AL MINERALDÓLAR',
+    year:  'FEB 2026',
+    body:  `La respuesta de Washington no es defender el sistema viejo — es construir uno nuevo.<br>
+            <b>ARTI 2026:</b> Argentina ancla el litio y los minerales críticos a EEUU.
+            55 países adheridos. El mismo manual de Yeda — nuevos recursos.<br>
+            <span class="hl-gold" style="color:var(--gold)">Del petróleo al litio. De Yeda a Buenos Aires. Misma estrategia.</span>
+            La pregunta no es <i>si</i> el orden se redefine — es <i>a favor de quién.</i>`,
+    stat:  { label:'PROCESAMIENTO LITIO', value:'60%', sub:'China · concentración crítica 2026', color:'var(--cyan)' },
+    view:  [-20,-55,3],
+    render(){
+      clearLayers();
+      // Línea histórica Yeda→Buenos Aires
+      animatedLine([[24,46],[38,-98],[-34,-58]],
+        {color:'#ffd700',weight:2,dashArray:'5 3',opacity:0.6},0);
+
+      // Argentina (litio)
+      addLayer(L.marker([-24,-66],{icon:makeNodeIcon('#00ccff',26,'Li')})
+        .bindPopup(`<b>Triángulo del Litio — Argentina, Bolivia, Chile</b><br><br>
+          ~60% de las reservas mundiales de litio.<br>
+          El recurso crítico de la transición energética.<br><br>
+          ARTI 2026: Argentina prioriza a EEUU como socio<br>
+          para exploración, minería, refinación y exportación<br>
+          de cobre, litio y otros minerales críticos.<br><br>
+          "...over market-manipulating economies or enterprises."<br>
+          <span style="color:#888;font-size:9px">(Art. Anexo III — referencia implícita a China)</span>`));
+      countryCircle([-24,-66], 600000, '#00ccff', {fillOpacity:0.1});
+      countryCircle([-18,-65], 500000, '#00ccff', {fillOpacity:0.06}); // Bolivia
+      countryCircle([-24,-69], 500000, '#00ccff', {fillOpacity:0.06}); // Chile
+
+      // EEUU
+      addLayer(L.marker([38,-98],{icon:makeNodeIcon('#ffd700',24,'$')})
+        .bindPopup(`<b>Washington — ARTI 2026</b><br><br>
+          Réplica del manual de Yeda 1974:<br>
+          · Acceso preferencial a minerales críticos<br>
+          · Armonización regulatoria asimétrica<br>
+          · Cooperación en sanciones y controles de exportación<br><br>
+          El "privilegio exorbitante" busca nuevo ancla.`));
+
+      // China como actor bloqueado
+      setTimeout(()=>{
+        addLayer(L.marker([35,105],{icon:makeNodeIcon('#ff3333',20,'¥')})
+          .bindPopup(`<b>China — El actor excluido</b><br><br>
+            60% del procesamiento global de litio está en China.<br>
+            El ARTI busca explícitamente romper esa dependencia.<br><br>
+            "...over market-manipulating economies..."<br>
+            — Lenguaje diseñado para excluir a Beijing sin nombrarlo.`));
+        animatedLine([[35,105],[-24,-66]],{color:'#ff3333',weight:1.5,dashArray:'4 6',opacity:0.4});
+        flowLabel([5,30],'ruta bloqueada →',800);
+      }, 800);
+
+      // Línea del nuevo pacto
+      setTimeout(()=>{
+        animatedLine([[38,-98],[-34,-58]],{color:'#ffd700',weight:2.5,opacity:0.8});
+        flowLabel([-10,-70],'NUEVO PACTO',1200);
+        flowLabel([-40,-40],'← SEGURIDAD + MERCADO',1600);
+        flowLabel([-15,-80],'Li, Cu → ',2000);
+      }, 600);
+    }
+  },
+
+];
+
+// ═══════════════════════════════════════════════════════
+//  NAVIGATION ENGINE
+// ═══════════════════════════════════════════════════════
+let current = 0;
+let visited = new Set();
+
+function buildDots(){
+  const container = document.getElementById('slide-dots');
+  container.innerHTML = '';
+  SLIDES.forEach((_,i)=>{
+    const d = document.createElement('div');
+    d.className = 'dot' + (i===current?' active':'') + (visited.has(i)&&i!==current?' visited':'');
+    d.onclick = ()=>goTo(i);
+    container.appendChild(d);
+  });
+}
+
+function updateSlideUI(){
+  const s = SLIDES[current];
+  // fade out
+  document.getElementById('slide-title').style.opacity='0';
+  document.getElementById('slide-body').style.opacity='0';
+  setTimeout(()=>{
+    document.getElementById('slide-counter').textContent =
+      `${String(current+1).padStart(2,'0')} / ${String(SLIDES.length).padStart(2,'0')} · ${s.year}`;
+    document.getElementById('slide-title').textContent = s.title;
+    document.getElementById('slide-body').innerHTML = s.body;
+    document.getElementById('slide-title').style.opacity='1';
+    document.getElementById('slide-body').style.opacity='1';
+  },200);
+
+  // Stat overlay
+  if(s.stat){
+    document.getElementById('stat-label').textContent = s.stat.label;
+    document.getElementById('stat-value').textContent = s.stat.value;
+    document.getElementById('stat-value').style.color = s.stat.color;
+    document.getElementById('stat-sub').textContent = s.stat.sub;
+    document.getElementById('stat-overlay').style.opacity='1';
+  }
+
+  // Buttons
+  document.getElementById('btn-prev').disabled = current===0;
+  document.getElementById('btn-next').disabled = current===SLIDES.length-1;
+
+  // Dots
+  buildDots();
+}
+
+function goTo(idx){
+  visited.add(current);
+  current = idx;
+  updateSlideUI();
+  const s = SLIDES[current];
+  // Fly to view
+  if(s.view) map.flyTo([s.view[0],s.view[1]], s.view[2], {duration:1.2, easeLinearity:0.4});
+  // Render after fly starts
+  setTimeout(()=>s.render(), 400);
+}
+
+function navigate(dir){
+  const next = current + dir;
+  if(next < 0 || next >= SLIDES.length) return;
+  goTo(next);
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e=>{
+  if(e.key==='ArrowRight'||e.key==='ArrowDown') navigate(1);
+  if(e.key==='ArrowLeft'||e.key==='ArrowUp') navigate(-1);
+});
+
+// ── INIT ──
+goTo(0);
+</script>
+</body>
+</html>
