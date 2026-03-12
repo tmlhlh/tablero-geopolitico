@@ -60,7 +60,19 @@ def parse_rss(url: str):
     if not raw: return []
     try:
         root = ET.fromstring(raw.decode("utf-8", errors="replace"))
-        return [{"title": i.findtext("title"), "desc": i.findtext("description"), "date": i.findtext("pubDate")} for i in root.iter("item")]
+        items = []
+        for i in root.iter("item"):
+            title = i.findtext("title") or ""
+            desc = i.findtext("description") or ""
+            
+            # LIMPIEZA EXTREMA: Borra cualquier etiqueta HTML (como <img> o <p>)
+            clean_desc = re.sub(r'<[^>]+>', ' ', desc)
+            # Quita saltos de línea y espacios dobles que deja el HTML roto
+            clean_desc = re.sub(r'\s+', ' ', clean_desc).strip()
+            
+            date = i.findtext("pubDate") or ""
+            items.append({"title": title, "desc": clean_desc, "date": date})
+        return items
     except: return []
 
 def parse_date(rss_date: str) -> datetime:
