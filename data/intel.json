@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-03-12T06:50:57.757162+00:00",
+  "updated_at": "2026-03-12T07:43:55.282012+00:00",
   "market": {
-    "brent_usd": 94.14,
+    "brent_usd": 92.59,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.2,
-    "vix": 24.23,
+    "ormuz_flow_pct": 3.0,
+    "vix": 25.29,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.0
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.2%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "12 MAR 2026 · 07:35 UTC",
+      "headline": "FBI WARNS OF ‘IRANIAN DRONE THREAT’ TO CALIFORNIA",
+      "detail": "The FBI has warned of potential Iranian plans to launch drone raids on California using a vessel off the West Coast Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 07:12 UTC",
+      "headline": "OIL PRICE JUMPS DESPITE DEAL TO RELEASE RECORD AMOUNT OF RESERVES",
+      "detail": "It comes as Iranian attacks on ships intensify in the crucial Strait of Hormuz waterway.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 MAR 2026 · 06:31 UTC",
       "headline": "IRAN TARGETS GULF NATIONS WITH MISSILES, DRONES AS OIL PRICES SOAR",
@@ -27,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 MAR 2026 · 03:04 UTC",
-      "headline": "OIL PRICE JUMPS DESPITE DEAL TO RELEASE RECORD AMOUNT OF RESERVES",
-      "detail": "It comes as Iranian attacks on ships intensify in the crucial Strait of Hormuz waterway.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 MAR 2026 · 02:44 UTC",
       "headline": "UN SECURITY COUNCIL ADOPTS RESOLUTION CONDEMNING IRAN’S ATTACKS IN THE GULF",
       "detail": "UN Security Council draft resolution demanding Iran end its attacks on Gulf nations was cosponsored by 135 countries.",
@@ -43,17 +49,11 @@
       "headline": "MASSIVE FIRES ON TWO OIL TANKERS AFTER ATTACK IN IRAQI WATERS",
       "detail": "Two foreign tankers were seen ablaze in Iraqi territorial waters after a strike near the al-Faw port.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 MAR 2026 · 22:43 UTC",
-      "headline": "TRUMP CLAIMS STRAIT OF HORMUZ ‘IN GREAT SHAPE’ AS TANKERS BURN AND OIL SURGES OV",
-      "detail": "Several oil tankers along with a major port in Oman are reportedly in flames amid the US-Israeli war with Iran Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.14 (+0.00%)",
-    "VIX: 24.23",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.2%"
+    "BRENT: $92.59 (+0.00%)",
+    "VIX: 25.29",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
