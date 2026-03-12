@@ -8,6 +8,7 @@ update_intel.py — ARQUITECTURA MATEMÁTICA AVANZADA
 import json
 import re
 import math
+import html # <-- AGREGAR ESTA LÍNEA
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -65,10 +66,15 @@ def parse_rss(url: str):
             title = i.findtext("title") or ""
             desc = i.findtext("description") or ""
             
-            # LIMPIEZA EXTREMA: Borra cualquier etiqueta HTML (como <img> o <p>)
-            clean_desc = re.sub(r'<[^>]+>', ' ', desc)
-            # Quita saltos de línea y espacios dobles que deja el HTML roto
-            clean_desc = re.sub(r'\s+', ' ', clean_desc).strip()
+            # 1. DECODIFICACIÓN: Convierte las entidades trampa (&lt;img&gt;) en HTML real (<img>)
+            desc_unescaped = html.unescape(desc)
+            
+            # 2. ESTERILIZACIÓN EXTREMA: Arranca cualquier etiqueta HTML de cuajo
+            clean_desc = re.sub(r'<[^>]+>', ' ', desc_unescaped)
+            
+            # 3. PULIDO: Elimina caracteres especiales que puedan romper el JSON o el diseño
+            clean_desc = re.sub(r'&\w+;', ' ', clean_desc) # Vuela restos como &nbsp;
+            clean_desc = re.sub(r'\s+', ' ', clean_desc).strip() # Saca saltos de línea extra
             
             date = i.findtext("pubDate") or ""
             items.append({"title": title, "desc": clean_desc, "date": date})
