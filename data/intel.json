@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-03-12T14:02:10.206382+00:00",
+  "updated_at": "2026-03-12T15:56:20.506584+00:00",
   "market": {
-    "brent_usd": 95.69,
+    "brent_usd": 95.32,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 26.46,
+    "ormuz_flow_pct": 3.0,
+    "vix": 26.26,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.8
+    "insurance_spread_pct": 4.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "12 MAR 2026 · 13:15 UTC",
+      "timestamp": "12 MAR 2026 · 15:50 UTC",
+      "headline": "EL NUEVO LÍDER SUPREMO DE IRÁN, MOJTABA JAMENEÍ, PROMETE VENGANZA Y ANUNCIA QUE ",
+      "detail": "La televisión estatal iraní divulga un mensaje del dirigente sin que este comparezca ni siquiera en vídeo, en medio de dudas sobre su estado de salud",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 15:49 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 MAR 2026 · 12:46 UTC",
-      "headline": "SUBE EL PRECIO DEL PETRÓLEO TRAS ATAQUES DE IRÁN A BUQUES EXTRANJEROS Y SE AGRAV",
-      "detail": "El valor del barril de crudo llegó a superar los 100 dólares este jueves, en una nueva jornada de ofensivas en Medio Oriente",
+      "timestamp": "12 MAR 2026 · 15:47 UTC",
+      "headline": "MOJTABA KHAMENEI PRONUNCIA SU PRIMER MENSAJE DESDE QUE FUE ELEGIDO LÍDER SUPREMO",
+      "detail": "El hijo del ayatollah que murió en el primer día de los ataques de Estados Unidos e Israel permanece oculto; pidió a los países árabes del Golfo que “cierren” las bases norteamericanas",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 MAR 2026 · 08:30 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 13 OF US-ISRAEL ATTACKS?",
-      "detail": "Cyberattacks, tensions in the Strait of Hormuz and rising oil prices are deepening the global consequences of the war.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 07:35 UTC",
-      "headline": "FBI WARNS OF ‘IRANIAN DRONE THREAT’ TO CALIFORNIA",
-      "detail": "The FBI has warned of potential Iranian plans to launch drone raids on California using a vessel off the West Coast Read Full Article at RT.com",
+      "timestamp": "12 MAR 2026 · 15:45 UTC",
+      "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
+      "detail": "En LN+, los analistas internacionales Andrés Repetto y Juan Carlos Ozarán intercambiaron sus puntos de vista sobre la guerra en Medio Oriente; por qué el conflicto bélico se está volcando al mar",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 17:45 UTC",
-      "headline": "LA BATALLA EN EL ESTRECHO DE ORMUZ AGRAVA LAS CONSECUENCIAS ECONÓMICAS DE LA GUE",
-      "detail": "El mando militar iraní reitera que “no dejará pasar un solo litro de petróleo” con destino a EE UU, Israel o sus socios. “Prepárense para un barril de petróleo a 200 dólares”, advierte",
+      "timestamp": "12 MAR 2026 · 15:33 UTC",
+      "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
+      "detail": "El bloqueo del Estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
       "severity": "INFO"
     },
     {
-      "timestamp": "10 MAR 2026 · 17:07 UTC",
-      "headline": "BBC VISITS KEY DUBAI PORT IN IRAN'S FIRING LINE",
-      "detail": "Trade at the Middle East's biggest port has been hit hard since Iran's blockade of the Strait of Hormuz began.",
+      "timestamp": "12 MAR 2026 · 15:31 UTC",
+      "headline": "US MILITARY ‘NOT READY’ TO ESCORT OIL SHIPS THROUGH HORMUZ, OFFICIAL SAYS",
+      "detail": "Iran's Mojtaba Khamenei says strait should remain closed as Donald Trump claims US benefits from high oil prices.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.69 (+0.00%)",
-    "VIX: 26.46",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $95.32 (+0.00%)",
+    "VIX: 26.26",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
