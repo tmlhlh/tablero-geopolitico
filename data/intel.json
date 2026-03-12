@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-12T03:01:05.207514+00:00",
+  "updated_at": "2026-03-12T04:11:51.035888+00:00",
   "market": {
-    "brent_usd": 95.94,
+    "brent_usd": 95.9,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -21,12 +21,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "11 MAR 2026 · 23:33 UTC",
-      "headline": "UCRANIA RECHAZA A UNA DELEGACIÓN ENVIADA POR HUNGRÍA Y SE AGRAVA LA DISPUTA POR ",
-      "detail": "Kiev negó reuniones oficiales a funcionarios húngaros que buscaban inspeccionar el oleoducto Druzhba; la tensión crece tras la incautación de Budapest de vehículos blindados con 82 millones de dólares en efectivo y oro t",
-      "severity": "ALERTA"
-    },
-    {
       "timestamp": "11 MAR 2026 · 23:19 UTC",
       "headline": "MASSIVE FIRES ON TWO OIL TANKERS AFTER ATTACK IN IRAQI WATERS",
       "detail": "Two foreign tankers were seen ablaze in Iraqi territorial waters after a strike near the al-Faw port.",
@@ -34,7 +28,7 @@
     },
     {
       "timestamp": "11 MAR 2026 · 22:43 UTC",
-      "headline": "OIL TANKERS ABLAZE AS TRUMP VOWS TO ‘FINISH THE JOB’ IN IRAN: LIVE UPDATES, VIDE",
+      "headline": "TRUMP INSISTS IRAN ‘ABSOLUTELY DECIMATED’ AS OIL TANKERS AND PORTS BURN (VIDEOS)",
       "detail": "Several oil tankers along with a major port in Oman are reportedly in flames amid ongoing the US-Israeli war with Iran Read Full Article at RT.com",
       "severity": "INFO"
     },
@@ -49,10 +43,16 @@
       "headline": "IRAN-LINKED HACKERS HIT MEDICAL GIANT STRYKER IN RETALIATORY CYBERATTACK",
       "detail": "Group claims to have seized 50 terabytes of data in response to deadly US-Israeli strikes on Iranian school.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 MAR 2026 · 21:55 UTC",
+      "headline": "HOW TRUMP HAS ADDRESSED THE DEADLY IRAN SCHOOL BOMBING",
+      "detail": "The US president denies knowledge of findings that the US military was behind the deadly strike amid calls for a probe.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.94 (+0.00%)",
+    "BRENT: $95.9 (+0.00%)",
     "VIX: 24.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
