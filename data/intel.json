@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-03-12T22:22:01.068439+00:00",
+  "updated_at": "2026-03-12T23:24:54.519568+00:00",
   "market": {
-    "brent_usd": 98.43,
+    "brent_usd": 97.86,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
+    "ormuz_flow_pct": 3.3,
     "vix": 27.29,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.3%"
   },
   "events": [
     {
-      "timestamp": "12 MAR 2026 · 22:03 UTC",
+      "timestamp": "12 MAR 2026 · 23:10 UTC",
       "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
       "detail": "En LN+, los analistas internacionales Andrés Repetto y Juan Carlos Ozarán intercambiaron sus puntos de vista sobre la guerra en Medio Oriente; por qué el conflicto bélico se está volcando al mar",
       "severity": "INFO"
     },
     {
-      "timestamp": "12 MAR 2026 · 22:01 UTC",
+      "timestamp": "12 MAR 2026 · 23:03 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 22:27 UTC",
+      "headline": "NOTICIAS DE CALIFORNIA: LA CASA BLANCA DESCARTA ATAQUES CON DRONES DE IRÁN DESDE",
+      "detail": "Sigue nuestra cobertura al instante de las noticias de California hoy en vivo: nuevas leyes, clima y anuncios de Gavin Newsom; todas las actualizaciones minuto a minuto de EE.UU. este jueves 12 de mar",
       "severity": "CRÍTICO"
     },
     {
@@ -31,12 +37,6 @@
       "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
       "detail": "El bloqueo del estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 21:32 UTC",
-      "headline": "NOTICIAS DE CALIFORNIA: LA CASA BLANCA DESCARTA ATAQUES CON DRONES DE IRÁN DESDE",
-      "detail": "Sigue nuestra cobertura al instante de las noticias de California hoy en vivo: nuevas leyes, clima y anuncios de Gavin Newsom; todas las actualizaciones minuto a minuto de EE.UU. este jueves 12 de mar",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "12 MAR 2026 · 20:32 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.43 (+0.00%)",
+    "BRENT: $97.86 (+0.00%)",
     "VIX: 27.29",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.3%"
   ]
 }
