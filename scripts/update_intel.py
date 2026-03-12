@@ -61,6 +61,25 @@ def parse_rss(url: str):
         return [{"title": i.findtext("title"), "desc": i.findtext("description"), "date": i.findtext("pubDate")} for i in root.iter("item")]
     except: return []
 
+def strip_html(text: str) -> str:
+    """Elimina tags HTML, entidades y URLs de imágenes. Devuelve texto plano."""
+    if not text: return ""
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"&[a-zA-Z#0-9]+;", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+def format_date(rss_date: str) -> str:
+    """Convierte fecha RSS a '11 MAR 2026 · 23:22 UTC'. Fallback a ahora."""
+    if not rss_date:
+        return datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC").upper()
+    for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
+                "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S.%f%z"]:
+        try:
+            return datetime.strptime(rss_date.strip(), fmt).strftime("%d %b %Y · %H:%M UTC").upper()
+        except: continue
+    return datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC").upper()
+
 def is_relevant(item: dict):
     txt = f"{item['title']} {item['desc']}".lower()
     if any(ex in txt for ex in EXCLUSIONS): return False
@@ -121,10 +140,16 @@ def build_intel():
     pool_for_calculation = []
     for i in relevant[:20]:
         txt = f"{i['title']} {i['desc']}".lower()
-        sev = "CRÍTICO" if any(re.search(rf"{k}", txt) for k in ["attack", "mine", "sunk", "ataque", "mina", "hundido"]) else "INFO"
+        if any(re.search(rf"{k}", txt) for k in ["attack", "mine", "sunk", "ataque", "mina", "hundido", "strike", "explosion"]):
+            sev = "CRÍTICO"
+        elif any(re.search(rf"{k}", txt) for k in ["tension", "threat", "disruption", "tensión", "amenaza", "perturbación", "rise", "spike"]):
+            sev = "ALERTA"
+        else:
+            sev = "INFO"
         pool_for_calculation.append({
+            "timestamp": format_date(i.get('date')),
             "headline": i['title'].upper()[:80],
-            "detail": i['desc'][:200] if i['desc'] else "",
+            "detail": strip_html(i['desc'])[:220] if i['desc'] else "",
             "severity": sev
         })
 
