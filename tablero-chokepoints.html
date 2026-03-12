@@ -435,4 +435,344 @@ const CHOKEPOINTS = [
       sub: 'BÓSFORO · DARDANELOS · MAR DE MÁRMARA',
       facts: [
         'Único paso entre el <strong>Mar Negro</strong> y el Mediterráneo. <strong>~3M bbl/día</strong> de petróleo kazajo, ruso y azerí.',
-        'La <strong>Convención de Montreux (1936)</stro
+        'La <strong>Convención de Montreux (1936)</strong> da a Turquía el derecho de cerrar el paso a navíos militares en guerra.',
+        'Putin anexó Crimea (2014) para controlar Sebastopol — la única base naval rusa de aguas cálidas. <strong>Sin Bósforo, está atrapada.</strong>',
+        'En 2022, Turquía invocó Montreux y cerró parcialmente los estrechos. La Flota del Mar Negro rusa quedó encerrada.',
+        'Turquía juega a ambos lados: compra gas ruso, vende drones a Ucrania, media en negociaciones de grano.',
+      ],
+      actors: [
+        {color:'#00cccc', name:'TURQUÍA (OTAN)', role:'Control soberano. Montreux = palanca de poder geopolítico único.'},
+        {color:'#ffcc00', name:'RUSIA', role:'Dependiente. Flota del Mar Negro asfixiada sin acceso al Mediterráneo.'},
+        {color:'#4488ff', name:'OTAN / OCCIDENTE', role:'Interés en mantener restricción naval rusa.'},
+        {color:'#00ff88', name:'UCRANIA / KAZAJISTÁN', role:'Exportaciones de grano y petróleo dependen del acceso.'},
+      ]
+    }
+  },
+  {
+    id: 'danish',
+    name: 'Estrechos Daneses',
+    region: 'Báltico · Mar del Norte',
+    latlng: [56.0, 10.5],
+    color: '#4488ff',
+    flow: '2-3M bbl/día',
+    pct: 3,
+    vulnerability: 55,
+    status: 'monitor',
+    statusLabel: 'BAJO MONITOREO',
+    detail: {
+      headline: 'ESTRECHOS DANESES',
+      sub: 'ÖRESUND · GRAN BELT · PEQUEÑO BELT',
+      facts: [
+        'Única salida naval rusa al Atlántico sin atravesar el hielo del Ártico. <strong>2-3M bbl/día</strong> de petróleo ruso y gas noruego.',
+        'La <strong>"Flota Fantasma"</strong> rusa evade sanciones con buques viejos y sin seguro occidental — pesadilla ambiental para Dinamarca.',
+        'Con la adhesión de <strong>Suecia y Finlandia (2023-2024)</strong>, el Báltico se convirtió en un "Lago OTAN".',
+        'La isla sueca de <strong>Gotland</strong> es la pieza clave: quien la controla, controla el Báltico.',
+        'Para Rusia: <strong>claustrofobia estratégica</strong>. Kaliningrado y San Petersburgo son sus únicas salidas en un mar rodeado de OTAN.',
+      ],
+      actors: [
+        {color:'#4488ff', name:'DINAMARCA / OTAN', role:'Control legal y físico. Convención de Copenhague (1857).'},
+        {color:'#ffcc00', name:'RUSIA', role:'Dependiente. Shadow Fleet como respuesta a sanciones occidentales.'},
+        {color:'#00cccc', name:'SUECIA / FINLANDIA', role:'Nuevos miembros OTAN. Completan el cerco del Báltico.'},
+        {color:'#aa66ff', name:'NORUEGA', role:'Gas noruego transita hacia Europa. Interés en libre circulación.'},
+      ]
+    }
+  },
+];
+
+const ALT_ROUTES = [
+  {
+    id: 'arctic',
+    name: 'Ruta del Ártico',
+    sub: 'Shanghái → Hamburgo · −40% distancia',
+    color: '#aa66ff',
+    status: 'monitor',
+    statusLabel: 'APERTURA GRADUAL',
+  },
+  {
+    id: 'drake',
+    name: 'Drake / Magallanes',
+    sub: 'Backup de Panamá · Sin esclusas',
+    color: '#00ff88',
+    status: 'normal',
+    statusLabel: 'OPERATIVA',
+  },
+];
+
+// ═══════════════════════════════════════════════
+//  MAPA
+// ═══════════════════════════════════════════════
+const map = L.map('map', {
+  zoomControl: false,
+  clickTolerance: 10,
+  minZoom: 2,
+  maxZoom: 8,
+}).setView([25, 20], 3);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '© CartoDB',
+  subdomains: 'abcd',
+  maxZoom: 19,
+}).addTo(map);
+
+L.control.zoom({position: 'bottomright'}).addTo(map);
+
+// ── Capas del mapa ──
+const mapLayers = {};
+let activeCP = null;
+
+// Helper: ícono de chokepoint
+function makeCPIcon(color, active) {
+  const size = active ? 18 : 14;
+  const glow = active ? `filter:drop-shadow(0 0 6px ${color})` : '';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}">
+    <polygon points="${size/2},1 ${size-1},${size/2} ${size/2},${size-1} 1,${size/2}"
+      fill="${color}" stroke="rgba(255,255,255,0.3)" stroke-width="1"
+      style="${glow}"/>
+  </svg>`;
+  return L.divIcon({className:'',html:svg,iconSize:[size,size],iconAnchor:[size/2,size/2]});
+}
+
+// Helper: fatLine
+function fatLine(latlngs, opts, popupContent) {
+  const visible = L.polyline(latlngs, opts);
+  const hit = L.polyline(latlngs, {weight:20, opacity:0, interactive:true});
+  const grp = L.layerGroup([visible, hit]);
+  if (popupContent) {
+    visible.bindPopup(popupContent);
+    hit.bindPopup(popupContent);
+  }
+  return grp;
+}
+
+// ── Rutas de flujo energético globales (siempre visibles) ──
+// ── Rutas de flujo base (siempre visibles, directo al mapa) ──
+fatLine([[26.0,56.5],[13.0,43.5],[5.5,80.0],[2.5,101.5],[22.0,114.0]],
+  {color:'#ff3333',weight:2.5,opacity:0.2},
+  '<b>Ruta Golfo → Asia</b><br>Ormuz → Índico → Malaca → Asia Oriental<br><span style="color:#888;font-size:10px">~60% del petróleo de China, Japón y Corea</span>'
+).addTo(map);
+
+fatLine([[26.0,56.5],[13.0,43.5],[12.5,43.3],[29.0,32.5],[30.5,32.3],[32.3,30.0],[36.0,18.0],[38.0,10.0]],
+  {color:'#ffaa00',weight:2.5,opacity:0.2},
+  '<b>Ruta Golfo → Europa</b><br>Ormuz → Bab el-Mandeb → Mar Rojo → Suez → Mediterráneo<br><span style="color:#888;font-size:10px">Principal ruta de abastecimiento europeo</span>'
+).addTo(map);
+
+fatLine([[-30.0,-50.0],[10.0,-30.0],[38.0,-10.0],[50.0,0.0]],
+  {color:'#4488ff',weight:2,opacity:0.15},
+  '<b>Ruta Atlántica</b><br>Golfo de México / Venezuela → Europa<br><span style="color:#888;font-size:10px">EEUU exportador neto de crudo (shale)</span>'
+).addTo(map);
+
+// ── Construir capas de chokepoints ──
+CHOKEPOINTS.forEach(cp => {
+  const marker = L.marker(cp.latlng, {icon: makeCPIcon(cp.color, false)});
+  marker.on('click', () => selectCP(cp.id));
+
+  // Zona de influencia (círculo semitransparente)
+  const zone = L.circle(cp.latlng, {
+    radius: cp.id === 'suez' || cp.id === 'panama' ? 120000 : 200000,
+    color: cp.color, fillColor: cp.color,
+    fillOpacity: 0.06, weight: 1, dashArray: '4 4',
+    interactive: false,
+  });
+
+  mapLayers[cp.id] = L.layerGroup([zone, marker]).addTo(map);
+});
+
+// ── Rutas alternativas ──
+const arcticLine = fatLine(
+  [[55.0,130.0],[65.0,140.0],[75.0,160.0],[80.0,170.0],[80.0,-170.0],[78.0,-50.0],[70.0,-25.0],[60.0,5.0],[53.5,10.0]],
+  {color:'#aa66ff',weight:2,dashArray:'6 4',opacity:0.7},
+  `<b>Ruta del Mar del Norte (Ártico)</b><br>
+  Shanghái → Hamburgo vía paso ártico<br>
+  <strong>−40% distancia vs. Suez</strong> · −15-18 días<br><br>
+  Rusia controla el corredor. Exige contratación de rompehielos nucleares.<br>
+  40 rompehielos rusos (7 nucleares) vs. 2 de EEUU.<br>
+  Tráfico +85% entre 2018-2022 (Rosatom).`
+);
+
+const drakeZone = L.polygon([
+  [-54.0,-70.0],[-60.0,-65.0],[-65.0,-60.0],[-62.0,-55.0],[-55.0,-60.0],[-52.0,-68.0]
+], {
+  color:'#00ff88', fillColor:'#00ff88',
+  fillOpacity:0.08, weight:1.5, dashArray:'5 4',
+}).bindPopup(`<b>Pasaje de Drake / Canal de Beagle</b><br>
+Única conexión natural entre Atlántico y Pacífico sin esclusas.<br><br>
+Cuando Panamá falla (sequía, crisis) o el Ártico es inasequible,
+el mundo vuelve a mirar al sur.<br><br>
+<b>Islas Malvinas:</b> el "portaaviones insumergible" que vigila esta ruta.
+Para el Reino Unido, mantener Malvinas es controlar el chokepoint final.<br><br>
+<span style="color:#888;font-size:10px">Análisis: T. Pereyra · OSINT</span>`);
+
+const magallanesLine = fatLine(
+  [[-40.0,-65.0],[-47.0,-65.5],[-52.0,-68.5],[-54.0,-70.5],[-54.0,-72.0],[-53.2,-74.0]],
+  {color:'#00ff88', weight:2, dashArray:'5 4', opacity:0.8},
+  `<b>Estrecho de Magallanes</b><br>Ruta clásica pero difícil para superpetroleros.<br>
+  Corrientes y vientos extremos limitan el calado operativo.`
+);
+
+const malvinasMarker = L.marker([-51.7,-59.5], {
+  icon: L.divIcon({
+    className:'',
+    html:`<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+      <polygon points="7,1 13,7 7,13 1,7" fill="#00ff88" stroke="rgba(255,255,255,0.3)" stroke-width="1"
+        style="filter:drop-shadow(0 0 4px #00ff88)"/>
+    </svg>`,
+    iconSize:[14,14],iconAnchor:[7,7]
+  })
+}).bindPopup(`<b>Islas Malvinas / Falklands</b><br>
+<span style="color:#ff3333">Reino Unido (administración) · Argentina (reclamación)</span><br><br>
+Para el Reino Unido, Malvinas no es nostalgia imperial:<br>
+es controlar el <b>chokepoint final</b> entre los dos océanos más
+importantes de la Tierra. Quien domina Malvinas, domina la puerta
+del Atlántico Sur-Pacífico.<br><br>
+La OTAN realiza ejercicios constantes en esta zona.<br>
+<span style="color:#888;font-size:10px">Análisis geopolítico: T. Pereyra</span>`);
+
+mapLayers['arctic'] = arcticLine;
+mapLayers['drake']  = L.layerGroup([drakeZone, magallanesLine, malvinasMarker]);
+
+// ═══════════════════════════════════════════════
+//  UI — BOTONES Y PANEL DETALLE
+// ═══════════════════════════════════════════════
+
+function getStatusClass(s) {
+  return {active:'status-active',warning:'status-warning',normal:'status-normal',monitor:'status-monitor'}[s]||'status-normal';
+}
+
+// Botones chokepoints
+const cpContainer = document.getElementById('cp-buttons');
+CHOKEPOINTS.forEach(cp => {
+  const btn = document.createElement('div');
+  btn.className = 'cp-btn';
+  btn.id = 'btn-' + cp.id;
+  btn.style.setProperty('--cp-color', cp.color);
+  btn.innerHTML = `
+    <div class="cp-dot" style="background:${cp.color}"></div>
+    <div class="cp-info">
+      <div class="cp-name">${cp.name}</div>
+      <div class="cp-flow">${cp.flow} · ${cp.region}</div>
+      <span class="cp-status ${getStatusClass(cp.status)}">${cp.statusLabel}</span>
+    </div>`;
+  btn.addEventListener('click', () => selectCP(cp.id));
+  cpContainer.appendChild(btn);
+});
+
+// Botones rutas alternativas
+const altContainer = document.getElementById('alt-buttons');
+ALT_ROUTES.forEach(r => {
+  const btn = document.createElement('div');
+  btn.className = 'cp-btn';
+  btn.id = 'btn-' + r.id;
+  btn.style.setProperty('--cp-color', r.color);
+  btn.innerHTML = `
+    <div class="cp-dot" style="background:${r.color}"></div>
+    <div class="cp-info">
+      <div class="cp-name">${r.name}</div>
+      <div class="cp-flow">${r.sub}</div>
+      <span class="cp-status ${getStatusClass(r.status)}">${r.statusLabel}</span>
+    </div>`;
+  btn.addEventListener('click', () => toggleAlt(r.id));
+  altContainer.appendChild(btn);
+});
+
+// Barras de vulnerabilidad
+const vulnContainer = document.getElementById('vuln-bars');
+[...CHOKEPOINTS].sort((a,b) => b.vulnerability - a.vulnerability).forEach(cp => {
+  const color = cp.vulnerability > 85 ? 'var(--red)' : cp.vulnerability > 70 ? 'var(--amber)' : 'var(--blue)';
+  vulnContainer.innerHTML += `
+    <div class="vuln-item">
+      <div class="vuln-header">
+        <span>${cp.name.toUpperCase().split(' ').pop()}</span>
+        <span>${cp.vulnerability}/100</span>
+      </div>
+      <div class="vuln-bar">
+        <div class="vuln-fill" style="width:${cp.vulnerability}%;background:${color}"></div>
+      </div>
+    </div>`;
+});
+
+// Seleccionar chokepoint
+function selectCP(id) {
+  const cp = CHOKEPOINTS.find(c => c.id === id);
+  if (!cp) return;
+
+  // Deseleccionar anterior
+  if (activeCP) {
+    document.getElementById('btn-' + activeCP)?.classList.remove('active');
+    const prev = CHOKEPOINTS.find(c => c.id === activeCP);
+    if (prev) {
+      const layers = mapLayers[activeCP]?.getLayers?.();
+      if (layers) layers.forEach(l => { if (l.setIcon) l.setIcon(makeCPIcon(prev.color, false)); });
+    }
+  }
+
+  activeCP = id;
+  document.getElementById('btn-' + id)?.classList.add('active');
+
+  // Actualizar ícono
+  const layers = mapLayers[id]?.getLayers?.();
+  if (layers) layers.forEach(l => { if (l.setIcon) l.setIcon(makeCPIcon(cp.color, true)); });
+
+  // Fly to
+  map.flyTo(cp.latlng, 5, {duration: 1.2});
+
+  // Panel detalle
+  const d = cp.detail;
+  document.getElementById('cp-detail').innerHTML = `
+    <div class="cp-detail-header">${d.headline}</div>
+    <div class="cp-detail-sub">${d.sub}</div>
+    ${d.facts.map(f => `<div class="cp-fact">${f}</div>`).join('')}
+    <div style="font-size:8px;letter-spacing:2px;color:var(--muted);margin-top:8px;margin-bottom:5px">▸ ACTORES</div>
+    <div class="cp-actors">
+      ${d.actors.map(a => `
+        <div class="actor-row">
+          <div class="actor-dot" style="background:${a.color}"></div>
+          <div>
+            <span class="actor-name">${a.name}</span>
+            <span class="actor-role"> · ${a.role}</span>
+          </div>
+        </div>`).join('')}
+    </div>`;
+}
+
+// Toggle rutas alternativas
+const altActive = {arctic: false, drake: false};
+function toggleAlt(id) {
+  altActive[id] = !altActive[id];
+  const btn = document.getElementById('btn-' + id);
+  if (altActive[id]) {
+    mapLayers[id].addTo(map);
+    btn?.classList.add('active');
+    if (id === 'arctic') map.flyTo([72, 60], 3, {duration:1.2});
+    if (id === 'drake')  map.flyTo([-55,-65], 4, {duration:1.2});
+  } else {
+    map.removeLayer(mapLayers[id]);
+    btn?.classList.remove('active');
+  }
+}
+
+// ═══════════════════════════════════════════════
+//  TICKER + RELOJ
+// ═══════════════════════════════════════════════
+const TICKER = [
+  'ORMUZ: TRÁFICO SEVERAMENTE PERTURBADO — CONFLICTO ACTIVO EEUU/ISRAEL/IRÁN · MAR 2026',
+  'BAB EL-MANDEB: CORREDOR BAJO FUEGO HUTÍ — FORD (CVN-78) SIN CONFIRMAR CRUCE',
+  'SUEZ: TRÁFICO REDUCIDO — DEPENDENCIA DE BAB EL-MANDEB EXPUESTA',
+  'PANAMÁ: CAPACIDAD REDUCIDA POR SEQUÍA — DESVÍOS AL CABO DE HORNOS EN AUMENTO',
+  'BÓSFORO: FLOTA DEL MAR NEGRO RUSA ENCERRADA — TURQUÍA INVOCÓ CONVENCIÓN DE MONTREUX',
+  'ESTRECHOS DANESES: BÁLTICO = "LAGO OTAN" TRAS ADHESIÓN DE SUECIA Y FINLANDIA',
+  'RUTA ÁRTICA: +85% TRÁFICO 2018-2022 — RUSIA CONTROLA CON 40 ROMPEHIELOS (7 NUCLEARES)',
+  'MALVINAS: OTAN EJERCICIOS PERMANENTES — PORTAAVIONES INSUMERGIBLE DEL ATLÁNTICO SUR',
+  '7 CHOKEPOINTS · 2 SIMULTÁNEAMENTE PERTURBADOS · SISTEMA ENERGÉTICO GLOBAL BAJO ESTRÉS',
+  'ANÁLISIS: T. PEREYRA · LIC. RELACIONES INTERNACIONALES (UNDEF) · @TPEREYRARRII',
+];
+document.getElementById('ticker-text').textContent = TICKER.join('   ◆   ');
+
+function tickClock() {
+  const el = document.getElementById('live-date');
+  if (el) el.textContent = new Date().toUTCString().toUpperCase().replace('GMT','UTC');
+}
+tickClock();
+setInterval(tickClock, 1000);
+</script>
+</body>
+</html>
