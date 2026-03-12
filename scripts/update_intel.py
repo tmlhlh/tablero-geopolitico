@@ -144,9 +144,10 @@ def build_intel():
     for url in RSS_FEEDS: raw_items.extend(parse_rss(url))
     
     relevant = [i for i in raw_items if is_relevant(i)]
-    relevant.sort(key=lambda x: x['date'] or '', reverse=True)
+        # ORDENAMIENTO CRONOLÓGICO REAL
+    relevant.sort(key=lambda x: parse_date(x.get('date', '')), reverse=True)
     
-    # ANALIZAMOS LAS TOP 20 PARA EL CÁLCULO (aunque mostremos 6)
+    # ANALIZAMOS LAS TOP 20 PARA EL CÁLCULO
     pool_for_calculation = []
     for i in relevant[:20]:
         txt = f"{i['title']} {i['desc']}".lower()
@@ -156,12 +157,17 @@ def build_intel():
             sev = "ALERTA"
         else:
             sev = "INFO"
+        
+        # Obtenemos la fecha real y la formateamos
+        dt_obj = parse_date(i.get('date', ''))
+            
         pool_for_calculation.append({
-            "timestamp": format_date(i.get('date')),
+            "timestamp": format_date(dt_obj),
             "headline": i['title'].upper()[:80],
             "detail": strip_html(i['desc'])[:220] if i['desc'] else "",
             "severity": sev
         })
+
 
     # Calculamos el status con el pool de 20 noticias
     ormuz = infer_ormuz_status(pool_for_calculation, brent["change"], vix["price"])
