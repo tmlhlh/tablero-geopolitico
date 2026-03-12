@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-03-12T05:48:28.756876+00:00",
+  "updated_at": "2026-03-12T05:52:56.619357+00:00",
   "market": {
-    "brent_usd": 95.89,
+    "brent_usd": 95.24,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.7,
+    "ormuz_flow_pct": 4.8,
     "vix": 24.23,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.0
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.7%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.8%"
   },
   "events": [
     {
@@ -41,19 +41,19 @@
     {
       "timestamp": "11 MAR 2026 · 22:43 UTC",
       "headline": "TRUMP CLAIMS STRAIT OF HORMUZ ‘IN GREAT SHAPE’ AS TANKERS BURN AND OIL SURGES OV",
-      "detail": "\n            <img alt=\"Preview\" align=\"left\" style=\"margin-right: 10px;\" src=\"https://mf.b37mrtl.ru/files/2026.03/thumbnail/69b1ef35203027646e269a67.png\" /> Several oil tankers along with a major port",
+      "detail": "Several oil tankers along with a major port in Oman are reportedly in flames amid the US-Israeli war with Iran Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
       "timestamp": "11 MAR 2026 · 21:11 UTC",
       "headline": "UN SECURITY COUNCIL ADOPTS GULF COUNTRIES’ DRAFT RESOLUTION",
-      "detail": "The UN Security Council has passed a resolution put forward by GCC members calling on Iran to halt attacks on the Gulf. ",
+      "detail": "The UN Security Council has passed a resolution put forward by GCC members calling on Iran to halt attacks on the Gulf.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.89 (+0.00%)",
+    "BRENT: $95.24 (+0.00%)",
     "VIX: 24.23",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.7%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.8%"
   ]
 }
