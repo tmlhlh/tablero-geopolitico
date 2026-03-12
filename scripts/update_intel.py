@@ -1,12 +1,13 @@
 """
-update_intel.py — VERSIÓN FINAL BLINDADA
-- Fix: Cierre de Facto por presión acumulada (aunque no diga 'cerrado').
-- Fix: Indicador de Riesgo Geo (evita NAN).
-- Sensibilidad: Captura plurales y saturación de noticias bilingües.
+update_intel.py — ARQUITECTURA MATEMÁTICA AVANZADA
+- Co-ocurrencia semántica y proximidad.
+- Atenuación logarítmica (evita cámara de eco mediática).
+- Decaimiento temporal (Exponential time-decay para autosanación).
 """
 
 import json
 import re
+import math
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -28,13 +29,14 @@ RSS_FEEDS = [
     "https://rss.dw.com/rdf/rss-sp-top"
 ]
 
-# Keywords de monitoreo (Singulares para el Regex inteligente)
-KEYWORDS = ["oil", "tanker", "iran", "strike", "mine", "missile", "drone", "blockade", "sunk", "attack", "petróleo", "buque", "irán", "ataque", "mina", "misil", "bloqueo", "hundido", "hormuz", "ormuz"]
+KEYWORDS = ["strike", "mine", "missile", "drone", "blockade", "sunk", "attack", "ataque", "mina", "misil", "bloqueo", "hundido", "explosion", "explosión"]
+MARITIME = ["gulf", "hormuz", "ormuz", "strait", "shipping", "vessel", "tanker", "port", "naval", "fleet", "maritime", "golfo", "estrecho", "buque", "barco", "petrolero", "puerto", "naviera"]
+TOP_PRIORITY = ["hormuz", "ormuz", "bab el-mandeb"]
 EXCLUSIONS = ["metanfetamina", "narcotráfico", "droga", "laos", "fútbol"]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
-# ── 2. HELPERS ───────────────────────────────────────────
+# ── 2. HELPERS (Cronología y Feeds) ───────────────────────
 
 def fetch_url(url: str):
     try:
@@ -61,80 +63,74 @@ def parse_rss(url: str):
         return [{"title": i.findtext("title"), "desc": i.findtext("description"), "date": i.findtext("pubDate")} for i in root.iter("item")]
     except: return []
 
-def strip_html(text: str) -> str:
-    """Elimina tags HTML, entidades y URLs de imágenes. Devuelve texto plano."""
-    if not text: return ""
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"&[a-zA-Z#0-9]+;", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
 def parse_date(rss_date: str) -> datetime:
-    """Convierte el string de fecha a un objeto datetime real para ordenar."""
-    if not rss_date:
-        return datetime.min.replace(tzinfo=timezone.utc)
-    for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
-                "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S.%f%z"]:
+    if not rss_date: return datetime.min.replace(tzinfo=timezone.utc)
+    for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT", "%Y-%m-%dT%H:%M:%S%z"]:
         try:
             dt = datetime.strptime(rss_date.strip(), fmt)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
+            if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
             return dt
         except: continue
     return datetime.min.replace(tzinfo=timezone.utc)
 
 def format_date(dt: datetime) -> str:
-    """Convierte el datetime al formato visual del tablero."""
-    if dt == datetime.min.replace(tzinfo=timezone.utc):
-        return datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC").upper()
+    if dt == datetime.min.replace(tzinfo=timezone.utc): return datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC").upper()
     return dt.strftime("%d %b %Y · %H:%M UTC").upper()
-
 
 def is_relevant(item: dict):
     txt = f"{item['title']} {item['desc']}".lower()
     if any(ex in txt for ex in EXCLUSIONS): return False
-    # Captura singular y plural (s/es)
-    return any(re.search(rf"\b{re.escape(k)}(s|es)?\b", txt) for k in KEYWORDS)
+    if any(re.search(rf"\b{re.escape(tp)}s?\b", txt) for tp in TOP_PRIORITY): return True
+    has_keyword = any(re.search(rf"\b{re.escape(k)}(s|es)?\b", txt) for k in KEYWORDS)
+    has_context = any(re.search(rf"\b{re.escape(m)}(s|es)?\b", txt) for m in MARITIME)
+    return has_keyword and has_context
 
-# ── 3. LÓGICA DE INTELIGENCIA ────────────────────────────
+# ── 3. MOTOR MATEMÁTICO (Inferencia) ─────────────────────
 
 def infer_ormuz_status(events: list, brent_chg: float, vix: float) -> dict:
-    """Análisis táctico con lookback extendido y sensibilidad de saturación."""
-    # Consolidamos texto de un pool mayor de noticias para evitar 'olvidos'
-    txt = " ".join((e["headline"] + " " + e["detail"]).lower() for e in events)
+    now = datetime.now(timezone.utc)
+    event_pressure = 0
+    is_structural_closure = False
     
-    weights = {
-        "closed": 60, "cerrado": 60, "blockade": 60, "bloqueo": 60,
-        "mine": 55, "mina": 55, "sunk": 50, "hundido": 50, 
-        "attack": 35, "ataque": 35, "missile": 30, "misil": 30,
-        "buque": 15, "tanker": 15, "explos": 25 # Captura explosión/explosion
-    }
+    proximity_pattern = r"(attack|ataque|strike|missile|misil|mine|mina|drone|explosion|explosión).{0,80}(tanker|vessel|buque|petrolero|ship|barco|port|puerto)"
     
-    pressure = 0
-    for k, w in weights.items():
-        # Buscamos variantes y plurales de forma más agresiva
-        matches = len(re.findall(rf"{re.escape(k)}", txt))
-        if matches > 0:
-            pressure += (w * min(matches, 4)) # Permitimos más acumulación
-    
-    pressure += (brent_chg * 5 if brent_chg > 0 else 0)
-    pressure += (max(0, vix - 18) * 3) # Bajamos el piso del VIX para detectar miedo antes
+    for e in events:
+        txt = (e["headline"] + " " + e["detail"]).lower()
+        
+        # CÁLCULO DE DECAIMIENTO TEMPORAL (Half-life de 18 horas)
+        age_hours = (now - e["dt_obj"]).total_seconds() / 3600
+        decay = math.exp(-age_hours / 18) if age_hours > 0 else 1.0
+        
+        # PROXIMIDAD Y ATENUACIÓN LOGARÍTMICA
+        prox_matches = len(re.findall(proximity_pattern, txt))
+        if prox_matches > 0:
+            # log1p(x) = log(1+x). Evita que 5 noticias idénticas multipliquen la presión x5.
+            event_pressure += (40 * math.log1p(prox_matches) * decay)
+            
+        # EVENTOS ESTRUCTURALES (Pesos absolutos)
+        if any(re.search(rf"\b{k}(s|es)?\b", txt) for k in ["closed", "cerrado", "blockade", "bloqueo", "mine", "mina", "sunk", "hundido"]):
+            is_structural_closure = True
+            event_pressure += (50 * decay)
 
-    # CÁLCULO DE FLUJO
-    flow = max(100 - pressure, 3)
+    # PRESIÓN DE MERCADO
+    market_pressure = (brent_chg * 5 if brent_chg > 0 else 0) + (max(0, vix - 18) * 3)
     
-    # TRIGGER CRÍTICO: Si hay mención de minas o hundimientos, O la presión es > 40
-    # el flujo colapsa al mínimo residual inmediatamente.
-    crit_terms = ["mine", "mina", "sunk", "hundido", "blockade", "bloqueo", "cerrado"]
-    is_crit = any(re.search(rf"\b{k}", txt) for k in crit_terms)
-    
-    if is_crit or pressure > 40:
-        flow = 3.0 # El 'cero absoluto' operativo
+    # PRESIÓN TOTAL PONDERADA
+    total_pressure = (event_pressure * 0.7) + (market_pressure * 0.3)
 
-    summary = f"CIERRE FACTICIO: Flujo al {flow}%" if flow < 10 else ("DISRUPCIÓN SEVERA" if flow < 50 else "OPERATIVO")
-    return {"flow": flow, "summary": summary, "pressure": pressure}
+    # FÓRMULA DE FLUJO EXPONENCIAL (Curva suave de atrición)
+    # Sensibilidad K = 35. A mayor presión, el flujo decae exponencialmente hacia 3%.
+    flow = 100 * math.exp(-total_pressure / 35)
+    flow = max(flow, 3.0) 
     
-# ── 4. CONSTRUCCIÓN DEL JSON ─────────────────────────────
+    if is_structural_closure:
+        flow = min(flow, 8.5) # Techo estricto si hay cierre de facto
+        
+    summary = f"CIERRE FACTICIO: Flujo al {flow:.1f}%" if flow < 15 else ("DISRUPCIÓN SEVERA" if flow < 50 else "ESTRECHO OPERATIVO")
+    
+    return {"flow": round(flow, 1), "summary": summary, "pressure": total_pressure}
+
+# ── 4. CONSTRUCCIÓN ───────────────────────────────────────
 
 def build_intel():
     brent = fetch_yahoo(YAHOO_SYMBOLS["brent"])
@@ -144,36 +140,39 @@ def build_intel():
     for url in RSS_FEEDS: raw_items.extend(parse_rss(url))
     
     relevant = [i for i in raw_items if is_relevant(i)]
-        # ORDENAMIENTO CRONOLÓGICO REAL
     relevant.sort(key=lambda x: parse_date(x.get('date', '')), reverse=True)
     
-    # ANALIZAMOS LAS TOP 20 PARA EL CÁLCULO
     pool_for_calculation = []
-    for i in relevant[:20]:
-        txt = f"{i['title']} {i['desc']}".lower()
-        if any(re.search(rf"{k}", txt) for k in ["attack", "mine", "sunk", "ataque", "mina", "hundido", "strike", "explosion"]):
-            sev = "CRÍTICO"
-        elif any(re.search(rf"{k}", txt) for k in ["tension", "threat", "disruption", "tensión", "amenaza", "perturbación", "rise", "spike"]):
-            sev = "ALERTA"
-        else:
-            sev = "INFO"
+    seen_headlines = set()
+    
+    for i in relevant:
+        if len(pool_for_calculation) >= 20: break
         
-        # Obtenemos la fecha real y la formateamos
+        headline = i['title'].upper()[:80]
+        # Deduplicación estricta por titular para ayudar al logaritmo
+        if headline in seen_headlines: continue
+        seen_headlines.add(headline)
+        
+        txt = f"{i['title']} {i['desc']}".lower()
+        sev = "CRÍTICO" if any(re.search(rf"{k}", txt) for k in ["attack", "mine", "sunk", "ataque", "mina", "hundido", "strike"]) else "INFO"
+        
         dt_obj = parse_date(i.get('date', ''))
-            
         pool_for_calculation.append({
             "timestamp": format_date(dt_obj),
-            "headline": i['title'].upper()[:80],
-            "detail": strip_html(i['desc'])[:220] if i['desc'] else "",
-            "severity": sev
+            "headline": headline,
+            "detail": i['desc'][:200] if i['desc'] else "",
+            "severity": sev,
+            "dt_obj": dt_obj # Pasamos el objeto fecha para el cálculo de decaimiento
         })
 
-
-    # Calculamos el status con el pool de 20 noticias
     ormuz = infer_ormuz_status(pool_for_calculation, brent["change"], vix["price"])
     
-    # Nivel de Riesgo
-    risk_level = "CRÍTICO" if ormuz["flow"] < 10 else ("ALTO" if ormuz["pressure"] > 25 else "MEDIO")
+    # Limpiamos el dt_obj antes de exportar a JSON porque no es serializable
+    export_events = []
+    for e in pool_for_calculation[:6]:
+        export_events.append({k:v for k,v in e.items() if k != "dt_obj"})
+    
+    risk_level = "CRÍTICO" if ormuz["flow"] < 15 else ("ALTO" if ormuz["pressure"] > 30 else "MEDIO")
     
     return {
         "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -182,10 +181,10 @@ def build_intel():
             "ormuz_flow_pct": ormuz["flow"],
             "vix": vix["price"],
             "risk_level": risk_level,
-            "insurance_spread_pct": round(0.8 + max(0, (vix["price"]-15)*0.4), 1)
+            "insurance_spread_pct": round(0.8 + max(0, (vix["price"]-15)*0.35), 1)
         },
         "ormuz_status": {"summary": ormuz["summary"]},
-        "events": pool_for_calculation[:6], # Solo mostramos las 6 más frescas
+        "events": export_events,
         "ticker_items": [f"BRENT: ${brent['price']} ({brent['change']:+.2f}%)", f"VIX: {vix['price']}", f"ORMUZ: {ormuz['summary']}"]
     }
 
