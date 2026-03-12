@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-03-12T07:43:55.282012+00:00",
+  "updated_at": "2026-03-12T08:38:38.550039+00:00",
   "market": {
-    "brent_usd": 92.59,
+    "brent_usd": 93.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 25.29,
+    "ormuz_flow_pct": 3.7,
+    "vix": 25.0,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.4
+    "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.7%"
   },
   "events": [
+    {
+      "timestamp": "12 MAR 2026 · 08:20 UTC",
+      "headline": "OIL PRICE JUMPS DESPITE DEAL TO RELEASE RECORD AMOUNT OF RESERVES",
+      "detail": "It comes as Iranian attacks on ships intensify in the crucial Strait of Hormuz waterway.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 MAR 2026 · 07:35 UTC",
       "headline": "FBI WARNS OF ‘IRANIAN DRONE THREAT’ TO CALIFORNIA",
       "detail": "The FBI has warned of potential Iranian plans to launch drone raids on California using a vessel off the West Coast Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 07:12 UTC",
-      "headline": "OIL PRICE JUMPS DESPITE DEAL TO RELEASE RECORD AMOUNT OF RESERVES",
-      "detail": "It comes as Iranian attacks on ships intensify in the crucial Strait of Hormuz waterway.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "12 MAR 2026 · 06:31 UTC",
@@ -45,15 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "11 MAR 2026 · 23:19 UTC",
-      "headline": "MASSIVE FIRES ON TWO OIL TANKERS AFTER ATTACK IN IRAQI WATERS",
-      "detail": "Two foreign tankers were seen ablaze in Iraqi territorial waters after a strike near the al-Faw port.",
-      "severity": "CRÍTICO"
+      "timestamp": "11 MAR 2026 · 22:43 UTC",
+      "headline": "TRUMP CLAIMS STRAIT OF HORMUZ ‘IN GREAT SHAPE’ AS TANKERS BURN AND OIL SURGES OV",
+      "detail": "Several oil tankers along with a major port in Oman are reportedly in flames amid the US-Israeli war with Iran Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.59 (+0.00%)",
-    "VIX: 25.29",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $93.95 (+0.00%)",
+    "VIX: 25.0",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.7%"
   ]
 }
