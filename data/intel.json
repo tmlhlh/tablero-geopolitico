@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-12T08:38:38.550039+00:00",
+  "updated_at": "2026-03-12T09:39:19.717004+00:00",
   "market": {
-    "brent_usd": 93.95,
+    "brent_usd": 94.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.7,
-    "vix": 25.0,
+    "ormuz_flow_pct": 4.4,
+    "vix": 25.56,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.3
+    "insurance_spread_pct": 4.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.7%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.4%"
   },
   "events": [
+    {
+      "timestamp": "12 MAR 2026 · 08:30 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 13 OF US-ISRAEL ATTACKS?",
+      "detail": "Cyberattacks, tensions in the Strait of Hormuz and rising oil prices are deepening the global consequences of the war.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 MAR 2026 · 08:20 UTC",
       "headline": "OIL PRICE JUMPS DESPITE DEAL TO RELEASE RECORD AMOUNT OF RESERVES",
@@ -43,17 +49,11 @@
       "headline": "UN SECURITY COUNCIL ADOPTS RESOLUTION CONDEMNING IRAN’S ATTACKS IN THE GULF",
       "detail": "UN Security Council draft resolution demanding Iran end its attacks on Gulf nations was cosponsored by 135 countries.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 MAR 2026 · 22:43 UTC",
-      "headline": "TRUMP CLAIMS STRAIT OF HORMUZ ‘IN GREAT SHAPE’ AS TANKERS BURN AND OIL SURGES OV",
-      "detail": "Several oil tankers along with a major port in Oman are reportedly in flames amid the US-Israeli war with Iran Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.95 (+0.00%)",
-    "VIX: 25.0",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.7%"
+    "BRENT: $94.28 (+0.00%)",
+    "VIX: 25.56",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.4%"
   ]
 }
