@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-03-12T15:56:20.506584+00:00",
+  "updated_at": "2026-03-12T16:58:21.697077+00:00",
   "market": {
     "brent_usd": 95.32,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 26.26,
+    "vix": 25.77,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.7
+    "insurance_spread_pct": 4.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "12 MAR 2026 · 15:50 UTC",
+      "timestamp": "12 MAR 2026 · 16:52 UTC",
+      "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
+      "detail": "En LN+, los analistas internacionales Andrés Repetto y Juan Carlos Ozarán intercambiaron sus puntos de vista sobre la guerra en Medio Oriente; por qué el conflicto bélico se está volcando al mar",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 16:36 UTC",
       "headline": "EL NUEVO LÍDER SUPREMO DE IRÁN, MOJTABA JAMENEÍ, PROMETE VENGANZA Y ANUNCIA QUE ",
       "detail": "La televisión estatal iraní divulga un mensaje del dirigente sin que este comparezca ni siquiera en vídeo, en medio de dudas sobre su estado de salud",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 16:32 UTC",
+      "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
+      "detail": "El bloqueo del Estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
       "severity": "INFO"
     },
     {
@@ -33,18 +45,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 MAR 2026 · 15:45 UTC",
-      "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
-      "detail": "En LN+, los analistas internacionales Andrés Repetto y Juan Carlos Ozarán intercambiaron sus puntos de vista sobre la guerra en Medio Oriente; por qué el conflicto bélico se está volcando al mar",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 15:33 UTC",
-      "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
-      "detail": "El bloqueo del Estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "12 MAR 2026 · 15:31 UTC",
       "headline": "US MILITARY ‘NOT READY’ TO ESCORT OIL SHIPS THROUGH HORMUZ, OFFICIAL SAYS",
       "detail": "Iran's Mojtaba Khamenei says strait should remain closed as Donald Trump claims US benefits from high oil prices.",
@@ -53,7 +53,7 @@
   ],
   "ticker_items": [
     "BRENT: $95.32 (+0.00%)",
-    "VIX: 26.26",
+    "VIX: 25.77",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
