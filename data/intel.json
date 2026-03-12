@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-03-12T10:35:37.505482+00:00",
+  "updated_at": "2026-03-12T11:29:39.797598+00:00",
   "market": {
-    "brent_usd": 93.32,
+    "brent_usd": 93.62,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.1,
-    "vix": 25.12,
+    "ormuz_flow_pct": 5.5,
+    "vix": 25.36,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.3
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.1%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.5%"
   },
   "events": [
+    {
+      "timestamp": "12 MAR 2026 · 11:07 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
+      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 10:51 UTC",
+      "headline": "SUBE EL PRECIO DEL PETRÓLEO TRAS ATAQUES DE IRÁN A BUQUES EXTRANJEROS Y SE AGRAV",
+      "detail": "El valor del barril de crudo llegó a superar los 100 dólares este jueves, en una nueva jornada de ofensivas en Medio Oriente",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 MAR 2026 · 08:30 UTC",
       "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 13 OF US-ISRAEL ATTACKS?",
       "detail": "Cyberattacks, tensions in the Strait of Hormuz and rising oil prices are deepening the global consequences of the war.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 08:20 UTC",
-      "headline": "OIL PRICE JUMPS DESPITE DEAL TO RELEASE RECORD AMOUNT OF RESERVES",
-      "detail": "It comes as Iranian attacks on ships intensify in the crucial Strait of Hormuz waterway.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "SIX VESSELS ATTACKED AMID REPORTS OF IRANIAN DRONE BOATS, SEA MINES",
       "detail": "Iraq reportedly suspends oil terminal operations after two tankers hit by explosive-laden boats in Iraqi waters.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 02:44 UTC",
-      "headline": "UN SECURITY COUNCIL ADOPTS RESOLUTION CONDEMNING IRAN’S ATTACKS IN THE GULF",
-      "detail": "UN Security Council draft resolution demanding Iran end its attacks on Gulf nations was cosponsored by 135 countries.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.32 (+0.00%)",
-    "VIX: 25.12",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.1%"
+    "BRENT: $93.62 (+0.00%)",
+    "VIX: 25.36",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.5%"
   ]
 }
