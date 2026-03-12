@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-12T04:38:01.778474+00:00",
+  "updated_at": "2026-03-12T05:25:15.566035+00:00",
   "market": {
-    "brent_usd": 95.88,
+    "brent_usd": 94.0,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,44 +15,44 @@
   },
   "events": [
     {
-      "timestamp": "11 MAR 2026 · 23:56 UTC",
-      "headline": "‘PROUD AS A QATARI’: COUNTRY’S PM SALUTES RESILIENCE AMID IRANIAN ATTACKS",
-      "detail": "The country s prime minister urges resilience, says government committed to ensuring people s lives are not disrupted.",
+      "timestamp": "12 MAR 2026 · 04:48 UTC",
+      "headline": "GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN, EN VIVO: TENSIÓN EN MEDIO ORIENTE HO",
+      "detail": "Cobertura en tiempo real con las novedades más importantes de la tensión en Medio Oriente y de las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "ALERTA"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 04:45 UTC",
+      "headline": "CRECE LA PRESIÓN REPUBLICANA PARA QUE TRUMP DÉ POR TERMINADA LA GUERRA EN IRÁN",
+      "detail": "El coste de la gasolina y la opción de un conflicto largo complican el apoyo de su partido al presidente. La ofensiva amenaza la campaña de los congresistas que aspiran a la reelección este año",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "11 MAR 2026 · 23:19 UTC",
-      "headline": "MASSIVE FIRES ON TWO OIL TANKERS AFTER ATTACK IN IRAQI WATERS",
-      "detail": "Two foreign tankers were seen ablaze in Iraqi territorial waters after a strike near the al-Faw port.",
+      "timestamp": "12 MAR 2026 · 04:45 UTC",
+      "headline": "LOS SÓTANOS DEL FRENTE DE COMBATE DONDE UCRANIA SE ESPECIALIZA EN LA GUERRA ELEC",
+      "detail": "Obligado por la invasión rusa, Kiev se ha situado a la vanguardia del uso y derribo de drones como los empleados ahora por Irán para responder a los ataques de EE UU e Israel",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "11 MAR 2026 · 22:43 UTC",
-      "headline": "TRUMP INSISTS IRAN ‘ABSOLUTELY DECIMATED’ AS OIL TANKERS AND PORTS BURN (VIDEOS)",
-      "detail": "Several oil tankers along with a major port in Oman are reportedly in flames amid ongoing the US-Israeli war with Iran Read Full Article at RT.com",
+      "timestamp": "12 MAR 2026 · 04:35 UTC",
+      "headline": "THERE IS ONLY ONE PERSON’ WHO CAN DECIDE TO END THE WAR ON IRAN",
+      "detail": "Israeli journalist and writer, Gideon Levy, says the decision to end the Iran war rests only with US President Trump.",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 22:38 UTC",
-      "headline": "TRUMP: ‘I DON’T KNOW’ ABOUT REPORT US AT FAULT IN SCHOOL STRIKE",
-      "detail": "Donald Trump denied knowledge of a military investigation finding the US responsible for the Minab girls school strike.",
-      "severity": "CRÍTICO"
+      "timestamp": "12 MAR 2026 · 04:32 UTC",
+      "headline": "WHY HISTORIC OIL RESERVES RELEASE MAY DO LITTLE TO BRING DOWN RISING PRICES",
+      "detail": "Oil prices continue to surge despite the International Energy Agency s plans to release 400m barrels into the market.",
+      "severity": "INFO"
     },
     {
-      "timestamp": "11 MAR 2026 · 22:32 UTC",
-      "headline": "IRAN-LINKED HACKERS HIT MEDICAL GIANT STRYKER IN RETALIATORY CYBERATTACK",
-      "detail": "Group claims to have seized 50 terabytes of data in response to deadly US-Israeli strikes on Iranian school.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 MAR 2026 · 21:55 UTC",
-      "headline": "HOW TRUMP HAS ADDRESSED THE DEADLY IRAN SCHOOL BOMBING",
-      "detail": "The US president denies knowledge of findings that the US military was behind the deadly strike amid calls for a probe.",
+      "timestamp": "12 MAR 2026 · 03:45 UTC",
+      "headline": "FIVE VESSELS ATTACKED AMID REPORTS OF IRANIAN DRONE BOATS, SEA MINES",
+      "detail": "Two oil tankers hit by explosive-laden boats in Iraqi waters amid reports Iran may be using unmanned surface vessels.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.88 (+0.00%)",
+    "BRENT: $94.0 (+0.00%)",
     "VIX: 24.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
