@@ -1,24 +1,30 @@
 {
-  "updated_at": "2026-03-13T16:36:36.553666+00:00",
+  "updated_at": "2026-03-13T17:32:19.229442+00:00",
   "market": {
-    "brent_usd": 101.99,
+    "brent_usd": 101.07,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 27.25,
+    "vix": 26.84,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.1
+    "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "13 MAR 2026 · 15:28 UTC",
+      "timestamp": "13 MAR 2026 · 17:06 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 17:03 UTC",
+      "headline": "UKRAINE FINDS NEW ROLE AS PROTECTOR OF US, GULF ALLIES AMID IRAN WAR",
+      "detail": "Having abandoned Ukraine, the US has sought Kyiv's support in defence from Iranian drones.",
+      "severity": "INFO"
     },
     {
       "timestamp": "13 MAR 2026 · 04:45 UTC",
@@ -43,17 +49,11 @@
       "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED IN THE GULF",
       "detail": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 21:44 UTC",
-      "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
-      "detail": "El bloqueo del estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.99 (+0.00%)",
-    "VIX: 27.25",
+    "BRENT: $101.07 (+0.00%)",
+    "VIX: 26.84",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
