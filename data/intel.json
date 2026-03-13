@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-13T04:10:07.154653+00:00",
+  "updated_at": "2026-03-13T05:45:58.975123+00:00",
   "market": {
-    "brent_usd": 96.8,
+    "brent_usd": 96.4,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,30 @@
   },
   "events": [
     {
+      "timestamp": "13 MAR 2026 · 04:45 UTC",
+      "headline": "IRÁN DESAFÍA A LA POTENTE ARMADA DE ESTADOS UNIDOS EN UNA BATALLA NAVAL ASIMÉTRI",
+      "detail": "El control iraní del estrecho de Ormuz, un flanco vulnerable a posible ataques con drones o lanchas rápidas, y el riesgo al minado de las aguas, dificulta la entrada en acción de las fragatas estadoun",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 04:45 UTC",
+      "headline": "EL GOLFO BUSCA EN UCRANIA LOS CODICIADOS DRONES STING PARA DEFENDERSE DE IRÁN ",
+      "detail": "Estados Unidos y otros países han solicitado a Kiev este aparato con más del 80% de efectividad para derribar los Shahed iraníes y sus variantes",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 04:45 UTC",
+      "headline": "EL CONFLICTO DEL SÁHARA MARCA EL SILENCIO DE MARRUECOS Y ARGELIA ANTE EL ATAQUE ",
+      "detail": "Rabat y Argel evitan condenar los bombardeos de EE UU e Israel en pleno diálogo sobre la antigua colonia española y apoyan a los países del Golfo agredidos por Teherán",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 03:58 UTC",
+      "headline": "OIL STAYS ABOVE $100 A BARREL AMID IRAN’S STRANGLEHOLD ON STRAIT OF HORMUZ",
+      "detail": "Energy markets remain on tenterhooks as the prospect of prolonged war in the Middle East grows.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "13 MAR 2026 · 01:47 UTC",
       "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED NEAR IRAN",
       "detail": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
@@ -25,34 +49,10 @@
       "headline": "IRAN WAR LIVE: TRUMP SAYS WAR GOING ‘WELL’ AS GULF UNDER WAVE OF ATTACKS",
       "detail": "Israeli strikes kill dozens more in Lebanon, including 5 children among nine people killed in attack on village of Arki.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 23:18 UTC",
-      "headline": "IRAN ENVOY SAYS TEHRAN WILL KEEP STRAIT OF HORMUZ OPEN",
-      "detail": "Iran’s UN envoy Amir Saeid Iravani said Tehran will not close the Strait of Hormuz and remains committed to freedom.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 21:44 UTC",
-      "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
-      "detail": "El bloqueo del estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 20:32 UTC",
-      "headline": "IRAN'S NEW SUPREME LEADER VOWS TO BLOCK STRAIT OF HORMUZ IN FIRST STATEMENT",
-      "detail": "A message attributed to Mojtaba Khamenei also says Iran will continue targeting US bases in the region.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 20:20 UTC",
-      "headline": "EMIRATI MINISTER TELLS BBC IRAN MUST END STRIKES ON GULF",
-      "detail": "The UAE says more than 1,800 drones and missiles have been projected at the country since the war began.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.8 (+0.00%)",
+    "BRENT: $96.4 (+0.00%)",
     "VIX: 27.29",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
