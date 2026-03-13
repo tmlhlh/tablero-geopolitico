@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-13T01:49:56.589799+00:00",
+  "updated_at": "2026-03-13T04:10:07.154653+00:00",
   "market": {
-    "brent_usd": 96.67,
+    "brent_usd": 96.8,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "13 MAR 2026 · 01:47 UTC",
+      "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED NEAR IRAN",
+      "detail": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "13 MAR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP SAYS WAR GOING ‘WELL’ AS GULF UNDER WAVE OF ATTACKS",
       "detail": "Israeli strikes kill dozens more in Lebanon, including 5 children among nine people killed in attack on village of Arki.",
@@ -27,18 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "12 MAR 2026 · 23:10 UTC",
-      "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
-      "detail": "En LN+, los analistas internacionales Andrés Repetto y Juan Carlos Ozarán intercambiaron sus puntos de vista sobre la guerra en Medio Oriente; por qué el conflicto bélico se está volcando al mar",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 23:03 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
-      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 MAR 2026 · 21:44 UTC",
       "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
       "detail": "El bloqueo del estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
@@ -49,10 +43,16 @@
       "headline": "IRAN'S NEW SUPREME LEADER VOWS TO BLOCK STRAIT OF HORMUZ IN FIRST STATEMENT",
       "detail": "A message attributed to Mojtaba Khamenei also says Iran will continue targeting US bases in the region.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 20:20 UTC",
+      "headline": "EMIRATI MINISTER TELLS BBC IRAN MUST END STRIKES ON GULF",
+      "detail": "The UAE says more than 1,800 drones and missiles have been projected at the country since the war began.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.67 (+0.00%)",
+    "BRENT: $96.8 (+0.00%)",
     "VIX: 27.29",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
