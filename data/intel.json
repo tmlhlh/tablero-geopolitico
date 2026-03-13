@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-03-13T14:50:26.761329+00:00",
+  "updated_at": "2026-03-13T15:39:28.733914+00:00",
   "market": {
-    "brent_usd": 100.25,
+    "brent_usd": 101.06,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.44,
+    "vix": 26.88,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.5
+    "insurance_spread_pct": 5.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "13 MAR 2026 · 14:02 UTC",
+      "timestamp": "13 MAR 2026 · 15:28 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
       "severity": "CRÍTICO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.25 (+0.00%)",
-    "VIX: 25.44",
+    "BRENT: $101.06 (+0.00%)",
+    "VIX: 26.88",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
