@@ -1,29 +1,23 @@
 {
-  "updated_at": "2026-03-13T12:52:27.745033+00:00",
+  "updated_at": "2026-03-13T13:58:47.725727+00:00",
   "market": {
-    "brent_usd": 99.4,
+    "brent_usd": 99.53,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.8,
+    "vix": 25.11,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.6
+    "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "13 MAR 2026 · 11:58 UTC",
+      "timestamp": "13 MAR 2026 · 13:03 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 06:13 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 14 OF US-ISRAEL ATTACKS?",
-      "detail": "Israel strikes Tehran as Iran retaliates across the Gulf; Hormuz disruption pushes oil prices higher and tensions rise.",
       "severity": "CRÍTICO"
     },
     {
@@ -45,15 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 MAR 2026 · 03:58 UTC",
-      "headline": "OIL STAYS ABOVE $100 A BARREL AMID IRAN’S STRANGLEHOLD ON STRAIT OF HORMUZ",
-      "detail": "Energy markets remain on tenterhooks as the prospect of prolonged war in the Middle East grows.",
+      "timestamp": "13 MAR 2026 · 01:47 UTC",
+      "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED IN THE GULF",
+      "detail": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 21:44 UTC",
+      "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
+      "detail": "El bloqueo del estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.4 (+0.00%)",
-    "VIX: 25.8",
+    "BRENT: $99.53 (+0.00%)",
+    "VIX: 25.11",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
