@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-13T05:45:58.975123+00:00",
+  "updated_at": "2026-03-13T06:48:35.405714+00:00",
   "market": {
-    "brent_usd": 96.4,
+    "brent_usd": 96.63,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 MAR 2026 · 06:13 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 14 OF US-ISRAEL ATTACKS?",
+      "detail": "Israel strikes Tehran as Iran retaliates across the Gulf; Hormuz disruption pushes oil prices higher and tensions rise.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "13 MAR 2026 · 04:45 UTC",
       "headline": "IRÁN DESAFÍA A LA POTENTE ARMADA DE ESTADOS UNIDOS EN UNA BATALLA NAVAL ASIMÉTRI",
@@ -40,19 +46,13 @@
     },
     {
       "timestamp": "13 MAR 2026 · 01:47 UTC",
-      "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED NEAR IRAN",
+      "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED IN THE GULF",
       "detail": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS WAR GOING ‘WELL’ AS GULF UNDER WAVE OF ATTACKS",
-      "detail": "Israeli strikes kill dozens more in Lebanon, including 5 children among nine people killed in attack on village of Arki.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.4 (+0.00%)",
+    "BRENT: $96.63 (+0.00%)",
     "VIX: 27.29",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
