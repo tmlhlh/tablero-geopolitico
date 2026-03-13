@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T22:25:13.174306+00:00",
+  "updated_at": "2026-03-13T23:25:15.198826+00:00",
   "market": {
     "brent_usd": 103.86,
     "brent_chg": 0.0
@@ -15,13 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "13 MAR 2026 · 21:50 UTC",
+      "timestamp": "13 MAR 2026 · 23:02 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 MAR 2026 · 21:46 UTC",
+      "timestamp": "13 MAR 2026 · 22:46 UTC",
       "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
       "detail": "En LN+, los analistas internacionales Andrés Repetto y Juan Carlos Ozarán intercambiaron sus puntos de vista sobre la guerra en Medio Oriente; por qué el conflicto bélico se está volcando al mar",
       "severity": "INFO"
