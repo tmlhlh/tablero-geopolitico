@@ -1,21 +1,27 @@
 {
-  "updated_at": "2026-03-13T17:32:19.229442+00:00",
+  "updated_at": "2026-03-13T18:40:38.594782+00:00",
   "market": {
-    "brent_usd": 101.07,
+    "brent_usd": 102.95,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.84,
+    "vix": 27.45,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.9
+    "insurance_spread_pct": 5.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "13 MAR 2026 · 17:06 UTC",
+      "timestamp": "13 MAR 2026 · 18:36 UTC",
+      "headline": "GUERRA EN MEDIO ORIENTE: CUÁNTO TIEMPO MÁS PUEDE YPF CONTENER LA SUBA DE LA NAFT",
+      "detail": "El precio internacional del crudo pasó de US$68 a US$100 en un mes, pero la nafta y el gasoil subieron solo 9% en la Argentina; las refinadoras están operando a pérdida y el estrecho de Ormuz se manti",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 18:25 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
       "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
       "severity": "CRÍTICO"
@@ -43,17 +49,11 @@
       "headline": "EL CONFLICTO DEL SÁHARA MARCA EL SILENCIO DE MARRUECOS Y ARGELIA ANTE EL ATAQUE ",
       "detail": "Rabat y Argel evitan condenar los bombardeos de EE UU e Israel en pleno diálogo sobre la antigua colonia española y apoyan a los países del Golfo agredidos por Teherán",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 01:47 UTC",
-      "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED IN THE GULF",
-      "detail": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.07 (+0.00%)",
-    "VIX: 26.84",
+    "BRENT: $102.95 (+0.00%)",
+    "VIX: 27.45",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
