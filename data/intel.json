@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-03-12T23:24:54.519568+00:00",
+  "updated_at": "2026-03-13T01:49:56.589799+00:00",
   "market": {
-    "brent_usd": 97.86,
+    "brent_usd": 96.67,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.3,
+    "ormuz_flow_pct": 8.5,
     "vix": 27.29,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 MAR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS WAR GOING ‘WELL’ AS GULF UNDER WAVE OF ATTACKS",
+      "detail": "Israeli strikes kill dozens more in Lebanon, including 5 children among nine people killed in attack on village of Arki.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 23:18 UTC",
+      "headline": "IRAN ENVOY SAYS TEHRAN WILL KEEP STRAIT OF HORMUZ OPEN",
+      "detail": "Iran’s UN envoy Amir Saeid Iravani said Tehran will not close the Strait of Hormuz and remains committed to freedom.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 MAR 2026 · 23:10 UTC",
       "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
@@ -27,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 MAR 2026 · 22:27 UTC",
-      "headline": "NOTICIAS DE CALIFORNIA: LA CASA BLANCA DESCARTA ATAQUES CON DRONES DE IRÁN DESDE",
-      "detail": "Sigue nuestra cobertura al instante de las noticias de California hoy en vivo: nuevas leyes, clima y anuncios de Gavin Newsom; todas las actualizaciones minuto a minuto de EE.UU. este jueves 12 de mar",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 MAR 2026 · 21:44 UTC",
       "headline": "IRÁN MANTIENE SU OFENSIVA PARA EXTENDER EL CAOS EN LA ECONOMÍA GLOBAL",
       "detail": "El bloqueo del estrecho de Ormuz impacta en los mercados mientras Israel y Estados Unidos siguen lejos de los objetivos estratégicos que se habían marcado",
@@ -43,17 +49,11 @@
       "headline": "IRAN'S NEW SUPREME LEADER VOWS TO BLOCK STRAIT OF HORMUZ IN FIRST STATEMENT",
       "detail": "A message attributed to Mojtaba Khamenei also says Iran will continue targeting US bases in the region.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 20:20 UTC",
-      "headline": "EMIRATI MINISTER TELLS BBC IRAN MUST END STRIKES ON GULF",
-      "detail": "The UAE says more than 1,800 drones and missiles have been projected at the country since the war began.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.86 (+0.00%)",
+    "BRENT: $96.67 (+0.00%)",
     "VIX: 27.29",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.3%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
