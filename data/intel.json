@@ -1,30 +1,42 @@
 {
-  "updated_at": "2026-03-13T19:29:08.504709+00:00",
+  "updated_at": "2026-03-13T20:30:45.516642+00:00",
   "market": {
-    "brent_usd": 102.52,
+    "brent_usd": 103.45,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 27.37,
+    "ormuz_flow_pct": 6.6,
+    "vix": 27.19,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 6.6%"
   },
   "events": [
+    {
+      "timestamp": "13 MAR 2026 · 19:49 UTC",
+      "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
+      "detail": "En LN+, los analistas internacionales Andrés Repetto y Juan Carlos Ozarán intercambiaron sus puntos de vista sobre la guerra en Medio Oriente; por qué el conflicto bélico se está volcando al mar",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 19:48 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
+      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 19:34 UTC",
+      "headline": "AFECTADA POR EL BLOQUEO PETROLERO, CUBA ANUNCIA QUE COMENZÓ A DIALOGAR CON EE.UU",
+      "detail": "Díaz-Canel ratificó el contacto de sus diplomáticos con representantes de la Casa Blanca; liberan presos políticos",
+      "severity": "INFO"
+    },
     {
       "timestamp": "13 MAR 2026 · 18:36 UTC",
       "headline": "GUERRA EN MEDIO ORIENTE: CUÁNTO TIEMPO MÁS PUEDE YPF CONTENER LA SUBA DE LA NAFT",
       "detail": "El precio internacional del crudo pasó de US$68 a US$100 en un mes, pero la nafta y el gasoil subieron solo 9% en la Argentina; las refinadoras están operando a pérdida y el estrecho de Ormuz se manti",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 18:25 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
-      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "13 MAR 2026 · 17:03 UTC",
@@ -37,23 +49,11 @@
       "headline": "IRÁN DESAFÍA A LA POTENTE ARMADA DE ESTADOS UNIDOS EN UNA BATALLA NAVAL ASIMÉTRI",
       "detail": "El control iraní del estrecho de Ormuz, un flanco vulnerable a posible ataques con drones o lanchas rápidas, y el riesgo al minado de las aguas, dificulta la entrada en acción de las fragatas estadoun",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "EL GOLFO BUSCA EN UCRANIA LOS CODICIADOS DRONES STING PARA DEFENDERSE DE IRÁN ",
-      "detail": "Estados Unidos y otros países han solicitado a Kiev este aparato con más del 80% de efectividad para derribar los Shahed iraníes y sus variantes",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "EL CONFLICTO DEL SÁHARA MARCA EL SILENCIO DE MARRUECOS Y ARGELIA ANTE EL ATAQUE ",
-      "detail": "Rabat y Argel evitan condenar los bombardeos de EE UU e Israel en pleno diálogo sobre la antigua colonia española y apoyan a los países del Golfo agredidos por Teherán",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.52 (+0.00%)",
-    "VIX: 27.37",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $103.45 (+0.00%)",
+    "VIX: 27.19",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 6.6%"
   ]
 }
