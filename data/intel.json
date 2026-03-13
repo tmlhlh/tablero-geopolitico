@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-13T10:33:26.455223+00:00",
+  "updated_at": "2026-03-13T11:28:30.261300+00:00",
   "market": {
-    "brent_usd": 100.44,
+    "brent_usd": 100.17,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.44,
+    "vix": 26.1,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.8
+    "insurance_spread_pct": 4.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 MAR 2026 · 11:09 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
+      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "13 MAR 2026 · 06:13 UTC",
       "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 14 OF US-ISRAEL ATTACKS?",
@@ -43,17 +49,11 @@
       "headline": "OIL STAYS ABOVE $100 A BARREL AMID IRAN’S STRANGLEHOLD ON STRAIT OF HORMUZ",
       "detail": "Energy markets remain on tenterhooks as the prospect of prolonged war in the Middle East grows.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 01:47 UTC",
-      "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED IN THE GULF",
-      "detail": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.44 (+0.00%)",
-    "VIX: 26.44",
+    "BRENT: $100.17 (+0.00%)",
+    "VIX: 26.1",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
