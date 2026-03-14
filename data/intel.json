@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T23:25:15.198826+00:00",
+  "updated_at": "2026-03-14T01:47:38.953951+00:00",
   "market": {
     "brent_usd": 103.86,
     "brent_chg": 0.0
@@ -27,6 +27,12 @@
       "severity": "INFO"
     },
     {
+      "timestamp": "13 MAR 2026 · 20:55 UTC",
+      "headline": "TRUMP THREATENS TO WIPE OUT IRAN’S KEY OIL PORT (PHOTOS, VIDEOS)",
+      "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "13 MAR 2026 · 17:03 UTC",
       "headline": "UKRAINE FINDS NEW ROLE AS PROTECTOR OF US, GULF ALLIES AMID IRAN WAR",
       "detail": "Having abandoned Ukraine, the US has sought Kyiv's support in defence from Iranian drones.",
@@ -43,12 +49,6 @@
       "headline": "EL GOLFO BUSCA EN UCRANIA LOS CODICIADOS DRONES STING PARA DEFENDERSE DE IRÁN ",
       "detail": "Estados Unidos y otros países han solicitado a Kiev este aparato con más del 80% de efectividad para derribar los Shahed iraníes y sus variantes",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "EL CONFLICTO DEL SÁHARA MARCA EL SILENCIO DE MARRUECOS Y ARGELIA ANTE EL ATAQUE ",
-      "detail": "Rabat y Argel evitan condenar los bombardeos de EE UU e Israel en pleno diálogo sobre la antigua colonia española y apoyan a los países del Golfo agredidos por Teherán",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
