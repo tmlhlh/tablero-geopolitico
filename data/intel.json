@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T09:29:50.024290+00:00",
+  "updated_at": "2026-03-14T10:24:48.836665+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 MAR 2026 · 09:53 UTC",
+      "headline": "HAMAS URGES IRAN TO HALT ATTACKS ON GULF, SLAMS AGGRESSION ON TEHRAN",
+      "detail": "The Palestinian group calls for end to Gulf attacks while supporting Tehran’s right to defend against Israel and US.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 MAR 2026 · 09:12 UTC",
+      "headline": "IRAN CONTINUES INTENSIFIED ATTACKS ACROSS GULF IN US-ISRAEL WAR FALLOUT",
+      "detail": "Strikes target multiple countries, including Saudi Arabia and Qatar, overnight with interceptions reported.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 MAR 2026 · 05:45 UTC",
       "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 15 OF US-ISRAEL ATTACKS?",
@@ -36,18 +48,6 @@
       "timestamp": "13 MAR 2026 · 04:45 UTC",
       "headline": "IRÁN DESAFÍA A LA POTENTE ARMADA DE ESTADOS UNIDOS EN UNA BATALLA NAVAL ASIMÉTRI",
       "detail": "El control iraní del estrecho de Ormuz, un flanco vulnerable a posible ataques con drones o lanchas rápidas, y el riesgo al minado de las aguas, dificulta la entrada en acción de las fragatas estadoun",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "EL GOLFO BUSCA EN UCRANIA LOS CODICIADOS DRONES STING PARA DEFENDERSE DE IRÁN ",
-      "detail": "Estados Unidos y otros países han solicitado a Kiev este aparato con más del 80% de efectividad para derribar los Shahed iraníes y sus variantes",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "EL CONFLICTO DEL SÁHARA MARCA EL SILENCIO DE MARRUECOS Y ARGELIA ANTE EL ATAQUE ",
-      "detail": "Rabat y Argel evitan condenar los bombardeos de EE UU e Israel en pleno diálogo sobre la antigua colonia española y apoyan a los países del Golfo agredidos por Teherán",
       "severity": "CRÍTICO"
     }
   ],
