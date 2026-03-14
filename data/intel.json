@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-14T17:23:53.502357+00:00",
+  "updated_at": "2026-03-14T18:33:29.913320+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.4,
+    "ormuz_flow_pct": 3.0,
     "vix": 27.19,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "14 MAR 2026 · 17:38 UTC",
+      "headline": "TRUMP SAYS ‘MANY COUNTRIES’ WILL SEND WARSHIPS TO HORMUZ AMID IRAN BLOCKADE",
+      "detail": "US president urges naval coalition as Iran says Strait of Hormuz closed to 'tankers and ships of enemies' during war.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 MAR 2026 · 16:23 UTC",
       "headline": "IRAN ALLOWS LIMITED INDIAN SHIPPING THROUGH STRAIT OF HORMUZ",
@@ -43,17 +49,11 @@
       "headline": "TWO INDIAN SHIPS CROSS STRAIT OF HORMUZ AS IRAN SAYS IT ALLOWED PASSAGE",
       "detail": "Iran's envoy to New Delhi says Tehran allowed some Indian vessels to pass the Strait in rare exception to the blockade.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 09:53 UTC",
-      "headline": "HAMAS URGES IRAN TO HALT ATTACKS ON GULF, SLAMS AGGRESSION ON TEHRAN",
-      "detail": "The Palestinian group calls for end to Gulf attacks while supporting Tehran’s right to defend against Israel and US.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $98.91 (+0.00%)",
     "VIX: 27.19",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.4%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
