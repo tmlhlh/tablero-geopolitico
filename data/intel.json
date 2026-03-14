@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T01:47:38.953951+00:00",
+  "updated_at": "2026-03-14T04:08:28.432062+00:00",
   "market": {
     "brent_usd": 103.86,
     "brent_chg": 0.0
@@ -15,22 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "13 MAR 2026 · 23:02 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DE LA “GUERRA ASIMÉTRICA” EN MEDIO ORIENTE Y EXP",
-      "detail": "Andrés Repetto analizó en LN+ el conflicto bélico y detalló cómo la estrategia iraní de minar ese punto geográfico busca compensar su menor poder militar; también advirtió sobre el impacto global del ",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 22:46 UTC",
-      "headline": "QUÉ HAY DETRÁS DEL BLOQUEO DEL ESTRECHO DE ORMUZ Y QUÉ BUSCA IRÁN ",
-      "detail": "En LN+, los analistas internacionales Andrés Repetto y Juan Carlos Ozarán intercambiaron sus puntos de vista sobre la guerra en Medio Oriente; por qué el conflicto bélico se está volcando al mar",
+      "timestamp": "14 MAR 2026 · 02:25 UTC",
+      "headline": "EXPERTS DOUBT HEGSETH CLAIM NO NEED TO ‘WORRY ABOUT’ HORMUZ",
+      "detail": "Experts doubt Pete Hegseth’s claims that the US is working effectively to reopen the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 20:55 UTC",
-      "headline": "TRUMP THREATENS TO WIPE OUT IRAN’S KEY OIL PORT (PHOTOS, VIDEOS)",
-      "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "13 MAR 2026 · 17:03 UTC",
@@ -48,6 +36,18 @@
       "timestamp": "13 MAR 2026 · 04:45 UTC",
       "headline": "EL GOLFO BUSCA EN UCRANIA LOS CODICIADOS DRONES STING PARA DEFENDERSE DE IRÁN ",
       "detail": "Estados Unidos y otros países han solicitado a Kiev este aparato con más del 80% de efectividad para derribar los Shahed iraníes y sus variantes",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 04:45 UTC",
+      "headline": "EL CONFLICTO DEL SÁHARA MARCA EL SILENCIO DE MARRUECOS Y ARGELIA ANTE EL ATAQUE ",
+      "detail": "Rabat y Argel evitan condenar los bombardeos de EE UU e Israel en pleno diálogo sobre la antigua colonia española y apoyan a los países del Golfo agredidos por Teherán",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 01:47 UTC",
+      "headline": "'THERE'S NO HIDING PLACE ON A SHIP': THE SAILORS STRANDED IN THE GULF",
+      "detail": "Drones, cruise missiles and fighter jets have become a common sight for many sailors stranded on ships in the Gulf.",
       "severity": "INFO"
     }
   ],
