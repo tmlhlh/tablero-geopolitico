@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-14T16:27:07.651369+00:00",
+  "updated_at": "2026-03-14T17:23:53.502357+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.7,
+    "ormuz_flow_pct": 4.4,
     "vix": 27.19,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.7%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.4%"
   },
   "events": [
+    {
+      "timestamp": "14 MAR 2026 · 16:23 UTC",
+      "headline": "IRAN ALLOWS LIMITED INDIAN SHIPPING THROUGH STRAIT OF HORMUZ",
+      "detail": "Iran has allowed some Indian vessels through the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 MAR 2026 · 15:18 UTC",
       "headline": "IRAN SAYS STRAIT OF HORMUZ WILL NOT BE REOPENED TO US SHIPS",
@@ -43,17 +49,11 @@
       "headline": "HAMAS URGES IRAN TO HALT ATTACKS ON GULF, SLAMS AGGRESSION ON TEHRAN",
       "detail": "The Palestinian group calls for end to Gulf attacks while supporting Tehran’s right to defend against Israel and US.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 09:12 UTC",
-      "headline": "IRAN CONTINUES INTENSIFIED ATTACKS ACROSS GULF IN US-ISRAELI WAR FALLOUT",
-      "detail": "Fire breaks out at UAE's major Fujairah oil hub, as Iran vows retaliation for US attack on Kharg Island.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $98.91 (+0.00%)",
     "VIX: 27.19",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.7%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.4%"
   ]
 }
