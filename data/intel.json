@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T11:21:48.204526+00:00",
+  "updated_at": "2026-03-14T12:43:04.507422+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 MAR 2026 · 12:05 UTC",
+      "headline": "HAMAS URGES KEY ALLY IRAN TO HALT ATTACKS ON GULF STATES",
+      "detail": "The Palestinian armed group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 MAR 2026 · 09:53 UTC",
       "headline": "HAMAS URGES IRAN TO HALT ATTACKS ON GULF, SLAMS AGGRESSION ON TEHRAN",
@@ -42,12 +48,6 @@
       "timestamp": "13 MAR 2026 · 20:55 UTC",
       "headline": "TRUMP WARNS OF POSSIBLE STRIKES ON KHARG OIL HUB AS US TANKER REPORTEDLY ABLAZE ",
       "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "IRÁN DESAFÍA A LA POTENTE ARMADA DE ESTADOS UNIDOS EN UNA BATALLA NAVAL ASIMÉTRI",
-      "detail": "El control iraní del estrecho de Ormuz, un flanco vulnerable a posible ataques con drones o lanchas rápidas, y el riesgo al minado de las aguas, dificulta la entrada en acción de las fragatas estadoun",
       "severity": "CRÍTICO"
     }
   ],
