@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T22:22:40.467233+00:00",
+  "updated_at": "2026-03-14T23:24:54.520615+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
@@ -18,12 +18,6 @@
       "timestamp": "14 MAR 2026 · 17:38 UTC",
       "headline": "TRUMP SAYS ‘MANY COUNTRIES’ WILL SEND WARSHIPS TO HORMUZ AMID IRAN BLOCKADE",
       "detail": "US president urges naval coalition as Iran says Strait of Hormuz closed to 'tankers and ships of enemies' during war.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 16:23 UTC",
-      "headline": "IRAN ALLOWS LIMITED INDIAN SHIPPING THROUGH STRAIT OF HORMUZ",
-      "detail": "Iran has allowed some Indian vessels through the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "IRÁN DESAFÍA A LA POTENTE ARMADA DE ESTADOS UNIDOS EN UNA BATALLA NAVAL ASIMÉTRI",
       "detail": "El control iraní del estrecho de Ormuz, un flanco vulnerable a posible ataques con drones o lanchas rápidas, y el riesgo al minado de las aguas, dificulta la entrada en acción de las fragatas estadoun",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 04:45 UTC",
+      "headline": "EL GOLFO BUSCA EN UCRANIA LOS CODICIADOS DRONES STING PARA DEFENDERSE DE IRÁN ",
+      "detail": "Estados Unidos y otros países han solicitado a Kiev este aparato con más del 80% de efectividad para derribar los Shahed iraníes y sus variantes",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
