@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-14T14:26:19.441819+00:00",
+  "updated_at": "2026-03-14T15:25:14.287628+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 8.4,
     "vix": 27.19,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.4%"
   },
   "events": [
+    {
+      "timestamp": "14 MAR 2026 · 15:09 UTC",
+      "headline": "OIL TANKER ATTACKED OFF RUSSIAN COAST",
+      "detail": "A Greek-flagged oil tanker was attacked by a “missile or a drone” off the Russian Black Sea coast, the shipping ministry in Athens has said Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 MAR 2026 · 13:34 UTC",
       "headline": "HAMAS URGES KEY ALLY IRAN TO HALT ATTACKS ON GULF STATES",
@@ -34,14 +40,8 @@
     },
     {
       "timestamp": "14 MAR 2026 · 09:12 UTC",
-      "headline": "IRAN CONTINUES INTENSIFIED ATTACKS ACROSS GULF IN US-ISRAEL WAR FALLOUT",
-      "detail": "Strikes target multiple countries, including Saudi Arabia and Qatar, overnight with interceptions reported.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 05:45 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 15 OF US-ISRAEL ATTACKS?",
-      "detail": "US hits Iran’s Kharg island as it warns oil sites may be next if Tehran disrupts shipping through the Strait of Hormuz.",
+      "headline": "IRAN CONTINUES INTENSIFIED ATTACKS ACROSS GULF IN US-ISRAELI WAR FALLOUT",
+      "detail": "Fire breaks out at UAE's major Fujairah oil hub, as Iran vows retaliation for US attack on Kharg Island.",
       "severity": "CRÍTICO"
     },
     {
@@ -54,6 +54,6 @@
   "ticker_items": [
     "BRENT: $98.91 (+0.00%)",
     "VIX: 27.19",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.4%"
   ]
 }
