@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-14T15:25:14.287628+00:00",
+  "updated_at": "2026-03-14T16:27:07.651369+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.4,
+    "ormuz_flow_pct": 3.7,
     "vix": 27.19,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.7%"
   },
   "events": [
+    {
+      "timestamp": "14 MAR 2026 · 15:18 UTC",
+      "headline": "IRAN SAYS STRAIT OF HORMUZ WILL NOT BE REOPENED TO US SHIPS",
+      "detail": "A member of Iran’s Expediency Council says the Strait of Hormuz will remain closed to US ships.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 MAR 2026 · 15:09 UTC",
       "headline": "OIL TANKER ATTACKED OFF RUSSIAN COAST",
@@ -43,17 +49,11 @@
       "headline": "IRAN CONTINUES INTENSIFIED ATTACKS ACROSS GULF IN US-ISRAELI WAR FALLOUT",
       "detail": "Fire breaks out at UAE's major Fujairah oil hub, as Iran vows retaliation for US attack on Kharg Island.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "IRÁN DESAFÍA A LA POTENTE ARMADA DE ESTADOS UNIDOS EN UNA BATALLA NAVAL ASIMÉTRI",
-      "detail": "El control iraní del estrecho de Ormuz, un flanco vulnerable a posible ataques con drones o lanchas rápidas, y el riesgo al minado de las aguas, dificulta la entrada en acción de las fragatas estadoun",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $98.91 (+0.00%)",
     "VIX: 27.19",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.4%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.7%"
   ]
 }
