@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T18:33:29.913320+00:00",
+  "updated_at": "2026-03-14T19:24:25.604770+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "14 MAR 2026 · 18:35 UTC",
+      "headline": "ESTADOS UNIDOS MOSTRÓ CON UN VIDEO CÓMO FUE EL ATAQUE A LA ISLA IRANÍ DE KHARG",
+      "detail": "El enclave representa el principal nodo petrolero de la república islámica; el gobierno norteamericano sostuvo que atacó con éxito más de 90 objetivos militares",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 MAR 2026 · 17:38 UTC",
       "headline": "TRUMP SAYS ‘MANY COUNTRIES’ WILL SEND WARSHIPS TO HORMUZ AMID IRAN BLOCKADE",
@@ -43,12 +49,6 @@
       "headline": "HAMAS URGES KEY ALLY IRAN TO HALT ATTACKS ON GULF STATES",
       "detail": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 12:58 UTC",
-      "headline": "TWO INDIAN SHIPS CROSS STRAIT OF HORMUZ AS IRAN SAYS IT ALLOWED PASSAGE",
-      "detail": "Iran's envoy to New Delhi says Tehran allowed some Indian vessels to pass the Strait in rare exception to the blockade.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
