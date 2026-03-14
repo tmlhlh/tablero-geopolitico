@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T05:42:48.256848+00:00",
+  "updated_at": "2026-03-14T06:41:52.658490+00:00",
   "market": {
     "brent_usd": 103.14,
     "brent_chg": 0.0
@@ -15,15 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "14 MAR 2026 · 05:45 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 15 OF US-ISRAEL ATTACKS?",
+      "detail": "US hits Iran’s Kharg island as it warns oil sites may be next if Tehran disrupts shipping through the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "14 MAR 2026 · 02:25 UTC",
       "headline": "EXPERTS DOUBT HEGSETH CLAIM NO NEED TO ‘WORRY ABOUT’ HORMUZ",
       "detail": "Experts doubt Pete Hegseth’s claims that the US is working effectively to reopen the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 17:03 UTC",
-      "headline": "UKRAINE FINDS NEW ROLE AS PROTECTOR OF US, GULF ALLIES AMID IRAN WAR",
-      "detail": "Having abandoned Ukraine, the US has sought Kyiv's support in defence from Iranian drones.",
       "severity": "INFO"
     },
     {
