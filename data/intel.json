@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T12:44:51.361359+00:00",
+  "updated_at": "2026-03-15T13:44:11.826434+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 60.1,
+    "ormuz_flow_pct": 61.0,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "15 MAR 2026 · 12:49 UTC",
+      "headline": "SECURING HORMUZ STRAIT SHOULD BE ‘A TEAM EFFORT’ – TRUMP",
+      "detail": "US President Donald Trump has urged China, Japan and other nations to secure Hormuz Strait Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 MAR 2026 · 09:47 UTC",
       "headline": "TRUMP SAYS US MAY HIT IRAN’S KHARG ISLAND AGAIN ‘JUST FOR FUN’",
@@ -42,12 +48,6 @@
       "timestamp": "14 MAR 2026 · 13:34 UTC",
       "headline": "HAMAS URGES KEY ALLY IRAN TO HALT ATTACKS ON GULF STATES",
       "detail": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 20:55 UTC",
-      "headline": "TRUMP DEMANDS CHINA, OTHER NATIONS DEPLOY WARSHIPS TO STRAIT OF HORMUZ (PHOTOS, ",
-      "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
