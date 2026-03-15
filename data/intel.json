@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T11:23:22.223756+00:00",
+  "updated_at": "2026-03-15T12:44:51.361359+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 58.8,
+    "ormuz_flow_pct": 60.1,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "15 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS NOT READY FOR DEAL; US, ISRAEL POUND ISFAHAN",
-      "detail": "US President Donald Trump says allies who rely on Gulf oil must help to keep the Strait of Hormuz open.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "14 MAR 2026 · 20:33 UTC",
       "headline": "TRUMP URGES UK AND OTHER NATIONS TO SEND WARSHIPS TO STRAIT OF HORMUZ",
       "detail": "The US president says he hopes China, France, Japan and South Korea will also send ships to defend the key oil shipping route.",
@@ -48,6 +42,12 @@
       "timestamp": "14 MAR 2026 · 13:34 UTC",
       "headline": "HAMAS URGES KEY ALLY IRAN TO HALT ATTACKS ON GULF STATES",
       "detail": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAR 2026 · 20:55 UTC",
+      "headline": "TRUMP DEMANDS CHINA, OTHER NATIONS DEPLOY WARSHIPS TO STRAIT OF HORMUZ (PHOTOS, ",
+      "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
