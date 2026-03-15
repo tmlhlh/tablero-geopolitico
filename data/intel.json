@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T09:31:05.448902+00:00",
+  "updated_at": "2026-03-15T10:26:44.345262+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 57.0,
+    "ormuz_flow_pct": 57.9,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -15,9 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "15 MAR 2026 · 09:47 UTC",
+      "headline": "TRUMP SAYS US MAY HIT IRAN’S KHARG ISLAND AGAIN ‘JUST FOR FUN’",
+      "detail": "US president says his country may carry out more strikes on oil hub as he urges allies to help open Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "15 MAR 2026 · 08:52 UTC",
       "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 16 OF US-ISRAEL ATTACKS?",
-      "detail": "US President Trump calls on allies to keep the Strait of Hormuz open, as the war on Iran embroils the Middle East.",
+      "detail": "Israel and US attacks on Isfahan kills 15 people as Tehran carries out retaliatory attacks on Israel and Gulf countries.",
       "severity": "CRÍTICO"
     },
     {
@@ -42,12 +48,6 @@
       "timestamp": "14 MAR 2026 · 13:34 UTC",
       "headline": "HAMAS URGES KEY ALLY IRAN TO HALT ATTACKS ON GULF STATES",
       "detail": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 20:55 UTC",
-      "headline": "TRUMP DEMANDS CHINA, OTHER NATIONS DEPLOY WARSHIPS TO STRAIT OF HORMUZ (PHOTOS, ",
-      "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
