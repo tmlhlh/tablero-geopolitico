@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T18:35:04.232104+00:00",
+  "updated_at": "2026-03-15T19:25:54.923003+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 64.8,
+    "ormuz_flow_pct": 65.4,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -39,16 +39,16 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "15 MAR 2026 · 08:52 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 16 OF US-ISRAEL ATTACKS?",
-      "detail": "Israel and US attacks on Isfahan kills 15 people as Tehran carries out retaliatory attacks on Israel and Gulf countries.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "14 MAR 2026 · 20:33 UTC",
       "headline": "TRUMP URGES UK AND OTHER NATIONS TO SEND WARSHIPS TO STRAIT OF HORMUZ",
       "detail": "The US president says he hopes China, France, Japan and South Korea will also send ships to defend the key oil shipping route.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "14 MAR 2026 · 15:09 UTC",
+      "headline": "OIL TANKER ATTACKED OFF RUSSIAN COAST",
+      "detail": "A Greek-flagged oil tanker was attacked by a “missile or a drone” off the Russian Black Sea coast, the shipping ministry in Athens has said Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
