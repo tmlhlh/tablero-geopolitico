@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T08:32:44.917467+00:00",
+  "updated_at": "2026-03-15T09:31:05.448902+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 56.0,
+    "ormuz_flow_pct": 57.0,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "15 MAR 2026 · 08:52 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 16 OF US-ISRAEL ATTACKS?",
+      "detail": "US President Trump calls on allies to keep the Strait of Hormuz open, as the war on Iran embroils the Middle East.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 MAR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP SAYS NOT READY FOR DEAL; US, ISRAEL POUND ISFAHAN",
@@ -43,12 +49,6 @@
       "headline": "TRUMP DEMANDS CHINA, OTHER NATIONS DEPLOY WARSHIPS TO STRAIT OF HORMUZ (PHOTOS, ",
       "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 MAR 2026 · 07:35 UTC",
-      "headline": "FBI WARNS OF ‘IRANIAN DRONE THREAT’ TO CALIFORNIA",
-      "detail": "The FBI has warned of potential Iranian plans to launch drone raids on California using a vessel off the West Coast Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
