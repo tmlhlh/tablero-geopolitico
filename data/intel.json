@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T19:25:54.923003+00:00",
+  "updated_at": "2026-03-15T20:25:00.016819+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 65.4,
+    "ormuz_flow_pct": 66.1,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "15 MAR 2026 · 20:10 UTC",
+      "headline": "LA GUERRA EN ORIENTE PRÓXIMO INICIA SU TERCERA SEMANA Y TRUMP DICE QUE SEGUIRÁ B",
+      "detail": "Alemania rechaza participar en la flota internacional que Estados Unidos quiere crear en el estrecho de Ormuz. Los muertos en Líbano por ataques de Israel son ya 850",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 MAR 2026 · 15:11 UTC",
       "headline": "STRATEGIC OIL RELEASE MAY CALM MARKETS BUT CANNOT FIX HORMUZ DISRUPTION",
@@ -31,12 +37,6 @@
       "headline": "SECURING HORMUZ STRAIT SHOULD BE ‘A TEAM EFFORT’ – TRUMP",
       "detail": "US President Donald Trump has urged China, Japan and other nations to secure Hormuz Strait Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 MAR 2026 · 09:47 UTC",
-      "headline": "TRUMP SAYS US MAY HIT IRAN’S KHARG ISLAND AGAIN ‘JUST FOR FUN’",
-      "detail": "US president says his country may carry out more strikes on oil hub as he urges allies to help open Strait of Hormuz.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "14 MAR 2026 · 20:33 UTC",
