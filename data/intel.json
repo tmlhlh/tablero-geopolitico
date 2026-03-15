@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-03-15T02:03:43.102775+00:00",
+  "updated_at": "2026-03-15T05:02:51.999320+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 52.0,
     "vix": 27.19,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
@@ -19,18 +19,6 @@
       "headline": "IRAN WAR LIVE: TRUMP URGES ALLIES TO KEEP HORMUZ OPEN AMID GULF ATTACKS",
       "detail": "US President Donald Trump says allies who rely on Gulf oil must help keep the Strait of Hormuz open.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 23:58 UTC",
-      "headline": "CON UN IRÁN DESAFIANTE, TRUMP PIDE A OTROS PAÍSES QUE ENVÍEN NAVES A ORMUZ",
-      "detail": "El régimen atacó la embajada norteamericana en Bagdad y otros objetivos en la zona del Golfo tras el bombardeo en la isla de Kharg; el magnate “espera” que China, Gran Bretaña y Francia aporten barcos",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 17:38 UTC",
-      "headline": "TRUMP SAYS ‘MANY COUNTRIES’ WILL SEND WARSHIPS TO HORMUZ AMID IRAN BLOCKADE",
-      "detail": "US president urges naval coalition as Iran says Strait of Hormuz closed to 'tankers and ships of enemies' during war.",
-      "severity": "INFO"
     },
     {
       "timestamp": "14 MAR 2026 · 15:09 UTC",
@@ -49,11 +37,23 @@
       "headline": "TRUMP DEMANDS CHINA, OTHER NATIONS DEPLOY WARSHIPS TO STRAIT OF HORMUZ (PHOTOS, ",
       "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 MAR 2026 · 07:35 UTC",
+      "headline": "FBI WARNS OF ‘IRANIAN DRONE THREAT’ TO CALIFORNIA",
+      "detail": "The FBI has warned of potential Iranian plans to launch drone raids on California using a vessel off the West Coast Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 MAR 2026 · 07:09 UTC",
+      "headline": "OIL AND GAS CRISIS, KEY PORT IN FLAMES, TRUMP CLAIMS ‘VICTORY’ COMING (PHOTOS, V",
+      "detail": "RT brings you live updates on the US-Israeli war against Iran, as Tehran responds with retaliatory strikes across the Middle East Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $98.91 (+0.00%)",
     "VIX: 27.19",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
