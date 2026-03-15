@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T14:27:49.068175+00:00",
+  "updated_at": "2026-03-15T15:26:22.356707+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 61.6,
+    "ormuz_flow_pct": 62.4,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "15 MAR 2026 · 15:11 UTC",
+      "headline": "STRATEGIC OIL RELEASE MAY CALM MARKETS BUT CANNOT FIX HORMUZ DISRUPTION",
+      "detail": "Record oil release steadies markets, but war-driven disruption in the Strait of Hormuz keeps energy supplies uncertain.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 MAR 2026 · 14:56 UTC",
+      "headline": "TRUMP CALLS FOR NAVAL COALITION TO OPEN STRAIT OF HORMUZ: CAN IT WORK?",
+      "detail": "Analysts say US president's solution to secure the strait is fraught with problems.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 MAR 2026 · 12:49 UTC",
       "headline": "SECURING HORMUZ STRAIT SHOULD BE ‘A TEAM EFFORT’ – TRUMP",
@@ -37,18 +49,6 @@
       "headline": "TRUMP URGES UK AND OTHER NATIONS TO SEND WARSHIPS TO STRAIT OF HORMUZ",
       "detail": "The US president says he hopes China, France, Japan and South Korea will also send ships to defend the key oil shipping route.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 15:09 UTC",
-      "headline": "OIL TANKER ATTACKED OFF RUSSIAN COAST",
-      "detail": "A Greek-flagged oil tanker was attacked by a “missile or a drone” off the Russian Black Sea coast, the shipping ministry in Athens has said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 13:34 UTC",
-      "headline": "HAMAS URGES KEY ALLY IRAN TO HALT ATTACKS ON GULF STATES",
-      "detail": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
