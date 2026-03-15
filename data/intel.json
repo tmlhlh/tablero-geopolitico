@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T23:24:54.520615+00:00",
+  "updated_at": "2026-03-15T02:03:43.102775+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 MAR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP URGES ALLIES TO KEEP HORMUZ OPEN AMID GULF ATTACKS",
+      "detail": "US President Donald Trump says allies who rely on Gulf oil must help keep the Strait of Hormuz open.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 MAR 2026 · 23:58 UTC",
+      "headline": "CON UN IRÁN DESAFIANTE, TRUMP PIDE A OTROS PAÍSES QUE ENVÍEN NAVES A ORMUZ",
+      "detail": "El régimen atacó la embajada norteamericana en Bagdad y otros objetivos en la zona del Golfo tras el bombardeo en la isla de Kharg; el magnate “espera” que China, Gran Bretaña y Francia aporten barcos",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 MAR 2026 · 17:38 UTC",
       "headline": "TRUMP SAYS ‘MANY COUNTRIES’ WILL SEND WARSHIPS TO HORMUZ AMID IRAN BLOCKADE",
@@ -37,18 +49,6 @@
       "headline": "TRUMP DEMANDS CHINA, OTHER NATIONS DEPLOY WARSHIPS TO STRAIT OF HORMUZ (PHOTOS, ",
       "detail": "The US-Israeli attack on Iran is entering its third week with continuing long-range strikes and an escalating war of words on both sides Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "IRÁN DESAFÍA A LA POTENTE ARMADA DE ESTADOS UNIDOS EN UNA BATALLA NAVAL ASIMÉTRI",
-      "detail": "El control iraní del estrecho de Ormuz, un flanco vulnerable a posible ataques con drones o lanchas rápidas, y el riesgo al minado de las aguas, dificulta la entrada en acción de las fragatas estadoun",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAR 2026 · 04:45 UTC",
-      "headline": "EL GOLFO BUSCA EN UCRANIA LOS CODICIADOS DRONES STING PARA DEFENDERSE DE IRÁN ",
-      "detail": "Estados Unidos y otros países han solicitado a Kiev este aparato con más del 80% de efectividad para derribar los Shahed iraníes y sus variantes",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
