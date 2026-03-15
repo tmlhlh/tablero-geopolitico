@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T05:02:51.999320+00:00",
+  "updated_at": "2026-03-15T06:52:35.047361+00:00",
   "market": {
     "brent_usd": 98.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 52.0,
+    "ormuz_flow_pct": 54.1,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -16,9 +16,15 @@
   "events": [
     {
       "timestamp": "15 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP URGES ALLIES TO KEEP HORMUZ OPEN AMID GULF ATTACKS",
-      "detail": "US President Donald Trump says allies who rely on Gulf oil must help keep the Strait of Hormuz open.",
-      "severity": "CRÍTICO"
+      "headline": "IRAN WAR LIVE: TRUMP SAYS NOT READY FOR DEAL; US, ISRAEL POUND ISFAHAN",
+      "detail": "US President Donald Trump says allies who rely on Gulf oil must help to keep the Strait of Hormuz open.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 MAR 2026 · 20:33 UTC",
+      "headline": "TRUMP URGES UK AND OTHER NATIONS TO SEND WARSHIPS TO STRAIT OF HORMUZ",
+      "detail": "The US president says he hopes China, France, Japan and South Korea will also send ships to defend the key oil shipping route.",
+      "severity": "INFO"
     },
     {
       "timestamp": "14 MAR 2026 · 15:09 UTC",
@@ -43,12 +49,6 @@
       "headline": "FBI WARNS OF ‘IRANIAN DRONE THREAT’ TO CALIFORNIA",
       "detail": "The FBI has warned of potential Iranian plans to launch drone raids on California using a vessel off the West Coast Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 MAR 2026 · 07:09 UTC",
-      "headline": "OIL AND GAS CRISIS, KEY PORT IN FLAMES, TRUMP CLAIMS ‘VICTORY’ COMING (PHOTOS, V",
-      "detail": "RT brings you live updates on the US-Israeli war against Iran, as Tehran responds with retaliatory strikes across the Middle East Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
