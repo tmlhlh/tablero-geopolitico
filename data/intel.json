@@ -1,23 +1,41 @@
 {
-  "updated_at": "2026-03-16T13:04:19.584624+00:00",
+  "updated_at": "2026-03-16T14:56:58.256549+00:00",
   "market": {
-    "brent_usd": 97.5,
+    "brent_usd": 97.6,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 77.9,
-    "vix": 24.96,
+    "ormuz_flow_pct": 79.4,
+    "vix": 24.48,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.3
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
+      "timestamp": "16 MAR 2026 · 14:40 UTC",
+      "headline": "EU LEADERS REJECT MILITARY INVOLVEMENT IN STRAIT OF HORMUZ AMID WAR ON IRAN",
+      "detail": "Pushback comes as US President Donald Trump says NATO allies should help secure key waterway amid soaring oil prices.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 14:07 UTC",
+      "headline": "QATAR CALLS ON IRAN TO STOP GULF ATTACKS, URGES DIPLOMATIC SOLUTION",
+      "detail": "Qatar foreign ministry spokesman Majed al-Ansari accuses Iran of targeting civilian areas as he calls for de-escalation.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "16 MAR 2026 · 12:43 UTC",
       "headline": "IRAN HITS KEY UAE OIL PORT AND DUBAI AIRPORT",
       "detail": "The port of Fujairah plays a crucial role in helping keep global supplies moving when the Strait of Hormuz is blocked.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 12:43 UTC",
+      "headline": "STRAIT OF HORMUZ: WHICH COUNTRIES’ SHIPS HAS IRAN ALLOWED SAFE PASSAGE TO?",
+      "detail": "Tehran allows a small number of ships from certain countries to pass through waterway.",
       "severity": "INFO"
     },
     {
@@ -31,29 +49,11 @@
       "headline": "SOUTH KOREAN PROTESTERS CRITICISE TRUMP OVER HORMUZ SECURITY DEMAND",
       "detail": "Activists in South Korea have staged a protest against Donald Trump’s request for help securing the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 11:34 UTC",
-      "headline": "DOCENTES UNIVERSITARIOS CONVOCAN A UN PARO; TRUMP LE RECLAMA A LA OTAN QUE INTER",
-      "detail": "Además, Javier Milei mostró su apoyo a Adorni; la Argentina busca rival alternativo a la Finalissima; River ganó, y Boca perdió este domingo. Estas son las noticias de la mañana del lunes 16 de marzo ",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 08:22 UTC",
-      "headline": "HOW CLOSING THE STRAIT OF HORMUZ RAISES YOUR GROCERY BILL",
-      "detail": "Closing the Strait of Hormuz raised oil prices. It also raises the cost of bread.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 07:52 UTC",
-      "headline": "DRONE ATTACK DISRUPTS DUBAI FLIGHTS AS IRAN CONTINUES GULF ATTACKS",
-      "detail": "At least one person killed in Abu Dhabi. Dubai flights disrupted, and fire breaks out in Fujairah after Iranian attacks.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.5 (+0.00%)",
-    "VIX: 24.96",
+    "BRENT: $97.6 (+0.00%)",
+    "VIX: 24.48",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
