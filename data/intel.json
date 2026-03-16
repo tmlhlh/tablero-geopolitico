@@ -1,29 +1,41 @@
 {
-  "updated_at": "2026-03-16T11:43:35.801318+00:00",
+  "updated_at": "2026-03-16T13:04:19.584624+00:00",
   "market": {
-    "brent_usd": 98.86,
+    "brent_usd": 97.5,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 76.3,
-    "vix": 25.54,
+    "ormuz_flow_pct": 77.9,
+    "vix": 24.96,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.5
+    "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "16 MAR 2026 · 11:34 UTC",
-      "headline": "DOCENTES UNIVERSITARIOS CONVOCAN A UN PARO; TRUMP LE RECLAMA A LA OTAN QUE INTER",
-      "detail": "Además, Javier Milei mostró su apoyo a Adorni; la Argentina busca rival alternativo a la Finalissima; River ganó, y Boca perdió este domingo. Estas son las noticias de la mañana del lunes 16 de marzo ",
+      "timestamp": "16 MAR 2026 · 12:43 UTC",
+      "headline": "IRAN HITS KEY UAE OIL PORT AND DUBAI AIRPORT",
+      "detail": "The port of Fujairah plays a crucial role in helping keep global supplies moving when the Strait of Hormuz is blocked.",
       "severity": "INFO"
     },
     {
-      "timestamp": "16 MAR 2026 · 09:55 UTC",
-      "headline": "TRUMP ADVIERTE QUE LA OTAN ENFRENTA UN FUTURO “MUY MALO” SI SUS ALIADOS NO AYUDA",
-      "detail": "“Si no hay respuesta o si es negativa —a la petición estadounidense—, creo que será muy malo para el futuro de la OTAN [Organización del Tratado del Atlántico Norte]”, sostuvo el presidente norteameri",
+      "timestamp": "16 MAR 2026 · 12:36 UTC",
+      "headline": "LA DURA RESPUESTA DE ALEMANIA Y REINO UNIDO A LOS RECLAMOS DE TRUMP: “LA GUERRA ",
+      "detail": "Los países europeos buscan un plan “viable” para reabrir el estrecho de Ormuz; el presidente estadounidense había exigido que sus aliados lo ayudaran a garantizar la seguridad del paso marítimo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 12:20 UTC",
+      "headline": "SOUTH KOREAN PROTESTERS CRITICISE TRUMP OVER HORMUZ SECURITY DEMAND",
+      "detail": "Activists in South Korea have staged a protest against Donald Trump’s request for help securing the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 11:34 UTC",
+      "headline": "DOCENTES UNIVERSITARIOS CONVOCAN A UN PARO; TRUMP LE RECLAMA A LA OTAN QUE INTER",
+      "detail": "Además, Javier Milei mostró su apoyo a Adorni; la Argentina busca rival alternativo a la Finalissima; River ganó, y Boca perdió este domingo. Estas son las noticias de la mañana del lunes 16 de marzo ",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "DRONE ATTACK DISRUPTS DUBAI FLIGHTS AS IRAN CONTINUES GULF ATTACKS",
       "detail": "At least one person killed in Abu Dhabi. Dubai flights disrupted, and fire breaks out in Fujairah after Iranian attacks.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 06:56 UTC",
-      "headline": "JAPAN BEGINS RELEASE OF OIL RESERVES AS IRAN WAR SPARKS ENERGY CRISIS",
-      "detail": "Tokyo's move comes as oil prices remain elevated amid the effective closure of the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 00:05 UTC",
-      "headline": "HOW PASSENGER PLANES KEEP FLYING DURING A WAR",
-      "detail": "Airspace over Iran and the Gulf remains severely restricted following missile strikes, putting additional pressure on airlines.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.86 (+0.00%)",
-    "VIX: 25.54",
+    "BRENT: $97.5 (+0.00%)",
+    "VIX: 24.96",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
