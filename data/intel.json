@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-16T20:35:33.958517+00:00",
+  "updated_at": "2026-03-16T21:36:00.771737+00:00",
   "market": {
-    "brent_usd": 100.3,
+    "brent_usd": 100.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 82.8,
+    "ormuz_flow_pct": 83.1,
     "vix": 23.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.8
@@ -15,15 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "16 MAR 2026 · 18:53 UTC",
-      "headline": "TRUMP SAYS HORMUZ STRAIT HELP ‘ON THE WAY’ AS ALLIES REJECT MILITARY ACTION",
-      "detail": "US president refuses to identify which countries he says are responding to call for naval coalition to open trade route.",
+      "timestamp": "16 MAR 2026 · 21:00 UTC",
+      "headline": "WHO IS ANSWERING TRUMP’S CALL FOR HELP WITH STRAIT OF HORMUZ?",
+      "detail": "Trump has criticised the response to his call to help protect shipping in the Strait of Hormuz during the war on Iran.",
       "severity": "INFO"
     },
     {
-      "timestamp": "16 MAR 2026 · 18:52 UTC",
-      "headline": "TRUMP ADVIERTE QUE LA OTAN ENFRENTA UN FUTURO “MUY MALO” SI SUS ALIADOS NO AYUDA",
-      "detail": "“Si no hay respuesta o si es negativa —a la petición estadounidense—, creo que será muy malo para el futuro de la OTAN [Organización del Tratado del Atlántico Norte]”, sostuvo el presidente norteameri",
+      "timestamp": "16 MAR 2026 · 20:41 UTC",
+      "headline": "HOW BIG OF A PROBLEM IS THE STRAIT OF HORMUZ FOR DONALD TRUMP?",
+      "detail": "US president frustrated with unenthusiastic response after appealing for help wresting control of key strait from Iran.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 20:40 UTC",
+      "headline": "HOW THE WORLD’S REACTING TO TRUMP’S CALL TO PATROL THE HORMUZ STRAIT",
+      "detail": "The world mostly remains silent to US President Donald Trump’s call to send warships to the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 18:53 UTC",
+      "headline": "TRUMP SAYS HORMUZ STRAIT HELP ‘ON THE WAY’ AS ALLIES REJECT MILITARY ACTION",
+      "detail": "US president refuses to identify which countries he says are responding to call for naval coalition to open trade route.",
       "severity": "INFO"
     },
     {
@@ -37,22 +49,10 @@
       "headline": "WARY ALLIES SHOW THERE'S NO QUICK FIX TO TRUMP'S IRAN CRISIS",
       "detail": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 14:40 UTC",
-      "headline": "EUROPEAN LEADERS REJECT MILITARY INVOLVEMENT IN STRAIT OF HORMUZ",
-      "detail": "Pushback comes as US President Donald Trump says NATO allies should help secure key waterway amid soaring oil prices.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 14:07 UTC",
-      "headline": "QATAR CALLS ON IRAN TO STOP GULF ATTACKS, URGES DIPLOMATIC SOLUTION",
-      "detail": "Qatar foreign ministry spokesman Majed al-Ansari accuses Iran of targeting civilian areas as he calls for de-escalation.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.3 (+0.00%)",
+    "BRENT: $100.84 (+0.00%)",
     "VIX: 23.51",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
