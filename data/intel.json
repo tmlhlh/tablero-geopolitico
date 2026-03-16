@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-15T23:26:24.737695+00:00",
+  "updated_at": "2026-03-16T02:05:15.747963+00:00",
   "market": {
-    "brent_usd": 100.21,
+    "brent_usd": 99.54,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 67.9,
+    "ormuz_flow_pct": 69.3,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 00:05 UTC",
+      "headline": "HOW PASSENGER PLANES KEEP FLYING DURING A WAR",
+      "detail": "Airspace over Iran and the Gulf remains severely restricted following missile strikes, putting additional pressure on airlines.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "15 MAR 2026 · 23:30 UTC",
+      "headline": "MUTED RESPONSE AS TRUMP URGES NATIONS TO ESCORT SHIPS THROUGH HORMUZ STRAIT",
+      "detail": "The US president's call for allied naval forces comes as Iran's Revolutionary Guard says, 'Let him send his ships'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 MAR 2026 · 20:10 UTC",
       "headline": "LA GUERRA EN ORIENTE PRÓXIMO INICIA SU TERCERA SEMANA Y TRUMP DICE QUE SEGUIRÁ B",
@@ -37,22 +49,10 @@
       "headline": "SECURING HORMUZ STRAIT SHOULD BE ‘A TEAM EFFORT’ – TRUMP",
       "detail": "US President Donald Trump has urged China, Japan and other nations to secure Hormuz Strait Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 20:33 UTC",
-      "headline": "TRUMP URGES UK AND OTHER NATIONS TO SEND WARSHIPS TO STRAIT OF HORMUZ",
-      "detail": "The US president says he hopes China, France, Japan and South Korea will also send ships to defend the key oil shipping route.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 MAR 2026 · 15:09 UTC",
-      "headline": "OIL TANKER ATTACKED OFF RUSSIAN COAST",
-      "detail": "A Greek-flagged oil tanker was attacked by a “missile or a drone” off the Russian Black Sea coast, the shipping ministry in Athens has said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.21 (+0.00%)",
+    "BRENT: $99.54 (+0.00%)",
     "VIX: 27.19",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
