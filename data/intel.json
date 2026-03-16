@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-03-16T07:12:32.685616+00:00",
+  "updated_at": "2026-03-16T08:53:07.869467+00:00",
   "market": {
-    "brent_usd": 99.72,
+    "brent_usd": 101.43,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 71.6,
-    "vix": 27.19,
+    "ormuz_flow_pct": 74.3,
+    "vix": 26.07,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 5.1
+    "insurance_spread_pct": 4.7
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 08:22 UTC",
+      "headline": "HOW CLOSING THE STRAIT OF HORMUZ RAISES YOUR GROCERY BILL",
+      "detail": "Closing the Strait of Hormuz raised oil prices. It also raises the cost of bread.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 07:52 UTC",
+      "headline": "DRONE STRIKE DISRUPTS DUBAI FLIGHTS AS IRAN CONTINUES GULF ATTACKS",
+      "detail": "Iran has sought to justify its attacks on Gulf countries, hitting civilian infrastructure as well as US assets.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 06:56 UTC",
+      "headline": "JAPAN BEGINS RELEASE OF OIL RESERVES AS IRAN WAR SPARKS ENERGY CRISIS",
+      "detail": "Tokyo's move comes as oil prices remain elevated amid the effective closure of the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAR 2026 · 03:14 UTC",
       "headline": "NOBODY WANTS TO GET INVOLVED’ IN STRAIT OF HORMUZ MILITARY OPERATIONS",
@@ -31,29 +49,11 @@
       "headline": "HOW PASSENGER PLANES KEEP FLYING DURING A WAR",
       "detail": "Airspace over Iran and the Gulf remains severely restricted following missile strikes, putting additional pressure on airlines.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 MAR 2026 · 23:30 UTC",
-      "headline": "MUTED RESPONSE AS TRUMP URGES NATIONS TO ESCORT SHIPS THROUGH HORMUZ STRAIT",
-      "detail": "The US president's call for allied naval forces comes as Iran's Revolutionary Guard says, 'Let him send his ships'.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 MAR 2026 · 20:10 UTC",
-      "headline": "LA GUERRA EN ORIENTE PRÓXIMO INICIA SU TERCERA SEMANA Y TRUMP DICE QUE SEGUIRÁ B",
-      "detail": "Alemania rechaza participar en la flota internacional que Estados Unidos quiere crear en el estrecho de Ormuz. Los muertos en Líbano por ataques de Israel son ya 850",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 MAR 2026 · 12:49 UTC",
-      "headline": "SECURING STRAIT OF HORMUZ SHOULD BE ‘A TEAM EFFORT’ – TRUMP",
-      "detail": "US President Donald Trump has urged China, Japan and other nations to secure Hormuz Strait Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.72 (+0.00%)",
-    "VIX: 27.19",
+    "BRENT: $101.43 (+0.00%)",
+    "VIX: 26.07",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
