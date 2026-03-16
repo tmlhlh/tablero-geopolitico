@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-16T21:36:00.771737+00:00",
+  "updated_at": "2026-03-16T22:29:44.090510+00:00",
   "market": {
-    "brent_usd": 100.84,
+    "brent_usd": 100.85,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 83.1,
+    "ormuz_flow_pct": 83.2,
     "vix": 23.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.8
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 21:42 UTC",
+      "headline": "TRUMP CHOCA CON LA RESISTENCIA DE ALIADOS PARA FORZAR SU AYUDA EN EL ESTRECHO DE",
+      "detail": "El presidente norteamericano mostró su frustración por el rechazo de varios gobiernos a su reclamo para que cooperen en la reapertura de esa zona marítima crucial, mientras sigue el conflicto bélico c",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAR 2026 · 21:00 UTC",
       "headline": "WHO IS ANSWERING TRUMP’S CALL FOR HELP WITH STRAIT OF HORMUZ?",
@@ -43,16 +49,10 @@
       "headline": "EUROPA RECHAZA LAS AMENAZAS DE TRUMP PARA FORZAR SU AYUDA EN EL ESTRECHO DE ORMU",
       "detail": "El presidente de EE UU insiste en la presión a sus aliados y afirma que hay países que se han comprometido a ayudarle a desatascar esa vía vital para el petróleo global, pero no especifica cuáles",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 17:34 UTC",
-      "headline": "WARY ALLIES SHOW THERE'S NO QUICK FIX TO TRUMP'S IRAN CRISIS",
-      "detail": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.84 (+0.00%)",
+    "BRENT: $100.85 (+0.00%)",
     "VIX: 23.51",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
