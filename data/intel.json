@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-16T02:05:15.747963+00:00",
+  "updated_at": "2026-03-16T05:12:26.712766+00:00",
   "market": {
-    "brent_usd": 99.54,
+    "brent_usd": 100.33,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 69.3,
+    "ormuz_flow_pct": 70.8,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 03:14 UTC",
+      "headline": "NOBODY WANTS TO GET INVOLVED’ IN STRAIT OF HORMUZ MILITARY OPERATIONS",
+      "detail": "Charles Kupchan says the US and allies are reluctant to use military means to safeguard the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 02:05 UTC",
+      "headline": "OIL PRICES KEEP RISING AS TRUMP SEEKS COALITION TO REOPEN STRAIT OF HORMUZ",
+      "detail": "Brent crude tops $106 a barrel as markets see no end in sight to the halt of traffic through the critical waterway.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAR 2026 · 00:05 UTC",
       "headline": "HOW PASSENGER PLANES KEEP FLYING DURING A WAR",
@@ -33,18 +45,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "15 MAR 2026 · 15:11 UTC",
-      "headline": "STRATEGIC OIL RELEASE MAY CALM MARKETS BUT CANNOT FIX HORMUZ DISRUPTION",
-      "detail": "Record oil release steadies markets, but war-driven disruption in the Strait of Hormuz keeps energy supplies uncertain.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 MAR 2026 · 14:56 UTC",
-      "headline": "TRUMP CALLS FOR NAVAL COALITION TO OPEN STRAIT OF HORMUZ: CAN IT WORK?",
-      "detail": "Analysts say US president's solution to secure the strait is fraught with problems.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "15 MAR 2026 · 12:49 UTC",
       "headline": "SECURING HORMUZ STRAIT SHOULD BE ‘A TEAM EFFORT’ – TRUMP",
       "detail": "US President Donald Trump has urged China, Japan and other nations to secure Hormuz Strait Read Full Article at RT.com",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $99.54 (+0.00%)",
+    "BRENT: $100.33 (+0.00%)",
     "VIX: 27.19",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
