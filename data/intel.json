@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-16T10:03:32.148308+00:00",
+  "updated_at": "2026-03-16T11:43:35.801318+00:00",
   "market": {
-    "brent_usd": 99.73,
+    "brent_usd": 98.86,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 74.4,
-    "vix": 26.28,
+    "ormuz_flow_pct": 76.3,
+    "vix": 25.54,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.7
+    "insurance_spread_pct": 4.5
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 11:34 UTC",
+      "headline": "DOCENTES UNIVERSITARIOS CONVOCAN A UN PARO; TRUMP LE RECLAMA A LA OTAN QUE INTER",
+      "detail": "Además, Javier Milei mostró su apoyo a Adorni; la Argentina busca rival alternativo a la Finalissima; River ganó, y Boca perdió este domingo. Estas son las noticias de la mañana del lunes 16 de marzo ",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAR 2026 · 09:55 UTC",
       "headline": "TRUMP ADVIERTE QUE LA OTAN ENFRENTA UN FUTURO “MUY MALO” SI SUS ALIADOS NO AYUDA",
@@ -28,8 +34,8 @@
     },
     {
       "timestamp": "16 MAR 2026 · 07:52 UTC",
-      "headline": "DRONE STRIKE DISRUPTS DUBAI FLIGHTS AS IRAN CONTINUES GULF ATTACKS",
-      "detail": "At least one person killed in Abu Dhabi, Dubai flights disrupted and fire breaks out in Fujairah after Iranian attacks.",
+      "headline": "DRONE ATTACK DISRUPTS DUBAI FLIGHTS AS IRAN CONTINUES GULF ATTACKS",
+      "detail": "At least one person killed in Abu Dhabi. Dubai flights disrupted, and fire breaks out in Fujairah after Iranian attacks.",
       "severity": "CRÍTICO"
     },
     {
@@ -39,21 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "16 MAR 2026 · 03:14 UTC",
-      "headline": "NOBODY WANTS TO GET INVOLVED’ IN STRAIT OF HORMUZ MILITARY OPERATIONS",
-      "detail": "Charles Kupchan says the US and allies are reluctant to use military means to safeguard the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 02:05 UTC",
-      "headline": "OIL PRICES KEEP RISING AS TRUMP SEEKS COALITION TO REOPEN STRAIT OF HORMUZ",
-      "detail": "Brent crude tops $106 a barrel as markets see no end in sight to the halt of traffic through the critical waterway.",
-      "severity": "INFO"
+      "timestamp": "16 MAR 2026 · 00:05 UTC",
+      "headline": "HOW PASSENGER PLANES KEEP FLYING DURING A WAR",
+      "detail": "Airspace over Iran and the Gulf remains severely restricted following missile strikes, putting additional pressure on airlines.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.73 (+0.00%)",
-    "VIX: 26.28",
+    "BRENT: $98.86 (+0.00%)",
+    "VIX: 25.54",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
