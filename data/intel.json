@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-03-16T16:06:01.154189+00:00",
+  "updated_at": "2026-03-16T17:57:53.036260+00:00",
   "market": {
-    "brent_usd": 101.84,
+    "brent_usd": 101.18,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 23.76,
+    "vix": 24.15,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.9
+    "insurance_spread_pct": 4.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 17:34 UTC",
+      "headline": "WARY ALLIES SHOW THERE'S NO QUICK FIX TO TRUMP'S IRAN CRISIS",
+      "detail": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 17:25 UTC",
+      "headline": "TRUMP ASEGURÓ QUE EL RÉGIMEN IRANÍ FUE “ANIQUILADO” Y SE MOSTRÓ MOLESTO CON LOS ",
+      "detail": "El mandatario norteamericano dijo estar frustrado por la falta de “entusiasmo” de “numerosos países”, tras los rechazos a unirse a una coalición para asegurar el estrecho de Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAR 2026 · 15:16 UTC",
       "headline": "TRUMP NO DESCARTA TOMAR LA ISLA PETROLERA IRANÍ DE KHARG MIENTRAS LA GUERRA DISP",
@@ -22,7 +34,7 @@
     },
     {
       "timestamp": "16 MAR 2026 · 14:40 UTC",
-      "headline": "EU LEADERS REJECT MILITARY INVOLVEMENT IN STRAIT OF HORMUZ AMID WAR ON IRAN",
+      "headline": "EUROPEAN LEADERS REJECT MILITARY INVOLVEMENT IN STRAIT OF HORMUZ",
       "detail": "Pushback comes as US President Donald Trump says NATO allies should help secure key waterway amid soaring oil prices.",
       "severity": "INFO"
     },
@@ -37,23 +49,11 @@
       "headline": "IRAN HITS KEY UAE OIL PORT AND DUBAI AIRPORT",
       "detail": "The port of Fujairah plays a crucial role in helping keep global supplies moving when the Strait of Hormuz is blocked.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 12:43 UTC",
-      "headline": "STRAIT OF HORMUZ: WHICH COUNTRIES’ SHIPS HAS IRAN ALLOWED SAFE PASSAGE TO?",
-      "detail": "Tehran allows a small number of ships from certain countries to pass through waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 12:20 UTC",
-      "headline": "SOUTH KOREAN PROTESTERS CRITICISE TRUMP OVER HORMUZ SECURITY DEMAND",
-      "detail": "Activists in South Korea have staged a protest against Donald Trump’s request for help securing the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.84 (+0.00%)",
-    "VIX: 23.76",
+    "BRENT: $101.18 (+0.00%)",
+    "VIX: 24.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
