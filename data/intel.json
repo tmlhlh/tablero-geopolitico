@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-16T14:56:58.256549+00:00",
+  "updated_at": "2026-03-16T16:06:01.154189+00:00",
   "market": {
-    "brent_usd": 97.6,
+    "brent_usd": 101.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 79.4,
-    "vix": 24.48,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.1
+    "ormuz_flow_pct": 8.5,
+    "vix": 23.76,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 3.9
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 15:16 UTC",
+      "headline": "TRUMP NO DESCARTA TOMAR LA ISLA PETROLERA IRANÍ DE KHARG MIENTRAS LA GUERRA DISP",
+      "detail": "El bloqueo del estrecho de Ormuz y los ataques en el Golfo Pérsico sacuden el mercado energético mundial; Washington insiste en formar una coalición naval para garantizar el tránsito de petroleros",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "16 MAR 2026 · 14:40 UTC",
       "headline": "EU LEADERS REJECT MILITARY INVOLVEMENT IN STRAIT OF HORMUZ AMID WAR ON IRAN",
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "16 MAR 2026 · 12:36 UTC",
-      "headline": "LA DURA RESPUESTA DE ALEMANIA Y REINO UNIDO A LOS RECLAMOS DE TRUMP: “LA GUERRA ",
-      "detail": "Los países europeos buscan un plan “viable” para reabrir el estrecho de Ormuz; el presidente estadounidense había exigido que sus aliados lo ayudaran a garantizar la seguridad del paso marítimo",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "16 MAR 2026 · 12:20 UTC",
       "headline": "SOUTH KOREAN PROTESTERS CRITICISE TRUMP OVER HORMUZ SECURITY DEMAND",
       "detail": "Activists in South Korea have staged a protest against Donald Trump’s request for help securing the Strait of Hormuz.",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.6 (+0.00%)",
-    "VIX: 24.48",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $101.84 (+0.00%)",
+    "VIX: 23.76",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
