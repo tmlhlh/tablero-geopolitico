@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-16T08:53:07.869467+00:00",
+  "updated_at": "2026-03-16T10:03:32.148308+00:00",
   "market": {
-    "brent_usd": 101.43,
+    "brent_usd": 99.73,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 74.3,
-    "vix": 26.07,
+    "ormuz_flow_pct": 74.4,
+    "vix": 26.28,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.7
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 09:55 UTC",
+      "headline": "TRUMP ADVIERTE QUE LA OTAN ENFRENTA UN FUTURO “MUY MALO” SI SUS ALIADOS NO AYUDA",
+      "detail": "“Si no hay respuesta o si es negativa —a la petición estadounidense—, creo que será muy malo para el futuro de la OTAN [Organización del Tratado del Atlántico Norte]”, sostuvo el presidente norteameri",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAR 2026 · 08:22 UTC",
       "headline": "HOW CLOSING THE STRAIT OF HORMUZ RAISES YOUR GROCERY BILL",
@@ -23,7 +29,7 @@
     {
       "timestamp": "16 MAR 2026 · 07:52 UTC",
       "headline": "DRONE STRIKE DISRUPTS DUBAI FLIGHTS AS IRAN CONTINUES GULF ATTACKS",
-      "detail": "Iran has sought to justify its attacks on Gulf countries, hitting civilian infrastructure as well as US assets.",
+      "detail": "At least one person killed in Abu Dhabi, Dubai flights disrupted and fire breaks out in Fujairah after Iranian attacks.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "OIL PRICES KEEP RISING AS TRUMP SEEKS COALITION TO REOPEN STRAIT OF HORMUZ",
       "detail": "Brent crude tops $106 a barrel as markets see no end in sight to the halt of traffic through the critical waterway.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 00:05 UTC",
-      "headline": "HOW PASSENGER PLANES KEEP FLYING DURING A WAR",
-      "detail": "Airspace over Iran and the Gulf remains severely restricted following missile strikes, putting additional pressure on airlines.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.43 (+0.00%)",
-    "VIX: 26.07",
+    "BRENT: $99.73 (+0.00%)",
+    "VIX: 26.28",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
