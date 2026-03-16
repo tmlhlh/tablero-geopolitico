@@ -1,19 +1,43 @@
 {
-  "updated_at": "2026-03-16T17:57:53.036260+00:00",
+  "updated_at": "2026-03-16T19:07:39.241326+00:00",
   "market": {
-    "brent_usd": 101.18,
+    "brent_usd": 100.36,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 24.15,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.0
+    "ormuz_flow_pct": 82.3,
+    "vix": 23.61,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 3.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAR 2026 · 18:53 UTC",
+      "headline": "TRUMP SAYS HORMUZ STRAIT HELP ‘ON THE WAY’ AS ALLIES REJECT MILITARY ACTION",
+      "detail": "US president refuses to identify which countries he says are responding to call for naval coalition to open trade route.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 18:52 UTC",
+      "headline": "TRUMP ADVIERTE QUE LA OTAN ENFRENTA UN FUTURO “MUY MALO” SI SUS ALIADOS NO AYUDA",
+      "detail": "“Si no hay respuesta o si es negativa —a la petición estadounidense—, creo que será muy malo para el futuro de la OTAN [Organización del Tratado del Atlántico Norte]”, sostuvo el presidente norteameri",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 18:18 UTC",
+      "headline": "TRUMP ASEGURÓ QUE EL RÉGIMEN IRANÍ FUE “ANIQUILADO” Y SE MOSTRÓ MOLESTO CON LOS ",
+      "detail": "El mandatario norteamericano dijo estar frustrado por la falta de “entusiasmo” de “numerosos países”, tras los rechazos a unirse a una coalición para asegurar el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 MAR 2026 · 18:04 UTC",
+      "headline": "EUROPA RECHAZA LAS AMENAZAS DE TRUMP PARA FORZAR SU AYUDA EN EL ESTRECHO DE ORMU",
+      "detail": "El presidente de EE UU insiste en la presión a sus aliados y afirma que hay países que se han comprometido a ayudarle a desatascar esa vía vital para el petróleo global, pero no especifica cuáles",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAR 2026 · 17:34 UTC",
       "headline": "WARY ALLIES SHOW THERE'S NO QUICK FIX TO TRUMP'S IRAN CRISIS",
@@ -21,39 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "16 MAR 2026 · 17:25 UTC",
-      "headline": "TRUMP ASEGURÓ QUE EL RÉGIMEN IRANÍ FUE “ANIQUILADO” Y SE MOSTRÓ MOLESTO CON LOS ",
-      "detail": "El mandatario norteamericano dijo estar frustrado por la falta de “entusiasmo” de “numerosos países”, tras los rechazos a unirse a una coalición para asegurar el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 15:16 UTC",
-      "headline": "TRUMP NO DESCARTA TOMAR LA ISLA PETROLERA IRANÍ DE KHARG MIENTRAS LA GUERRA DISP",
-      "detail": "El bloqueo del estrecho de Ormuz y los ataques en el Golfo Pérsico sacuden el mercado energético mundial; Washington insiste en formar una coalición naval para garantizar el tránsito de petroleros",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "16 MAR 2026 · 14:40 UTC",
       "headline": "EUROPEAN LEADERS REJECT MILITARY INVOLVEMENT IN STRAIT OF HORMUZ",
       "detail": "Pushback comes as US President Donald Trump says NATO allies should help secure key waterway amid soaring oil prices.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 14:07 UTC",
-      "headline": "QATAR CALLS ON IRAN TO STOP GULF ATTACKS, URGES DIPLOMATIC SOLUTION",
-      "detail": "Qatar foreign ministry spokesman Majed al-Ansari accuses Iran of targeting civilian areas as he calls for de-escalation.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 12:43 UTC",
-      "headline": "IRAN HITS KEY UAE OIL PORT AND DUBAI AIRPORT",
-      "detail": "The port of Fujairah plays a crucial role in helping keep global supplies moving when the Strait of Hormuz is blocked.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.18 (+0.00%)",
-    "VIX: 24.15",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $100.36 (+0.00%)",
+    "VIX: 23.61",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
