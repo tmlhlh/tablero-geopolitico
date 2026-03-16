@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-16T05:12:26.712766+00:00",
+  "updated_at": "2026-03-16T07:12:32.685616+00:00",
   "market": {
-    "brent_usd": 100.33,
+    "brent_usd": 99.72,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 70.8,
+    "ormuz_flow_pct": 71.6,
     "vix": 27.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 5.1
@@ -46,13 +46,13 @@
     },
     {
       "timestamp": "15 MAR 2026 · 12:49 UTC",
-      "headline": "SECURING HORMUZ STRAIT SHOULD BE ‘A TEAM EFFORT’ – TRUMP",
+      "headline": "SECURING STRAIT OF HORMUZ SHOULD BE ‘A TEAM EFFORT’ – TRUMP",
       "detail": "US President Donald Trump has urged China, Japan and other nations to secure Hormuz Strait Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.33 (+0.00%)",
+    "BRENT: $99.72 (+0.00%)",
     "VIX: 27.19",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
