@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-16T23:28:36.992248+00:00",
+  "updated_at": "2026-03-17T01:52:22.911512+00:00",
   "market": {
-    "brent_usd": 101.88,
+    "brent_usd": 102.63,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 83.4,
+    "ormuz_flow_pct": 83.8,
     "vix": 23.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.8
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "17 MAR 2026 · 00:54 UTC",
+      "headline": "EXPERTS SAY GLOBAL RESPONSE MAY EVOLVE OVER HORMUZ SECURITY",
+      "detail": "Experts say pressure could grow if disruption to the vital energy route continues.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 MAR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SCOLDS ALLIES FOR NOT JOINING STRAIT OF HORMUZ MISSION",
+      "detail": "US President Donald Trump criticises allies' reluctance to commit forces to open the key waterway for Gulf oil exports.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAR 2026 · 21:42 UTC",
       "headline": "TRUMP CHOCA CON LA RESISTENCIA DE ALIADOS PARA FORZAR SU AYUDA EN EL ESTRECHO DE",
@@ -34,25 +46,13 @@
     },
     {
       "timestamp": "16 MAR 2026 · 20:40 UTC",
-      "headline": "HOW THE WORLD’S REACTING TO TRUMP’S CALL TO PATROL THE HORMUZ STRAIT",
+      "headline": "‘NOT OUR WAR’: HOW THE WORLD HAS REACTED TO TRUMP’S CALL TO PATROL THE HORMUZ ST",
       "detail": "The world mostly remains silent to US President Donald Trump’s call to send warships to the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 18:53 UTC",
-      "headline": "TRUMP SAYS HORMUZ STRAIT HELP ‘ON THE WAY’ AS ALLIES REJECT MILITARY ACTION",
-      "detail": "US president refuses to identify which countries he says are responding to call for naval coalition to open trade route.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 18:04 UTC",
-      "headline": "EUROPA RECHAZA LAS AMENAZAS DE TRUMP PARA FORZAR SU AYUDA EN EL ESTRECHO DE ORMU",
-      "detail": "El presidente de EE UU insiste en la presión a sus aliados y afirma que hay países que se han comprometido a ayudarle a desatascar esa vía vital para el petróleo global, pero no especifica cuáles",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.88 (+0.00%)",
+    "BRENT: $102.63 (+0.00%)",
     "VIX: 23.51",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
