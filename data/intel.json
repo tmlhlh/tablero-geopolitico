@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-17T22:29:55.976691+00:00",
+  "updated_at": "2026-03-17T23:29:24.277980+00:00",
   "market": {
-    "brent_usd": 102.8,
+    "brent_usd": 103.42,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "17 MAR 2026 · 22:14 UTC",
-      "headline": "WHAT THE HORMUZ CRISIS REVEALS ABOUT AMERICAN ALLIANCES",
-      "detail": "Trump’s appeal for foreign help in the Hormuz crisis highlights a deeper shift in global politics and the fading myth of US leadership Read Full Article at RT.com",
+      "timestamp": "17 MAR 2026 · 22:55 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 MAR 2026 · 21:54 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
-      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
+      "timestamp": "17 MAR 2026 · 22:14 UTC",
+      "headline": "WHAT THE HORMUZ CRISIS REVEALS ABOUT AMERICAN ALLIANCES",
+      "detail": "Trump’s appeal for foreign help in the Hormuz crisis highlights a deeper shift in global politics and the fading myth of US leadership Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.8 (+0.00%)",
+    "BRENT: $103.42 (+0.00%)",
     "VIX: 22.37",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
