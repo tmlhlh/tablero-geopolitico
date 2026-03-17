@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-17T07:05:54.551507+00:00",
+  "updated_at": "2026-03-17T08:50:41.037678+00:00",
   "market": {
-    "brent_usd": 104.0,
+    "brent_usd": 103.85,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.6,
-    "vix": 23.51,
+    "ormuz_flow_pct": 82.8,
+    "vix": 24.41,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.8
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "17 MAR 2026 · 07:29 UTC",
+      "headline": "IRAN IS TARGETING SHIPS IN RESPONSE TO US ATTACKS — CAN THE US STOP THEM?",
+      "detail": "As the US-Israeli war against Iran continues, we look at a scenario reminiscent of the tanker war of the 1980s",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "17 MAR 2026 · 06:35 UTC",
       "headline": "DRONE SPARKS FIRE AT UAE OIL SITE AS GULF TAKES MORE HITS AMID IRAN WAR",
@@ -43,17 +49,11 @@
       "headline": "ORMUZ, EL ESTRECHO QUE ACELERA LA FRAGILIDAD DEL (DES)ORDEN INTERNACIONAL",
       "detail": "Es una de las pocas zonas del planeta donde un espacio tan reducido puede influir de manera tan determinante sobre la economía global; ese pasillo angosto entre Irán y Omán, de apenas unas decenas de ",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 01:52 UTC",
-      "headline": "ATTEMPTS TO OPEN STRAIT OF HORMUZ BY FORCE WOULD BE ‘ALMOST SUICIDAL’",
-      "detail": "Andreas Krieg says that US plans to deploy 2,500 marines to the Gulf is unlikely to reopen the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.0 (+0.00%)",
-    "VIX: 23.51",
+    "BRENT: $103.85 (+0.00%)",
+    "VIX: 24.41",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
