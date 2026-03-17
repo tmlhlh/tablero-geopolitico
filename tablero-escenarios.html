@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Escenarios Prospectivos: El Mundo Pos-Dólar</title>
+<title>Escenarios Prospectivos — El Mundo Pos-Dólar</title>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -12,166 +12,231 @@
   --bg:        #020405; 
   --panel:     #081216;
   --green:     #00ff88;
-  --green-dim: #00cc66;
   --muted:     #7ba68e; 
   --border:    #1a3324;
   --white:     #eaf2ea; 
   --amber:     #ffaa00;
-  --gold:      #ffd700;
   --red:       #ff3333;
   --blue:      #0088ff;
-  --purple:    #aa66ff;
+  --scan:      rgba(0,255,136,0.015);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--white);font-family:'Share Tech Mono',monospace;}
 
-/* ── HEADER & TOGGLES ── */
-#header{
-  position:fixed;top:0;left:0;right:0;height:65px;z-index:1000;
-  background:linear-gradient(180deg,#000 0%,rgba(2,4,5,0.95) 100%);
-  border-bottom:1px solid var(--border);
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-}
-.h-title{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:3px;color:var(--white);}
-.toggle-container { display: flex; gap: 10px; margin-top: 5px; }
-.toggle-btn {
-  background: var(--panel); border: 1px solid var(--border); color: var(--muted);
-  font-family: 'Share Tech Mono', monospace; font-size: 13px; padding: 4px 15px;
-  cursor: pointer; transition: all 0.3s; border-radius: 2px;
-}
-.toggle-btn:hover { color: var(--white); border-color: var(--muted); }
-.toggle-btn.active-A { background: rgba(0,136,255,0.2); border-color: var(--blue); color: var(--blue); }
-.toggle-btn.active-B { background: rgba(255,170,0,0.2); border-color: var(--amber); color: var(--amber); }
-.toggle-btn.active-C { background: rgba(255,51,51,0.2); border-color: var(--red); color: var(--red); }
+/* Efecto CRT/Scanlines */
+body::before { content:''; position:fixed; inset:0; pointer-events:none; z-index:9999; background:repeating-linear-gradient(0deg,transparent,transparent 2px,var(--scan) 2px,var(--scan) 4px); }
 
-/* ── MAP & PANEL ── */
-#map{position:fixed;top:65px;left:0;right:0;bottom:140px;z-index:1;background:var(--bg);}
-#info-panel{
-  position:fixed;bottom:0;left:0;right:0;height:140px;z-index:1000;
-  background:linear-gradient(0deg,#000 0%,rgba(8,18,22,0.95) 100%);
-  border-top:1px solid var(--border);
-  padding: 15px 25px; overflow-y:auto;
+/* ── LAYOUT PRINCIPAL ── */
+#app-container { display: flex; height: calc(100vh - 30px); width: 100vw; }
+#map-container { flex: 1; position: relative; background: var(--bg); }
+#map { width: 100%; height: 100%; }
+
+/* ── PANEL LATERAL (Estilo War Room) ── */
+#side-panel {
+  width: 380px; background: linear-gradient(90deg, #000 0%, var(--panel) 100%);
+  border-left: 1px solid var(--border); display: flex; flex-direction: column; z-index: 1000;
 }
-#scenario-title{font-family:'Bebas Neue',sans-serif;font-size:24px;letter-spacing:2px;margin-bottom:5px;}
-#scenario-desc{font-size:14px;line-height:1.6;color:var(--white);}
+.panel-header {
+  padding: 20px 20px 10px; border-bottom: 1px solid var(--border);
+}
+.h-title { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 3px; color: var(--green); text-shadow: 0 0 10px rgba(0,255,136,0.3); }
+.h-sub { font-size: 10px; letter-spacing: 2px; color: var(--muted); margin-top: 5px; }
 
-/* Leaflet Popups Ultra-Legibles */
-.leaflet-popup-content-wrapper{background:#081216;border:1px solid var(--border);border-radius:2px;}
-.leaflet-popup-content{font-family:'Share Tech Mono',monospace;font-size:14px !important;line-height:1.6 !important;color:var(--white);margin:12px;}
-.leaflet-popup-tip{background:#081216;}
-.custom-icon { display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:16px; border-radius:50%; }
+/* Selector de Escenarios */
+.scenario-selector { padding: 15px 20px; border-bottom: 1px solid var(--border); display: flex; flex-direction: column; gap: 8px; }
+.btn-scen {
+  background: transparent; border: 1px solid var(--border); color: var(--muted);
+  font-family: 'Share Tech Mono', monospace; font-size: 13px; padding: 10px;
+  cursor: pointer; transition: all 0.3s; text-align: left; letter-spacing: 1px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.btn-scen:hover { border-color: var(--white); color: var(--white); }
+.btn-scen.active-A { background: rgba(0,136,255,0.1); border-color: var(--blue); color: var(--blue); border-left: 3px solid var(--blue); }
+.btn-scen.active-B { background: rgba(255,170,0,0.1); border-color: var(--amber); color: var(--amber); border-left: 3px solid var(--amber); }
+.btn-scen.active-C { background: rgba(255,51,51,0.1); border-color: var(--red); color: var(--red); border-left: 3px solid var(--red); }
 
-/* Mobile Adaptability */
+/* Contenido Dinámico */
+.content-area { padding: 20px; flex: 1; overflow-y: auto; }
+.s-title { font-family: 'Bebas Neue', sans-serif; font-size: 24px; margin-bottom: 10px; letter-spacing: 1px; }
+.s-desc { font-size: 13px; line-height: 1.6; color: var(--white); margin-bottom: 20px; text-align: justify; }
+
+/* Grilla de Indicadores */
+.metrics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+.metric-box { background: rgba(0,0,0,0.4); border: 1px solid var(--border); padding: 10px; }
+.m-label { font-size: 9px; color: var(--muted); letter-spacing: 1px; margin-bottom: 5px; }
+.m-value { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 1px; }
+
+/* ── TICKER INFERIOR ── */
+#ticker {
+  position: fixed; bottom: 0; left: 0; right: 0; height: 30px;
+  background: #000; border-top: 1px solid var(--green); z-index: 1100;
+  display: flex; align-items: center; overflow: hidden;
+}
+.ticker-wrap { white-space: nowrap; animation: ticker 40s linear infinite; font-size: 11px; color: var(--green); letter-spacing: 1px; }
+@keyframes ticker { 0% { transform: translateX(100vw); } 100% { transform: translateX(-100%); } }
+
+/* ── MAPA Y ANIMACIONES ── */
+.leaflet-popup-content-wrapper { background:#081216; border:1px solid var(--border); border-radius:0; }
+.leaflet-popup-content { font-family:'Share Tech Mono',monospace; font-size:13px !important; line-height:1.5 !important; color:var(--white); margin:12px; }
+.leaflet-popup-tip { background:#081216; }
+
+.pulse-node { border-radius: 50%; animation: pulseAnim 2s infinite; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:14px; color:#000; }
+@keyframes pulseAnim { 0%{box-shadow:0 0 0 0 rgba(inherit,0.7);} 70%{box-shadow:0 0 0 15px rgba(inherit,0);} 100%{box-shadow:0 0 0 0 rgba(inherit,0);} }
+
 @media (max-width: 768px) {
-  .h-title { font-size: 18px; }
-  .toggle-btn { font-size: 11px; padding: 4px 8px; }
-  #info-panel { height: 180px; padding: 12px 15px; }
-  #scenario-desc { font-size: 15px !important; }
+  #app-container { flex-direction: column; }
+  #side-panel { width: 100%; border-left: none; border-top: 1px solid var(--border); height: 50vh; order: 2; }
+  #map-container { height: 50vh; order: 1; }
+  .btn-scen { padding: 6px 10px; }
 }
 </style>
 </head>
 <body>
 
-<div id="header">
-  <div class="h-title">EL MUNDO POS-DÓLAR: TRES ESCENARIOS</div>
-  <div class="toggle-container">
-    <button class="toggle-btn" id="btn-A" onclick="loadScenario('A')">EL BLINDAJE</button>
-    <button class="toggle-btn" id="btn-B" onclick="loadScenario('B')">LA FRACTURA</button>
-    <button class="toggle-btn" id="btn-C" onclick="loadScenario('C')">EL ABISMO</button>
+<div id="app-container">
+  <div id="map-container">
+    <div id="map"></div>
+  </div>
+
+  <div id="side-panel">
+    <div class="panel-header">
+      <div class="h-title">PROSPECTIVA ESTRATÉGICA</div>
+      <div class="h-sub">SIMULADOR DE RIESGO: EL ORDEN POS-YEDA</div>
+    </div>
+    
+    <div class="scenario-selector">
+      <button class="btn-scen" id="btn-A" onclick="loadScenario('A')"><span>01 // EL BLINDAJE</span> <span id="ind-A"></span></button>
+      <button class="btn-scen" id="btn-B" onclick="loadScenario('B')"><span>02 // LA FRACTURA</span> <span id="ind-B"></span></button>
+      <button class="btn-scen" id="btn-C" onclick="loadScenario('C')"><span>03 // EL ABISMO</span> <span id="ind-C"></span></button>
+    </div>
+
+    <div class="content-area">
+      <div class="s-title" id="s-title">---</div>
+      <div class="s-desc" id="s-desc">---</div>
+      
+      <div class="metrics-grid">
+        <div class="metric-box">
+          <div class="m-label">HEGEMONÍA DÓLAR</div>
+          <div class="m-value" id="m-dollar">--</div>
+        </div>
+        <div class="metric-box">
+          <div class="m-label">RIESGO SISTÉMICO</div>
+          <div class="m-value" id="m-risk">--</div>
+        </div>
+        <div class="metric-box">
+          <div class="m-label">FLUJO LOGÍSTICO</div>
+          <div class="m-value" id="m-flow">--</div>
+        </div>
+        <div class="metric-box">
+          <div class="m-label">SOBERANÍA PERIFÉRICA</div>
+          <div class="m-value" id="m-sov">--</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<div id="map"></div>
-
-<div id="info-panel">
-  <div id="scenario-title" style="color:var(--blue);">ESCENARIO A: EL BLINDAJE</div>
-  <div id="scenario-desc">Cargando análisis prospectivo...</div>
+<div id="ticker">
+  <div class="ticker-wrap" id="ticker-text">CARGANDO PROYECCIONES...</div>
 </div>
 
 <script>
-const map = L.map('map', {zoomControl: false, attributionControl: false}).setView([20, 0], 2);
+const map = L.map('map', {zoomControl: false, attributionControl: false}).setView([20, 10], 2);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png').addTo(map);
 
 let currentLayers = [];
 function clearMap() { currentLayers.forEach(l => map.removeLayer(l)); currentLayers = []; }
-function addL(layer) { layer.addTo(map); currentLayers.push(layer); }
 
-function createPulseIcon(color, symbol) {
-  return L.divIcon({
-    className: 'custom-icon',
-    html: `<div style="background:${color};width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#000;box-shadow:0 0 15px ${color};">${symbol}</div>`,
-    iconSize: [24,24], iconAnchor: [12,12]
-  });
+function createNode(color, symbol) {
+  return L.divIcon({ className: '', html: `<div class="pulse-node" style="background:${color};width:24px;height:24px;color:#000;">${symbol}</div>`, iconSize: [24,24] });
 }
 
-const SCENARIOS = {
+const DATA = {
   'A': {
-    title: 'EL BLINDAJE',
-    color: 'var(--blue)',
-    desc: `<b>El costo es la soberanía.</b> El mundo se divide en dos macro-bloques herméticos. Occidente fortifica el SWIFT y expulsa a los no alineados, obligando a las naciones periféricas a elegir un bando. No hay neutralidad permitida.`,
+    title: 'EL BLINDAJE', color: 'var(--blue)',
+    metrics: { dollar: '85.0%', risk: 'MEDIO', flow: 'RESTRINGIDO', sov: 'NULA (0%)' },
+    ticker: "PROYECCIÓN: OCCIDENTE FORTIFICA RED SWIFT ◆ SANCIONES SECUNDARIAS A NACIONES NO ALINEADAS ◆ POLARIZACIÓN EXTREMA DEL COMERCIO GLOBAL",
+    desc: `<b>El costo es la soberanía.</b> El mundo se divide en macro-bloques herméticos. Occidente fortifica el SWIFT y la OTAN, obligando a las naciones periféricas a elegir un bando. Para acceder a los mercados centrales, los países deben ceder autonomía estratégica total.`,
     render: () => {
-      // Bloque SWIFT (Azul)
-      addL(L.polyline([[39,-77],[51,0],[52,13]], {color: '#0088ff', weight: 3, dashArray: '5, 10'}));
-      addL(L.marker([39,-77], {icon: createPulseIcon('#0088ff','$')}).bindPopup("<b>Bloque Dólar/SWIFT</b><br>Acceso condicionado al alineamiento político total."));
+      // Bloque SWIFT (Azul) - Atlántico Norte
+      const l1 = L.polyline([[39,-77],[51,0],[52,13]], {color: '#0088ff', weight: 4, dashArray: '5, 10'}).addTo(map);
+      const m1 = L.marker([39,-77], {icon: createNode('#0088ff','$')}).bindPopup("<b>Núcleo SWIFT</b><br>Acceso condicionado al alineamiento político.").addTo(map);
       
-      // Bloque CIPS/mBridge (Rojo)
-      addL(L.polyline([[39,116],[55,37],[35,51]], {color: '#ff3333', weight: 3, dashArray: '5, 10'}));
-      addL(L.marker([39,116], {icon: createPulseIcon('#ff3333','¥')}).bindPopup("<b>Bloque Yuan/CIPS</b><br>Liquidación alternativa bajo la órbita de Beijing."));
+      // Bloque CIPS (Rojo) - Eurasia
+      const l2 = L.polyline([[39,116],[55,37],[20,77]], {color: '#ff3333', weight: 4, dashArray: '5, 10'}).addTo(map);
+      const m2 = L.marker([39,116], {icon: createNode('#ff3333','¥')}).bindPopup("<b>Núcleo CIPS / mBridge</b><br>Aislamiento logístico y financiero.").addTo(map);
+      
+      // Muro de contención
+      const muro = L.polyline([[70,30],[-50,30]], {color: '#fff', weight: 1, opacity:0.3, dashArray: '2, 4'}).addTo(map);
+      currentLayers.push(l1, m1, l2, m2, muro);
     }
   },
   'B': {
-    title: 'LA FRACTURA',
-    color: 'var(--amber)',
-    desc: `<b>El costo es la incertidumbre.</b> Coexistencia caótica de sistemas. Operan simultáneamente el petrodólar y el petroyuan. Los estados pivotales del Sur Global navegan entre ambos sistemas asumiendo enormes costos de fricción y volatilidad cambiaria.`,
+    title: 'LA FRACTURA', color: 'var(--amber)',
+    metrics: { dollar: '45.5%', risk: 'ALTO', flow: 'VOLÁTIL', sov: 'FRICCIONAL' },
+    ticker: "PROYECCIÓN: SISTEMAS PARALELOS EN COMPETENCIA ◆ ARGENTINA NAVEGA EXPORTACIONES EN SWIFT E IMPORTACIONES EN YUAN ◆ ALTO COSTO TRANSACCIONAL",
+    desc: `<b>El costo es la incertidumbre.</b> Coexistencia caótica de sistemas. Operan simultáneamente el petrodólar y alternativas como mBridge. Los estados pivotales del Sur Global (ej. Argentina) navegan entre ambos sistemas asumiendo enormes costos transaccionales.`,
     render: () => {
-      // Red Multipolo (Caos de líneas doradas)
-      const nodes = [[39,116], [55,37], [28,77], [24,46], [-34,-58], [9,8]];
-      for(let i=0; i<nodes.length-1; i++) {
-        addL(L.polyline([nodes[i], nodes[i+1]], {color: '#ffaa00', weight: 2, opacity:0.6}));
-      }
+      // Red Multipolo
+      const nodes = [[39,116,'#ff3333','¥'], [55,37,'#ff3333','₽'], [24,46,'#ffaa00','♦'], [-34,-58,'#00ff88','⛙']];
+      nodes.forEach(n => {
+        const m = L.marker([n[0],n[1]], {icon: createNode(n[2], n[3])}).addTo(map);
+        currentLayers.push(m);
+      });
+      // Líneas cruzadas
+      const l1 = L.polyline([[39,116],[-34,-58],[24,46]], {color: '#ffaa00', weight: 2, dashArray: '4, 8'}).addTo(map);
+      currentLayers.push(l1);
       
-      // Foco Estratégico Sur (Argentina)
-      addL(L.marker([-34,-58], {icon: createPulseIcon('#ffaa00','⛙')}).bindPopup("<b>Nación Pivotal</b><br>Necesidad de mantener interfaces con SWIFT (exportaciones agro) y con el ecosistema Yuan (financiamiento estatal). Costo transaccional máximo."));
-      
-      // Chokepoint en disputa
-      addL(L.circleMarker([26,56], {color: '#ff3333', radius: 15}).bindPopup("<b>Ormuz: Condición Multidivisa</b><br>Exigencia de pagos en yuanes para cruce seguro."));
+      const arg = L.circleMarker([-34,-58], {color: '#00ff88', radius: 25, fillOpacity:0.1}).bindPopup("<b>Nación Pivotal (Cono Sur)</b><br>Doble exposición: agro a Occidente, financiamiento a Oriente.").addTo(map);
+      currentLayers.push(arg);
     }
   },
   'C': {
-    title: 'EL ABISMO',
-    color: 'var(--red)',
-    desc: `<b>El costo es la supervivencia.</b> Colapso por arma financiera. La exclusión mutua destruye las cadenas logísticas. El comercio global retrocede a una regionalización extrema de bloques autárquicos. Las potencias importadoras puras se apagan.`,
+    title: 'EL ABISMO', color: 'var(--red)',
+    metrics: { dollar: 'IRRELEVANTE', risk: 'CRÍTICO', flow: '-68.0%', sov: 'AUTÁRQUICA' },
+    ticker: "PROYECCIÓN: COLAPSO DEL SISTEMA YEDA ◆ PARÁLISIS DE CHOKEPOINTS ◆ REGIONALIZACIÓN EXTREMA ◆ SUPERVIVENCIA BASADA EN RESILIENCIA CALÓRICA",
+    desc: `<b>El costo es la supervivencia.</b> Colapso total por arma financiera. La exclusión mutua destruye las cadenas logísticas. El comercio transoceánico se paraliza. Se salvan únicamente las macrorregiones productoras de alimentos y energía (como el Cono Sur).`,
     render: () => {
-      // Zonas de Resiliencia (Producción Energía/Alimentos)
-      addL(L.polygon([[-22,-68],[-55,-68],[-35,-50]], {color: '#00cc66', fillColor: '#00cc66', fillOpacity: 0.2})
-        .bindPopup("<b>Resiliencia Base</b><br>Capacidad de sostener autonomía calórica y energética fuera del sistema financiero central."));
-      
       // Chokepoints caídos
       const chokes = [[26,56,'Ormuz'], [27,34,'Suez'], [1,103,'Malaca']];
       chokes.forEach(c => {
-        addL(L.marker([c[0],c[1]], {icon: createPulseIcon('#ff3333','✕')}).bindPopup(`<b>${c[2]} Clausurado</b><br>Atrición letal por ruptura del seguro marítimo en dólares.`));
+        const m = L.marker([c[0],c[1]], {icon: createNode('#ff3333','✕')}).bindPopup(`<b>${c[2]} CERRADO</b><br>Atrición letal por ruptura jurídica.`).addTo(map);
+        currentLayers.push(m);
       });
+      
+      // Zonas de Resiliencia (Cono Sur brilla en verde)
+      const latam = L.polygon([[-22,-68],[-55,-68],[-35,-50]], {color: '#00ff88', fillColor: '#00ff88', fillOpacity: 0.15}).bindPopup("<b>Zona de Resiliencia Base</b><br>Autonomía calórica y energética.").addTo(map);
+      currentLayers.push(latam);
     }
   }
 };
 
 function loadScenario(id) {
-  // UI Updates
-  document.querySelectorAll('.toggle-btn').forEach(b => b.className = 'toggle-btn');
-  document.getElementById('btn-'+id).classList.add('active-'+id);
+  // Limpiar UI
+  document.querySelectorAll('.btn-scen').forEach(b => { b.className = 'btn-scen'; b.querySelector('span:last-child').textContent = ''; });
+  const btn = document.getElementById('btn-'+id);
+  btn.classList.add('active-'+id);
+  btn.querySelector('span:last-child').textContent = '◄';
+
+  const d = DATA[id];
+  document.getElementById('s-title').textContent = d.title;
+  document.getElementById('s-title').style.color = d.color;
+  document.getElementById('s-desc').innerHTML = d.desc;
   
-  const s = SCENARIOS[id];
-  document.getElementById('scenario-title').textContent = `ESCENARIO ${id}: ${s.title}`;
-  document.getElementById('scenario-title').style.color = s.color;
-  document.getElementById('scenario-desc').innerHTML = s.desc;
+  // Actualizar Métricas
+  document.getElementById('m-dollar').textContent = d.metrics.dollar;
+  document.getElementById('m-dollar').style.color = d.color;
+  document.getElementById('m-risk').textContent = d.metrics.risk;
+  document.getElementById('m-flow').textContent = d.metrics.flow;
+  document.getElementById('m-sov').textContent = d.metrics.sov;
   
-  // Map Updates
+  // Actualizar Ticker
+  document.getElementById('ticker-text').textContent = d.ticker + "   ◆   " + d.ticker;
+
   clearMap();
-  s.render();
-  map.setView([20, 0], 2);
+  d.render();
 }
 
-// Iniciar con Escenario A
 loadScenario('A');
 </script>
 </body>
