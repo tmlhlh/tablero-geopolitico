@@ -9,13 +9,13 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 :root {
-  --bg:        #04080a;
-  --panel:     #060d10;
+  --bg:        #020405; /* Fondo más oscuro y profundo para contraste absoluto */
+  --panel:     #081216;
   --green:     #00ff88;
   --green-dim: #00cc66;
-  --muted:     #2a4a3a;
-  --border:    #0d1f18;
-  --white:     #b8ccb8;
+  --muted:     #7ba68e; /* Antes era muy oscuro. Ahora es un verde grisáceo luminoso */
+  --border:    #1a3324;
+  --white:     #eaf2ea; /* Blanco de alto contraste (casi puro) para lectura */
   --amber:     #ffaa00;
   --gold:      #ffd700;
   --red:       #ff3333;
@@ -189,6 +189,42 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);
                                                                                                             .stat-value { font-size: 18px; }
                                                                                                             }
                                                                                                             
+/* ── MEJORAS DE LEGIBILIDAD (SOBREESCRITURA) ── */
+.leaflet-popup-content {
+  font-size: 13px !important; /* Antes 10px */
+  line-height: 1.6 !important;
+  letter-spacing: 0.5px;
+}
+
+#slide-body, .project-desc, .intel-detail {
+  font-size: 13px !important; /* Antes 9px */
+  line-height: 1.7 !important;
+}
+
+#slide-title, .h-title, .project-title {
+  font-size: 22px !important; 
+  letter-spacing: 2px !important;
+}
+
+.event-marker, .flow-label, .tag {
+  font-size: 11px !important; /* Antes 8px */
+  padding: 4px 8px !important;
+}
+
+.stat-label, .h-sub, #slide-counter, .stat-sub {
+  font-size: 10px !important; /* Antes 7px */
+  letter-spacing: 1px !important;
+}
+  @media (max-width: 768px) {
+  .leaflet-popup-content, #slide-body, .project-desc {
+    font-size: 15px !important; /* Letra óptima para móviles */
+    line-height: 1.6 !important;
+  }
+  
+  .h-title {
+    font-size: 18px !important;
+  }
+}
 </style>
 </head>
 <body>
