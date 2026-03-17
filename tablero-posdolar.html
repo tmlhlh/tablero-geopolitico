@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Los Futuros en Disputa: escenarios del mundo pos-dólar para la próxima década.">
+<meta name="description" content="Los Futuros en Disputa: tablero prospectivo del mundo pos-dólar.">
 <title>Los Futuros en Disputa — Mundo Pos-Dólar</title>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -11,216 +11,335 @@
 <style>
 :root {
   --bg:#020405; --panel:#081216; --green:#00ff88; --muted:#7ba68e; --border:#1a3324;
-  --white:#eaf2ea; --amber:#ffaa00; --red:#ff3333; --cyan:#00ccff; --purple:#aa66ff;
+  --white:#eaf2ea; --amber:#ffaa00; --red:#ff3333; --cyan:#00ccff; --purple:#aa66ff; --gray:#7b8492;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--white);font-family:'Share Tech Mono',monospace;min-height:100vh}
-#header{padding:18px 20px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#000 0%,#041015 100%)}
-.h-title{font-family:'Bebas Neue',sans-serif;letter-spacing:3px;color:var(--green);font-size:30px}
-.h-sub{font-size:11px;letter-spacing:1px;color:var(--muted);margin-top:6px;max-width:1000px;line-height:1.6}
+#header{padding:16px 18px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#000 0%,#041015 100%)}
+.h-title{font-family:'Bebas Neue',sans-serif;letter-spacing:3px;color:var(--green);font-size:29px}
+.h-sub{font-size:11px;letter-spacing:1px;color:var(--muted);margin-top:6px;line-height:1.6;max-width:1300px}
 .h-meta{display:flex;justify-content:space-between;gap:8px;margin-top:8px;font-size:10px;color:var(--muted)}
 .h-meta a{color:var(--cyan);text-decoration:none}
-#layout{display:grid;grid-template-columns:420px 1fr;min-height:calc(100vh - 112px)}
-#panel{border-right:1px solid var(--border);padding:16px;background:rgba(8,18,22,.65)}
-.section{margin-bottom:14px;border:1px solid var(--border);background:rgba(0,0,0,.35);padding:12px}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:21px;letter-spacing:2px;margin-bottom:8px;color:var(--green)}
-.section p{font-size:12px;line-height:1.7;color:var(--white)}
-.notice{font-size:10px;color:var(--amber);line-height:1.5;margin-bottom:8px}
-.buttons{display:grid;grid-template-columns:1fr;gap:8px;margin-top:10px}
-.btn{padding:10px;border:1px solid var(--border);background:#081216;color:var(--white);cursor:pointer;text-align:left;font-family:inherit}
-.btn b{display:block;font-size:14px;margin-bottom:2px}
-.btn span{font-size:10px;color:var(--muted)}
-.btn.active{border-color:var(--cyan);box-shadow:0 0 0 1px rgba(0,204,255,.45) inset;background:#0b1d24}
-.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
-.stat{border:1px solid var(--border);padding:8px;background:#050b0e}
-.stat-label{font-size:10px;color:var(--muted)}
-.stat-value{font-family:'Bebas Neue',sans-serif;font-size:24px;letter-spacing:1px}
-#signals{margin-top:8px;display:flex;flex-direction:column;gap:6px}
-.signal{font-size:11px;line-height:1.5;padding-left:10px;border-left:2px solid var(--amber);color:var(--white)}
+#layout{display:grid;grid-template-columns:370px 1fr;min-height:calc(100vh - 99px)}
+#left{border-right:1px solid var(--border);padding:12px;background:rgba(8,18,22,.72);display:flex;flex-direction:column;gap:10px;overflow-y:auto}
+.section{border:1px solid var(--border);background:rgba(0,0,0,.33);padding:10px}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:2px;margin-bottom:8px;color:var(--green)}
+.section p{font-size:11px;line-height:1.55;color:var(--white)}
+.small{font-size:10px;color:var(--muted);line-height:1.45}
+.btn-grid{display:grid;gap:6px}
+.btn-s{padding:8px;border:1px solid var(--border);background:#071015;color:var(--white);cursor:pointer;text-align:left;font-family:inherit}
+.btn-s b{display:block;font-size:13px}
+.btn-s span{font-size:10px;color:var(--muted)}
+.btn-s.active{border-color:var(--cyan);box-shadow:0 0 0 1px rgba(0,204,255,.4) inset;background:#0c1f27}
+.chk{display:flex;align-items:flex-start;gap:8px;font-size:10px;color:var(--white);margin-bottom:7px}
+.chk input{margin-top:2px}
+#stress{height:10px;background:#160809;border:1px solid #502121;position:relative;margin:6px 0}
+#stress-fill{height:100%;width:0%;background:linear-gradient(90deg,#4b1a1a,#ff3333);transition:width .4s}
+#stress-label{font-size:10px;color:var(--red)}
+#country-panel{font-size:10px;line-height:1.5;color:var(--white);border-top:1px dashed var(--border);padding-top:8px;margin-top:8px;min-height:72px}
 #map-wrap{position:relative}
-#map{height:100%;min-height:520px}
-.legend{position:absolute;right:10px;top:10px;z-index:500;background:rgba(0,0,0,.8);border:1px solid var(--border);padding:8px 10px}
-.legend div{font-size:10px;line-height:1.6;color:var(--white)}
+#map{height:100%;min-height:540px}
+.legend{position:absolute;top:10px;right:10px;z-index:600;background:rgba(0,0,0,.82);border:1px solid var(--border);padding:8px}
+.legend div{font-size:10px;line-height:1.5}
 .legend b{color:var(--green)}
+#data-strip{position:absolute;left:8px;right:8px;bottom:8px;z-index:600;display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.data-card{background:rgba(0,0,0,.82);border:1px solid var(--border);padding:6px}
+.data-card .k{font-size:9px;color:var(--muted)}
+.data-card .v{font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:1px}
 .leaflet-popup-content{font-size:12px;line-height:1.5}
-@media (max-width:980px){
+.node-icon{font-size:18px;filter:drop-shadow(0 0 5px rgba(0,0,0,.8))}
+.panoptico-ring{animation:pulse 2s infinite ease-in-out}
+@keyframes pulse {0%{opacity:.15}50%{opacity:.45}100%{opacity:.15}}
+.blink-stress{animation:blink 1.3s infinite}
+@keyframes blink {0%,100%{opacity:.15}50%{opacity:.45}}
+@media (max-width:1100px){
   #layout{grid-template-columns:1fr}
-  #panel{border-right:none;border-bottom:1px solid var(--border)}
-  #map{min-height:58vh}
+  #left{border-right:none;border-bottom:1px solid var(--border)}
+  #data-strip{position:static;padding:8px;grid-template-columns:1fr 1fr}
 }
 </style>
 </head>
 <body>
 <header id="header">
   <div class="h-title">LOS FUTUROS EN DISPUTA · EL MUNDO POS-DÓLAR</div>
-  <div class="h-sub">Del monopolio de visibilidad de SWIFT a la competencia entre arquitecturas financieras (CIPS/mBridge). Cartografía prospectiva de cuatro escenarios y sus efectos sobre la autonomía estratégica argentina.</div>
+  <div class="h-sub">Tablero analítico de escenarios para navegar la disputa entre la arquitectura SWIFT/Ágora y los circuitos CIPS/mBridge, con foco en flujos energéticos, coerción financiera y el dilema estratégico argentino.</div>
   <div class="h-meta">
-    <span>Artículo base: 20 FEB 2026 · Escenarios 2026–2035</span>
+    <span>Escenarios 2026–2035 · Prospectiva geoeconómica</span>
     <a href="index.html">← Volver al portafolio</a>
   </div>
 </header>
-
 <div id="layout">
-  <aside id="panel">
-    <section class="section">
-      <div class="section-title">Contexto estratégico</div>
-      <p class="notice">Este es el mapa principal para analizar el mundo pos-dólar en disputa. No funciona como anexo de otro tablero, sino como pieza autónoma de prospectiva geoeconómica.</p>
-      <p>La coerción sobre reservas y pagos internacionales acelera la creación de infraestructuras paralelas. El resultado probable no es un reemplazo instantáneo del dólar, sino una década de competencia entre sistemas de liquidación y bloques de seguridad económica.</p>
-    </section>
-
+  <aside id="left">
     <section class="section">
       <div class="section-title">Escenarios</div>
-      <div class="buttons">
-        <button id="btn-blindaje" class="btn" onclick="loadScenario('blindaje')"><b>I · BLINDAJE</b><span>Fortaleza occidental y disciplina por alineamiento.</span></button>
-        <button id="btn-fractura" class="btn" onclick="loadScenario('fractura')"><b>II · FRACTURA</b><span>Dualidad de infraestructuras y arbitraje de potencias medias.</span></button>
-        <button id="btn-abismo" class="btn" onclick="loadScenario('abismo')"><b>III · ABISMO</b><span>Ruptura de liquidez y coerción abierta por recursos.</span></button>
-        <button id="btn-superposicion" class="btn" onclick="loadScenario('superposicion')"><b>IV · SUPERPOSICIÓN</b><span>Competencia simultánea de escenarios en un mismo mapa.</span></button>
+      <div class="btn-grid">
+        <button class="btn-s" id="btn-blindaje" onclick="applyScenario('blindaje')"><b>I · El Blindaje</b><span>Fortaleza occidental, disciplina y alineamiento.</span></button>
+        <button class="btn-s" id="btn-fractura" onclick="applyScenario('fractura')"><b>II · La Fractura</b><span>Coexistencia conflictiva de infraestructuras.</span></button>
+        <button class="btn-s" id="btn-abismo" onclick="applyScenario('abismo')"><b>III · El Abismo</b><span>Ruptura de liquidez y coerción abierta.</span></button>
       </div>
-      <div class="stat-grid">
-        <div class="stat"><div class="stat-label">Probabilidad</div><div id="p" class="stat-value">—</div></div>
-        <div class="stat"><div class="stat-label">Costo dominante</div><div id="c" class="stat-value" style="font-size:18px">—</div></div>
-      </div>
+      <div id="scenario-copy" class="small" style="margin-top:8px"></div>
     </section>
 
     <section class="section">
-      <div class="section-title" id="scenario-title">Señales de monitoreo</div>
-      <div id="signals"></div>
+      <div class="section-title">Capas conceptuales</div>
+      <label class="chk"><input type="checkbox" id="layer-panoptico" checked onchange="toggleLayer('panoptico', this.checked)">Panóptico SWIFT: vigilancia y enforcement sobre nodos financieros occidentales.</label>
+      <label class="chk"><input type="checkbox" id="layer-valija" checked onchange="toggleLayer('valija', this.checked)">Valija Diplomática (mBridge/CIPS): transacciones opacas validadas por consenso DLT.</label>
+      <label class="chk"><input type="checkbox" id="layer-energia" checked onchange="toggleLayer('energia', this.checked)">Flujos energéticos: rutas críticas (Ormuz, Suez/Bab el-Mandeb, Malaca).</label>
+      <label class="chk"><input type="checkbox" id="layer-altfin" checked onchange="toggleLayer('altfin', this.checked)">Flujos financieros alternativos: rutas de pago fuera de SWIFT.</label>
+      <label class="chk"><input type="checkbox" id="layer-stress" checked onchange="toggleLayer('stress', this.checked)">Tensión sistémica (Trampa de Kindleberger).</label>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Medidor de estrés sistémico</div>
+      <div id="stress"><div id="stress-fill"></div></div>
+      <div id="stress-label">—</div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Anclaje argentino (violeta)</div>
+      <p class="small"><b>Activos estratégicos:</b> Vaca Muerta, salares de litio y offshore atlántico. Doble conexión financiera: Buenos Aires↔Washington (USD) y Buenos Aires↔Beijing (CIPS/inversión litio).</p>
+      <p class="small" id="friccion-copy" style="margin-top:6px">Diplomacia de fricción transaccional: no ceder recursos bajo vasallaje; exigir transferencia tecnológica e infraestructura soberana a cambio de acceso a minerales críticos.</p>
+      <div id="country-panel"><b>Hover de país:</b> pasá el mouse sobre un nodo para ver PIB, reservas y alineamiento.</div>
     </section>
   </aside>
 
   <main id="map-wrap">
     <div class="legend">
-      <div><b>AZUL</b> · Bloque occidental (SWIFT/Ágora)</div>
-      <div><b>ÁMBAR</b> · Bloque euroasiático (CIPS/mBridge)</div>
-      <div><b>ROJO</b> · Núcleos de atrición sistémica</div>
-      <div><b>VIOLETA</b> · Argentina y Cono Sur pivotal</div>
+      <div><b>AZUL</b> · SWIFT / Ágora</div>
+      <div><b>ÁMBAR</b> · CIPS / mBridge</div>
+      <div><b>ROJO</b> · Atrición sistémica</div>
+      <div><b>VIOLETA</b> · Nodo argentino</div>
     </div>
     <div id="map"></div>
+    <div id="data-strip">
+      <div class="data-card"><div class="k">Ormuz</div><div class="v">20%</div><div class="k">del petróleo global</div></div>
+      <div class="data-card"><div class="k">Deuda EE.UU.</div><div class="v">U$S 38,5T</div><div class="k">124% del PIB</div></div>
+      <div class="data-card"><div class="k">Gasto militar</div><div class="v">U$S 5.600M</div><div class="k">primeras 48 horas</div></div>
+      <div class="data-card"><div class="k">Compras de oro 2025</div><div class="v">863 t</div><div class="k">57% no reportadas · Polonia 102 t</div></div>
+      <div class="data-card"><div class="k">Impacto humanitario</div><div class="v">+180 / +1.200</div><div class="k">niños Minab / civiles Irán</div></div>
+    </div>
   </main>
 </div>
 
 <script>
-const map = L.map('map', { zoomControl: true }).setView([20, 5], 2);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 19, attribution: '© OpenStreetMap · © CARTO' }).addTo(map);
+// --- Mapa base oscuro, consistente con el estilo del repositorio.
+const map = L.map('map', { zoomControl: true }).setView([20, 12], 2);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  maxZoom: 19,
+  attribution: '© OpenStreetMap · © CARTO'
+}).addTo(map);
 
-let layers = [];
-function addLayer(l){ layers.push(l); return l.addTo(map); }
-function clearLayers(){ layers.forEach(l=>map.removeLayer(l)); layers=[]; }
-
-const blocks = {
-  west: [
-    [[23,-128],[58,-128],[58,-65],[23,-65]],      // Norteamérica atlántica/pacífica
-    [[35,-12],[60,-12],[60,38],[35,38]],          // Europa
-    [[22,128],[46,128],[46,150],[22,150]]         // Japón/Corea
-  ],
-  eurasia: [
-    [[8,36],[58,36],[58,130],[8,130]],            // Rusia-Asia Central-China
-    [[12,42],[34,42],[34,64],[12,64]],            // Golfo/Irán-Ormuz
-    [[-5,95],[20,95],[20,125],[-5,125]]           // Sudeste asiático logístico
-  ],
-  conoSur: [[-56,-80],[-56,-46],[-18,-46],[-18,-80]],
-  corridors: {
-    transatlantic: [[48,2],[39,-77]],
-    hormuzChina: [[26,56],[31,121]],
-    atlanticoSur: [[-34,-58],[-27,-50],[-15,-38]]
-  }
+const groups = {
+  base: L.layerGroup().addTo(map),
+  panoptico: L.layerGroup().addTo(map),
+  valija: L.layerGroup().addTo(map),
+  energia: L.layerGroup().addTo(map),
+  altfin: L.layerGroup().addTo(map),
+  stress: L.layerGroup().addTo(map),
+  argentina: L.layerGroup().addTo(map),
+  countries: L.layerGroup().addTo(map),
+  pressure: L.layerGroup().addTo(map)
 };
 
-function drawWest(opacity=0.13){
-  blocks.west.forEach(poly=>addLayer(L.polygon(poly,{color:'#00ccff',fillColor:'#00ccff',fillOpacity:opacity,weight:2})));
+const countryInfo = {
+  usa:{name:'Estados Unidos', gdp:'U$S 29T aprox.', reserves:'Moneda hegemónica', align:'Núcleo SWIFT/OTAN'},
+  uk:{name:'Reino Unido', gdp:'U$S 3,4T', reserves:'Nexo City-Londres', align:'Núcleo SWIFT'},
+  eu:{name:'Bruselas/UE', gdp:'U$S 18T bloque', reserves:'Arquitectura regulatoria', align:'Autonomía estratégica en disputa'},
+  cn:{name:'China', gdp:'U$S 18T aprox.', reserves:'Mayor stock de reservas', align:'Núcleo CIPS/mBridge'},
+  ru:{name:'Rusia', gdp:'U$S 2,2T', reserves:'Resiliencia por commodities', align:'Desacople de SWIFT'},
+  in:{name:'India', gdp:'U$S 4T', reserves:'Interfaz multipolar', align:'Conectividad dual'},
+  ir:{name:'Irán', gdp:'U$S 400B', reserves:'Bajo sanción', align:'Pivote de atrición Ormuz'},
+  ar:{name:'Argentina', gdp:'U$S 640B', reserves:'Escasez crónica de divisas', align:'Nación pivote: arbitraje o subordinación'}
+};
+
+const countryNodes = {
+  usa:[38,-77], uk:[51,-0.1], eu:[50,4], cn:[39,116], ru:[55,37], in:[28,77], ir:[26,53], ar:[-34,-58]
+};
+
+const linesByCountry = {};
+const connectionLayers = [];
+
+function addConnection(idA, idB, opts){
+  const l = L.polyline([countryNodes[idA], countryNodes[idB]], opts).addTo(groups.base);
+  l.baseStyle = {...opts};
+  connectionLayers.push({layer:l,a:idA,b:idB});
+  linesByCountry[idA] = linesByCountry[idA] || [];
+  linesByCountry[idB] = linesByCountry[idB] || [];
+  linesByCountry[idA].push(l); linesByCountry[idB].push(l);
 }
 
-function drawEurasia(opacity=0.16){
-  blocks.eurasia.forEach(poly=>addLayer(L.polygon(poly,{color:'#ffaa00',fillColor:'#ffaa00',fillOpacity:opacity,weight:2})));
+// --- Bloques geopolíticos base
+const westPolys = [
+  L.polygon([[24,-130],[60,-130],[60,-64],[24,-64]],{color:'#00ccff',fillColor:'#00ccff',fillOpacity:.14,weight:2}).addTo(groups.base),
+  L.polygon([[35,-13],[60,-13],[60,39],[35,39]],{color:'#00ccff',fillColor:'#00ccff',fillOpacity:.12,weight:2}).addTo(groups.base),
+  L.polygon([[22,127],[47,127],[47,151],[22,151]],{color:'#00ccff',fillColor:'#00ccff',fillOpacity:.10,weight:2}).addTo(groups.base)
+];
+const eurasiaPolys = [
+  L.polygon([[8,35],[58,35],[58,130],[8,130]],{color:'#ffaa00',fillColor:'#ffaa00',fillOpacity:.13,weight:2}).addTo(groups.base),
+  L.polygon([[-5,94],[21,94],[21,126],[-5,126]],{color:'#ffaa00',fillColor:'#ffaa00',fillOpacity:.12,weight:1}).addTo(groups.base)
+];
+const euAmbiguous = L.polygon([[42,-5],[58,-5],[58,27],[42,27]],{color:'#8fb8c8',dashArray:'5,6',fillOpacity:.05,weight:2}).addTo(groups.base);
+
+// --- Anclaje argentino
+L.polygon([[-56,-80],[-56,-46],[-18,-46],[-18,-80]],{color:'#aa66ff',fillColor:'#aa66ff',fillOpacity:.20,weight:2,dashArray:'5,6'})
+  .bindPopup('<b>Cono Sur pivotal</b><br>Zona de resiliencia relativa en escenarios de fractura.').addTo(groups.argentina);
+L.marker([-38,-68],{icon:L.divIcon({className:'node-icon',html:'⛽'})}).bindTooltip('Vaca Muerta').addTo(groups.argentina);
+L.marker([-24,-67],{icon:L.divIcon({className:'node-icon',html:'🔋'})}).bindTooltip('Salar de litio (NOA)').addTo(groups.argentina);
+L.marker([-45,-62],{icon:L.divIcon({className:'node-icon',html:'🛢️'})}).bindTooltip('Offshore Atlántico Sur').addTo(groups.argentina);
+
+// Conexiones principales de estado
+addConnection('usa','uk',{color:'#00ccff',weight:2,opacity:.45});
+addConnection('uk','eu',{color:'#00ccff',weight:2,opacity:.45});
+addConnection('cn','ru',{color:'#ffaa00',weight:2,opacity:.45,dashArray:'5,7'});
+addConnection('cn','in',{color:'#ffaa00',weight:2,opacity:.45,dashArray:'5,7'});
+addConnection('cn','ir',{color:'#ffaa00',weight:2,opacity:.45,dashArray:'5,7'});
+addConnection('ar','usa',{color:'#00ccff',weight:3,opacity:.62}).bindTooltip('Swap USD / mercado financiero occidental');
+addConnection('ar','cn',{color:'#ffaa00',weight:3,opacity:.62,dashArray:'6,8'}).bindTooltip('Inversiones en litio y comercio vía CIPS');
+
+// --- Países interactivos
+Object.entries(countryNodes).forEach(([id,coord])=>{
+  const color = id==='ar' ? '#aa66ff' : ['usa','uk','eu'].includes(id) ? '#00ccff' : '#ffaa00';
+  const marker = L.circleMarker(coord,{radius:7,color,weight:2,fillColor:color,fillOpacity:.85})
+    .bindTooltip(countryInfo[id].name)
+    .on('mouseover',()=>highlightCountry(id))
+    .on('mouseout',()=>clearHighlight())
+    .addTo(groups.countries);
+  marker._id = id;
+});
+
+function highlightCountry(id){
+  connectionLayers.forEach(c=>c.layer.setStyle({opacity:.08,weight:1}));
+  (linesByCountry[id]||[]).forEach(l=>l.setStyle({opacity:.95,weight:4}));
+  const c = countryInfo[id];
+  document.getElementById('country-panel').innerHTML = `<b>${c.name}</b><br>PIB: ${c.gdp}<br>Reservas/Finanzas: ${c.reserves}<br>Alineamiento: ${c.align}`;
+}
+function clearHighlight(){
+  connectionLayers.forEach(c=>c.layer.setStyle(c.layer.baseStyle));
+  document.getElementById('country-panel').innerHTML = '<b>Hover de país:</b> pasá el mouse sobre un nodo para ver PIB, reservas y alineamiento.';
 }
 
-function drawArgentina(){
-  addLayer(L.polygon(blocks.conoSur,{color:'#aa66ff',fillColor:'#aa66ff',fillOpacity:.22,weight:2,dashArray:'5,6'})
-    .bindPopup('<b>Argentina / Cono Sur</b><br>Nodo de arbitraje, recursos críticos y disputa de infraestructura.'));
-  addLayer(L.circleMarker([-34,-64],{color:'#aa66ff',radius:9,weight:3})
-    .bindPopup('<b>Posición pivote</b><br>Capacidad de negociación atada a autonomía técnica, financiera y defensiva.'));
+// --- Capas conceptuales
+function buildConceptLayers(){
+  // Panóptico SWIFT
+  const swiftNodes = [[40.7,-74,'Nueva York'],[51.5,-0.1,'Londres'],[50.85,4.35,'Bruselas']];
+  swiftNodes.forEach(n=>{
+    L.marker([n[0],n[1]],{icon:L.divIcon({className:'node-icon',html:'👁️'})})
+      .bindPopup(`<b>Panóptico SWIFT</b><br>${n[2]} como nodo de visibilidad financiera.`).addTo(groups.panoptico);
+    L.circle([n[0],n[1]],{radius:1200000,color:'#00ccff',fillColor:'#00ccff',fillOpacity:.08,className:'panoptico-ring'}).addTo(groups.panoptico);
+  });
+  L.polyline([[40.7,-74],[51.5,-0.1],[50.85,4.35]],{color:'#00ccff',dashArray:'2,8',weight:2})
+    .bindPopup('<b>Red de vigilancia</b><br>La visibilidad de transacciones habilita enforcement extraterritorial.').addTo(groups.panoptico);
+
+  // Valija diplomática CIPS/mBridge
+  const valijaRoutes = [
+    [[39,116],[55,37]], [[39,116],[28,77]], [[39,116],[26,53]], [[13,100],[39,116]]
+  ];
+  valijaRoutes.forEach(r=>L.polyline(r,{color:'#ffaa00',dashArray:'7,7',weight:3,opacity:.8})
+    .bindPopup('<b>Valija Diplomática (mBridge/CIPS)</b><br>Solo emisor y receptor ven el detalle. Volumen CIPS 2025: ~U$S 24,5 billones.').addTo(groups.valija));
+  L.marker([33,92],{icon:L.divIcon({className:'node-icon',html:'💼'})})
+    .bindTooltip('Transacción opaca validada por consenso').addTo(groups.valija);
+
+  // Flujos energéticos
+  L.polyline([[26,56],[31,121]],{color:'#ffaa00',weight:5,opacity:.8})
+    .bindPopup('<b>Ormuz → China</b><br>Ruta crítica: por Ormuz circula ~20% del petróleo global.').addTo(groups.energia);
+  L.polyline([[13,43],[30,32],[36,14]],{color:'#00ccff',weight:4,opacity:.75})
+    .bindPopup('<b>Bab el-Mandeb / Suez</b><br>Corredor tradicional de flujo dolarizado.').addTo(groups.energia);
+  L.polyline([[2,101],[24,67]],{color:'#ffaa00',weight:4,opacity:.75})
+    .bindPopup('<b>Malaca</b><br>Nodo de vulnerabilidad de la matriz energética asiática.').addTo(groups.energia);
+
+  // Flujos financieros alternativos
+  [[39,116],[55,37],[28,77],[26,53]].forEach((_,i,arr)=>{
+    if(i<arr.length-1) L.polyline([arr[i],arr[i+1]],{color:'#ffcc66',dashArray:'4,7',weight:2,opacity:.8})
+      .bindTooltip('Compensación alternativa (CIPS/SPFS)').addTo(groups.altfin);
+  });
+
+  // Tensión sistémica
+  L.polygon([[14,42],[34,42],[34,63],[14,63]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.25,className:'blink-stress',weight:2})
+    .bindPopup('<b>Ormuz/Golfo</b><br>Tensión crítica: choque energético-financiero.').addTo(groups.stress);
+  L.polygon([[28,30],[50,30],[50,41],[28,41]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.2,className:'blink-stress',weight:1})
+    .bindPopup('<b>Ucrania/Mar Negro</b><br>Estrés geopolítico sobre granos y energía.').addTo(groups.stress);
+  L.polygon([[30,34],[33,34],[33,36],[30,36]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.3,className:'blink-stress',weight:1})
+    .bindPopup('<b>Gaza/Rafah</b><br>Escalada humanitaria y riesgo de ampliación regional.').addTo(groups.stress);
+}
+buildConceptLayers();
+
+function setGroupVisibility(name, visible){
+  if(visible && !map.hasLayer(groups[name])) map.addLayer(groups[name]);
+  if(!visible && map.hasLayer(groups[name])) map.removeLayer(groups[name]);
 }
 
-const S = {
+function toggleLayer(name, visible){ setGroupVisibility(name, visible); }
+
+const scenarioConfig = {
   blindaje: {
-    prob:'30–35%', costo:'SOBERANÍA', color:'#00ccff',
-    signals:[
-      'Acuerdos comerciales de bloque con cláusulas anti-China.',
-      'Condicionalidad financiera (FMI/EXIM) atada a alineamiento estratégico.',
-      'Sanciones secundarias para restringir neutralidades pragmáticas.'
-    ],
-    draw(){
-      drawWest(0.18);
-      addLayer(L.polyline(blocks.corridors.transatlantic,{color:'#00ccff',weight:3}).bindPopup('<b>Eje OTAN financiero</b><br>Integración cerrada y disciplina regulatoria.'));
-      drawArgentina();
-    }
+    copy:'<b>Blindaje:</b> bloque occidental endurecido (Project Vault/MSP), exigencias de alineamiento total y castigo a neutralidades.',
+    stress: 45,
+    stressLabel:'Estrés alto controlado: coerción financiera + disciplina de bloque.',
+    friccion:'Exigencia de alineamiento total. ¿Qué pasa con el capital chino ya invertido en litio e infraestructura?'
   },
   fractura: {
-    prob:'35–45%', costo:'INCERTIDUMBRE', color:'#ffaa00',
-    signals:[
-      'Europa incrementa autonomía militar/industrial sin ruptura formal de OTAN.',
-      'Liquidación bimodal: SWIFT/Ágora para Occidente y CIPS/mBridge para BRICS+.',
-      'Mayor rol de países puente para comercio y compensación entre bloques.'
-    ],
-    draw(){
-      drawWest(0.08);
-      drawEurasia(0.18);
-      addLayer(L.polyline(blocks.corridors.transatlantic,{color:'#ff3333',dashArray:'6,8',weight:3}).bindPopup('<b>Fricción transatlántica</b>'));
-      addLayer(L.polyline(blocks.corridors.hormuzChina,{color:'#ffaa00',weight:4}).bindPopup('<b>Corredor energético alternativo</b><br>Flujos liquidados fuera del eje dólar.'));
-      drawArgentina();
-    }
+    copy:'<b>Fractura:</b> dualidad sistémica con Europa ambigua. Conviven SWIFT/Ágora y CIPS/mBridge con costos de transacción crecientes.',
+    stress: 68,
+    stressLabel:'Estrés volátil: cooperación selectiva y fricción interbloque.',
+    friccion:'Argentina debe sostener conectividad dual sin quedar atrapada por sanciones secundarias.'
   },
   abismo: {
-    prob:'5–10%', costo:'SUPERVIVENCIA', color:'#ff3333',
-    signals:[
-      'Cierre recurrente de corredores marítimos críticos por razones de seguridad.',
-      'Compras masivas y opacas de oro por bancos centrales.',
-      'Nacionalizaciones forzadas y represalias sobre activos estratégicos.'
-    ],
-    draw(){
-      addLayer(L.polygon([[14,42],[34,42],[34,63],[14,63]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.35,weight:2})
-        .bindPopup('<b>Ormuz / Golfo</b><br>Núcleo de atrición logística, militar y monetaria.'));
-      addLayer(L.polygon([[11,32],[33,32],[33,48],[11,48]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.2,weight:1}));
-      addLayer(L.polyline(blocks.corridors.hormuzChina,{color:'#ffaa00',weight:4}));
-      addLayer(L.polyline(blocks.corridors.atlanticoSur,{color:'#ff3333',dashArray:'4,7',weight:3}).bindPopup('<b>Presión sobre recursos del Sur</b>'));
-      drawArgentina();
-    }
-  },
-  superposicion: {
-    prob:'Escenario combinado', costo:'REALPOLITIK', color:'#aa66ff',
-    signals:[
-      'Persisten simultáneamente blindaje occidental, fractura funcional y focos de abismo.',
-      'No hay hegemonía única: la gobernanza se negocia corredor por corredor.',
-      'Las naciones pivotales maximizan margen si sostienen autonomía regulatoria y logística.'
-    ],
-    draw(){
-      drawWest(0.12);
-      drawEurasia(0.12);
-      addLayer(L.polygon([[14,42],[34,42],[34,63],[14,63]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.28,weight:2})
-        .bindPopup('<b>Zona de choque</b><br>Donde la competencia puede escalar a ruptura sistémica.'));
-      addLayer(L.polyline(blocks.corridors.transatlantic,{color:'#00ccff',weight:2}));
-      addLayer(L.polyline(blocks.corridors.hormuzChina,{color:'#ffaa00',weight:3}));
-      addLayer(L.polyline(blocks.corridors.atlanticoSur,{color:'#aa66ff',dashArray:'5,7',weight:3})
-        .bindPopup('<b>Corredor del Cono Sur</b><br>Interfaz de competencia y negociación.'));
-      drawArgentina();
-    }
+    copy:'<b>Abismo:</b> colapso de previsibilidad, ruptura de liquidez y coerción abierta por activos físicos estratégicos.',
+    stress: 96,
+    stressLabel:'Estrés crítico: dinámica tipo Trampa de Kindleberger.',
+    friccion:'¿Protección o expolio? Riesgo de presión directa sobre minas, gasoductos y rutas logísticas.'
   }
 };
 
-function loadScenario(id){
-  Object.keys(S).forEach(k=>document.getElementById('btn-'+k).classList.remove('active'));
+function applyScenario(id){
+  document.querySelectorAll('.btn-s').forEach(b=>b.classList.remove('active'));
   document.getElementById('btn-'+id).classList.add('active');
-  document.getElementById('p').textContent = S[id].prob;
-  document.getElementById('p').style.color = S[id].color;
-  document.getElementById('c').textContent = S[id].costo;
-  document.getElementById('c').style.color = S[id].color;
-  document.getElementById('scenario-title').textContent = 'Señales de monitoreo · ' + id.toUpperCase();
-  document.getElementById('signals').innerHTML = S[id].signals.map(v=>`<div class="signal">${v}</div>`).join('');
-  clearLayers();
-  S[id].draw();
+  document.getElementById('scenario-copy').innerHTML = scenarioConfig[id].copy;
+  document.getElementById('stress-fill').style.width = scenarioConfig[id].stress + '%';
+  document.getElementById('stress-label').textContent = scenarioConfig[id].stressLabel;
+  document.getElementById('friccion-copy').textContent = scenarioConfig[id].friccion;
+
+  // Reset visual de bloques.
+  westPolys.forEach(p=>p.setStyle({fillOpacity:.12,color:'#00ccff',weight:2}));
+  eurasiaPolys.forEach(p=>p.setStyle({fillOpacity:.12,color:'#ffaa00',weight:2}));
+  euAmbiguous.setStyle({opacity:0,fillOpacity:0});
+
+  // Ajuste de líneas de flujo por escenario (si la capa está visible)
+  groups.energia.eachLayer(l=>l.setStyle && l.setStyle({opacity:.75,weight:l.options.weight||4,color:l.options.color}));
+  groups.altfin.eachLayer(l=>l.setStyle && l.setStyle({opacity:.8,weight:2}));
+
+  if(id==='blindaje'){
+    westPolys.forEach(p=>p.setStyle({fillOpacity:.22,weight:3}));
+    eurasiaPolys.forEach(p=>p.setStyle({fillOpacity:.04,color:'#5f6570',weight:1}));
+    groups.energia.eachLayer((l)=>l.setStyle && l.setStyle({weight:l.options.color==='#00ccff'?5:2,opacity:l.options.color==='#00ccff'?.9:.45}));
+    groups.altfin.eachLayer((l)=>l.setStyle && l.setStyle({opacity:.45,weight:1.2}));
+    groups.pressure.clearLayers();
+    L.polyline([[39,-77],[-34,-58]],{color:'#ff3333',weight:3,dashArray:'4,7'}).bindTooltip('Presión de alineamiento').addTo(groups.pressure);
+  }
+
+  if(id!=='blindaje'){ groups.pressure.clearLayers(); }
+
+  if(id==='fractura'){
+    westPolys.forEach(p=>p.setStyle({fillOpacity:.14,weight:2}));
+    eurasiaPolys.forEach(p=>p.setStyle({fillOpacity:.14,weight:2}));
+    euAmbiguous.setStyle({opacity:1,fillOpacity:.08});
+    groups.energia.eachLayer((l)=>l.setStyle && l.setStyle({opacity:.85,weight:4}));
+    groups.altfin.eachLayer((l)=>l.setStyle && l.setStyle({opacity:.9,weight:2.3}));
+  }
+
+  if(id==='abismo'){
+    westPolys.forEach(p=>p.setStyle({fillOpacity:.05,color:'#5e6a78',weight:1}));
+    eurasiaPolys.forEach(p=>p.setStyle({fillOpacity:.05,color:'#6d5f4b',weight:1}));
+    euAmbiguous.setStyle({opacity:.6,fillOpacity:.03});
+    groups.energia.eachLayer((l)=>l.setStyle && l.setStyle({opacity:.3,weight:2,color:'#aa5555'}));
+    groups.altfin.eachLayer((l)=>l.setStyle && l.setStyle({opacity:.35,weight:1.2}));
+    groups.stress.eachLayer((l)=>l.setStyle && l.setStyle({fillOpacity:.38,weight:2.4}));
+  } else {
+    groups.stress.eachLayer((l)=>l.setStyle && l.setStyle({fillOpacity:l.options.fillOpacity || .25,weight:l.options.weight || 2}));
+  }
 }
 
-loadScenario('superposicion');
+applyScenario('fractura');
 </script>
 </body>
 </html>
