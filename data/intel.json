@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-17T11:41:34.792047+00:00",
+  "updated_at": "2026-03-17T13:04:55.041801+00:00",
   "market": {
-    "brent_usd": 103.29,
+    "brent_usd": 102.6,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.3,
-    "vix": 23.39,
+    "ormuz_flow_pct": 87.0,
+    "vix": 22.71,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.7
+    "insurance_spread_pct": 3.5
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "17 MAR 2026 · 12:56 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; indicó que hay un “movimiento muy grande” contra el presidente estadounidense",
+      "severity": "INFO"
+    },
     {
       "timestamp": "17 MAR 2026 · 07:29 UTC",
       "headline": "IRAN IS TARGETING SHIPS IN RESPONSE TO US ATTACKS — CAN THE US STOP THEM?",
@@ -24,12 +30,6 @@
       "timestamp": "17 MAR 2026 · 06:35 UTC",
       "headline": "DRONE SPARKS FIRE AT UAE OIL SITE AS GULF TAKES MORE HITS AMID IRAN WAR",
       "detail": "The Fujairah oil hub has been hit repeatedly by Iranian drones as the US-Israeli war continues to ignite instability.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 05:26 UTC",
-      "headline": "EU SAYS IRAN IS ‘NOT EUROPE’S WAR’",
-      "detail": "EU foreign policy chief Kaja Kallas said there is no appetite to expand Europe’s naval mission to the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $103.29 (+0.00%)",
-    "VIX: 23.39",
+    "BRENT: $102.6 (+0.00%)",
+    "VIX: 22.71",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
