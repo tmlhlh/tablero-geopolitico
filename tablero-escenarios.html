@@ -30,7 +30,6 @@ body::before { content:''; position:fixed; inset:0; pointer-events:none; z-index
 #map-container { flex: 1; position: relative; background: var(--bg); }
 #map { width: 100%; height: 100%; }
 
-/* PANEL LATERAL DE ALTA DENSIDAD */
 #side-panel {
   width: 420px; background: linear-gradient(90deg, #000 0%, var(--panel) 100%);
   border-left: 1px solid var(--border); display: flex; flex-direction: column; z-index: 1000;
@@ -51,11 +50,10 @@ body::before { content:''; position:fixed; inset:0; pointer-events:none; z-index
 .btn-scen.active-C { background: rgba(255,51,51,0.1); border-color: var(--red); color: var(--red); border-left: 3px solid var(--red); }
 .btn-scen.active-D { background: rgba(170,102,255,0.1); border-color: var(--purple); color: var(--purple); border-left: 3px solid var(--purple); }
 
-/* CONTENIDO CON SCROLL PARA DOCUMENTO EXTENSO */
 .content-area { padding: 20px; flex: 1; overflow-y: auto; }
 .s-title { font-family: 'Bebas Neue', sans-serif; font-size: 24px; margin-bottom: 15px; letter-spacing: 1px; }
 .s-desc { font-size: 13px; line-height: 1.6; color: var(--white); margin-bottom: 20px; text-align: justify; }
-.s-bullet { margin-bottom: 10px; padding-left: 10px; border-left: 2px solid var(--muted); font-size: 12.5px; line-height: 1.5; color: #a9c2b3;}
+.s-bullet { margin-bottom: 12px; padding-left: 10px; border-left: 2px solid var(--muted); font-size: 12.5px; line-height: 1.5; color: #a9c2b3;}
 .s-bullet strong { color: var(--white); }
 
 .metrics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
@@ -122,73 +120,74 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png'
 let currentLayers = [];
 function clearMap() { currentLayers.forEach(l => map.removeLayer(l)); currentLayers = []; }
 
-// Coordenadas aproximadas para dibujar los bloques (Polígonos Geopolíticos)
-const polyUSA_EU = [[75,-170],[20,-130],[15,-60],[75,-30],[75,40],[35,35],[35,-10]];
-const polyEurasia = [[75,40],[75,150],[15,130],[15,40]];
-const polyConoSur = [[-15,-80],[-15,-40],[-55,-40],[-55,-80]];
-const polyMidEast = [[35,35],[35,60],[12,60],[12,35]];
+// ── GEOMETRÍA CORREGIDA (Polígonos limpios sin auto-intersección) ──
+const polyNorthAmerica = [[70,-170], [70,-50], [15,-50], [15,-170]];
+const polyEurope = [[70,-10], [70,40], [35,40], [35,-10]];
+const polyEurasia = [[70,40], [70,150], [15,130], [15,40]];
+const polyConoSur = [[-15,-80], [-15,-35], [-55,-35], [-55,-80]];
+const polyMidEast = [[35,35], [35,60], [12,60], [12,35]];
 
 const DATA = {
   'A': {
     title: 'EL BLINDAJE', color: 'var(--blue)',
     metrics: { dollar: '85.0%', risk: 'SISTEMÁTICO' },
-    ticker: "SANCIONES: $300.000M CONGELADOS A RUSIA ◆ VENEZUELA PIERDE $4.500M EN ORO ◆ AFGANISTÁN SANCIONADO ◆ SWIFT COMO HERRAMIENTA DISCIPLINARIA",
-    desc: `<b>El costo es la soberanía.</b> El sistema financiero (SWIFT) deja de ser un bien público global para convertirse en una herramienta punitiva. El viejo orden prioriza la disciplina sobre la expansión.`,
+    ticker: "SANCIONES: $300.000M CONGELADOS A RUSIA ◆ VENEZUELA PIERDE $4.500M EN ORO ◆ SWIFT COMO HERRAMIENTA DISCIPLINARIA",
+    desc: `<b>El costo es la soberanía.</b> El sistema financiero (SWIFT) deja de ser un bien público global para convertirse en una herramienta punitiva. El viejo orden exige sumisión total.`,
     bullets: [
-      `<strong>La Armafización:</strong> Congelamientos masivos de reservas de bancos centrales rivales fuerzan a los no-alineados a elegir entre sumisión financiera o expulsión.`,
-      `<strong>La Paradoja de Seguridad:</strong> Al usar el dólar como arma, se destruye la principal virtud del sistema de Yeda: la previsibilidad absoluta.`
+      `<strong>La Armafización:</strong> Congelamientos masivos fuerzan a los no-alineados a elegir entre disciplina financiera occidental o la expulsión del sistema.`,
+      `<strong>El Dilema Argentino:</strong> La presión por un alineamiento incondicional al bloque SWIFT amenaza directamente la arquitectura de reservas del BCRA (dependiente del swap con China). La "apertura al mundo" requiere ceder autonomía.`
     ],
     render: () => {
-      currentLayers.push(L.polygon(polyUSA_EU, {color: '#0088ff', fillColor: '#0088ff', fillOpacity: 0.2, weight: 2}).bindPopup("<b>Núcleo SWIFT / OTAN</b><br>Bloque blindado. Acceso exclusivo bajo condicionamiento geopolítico.").addTo(map));
-      currentLayers.push(L.circleMarker([55,37], {color: '#ff3333'}).bindPopup("<b>Banco Central Ruso</b><br>$300.000 Millones congelados.").addTo(map));
-      currentLayers.push(L.circleMarker([10,-66], {color: '#ffaa00'}).bindPopup("<b>Venezuela</b><br>$4.500 Millones en oro retenidos.").addTo(map));
+      currentLayers.push(L.polygon([polyNorthAmerica, polyEurope], {color: '#0088ff', fillColor: '#0088ff', fillOpacity: 0.15, weight: 2}).bindPopup("<b>Núcleo SWIFT / OTAN</b><br>Bloque blindado.").addTo(map));
+      currentLayers.push(L.circleMarker([-34,-58], {color: '#0088ff', radius: 8}).bindPopup("<b>Argentina: Tensión de Alineamiento</b><br>Presión para romper lazos financieros asiáticos.").addTo(map));
     }
   },
   'B': {
     title: 'LA FRACTURA', color: 'var(--amber)',
     metrics: { dollar: '45.5%', risk: 'VOLÁTIL' },
-    ticker: "FRACTURA OCCIDENTAL: PISTORIUS, SÁNCHEZ, MELONI Y STARMER RECHAZAN CAMPAÑA EN EL GOLFO ◆ MBRIDGE Y CIPS ACELERAN DESDOLARIZACIÓN",
-    desc: `<b>El costo es la incertidumbre.</b> Occidente pierde cohesión interna mientras Eurasia levanta tuberías financieras paralelas. La soledad estratégica de Washington se hace evidente.`,
+    ticker: "FRACTURA OCCIDENTAL: PISTORIUS Y STARMER RECHAZAN CAMPAÑA EN EL GOLFO ◆ MBRIDGE Y CIPS ACELERAN DESDOLARIZACIÓN",
+    desc: `<b>El costo es la incertidumbre.</b> Occidente pierde cohesión militar mientras Eurasia consolida tuberías financieras paralelas (CIPS).`,
     bullets: [
-      `<strong>La Deserción Aliada:</strong> Alemania (Pistorius), España (Sánchez), Italia (Meloni) y Reino Unido (Starmer) se niegan a comprometer fragatas en una guerra de atrición en el Golfo.`,
-      `<strong>Arquitectura Paralela:</strong> Consolidación táctica de <em>mBridge</em> y el <em>CIPS</em> chino como vías de escape a las sanciones, obligando a naciones intermedias a costosos arbitrajes multidivisa.`
+      `<strong>Arquitectura Paralela:</strong> La desdolarización avanza a través de sistemas de liquidación alternativos, fraccionando el comercio mundial.`,
+      `<strong>El Costo para la Nación Pivotal:</strong> Argentina se ve forzada a un doble estándar logístico: liquidar exportaciones agroindustriales en dólares hacia Occidente, mientras financia su infraestructura e importaciones con el ecosistema del Yuan. El costo transaccional drena recursos.`
     ],
     render: () => {
       currentLayers.push(L.polygon(polyEurasia, {color: '#ffaa00', fillColor: '#ffaa00', fillOpacity: 0.2, weight: 2}).bindPopup("<b>Bloque Eurasia / BRICS+</b><br>Ecosistema de compensación alternativa.").addTo(map));
-      // Línea de fractura atlántica
-      currentLayers.push(L.polyline([[39,-77],[50,10]], {color: '#ff3333', weight: 3, dashArray: '5, 10'}).bindPopup("<b>Fractura Transatlántica</b><br>Negativa europea a intervenir en el Golfo.").addTo(map));
+      currentLayers.push(L.polyline([[39,-77],[50,10]], {color: '#ff3333', weight: 3, dashArray: '5, 10'}).bindPopup("<b>Fractura Transatlántica</b><br>Negativa europea a intervenir en Medio Oriente.").addTo(map));
+      currentLayers.push(L.circleMarker([-34,-58], {color: '#ffaa00', radius: 8}).bindPopup("<b>Argentina: Nación Pivotal</b><br>Obligada a sostener interfaces con ambos sistemas financieros.").addTo(map));
     }
   },
   'C': {
     title: 'EL ABISMO', color: 'var(--red)',
     metrics: { dollar: 'FALLIDO', risk: 'CRÍTICO' },
-    ticker: "IRÁN CONDICIONA EL ESTRECHO: SOLO PASAN BUQUES CON LIQUIDACIÓN EN YUANES ◆ GUERRA ASIMÉTRICA DESTRUYE CADENAS LOGÍSTICAS TRANSOCEÁNICAS",
-    desc: `<b>El costo es la supervivencia.</b> El conflicto no se resuelve en una cumbre diplomática, sino en un estrecho minado. La exigencia de divisas hostiles para el tránsito seguro colapsa el comercio físico.`,
+    ticker: "IRÁN CONDICIONA EL ESTRECHO: SOLO PASAN BUQUES CON LIQUIDACIÓN EN YUANES ◆ PARÁLISIS LOGÍSTICA TRANSOCEÁNICA",
+    desc: `<b>El costo es la supervivencia.</b> La exigencia de divisas hostiles para el tránsito seguro colapsa el comercio físico. El sistema global retrocede.`,
     bullets: [
-      `<strong>El Ultimátum de Ormuz:</strong> Irán reabre el estrecho bajo una condición letal para el sistema de Yeda: peaje y liquidación exclusiva en yuanes.`,
-      `<strong>Atrición Naval:</strong> Bombardeo asimétrico continuo que imposibilita la viabilidad comercial de las rutas, arrastrando al mundo a una regionalización forzada.`
+      `<strong>El Ultimátum de Ormuz:</strong> Irán reabre el estrecho bajo una condición letal para Yeda: peaje y liquidación exclusiva en yuanes.`,
+      `<strong>Resiliencia del Cono Sur:</strong> Ante el colapso logístico transoceánico, Argentina pasa de ser un exportador periférico a una fortaleza de seguridad calórica y energética (Pampa/Vaca Muerta), aislada del apagón del hemisferio norte pero perdiendo sus mercados tradicionales.`
     ],
     render: () => {
       currentLayers.push(L.polygon(polyMidEast, {color: '#ff3333', fillColor: '#ff3333', fillOpacity: 0.3, weight: 2}).bindPopup("<b>Zona de Atrición Máxima</b>").addTo(map));
-      currentLayers.push(L.circleMarker([26,56], {color: '#fff', radius: 10, weight:3}).bindPopup("<b>Estrecho de Ormuz</b><br>Ultimátum: Exigencia de Yuanes para tránsito seguro.").addTo(map));
+      currentLayers.push(L.circleMarker([26,56], {color: '#fff', radius: 10, weight:3}).bindPopup("<b>Estrecho de Ormuz</b><br>Exigencia de Yuanes para tránsito.").addTo(map));
+      // Destacamos la zona de resiliencia argentina
+      currentLayers.push(L.polygon(polyConoSur, {color: '#00cc66', fillColor: '#00cc66', fillOpacity: 0.3, weight: 2, dashArray: '4,6'}).bindPopup("<b>Cono Sur: Zona de Resiliencia</b><br>Autonomía alimentaria y energética ante el colapso logístico.").addTo(map));
     }
   },
   'D': {
     title: 'LA SUPERPOSICIÓN', color: 'var(--purple)',
     metrics: { dollar: 'FRAGMENTADO', risk: 'REALPOLITIK' },
-    ticker: "LA SUPERVIVENCIA NACIONAL EN EL ORDEN MULTIPOLAR ◆ ZONAS DE SACRIFICIO VS. NACIONES PIVOTALES ◆ RESILIENCIA ALIMENTARIA DEL CONO SUR",
-    desc: `<b>La cartografía real del poder.</b> Los escenarios no son destinos globales absolutos; coexisten territorialmente. El sistema no colapsa uniformemente, sino que se fragmenta según las capacidades de cada bloque.`,
+    ticker: "LA SUPERVIVENCIA NACIONAL EN EL ORDEN MULTIPOLAR ◆ ZONAS DE SACRIFICIO VS. NACIONES PIVOTALES ◆ RESILIENCIA ESTRATÉGICA",
+    desc: `<b>La cartografía de la realpolitik.</b> Los escenarios coexisten territorialmente. El sistema no colapsa uniformemente, sino que se fragmenta.`,
     bullets: [
-      `<strong>Segmentación Geográfica:</strong> El Norte Global se repliega en el <em>Blindaje</em>, Medio Oriente arde en el <em>Abismo</em>, y el Sur Global opera forzadamente en la <em>Fractura</em>.`,
-      `<strong>El Imperativo Nacional:</strong> Para Argentina, el idealismo es inviable. La resiliencia requiere administrar la doble dependencia técnica (SWIFT) y financiera (Yuan), anclados en la capacidad inelástica de producir alimentos y energía.`
+      `<strong>Segmentación Geográfica:</strong> El Norte Global se repliega en el <em>Blindaje</em>, Medio Oriente arde en el <em>Abismo</em>, y Eurasia opera en la <em>Fractura</em>.`,
+      `<strong>El Imperativo Nacional:</strong> Las viejas preguntas sobre "cómo integrarse al mundo" han muerto. Para Argentina, asegurar la resiliencia implica abandonar los idealismos y administrar el poder nacional en la intersección de estos tres escenarios.`
     ],
     render: () => {
-      // Dibuja todos los polígonos simultáneamente para mostrar la superposición
-      currentLayers.push(L.polygon(polyUSA_EU, {color: '#0088ff', fillColor: '#0088ff', fillOpacity: 0.15, weight: 1}).addTo(map));
-      currentLayers.push(L.polygon(polyEurasia, {color: '#ffaa00', fillColor: '#ffaa00', fillOpacity: 0.15, weight: 1}).addTo(map));
-      currentLayers.push(L.polygon(polyMidEast, {color: '#ff3333', fillColor: '#ff3333', fillOpacity: 0.3, weight: 2}).addTo(map));
-      // Destaca Argentina / Cono Sur
-      currentLayers.push(L.polygon(polyConoSur, {color: '#aa66ff', fillColor: '#aa66ff', fillOpacity: 0.4, weight: 3}).bindPopup("<b>La Nación Pivotal</b><br>Imperativo de resiliencia frente a la superposición de sistemas.").addTo(map));
+      currentLayers.push(L.polygon([polyNorthAmerica, polyEurope], {color: '#0088ff', fillColor: '#0088ff', fillOpacity: 0.1, weight: 1}).addTo(map));
+      currentLayers.push(L.polygon(polyEurasia, {color: '#ffaa00', fillColor: '#ffaa00', fillOpacity: 0.1, weight: 1}).addTo(map));
+      currentLayers.push(L.polygon(polyMidEast, {color: '#ff3333', fillColor: '#ff3333', fillOpacity: 0.2, weight: 1}).addTo(map));
+      // Argentina destacada transversalmente
+      currentLayers.push(L.polygon(polyConoSur, {color: '#aa66ff', fillColor: '#aa66ff', fillOpacity: 0.4, weight: 3}).bindPopup("<b>República Argentina</b><br>La supervivencia nacional atada a la realpolitik y la gestión de la fractura global.").addTo(map));
     }
   }
 };
