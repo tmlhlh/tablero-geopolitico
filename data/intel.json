@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-17T17:55:52.817348+00:00",
+  "updated_at": "2026-03-17T18:59:42.306206+00:00",
   "market": {
-    "brent_usd": 102.57,
+    "brent_usd": 103.48,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 88.3,
-    "vix": 22.29,
+    "ormuz_flow_pct": 88.2,
+    "vix": 22.37,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.4
   },
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "17 MAR 2026 · 16:35 UTC",
-      "headline": "WHAT HAVE US ALLIES AND CHINA SAID ABOUT SENDING SHIPS TO THE STRAIT OF HORMUZ?",
-      "detail": "US allies have either pushed back or remained cautious on Trump's initial request to send ships to the crucial oil route.",
+      "timestamp": "17 MAR 2026 · 18:36 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 MAR 2026 · 16:13 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
-      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
+      "timestamp": "17 MAR 2026 · 18:10 UTC",
+      "headline": "US CONFIRMS 157 KILLED IN MARITIME STRIKES EXPERTS CALL ‘EXTRAJUDICIAL’",
+      "detail": "Defence official tells Congress that 47 alleged drug-trafficking vessels have been struck since campaign began.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 MAR 2026 · 16:35 UTC",
+      "headline": "WHAT HAVE US ALLIES AND CHINA SAID ABOUT SENDING SHIPS TO THE STRAIT OF HORMUZ?",
+      "detail": "US allies have either pushed back or remained cautious on Trump's initial request to send ships to the crucial oil route.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "TRUMP REDOBLA LA PRESIÓN MILITAR EN IRÁN PESE AL DESAFÍO EUROPEO Y A LOS ESTRAGO",
       "detail": "El estrecho de Ormuz, vía esencial cerrada de facto por Teherán, se ha convertido en el gran obstáculo del presidente de Estados Unidos para cantar victoria en Oriente Próximo",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 04:30 UTC",
-      "headline": "LA CRISIS EN EL ESTRECHO DE ORMUZ Y LA PRESIÓN DE TRUMP PONEN EN APRIETOS AL NUE",
-      "detail": "La primera ministra, Sanae Takaichi, enfrenta su mayor desafío diplomático desde que llegó al poder en octubre y obliga a las autoridades a una liberación sin precedentes de reservas de petróleo",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.57 (+0.00%)",
-    "VIX: 22.29",
+    "BRENT: $103.48 (+0.00%)",
+    "VIX: 22.37",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
