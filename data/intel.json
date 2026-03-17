@@ -1,21 +1,27 @@
 {
-  "updated_at": "2026-03-17T16:03:03.428379+00:00",
+  "updated_at": "2026-03-17T17:55:52.817348+00:00",
   "market": {
-    "brent_usd": 102.68,
+    "brent_usd": 102.57,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 87.1,
-    "vix": 22.77,
+    "ormuz_flow_pct": 88.3,
+    "vix": 22.29,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.5
+    "insurance_spread_pct": 3.4
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "17 MAR 2026 · 14:30 UTC",
+      "timestamp": "17 MAR 2026 · 16:35 UTC",
+      "headline": "WHAT HAVE US ALLIES AND CHINA SAID ABOUT SENDING SHIPS TO THE STRAIT OF HORMUZ?",
+      "detail": "US allies have either pushed back or remained cautious on Trump's initial request to send ships to the crucial oil route.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 MAR 2026 · 16:13 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
       "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
@@ -43,17 +49,11 @@
       "headline": "LA CRISIS EN EL ESTRECHO DE ORMUZ Y LA PRESIÓN DE TRUMP PONEN EN APRIETOS AL NUE",
       "detail": "La primera ministra, Sanae Takaichi, enfrenta su mayor desafío diplomático desde que llegó al poder en octubre y obliga a las autoridades a una liberación sin precedentes de reservas de petróleo",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 20:40 UTC",
-      "headline": "‘NOT OUR WAR’: HOW THE WORLD HAS REACTED TO TRUMP’S CALL TO PATROL THE HORMUZ ST",
-      "detail": "The world mostly remains silent to US President Donald Trump’s call to send warships to the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.68 (+0.00%)",
-    "VIX: 22.77",
+    "BRENT: $102.57 (+0.00%)",
+    "VIX: 22.29",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
