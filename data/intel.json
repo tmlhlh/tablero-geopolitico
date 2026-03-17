@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-17T10:47:41.890763+00:00",
+  "updated_at": "2026-03-17T11:41:34.792047+00:00",
   "market": {
-    "brent_usd": 103.12,
+    "brent_usd": 103.29,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.3,
-    "vix": 23.8,
+    "ormuz_flow_pct": 85.3,
+    "vix": 23.39,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.9
+    "insurance_spread_pct": 3.7
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
@@ -45,15 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "17 MAR 2026 · 03:15 UTC",
-      "headline": "ORMUZ, EL ESTRECHO QUE ACELERA LA FRAGILIDAD DEL (DES)ORDEN INTERNACIONAL",
-      "detail": "Es una de las pocas zonas del planeta donde un espacio tan reducido puede influir de manera tan determinante sobre la economía global; ese pasillo angosto entre Irán y Omán, de apenas unas decenas de ",
-      "severity": "CRÍTICO"
+      "timestamp": "16 MAR 2026 · 20:40 UTC",
+      "headline": "‘NOT OUR WAR’: HOW THE WORLD HAS REACTED TO TRUMP’S CALL TO PATROL THE HORMUZ ST",
+      "detail": "The world mostly remains silent to US President Donald Trump’s call to send warships to the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.12 (+0.00%)",
-    "VIX: 23.8",
+    "BRENT: $103.29 (+0.00%)",
+    "VIX: 23.39",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
