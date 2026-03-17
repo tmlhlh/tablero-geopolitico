@@ -16,11 +16,11 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--white);font-family:'Share Tech Mono',monospace;min-height:100vh}
 #header{padding:18px 20px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#000 0%,#041015 100%)}
-.h-title{font-family:'Bebas Neue',sans-serif;letter-spacing:3px;color:var(--green);font-size:30px}
+.h-title{font-family:'Bebas Neue',sans-serif;letter-spacing:4px;color:var(--green);font-size:31px}
 .h-sub{font-size:11px;letter-spacing:1px;color:var(--muted);margin-top:6px;max-width:1000px;line-height:1.6}
 .h-meta{display:flex;justify-content:space-between;gap:8px;margin-top:8px;font-size:10px;color:var(--muted)}
 .h-meta a{color:var(--cyan);text-decoration:none}
-#layout{display:grid;grid-template-columns:420px 1fr;min-height:calc(100vh - 112px)}
+#layout{display:grid;grid-template-columns:410px 1fr;min-height:calc(100vh - 112px)}
 #panel{border-right:1px solid var(--border);padding:16px;background:rgba(8,18,22,.65)}
 .section{margin-bottom:14px;border:1px solid var(--border);background:rgba(0,0,0,.35);padding:12px}
 .section-title{font-family:'Bebas Neue',sans-serif;font-size:21px;letter-spacing:2px;margin-bottom:8px;color:var(--green)}
@@ -53,9 +53,9 @@ body{background:var(--bg);color:var(--white);font-family:'Share Tech Mono',monos
 <body>
 <header id="header">
   <div class="h-title">LOS FUTUROS EN DISPUTA · EL MUNDO POS-DÓLAR</div>
-  <div class="h-sub">Del monopolio de visibilidad de SWIFT a la competencia entre arquitecturas financieras (CIPS/mBridge). Cartografía prospectiva de cuatro escenarios y sus efectos sobre la autonomía estratégica argentina.</div>
+  <div class="h-sub">De la hegemonía del SWIFT a la fragmentación de mBridge. Visualización prospectiva de tres escenarios estratégicos (2026–2035) y su impacto sobre la autonomía argentina.</div>
   <div class="h-meta">
-    <span>Artículo base: 20 FEB 2026 · Escenarios 2026–2035</span>
+    <span>Actualizado: 20 FEB 2026 + addendum por crisis de Ormuz</span>
     <a href="index.html">← Volver al portafolio</a>
   </div>
 </header>
@@ -63,18 +63,17 @@ body{background:var(--bg);color:var(--white);font-family:'Share Tech Mono',monos
 <div id="layout">
   <aside id="panel">
     <section class="section">
-      <div class="section-title">Contexto estratégico</div>
-      <p class="notice">Este es el mapa principal para analizar el mundo pos-dólar en disputa. No funciona como anexo de otro tablero, sino como pieza autónoma de prospectiva geoeconómica.</p>
-      <p>La coerción sobre reservas y pagos internacionales acelera la creación de infraestructuras paralelas. El resultado probable no es un reemplazo instantáneo del dólar, sino una década de competencia entre sistemas de liquidación y bloques de seguridad económica.</p>
+      <div class="section-title">Contexto</div>
+      <p class="notice">Nota del autor: este análisis fue redactado como prospectiva y re-publicado tras la escalada en Ormuz y la oferta iraní de reabrir tránsito sólo con liquidación en yuanes.</p>
+      <p>El orden de Yeda y el petrodólar atraviesa una transición de riesgo alto: la coerción financiera acelera respuestas sistémicas (CIPS/mBridge) y fractura el monopolio de visibilidad de SWIFT.</p>
     </section>
 
     <section class="section">
       <div class="section-title">Escenarios</div>
       <div class="buttons">
-        <button id="btn-blindaje" class="btn" onclick="loadScenario('blindaje')"><b>I · BLINDAJE</b><span>Fortaleza occidental y disciplina por alineamiento.</span></button>
-        <button id="btn-fractura" class="btn" onclick="loadScenario('fractura')"><b>II · FRACTURA</b><span>Dualidad de infraestructuras y arbitraje de potencias medias.</span></button>
-        <button id="btn-abismo" class="btn" onclick="loadScenario('abismo')"><b>III · ABISMO</b><span>Ruptura de liquidez y coerción abierta por recursos.</span></button>
-        <button id="btn-superposicion" class="btn" onclick="loadScenario('superposicion')"><b>IV · SUPERPOSICIÓN</b><span>Competencia simultánea de escenarios en un mismo mapa.</span></button>
+        <button id="btn-blindaje" class="btn" onclick="loadScenario('blindaje')"><b>I · BLINDAJE</b><span>Fortaleza occidental y disciplinamiento por bloque.</span></button>
+        <button id="btn-fractura" class="btn" onclick="loadScenario('fractura')"><b>II · FRACTURA</b><span>Coexistencia de infraestructuras y arbitraje de potencias medias.</span></button>
+        <button id="btn-abismo" class="btn" onclick="loadScenario('abismo')"><b>III · ABISMO</b><span>Trampa de Kindleberger: colapso de liquidez y coerción abierta.</span></button>
       </div>
       <div class="stat-grid">
         <div class="stat"><div class="stat-label">Probabilidad</div><div id="p" class="stat-value">—</div></div>
@@ -90,119 +89,60 @@ body{background:var(--bg);color:var(--white);font-family:'Share Tech Mono',monos
 
   <main id="map-wrap">
     <div class="legend">
-      <div><b>AZUL</b> · Bloque occidental (SWIFT/Ágora)</div>
-      <div><b>ÁMBAR</b> · Bloque euroasiático (CIPS/mBridge)</div>
-      <div><b>ROJO</b> · Núcleos de atrición sistémica</div>
-      <div><b>VIOLETA</b> · Argentina y Cono Sur pivotal</div>
+      <div><b>AZUL</b> · Bloque occidental / SWIFT-Ágora</div>
+      <div><b>ÁMBAR</b> · Eurasia / CIPS-mBridge</div>
+      <div><b>ROJO</b> · Zona de atrición sistémica</div>
+      <div><b>VIOLETA</b> · Argentina como nodo pivote</div>
     </div>
     <div id="map"></div>
   </main>
 </div>
 
 <script>
-const map = L.map('map', { zoomControl: true }).setView([20, 5], 2);
+const map = L.map('map', { zoomControl: true }).setView([22, 15], 2);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 6, attribution: '© OpenStreetMap' }).addTo(map);
 
 let layers = [];
-function addLayer(l){ layers.push(l); return l.addTo(map); }
 function clearLayers(){ layers.forEach(l=>map.removeLayer(l)); layers=[]; }
-
-const blocks = {
-  west: [
-    [[23,-128],[58,-128],[58,-65],[23,-65]],      // Norteamérica atlántica/pacífica
-    [[35,-12],[60,-12],[60,38],[35,38]],          // Europa
-    [[22,128],[46,128],[46,150],[22,150]]         // Japón/Corea
-  ],
-  eurasia: [
-    [[8,36],[58,36],[58,130],[8,130]],            // Rusia-Asia Central-China
-    [[12,42],[34,42],[34,64],[12,64]],            // Golfo/Irán-Ormuz
-    [[-5,95],[20,95],[20,125],[-5,125]]           // Sudeste asiático logístico
-  ],
-  conoSur: [[-56,-80],[-56,-46],[-18,-46],[-18,-80]],
-  corridors: {
-    transatlantic: [[48,2],[39,-77]],
-    hormuzChina: [[26,56],[31,121]],
-    atlanticoSur: [[-34,-58],[-27,-50],[-15,-38]]
-  }
-};
-
-function drawWest(opacity=0.13){
-  blocks.west.forEach(poly=>addLayer(L.polygon(poly,{color:'#00ccff',fillColor:'#00ccff',fillOpacity:opacity,weight:2})));
-}
-
-function drawEurasia(opacity=0.16){
-  blocks.eurasia.forEach(poly=>addLayer(L.polygon(poly,{color:'#ffaa00',fillColor:'#ffaa00',fillOpacity:opacity,weight:2})));
-}
-
-function drawArgentina(){
-  addLayer(L.polygon(blocks.conoSur,{color:'#aa66ff',fillColor:'#aa66ff',fillOpacity:.22,weight:2,dashArray:'5,6'})
-    .bindPopup('<b>Argentina / Cono Sur</b><br>Nodo de arbitraje, recursos críticos y disputa de infraestructura.'));
-  addLayer(L.circleMarker([-34,-64],{color:'#aa66ff',radius:9,weight:3})
-    .bindPopup('<b>Posición pivote</b><br>Capacidad de negociación atada a autonomía técnica, financiera y defensiva.'));
-}
 
 const S = {
   blindaje: {
     prob:'30–35%', costo:'SOBERANÍA', color:'#00ccff',
     signals:[
-      'Acuerdos comerciales de bloque con cláusulas anti-China.',
-      'Condicionalidad financiera (FMI/EXIM) atada a alineamiento estratégico.',
-      'Sanciones secundarias para restringir neutralidades pragmáticas.'
+      'Acuerdo comercial tipo OTAN con cláusulas anti-China.',
+      'Condicionalidad financiera (FMI/EXIM) vinculada a alineamiento estratégico.',
+      'Escalada de sanciones secundarias y reducción de neutralidad permitida.'
     ],
     draw(){
-      drawWest(0.18);
-      addLayer(L.polyline(blocks.corridors.transatlantic,{color:'#00ccff',weight:3}).bindPopup('<b>Eje OTAN financiero</b><br>Integración cerrada y disciplina regulatoria.'));
-      drawArgentina();
+      layers.push(L.polygon([[25,-130],[58,-130],[58,-60],[25,-60]],{color:'#00ccff',fillOpacity:.15}).bindPopup('<b>Fortaleza Atlántica</b><br>Blindaje comercial-tecnológico y disciplinamiento político.').addTo(map));
+      layers.push(L.polygon([[35,-10],[60,-10],[60,35],[35,35]],{color:'#00ccff',fillOpacity:.1}).addTo(map));
+      layers.push(L.circleMarker([-34,-64],{color:'#aa66ff',radius:9}).bindPopup('<b>Argentina</b><br>Dilema de inserción subordinada vs autonomía material.').addTo(map));
     }
   },
   fractura: {
-    prob:'35–45%', costo:'INCERTIDUMBRE', color:'#ffaa00',
+    prob:'40–50%', costo:'INCERTIDUMBRE', color:'#ffaa00',
     signals:[
-      'Europa incrementa autonomía militar/industrial sin ruptura formal de OTAN.',
-      'Liquidación bimodal: SWIFT/Ágora para Occidente y CIPS/mBridge para BRICS+.',
-      'Mayor rol de países puente para comercio y compensación entre bloques.'
+      'Europa sostiene autonomía militar/industrial parcial sin romper OTAN.',
+      'Aumento de liquidación dual: SWIFT para Occidente y CIPS/mBridge para BRICS+.',
+      'Mayor rol de países pivote como intermediarios regulatorios y logísticos.'
     ],
     draw(){
-      drawWest(0.08);
-      drawEurasia(0.18);
-      addLayer(L.polyline(blocks.corridors.transatlantic,{color:'#ff3333',dashArray:'6,8',weight:3}).bindPopup('<b>Fricción transatlántica</b>'));
-      addLayer(L.polyline(blocks.corridors.hormuzChina,{color:'#ffaa00',weight:4}).bindPopup('<b>Corredor energético alternativo</b><br>Flujos liquidados fuera del eje dólar.'));
-      drawArgentina();
+      layers.push(L.polygon([[10,35],[60,35],[60,130],[10,130]],{color:'#ffaa00',fillOpacity:.18}).bindPopup('<b>Corredor Eurasia</b><br>Compensación alternativa y desdolarización gradual.').addTo(map));
+      layers.push(L.polyline([[48,2],[39,-77]],{color:'#ff3333',dashArray:'6,8',weight:3}).bindPopup('<b>Fractura transatlántica</b>').addTo(map));
+      layers.push(L.circleMarker([-34,-64],{color:'#aa66ff',radius:9}).bindPopup('<b>Argentina</b><br>Neutralidad pragmática y arbitraje entre bloques.').addTo(map));
     }
   },
   abismo: {
     prob:'5–10%', costo:'SUPERVIVENCIA', color:'#ff3333',
     signals:[
-      'Cierre recurrente de corredores marítimos críticos por razones de seguridad.',
+      'Cierre repetido de corredores marítimos críticos por motivos de seguridad.',
       'Compras masivas y opacas de oro por bancos centrales.',
-      'Nacionalizaciones forzadas y represalias sobre activos estratégicos.'
+      'Escalada de nacionalizaciones y respuestas coercitivas sobre activos estratégicos.'
     ],
     draw(){
-      addLayer(L.polygon([[14,42],[34,42],[34,63],[14,63]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.35,weight:2})
-        .bindPopup('<b>Ormuz / Golfo</b><br>Núcleo de atrición logística, militar y monetaria.'));
-      addLayer(L.polygon([[11,32],[33,32],[33,48],[11,48]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.2,weight:1}));
-      addLayer(L.polyline(blocks.corridors.hormuzChina,{color:'#ffaa00',weight:4}));
-      addLayer(L.polyline(blocks.corridors.atlanticoSur,{color:'#ff3333',dashArray:'4,7',weight:3}).bindPopup('<b>Presión sobre recursos del Sur</b>'));
-      drawArgentina();
-    }
-  },
-  superposicion: {
-    prob:'Escenario combinado', costo:'REALPOLITIK', color:'#aa66ff',
-    signals:[
-      'Persisten simultáneamente blindaje occidental, fractura funcional y focos de abismo.',
-      'No hay hegemonía única: la gobernanza se negocia corredor por corredor.',
-      'Las naciones pivotales maximizan margen si sostienen autonomía regulatoria y logística.'
-    ],
-    draw(){
-      drawWest(0.12);
-      drawEurasia(0.12);
-      addLayer(L.polygon([[14,42],[34,42],[34,63],[14,63]],{color:'#ff3333',fillColor:'#ff3333',fillOpacity:.28,weight:2})
-        .bindPopup('<b>Zona de choque</b><br>Donde la competencia puede escalar a ruptura sistémica.'));
-      addLayer(L.polyline(blocks.corridors.transatlantic,{color:'#00ccff',weight:2}));
-      addLayer(L.polyline(blocks.corridors.hormuzChina,{color:'#ffaa00',weight:3}));
-      addLayer(L.polyline(blocks.corridors.atlanticoSur,{color:'#aa66ff',dashArray:'5,7',weight:3})
-        .bindPopup('<b>Corredor del Cono Sur</b><br>Interfaz de competencia y negociación.'));
-      drawArgentina();
+      layers.push(L.polygon([[15,42],[33,42],[33,63],[15,63]],{color:'#ff3333',fillOpacity:.3}).bindPopup('<b>Ormuz / Golfo</b><br>Núcleo de atrición logística y monetaria.').addTo(map));
+      layers.push(L.polyline([[26,56],[31,121]],{color:'#ffaa00',weight:4}).bindPopup('<b>Flujos energéticos bajo cobertura alternativa</b>').addTo(map));
+      layers.push(L.circleMarker([-34,-64],{color:'#aa66ff',radius:9}).bindPopup('<b>Argentina</b><br>Recursos estratégicos sin defensa = vulnerabilidad.').addTo(map));
     }
   }
 };
@@ -220,7 +160,7 @@ function loadScenario(id){
   S[id].draw();
 }
 
-loadScenario('superposicion');
+loadScenario('blindaje');
 </script>
 </body>
 </html>
