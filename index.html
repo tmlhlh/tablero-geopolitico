@@ -13,9 +13,9 @@
   --panel:     #081216;
   --green:     #00ff88;
   --green-dim: #00cc66;
-  --muted:     #7ba68e; /* Antes era muy oscuro. Ahora es un verde grisáceo luminoso */
+  --muted:     #7ba68e; /* Verde grisáceo luminoso */
   --border:    #1a3324;
-  --white:     #eaf2ea; /* Blanco de alto contraste (casi puro) para lectura */
+  --white:     #eaf2ea; /* Blanco de alto contraste para lectura */
   --amber:     #ffaa00;
   --gold:      #ffd700;
   --red:       #ff3333;
@@ -70,12 +70,9 @@
   .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
   .project-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: var(--white); letter-spacing: 2px; }
   .card-arrow { font-size: 18px; color: var(--muted); transition: color 0.2s; }
-  .project-desc { color: var(--muted); font-size: 12px; line-height: 1.7; }
+  .project-desc { color: var(--muted); font-size: 13px; line-height: 1.7; }
   .tags { margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; }
-  .tag { font-size: 9px; padding: 3px 8px; border: 1px solid var(--muted); color: var(--green); letter-spacing: 1px; }
-
-  .card-disabled { opacity: 0.35; cursor: default; pointer-events: none; }
-  .card-disabled .project-title { color: var(--muted); }
+  .tag { font-size: 11px; padding: 4px 8px; border: 1px solid var(--muted); color: var(--green); letter-spacing: 1px; }
 
   /* SECTION LABEL */
   .section-label { font-size: 9px; letter-spacing: 4px; color: var(--muted); margin-bottom: 20px;
@@ -89,40 +86,19 @@
     background: #000; }
   footer a { color: var(--muted); text-decoration: none; }
   footer a:hover { color: var(--green); }
-  /* ── MEJORAS DE LEGIBILIDAD (SOBREESCRITURA) ── */
-.leaflet-popup-content {
-  font-size: 13px !important; /* Antes 10px */
-  line-height: 1.6 !important;
-  letter-spacing: 0.5px;
-}
 
-#slide-body, .project-desc, .intel-detail {
-  font-size: 13px !important; /* Antes 9px */
-  line-height: 1.7 !important;
-}
+  /* ── MEJORAS DE LEGIBILIDAD ── */
+  .leaflet-popup-content { font-size: 13px !important; line-height: 1.6 !important; letter-spacing: 0.5px; }
+  .stat-label, .h-sub, #slide-counter, .stat-sub { font-size: 10px !important; letter-spacing: 1px !important; }
 
-#slide-title, .h-title, .project-title {
-  font-size: 22px !important; 
-  letter-spacing: 2px !important;
-}
-
-.event-marker, .flow-label, .tag {
-  font-size: 11px !important; /* Antes 8px */
-  padding: 4px 8px !important;
-}
-
-.stat-label, .h-sub, #slide-counter, .stat-sub {
-  font-size: 10px !important; /* Antes 7px */
-  letter-spacing: 1px !important;
-}
   @media (max-width: 768px) {
-  .leaflet-popup-content, #slide-body, .project-desc {
-    font-size: 15px !important; /* Letra óptima para móviles */
-    line-height: 1.6 !important;
-  }
-  
-  .h-title {
-    font-size: 18px !important;
+    .leaflet-popup-content, #slide-body, .project-desc {
+      font-size: 15px !important; 
+      line-height: 1.6 !important;
+    }
+    .h-title, .project-title {
+      font-size: 18px !important;
+    }
   }
 </style>
 </head>
@@ -193,8 +169,25 @@
     </div>
   </a>
 
-</main>
+  <div class="section-label" style="margin-top:32px">▸ PROSPECTIVA ESTRATÉGICA</div>
 
+  <a href="tablero-escenarios.html" class="project-card">
+    <div class="card-header">
+      <div class="project-title">04 — Escenarios Prospectivos: El Mundo Pos-Dólar</div>
+      <span class="card-arrow">→</span>
+    </div>
+    <div class="project-desc">
+      Modelado espacial de futuros en disputa (Toggle Map). Proyección de los costos estratégicos de la transición hegemónica: "El Blindaje" (bipolaridad hermética), "La Fractura" (superposición de sistemas) y "El Abismo" (regionalización extrema). Incluye evaluación del rol de Argentina y el Cono Sur como naciones pivotales y zonas de resiliencia.
+    </div>
+    <div class="tags">
+      <span class="tag">Prospectiva</span>
+      <span class="tag">Escenarios</span>
+      <span class="tag">Nación Pivotal</span>
+      <span class="tag">Sur Global</span>
+    </div>
+  </a>
+
+</main>
 
 <footer>
   <span>TOMÁS PEREYRA · <a href="https://twitter.com/TPereyraRRII">@TPereyraRRII</a></span>
