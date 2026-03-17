@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-17T04:16:10.905914+00:00",
+  "updated_at": "2026-03-17T05:57:06.855043+00:00",
   "market": {
-    "brent_usd": 103.16,
+    "brent_usd": 103.83,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.2,
+    "ormuz_flow_pct": 84.4,
     "vix": 23.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.8
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "17 MAR 2026 · 04:30 UTC",
+      "headline": "TRUMP REDOBLA LA PRESIÓN MILITAR EN IRÁN PESE AL DESAFÍO EUROPEO Y A LOS ESTRAGO",
+      "detail": "El estrecho de Ormuz, vía esencial cerrada de facto por Teherán, se ha convertido en el gran obstáculo del presidente de Estados Unidos para cantar victoria en Oriente Próximo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 MAR 2026 · 04:30 UTC",
+      "headline": "LA CRISIS EN EL ESTRECHO DE ORMUZ Y LA PRESIÓN DE TRUMP PONEN EN APRIETOS AL NUE",
+      "detail": "La primera ministra, Sanae Takaichi, enfrenta su mayor desafío diplomático desde que llegó al poder en octubre y obliga a las autoridades a una liberación sin precedentes de reservas de petróleo",
+      "severity": "INFO"
+    },
     {
       "timestamp": "17 MAR 2026 · 03:15 UTC",
       "headline": "ORMUZ, EL ESTRECHO QUE ACELERA LA FRAGILIDAD DEL (DES)ORDEN INTERNACIONAL",
@@ -35,24 +47,12 @@
     {
       "timestamp": "17 MAR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP SCOLDS ALLIES FOR NOT JOINING STRAIT OF HORMUZ MISSION",
-      "detail": "US President Donald Trump criticises allies' reluctance to commit forces to open the key waterway for Gulf oil exports.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 21:00 UTC",
-      "headline": "WHO IS ANSWERING TRUMP’S CALL FOR HELP WITH STRAIT OF HORMUZ?",
-      "detail": "Trump has criticised the response to his call to help protect shipping in the Strait of Hormuz during the war on Iran.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAR 2026 · 20:41 UTC",
-      "headline": "HOW BIG OF A PROBLEM IS THE STRAIT OF HORMUZ FOR DONALD TRUMP?",
-      "detail": "US president frustrated with unenthusiastic response after appealing for help wresting control of key strait from Iran.",
-      "severity": "INFO"
+      "detail": "Israeli air strikes have hit three neighbourhoods in Beirut, Israeli army launches new attacks on Tehran",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.16 (+0.00%)",
+    "BRENT: $103.83 (+0.00%)",
     "VIX: 23.51",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
