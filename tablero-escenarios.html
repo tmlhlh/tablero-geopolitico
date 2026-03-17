@@ -18,55 +18,51 @@
   --amber:     #ffaa00;
   --red:       #ff3333;
   --blue:      #0088ff;
+  --purple:    #aa66ff;
   --scan:      rgba(0,255,136,0.015);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--white);font-family:'Share Tech Mono',monospace;}
 
-/* Efecto CRT/Scanlines */
 body::before { content:''; position:fixed; inset:0; pointer-events:none; z-index:9999; background:repeating-linear-gradient(0deg,transparent,transparent 2px,var(--scan) 2px,var(--scan) 4px); }
 
-/* ── LAYOUT PRINCIPAL ── */
 #app-container { display: flex; height: calc(100vh - 30px); width: 100vw; }
 #map-container { flex: 1; position: relative; background: var(--bg); }
 #map { width: 100%; height: 100%; }
 
-/* ── PANEL LATERAL (Estilo War Room) ── */
+/* PANEL LATERAL DE ALTA DENSIDAD */
 #side-panel {
-  width: 380px; background: linear-gradient(90deg, #000 0%, var(--panel) 100%);
+  width: 420px; background: linear-gradient(90deg, #000 0%, var(--panel) 100%);
   border-left: 1px solid var(--border); display: flex; flex-direction: column; z-index: 1000;
 }
-.panel-header {
-  padding: 20px 20px 10px; border-bottom: 1px solid var(--border);
-}
+.panel-header { padding: 20px 20px 15px; border-bottom: 1px solid var(--border); }
 .h-title { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 3px; color: var(--green); text-shadow: 0 0 10px rgba(0,255,136,0.3); }
 .h-sub { font-size: 10px; letter-spacing: 2px; color: var(--muted); margin-top: 5px; }
 
-/* Selector de Escenarios */
-.scenario-selector { padding: 15px 20px; border-bottom: 1px solid var(--border); display: flex; flex-direction: column; gap: 8px; }
+.scenario-selector { padding: 15px 20px; border-bottom: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .btn-scen {
-  background: transparent; border: 1px solid var(--border); color: var(--muted);
-  font-family: 'Share Tech Mono', monospace; font-size: 13px; padding: 10px;
+  background: rgba(0,0,0,0.5); border: 1px solid var(--border); color: var(--muted);
+  font-family: 'Share Tech Mono', monospace; font-size: 11px; padding: 10px;
   cursor: pointer; transition: all 0.3s; text-align: left; letter-spacing: 1px;
-  display: flex; justify-content: space-between; align-items: center;
 }
 .btn-scen:hover { border-color: var(--white); color: var(--white); }
 .btn-scen.active-A { background: rgba(0,136,255,0.1); border-color: var(--blue); color: var(--blue); border-left: 3px solid var(--blue); }
 .btn-scen.active-B { background: rgba(255,170,0,0.1); border-color: var(--amber); color: var(--amber); border-left: 3px solid var(--amber); }
 .btn-scen.active-C { background: rgba(255,51,51,0.1); border-color: var(--red); color: var(--red); border-left: 3px solid var(--red); }
+.btn-scen.active-D { background: rgba(170,102,255,0.1); border-color: var(--purple); color: var(--purple); border-left: 3px solid var(--purple); }
 
-/* Contenido Dinámico */
+/* CONTENIDO CON SCROLL PARA DOCUMENTO EXTENSO */
 .content-area { padding: 20px; flex: 1; overflow-y: auto; }
-.s-title { font-family: 'Bebas Neue', sans-serif; font-size: 24px; margin-bottom: 10px; letter-spacing: 1px; }
+.s-title { font-family: 'Bebas Neue', sans-serif; font-size: 24px; margin-bottom: 15px; letter-spacing: 1px; }
 .s-desc { font-size: 13px; line-height: 1.6; color: var(--white); margin-bottom: 20px; text-align: justify; }
+.s-bullet { margin-bottom: 10px; padding-left: 10px; border-left: 2px solid var(--muted); font-size: 12.5px; line-height: 1.5; color: #a9c2b3;}
+.s-bullet strong { color: var(--white); }
 
-/* Grilla de Indicadores */
 .metrics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
 .metric-box { background: rgba(0,0,0,0.4); border: 1px solid var(--border); padding: 10px; }
 .m-label { font-size: 9px; color: var(--muted); letter-spacing: 1px; margin-bottom: 5px; }
 .m-value { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 1px; }
 
-/* ── TICKER INFERIOR ── */
 #ticker {
   position: fixed; bottom: 0; left: 0; right: 0; height: 30px;
   background: #000; border-top: 1px solid var(--green); z-index: 1100;
@@ -75,28 +71,21 @@ body::before { content:''; position:fixed; inset:0; pointer-events:none; z-index
 .ticker-wrap { white-space: nowrap; animation: ticker 40s linear infinite; font-size: 11px; color: var(--green); letter-spacing: 1px; }
 @keyframes ticker { 0% { transform: translateX(100vw); } 100% { transform: translateX(-100%); } }
 
-/* ── MAPA Y ANIMACIONES ── */
 .leaflet-popup-content-wrapper { background:#081216; border:1px solid var(--border); border-radius:0; }
 .leaflet-popup-content { font-family:'Share Tech Mono',monospace; font-size:13px !important; line-height:1.5 !important; color:var(--white); margin:12px; }
 .leaflet-popup-tip { background:#081216; }
 
-.pulse-node { border-radius: 50%; animation: pulseAnim 2s infinite; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:14px; color:#000; }
-@keyframes pulseAnim { 0%{box-shadow:0 0 0 0 rgba(inherit,0.7);} 70%{box-shadow:0 0 0 15px rgba(inherit,0);} 100%{box-shadow:0 0 0 0 rgba(inherit,0);} }
-
 @media (max-width: 768px) {
   #app-container { flex-direction: column; }
-  #side-panel { width: 100%; border-left: none; border-top: 1px solid var(--border); height: 50vh; order: 2; }
-  #map-container { height: 50vh; order: 1; }
-  .btn-scen { padding: 6px 10px; }
+  #side-panel { width: 100%; border-left: none; border-top: 1px solid var(--border); height: 55vh; order: 2; }
+  #map-container { height: 45vh; order: 1; }
 }
 </style>
 </head>
 <body>
 
 <div id="app-container">
-  <div id="map-container">
-    <div id="map"></div>
-  </div>
+  <div id="map-container"><div id="map"></div></div>
 
   <div id="side-panel">
     <div class="panel-header">
@@ -105,40 +94,26 @@ body::before { content:''; position:fixed; inset:0; pointer-events:none; z-index
     </div>
     
     <div class="scenario-selector">
-      <button class="btn-scen" id="btn-A" onclick="loadScenario('A')"><span>01 // EL BLINDAJE</span> <span id="ind-A"></span></button>
-      <button class="btn-scen" id="btn-B" onclick="loadScenario('B')"><span>02 // LA FRACTURA</span> <span id="ind-B"></span></button>
-      <button class="btn-scen" id="btn-C" onclick="loadScenario('C')"><span>03 // EL ABISMO</span> <span id="ind-C"></span></button>
+      <button class="btn-scen" id="btn-A" onclick="loadScenario('A')">01 // EL BLINDAJE</button>
+      <button class="btn-scen" id="btn-B" onclick="loadScenario('B')">02 // LA FRACTURA</button>
+      <button class="btn-scen" id="btn-C" onclick="loadScenario('C')">03 // EL ABISMO</button>
+      <button class="btn-scen" id="btn-D" onclick="loadScenario('D')">04 // LA SUPERPOSICIÓN</button>
     </div>
 
     <div class="content-area">
       <div class="s-title" id="s-title">---</div>
       <div class="s-desc" id="s-desc">---</div>
+      <div id="s-bullets"></div>
       
-      <div class="metrics-grid">
-        <div class="metric-box">
-          <div class="m-label">HEGEMONÍA DÓLAR</div>
-          <div class="m-value" id="m-dollar">--</div>
-        </div>
-        <div class="metric-box">
-          <div class="m-label">RIESGO SISTÉMICO</div>
-          <div class="m-value" id="m-risk">--</div>
-        </div>
-        <div class="metric-box">
-          <div class="m-label">FLUJO LOGÍSTICO</div>
-          <div class="m-value" id="m-flow">--</div>
-        </div>
-        <div class="metric-box">
-          <div class="m-label">SOBERANÍA PERIFÉRICA</div>
-          <div class="m-value" id="m-sov">--</div>
-        </div>
+      <div class="metrics-grid" style="margin-top: 20px;">
+        <div class="metric-box"><div class="m-label">HEGEMONÍA DÓLAR</div><div class="m-value" id="m-dollar">--</div></div>
+        <div class="metric-box"><div class="m-label">RIESGO SISTÉMICO</div><div class="m-value" id="m-risk">--</div></div>
       </div>
     </div>
   </div>
 </div>
 
-<div id="ticker">
-  <div class="ticker-wrap" id="ticker-text">CARGANDO PROYECCIONES...</div>
-</div>
+<div id="ticker"><div class="ticker-wrap" id="ticker-text"></div></div>
 
 <script>
 const map = L.map('map', {zoomControl: false, attributionControl: false}).setView([20, 10], 2);
@@ -147,90 +122,92 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png'
 let currentLayers = [];
 function clearMap() { currentLayers.forEach(l => map.removeLayer(l)); currentLayers = []; }
 
-function createNode(color, symbol) {
-  return L.divIcon({ className: '', html: `<div class="pulse-node" style="background:${color};width:24px;height:24px;color:#000;">${symbol}</div>`, iconSize: [24,24] });
-}
+// Coordenadas aproximadas para dibujar los bloques (Polígonos Geopolíticos)
+const polyUSA_EU = [[75,-170],[20,-130],[15,-60],[75,-30],[75,40],[35,35],[35,-10]];
+const polyEurasia = [[75,40],[75,150],[15,130],[15,40]];
+const polyConoSur = [[-15,-80],[-15,-40],[-55,-40],[-55,-80]];
+const polyMidEast = [[35,35],[35,60],[12,60],[12,35]];
 
 const DATA = {
   'A': {
     title: 'EL BLINDAJE', color: 'var(--blue)',
-    metrics: { dollar: '85.0%', risk: 'MEDIO', flow: 'RESTRINGIDO', sov: 'NULA (0%)' },
-    ticker: "PROYECCIÓN: OCCIDENTE FORTIFICA RED SWIFT ◆ SANCIONES SECUNDARIAS A NACIONES NO ALINEADAS ◆ POLARIZACIÓN EXTREMA DEL COMERCIO GLOBAL",
-    desc: `<b>El costo es la soberanía.</b> El mundo se divide en macro-bloques herméticos. Occidente fortifica el SWIFT y la OTAN, obligando a las naciones periféricas a elegir un bando. Para acceder a los mercados centrales, los países deben ceder autonomía estratégica total.`,
+    metrics: { dollar: '85.0%', risk: 'SISTEMÁTICO' },
+    ticker: "SANCIONES: $300.000M CONGELADOS A RUSIA ◆ VENEZUELA PIERDE $4.500M EN ORO ◆ AFGANISTÁN SANCIONADO ◆ SWIFT COMO HERRAMIENTA DISCIPLINARIA",
+    desc: `<b>El costo es la soberanía.</b> El sistema financiero (SWIFT) deja de ser un bien público global para convertirse en una herramienta punitiva. El viejo orden prioriza la disciplina sobre la expansión.`,
+    bullets: [
+      `<strong>La Armafización:</strong> Congelamientos masivos de reservas de bancos centrales rivales fuerzan a los no-alineados a elegir entre sumisión financiera o expulsión.`,
+      `<strong>La Paradoja de Seguridad:</strong> Al usar el dólar como arma, se destruye la principal virtud del sistema de Yeda: la previsibilidad absoluta.`
+    ],
     render: () => {
-      // Bloque SWIFT (Azul) - Atlántico Norte
-      const l1 = L.polyline([[39,-77],[51,0],[52,13]], {color: '#0088ff', weight: 4, dashArray: '5, 10'}).addTo(map);
-      const m1 = L.marker([39,-77], {icon: createNode('#0088ff','$')}).bindPopup("<b>Núcleo SWIFT</b><br>Acceso condicionado al alineamiento político.").addTo(map);
-      
-      // Bloque CIPS (Rojo) - Eurasia
-      const l2 = L.polyline([[39,116],[55,37],[20,77]], {color: '#ff3333', weight: 4, dashArray: '5, 10'}).addTo(map);
-      const m2 = L.marker([39,116], {icon: createNode('#ff3333','¥')}).bindPopup("<b>Núcleo CIPS / mBridge</b><br>Aislamiento logístico y financiero.").addTo(map);
-      
-      // Muro de contención
-      const muro = L.polyline([[70,30],[-50,30]], {color: '#fff', weight: 1, opacity:0.3, dashArray: '2, 4'}).addTo(map);
-      currentLayers.push(l1, m1, l2, m2, muro);
+      currentLayers.push(L.polygon(polyUSA_EU, {color: '#0088ff', fillColor: '#0088ff', fillOpacity: 0.2, weight: 2}).bindPopup("<b>Núcleo SWIFT / OTAN</b><br>Bloque blindado. Acceso exclusivo bajo condicionamiento geopolítico.").addTo(map));
+      currentLayers.push(L.circleMarker([55,37], {color: '#ff3333'}).bindPopup("<b>Banco Central Ruso</b><br>$300.000 Millones congelados.").addTo(map));
+      currentLayers.push(L.circleMarker([10,-66], {color: '#ffaa00'}).bindPopup("<b>Venezuela</b><br>$4.500 Millones en oro retenidos.").addTo(map));
     }
   },
   'B': {
     title: 'LA FRACTURA', color: 'var(--amber)',
-    metrics: { dollar: '45.5%', risk: 'ALTO', flow: 'VOLÁTIL', sov: 'FRICCIONAL' },
-    ticker: "PROYECCIÓN: SISTEMAS PARALELOS EN COMPETENCIA ◆ ARGENTINA NAVEGA EXPORTACIONES EN SWIFT E IMPORTACIONES EN YUAN ◆ ALTO COSTO TRANSACCIONAL",
-    desc: `<b>El costo es la incertidumbre.</b> Coexistencia caótica de sistemas. Operan simultáneamente el petrodólar y alternativas como mBridge. Los estados pivotales del Sur Global (ej. Argentina) navegan entre ambos sistemas asumiendo enormes costos transaccionales.`,
+    metrics: { dollar: '45.5%', risk: 'VOLÁTIL' },
+    ticker: "FRACTURA OCCIDENTAL: PISTORIUS, SÁNCHEZ, MELONI Y STARMER RECHAZAN CAMPAÑA EN EL GOLFO ◆ MBRIDGE Y CIPS ACELERAN DESDOLARIZACIÓN",
+    desc: `<b>El costo es la incertidumbre.</b> Occidente pierde cohesión interna mientras Eurasia levanta tuberías financieras paralelas. La soledad estratégica de Washington se hace evidente.`,
+    bullets: [
+      `<strong>La Deserción Aliada:</strong> Alemania (Pistorius), España (Sánchez), Italia (Meloni) y Reino Unido (Starmer) se niegan a comprometer fragatas en una guerra de atrición en el Golfo.`,
+      `<strong>Arquitectura Paralela:</strong> Consolidación táctica de <em>mBridge</em> y el <em>CIPS</em> chino como vías de escape a las sanciones, obligando a naciones intermedias a costosos arbitrajes multidivisa.`
+    ],
     render: () => {
-      // Red Multipolo
-      const nodes = [[39,116,'#ff3333','¥'], [55,37,'#ff3333','₽'], [24,46,'#ffaa00','♦'], [-34,-58,'#00ff88','⛙']];
-      nodes.forEach(n => {
-        const m = L.marker([n[0],n[1]], {icon: createNode(n[2], n[3])}).addTo(map);
-        currentLayers.push(m);
-      });
-      // Líneas cruzadas
-      const l1 = L.polyline([[39,116],[-34,-58],[24,46]], {color: '#ffaa00', weight: 2, dashArray: '4, 8'}).addTo(map);
-      currentLayers.push(l1);
-      
-      const arg = L.circleMarker([-34,-58], {color: '#00ff88', radius: 25, fillOpacity:0.1}).bindPopup("<b>Nación Pivotal (Cono Sur)</b><br>Doble exposición: agro a Occidente, financiamiento a Oriente.").addTo(map);
-      currentLayers.push(arg);
+      currentLayers.push(L.polygon(polyEurasia, {color: '#ffaa00', fillColor: '#ffaa00', fillOpacity: 0.2, weight: 2}).bindPopup("<b>Bloque Eurasia / BRICS+</b><br>Ecosistema de compensación alternativa.").addTo(map));
+      // Línea de fractura atlántica
+      currentLayers.push(L.polyline([[39,-77],[50,10]], {color: '#ff3333', weight: 3, dashArray: '5, 10'}).bindPopup("<b>Fractura Transatlántica</b><br>Negativa europea a intervenir en el Golfo.").addTo(map));
     }
   },
   'C': {
     title: 'EL ABISMO', color: 'var(--red)',
-    metrics: { dollar: 'IRRELEVANTE', risk: 'CRÍTICO', flow: '-68.0%', sov: 'AUTÁRQUICA' },
-    ticker: "PROYECCIÓN: COLAPSO DEL SISTEMA YEDA ◆ PARÁLISIS DE CHOKEPOINTS ◆ REGIONALIZACIÓN EXTREMA ◆ SUPERVIVENCIA BASADA EN RESILIENCIA CALÓRICA",
-    desc: `<b>El costo es la supervivencia.</b> Colapso total por arma financiera. La exclusión mutua destruye las cadenas logísticas. El comercio transoceánico se paraliza. Se salvan únicamente las macrorregiones productoras de alimentos y energía (como el Cono Sur).`,
+    metrics: { dollar: 'FALLIDO', risk: 'CRÍTICO' },
+    ticker: "IRÁN CONDICIONA EL ESTRECHO: SOLO PASAN BUQUES CON LIQUIDACIÓN EN YUANES ◆ GUERRA ASIMÉTRICA DESTRUYE CADENAS LOGÍSTICAS TRANSOCEÁNICAS",
+    desc: `<b>El costo es la supervivencia.</b> El conflicto no se resuelve en una cumbre diplomática, sino en un estrecho minado. La exigencia de divisas hostiles para el tránsito seguro colapsa el comercio físico.`,
+    bullets: [
+      `<strong>El Ultimátum de Ormuz:</strong> Irán reabre el estrecho bajo una condición letal para el sistema de Yeda: peaje y liquidación exclusiva en yuanes.`,
+      `<strong>Atrición Naval:</strong> Bombardeo asimétrico continuo que imposibilita la viabilidad comercial de las rutas, arrastrando al mundo a una regionalización forzada.`
+    ],
     render: () => {
-      // Chokepoints caídos
-      const chokes = [[26,56,'Ormuz'], [27,34,'Suez'], [1,103,'Malaca']];
-      chokes.forEach(c => {
-        const m = L.marker([c[0],c[1]], {icon: createNode('#ff3333','✕')}).bindPopup(`<b>${c[2]} CERRADO</b><br>Atrición letal por ruptura jurídica.`).addTo(map);
-        currentLayers.push(m);
-      });
-      
-      // Zonas de Resiliencia (Cono Sur brilla en verde)
-      const latam = L.polygon([[-22,-68],[-55,-68],[-35,-50]], {color: '#00ff88', fillColor: '#00ff88', fillOpacity: 0.15}).bindPopup("<b>Zona de Resiliencia Base</b><br>Autonomía calórica y energética.").addTo(map);
-      currentLayers.push(latam);
+      currentLayers.push(L.polygon(polyMidEast, {color: '#ff3333', fillColor: '#ff3333', fillOpacity: 0.3, weight: 2}).bindPopup("<b>Zona de Atrición Máxima</b>").addTo(map));
+      currentLayers.push(L.circleMarker([26,56], {color: '#fff', radius: 10, weight:3}).bindPopup("<b>Estrecho de Ormuz</b><br>Ultimátum: Exigencia de Yuanes para tránsito seguro.").addTo(map));
+    }
+  },
+  'D': {
+    title: 'LA SUPERPOSICIÓN', color: 'var(--purple)',
+    metrics: { dollar: 'FRAGMENTADO', risk: 'REALPOLITIK' },
+    ticker: "LA SUPERVIVENCIA NACIONAL EN EL ORDEN MULTIPOLAR ◆ ZONAS DE SACRIFICIO VS. NACIONES PIVOTALES ◆ RESILIENCIA ALIMENTARIA DEL CONO SUR",
+    desc: `<b>La cartografía real del poder.</b> Los escenarios no son destinos globales absolutos; coexisten territorialmente. El sistema no colapsa uniformemente, sino que se fragmenta según las capacidades de cada bloque.`,
+    bullets: [
+      `<strong>Segmentación Geográfica:</strong> El Norte Global se repliega en el <em>Blindaje</em>, Medio Oriente arde en el <em>Abismo</em>, y el Sur Global opera forzadamente en la <em>Fractura</em>.`,
+      `<strong>El Imperativo Nacional:</strong> Para Argentina, el idealismo es inviable. La resiliencia requiere administrar la doble dependencia técnica (SWIFT) y financiera (Yuan), anclados en la capacidad inelástica de producir alimentos y energía.`
+    ],
+    render: () => {
+      // Dibuja todos los polígonos simultáneamente para mostrar la superposición
+      currentLayers.push(L.polygon(polyUSA_EU, {color: '#0088ff', fillColor: '#0088ff', fillOpacity: 0.15, weight: 1}).addTo(map));
+      currentLayers.push(L.polygon(polyEurasia, {color: '#ffaa00', fillColor: '#ffaa00', fillOpacity: 0.15, weight: 1}).addTo(map));
+      currentLayers.push(L.polygon(polyMidEast, {color: '#ff3333', fillColor: '#ff3333', fillOpacity: 0.3, weight: 2}).addTo(map));
+      // Destaca Argentina / Cono Sur
+      currentLayers.push(L.polygon(polyConoSur, {color: '#aa66ff', fillColor: '#aa66ff', fillOpacity: 0.4, weight: 3}).bindPopup("<b>La Nación Pivotal</b><br>Imperativo de resiliencia frente a la superposición de sistemas.").addTo(map));
     }
   }
 };
 
 function loadScenario(id) {
-  // Limpiar UI
-  document.querySelectorAll('.btn-scen').forEach(b => { b.className = 'btn-scen'; b.querySelector('span:last-child').textContent = ''; });
-  const btn = document.getElementById('btn-'+id);
-  btn.classList.add('active-'+id);
-  btn.querySelector('span:last-child').textContent = '◄';
+  document.querySelectorAll('.btn-scen').forEach(b => b.className = 'btn-scen');
+  document.getElementById('btn-'+id).classList.add('active-'+id);
 
   const d = DATA[id];
   document.getElementById('s-title').textContent = d.title;
   document.getElementById('s-title').style.color = d.color;
   document.getElementById('s-desc').innerHTML = d.desc;
   
-  // Actualizar Métricas
+  document.getElementById('s-bullets').innerHTML = d.bullets.map(b => `<div class="s-bullet">${b}</div>`).join('');
+  
   document.getElementById('m-dollar').textContent = d.metrics.dollar;
   document.getElementById('m-dollar').style.color = d.color;
   document.getElementById('m-risk').textContent = d.metrics.risk;
-  document.getElementById('m-flow').textContent = d.metrics.flow;
-  document.getElementById('m-sov').textContent = d.metrics.sov;
   
-  // Actualizar Ticker
   document.getElementById('ticker-text').textContent = d.ticker + "   ◆   " + d.ticker;
 
   clearMap();
