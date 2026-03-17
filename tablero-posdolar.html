@@ -166,6 +166,7 @@ function addConnection(idA, idB, opts){
   linesByCountry[idA] = linesByCountry[idA] || [];
   linesByCountry[idB] = linesByCountry[idB] || [];
   linesByCountry[idA].push(l); linesByCountry[idB].push(l);
+  return l;
 }
 
 // --- Bloques geopolíticos base
