@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-18T09:51:04.158470+00:00",
+  "updated_at": "2026-03-18T10:49:30.580104+00:00",
   "market": {
-    "brent_usd": 103.16,
+    "brent_usd": 103.6,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 90.5,
-    "vix": 21.66,
+    "ormuz_flow_pct": 90.7,
+    "vix": 21.58,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.1
   },
@@ -39,21 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "18 MAR 2026 · 02:22 UTC",
-      "headline": "IRAN ALLOWING MORE SHIPS THROUGH STRAIT OF HORMUZ, DATA SUGGEST",
-      "detail": "Number of ships transiting Strait of Hormuz has nearly doubled in recent days, maritime intelligence company says.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "17 MAR 2026 · 22:14 UTC",
       "headline": "WHAT THE HORMUZ CRISIS REVEALS ABOUT AMERICAN ALLIANCES",
       "detail": "Trump’s appeal for foreign help in the Hormuz crisis highlights a deeper shift in global politics and the fading myth of US leadership Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "17 MAR 2026 · 21:12 UTC",
+      "headline": "‘THEY WILL DO NOTHING FOR US’ – TRUMP ON NATO",
+      "detail": "The US does not need any help from NATO, Donald Trump has said, blasting the bloc’s reluctance to send ships to the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.16 (+0.00%)",
-    "VIX: 21.66",
+    "BRENT: $103.6 (+0.00%)",
+    "VIX: 21.58",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
