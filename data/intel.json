@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-18T20:32:42.008952+00:00",
+  "updated_at": "2026-03-18T21:34:41.200166+00:00",
   "market": {
-    "brent_usd": 105.91,
+    "brent_usd": 106.17,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 83.1,
+    "ormuz_flow_pct": 82.9,
     "vix": 25.09,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.3
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "18 MAR 2026 · 20:24 UTC",
+      "timestamp": "18 MAR 2026 · 21:25 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
       "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "18 MAR 2026 · 18:42 UTC",
-      "headline": "EE.UU. FLEXIBILIZA LAS SANCIONES AL PETRÓLEO DE VENEZUELA PARA FRENAR LA ESCALAD",
-      "detail": "Washington autorizó a empresas a operar con Pdvsa bajo control financiero estadounidense; busca aumentar la oferta global tras el cierre de Ormuz y contener la suba de precios",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "18 MAR 2026 · 14:58 UTC",
       "headline": "IRAN THREATENS TO STRIKE GULF ENERGY FACILITIES AFTER SOUTH PARS ATTACK",
       "detail": "Qatar foreign ministry spokesman slams Israeli attack on Iran's offshore gasfield as 'dangerous, irresponsible step'.",
@@ -49,10 +43,16 @@
       "headline": "ISRAEL MATA AL MINISTRO DE INTELIGENCIA IRANÍ EN UN NUEVO GOLPE A LA CÚPULA DEL ",
       "detail": "Teherán mantiene el pulso militar, con misiles contra Israel, el Golfo y bases de EE UU",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 12:49 UTC",
+      "headline": "ALERTA EN EL MEDITERRÁNEO POR UN BARCO RUSO A LA DERIVA TRAS SER DAÑADO EN UN AT",
+      "detail": "Nueve países de la UE advierten del riesgo ecológico del buque de la ‘flota fantasma’ de Rusia y reclaman más medidas contra este tipo de cargueros clandestinos",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.91 (+0.00%)",
+    "BRENT: $106.17 (+0.00%)",
     "VIX: 25.09",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
