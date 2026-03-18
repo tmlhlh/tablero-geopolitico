@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-18T13:04:21.873005+00:00",
+  "updated_at": "2026-03-18T15:00:10.083897+00:00",
   "market": {
-    "brent_usd": 107.89,
+    "brent_usd": 109.86,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 85.8,
-    "vix": 23.77,
+    "vix": 23.79,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.9
   },
@@ -15,16 +15,28 @@
   },
   "events": [
     {
+      "timestamp": "18 MAR 2026 · 14:46 UTC",
+      "headline": "IRÁN AMENAZA CON “GOLPEAR SERIAMENTE” INSTALACIONES PETROLERAS EN EL GOLFO PÉRSI",
+      "detail": "Se emitió una alerta de evacuación dirigida a refinerías y complejos petroquímicos en Arabia Saudita, Emiratos Árabes Unidos y Qatar",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 14:44 UTC",
+      "headline": "ISRAEL MATA AL MINISTRO DE INTELIGENCIA IRANÍ Y BOMBARDEA CON EE UU EL MAYOR CAM",
+      "detail": "Teherán mantiene el pulso militar, con misiles contra Israel, el Golfo y bases de EE UU",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 14:17 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "18 MAR 2026 · 12:49 UTC",
       "headline": "ALERTA EN EL MEDITERRÁNEO POR UN BARCO RUSO A LA DERIVA TRAS SER DAÑADO EN UN AT",
       "detail": "Nueve países de la UE advierten del riesgo ecológico del buque de la ‘flota fantasma’ de Rusia y reclaman más medidas contra este tipo de cargueros clandestinos",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 12:43 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
-      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
-      "severity": "INFO"
     },
     {
       "timestamp": "18 MAR 2026 · 11:17 UTC",
@@ -37,23 +49,11 @@
       "headline": "IRÁN MANTIENE LA AMENAZA EN EL ESTRECHO DE ORMUZ PESE A ABRIR EL PASO A ALGUNOS ",
       "detail": "Petroleros con destinos a los mercados asiáticos y mercantes griegos y chinos han cruzado el estratégico estrecho en la última semana, pese al peligro de los ataques. Si no cesan la ofensiva, Teherán ",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 04:30 UTC",
-      "headline": "LOS PAÍSES DEL GOLFO DETIENEN A CIENTOS DE PERSONAS POR PUBLICACIONES SOBRE LOS ",
-      "detail": "La campaña de arrestos en los estados árabes de la región, que incluye a decenas de extranjeros, se produce en medio de esfuerzos por contener la crisis y su impacto reputacional",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 22:14 UTC",
-      "headline": "WHAT THE HORMUZ CRISIS REVEALS ABOUT AMERICAN ALLIANCES",
-      "detail": "Trump’s appeal for foreign help in the Hormuz crisis highlights a deeper shift in global politics and the fading myth of US leadership Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.89 (+0.00%)",
-    "VIX: 23.77",
+    "BRENT: $109.86 (+0.00%)",
+    "VIX: 23.79",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
