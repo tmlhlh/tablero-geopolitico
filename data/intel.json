@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-03-18T11:43:02.698861+00:00",
+  "updated_at": "2026-03-18T13:04:21.873005+00:00",
   "market": {
-    "brent_usd": 104.63,
+    "brent_usd": 107.89,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 89.7,
-    "vix": 22.01,
+    "ormuz_flow_pct": 85.8,
+    "vix": 23.77,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.3
+    "insurance_spread_pct": 3.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "18 MAR 2026 · 11:17 UTC",
-      "headline": "HOW IRAN DEFIED TRUMP THREATS TO EMERGE AS STRAIT OF HORMUZ GATEKEEPER",
-      "detail": "Trump has called on other navies to help open the strait, but countries are instead striking deals with Iran.",
+      "timestamp": "18 MAR 2026 · 12:49 UTC",
+      "headline": "ALERTA EN EL MEDITERRÁNEO POR UN BARCO RUSO A LA DERIVA TRAS SER DAÑADO EN UN AT",
+      "detail": "Nueve países de la UE advierten del riesgo ecológico del buque de la ‘flota fantasma’ de Rusia y reclaman más medidas contra este tipo de cargueros clandestinos",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 12:43 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
     },
     {
-      "timestamp": "18 MAR 2026 · 05:52 UTC",
-      "headline": "IRAN FIRES MISSILES, DRONES ACROSS GULF, REGION REMAINS IN WAR CROSSHAIRS",
-      "detail": "Qatar, UAE, Kuwait and Saudi Arabia report new blasts, interceptions, with war edging to 3-week mark.",
+      "timestamp": "18 MAR 2026 · 11:17 UTC",
+      "headline": "HOW IRAN DEFIED TRUMP THREATS TO EMERGE AS STRAIT OF HORMUZ GATEKEEPER",
+      "detail": "Trump has called on other navies to help open the strait, but countries are instead striking deals with Iran.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "WHAT THE HORMUZ CRISIS REVEALS ABOUT AMERICAN ALLIANCES",
       "detail": "Trump’s appeal for foreign help in the Hormuz crisis highlights a deeper shift in global politics and the fading myth of US leadership Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 21:12 UTC",
-      "headline": "‘THEY WILL DO NOTHING FOR US’ – TRUMP ON NATO",
-      "detail": "The US does not need any help from NATO, Donald Trump has said, blasting the bloc’s reluctance to send ships to the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.63 (+0.00%)",
-    "VIX: 22.01",
+    "BRENT: $107.89 (+0.00%)",
+    "VIX: 23.77",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
