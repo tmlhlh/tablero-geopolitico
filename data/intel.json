@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-18T04:25:09.743875+00:00",
+  "updated_at": "2026-03-18T06:00:44.007394+00:00",
   "market": {
-    "brent_usd": 101.04,
+    "brent_usd": 100.99,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,24 @@
   },
   "events": [
     {
+      "timestamp": "18 MAR 2026 · 04:43 UTC",
+      "headline": "TRUMP CONFIRMS MEETING WITH CHINA’S XI JINPING DELAYED AS WAR ON IRAN RAGES",
+      "detail": "US President Donald Trump delays his trip to Beijing while also seeking China's help to reopen the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 04:30 UTC",
+      "headline": "IRÁN MANTIENE LA AMENAZA EN EL ESTRECHO DE ORMUZ PESE A ABRIR EL PASO A ALGUNOS ",
+      "detail": "Petroleros con destinos a los mercados asiáticos y mercantes griegos y chinos han cruzado el estratégico estrecho en la última semana, pese al peligro de los ataques. Si no cesan la ofensiva, Teherán ",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 04:30 UTC",
+      "headline": "LOS PAÍSES DEL GOLFO DETIENEN A CIENTOS DE PERSONAS POR PUBLICACIONES SOBRE LOS ",
+      "detail": "La campaña de arrestos en los estados árabes de la región, que incluye a decenas de extranjeros, se produce en medio de esfuerzos por contener la crisis y su impacto reputacional",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "18 MAR 2026 · 02:22 UTC",
       "headline": "IRAN ALLOWING MORE SHIPS THROUGH STRAIT OF HORMUZ, DATA SUGGEST",
       "detail": "Number of ships transiting Strait of Hormuz has nearly doubled in recent days, maritime intelligence company says.",
@@ -22,7 +40,7 @@
     },
     {
       "timestamp": "18 MAR 2026 · 01:58 UTC",
-      "headline": "OVER 200 UKRAINIAN MILITARY EXPERTS IN GULF REGION TO COUNTER IRAN’S DRONES",
+      "headline": "UKRAINE SENDS 201 MILITARY EXPERTS TO COUNTER IRANIAN DRONES IN THE GULF",
       "detail": "Ukraine President Zelenskyy says Moscow, Tehran 'brothers in hatred'; claims Iran's drones 'contain Russian components'.",
       "severity": "INFO"
     },
@@ -31,28 +49,10 @@
       "headline": "WHAT THE HORMUZ CRISIS REVEALS ABOUT AMERICAN ALLIANCES",
       "detail": "Trump’s appeal for foreign help in the Hormuz crisis highlights a deeper shift in global politics and the fading myth of US leadership Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 21:17 UTC",
-      "headline": "TRUMP SAYS US DOES NOT ‘NEED’ STRAIT OF HORMUZ HELP, DESPITE APPEAL",
-      "detail": "US president strikes defiant tone as allies reject joining coalition, does not name countries he says 'on their way'.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 21:12 UTC",
-      "headline": "‘THEY WILL DO NOTHING FOR US’ – TRUMP ON NATO",
-      "detail": "The US no longer needs any aid from NATO, Donald Trump has said, blasting the bloc’s reluctance to send ships to the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 16:35 UTC",
-      "headline": "WHAT HAVE US ALLIES AND CHINA SAID ABOUT SENDING SHIPS TO THE STRAIT OF HORMUZ?",
-      "detail": "US allies have either pushed back or remained cautious on Trump's initial request to send ships to the crucial oil route.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.04 (+0.00%)",
+    "BRENT: $100.99 (+0.00%)",
     "VIX: 22.37",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
