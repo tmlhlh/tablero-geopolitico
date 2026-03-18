@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-17T23:29:24.277980+00:00",
+  "updated_at": "2026-03-18T01:56:34.596270+00:00",
   "market": {
-    "brent_usd": 103.42,
+    "brent_usd": 102.71,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 88.4,
+    "ormuz_flow_pct": 88.6,
     "vix": 22.37,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.4
@@ -39,20 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "17 MAR 2026 · 18:10 UTC",
-      "headline": "US CONFIRMS 157 KILLED IN MARITIME STRIKES EXPERTS CALL ‘EXTRAJUDICIAL’",
-      "detail": "Defence official tells Congress that 47 alleged drug-trafficking vessels have been struck since campaign began.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "17 MAR 2026 · 16:35 UTC",
       "headline": "WHAT HAVE US ALLIES AND CHINA SAID ABOUT SENDING SHIPS TO THE STRAIT OF HORMUZ?",
       "detail": "US allies have either pushed back or remained cautious on Trump's initial request to send ships to the crucial oil route.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "17 MAR 2026 · 13:28 UTC",
+      "headline": "THE STRAIT OF HORMUZ CRISIS: WHY THE US MAY BE HEADING TOWARD A STRATEGIC DISAST",
+      "detail": "US forces could capture a key Iranian island, but this would lead to a whole host of new problems Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.42 (+0.00%)",
+    "BRENT: $102.71 (+0.00%)",
     "VIX: 22.37",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
