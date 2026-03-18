@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-03-18T10:49:30.580104+00:00",
+  "updated_at": "2026-03-18T11:43:02.698861+00:00",
   "market": {
-    "brent_usd": 103.6,
+    "brent_usd": 104.63,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 90.7,
-    "vix": 21.58,
+    "ormuz_flow_pct": 89.7,
+    "vix": 22.01,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.1
+    "insurance_spread_pct": 3.3
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "18 MAR 2026 · 05:52 UTC",
-      "headline": "IRAN FIRES MISSILES, DRONES ACROSS GULF, REGION REMAINS IN WAR CROSSHAIRS",
-      "detail": "Qatar, UAE, Kuwait and Saudi Arabia report new blasts, interceptions, with war edging to 3-week mark.",
+      "timestamp": "18 MAR 2026 · 11:17 UTC",
+      "headline": "HOW IRAN DEFIED TRUMP THREATS TO EMERGE AS STRAIT OF HORMUZ GATEKEEPER",
+      "detail": "Trump has called on other navies to help open the strait, but countries are instead striking deals with Iran.",
       "severity": "INFO"
     },
     {
-      "timestamp": "18 MAR 2026 · 04:43 UTC",
-      "headline": "TRUMP CONFIRMS MEETING WITH CHINA’S XI JINPING DELAYED AS WAR ON IRAN RAGES",
-      "detail": "US President Donald Trump delays his trip to Beijing while also seeking China's help to reopen the Strait of Hormuz.",
+      "timestamp": "18 MAR 2026 · 05:52 UTC",
+      "headline": "IRAN FIRES MISSILES, DRONES ACROSS GULF, REGION REMAINS IN WAR CROSSHAIRS",
+      "detail": "Qatar, UAE, Kuwait and Saudi Arabia report new blasts, interceptions, with war edging to 3-week mark.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $103.6 (+0.00%)",
-    "VIX: 21.58",
+    "BRENT: $104.63 (+0.00%)",
+    "VIX: 22.01",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
