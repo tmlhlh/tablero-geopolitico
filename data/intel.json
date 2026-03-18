@@ -1,27 +1,21 @@
 {
-  "updated_at": "2026-03-18T16:13:48.176343+00:00",
+  "updated_at": "2026-03-18T17:58:48.336781+00:00",
   "market": {
-    "brent_usd": 103.86,
+    "brent_usd": 102.4,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 87.0,
-    "vix": 23.24,
+    "ormuz_flow_pct": 86.3,
+    "vix": 23.6,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.7
+    "insurance_spread_pct": 3.8
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "18 MAR 2026 · 15:57 UTC",
-      "headline": "UN ATAQUE ISRAELÍ EN EL MAYOR YACIMIENTO DE GAS DEL MUNDO PONE EN ALERTA A TODO ",
-      "detail": "Teherán emitió una alerta de evacuación dirigida a refinerías y complejos petroquímicos en Arabia Saudita, Emiratos Árabes Unidos y Qatar",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 15:05 UTC",
+      "timestamp": "18 MAR 2026 · 16:25 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
       "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
@@ -34,7 +28,7 @@
     },
     {
       "timestamp": "18 MAR 2026 · 14:44 UTC",
-      "headline": "ISRAEL MATA AL MINISTRO DE INTELIGENCIA IRANÍ ",
+      "headline": "ISRAEL MATA AL MINISTRO DE INTELIGENCIA IRANÍ EN UN NUEVO GOLPE A LA CÚPULA DEL ",
       "detail": "Teherán mantiene el pulso militar, con misiles contra Israel, el Golfo y bases de EE UU",
       "severity": "INFO"
     },
@@ -45,15 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "18 MAR 2026 · 11:17 UTC",
-      "headline": "HOW IRAN DEFIED TRUMP THREATS TO EMERGE AS STRAIT OF HORMUZ GATEKEEPER",
-      "detail": "Trump has called on other navies to help open the strait, but countries are instead striking deals with Iran.",
-      "severity": "INFO"
+      "timestamp": "18 MAR 2026 · 04:30 UTC",
+      "headline": "IRÁN MANTIENE LA AMENAZA EN EL ESTRECHO DE ORMUZ PESE A ABRIR EL PASO A ALGUNOS ",
+      "detail": "Petroleros con destinos a los mercados asiáticos y mercantes griegos y chinos han cruzado el estratégico estrecho en la última semana, pese al peligro de los ataques. Si no cesan la ofensiva, Teherán ",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 04:30 UTC",
+      "headline": "LOS PAÍSES DEL GOLFO DETIENEN A CIENTOS DE PERSONAS POR PUBLICACIONES SOBRE LOS ",
+      "detail": "La campaña de arrestos en los estados árabes de la región, que incluye a decenas de extranjeros, se produce en medio de esfuerzos por contener la crisis y su impacto reputacional",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.86 (+0.00%)",
-    "VIX: 23.24",
+    "BRENT: $102.4 (+0.00%)",
+    "VIX: 23.6",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
