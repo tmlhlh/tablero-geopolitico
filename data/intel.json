@@ -1,35 +1,41 @@
 {
-  "updated_at": "2026-03-18T15:00:10.083897+00:00",
+  "updated_at": "2026-03-18T16:13:48.176343+00:00",
   "market": {
-    "brent_usd": 109.86,
+    "brent_usd": 103.86,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.8,
-    "vix": 23.79,
+    "ormuz_flow_pct": 87.0,
+    "vix": 23.24,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.9
+    "insurance_spread_pct": 3.7
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "18 MAR 2026 · 14:46 UTC",
-      "headline": "IRÁN AMENAZA CON “GOLPEAR SERIAMENTE” INSTALACIONES PETROLERAS EN EL GOLFO PÉRSI",
-      "detail": "Se emitió una alerta de evacuación dirigida a refinerías y complejos petroquímicos en Arabia Saudita, Emiratos Árabes Unidos y Qatar",
+      "timestamp": "18 MAR 2026 · 15:57 UTC",
+      "headline": "UN ATAQUE ISRAELÍ EN EL MAYOR YACIMIENTO DE GAS DEL MUNDO PONE EN ALERTA A TODO ",
+      "detail": "Teherán emitió una alerta de evacuación dirigida a refinerías y complejos petroquímicos en Arabia Saudita, Emiratos Árabes Unidos y Qatar",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 15:05 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 14:58 UTC",
+      "headline": "IRAN THREATENS TO STRIKE GULF ENERGY FACILITIES AFTER SOUTH PARS ATTACK",
+      "detail": "Qatar foreign ministry spokesman slams Israeli attack on Iran's offshore gasfield as 'dangerous, irresponsible step'.",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "18 MAR 2026 · 14:44 UTC",
-      "headline": "ISRAEL MATA AL MINISTRO DE INTELIGENCIA IRANÍ Y BOMBARDEA CON EE UU EL MAYOR CAM",
+      "headline": "ISRAEL MATA AL MINISTRO DE INTELIGENCIA IRANÍ ",
       "detail": "Teherán mantiene el pulso militar, con misiles contra Israel, el Golfo y bases de EE UU",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 14:17 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
-      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "HOW IRAN DEFIED TRUMP THREATS TO EMERGE AS STRAIT OF HORMUZ GATEKEEPER",
       "detail": "Trump has called on other navies to help open the strait, but countries are instead striking deals with Iran.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 04:30 UTC",
-      "headline": "IRÁN MANTIENE LA AMENAZA EN EL ESTRECHO DE ORMUZ PESE A ABRIR EL PASO A ALGUNOS ",
-      "detail": "Petroleros con destinos a los mercados asiáticos y mercantes griegos y chinos han cruzado el estratégico estrecho en la última semana, pese al peligro de los ataques. Si no cesan la ofensiva, Teherán ",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.86 (+0.00%)",
-    "VIX: 23.79",
+    "BRENT: $103.86 (+0.00%)",
+    "VIX: 23.24",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
