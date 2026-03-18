@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-18T21:34:41.200166+00:00",
+  "updated_at": "2026-03-18T22:29:10.179344+00:00",
   "market": {
-    "brent_usd": 106.17,
+    "brent_usd": 105.48,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "18 MAR 2026 · 21:25 UTC",
+      "timestamp": "18 MAR 2026 · 21:49 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
       "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
@@ -25,12 +25,6 @@
       "headline": "UN ATAQUE EN IRÁN AL MAYOR YACIMIENTO DE GAS DEL MUNDO INTENSIFICA LA GUERRA Y S",
       "detail": "Teherán lanza su represalia contra instalaciones de hidrocarburos del Golfo. La prensa israelí atribuye el bombardeo a su país, coordinado con EE UU",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 19:20 UTC",
-      "headline": "ZELENSKY REDOBLA SU OFENSIVA DIPLOMÁTICA PARA QUE UCRANIA NO QUEDE ECLIPSADA POR",
-      "detail": "Kiev despliega especialistas para combatir drones iraníes y alerta por la posible escasez de armas clave ante el desvío de recursos hacia el Golfo",
-      "severity": "INFO"
     },
     {
       "timestamp": "18 MAR 2026 · 14:58 UTC",
@@ -49,10 +43,16 @@
       "headline": "ALERTA EN EL MEDITERRÁNEO POR UN BARCO RUSO A LA DERIVA TRAS SER DAÑADO EN UN AT",
       "detail": "Nueve países de la UE advierten del riesgo ecológico del buque de la ‘flota fantasma’ de Rusia y reclaman más medidas contra este tipo de cargueros clandestinos",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 04:30 UTC",
+      "headline": "IRÁN MANTIENE LA AMENAZA EN EL ESTRECHO DE ORMUZ PESE A ABRIR EL PASO A ALGUNOS ",
+      "detail": "Petroleros con destinos a los mercados asiáticos y mercantes griegos y chinos han cruzado el estratégico estrecho en la última semana, pese al peligro de los ataques. Si no cesan la ofensiva, Teherán ",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.17 (+0.00%)",
+    "BRENT: $105.48 (+0.00%)",
     "VIX: 25.09",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
