@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-18T22:29:10.179344+00:00",
+  "updated_at": "2026-03-18T23:28:19.844906+00:00",
   "market": {
-    "brent_usd": 105.48,
+    "brent_usd": 105.33,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "18 MAR 2026 · 21:49 UTC",
+      "timestamp": "18 MAR 2026 · 22:51 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
       "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.48 (+0.00%)",
+    "BRENT: $105.33 (+0.00%)",
     "VIX: 25.09",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
