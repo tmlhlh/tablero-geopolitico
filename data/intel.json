@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-19T21:32:48.905691+00:00",
+  "updated_at": "2026-03-19T22:25:20.726671+00:00",
   "market": {
-    "brent_usd": 103.02,
+    "brent_usd": 103.45,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "19 MAR 2026 · 22:17 UTC",
+      "headline": "EUROPA BUSCA UNA SALIDA DIPLOMÁTICA PARA DESBLOQUEAR EL ESTRECHO DE ORMUZ FRENTE",
+      "detail": "Los líderes de la UE piden que todas las partes “cumplan el derecho internacional” y reclaman una moratoria a los ataques a infraestructuras civiles y energéticas en Oriente Próximo en plena una escal",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "19 MAR 2026 · 20:06 UTC",
       "headline": "US APPROVES $16.5BN ARMS DEAL TO GULF STATES AMID RISING IRAN TENSIONS",
@@ -43,16 +49,10 @@
       "headline": "EUROPEAN NATIONS, JAPAN TO JOIN ‘APPROPRIATE EFFORTS’ TO OPEN HORMUZ STRAIT",
       "detail": "Countries are looking for ways to contain record-high prices as oil, gas crisis deepens.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 16:34 UTC",
-      "headline": "CINCO PAÍSES EUROPEOS Y JAPÓN LLAMAN A DETENER LOS ATAQUES DE IRÁN EN EL ESTRECH",
-      "detail": "Los Estados emiten una declaración, que no menciona a Estados Unidos e Israel, en la que se dicen dispuestos a contribuir con los “esfuerzos apropiados” para garantizar la navegación por la zona, aunq",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.02 (+0.00%)",
+    "BRENT: $103.45 (+0.00%)",
     "VIX: 24.06",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
