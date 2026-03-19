@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-19T04:25:49.416334+00:00",
+  "updated_at": "2026-03-19T05:56:01.624558+00:00",
   "market": {
-    "brent_usd": 106.83,
+    "brent_usd": 107.56,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 83.0,
+    "ormuz_flow_pct": 8.5,
     "vix": 25.09,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "19 MAR 2026 · 04:43 UTC",
+      "headline": "COULD OIL HIT $200 A BARREL? ANALYSTS NO LONGER THINK IT IS FAR-FETCHED",
+      "detail": "Prices are likely to rise substantially if the Strait of Hormuz remains, in effect, closed, market watchers say.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 MAR 2026 · 02:11 UTC",
       "headline": "SAUDI FM WARNS IRAN THAT PATIENCE IN GULF NOT ‘UNLIMITED’ AMID ATTACKS",
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "18 MAR 2026 · 12:49 UTC",
-      "headline": "ALERTA EN EL MEDITERRÁNEO POR UN BARCO RUSO A LA DERIVA TRAS SER DAÑADO EN UN AT",
-      "detail": "Nueve países de la UE advierten del riesgo ecológico del buque de la ‘flota fantasma’ de Rusia y reclaman más medidas contra este tipo de cargueros clandestinos",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "18 MAR 2026 · 04:30 UTC",
       "headline": "IRÁN MANTIENE LA AMENAZA EN EL ESTRECHO DE ORMUZ PESE A ABRIR EL PASO A ALGUNOS ",
       "detail": "Petroleros con destinos a los mercados asiáticos y mercantes griegos y chinos han cruzado el estratégico estrecho en la última semana, pese al peligro de los ataques. Si no cesan la ofensiva, Teherán ",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $106.83 (+0.00%)",
+    "BRENT: $107.56 (+0.00%)",
     "VIX: 25.09",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
