@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-19T07:47:35.380576+00:00",
+  "updated_at": "2026-03-19T08:38:11.850109+00:00",
   "market": {
-    "brent_usd": 108.59,
+    "brent_usd": 108.35,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.47,
+    "vix": 25.64,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.5
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "19 MAR 2026 · 07:57 UTC",
+      "headline": "WAR ENTERS NEW PHASE AS ISRAEL ATTACK ON IRAN GASFIELD SPARKS GULF RESPONSE",
+      "detail": "Saudis have warned of 'military actions, if necessary', but Gulf states in 'diplomatic bind' as they mull response.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "19 MAR 2026 · 04:43 UTC",
       "headline": "COULD OIL HIT $200 A BARREL? ANALYSTS NO LONGER THINK IT IS FAR-FETCHED",
@@ -27,33 +33,27 @@
       "severity": "CRÍTICO"
     },
     {
+      "timestamp": "19 MAR 2026 · 00:30 UTC",
+      "headline": "IRAN WAR LIVE: GULF ENERGY SITES TARGETED AFTER ISRAELI ATTACK ON GASFIELD",
+      "detail": "Several Gulf states report missile and drone attacks as Washington and Riyadh warn Iran.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAR 2026 · 22:51 UTC",
+      "headline": "UN BUQUE RUSO CARGADO DE COMBUSTIBLE NAVEGA HACIA CUBA PESE AL BLOQUEO DE ESTADO",
+      "detail": "Está previsto que el Sea Horse, con bandera de Hong Kong, llegue en cinco días. Transporta 200.000 barriles de diésel, suficientes para 10 días",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "18 MAR 2026 · 20:17 UTC",
       "headline": "UN ATAQUE EN IRÁN AL MAYOR YACIMIENTO DE GAS DEL MUNDO INTENSIFICA LA GUERRA Y S",
       "detail": "Teherán lanza su represalia contra instalaciones de hidrocarburos del Golfo. La prensa israelí atribuye el bombardeo a su país, coordinado con EE UU",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 14:44 UTC",
-      "headline": "ISRAEL MATA AL MINISTRO DE INTELIGENCIA IRANÍ EN UN NUEVO GOLPE A LA CÚPULA DEL ",
-      "detail": "Teherán mantiene el pulso militar, con misiles contra Israel, el Golfo y bases de EE UU",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 04:30 UTC",
-      "headline": "IRÁN MANTIENE LA AMENAZA EN EL ESTRECHO DE ORMUZ PESE A ABRIR EL PASO A ALGUNOS ",
-      "detail": "Petroleros con destinos a los mercados asiáticos y mercantes griegos y chinos han cruzado el estratégico estrecho en la última semana, pese al peligro de los ataques. Si no cesan la ofensiva, Teherán ",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 MAR 2026 · 22:14 UTC",
-      "headline": "WHAT THE HORMUZ CRISIS REVEALS ABOUT AMERICAN ALLIANCES",
-      "detail": "Trump’s appeal for foreign help in the Hormuz crisis highlights a deeper shift in global politics and the fading myth of US leadership Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.59 (+0.00%)",
-    "VIX: 25.47",
+    "BRENT: $108.35 (+0.00%)",
+    "VIX: 25.64",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
