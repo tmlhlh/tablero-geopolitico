@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-03-19T12:58:04.355270+00:00",
+  "updated_at": "2026-03-19T14:09:20.839442+00:00",
   "market": {
-    "brent_usd": 106.97,
+    "brent_usd": 105.6,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.72,
+    "vix": 25.92,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.9
+    "insurance_spread_pct": 4.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "19 MAR 2026 · 13:13 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "19 MAR 2026 · 11:44 UTC",
       "headline": "CONFLICT SHIFTS TO ‘ENERGY WAR’ AS IRAN TARGETS GULF OIL AND GAS",
       "detail": "Following Israel’s South Pars strike, Iran has targeted Gulf energy sites to pressure an end to the conflict.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 11:13 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
-      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
-      "severity": "INFO"
     },
     {
       "timestamp": "19 MAR 2026 · 10:30 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $106.97 (+0.00%)",
-    "VIX: 26.72",
+    "BRENT: $105.6 (+0.00%)",
+    "VIX: 25.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
