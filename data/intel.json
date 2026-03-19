@@ -1,19 +1,43 @@
 {
-  "updated_at": "2026-03-19T18:54:16.497040+00:00",
+  "updated_at": "2026-03-19T19:44:38.878230+00:00",
   "market": {
-    "brent_usd": 104.4,
+    "brent_usd": 101.57,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 24.87,
+    "vix": 24.38,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.3
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "19 MAR 2026 · 19:20 UTC",
+      "headline": "ISRAEL ABRE UN NUEVO FRENTE Y LLEVA LA GUERRA AL MAR CASPIO POR PRIMERA VEZ",
+      "detail": "La Fuerza Aérea israelí atacó buques, infraestructura y centros de comando en el puerto de Bandar Anzali; el ejército habló de un ataque sistemático que dejó “largamente inutilizada” la flota iraní en",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "19 MAR 2026 · 18:52 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 MAR 2026 · 18:50 UTC",
+      "headline": "IRÁN REDOBLA SUS ATAQUES A INSTALACIONES ENERGÉTICAS EN EL GOLFO E ISRAEL, LOS M",
+      "detail": "El alza se reporta en momentos en que la tensión en Medio Oriente crece y tras los bombardeos cruzados a sitios clave; EE.UU. dijo que podría aliviar sanciones al crudo iraní",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "19 MAR 2026 · 18:50 UTC",
+      "headline": "EE.UU. FLEXIBILIZA LAS SANCIONES AL PETRÓLEO DE VENEZUELA PARA FRENAR LA ESCALAD",
+      "detail": "Washington autorizó a empresas a operar con Pdvsa bajo control financiero estadounidense; busca aumentar la oferta global tras el cierre de Ormuz y contener la suba de precios",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 MAR 2026 · 18:49 UTC",
       "headline": "SAUDI ARABIA THREATENS MILITARY ACTION AGAINST IRAN",
@@ -21,39 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "19 MAR 2026 · 18:34 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
-      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "19 MAR 2026 · 18:06 UTC",
       "headline": "IRAN CONFLICT LOOMS LARGE OVER TRUMP'S MEETING WITH JAPAN PM",
       "detail": "The meeting with Sanae Takaichi comes days after Trump criticised Japan for not answering his demands for help in the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 17:38 UTC",
-      "headline": "IRÁN REDOBLA SUS ATAQUES A INSTALACIONES ENERGÉTICAS EN EL GOLFO E ISRAEL, LOS M",
-      "detail": "El alza se reporta en momentos en que la tensión en Medio Oriente crece y tras los bombardeos cruzados a sitios clave; EE.UU. dijo que podría aliviar sanciones al crudo iraní",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 17:15 UTC",
-      "headline": "CINCO PAÍSES DE EUROPA Y JAPÓN SE DICEN LISTOS PARA “CONTRIBUIR” A LA SEGURIDAD ",
-      "detail": "Ataques a instalaciones clave en Qatar, Arabia Saudita y Kuwait tensionan el sistema energético mundial; los países se preparan para intervenir mientras suben los precios y crece el riesgo de una cris",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 16:36 UTC",
-      "headline": "EUROPEAN NATIONS, JAPAN TO JOIN ‘APPROPRIATE EFFORTS’ TO OPEN HORMUZ STRAIT",
-      "detail": "Countries are looking for ways to contain record-high prices as oil, gas crisis deepens.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.4 (+0.00%)",
-    "VIX: 24.87",
+    "BRENT: $101.57 (+0.00%)",
+    "VIX: 24.38",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
