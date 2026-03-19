@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-03-19T15:52:12.856679+00:00",
+  "updated_at": "2026-03-19T16:54:59.090438+00:00",
   "market": {
-    "brent_usd": 107.29,
+    "brent_usd": 105.81,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.78,
+    "vix": 25.08,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.6
+    "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "19 MAR 2026 · 15:45 UTC",
-      "headline": "CUÁLES SON Y DÓNDE QUEDAN LOS YACIMIENTOS DE PETRÓLEO Y GAS EN LA MIRA POR EL CO",
-      "detail": "Refinerías, puertos y megayacimientos de gas quedaron bajo fuego desde el inicio de la ofensiva de EE.UU. e Israel contra Irán. El mapa de los ataques revela algo más que daños puntuales: una presión ",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 15:02 UTC",
-      "headline": "CINCO PAÍSES DE EUROPA Y JAPÓN SE DICEN LISTOS PARA “CONTRIBUIR” A LA SEGURIDAD ",
-      "detail": "Ataques a instalaciones clave en Qatar, Arabia Saudita y Kuwait tensionan el sistema energético mundial; los países se preparan para intervenir mientras suben los precios y crece el riesgo de una cris",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 14:54 UTC",
+      "timestamp": "19 MAR 2026 · 16:45 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
       "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
     },
     {
-      "timestamp": "19 MAR 2026 · 11:44 UTC",
-      "headline": "CONFLICT SHIFTS TO ‘ENERGY WAR’ AS IRAN TARGETS GULF OIL AND GAS",
-      "detail": "Following Israel’s South Pars strike, Iran has targeted Gulf energy sites to pressure an end to the conflict.",
+      "timestamp": "19 MAR 2026 · 16:36 UTC",
+      "headline": "EUROPEAN NATIONS, JAPAN TO JOIN ‘APPROPRIATE EFFORTS’ TO OPEN HORMUZ STRAIT",
+      "detail": "Countries are looking for ways to contain record-high prices as oil, gas crisis deepens.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 MAR 2026 · 16:34 UTC",
+      "headline": "CINCO PAÍSES EUROPEOS Y JAPÓN LLAMAN A DETENER LOS ATAQUES DE IRÁN EN EL ESTRECH",
+      "detail": "Los Estados emiten una declaración, que no menciona a Estados Unidos e Israel, en la que se dicen dispuestos a contribuir con los “esfuerzos apropiados” para garantizar la navegación por la zona, aunq",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "19 MAR 2026 · 10:30 UTC",
+      "timestamp": "19 MAR 2026 · 16:17 UTC",
+      "headline": "UN BUQUE RUSO CARGADO DE COMBUSTIBLE NAVEGA HACIA CUBA PESE AL BLOQUEO DE ESTADO",
+      "detail": "Está previsto que el Sea Horse, con bandera de Hong Kong, llegue en cinco días. Transporta 200.000 barriles de diésel, suficientes para 10 días",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 MAR 2026 · 16:16 UTC",
       "headline": "JAPAN PM TO HOLD 'DIFFICULT' TALKS WITH TRUMP AS IRAN CONFLICT LOOMS LARGE",
       "detail": "It comes days after Trump criticised Japan for not answering his demands for help in the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "19 MAR 2026 · 09:10 UTC",
-      "headline": "US EAST ASIAN ALLIES IN LEGAL QUANDARY AS TRUMP SEEKS HELP IN THE MIDDLE EAST",
-      "detail": "US President Donald Trump is expected to discuss the Strait of Hormuz with Japanese Prime Minister Sanae Takaichi.",
-      "severity": "INFO"
+      "timestamp": "19 MAR 2026 · 15:45 UTC",
+      "headline": "CUÁLES SON Y DÓNDE QUEDAN LOS YACIMIENTOS DE PETRÓLEO Y GAS EN LA MIRA POR EL CO",
+      "detail": "Refinerías, puertos y megayacimientos de gas quedaron bajo fuego desde el inicio de la ofensiva de EE.UU. e Israel contra Irán. El mapa de los ataques revela algo más que daños puntuales: una presión ",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.29 (+0.00%)",
-    "VIX: 25.78",
+    "BRENT: $105.81 (+0.00%)",
+    "VIX: 25.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
