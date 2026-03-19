@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-19T20:33:34.027949+00:00",
+  "updated_at": "2026-03-19T21:32:48.905691+00:00",
   "market": {
-    "brent_usd": 102.97,
+    "brent_usd": 103.02,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,27 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "19 MAR 2026 · 19:50 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
-      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
+      "timestamp": "19 MAR 2026 · 20:06 UTC",
+      "headline": "US APPROVES $16.5BN ARMS DEAL TO GULF STATES AMID RISING IRAN TENSIONS",
+      "detail": "The proposed deal includes the sale of drones, missiles and radars for Gulf allies, including UAE, Kuwait and Jordan.",
       "severity": "INFO"
     },
     {
-      "timestamp": "19 MAR 2026 · 19:20 UTC",
-      "headline": "ISRAEL ABRE UN NUEVO FRENTE Y LLEVA LA GUERRA AL MAR CASPIO POR PRIMERA VEZ",
-      "detail": "La Fuerza Aérea israelí atacó buques, infraestructura y centros de comando en el puerto de Bandar Anzali; el ejército habló de un ataque sistemático que dejó “largamente inutilizada” la flota iraní en",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 18:50 UTC",
-      "headline": "IRÁN REDOBLA SUS ATAQUES A INSTALACIONES ENERGÉTICAS EN EL GOLFO E ISRAEL, LOS M",
-      "detail": "El alza se reporta en momentos en que la tensión en Medio Oriente crece y tras los bombardeos cruzados a sitios clave; EE.UU. dijo que podría aliviar sanciones al crudo iraní",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 18:50 UTC",
-      "headline": "EE.UU. FLEXIBILIZA LAS SANCIONES AL PETRÓLEO DE VENEZUELA PARA FRENAR LA ESCALAD",
-      "detail": "Washington autorizó a empresas a operar con Pdvsa bajo control financiero estadounidense; busca aumentar la oferta global tras el cierre de Ormuz y contener la suba de precios",
+      "timestamp": "19 MAR 2026 · 19:50 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
+      "detail": "Ilan Buzny analizó la escalada entre Irán, Israel y Estados Unidos; advirtió la existencia de un “movimiento muy grande” contra el presidente estadounidense",
       "severity": "INFO"
     },
     {
@@ -49,10 +37,22 @@
       "headline": "IRAN CONFLICT LOOMS LARGE OVER TRUMP'S MEETING WITH JAPAN PM",
       "detail": "The meeting with Sanae Takaichi comes days after Trump criticised Japan for not answering his demands for help in the Strait of Hormuz.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 MAR 2026 · 16:36 UTC",
+      "headline": "EUROPEAN NATIONS, JAPAN TO JOIN ‘APPROPRIATE EFFORTS’ TO OPEN HORMUZ STRAIT",
+      "detail": "Countries are looking for ways to contain record-high prices as oil, gas crisis deepens.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 MAR 2026 · 16:34 UTC",
+      "headline": "CINCO PAÍSES EUROPEOS Y JAPÓN LLAMAN A DETENER LOS ATAQUES DE IRÁN EN EL ESTRECH",
+      "detail": "Los Estados emiten una declaración, que no menciona a Estados Unidos e Israel, en la que se dicen dispuestos a contribuir con los “esfuerzos apropiados” para garantizar la navegación por la zona, aunq",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.97 (+0.00%)",
+    "BRENT: $103.02 (+0.00%)",
     "VIX: 24.06",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
