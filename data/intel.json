@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-18T23:28:19.844906+00:00",
+  "updated_at": "2026-03-19T01:57:52.462967+00:00",
   "market": {
-    "brent_usd": 105.33,
+    "brent_usd": 106.15,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 82.9,
+    "ormuz_flow_pct": 83.0,
     "vix": 25.09,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.3
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "19 MAR 2026 · 00:30 UTC",
+      "headline": "IRAN WAR LIVE: QATAR, SAUDI ENERGY SITES ATTACKED; RIYADH SAYS TRUST GONE",
+      "detail": "Iranian strikes on Gulf energy come after Israel attacked Iran's South Pars gasfield and navy assets in the north.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "18 MAR 2026 · 22:51 UTC",
       "headline": "UN ANALISTA INTERNACIONAL HABLÓ DEL PODER DE LA OTAN Y DE LOS DESEOS DE TRUMP SO",
@@ -24,12 +30,6 @@
       "timestamp": "18 MAR 2026 · 20:17 UTC",
       "headline": "UN ATAQUE EN IRÁN AL MAYOR YACIMIENTO DE GAS DEL MUNDO INTENSIFICA LA GUERRA Y S",
       "detail": "Teherán lanza su represalia contra instalaciones de hidrocarburos del Golfo. La prensa israelí atribuye el bombardeo a su país, coordinado con EE UU",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAR 2026 · 14:58 UTC",
-      "headline": "IRAN THREATENS TO STRIKE GULF ENERGY FACILITIES AFTER SOUTH PARS ATTACK",
-      "detail": "Qatar foreign ministry spokesman slams Israeli attack on Iran's offshore gasfield as 'dangerous, irresponsible step'.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.33 (+0.00%)",
+    "BRENT: $106.15 (+0.00%)",
     "VIX: 25.09",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
