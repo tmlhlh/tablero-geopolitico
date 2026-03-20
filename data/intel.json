@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-20T04:12:10.211037+00:00",
+  "updated_at": "2026-03-20T05:50:06.663352+00:00",
   "market": {
-    "brent_usd": 102.5,
+    "brent_usd": 103.0,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 85.5,
     "vix": 24.06,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 4.0
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "20 MAR 2026 · 04:45 UTC",
+      "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
+      "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 MAR 2026 · 02:56 UTC",
       "headline": "LA AGENCIA MARÍTIMA DE LA ONU NEGOCIARÁ LA IMPLEMENTACIÓN DE UN CORREDOR HUMANIT",
@@ -33,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "19 MAR 2026 · 20:06 UTC",
-      "headline": "US APPROVES $16.5BN ARMS DEAL TO GULF STATES AMID RISING IRAN TENSIONS",
-      "detail": "The proposed deal includes the sale of drones, missiles and radars for Gulf allies, including UAE, Kuwait and Jordan.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "19 MAR 2026 · 18:49 UTC",
       "headline": "SAUDI ARABIA THREATENS MILITARY ACTION AGAINST IRAN",
       "detail": "The patience of the Gulf states is not “unlimited,” Riyadh has said in the wake of the latest Iranian retaliatory strikes Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.5 (+0.00%)",
+    "BRENT: $103.0 (+0.00%)",
     "VIX: 24.06",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
