@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-03-20T17:33:39.430048+00:00",
+  "updated_at": "2026-03-20T18:43:07.291121+00:00",
   "market": {
-    "brent_usd": 105.76,
+    "brent_usd": 106.66,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 82.1,
-    "vix": 25.69,
+    "ormuz_flow_pct": 79.0,
+    "vix": 27.16,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.5
+    "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "20 MAR 2026 · 15:49 UTC",
-      "headline": "‘COWARDS’: TRUMP SLAMS NATO OVER LACK OF SUPPORT IN US–ISRAEL WAR ON IRAN",
-      "detail": "Trump is calling for US allies to help guarantee shipping through the Strait of Hormuz as NATO relocates Iraq personnel.",
+      "timestamp": "20 MAR 2026 · 17:27 UTC",
+      "headline": "EE.UU. FLEXIBILIZA LAS SANCIONES AL PETRÓLEO DE VENEZUELA PARA FRENAR LA ESCALAD",
+      "detail": "Washington autorizó a empresas a operar con Pdvsa bajo control financiero estadounidense; busca aumentar la oferta global tras el cierre de Ormuz y contener la suba de precios",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 MAR 2026 · 15:45 UTC",
-      "headline": "TRUMP VUELVE A ARREMETER CONTRA LA OTAN POR SU RESISTENCIA PARA AYUDAR A REABRIR",
-      "detail": "El presidente calificó a los integrantes de la alianza atlántica de “cobardes”, y advirtió que su gobierno “recordará” su falta de colaboración; EE.UU. acelera los operativos militares en esa zona mar",
+      "timestamp": "20 MAR 2026 · 15:49 UTC",
+      "headline": "‘COWARDS’: TRUMP SLAMS NATO OVER LACK OF SUPPORT IN US–ISRAEL WAR ON IRAN",
+      "detail": "Trump is calling for US allies to help guarantee shipping through the Strait of Hormuz as NATO relocates Iraq personnel.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.76 (+0.00%)",
-    "VIX: 25.69",
+    "BRENT: $106.66 (+0.00%)",
+    "VIX: 27.16",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
