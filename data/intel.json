@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-20T10:34:47.017262+00:00",
+  "updated_at": "2026-03-20T11:29:00.226020+00:00",
   "market": {
-    "brent_usd": 105.78,
+    "brent_usd": 104.12,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 82.2,
-    "vix": 25.59,
+    "ormuz_flow_pct": 83.9,
+    "vix": 24.83,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.5
+    "insurance_spread_pct": 4.2
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "20 MAR 2026 · 11:05 UTC",
+      "headline": "IRAN DOES NOT NEED TO CLOSE THE STRAIT OF HORMUZ TO DISRUPT IT",
+      "detail": "The real risk lies not in closure, but in disruption in the strait’s approaches.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 MAR 2026 · 10:13 UTC",
       "headline": "IRAN DEVELOPING A ‘VETTING SYSTEM’ FOR STRAIT OF HORMUZ TRANSIT: REPORT",
@@ -43,17 +49,11 @@
       "headline": "NEARLY 100 SHIPS PASS THE HORMUZ STRAIT - WHO IS GETTING THROUGH?",
       "detail": "Just under 100 ships have passed thorough the Strait of Hormuz since the start of March, according to data analysed by BBC Verify.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 18:49 UTC",
-      "headline": "SAUDI ARABIA THREATENS MILITARY ACTION AGAINST IRAN",
-      "detail": "The patience of the Gulf states is not “unlimited,” Riyadh has said in the wake of the latest Iranian retaliatory strikes Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.78 (+0.00%)",
-    "VIX: 25.59",
+    "BRENT: $104.12 (+0.00%)",
+    "VIX: 24.83",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
