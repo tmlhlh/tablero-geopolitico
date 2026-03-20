@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-20T19:35:42.700241+00:00",
+  "updated_at": "2026-03-20T20:28:29.677479+00:00",
   "market": {
-    "brent_usd": 106.81,
+    "brent_usd": 106.06,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 28.08,
+    "vix": 26.82,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.4
+    "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "20 MAR 2026 · 20:01 UTC",
+      "headline": "TRUMP VUELVE A ARREMETER CONTRA LA OTAN POR SU RESISTENCIA PARA AYUDAR A REABRIR",
+      "detail": "El presidente calificó a los integrantes de la alianza atlántica de “cobardes”, y advirtió que su gobierno “recordará” su falta de colaboración; EE.UU. acelera los operativos militares en esa zona mar",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 MAR 2026 · 19:14 UTC",
       "headline": "QUÉ TIPOS DE MINAS MARINAS USA IRÁN EN EL ESTRECHO DE ORMUZ Y QUÉ BARCOS ESTÁN E",
@@ -43,17 +49,11 @@
       "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
       "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 00:04 UTC",
-      "headline": "NEARLY 100 SHIPS PASS THE HORMUZ STRAIT - WHO IS GETTING THROUGH?",
-      "detail": "Just under 100 ships have passed thorough the Strait of Hormuz since the start of March, according to data analysed by BBC Verify.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.81 (+0.00%)",
-    "VIX: 28.08",
+    "BRENT: $106.06 (+0.00%)",
+    "VIX: 26.82",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
