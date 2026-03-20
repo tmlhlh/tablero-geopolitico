@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-20T07:43:46.406056+00:00",
+  "updated_at": "2026-03-20T08:36:56.894153+00:00",
   "market": {
-    "brent_usd": 103.5,
+    "brent_usd": 103.53,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.6,
-    "vix": 24.02,
+    "ormuz_flow_pct": 86.2,
+    "vix": 23.74,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.0
+    "insurance_spread_pct": 3.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
@@ -45,15 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "19 MAR 2026 · 16:34 UTC",
-      "headline": "CINCO PAÍSES EUROPEOS Y JAPÓN LLAMAN A DETENER LOS ATAQUES DE IRÁN EN EL ESTRECH",
-      "detail": "Los Estados emiten una declaración, que no menciona a Estados Unidos e Israel, en la que se dicen dispuestos a contribuir con los “esfuerzos apropiados” para garantizar la navegación por la zona, aunq",
+      "timestamp": "19 MAR 2026 · 10:00 UTC",
+      "headline": "NETANYAHU THREATENS MORE STRIKES ON MISSILE SITES AS IRAN VOWS ‘ZERO RESTRAINT’ ",
+      "detail": "Missile barrages continue to rock Iran, Israel, and Gulf states, with no end to the Middle East war in sight Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.5 (+0.00%)",
-    "VIX: 24.02",
+    "BRENT: $103.53 (+0.00%)",
+    "VIX: 23.74",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
