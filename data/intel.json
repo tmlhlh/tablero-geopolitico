@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-20T20:28:29.677479+00:00",
+  "updated_at": "2026-03-20T21:27:11.803681+00:00",
   "market": {
-    "brent_usd": 106.06,
+    "brent_usd": 106.77,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.82,
+    "vix": 26.78,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.9
   },
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "20 MAR 2026 · 20:44 UTC",
+      "headline": "LONDRES AMPLÍA EL USO DE SUS BASES A ESTADOS UNIDOS PARA ATACAR OBJETIVOS IRANÍE",
+      "detail": "Hasta ahora el Reino Unido restringía su utilización a lo que calificaba de acciones “defensivas”",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 20:30 UTC",
+      "headline": "US SAYS IT STRUCK ALLEGED DRUG TRAFFICKING VESSEL IN PACIFIC, KILLING TWO",
+      "detail": "In an initial statement, the US military said three people survived the strike but did not offer additional details.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "20 MAR 2026 · 20:01 UTC",
       "headline": "TRUMP VUELVE A ARREMETER CONTRA LA OTAN POR SU RESISTENCIA PARA AYUDAR A REABRIR",
@@ -37,23 +49,11 @@
       "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
       "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 13:45 UTC",
-      "headline": "WHO ARE THE GULF’S MILITARY ALLIES, AND HOW ARE THEY HELPING IN IRAN WAR?",
-      "detail": "Experts say while Gulf states need support in face of Iranian attacks, it is less clear what their allies can provide.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 04:45 UTC",
-      "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
-      "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.06 (+0.00%)",
-    "VIX: 26.82",
+    "BRENT: $106.77 (+0.00%)",
+    "VIX: 26.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
