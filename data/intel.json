@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-19T23:27:06.686507+00:00",
+  "updated_at": "2026-03-20T01:51:49.126283+00:00",
   "market": {
-    "brent_usd": 102.52,
+    "brent_usd": 100.74,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,7 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "19 MAR 2026 · 22:17 UTC",
+      "timestamp": "20 MAR 2026 · 00:04 UTC",
+      "headline": "NEARLY 100 SHIPS PASS THE HORMUZ STRAIT - WHO IS GETTING THROUGH?",
+      "detail": "Just under 100 ships have passed thorough the Strait of Hormuz since the start of March, according to data analysed by BBC Verify.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 MAR 2026 · 23:52 UTC",
       "headline": "EUROPA BUSCA UNA SALIDA DIPLOMÁTICA PARA DESBLOQUEAR EL ESTRECHO DE ORMUZ FRENTE",
       "detail": "Los líderes de la UE piden que todas las partes “cumplan el derecho internacional” y reclaman una moratoria a los ataques a infraestructuras civiles y energéticas en Oriente Próximo en plena una escal",
       "severity": "CRÍTICO"
@@ -33,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "19 MAR 2026 · 16:36 UTC",
-      "headline": "EUROPEAN NATIONS, JAPAN TO JOIN ‘APPROPRIATE EFFORTS’ TO OPEN HORMUZ STRAIT",
-      "detail": "Countries are looking for ways to contain record-high prices as oil, gas crisis deepens.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "19 MAR 2026 · 16:34 UTC",
       "headline": "CINCO PAÍSES EUROPEOS Y JAPÓN LLAMAN A DETENER LOS ATAQUES DE IRÁN EN EL ESTRECH",
       "detail": "Los Estados emiten una declaración, que no menciona a Estados Unidos e Israel, en la que se dicen dispuestos a contribuir con los “esfuerzos apropiados” para garantizar la navegación por la zona, aunq",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.52 (+0.00%)",
+    "BRENT: $100.74 (+0.00%)",
     "VIX: 24.06",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
