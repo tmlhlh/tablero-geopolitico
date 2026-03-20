@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-03-20T22:24:59.276013+00:00",
+  "updated_at": "2026-03-20T23:26:01.890774+00:00",
   "market": {
     "brent_usd": 106.77,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 79.8,
     "vix": 26.78,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "20 MAR 2026 · 19:14 UTC",
-      "headline": "QUÉ TIPOS DE MINAS MARINAS USA IRÁN EN EL ESTRECHO DE ORMUZ Y QUÉ BARCOS ESTÁN E",
-      "detail": "La tensión en el Estrecho de Ormuz crece por minas navales de Irán, que amenazan el comercio global y a buques petroleros clave.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "20 MAR 2026 · 15:49 UTC",
       "headline": "‘COWARDS’: TRUMP SLAMS NATO OVER LACK OF SUPPORT IN US–ISRAEL WAR ON IRAN",
       "detail": "Trump is calling for US allies to help guarantee shipping through the Strait of Hormuz as NATO relocates Iraq personnel.",
@@ -49,11 +43,17 @@
       "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
       "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 04:45 UTC",
+      "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
+      "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $106.77 (+0.00%)",
     "VIX: 26.78",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
