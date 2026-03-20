@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-20T09:37:47.403044+00:00",
+  "updated_at": "2026-03-20T10:34:47.017262+00:00",
   "market": {
-    "brent_usd": 105.24,
+    "brent_usd": 105.78,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.5,
-    "vix": 24.54,
+    "ormuz_flow_pct": 82.2,
+    "vix": 25.59,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.1
+    "insurance_spread_pct": 4.5
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "20 MAR 2026 · 10:13 UTC",
+      "headline": "IRAN DEVELOPING A ‘VETTING SYSTEM’ FOR STRAIT OF HORMUZ TRANSIT: REPORT",
+      "detail": "Lloyd's List reports that ships could be allowed to pass through 'safe corridor' once they are approved by IRGC.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 MAR 2026 · 08:18 UTC",
       "headline": "UKRAINE SENDS ADVISERS TO GULF AS IT COUNTERATTACKS RUSSIAN FORCES IN SOUTH",
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "19 MAR 2026 · 23:52 UTC",
-      "headline": "EUROPA BUSCA UNA SALIDA DIPLOMÁTICA PARA DESBLOQUEAR EL ESTRECHO DE ORMUZ FRENTE",
-      "detail": "Los líderes de la UE piden que todas las partes “cumplan el derecho internacional” y reclaman una moratoria a los ataques a infraestructuras civiles y energéticas en Oriente Próximo en plena una escal",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "19 MAR 2026 · 18:49 UTC",
       "headline": "SAUDI ARABIA THREATENS MILITARY ACTION AGAINST IRAN",
       "detail": "The patience of the Gulf states is not “unlimited,” Riyadh has said in the wake of the latest Iranian retaliatory strikes Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.24 (+0.00%)",
-    "VIX: 24.54",
+    "BRENT: $105.78 (+0.00%)",
+    "VIX: 25.59",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
