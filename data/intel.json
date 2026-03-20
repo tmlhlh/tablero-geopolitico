@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-03-20T15:39:43.242828+00:00",
+  "updated_at": "2026-03-20T16:39:15.741246+00:00",
   "market": {
-    "brent_usd": 105.32,
+    "brent_usd": 105.37,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 82.2,
-    "vix": 25.61,
+    "ormuz_flow_pct": 83.1,
+    "vix": 25.22,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.5
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "20 MAR 2026 · 14:35 UTC",
-      "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
-      "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
+      "timestamp": "20 MAR 2026 · 15:49 UTC",
+      "headline": "‘COWARDS’: TRUMP SLAMS NATO OVER LACK OF SUPPORT IN US–ISRAEL WAR ON IRAN",
+      "detail": "Trump is calling for US allies to help guarantee shipping through the Strait of Hormuz as NATO relocates Iraq personnel.",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 MAR 2026 · 14:10 UTC",
+      "timestamp": "20 MAR 2026 · 15:45 UTC",
       "headline": "TRUMP VUELVE A ARREMETER CONTRA LA OTAN POR SU RESISTENCIA PARA AYUDAR A REABRIR",
       "detail": "El presidente calificó a los integrantes de la alianza atlántica de “cobardes”, y advirtió que su gobierno “recordará” su falta de colaboración; EE.UU. acelera los operativos militares en esa zona mar",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 14:35 UTC",
+      "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
+      "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRAN DEVELOPING A ‘VETTING SYSTEM’ FOR STRAIT OF HORMUZ TRANSIT: REPORT",
       "detail": "Lloyd's List reports that ships could be allowed to pass through 'safe corridor' once they are approved by IRGC.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 08:18 UTC",
-      "headline": "UKRAINE SENDS ADVISERS TO GULF AS IT COUNTERATTACKS RUSSIAN FORCES IN SOUTH",
-      "detail": "Ukraine may have reclaimed 400sq km (154sq miles) of territory in 2026, and is downing record numbers of Russian drones.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.32 (+0.00%)",
-    "VIX: 25.61",
+    "BRENT: $105.37 (+0.00%)",
+    "VIX: 25.22",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
