@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-03-20T18:43:07.291121+00:00",
+  "updated_at": "2026-03-20T19:35:42.700241+00:00",
   "market": {
-    "brent_usd": 106.66,
+    "brent_usd": 106.81,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 79.0,
-    "vix": 27.16,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 5.1
+    "ormuz_flow_pct": 8.5,
+    "vix": 28.08,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 5.4
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "20 MAR 2026 · 17:27 UTC",
-      "headline": "EE.UU. FLEXIBILIZA LAS SANCIONES AL PETRÓLEO DE VENEZUELA PARA FRENAR LA ESCALAD",
-      "detail": "Washington autorizó a empresas a operar con Pdvsa bajo control financiero estadounidense; busca aumentar la oferta global tras el cierre de Ormuz y contener la suba de precios",
-      "severity": "INFO"
+      "timestamp": "20 MAR 2026 · 19:14 UTC",
+      "headline": "QUÉ TIPOS DE MINAS MARINAS USA IRÁN EN EL ESTRECHO DE ORMUZ Y QUÉ BARCOS ESTÁN E",
+      "detail": "La tensión en el Estrecho de Ormuz crece por minas navales de Irán, que amenazan el comercio global y a buques petroleros clave.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "20 MAR 2026 · 15:49 UTC",
@@ -39,21 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "20 MAR 2026 · 11:05 UTC",
-      "headline": "IRAN DOES NOT NEED TO CLOSE THE STRAIT OF HORMUZ TO DISRUPT IT",
-      "detail": "The real risk lies not in closure, but in disruption in the strait’s approaches.",
+      "timestamp": "20 MAR 2026 · 04:45 UTC",
+      "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
+      "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 MAR 2026 · 10:13 UTC",
-      "headline": "IRAN DEVELOPING A ‘VETTING SYSTEM’ FOR STRAIT OF HORMUZ TRANSIT: REPORT",
-      "detail": "Lloyd's List reports that ships could be allowed to pass through 'safe corridor' once they are approved by IRGC.",
+      "timestamp": "20 MAR 2026 · 00:04 UTC",
+      "headline": "NEARLY 100 SHIPS PASS THE HORMUZ STRAIT - WHO IS GETTING THROUGH?",
+      "detail": "Just under 100 ships have passed thorough the Strait of Hormuz since the start of March, according to data analysed by BBC Verify.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.66 (+0.00%)",
-    "VIX: 27.16",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $106.81 (+0.00%)",
+    "VIX: 28.08",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
