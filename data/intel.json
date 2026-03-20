@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-20T08:36:56.894153+00:00",
+  "updated_at": "2026-03-20T09:37:47.403044+00:00",
   "market": {
-    "brent_usd": 103.53,
+    "brent_usd": 105.24,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 86.2,
-    "vix": 23.74,
+    "ormuz_flow_pct": 84.5,
+    "vix": 24.54,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.9
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "20 MAR 2026 · 08:18 UTC",
+      "headline": "UKRAINE SENDS ADVISERS TO GULF AS IT COUNTERATTACKS RUSSIAN FORCES IN SOUTH",
+      "detail": "Ukraine may have reclaimed 400sq km (154sq miles) of territory in 2026, and is downing record numbers of Russian drones.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "20 MAR 2026 · 04:45 UTC",
       "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
@@ -43,17 +49,11 @@
       "headline": "SAUDI ARABIA THREATENS MILITARY ACTION AGAINST IRAN",
       "detail": "The patience of the Gulf states is not “unlimited,” Riyadh has said in the wake of the latest Iranian retaliatory strikes Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAR 2026 · 10:00 UTC",
-      "headline": "NETANYAHU THREATENS MORE STRIKES ON MISSILE SITES AS IRAN VOWS ‘ZERO RESTRAINT’ ",
-      "detail": "Missile barrages continue to rock Iran, Israel, and Gulf states, with no end to the Middle East war in sight Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.53 (+0.00%)",
-    "VIX: 23.74",
+    "BRENT: $105.24 (+0.00%)",
+    "VIX: 24.54",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
