@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-21T04:02:52.139221+00:00",
+  "updated_at": "2026-03-21T05:38:11.532936+00:00",
   "market": {
-    "brent_usd": 106.77,
+    "brent_usd": 106.41,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "21 MAR 2026 · 04:30 UTC",
+      "headline": "LA GUERRA EN ORIENTE PRÓXIMO AMENAZA EL AGUA POTABLE DE LOS PAÍSES ÁRABES DEL GO",
+      "detail": "Los ataques contra dos plantas desalinizadoras, una en Irán y otra en Baréin, exponen la vulnerabilidad de esta desértica región",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "21 MAR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP SAYS NO CEASEFIRE AS KHAMENEI ISSUES DEFIANT MESSAGE",
@@ -43,16 +49,10 @@
       "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
       "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 00:04 UTC",
-      "headline": "NEARLY 100 SHIPS PASS THE HORMUZ STRAIT - WHO IS GETTING THROUGH?",
-      "detail": "Just under 100 ships have passed thorough the Strait of Hormuz since the start of March, according to data analysed by BBC Verify.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.77 (+0.00%)",
+    "BRENT: $106.41 (+0.00%)",
     "VIX: 26.78",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
