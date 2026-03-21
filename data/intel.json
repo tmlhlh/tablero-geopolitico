@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-21T11:20:32.352669+00:00",
+  "updated_at": "2026-03-21T12:41:11.310762+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
@@ -39,15 +39,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "20 MAR 2026 · 20:30 UTC",
-      "headline": "US SAYS IT STRUCK ALLEGED DRUG TRAFFICKING VESSEL IN PACIFIC, KILLING TWO",
-      "detail": "In an initial statement, the US military said three people survived the strike but did not offer additional details.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "20 MAR 2026 · 14:35 UTC",
       "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
       "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 04:45 UTC",
+      "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
+      "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
       "severity": "INFO"
     }
   ],
