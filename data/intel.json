@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-21T09:28:41.466968+00:00",
+  "updated_at": "2026-03-21T10:23:02.814844+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
@@ -28,7 +28,7 @@
     },
     {
       "timestamp": "21 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS NO CEASEFIRE AS KHAMENEI ISSUES DEFIANT MESSAGE",
+      "headline": "IRAN WAR LIVE: US-ISRAEL ATTACK NATANZ NUCLEAR SITE; DIEGO GARCIA TARGETED",
       "detail": "Trump says Strait of Hormuz must be protected from Iranian attacks 'by other nations who use it'.",
       "severity": "CRÍTICO"
     },
