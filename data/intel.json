@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-21T20:22:34.696285+00:00",
+  "updated_at": "2026-03-21T21:21:46.048922+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
@@ -18,12 +18,6 @@
       "timestamp": "21 MAR 2026 · 18:20 UTC",
       "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
       "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 14:42 UTC",
-      "headline": "EL ESTRECHO QUE PUEDE FRENAR AL MUNDO: LA AMENAZA DE IRÁN EN ORMUZ",
-      "detail": "Pilar Castillo analiza por qué este corredor marítimo es clave para el petróleo y el gas que abastecen al mundo, qué efectos concretos ya se observan en los precios internacionales y por qué la situac",
       "severity": "INFO"
     },
     {
@@ -48,6 +42,12 @@
       "timestamp": "20 MAR 2026 · 14:35 UTC",
       "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
       "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 04:45 UTC",
+      "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
+      "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
       "severity": "INFO"
     }
   ],
