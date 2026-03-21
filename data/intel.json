@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-21T21:21:46.048922+00:00",
+  "updated_at": "2026-03-21T22:20:56.001431+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "21 MAR 2026 · 18:20 UTC",
-      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
-      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
+      "timestamp": "21 MAR 2026 · 21:37 UTC",
+      "headline": "US SAYS IT HAS CRIPPLED IRANIAN THREAT IN STRAIT OF HORMUZ",
+      "detail": "The US says it hit Iranian coastal missile sites and infrastructure, crippling Tehran’s threat to the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "21 MAR 2026 · 08:21 UTC",
-      "headline": "IRAN SAYS IT WILL ALLOW JAPANESE SHIPS TO TRANSIT THE STRAIT OF HORMUZ",
-      "detail": "Japan sources 90 percent of its crude from Middle East and is heavily dependent on exports transiting the key waterway.",
+      "timestamp": "21 MAR 2026 · 18:20 UTC",
+      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
+      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
