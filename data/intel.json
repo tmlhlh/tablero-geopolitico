@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-21T08:29:00.567601+00:00",
+  "updated_at": "2026-03-21T09:28:41.466968+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "21 MAR 2026 · 08:21 UTC",
+      "headline": "IRAN SAYS IT WILL ALLOW JAPANESE SHIPS TO TRANSIT THE STRAIT OF HORMUZ",
+      "detail": "Japan sources 90 percent of its crude from Middle East and is heavily dependent on exports transiting the key waterway.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "21 MAR 2026 · 04:30 UTC",
       "headline": "LA GUERRA EN ORIENTE PRÓXIMO AMENAZA EL AGUA POTABLE DE LOS PAÍSES ÁRABES DEL GO",
@@ -42,12 +48,6 @@
       "timestamp": "20 MAR 2026 · 14:35 UTC",
       "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
       "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 04:45 UTC",
-      "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
-      "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
       "severity": "INFO"
     }
   ],
