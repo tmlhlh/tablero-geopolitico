@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-20T23:26:01.890774+00:00",
+  "updated_at": "2026-03-21T01:45:58.414037+00:00",
   "market": {
     "brent_usd": 106.77,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "21 MAR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS NO CEASEFIRE AS KHAMENEI ISSUES DEFIANT MESSAGE",
+      "detail": "Trump says Strait of Hormuz must be protected from Iranian attacks 'by other nations who use it'.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "20 MAR 2026 · 20:44 UTC",
       "headline": "LONDRES AMPLÍA EL USO DE SUS BASES A ESTADOS UNIDOS PARA ATACAR OBJETIVOS IRANÍE",
       "detail": "Hasta ahora el Reino Unido restringía su utilización a lo que calificaba de acciones “defensivas”",
@@ -27,18 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "20 MAR 2026 · 20:01 UTC",
-      "headline": "TRUMP VUELVE A ARREMETER CONTRA LA OTAN POR SU RESISTENCIA PARA AYUDAR A REABRIR",
-      "detail": "El presidente calificó a los integrantes de la alianza atlántica de “cobardes”, y advirtió que su gobierno “recordará” su falta de colaboración; EE.UU. acelera los operativos militares en esa zona mar",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 15:49 UTC",
-      "headline": "‘COWARDS’: TRUMP SLAMS NATO OVER LACK OF SUPPORT IN US–ISRAEL WAR ON IRAN",
-      "detail": "Trump is calling for US allies to help guarantee shipping through the Strait of Hormuz as NATO relocates Iraq personnel.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "20 MAR 2026 · 14:35 UTC",
       "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
       "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
@@ -48,6 +42,12 @@
       "timestamp": "20 MAR 2026 · 04:45 UTC",
       "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
       "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 00:04 UTC",
+      "headline": "NEARLY 100 SHIPS PASS THE HORMUZ STRAIT - WHO IS GETTING THROUGH?",
+      "detail": "Just under 100 ships have passed thorough the Strait of Hormuz since the start of March, according to data analysed by BBC Verify.",
       "severity": "INFO"
     }
   ],
