@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-22T16:26:21.934368+00:00",
+  "updated_at": "2026-03-22T17:23:04.976987+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "22 MAR 2026 · 08:33 UTC",
-      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 23 OF US-ISRAEL ATTACKS?",
-      "detail": "Trump threatens to hit Iranian energy sites if the Strait of Hormuz is not reopened; Tehran vows to retaliate.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "22 MAR 2026 · 04:30 UTC",
       "headline": "LA GUERRA DE IRÁN SE AMPLÍA CON LA ENTRADA EN UNA FASE CADA VEZ MÁS INTENSA E IN",
       "detail": "Donald Trump amenaza a Teherán con atacar todas sus plantas eléctricas si no abre el estrecho de Ormuz antes de 48 horas",
@@ -48,6 +42,12 @@
       "timestamp": "21 MAR 2026 · 18:20 UTC",
       "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
       "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 20:44 UTC",
+      "headline": "LONDRES AMPLÍA EL USO DE SUS BASES A ESTADOS UNIDOS PARA ATACAR OBJETIVOS IRANÍE",
+      "detail": "Hasta ahora el Reino Unido restringía su utilización a lo que calificaba de acciones “defensivas”",
       "severity": "INFO"
     }
   ],
