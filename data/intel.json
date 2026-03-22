@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-22T10:24:08.738809+00:00",
+  "updated_at": "2026-03-22T11:21:08.653782+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 59.4,
+    "ormuz_flow_pct": 60.3,
     "vix": 26.78,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.9
@@ -27,6 +27,12 @@
       "severity": "INFO"
     },
     {
+      "timestamp": "22 MAR 2026 · 04:30 UTC",
+      "headline": "LA GUERRA DE IRÁN SE AMPLÍA CON LA ENTRADA EN UNA FASE CADA VEZ MÁS INTENSA E IN",
+      "detail": "Donald Trump amenaza a Teherán con atacar todas sus plantas eléctricas si no abre el estrecho de Ormuz antes de 48 horas",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "22 MAR 2026 · 03:40 UTC",
       "headline": "DONALD TRUMP AMENAZÓ CON DESTRUIR TODAS LAS CENTRALES ELÉCTRICAS DE IRÁN SI EL R",
       "detail": "El mandatario estadounidense aseguró que destruiría todas las plantas de energía iraníes “empezando por la más grande”; Teherán advirtió que respondería atacando el mismo tipo de objetivos en la regió",
@@ -42,12 +48,6 @@
       "timestamp": "22 MAR 2026 · 00:13 UTC",
       "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP THREATENS TO ATTACK POWER PLANTS OVER STRAIT OF HORMUZ",
-      "detail": "Donald Trump threatens to 'obliterate' Iran's power plants if it fails to open the Strait of Hormuz within 48 hours.",
       "severity": "CRÍTICO"
     }
   ],
