@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-22T05:51:38.440654+00:00",
+  "updated_at": "2026-03-22T06:46:39.960935+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 54.6,
+    "ormuz_flow_pct": 55.7,
     "vix": 26.78,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.9
@@ -28,7 +28,7 @@
     },
     {
       "timestamp": "22 MAR 2026 · 01:16 UTC",
-      "headline": "TRUMP ISSUES 48-HOUR HORMUZ STRAIT ULTIMATUM, THREATENS IRAN POWER PLANTS",
+      "headline": "TRUMP ISSUES 48-HOUR HORMUZ STRAIT ULTIMATUM, THREATENS IRAN’S POWER PLANTS",
       "detail": "Iran responds to Trump's threat by saying all US energy infrastructure in the region will be targeted if it is attacked.",
       "severity": "CRÍTICO"
     },
