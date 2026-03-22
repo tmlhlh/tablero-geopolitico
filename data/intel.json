@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-22T07:36:27.199770+00:00",
+  "updated_at": "2026-03-22T08:30:44.567155+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 56.6,
+    "ormuz_flow_pct": 57.5,
     "vix": 26.78,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.9
@@ -22,7 +22,7 @@
     },
     {
       "timestamp": "22 MAR 2026 · 03:40 UTC",
-      "headline": "DONALD TRUMP AMENAZÓ CON DESTRUIR TODAS LAS CENTRALES ELÉCTRICAS DE IRÁN SI NO R",
+      "headline": "DONALD TRUMP AMENAZÓ CON DESTRUIR TODAS LAS CENTRALES ELÉCTRICAS DE IRÁN SI EL R",
       "detail": "El mandatario estadounidense aseguró que destruiría todas las plantas de energía iraníes “empezando por la más grande”; Teherán advirtió que respondería atacando el mismo tipo de objetivos en la regió",
       "severity": "INFO"
     },
