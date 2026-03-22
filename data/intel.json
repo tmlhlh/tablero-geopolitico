@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-22T22:21:55.308145+00:00",
+  "updated_at": "2026-03-22T23:24:24.509501+00:00",
   "market": {
-    "brent_usd": 107.93,
+    "brent_usd": 106.52,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 MAR 2026 · 22:49 UTC",
+      "headline": "13 DÍAS DE MÁXIMA TENSIÓN EN CUBA: CUANDO ESTADOS UNIDOS Y LA URSS SE ENFRENTARO",
+      "detail": "La crisis de los misiles en Cuba puso al mundo al borde de una guerra nuclear en 1962, tras el despliegue soviético y el bloqueo naval de EE.UU.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "22 MAR 2026 · 19:50 UTC",
       "headline": "TRAS EL ULTIMÁTUM DE TRUMP, IRÁN AMENAZA CON ATACAR LOS POLOS ENERGÉTICOS DE LA ",
@@ -43,16 +49,10 @@
       "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 18:20 UTC",
-      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
-      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.93 (+0.00%)",
+    "BRENT: $106.52 (+0.00%)",
     "VIX: 26.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
