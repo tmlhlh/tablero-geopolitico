@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-22T08:30:44.567155+00:00",
+  "updated_at": "2026-03-22T09:29:10.759056+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 57.5,
+    "ormuz_flow_pct": 58.5,
     "vix": 26.78,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.9
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "22 MAR 2026 · 08:33 UTC",
+      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 23 OF US-ISRAEL ATTACKS?",
+      "detail": "Trump threatens to hit Iranian energy sites if the Strait of Hormuz is not reopened; Tehran vows to retaliate.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "22 MAR 2026 · 05:08 UTC",
       "headline": "TRUMP THREATENS TO ‘OBLITERATE’ IRAN POWER PLANTS UNLESS HORMUZ STRAIT OPEN",
@@ -42,12 +48,6 @@
       "timestamp": "22 MAR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP THREATENS TO ATTACK POWER PLANTS OVER STRAIT OF HORMUZ",
       "detail": "Donald Trump threatens to 'obliterate' Iran's power plants if it fails to open the Strait of Hormuz within 48 hours.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 23:00 UTC",
-      "headline": "SAUDI ARABIA EXPELS IRAN MILITARY ATTACHE, FOUR EMBASSY STAFF",
-      "detail": "Move follows attack on Red Sea port of Yanbu, Saudi Arabia's main oil export outlet, after Iran blocked Hormuz Strait.",
       "severity": "CRÍTICO"
     }
   ],
