@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-03-22T01:57:18.877376+00:00",
+  "updated_at": "2026-03-22T04:22:23.811871+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 49.8,
+    "ormuz_flow_pct": 52.9,
     "vix": 26.78,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "22 MAR 2026 · 01:37 UTC",
+      "timestamp": "22 MAR 2026 · 03:40 UTC",
       "headline": "DONALD TRUMP AMENAZÓ CON DESTRUIR TODAS LAS CENTRALES ELÉCTRICAS DE IRÁN SI NO R",
-      "detail": "El mandatario estadounidense aseguró que destruiría todas las plantas de energía iraníes “empezando por la más grande”; Teherán advirtió que respondería atacando los mismos objetivos en la región",
+      "detail": "El mandatario estadounidense aseguró que destruiría todas las plantas de energía iraníes “empezando por la más grande”; Teherán advirtió que respondería atacando el mismo tipo de objetivos en la regió",
       "severity": "INFO"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "timestamp": "22 MAR 2026 · 00:13 UTC",
-      "headline": "TRUMP THREATENS TO ‘OBLITERATE’ IRANIAN POWER PLANTS",
+      "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
@@ -54,6 +54,6 @@
   "ticker_items": [
     "BRENT: $106.41 (+0.00%)",
     "VIX: 26.78",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
