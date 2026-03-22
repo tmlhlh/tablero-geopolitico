@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-22T14:25:05.336727+00:00",
+  "updated_at": "2026-03-22T15:22:57.686856+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 79.8,
+    "ormuz_flow_pct": 8.5,
     "vix": 26.78,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 MAR 2026 · 14:14 UTC",
+      "headline": "PUERTO RICAN ACTIVISTS BRING MEDICINE TO HAVANA DESPITE US BLOCKADE",
+      "detail": "Puerto Rican activists brought suitcases filled with medicine and medical supplies to Havana despite US blockade.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "22 MAR 2026 · 12:30 UTC",
       "headline": "‘OPENING STRAIT OF HORMUZ WILL PROBABLY REQUIRE US BOOTS ON THE GROUND’",
@@ -25,12 +31,6 @@
       "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 23 OF US-ISRAEL ATTACKS?",
       "detail": "Trump threatens to hit Iranian energy sites if the Strait of Hormuz is not reopened; Tehran vows to retaliate.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 MAR 2026 · 05:08 UTC",
-      "headline": "TRUMP THREATENS TO ‘OBLITERATE’ IRAN POWER PLANTS UNLESS HORMUZ STRAIT OPEN",
-      "detail": "Donald Trump has threatened to 'obliterate' Iran’s power plants if Tehran fails to open the Strait of Hormuz.",
-      "severity": "INFO"
     },
     {
       "timestamp": "22 MAR 2026 · 04:30 UTC",
@@ -54,6 +54,6 @@
   "ticker_items": [
     "BRENT: $106.41 (+0.00%)",
     "VIX: 26.78",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
