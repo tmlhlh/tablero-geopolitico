@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-22T19:22:38.932758+00:00",
+  "updated_at": "2026-03-22T20:23:34.840559+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 MAR 2026 · 19:50 UTC",
+      "headline": "TRAS EL ULTIMÁTUM DE TRUMP, IRÁN AMENAZA CON ATACAR LOS POLOS ENERGÉTICOS DE LA ",
+      "detail": "Teherán advierte que responderá contra activos de Estados Unidos e Israel en el Golfo si Washington avanza sobre sus centrales eléctricas; la tensión por el estrecho de Ormuz dispara el riesgo global;",
+      "severity": "INFO"
+    },
     {
       "timestamp": "22 MAR 2026 · 17:09 UTC",
       "headline": "‘WE DO IT TOGETHER, IN CONFIDENCE’: NETANYAHU BACKS US STRIKES ON IRAN",
@@ -43,12 +49,6 @@
       "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 18:20 UTC",
-      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
-      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
