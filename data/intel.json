@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-03-21T23:21:22.154553+00:00",
+  "updated_at": "2026-03-22T01:57:18.877376+00:00",
   "market": {
     "brent_usd": 106.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 79.8,
+    "ormuz_flow_pct": 49.8,
     "vix": 26.78,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "22 MAR 2026 · 01:37 UTC",
+      "headline": "DONALD TRUMP AMENAZÓ CON DESTRUIR TODAS LAS CENTRALES ELÉCTRICAS DE IRÁN SI NO R",
+      "detail": "El mandatario estadounidense aseguró que destruiría todas las plantas de energía iraníes “empezando por la más grande”; Teherán advirtió que respondería atacando los mismos objetivos en la región",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 MAR 2026 · 01:16 UTC",
+      "headline": "TRUMP ISSUES 48-HOUR HORMUZ STRAIT ULTIMATUM, THREATENS IRAN POWER PLANTS",
+      "detail": "Iran responds to Trump's threat by saying all US energy infrastructure in the region will be targeted if it is attacked.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 MAR 2026 · 00:13 UTC",
+      "headline": "TRUMP THREATENS TO ‘OBLITERATE’ IRANIAN POWER PLANTS",
+      "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 MAR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP THREATENS TO ATTACK POWER PLANTS OVER STRAIT OF HORMUZ",
+      "detail": "Donald Trump threatens to 'obliterate' Iran's power plants if it fails to open the Strait of Hormuz within 48 hours.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 MAR 2026 · 23:00 UTC",
+      "headline": "SAUDI ARABIA EXPELS IRAN MILITARY ATTACHE, FOUR EMBASSY STAFF",
+      "detail": "Move follows attack on Red Sea port of Yanbu, Saudi Arabia's main oil export outlet, after Iran blocked Hormuz Strait.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "21 MAR 2026 · 21:37 UTC",
       "headline": "US SAYS IT HAS CRIPPLED IRANIAN THREAT IN STRAIT OF HORMUZ",
       "detail": "The US says it hit Iranian coastal missile sites and infrastructure, crippling Tehran’s threat to the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 18:20 UTC",
-      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
-      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 04:30 UTC",
-      "headline": "LA GUERRA EN ORIENTE PRÓXIMO AMENAZA EL AGUA POTABLE DE LOS PAÍSES ÁRABES DEL GO",
-      "detail": "Los ataques contra dos plantas desalinizadoras, una en Irán y otra en Baréin, exponen la vulnerabilidad de esta desértica región",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 20:44 UTC",
-      "headline": "LONDRES AMPLÍA EL USO DE SUS BASES A ESTADOS UNIDOS PARA ATACAR OBJETIVOS IRANÍE",
-      "detail": "Hasta ahora el Reino Unido restringía su utilización a lo que calificaba de acciones “defensivas”",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 14:35 UTC",
-      "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
-      "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 04:45 UTC",
-      "headline": "NO SOLO LAS BATERÍAS ANTIAÉREAS PROTEGEN LAS COSTAS ÁRABES DEL GOLFO",
-      "detail": "Millones de inmigrantes siguen trabajando en las monarquías de la península arábiga a pesar de los misiles y drones iraníes",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $106.41 (+0.00%)",
     "VIX: 26.78",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
