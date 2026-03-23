@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-03-23T13:00:18.721625+00:00",
+  "updated_at": "2026-03-23T14:19:09.030780+00:00",
   "market": {
-    "brent_usd": 100.6,
+    "brent_usd": 100.27,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.1,
-    "vix": 24.29,
+    "ormuz_flow_pct": 85.2,
+    "vix": 24.23,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.1
+    "insurance_spread_pct": 4.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
+      "timestamp": "23 MAR 2026 · 13:47 UTC",
+      "headline": "EL PETRÓLEO BAJA UN 13% TRAS EL ANUNCIO DE DONALD TRUMP DE SUSPENDER LOS ATAQUES",
+      "detail": "El presidente de Estados Unidos pospuso el ultimátum para reabrir el estrecho de Ormuz; las bolsas internacionales reportaron una suba en las acciones",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "23 MAR 2026 · 12:04 UTC",
       "headline": "POR QUÉ A PESAR DE SUS FUERTES PÉRDIDAS IRÁN NO PARECE DISPUESTO A RENDIRSE",
       "detail": "La guerra ya ingresó en su cuarta semana y el gobierno de Teherán se niega a rendirse debido al control que sigue ejerciendo sobre el estrecho de Ormuz, según funcionarios de la región",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 11:44 UTC",
-      "headline": "EL GOBIERNO AVANZA CON OTRO RECORTE DEL EMPLEO PÚBLICO; EL PETRÓLEO VUELVE A SUP",
-      "detail": "Además, Donald Trump volvió a exigirle a Irán que libere el Estrecho de Ormuz; Un avión chocó con un camión de bomberos en Nueva York; ganaron Boca y River. Estas son las noticias de la mañana del lun",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.6 (+0.00%)",
-    "VIX: 24.29",
+    "BRENT: $100.27 (+0.00%)",
+    "VIX: 24.23",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
