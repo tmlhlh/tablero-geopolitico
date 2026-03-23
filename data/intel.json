@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-03-23T16:58:11.931517+00:00",
+  "updated_at": "2026-03-23T17:53:55.065832+00:00",
   "market": {
-    "brent_usd": 101.29,
+    "brent_usd": 101.3,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 47.9,
-    "vix": 26.11,
+    "ormuz_flow_pct": 50.4,
+    "vix": 25.2,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.7
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 MAR 2026 · 04:30 UTC",
-      "headline": "LA GUERRA DE IRÁN SE AMPLÍA CON LA ENTRADA EN UNA FASE CADA VEZ MÁS INTENSA E IN",
-      "detail": "Donald Trump amenaza a Teherán con atacar todas sus plantas eléctricas si no abre el estrecho de Ormuz antes de 48 horas",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "22 MAR 2026 · 00:13 UTC",
       "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
@@ -49,11 +43,17 @@
       "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
       "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 14:35 UTC",
+      "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
+      "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.29 (+0.00%)",
-    "VIX: 26.11",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "BRENT: $101.3 (+0.00%)",
+    "VIX: 25.2",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
