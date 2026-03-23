@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-03-23T10:59:57.751215+00:00",
+  "updated_at": "2026-03-23T11:50:13.770526+00:00",
   "market": {
-    "brent_usd": 107.69,
+    "brent_usd": 99.59,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 30.38,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.2
+    "ormuz_flow_pct": 84.3,
+    "vix": 24.65,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 4.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 08:39 UTC",
+      "headline": "‘UNPRECEDENTED’: ISRAEL, US CARRY OUT EXTENSIVE STRIKES ACROSS IRAN",
+      "detail": "Tehran hit by 'wide-scale wave of strikes' as US President Trump extends deadline for Iran to reopen Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 MAR 2026 · 08:07 UTC",
       "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 24 OF US-ISRAEL ATTACKS?",
       "detail": "The region is on edge as Trump's deadline for Iran to reopen the Strait of Hormuz or face attacks on power plants nears.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN THREATENS TO MINE GULF IF COAST, ISLANDS ATTACKED",
-      "detail": "Rhetoric ratchets up in US-Israeli war on Iran as Israeli forces blow up Qasimiyah Bridge in southern Lebanon.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.69 (+0.00%)",
-    "VIX: 30.38",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $99.59 (+0.00%)",
+    "VIX: 24.65",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
