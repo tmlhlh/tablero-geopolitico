@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-23T22:29:08.185131+00:00",
+  "updated_at": "2026-03-23T23:29:25.490391+00:00",
   "market": {
-    "brent_usd": 100.46,
+    "brent_usd": 99.7,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -34,7 +34,7 @@
     },
     {
       "timestamp": "23 MAR 2026 · 18:43 UTC",
-      "headline": "TRUMP CLAIMS HE COULD JOINTLY CONTROL THE STRAIT OF HORMUZ WITH IRAN’S SUPREME L",
+      "headline": "NETANYAHU VOWS TO KEEP BOMBING IRAN AMID TRUMP’S PUSH FOR TALKS (PHOTOS, VIDEOS)",
       "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.46 (+0.00%)",
+    "BRENT: $99.7 (+0.00%)",
     "VIX: 26.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
