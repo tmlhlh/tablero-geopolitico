@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-03-23T11:50:13.770526+00:00",
+  "updated_at": "2026-03-23T13:00:18.721625+00:00",
   "market": {
-    "brent_usd": 99.59,
+    "brent_usd": 100.6,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.3,
-    "vix": 24.65,
+    "ormuz_flow_pct": 85.1,
+    "vix": 24.29,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.2
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 12:04 UTC",
+      "headline": "POR QUÉ A PESAR DE SUS FUERTES PÉRDIDAS IRÁN NO PARECE DISPUESTO A RENDIRSE",
+      "detail": "La guerra ya ingresó en su cuarta semana y el gobierno de Teherán se niega a rendirse debido al control que sigue ejerciendo sobre el estrecho de Ormuz, según funcionarios de la región",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 11:44 UTC",
+      "headline": "EL GOBIERNO AVANZA CON OTRO RECORTE DEL EMPLEO PÚBLICO; EL PETRÓLEO VUELVE A SUP",
+      "detail": "Además, Donald Trump volvió a exigirle a Irán que libere el Estrecho de Ormuz; Un avión chocó con un camión de bomberos en Nueva York; ganaron Boca y River. Estas son las noticias de la mañana del lun",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 MAR 2026 · 08:39 UTC",
       "headline": "‘UNPRECEDENTED’: ISRAEL, US CARRY OUT EXTENSIVE STRIKES ACROSS IRAN",
@@ -37,23 +49,11 @@
       "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 18:20 UTC",
-      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
-      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 14:35 UTC",
-      "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
-      "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.59 (+0.00%)",
-    "VIX: 24.65",
+    "BRENT: $100.6 (+0.00%)",
+    "VIX: 24.29",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
