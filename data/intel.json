@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-23T08:00:52.870739+00:00",
+  "updated_at": "2026-03-23T09:59:10.785662+00:00",
   "market": {
-    "brent_usd": 109.33,
+    "brent_usd": 108.71,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 30.77,
+    "vix": 30.3,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.3
+    "insurance_spread_pct": 6.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 08:07 UTC",
+      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 24 OF US-ISRAEL ATTACKS?",
+      "detail": "The region is on edge as Trump's deadline for Iran to reopen the Strait of Hormuz or face attacks on power plants nears.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 MAR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TEHRAN VOWS TO ‘COMPLETELY CLOSE’ HORMUZ IF POWER PLANTS HIT",
@@ -25,12 +31,6 @@
       "headline": "13 DÍAS DE MÁXIMA TENSIÓN EN CUBA: CUANDO ESTADOS UNIDOS Y LA URSS SE ENFRENTARO",
       "detail": "La crisis de los misiles en Cuba puso al mundo al borde de una guerra nuclear en 1962, tras el despliegue soviético y el bloqueo naval de EE.UU.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "22 MAR 2026 · 17:09 UTC",
-      "headline": "‘WE DO IT TOGETHER, IN CONFIDENCE’: NETANYAHU BACKS US STRIKES ON IRAN",
-      "detail": "Benjamin Netanyahu has vowed to back US strikes on Iran’s power grid if Tehran does not reopen the Strait of Hormuz.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "22 MAR 2026 · 04:30 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.33 (+0.00%)",
-    "VIX: 30.77",
+    "BRENT: $108.71 (+0.00%)",
+    "VIX: 30.3",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
