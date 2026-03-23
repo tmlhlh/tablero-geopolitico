@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-23T20:35:13.436153+00:00",
+  "updated_at": "2026-03-23T21:33:14.002542+00:00",
   "market": {
-    "brent_usd": 100.29,
+    "brent_usd": 100.49,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 20:35 UTC",
+      "headline": "UKRAINE STRIKES KEY RUSSIAN OIL PORT AND REFINERY",
+      "detail": "Ukraine said it hit a key Russian oil terminal at Primorsk and a refinery in Ufa on Monday.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 MAR 2026 · 19:42 UTC",
       "headline": "MINING THE GULF: IT’S A RISK IRAN IS READY TO TAKE",
@@ -43,16 +49,10 @@
       "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 18:20 UTC",
-      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
-      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.29 (+0.00%)",
+    "BRENT: $100.49 (+0.00%)",
     "VIX: 26.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
