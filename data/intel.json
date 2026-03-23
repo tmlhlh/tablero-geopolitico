@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-23T06:09:03.711992+00:00",
+  "updated_at": "2026-03-23T08:00:52.870739+00:00",
   "market": {
-    "brent_usd": 107.54,
+    "brent_usd": 109.33,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.78,
+    "vix": 30.77,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.9
+    "insurance_spread_pct": 6.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.54 (+0.00%)",
-    "VIX: 26.78",
+    "BRENT: $109.33 (+0.00%)",
+    "VIX: 30.77",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
