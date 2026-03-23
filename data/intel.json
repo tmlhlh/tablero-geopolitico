@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-22T23:24:24.509501+00:00",
+  "updated_at": "2026-03-23T01:58:26.183647+00:00",
   "market": {
-    "brent_usd": 106.52,
+    "brent_usd": 106.98,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN VOWS TO ‘COMPLETELY CLOSE’ HORMUZ IF POWER PLANTS HIT",
+      "detail": "US-Israel attacks on Iran continue as Israeli forces blow up the Qasimiyah Bridge in south Lebanon.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "22 MAR 2026 · 22:49 UTC",
       "headline": "13 DÍAS DE MÁXIMA TENSIÓN EN CUBA: CUANDO ESTADOS UNIDOS Y LA URSS SE ENFRENTARO",
@@ -33,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 MAR 2026 · 14:14 UTC",
-      "headline": "PUERTO RICAN ACTIVISTS BRING MEDICINE TO HAVANA DESPITE US BLOCKADE",
-      "detail": "Puerto Rican activists brought suitcases filled with medicine and medical supplies to Havana despite US blockade.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "22 MAR 2026 · 04:30 UTC",
       "headline": "LA GUERRA DE IRÁN SE AMPLÍA CON LA ENTRADA EN UNA FASE CADA VEZ MÁS INTENSA E IN",
       "detail": "Donald Trump amenaza a Teherán con atacar todas sus plantas eléctricas si no abre el estrecho de Ormuz antes de 48 horas",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $106.52 (+0.00%)",
+    "BRENT: $106.98 (+0.00%)",
     "VIX: 26.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
