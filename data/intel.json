@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-23T21:33:14.002542+00:00",
+  "updated_at": "2026-03-23T22:29:08.185131+00:00",
   "market": {
-    "brent_usd": 100.49,
+    "brent_usd": 100.46,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 21:45 UTC",
+      "headline": "EL PETRÓLEO SE DESPLOMA Y LAS BOLSAS SUBEN LUEGO DE QUE TRUMP ANUNCIARA UNA “PAU",
+      "detail": "El presidente de Estados Unidos postergó por cinco días un ataque contra infraestructuras energéticas iraníes; el crudo llegó a caer más de 13% y los mercados reaccionaron con alivio, aunque persisten",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 MAR 2026 · 20:35 UTC",
       "headline": "UKRAINE STRIKES KEY RUSSIAN OIL PORT AND REFINERY",
@@ -43,16 +49,10 @@
       "headline": "ENERGY, WATER, BONDS: WHAT ARE IRAN’S TARGETS IF TRUMP HITS POWER PLANTS?",
       "detail": "Donald Trump's Strait of Hormuz deadline for Iran raises concerns about attacks on energy in the Middle East.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 MAR 2026 · 00:13 UTC",
-      "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
-      "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.49 (+0.00%)",
+    "BRENT: $100.46 (+0.00%)",
     "VIX: 26.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
