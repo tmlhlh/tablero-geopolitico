@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-03-23T18:50:36.149980+00:00",
+  "updated_at": "2026-03-23T19:46:00.498160+00:00",
   "market": {
-    "brent_usd": 98.55,
+    "brent_usd": 99.01,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 52.1,
-    "vix": 24.91,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.3
+    "ormuz_flow_pct": 8.5,
+    "vix": 25.69,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 4.5
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 19:42 UTC",
+      "headline": "MINING THE GULF: IT’S A RISK IRAN IS READY TO TAKE",
+      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 MAR 2026 · 18:43 UTC",
       "headline": "TRUMP CLAIMS HE COULD JOINTLY CONTROL THE STRAIT OF HORMUZ WITH IRAN’S SUPREME L",
       "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 16:02 UTC",
-      "headline": "UCRANIA ATACA CON DRONES EL MAYOR PUERTO PETROLERO RUSO EN EL BÁLTICO MIENTRAS L",
-      "detail": "Kiev reivindicó la ofensiva contra el mayor puerto de crudo del oeste de Rusia; la suspensión de embarques agrava la tensión energética global, mientras Moscú se beneficia de la suba de precios por la",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.55 (+0.00%)",
-    "VIX: 24.91",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $99.01 (+0.00%)",
+    "VIX: 25.69",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
