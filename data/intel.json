@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-03-23T14:19:09.030780+00:00",
+  "updated_at": "2026-03-23T15:57:38.996665+00:00",
   "market": {
-    "brent_usd": 100.27,
+    "brent_usd": 101.06,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.2,
-    "vix": 24.23,
+    "ormuz_flow_pct": 83.8,
+    "vix": 24.89,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.0
+    "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 15:15 UTC",
+      "headline": "THOUSANDS OF MISSILES LATER: WHY THE GULF STILL WON’T GO TO WAR WITH IRAN",
+      "detail": "Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 15:13 UTC",
+      "headline": "ENERGY, WATER, BONDS: WHAT ARE IRAN’S TARGETS IF TRUMP HITS POWER PLANTS?",
+      "detail": "Donald Trump's Strait of Hormuz deadline for Iran raises concerns about attacks on energy in the Middle East.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 MAR 2026 · 13:47 UTC",
       "headline": "EL PETRÓLEO BAJA UN 13% TRAS EL ANUNCIO DE DONALD TRUMP DE SUSPENDER LOS ATAQUES",
@@ -21,21 +33,9 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 MAR 2026 · 12:04 UTC",
-      "headline": "POR QUÉ A PESAR DE SUS FUERTES PÉRDIDAS IRÁN NO PARECE DISPUESTO A RENDIRSE",
-      "detail": "La guerra ya ingresó en su cuarta semana y el gobierno de Teherán se niega a rendirse debido al control que sigue ejerciendo sobre el estrecho de Ormuz, según funcionarios de la región",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "23 MAR 2026 · 08:39 UTC",
       "headline": "‘UNPRECEDENTED’: ISRAEL, US CARRY OUT EXTENSIVE STRIKES ACROSS IRAN",
       "detail": "Tehran hit by 'wide-scale wave of strikes' as US President Trump extends deadline for Iran to reopen Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 08:07 UTC",
-      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 24 OF US-ISRAEL ATTACKS?",
-      "detail": "The region is on edge as Trump's deadline for Iran to reopen the Strait of Hormuz or face attacks on power plants nears.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.27 (+0.00%)",
-    "VIX: 24.23",
+    "BRENT: $101.06 (+0.00%)",
+    "VIX: 24.89",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
