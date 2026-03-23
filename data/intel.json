@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-23T17:53:55.065832+00:00",
+  "updated_at": "2026-03-23T18:50:36.149980+00:00",
   "market": {
-    "brent_usd": 101.3,
+    "brent_usd": 98.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 50.4,
-    "vix": 25.2,
+    "ormuz_flow_pct": 52.1,
+    "vix": 24.91,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.4
+    "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "23 MAR 2026 · 18:43 UTC",
+      "headline": "TRUMP CLAIMS HE COULD JOINTLY CONTROL THE STRAIT OF HORMUZ WITH IRAN’S SUPREME L",
+      "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 MAR 2026 · 16:02 UTC",
       "headline": "UCRANIA ATACA CON DRONES EL MAYOR PUERTO PETROLERO RUSO EN EL BÁLTICO MIENTRAS L",
@@ -43,17 +49,11 @@
       "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
       "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 14:35 UTC",
-      "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
-      "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.3 (+0.00%)",
-    "VIX: 25.2",
+    "BRENT: $98.55 (+0.00%)",
+    "VIX: 24.91",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
