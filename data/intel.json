@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-23T23:29:25.490391+00:00",
+  "updated_at": "2026-03-24T01:50:14.532834+00:00",
   "market": {
-    "brent_usd": 99.7,
+    "brent_usd": 103.62,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -45,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "23 MAR 2026 · 15:13 UTC",
-      "headline": "ENERGY, WATER, BONDS: WHAT ARE IRAN’S TARGETS IF TRUMP HITS POWER PLANTS?",
-      "detail": "Donald Trump's Strait of Hormuz deadline for Iran raises concerns about attacks on energy in the Middle East.",
+      "timestamp": "22 MAR 2026 · 00:13 UTC",
+      "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
+      "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.7 (+0.00%)",
+    "BRENT: $103.62 (+0.00%)",
     "VIX: 26.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
