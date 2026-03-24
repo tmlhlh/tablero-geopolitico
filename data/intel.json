@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-24T21:35:05.223020+00:00",
+  "updated_at": "2026-03-24T22:27:39.806568+00:00",
   "market": {
-    "brent_usd": 100.04,
+    "brent_usd": 100.26,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 MAR 2026 · 21:43 UTC",
+      "headline": "POR PRIMERA VEZ, FILMAN A DOS CACHALOTES DÁNDOSE CABEZAZOS EN EL MEDIO DEL OCÉAN",
+      "detail": "Las raras imágenes corroboran antiguos relatos de ataques a un barco ballenero en 1820, que incluso inspiraron la novela “Moby Dick” de Herman Melville",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "24 MAR 2026 · 19:06 UTC",
       "headline": "AID FLOTILLA VESSEL ARRIVES IN CUBA AMID US-DRIVEN ENERGY CRISIS",
@@ -43,16 +49,10 @@
       "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 18:20 UTC",
-      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
-      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.04 (+0.00%)",
+    "BRENT: $100.26 (+0.00%)",
     "VIX: 26.95",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
