@@ -1,29 +1,59 @@
 {
-  "updated_at": "2026-03-24T09:53:54.763701+00:00",
+  "updated_at": "2026-03-24T10:49:19.059487+00:00",
   "market": {
-    "brent_usd": 101.58,
+    "brent_usd": 101.14,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 56.0,
-    "vix": 26.75,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.9
+    "ormuz_flow_pct": 8.5,
+    "vix": 26.51,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 4.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "24 MAR 2026 · 01:52 UTC",
-      "headline": "TEXAS OIL REFINERY IN FLAMES AFTER EXPLOSION",
-      "detail": "Videos show flames and a plume of thick smoke following an explosion at a Valero oil refinery in Port Arthur, Texas.",
+      "timestamp": "23 MAR 2026 · 19:42 UTC",
+      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
+      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 18:43 UTC",
+      "headline": "EU WARNS OF ‘CRITICAL’ ENERGY SITUATION AS MIDDLE EAST TENSIONS PERSIST (PHOTOS,",
+      "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 15:15 UTC",
+      "headline": "THOUSANDS OF MISSILES LATER: WHY THE GULF STILL WON’T GO TO WAR WITH IRAN",
+      "detail": "Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 MAR 2026 · 00:13 UTC",
+      "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
+      "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 MAR 2026 · 18:20 UTC",
+      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
+      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAR 2026 · 14:35 UTC",
+      "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
+      "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.58 (+0.00%)",
-    "VIX: 26.75",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $101.14 (+0.00%)",
+    "VIX: 26.51",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
