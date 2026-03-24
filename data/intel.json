@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-24T13:05:02.078793+00:00",
+  "updated_at": "2026-03-24T14:55:03.842389+00:00",
   "market": {
-    "brent_usd": 102.74,
+    "brent_usd": 103.15,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 27.2,
+    "vix": 26.63,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.1
+    "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -22,7 +22,7 @@
     },
     {
       "timestamp": "23 MAR 2026 · 18:43 UTC",
-      "headline": "EU WARNS OF ‘CRITICAL’ ENERGY SITUATION AS MIDDLE EAST TENSIONS PERSIST (PHOTOS,",
+      "headline": "IRANIAN MILITARY VOWS TO FIGHT US AND ISRAEL ‘UNTIL COMPLETE VICTORY’ (PHOTOS, V",
       "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.74 (+0.00%)",
-    "VIX: 27.2",
+    "BRENT: $103.15 (+0.00%)",
+    "VIX: 26.63",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
