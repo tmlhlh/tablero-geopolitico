@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-24T18:58:57.797907+00:00",
+  "updated_at": "2026-03-24T19:55:00.428908+00:00",
   "market": {
-    "brent_usd": 104.1,
+    "brent_usd": 103.39,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.68,
+    "vix": 26.76,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.9
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 MAR 2026 · 19:06 UTC",
+      "headline": "AID FLOTILLA VESSEL ARRIVES IN CUBA AMID US-DRIVEN ENERGY CRISIS",
+      "detail": "Activists say that aid delivery is small 'gesture of solidarity' meant to draw attention to US energy blockade.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 MAR 2026 · 19:42 UTC",
       "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
@@ -43,17 +49,11 @@
       "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
       "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAR 2026 · 14:35 UTC",
-      "headline": "‘SAFE’ CORRIDOR OPENING UP THROUGH STRAIT OF HORMUZ: WHAT WE KNOW SO FAR",
-      "detail": "Iran is allowing a handful of oil tankers to pass through the Strait of Hormuz amid the war with the US and Israel Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.1 (+0.00%)",
-    "VIX: 26.68",
+    "BRENT: $103.39 (+0.00%)",
+    "VIX: 26.76",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
