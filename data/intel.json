@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-24T01:50:14.532834+00:00",
+  "updated_at": "2026-03-24T04:16:14.835204+00:00",
   "market": {
-    "brent_usd": 103.62,
+    "brent_usd": 104.18,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "23 MAR 2026 · 21:45 UTC",
-      "headline": "EL PETRÓLEO SE DESPLOMA Y LAS BOLSAS SUBEN LUEGO DE QUE TRUMP ANUNCIARA UNA “PAU",
-      "detail": "El presidente de Estados Unidos postergó por cinco días un ataque contra infraestructuras energéticas iraníes; el crudo llegó a caer más de 13% y los mercados reaccionaron con alivio, aunque persisten",
-      "severity": "CRÍTICO"
+      "timestamp": "24 MAR 2026 · 01:52 UTC",
+      "headline": "TEXAS OIL REFINERY IN FLAMES AFTER EXPLOSION",
+      "detail": "Videos show flames and a plume of thick smoke following an explosion at a Valero oil refinery in Port Arthur, Texas.",
+      "severity": "INFO"
     },
     {
       "timestamp": "23 MAR 2026 · 20:35 UTC",
@@ -34,7 +34,7 @@
     },
     {
       "timestamp": "23 MAR 2026 · 18:43 UTC",
-      "headline": "NETANYAHU VOWS TO KEEP BOMBING IRAN AMID TRUMP’S PUSH FOR TALKS (PHOTOS, VIDEOS)",
+      "headline": "OIL BACK AT $100 AMID CONFLICTING CLAIMS ON US-IRAN TALKS (PHOTOS, VIDEOS)",
       "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $103.62 (+0.00%)",
+    "BRENT: $104.18 (+0.00%)",
     "VIX: 26.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
