@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-25T01:55:46.989960+00:00",
+  "updated_at": "2026-03-25T04:20:22.642933+00:00",
   "market": {
-    "brent_usd": 97.84,
+    "brent_usd": 99.64,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "24 MAR 2026 · 21:43 UTC",
-      "headline": "POR PRIMERA VEZ, FILMAN A DOS CACHALOTES DÁNDOSE CABEZAZOS EN EL MEDIO DEL OCÉAN",
-      "detail": "Las raras imágenes corroboran antiguos relatos de ataques a un barco ballenero en 1820, que incluso inspiraron la novela “Moby Dick” de Herman Melville",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "24 MAR 2026 · 19:06 UTC",
-      "headline": "AID FLOTILLA VESSEL ARRIVES IN CUBA AMID US-DRIVEN ENERGY CRISIS",
-      "detail": "Activists say that aid delivery is small 'gesture of solidarity' meant to draw attention to US energy blockade.",
+      "timestamp": "25 MAR 2026 · 03:31 UTC",
+      "headline": "IRAN SAYS ‘NON-HOSTILE’ SHIPS CAN PASS SAFELY THROUGH STRAIT OF HORMUZ",
+      "detail": "Tehran's statement on opening of key waterway comes as US President Trump says talks are taking place to end the war.",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
       "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 MAR 2026 · 18:20 UTC",
+      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
+      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.84 (+0.00%)",
+    "BRENT: $99.64 (+0.00%)",
     "VIX: 26.95",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
