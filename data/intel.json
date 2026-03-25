@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-03-25T13:02:09.159974+00:00",
+  "updated_at": "2026-03-25T14:56:08.835003+00:00",
   "market": {
-    "brent_usd": 95.69,
+    "brent_usd": 96.19,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.02,
+    "vix": 25.28,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.7
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "25 MAR 2026 · 13:50 UTC",
+      "headline": "FIN DE LA GUERRA: QUÉ SE SABE DE LAS NEGOCIACIONES CON IRÁN, LOS 15 PUNTOS DE TR",
+      "detail": "La propuesta aborda el alivio de sanciones contra Teherán, la cooperación nuclear civil, una reversión del programa nuclear, y establece el acceso para el transporte marítimo al estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAR 2026 · 13:44 UTC",
+      "headline": "EL ESTRECHO DE ORMUZ CUMPLE UNA SEMANA SIN ATAQUES DE IRÁN, PERO LOS BARCOS CRUZ",
+      "detail": "El número de embarcaciones que pasan a diario por este corredor marítimo, clave para el mercado energético mundial, ha caído un 90% a causa de la guerra. Teherán permite a “buques no hostiles” utiliza",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 MAR 2026 · 13:10 UTC",
+      "headline": "IRÁN DICE HABER ATACADO OTRA VEZ AL PORTAAVIONES DE EE.UU. ABRAHAM LINCOLN",
+      "detail": "Teherán aseguró que lanzó misiles de crucero y afirmó haber obligado al buque a modificar su posición",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAR 2026 · 13:00 UTC",
+      "headline": "IRANIAN ATTACKS AMOUNT TO VIOLATION OF SOVEREIGNTY, GULF STATES TELL UN",
+      "detail": "UN Human Rights Council passes resolution demanding end to Iran's 'unprovoked attacks' on countries in the Middle East.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 MAR 2026 · 12:42 UTC",
+      "headline": "ESTONIA AND LATVIA SAY TERRITORIES HIT BY STRAY UKRAINIAN DRONES",
+      "detail": "The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "25 MAR 2026 · 10:09 UTC",
       "headline": "IRAN’S CLOSURE OF THE STRAIT OF HORMUZ IS AN INTERNATIONAL CRISIS",
       "detail": "As such, it requires urgent action.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 MAR 2026 · 06:56 UTC",
-      "headline": "US-ISRAEL WAR ON IRAN: WHAT’S HAPPENING ON DAY 26 OF ATTACKS?",
-      "detail": "Iran, Israel, the Gulf faced new missiles and drones. The US has signalled military escalation and openness to a deal.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "24 MAR 2026 · 19:15 UTC",
-      "headline": "IRAN ALLOWS ‘NON-HOSTILE’ SHIPS THROUGH STRAIT OF HORMUZ (PHOTOS/VIDEOS)",
-      "detail": "Iran is open to allowing “non-hostile” ships to sail through Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 19:42 UTC",
-      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
-      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 18:43 UTC",
-      "headline": "IRANIAN MILITARY VOWS TO FIGHT US AND ISRAEL ‘UNTIL COMPLETE VICTORY’ (PHOTOS, V",
-      "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 15:15 UTC",
-      "headline": "THOUSANDS OF MISSILES LATER: WHY THE GULF STILL WON’T GO TO WAR WITH IRAN",
-      "detail": "Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.69 (+0.00%)",
-    "VIX: 26.02",
+    "BRENT: $96.19 (+0.00%)",
+    "VIX: 25.28",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
