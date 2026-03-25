@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-25T16:09:11.440420+00:00",
+  "updated_at": "2026-03-25T17:56:04.486890+00:00",
   "market": {
-    "brent_usd": 97.2,
+    "brent_usd": 96.75,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.91,
+    "vix": 25.18,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.6
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -18,12 +18,6 @@
       "timestamp": "25 MAR 2026 · 14:59 UTC",
       "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
       "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 MAR 2026 · 13:50 UTC",
-      "headline": "FIN DE LA GUERRA: QUÉ SE SABE DE LAS NEGOCIACIONES CON IRÁN, LOS 15 PUNTOS DE TR",
-      "detail": "La propuesta aborda el alivio de sanciones contra Teherán, la cooperación nuclear civil, una reversión del programa nuclear, y establece el acceso para el transporte marítimo al estrecho de Ormuz",
       "severity": "INFO"
     },
     {
@@ -45,15 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "25 MAR 2026 · 10:09 UTC",
-      "headline": "IRAN’S CLOSURE OF THE STRAIT OF HORMUZ IS AN INTERNATIONAL CRISIS",
-      "detail": "As such, it requires urgent action.",
+      "timestamp": "24 MAR 2026 · 19:15 UTC",
+      "headline": "IRAN REJECTS ‘ILLOGICAL’ CEASEFIRE AND NEGOTIATIONS WITH US – MEDIA (PHOTOS/VIDE",
+      "detail": "Iran is open to allowing “non-hostile” ships to sail through Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 19:42 UTC",
+      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
+      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.2 (+0.00%)",
-    "VIX: 25.91",
+    "BRENT: $96.75 (+0.00%)",
+    "VIX: 25.18",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
