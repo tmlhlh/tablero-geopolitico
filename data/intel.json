@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-25T09:51:26.597781+00:00",
+  "updated_at": "2026-03-25T10:45:00.963724+00:00",
   "market": {
-    "brent_usd": 95.68,
+    "brent_usd": 95.09,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.67,
+    "vix": 25.78,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.5
+    "insurance_spread_pct": 4.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "25 MAR 2026 · 10:09 UTC",
+      "headline": "IRAN’S CLOSURE OF THE STRAIT OF HORMUZ IS AN INTERNATIONAL CRISIS",
+      "detail": "As such, it requires urgent action.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "25 MAR 2026 · 06:56 UTC",
       "headline": "US-ISRAEL WAR ON IRAN: WHAT’S HAPPENING ON DAY 26 OF ATTACKS?",
@@ -43,17 +49,11 @@
       "headline": "IRANIAN MILITARY VOWS TO FIGHT US AND ISRAEL ‘UNTIL COMPLETE VICTORY’ (PHOTOS, V",
       "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 15:15 UTC",
-      "headline": "THOUSANDS OF MISSILES LATER: WHY THE GULF STILL WON’T GO TO WAR WITH IRAN",
-      "detail": "Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.68 (+0.00%)",
-    "VIX: 25.67",
+    "BRENT: $95.09 (+0.00%)",
+    "VIX: 25.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
