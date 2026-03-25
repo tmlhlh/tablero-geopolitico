@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-25T20:35:14.475424+00:00",
+  "updated_at": "2026-03-25T21:35:55.070363+00:00",
   "market": {
-    "brent_usd": 98.18,
+    "brent_usd": 98.05,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -39,20 +39,20 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "25 MAR 2026 · 13:00 UTC",
-      "headline": "IRANIAN ATTACKS AMOUNT TO VIOLATION OF SOVEREIGNTY, GULF STATES TELL UN",
-      "detail": "UN Human Rights Council passes resolution demanding end to Iran's 'unprovoked attacks' on countries in the Middle East.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "25 MAR 2026 · 12:42 UTC",
       "headline": "ESTONIA AND LATVIA SAY TERRITORIES HIT BY STRAY UKRAINIAN DRONES",
       "detail": "The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 19:42 UTC",
+      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
+      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.18 (+0.00%)",
+    "BRENT: $98.05 (+0.00%)",
     "VIX: 25.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
