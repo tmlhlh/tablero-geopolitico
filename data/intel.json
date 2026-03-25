@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-25T10:45:00.963724+00:00",
+  "updated_at": "2026-03-25T11:39:32.643384+00:00",
   "market": {
-    "brent_usd": 95.09,
+    "brent_usd": 93.98,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.78,
+    "vix": 25.23,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.6
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "25 MAR 2026 · 03:31 UTC",
-      "headline": "IRAN SAYS ‘NON-HOSTILE’ SHIPS CAN PASS SAFELY THROUGH STRAIT OF HORMUZ",
-      "detail": "Tehran's statement on opening of key waterway comes as US President Trump says talks are taking place to end the war.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "24 MAR 2026 · 19:15 UTC",
       "headline": "IRAN ALLOWS ‘NON-HOSTILE’ SHIPS THROUGH STRAIT OF HORMUZ (PHOTOS/VIDEOS)",
       "detail": "Iran is open to allowing “non-hostile” ships to sail through Strait of Hormuz Read Full Article at RT.com",
@@ -49,11 +43,17 @@
       "headline": "IRANIAN MILITARY VOWS TO FIGHT US AND ISRAEL ‘UNTIL COMPLETE VICTORY’ (PHOTOS, V",
       "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 15:15 UTC",
+      "headline": "THOUSANDS OF MISSILES LATER: WHY THE GULF STILL WON’T GO TO WAR WITH IRAN",
+      "detail": "Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.09 (+0.00%)",
-    "VIX: 25.78",
+    "BRENT: $93.98 (+0.00%)",
+    "VIX: 25.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
