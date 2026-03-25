@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-03-25T07:10:00.262582+00:00",
+  "updated_at": "2026-03-25T08:46:16.227495+00:00",
   "market": {
-    "brent_usd": 100.24,
+    "brent_usd": 94.24,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.95,
+    "vix": 25.04,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.0
+    "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "25 MAR 2026 · 06:56 UTC",
+      "headline": "US-ISRAEL WAR ON IRAN: WHAT’S HAPPENING ON DAY 26 OF ATTACKS?",
+      "detail": "Iran, Israel, the Gulf faced new missiles and drones. The US has signalled military escalation and openness to a deal.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "25 MAR 2026 · 03:31 UTC",
       "headline": "IRAN SAYS ‘NON-HOSTILE’ SHIPS CAN PASS SAFELY THROUGH STRAIT OF HORMUZ",
       "detail": "Tehran's statement on opening of key waterway comes as US President Trump says talks are taking place to end the war.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 MAR 2026 · 19:15 UTC",
+      "headline": "IRAN ALLOWS ‘NON-HOSTILE’ SHIPS THROUGH STRAIT OF HORMUZ (PHOTOS/VIDEOS)",
+      "detail": "Iran is open to allowing “non-hostile” ships to sail through Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "THOUSANDS OF MISSILES LATER: WHY THE GULF STILL WON’T GO TO WAR WITH IRAN",
       "detail": "Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "22 MAR 2026 · 00:13 UTC",
-      "headline": "TRUMP ISSUES ULTIMATUM TO IRAN",
-      "detail": "US President Donald Trump has threatened to strike Iran’s power plants if it does not reopen the Strait of Hormuz within 48 hours Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 MAR 2026 · 18:20 UTC",
-      "headline": "HOW FAR COULD THE GULF CONFLICT SPREAD? A KREMLIN AIDE HAS A WARNING",
-      "detail": "Russia’s Nikolay Patrushev says the Strait of Hormuz disruption signals a deeper shift in energy markets, and maritime security systems. Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.24 (+0.00%)",
-    "VIX: 26.95",
+    "BRENT: $94.24 (+0.00%)",
+    "VIX: 25.04",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
