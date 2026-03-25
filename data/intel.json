@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-25T22:32:32.085928+00:00",
+  "updated_at": "2026-03-25T23:31:41.113107+00:00",
   "market": {
-    "brent_usd": 97.97,
+    "brent_usd": 97.91,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "25 MAR 2026 · 19:14 UTC",
-      "headline": "ASÍ SERÍA LA BATALLA PARA REABRIR EL ESTRECHO DE ORMUZ ",
-      "detail": "Flotas de buques y aviones de guerra y miles de soldados tendrían que exponerse a la muerte durante mucho tiempo, y en pos de un resultado más que incierto",
-      "severity": "INFO"
-    },
     {
       "timestamp": "25 MAR 2026 · 19:08 UTC",
       "headline": "IRÁN RECHAZA LA PROPUESTA DE TRUMP PARA PONER FIN A LA GUERRA Y REIVINDICA SU SO",
@@ -49,10 +43,16 @@
       "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
       "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 18:43 UTC",
+      "headline": "IRANIAN MILITARY VOWS TO FIGHT US AND ISRAEL ‘UNTIL COMPLETE VICTORY’ (PHOTOS, V",
+      "detail": "US president Donald Trump has announced that he believes he and “the next Ayatollah” could control the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.97 (+0.00%)",
+    "BRENT: $97.91 (+0.00%)",
     "VIX: 25.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
