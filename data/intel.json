@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-03-26T19:53:11.029852+00:00",
+  "updated_at": "2026-03-26T20:33:07.894365+00:00",
   "market": {
-    "brent_usd": 101.64,
+    "brent_usd": 100.19,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 28.1,
+    "vix": 27.44,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.4
+    "insurance_spread_pct": 5.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "26 MAR 2026 · 18:45 UTC",
+      "timestamp": "26 MAR 2026 · 20:29 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAR 2026 · 18:29 UTC",
-      "headline": "IRÁN PERMITE EL PASO DE BARCOS ESPAÑOLES POR ORMUZ TRAS LA POSTURA DE SÁNCHEZ",
-      "detail": "Teherán habilita la navegación de la flota mercante de Madrid en pleno bloqueo del estrecho, en un gesto político poco habitual",
+      "timestamp": "26 MAR 2026 · 20:28 UTC",
+      "headline": "TRUMP POSTERGA EL PLAZO PARA QUE IRÁN REABRA EL ESTRECHO DE ORMUZ Y DICE QUE POR",
+      "detail": "La Casa Blanca concede diez días adicionales en medio de contactos en curso y busca evitar una nueva escalada en el conflicto",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.64 (+0.00%)",
-    "VIX: 28.1",
+    "BRENT: $100.19 (+0.00%)",
+    "VIX: 27.44",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
