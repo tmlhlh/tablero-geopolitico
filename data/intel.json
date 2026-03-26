@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-26T05:02:53.489931+00:00",
+  "updated_at": "2026-03-26T07:03:57.430504+00:00",
   "market": {
-    "brent_usd": 98.57,
+    "brent_usd": 99.09,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 MAR 2026 · 06:26 UTC",
+      "headline": "DEATHS AND DEBTS: MISSILES IN GULF SHAKE MILLIONS OF SOUTH ASIAN FAMILIES",
+      "detail": "Most people killed in Iran's Gulf attacks have been from South Asia. And entire economies back home are on edge.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "26 MAR 2026 · 05:00 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
@@ -43,16 +49,10 @@
       "headline": "ESTONIA AND LATVIA SAY TERRITORIES HIT BY STRAY UKRAINIAN DRONES",
       "detail": "The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 19:42 UTC",
-      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
-      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.57 (+0.00%)",
+    "BRENT: $99.09 (+0.00%)",
     "VIX: 25.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
