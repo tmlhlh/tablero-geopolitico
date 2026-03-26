@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-26T09:58:08.297272+00:00",
+  "updated_at": "2026-03-26T10:56:34.169439+00:00",
   "market": {
-    "brent_usd": 100.59,
+    "brent_usd": 100.21,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 27.48,
+    "vix": 27.26,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.2
+    "insurance_spread_pct": 5.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "26 MAR 2026 · 05:00 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "25 MAR 2026 · 19:08 UTC",
       "headline": "IRÁN RECHAZA LA PROPUESTA DE TRUMP PARA PONER FIN A LA GUERRA Y REIVINDICA SU SO",
       "detail": "Teherán considera “excesivas” las demandas de Washington. Los mediadores intentan que se reúnan esta semana. Israel cree que el diálogo fracasará, pero aumenta sus bombardeos por si genera un alto el ",
@@ -49,11 +43,17 @@
       "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
       "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAR 2026 · 13:44 UTC",
+      "headline": "EL ESTRECHO DE ORMUZ CUMPLE UNA SEMANA SIN ATAQUES DE IRÁN, PERO LOS BARCOS CRUZ",
+      "detail": "El número de embarcaciones que pasan a diario por este corredor marítimo, clave para el mercado energético mundial, ha caído un 90% a causa de la guerra. Teherán permite a “buques no hostiles” utiliza",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.59 (+0.00%)",
-    "VIX: 27.48",
+    "BRENT: $100.21 (+0.00%)",
+    "VIX: 27.26",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
