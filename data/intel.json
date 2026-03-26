@@ -1,35 +1,41 @@
 {
-  "updated_at": "2026-03-26T15:01:02.923074+00:00",
+  "updated_at": "2026-03-26T16:57:36.096805+00:00",
   "market": {
-    "brent_usd": 101.3,
+    "brent_usd": 101.92,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.63,
+    "vix": 27.52,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.9
+    "insurance_spread_pct": 5.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "26 MAR 2026 · 14:54 UTC",
-      "headline": "LOS HUTÍES DE YEMEN ESTÁN LISTOS PARA ENTRAR A LA GUERRA JUNTO A IRÁN Y PELIGRA ",
-      "detail": "Bab el-Mandeb, sobre el Mar Rojo, es un punto estratégico clave; ya fue atacado durante la guerra de Gaza",
+      "timestamp": "26 MAR 2026 · 16:53 UTC",
+      "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
+      "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”",
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAR 2026 · 14:40 UTC",
+      "timestamp": "26 MAR 2026 · 16:41 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAR 2026 · 14:31 UTC",
-      "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
-      "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”",
+      "timestamp": "26 MAR 2026 · 15:56 UTC",
+      "headline": "TEHRAN’S’TOLLBOOTH’: HOW IRAN PICKS WHO TO LET THROUGH STRAIT OF HORMUZ",
+      "detail": "Iran has blocked the passage of vessels carrying 20 percent of the world’s oil and liquefied natural gas supplies.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 15:21 UTC",
+      "headline": "LOS HUTÍES DE YEMEN ESTÁN LISTOS PARA ENTRAR A LA GUERRA JUNTO A IRÁN Y PELIGRA ",
+      "detail": "Bab el-Mandeb, sobre el Mar Rojo, es un punto estratégico clave; ya fue atacado durante la guerra de Gaza",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRANIAN NAVAL CHIEF KILLED IN ATTACK, ISRAEL SAYS",
       "detail": "Israel says it has killed IRGC naval commander Alireza Tangsiri in a strike near Bandar Abbas by the Strait of Hormuz.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 12:51 UTC",
-      "headline": "ISRAEL MATÓ AL JEFE DE LA ARMADA IRANÍ RESPONSABLE DEL CIERRE DEL ESTRECHO DE OR",
-      "detail": "Tel Aviv informó la muerte del comandante naval, Alireza Tangsiri, en un ataque aéreo el jueves por la mañana; Irán no ha hecho comentarios",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.3 (+0.00%)",
-    "VIX: 26.63",
+    "BRENT: $101.92 (+0.00%)",
+    "VIX: 27.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
