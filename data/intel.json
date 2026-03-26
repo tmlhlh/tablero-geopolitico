@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-03-26T07:03:57.430504+00:00",
+  "updated_at": "2026-03-26T08:50:50.844810+00:00",
   "market": {
-    "brent_usd": 99.09,
+    "brent_usd": 100.5,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.33,
+    "vix": 26.92,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.4
+    "insurance_spread_pct": 5.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 MAR 2026 · 08:10 UTC",
+      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
+      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 07:05 UTC",
+      "headline": "ASÍ SERÍA LA BATALLA PARA REABRIR EL ESTRECHO DE ORMUZ ",
+      "detail": "Flotas de buques y aviones de guerra y miles de soldados tendrían que exponerse a la muerte durante mucho tiempo, y en pos de un resultado más que incierto",
+      "severity": "INFO"
+    },
     {
       "timestamp": "26 MAR 2026 · 06:26 UTC",
       "headline": "DEATHS AND DEBTS: MISSILES IN GULF SHAKE MILLIONS OF SOUTH ASIAN FAMILIES",
@@ -37,23 +49,11 @@
       "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
       "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 MAR 2026 · 13:44 UTC",
-      "headline": "EL ESTRECHO DE ORMUZ CUMPLE UNA SEMANA SIN ATAQUES DE IRÁN, PERO LOS BARCOS CRUZ",
-      "detail": "El número de embarcaciones que pasan a diario por este corredor marítimo, clave para el mercado energético mundial, ha caído un 90% a causa de la guerra. Teherán permite a “buques no hostiles” utiliza",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 MAR 2026 · 12:42 UTC",
-      "headline": "ESTONIA AND LATVIA SAY TERRITORIES HIT BY STRAY UKRAINIAN DRONES",
-      "detail": "The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.09 (+0.00%)",
-    "VIX: 25.33",
+    "BRENT: $100.5 (+0.00%)",
+    "VIX: 26.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
