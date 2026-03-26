@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-03-26T18:00:49.803707+00:00",
+  "updated_at": "2026-03-26T19:53:11.029852+00:00",
   "market": {
-    "brent_usd": 102.39,
+    "brent_usd": 101.64,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 27.93,
+    "vix": 28.1,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.3
+    "insurance_spread_pct": 5.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 MAR 2026 · 18:45 UTC",
+      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 18:29 UTC",
+      "headline": "IRÁN PERMITE EL PASO DE BARCOS ESPAÑOLES POR ORMUZ TRAS LA POSTURA DE SÁNCHEZ",
+      "detail": "Teherán habilita la navegación de la flota mercante de Madrid en pleno bloqueo del estrecho, en un gesto político poco habitual",
+      "severity": "INFO"
+    },
     {
       "timestamp": "26 MAR 2026 · 16:53 UTC",
       "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
@@ -21,21 +33,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAR 2026 · 16:41 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "26 MAR 2026 · 15:56 UTC",
-      "headline": "TEHRAN’S’TOLLBOOTH’: HOW IRAN PICKS WHO TO LET THROUGH STRAIT OF HORMUZ",
+      "headline": "TEHRAN’S ‘TOLL BOOTH’: HOW IRAN PICKS WHO TO LET THROUGH STRAIT OF HORMUZ",
       "detail": "Iran has blocked the passage of vessels carrying 20 percent of the world’s oil and liquefied natural gas supplies.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 15:21 UTC",
-      "headline": "LOS HUTÍES DE YEMEN ESTÁN LISTOS PARA ENTRAR A LA GUERRA JUNTO A IRÁN Y PELIGRA ",
-      "detail": "Bab el-Mandeb, sobre el Mar Rojo, es un punto estratégico clave; ya fue atacado durante la guerra de Gaza",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.39 (+0.00%)",
-    "VIX: 27.93",
+    "BRENT: $101.64 (+0.00%)",
+    "VIX: 28.1",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
