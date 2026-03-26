@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-26T16:57:36.096805+00:00",
+  "updated_at": "2026-03-26T18:00:49.803707+00:00",
   "market": {
-    "brent_usd": 101.92,
+    "brent_usd": 102.39,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 27.52,
+    "vix": 27.93,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.2
+    "insurance_spread_pct": 5.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAR 2026 · 14:15 UTC",
-      "headline": "POR LA GUERRA EN MEDIO ORIENTE FALTA HELIO, UN GAS QUE TIENE UN ROL CLAVE EN LA ",
-      "detail": "El bloqueo de buques en el estrecho de Ormuz no impacta solo en el petróleo, sino que afecta a muchas más cadenas productivas",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "26 MAR 2026 · 13:23 UTC",
       "headline": "IRANIAN NAVAL CHIEF KILLED IN ATTACK, ISRAEL SAYS",
       "detail": "Israel says it has killed IRGC naval commander Alireza Tangsiri in a strike near Bandar Abbas by the Strait of Hormuz.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 12:41 UTC",
+      "headline": "VIDEO: GCC CHIEF SAYS IRAN CHARGING FOR SHIPS TO PASS STRAIT OF HORMUZ",
+      "detail": "GCC Secretary-General Jasem al-Budaiwi has accused Iran of imposing fees for ships to pass via the Strait of Hormuz.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.92 (+0.00%)",
-    "VIX: 27.52",
+    "BRENT: $102.39 (+0.00%)",
+    "VIX: 27.93",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
