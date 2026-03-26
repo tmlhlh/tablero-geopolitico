@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-26T21:28:55.128284+00:00",
+  "updated_at": "2026-03-26T22:26:02.252137+00:00",
   "market": {
-    "brent_usd": 101.26,
+    "brent_usd": 100.83,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,21 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "26 MAR 2026 · 22:03 UTC",
+      "headline": "TRUMP POSTPONES US STRIKES ON IRANIAN POWER GRID TO APRIL 6 AMID TALKS",
+      "detail": "The US president has threatened the attacks as a means of pressuring Iran to reopen Strait of Hormuz, a vital waterway.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "26 MAR 2026 · 20:50 UTC",
       "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
       "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”. Washington aplaza diez días el ultimátum para llegar un acuerdo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 20:50 UTC",
-      "headline": "TRUMP EXTIENDE AL 6 DE ABRIL EL PLAZO PARA QUE IRÁN REABRA EL ESTRECHO DE ORMUZ",
-      "detail": "La Casa Blanca concede diez días adicionales en medio de contactos en curso y busca evitar una nueva escalada en el conflicto",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 20:29 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
@@ -39,20 +33,26 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAR 2026 · 13:23 UTC",
-      "headline": "IRANIAN NAVAL CHIEF KILLED IN ATTACK, ISRAEL SAYS",
-      "detail": "Israel says it has killed IRGC naval commander Alireza Tangsiri in a strike near Bandar Abbas by the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "26 MAR 2026 · 08:10 UTC",
       "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
       "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 MAR 2026 · 14:59 UTC",
+      "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
+      "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 19:42 UTC",
+      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
+      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.26 (+0.00%)",
+    "BRENT: $100.83 (+0.00%)",
     "VIX: 27.44",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
