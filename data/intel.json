@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-03-27T19:39:32.151086+00:00",
+  "updated_at": "2026-03-27T20:35:19.039802+00:00",
   "market": {
-    "brent_usd": 105.8,
+    "brent_usd": 106.04,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 31.23,
+    "vix": 31.05,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.5
+    "insurance_spread_pct": 6.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "27 MAR 2026 · 19:05 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "timestamp": "27 MAR 2026 · 20:30 UTC",
+      "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
+      "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 18:41 UTC",
-      "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
-      "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
+      "timestamp": "27 MAR 2026 · 20:17 UTC",
+      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.8 (+0.00%)",
-    "VIX: 31.23",
+    "BRENT: $106.04 (+0.00%)",
+    "VIX: 31.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
