@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-27T20:35:19.039802+00:00",
+  "updated_at": "2026-03-27T21:31:34.991416+00:00",
   "market": {
-    "brent_usd": 106.04,
+    "brent_usd": 106.84,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "27 MAR 2026 · 20:30 UTC",
+      "timestamp": "27 MAR 2026 · 21:16 UTC",
       "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
       "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 MAR 2026 · 20:17 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
@@ -39,20 +33,26 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 13:27 UTC",
-      "headline": "SAUDI, UAE, IRAQ: CAN THREE PIPELINES HELP OIL ESCAPE STRAIT OF HORMUZ?",
-      "detail": "Countries in the Middle East have ramped up oil exports via pipeline to bridge the Strait of Hormuz gap.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "27 MAR 2026 · 10:15 UTC",
       "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
       "detail": "La guerra entre EE UU, Israel e Irán dispara el petróleo. El bloqueo de Ormuz sacude el suministro mundial y encarece los combustibles en Europa",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 20:50 UTC",
+      "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
+      "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”. Washington aplaza diez días el ultimátum para llegar un acuerdo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 08:10 UTC",
+      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
+      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.04 (+0.00%)",
+    "BRENT: $106.84 (+0.00%)",
     "VIX: 31.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
