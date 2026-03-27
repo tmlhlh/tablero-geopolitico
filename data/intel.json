@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-26T23:29:32.390689+00:00",
+  "updated_at": "2026-03-27T02:03:19.341143+00:00",
   "market": {
-    "brent_usd": 100.99,
+    "brent_usd": 100.75,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 MAR 2026 · 23:30 UTC",
+      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "severity": "INFO"
+    },
     {
       "timestamp": "26 MAR 2026 · 22:30 UTC",
       "headline": "MANILA’S STREETS EMPTY AS FUEL PRICES SURGE AMID STRAIT OF HORMUZ CRISIS",
@@ -43,16 +49,10 @@
       "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
       "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 19:42 UTC",
-      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
-      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.99 (+0.00%)",
+    "BRENT: $100.75 (+0.00%)",
     "VIX: 27.44",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
