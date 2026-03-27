@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-03-27T14:14:27.271490+00:00",
+  "updated_at": "2026-03-27T15:50:16.519844+00:00",
   "market": {
-    "brent_usd": 103.75,
+    "brent_usd": 103.35,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 30.33,
+    "vix": 28.78,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.2
+    "insurance_spread_pct": 5.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "27 MAR 2026 · 14:10 UTC",
-      "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
-      "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
+      "timestamp": "27 MAR 2026 · 15:11 UTC",
+      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 13:53 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "timestamp": "27 MAR 2026 · 14:46 UTC",
+      "headline": "IRÁN RETIENE EL PASO DE DOS BUQUES CHINOS EN EL ESTRECHO DE ORMUZ ",
+      "detail": "Se trata del primer intento de travesía por parte de un gran grupo naviero desde el inicio de la guerra; el incidente demostró que “no se puede garantizar un paso seguro” incluso para las “naciones am",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAR 2026 · 14:10 UTC",
+      "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
+      "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
       "detail": "La guerra entre EE UU, Israel e Irán dispara el petróleo. El bloqueo de Ormuz sacude el suministro mundial y encarece los combustibles en Europa",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 20:50 UTC",
-      "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
-      "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”. Washington aplaza diez días el ultimátum para llegar un acuerdo",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.75 (+0.00%)",
-    "VIX: 30.33",
+    "BRENT: $103.35 (+0.00%)",
+    "VIX: 28.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
