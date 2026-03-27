@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-27T07:02:53.469216+00:00",
+  "updated_at": "2026-03-27T08:46:17.298287+00:00",
   "market": {
-    "brent_usd": 101.92,
+    "brent_usd": 103.56,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 27.44,
+    "vix": 28.2,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.2
+    "insurance_spread_pct": 5.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAR 2026 · 22:30 UTC",
-      "headline": "MANILA’S STREETS EMPTY AS FUEL PRICES SURGE AMID STRAIT OF HORMUZ CRISIS",
-      "detail": "Empty streets expose another crisis as Filipinos battle soaring oil prices, dwindling incomes, and a stagnating economy.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "26 MAR 2026 · 20:50 UTC",
       "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
       "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”. Washington aplaza diez días el ultimátum para llegar un acuerdo",
@@ -49,11 +43,17 @@
       "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
       "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 MAR 2026 · 14:59 UTC",
+      "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
+      "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.92 (+0.00%)",
-    "VIX: 27.44",
+    "BRENT: $103.56 (+0.00%)",
+    "VIX: 28.2",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
