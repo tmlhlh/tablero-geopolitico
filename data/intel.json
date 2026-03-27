@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-27T11:39:23.275399+00:00",
+  "updated_at": "2026-03-27T12:58:58.433235+00:00",
   "market": {
-    "brent_usd": 104.0,
+    "brent_usd": 104.08,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 29.64,
+    "vix": 29.66,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.9
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "27 MAR 2026 · 12:39 UTC",
+      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 MAR 2026 · 11:28 UTC",
       "headline": "LUIS CAPUTO DIJO QUE HAY RÉCORD DE CONSUMO Y EXPORTACIONES; IRÁN PERMITE EL PASO",
@@ -27,33 +33,27 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 10:15 UTC",
-      "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
-      "detail": "La guerra entre EE UU, Israel e Irán dispara el petróleo. El bloqueo de Ormuz sacude el suministro mundial y encarece los combustibles en Europa",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "27 MAR 2026 · 05:36 UTC",
       "headline": "THE STRAIT OF HORMUZ IS NOT JUST AN OIL CHOKEPOINT",
       "detail": "It is the single point of failure of globalised production.",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 04:24 UTC",
-      "headline": "MALAYSIA’S SHIPS ALLOWED TO PASS STRAIT OF HORMUZ, PM ANWAR SAYS",
-      "detail": "Malaysian leader says oil tankers granted clearance by Iran as government introduces measures to conserve fuel.",
-      "severity": "INFO"
+      "timestamp": "26 MAR 2026 · 08:10 UTC",
+      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
+      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "27 MAR 2026 · 03:16 UTC",
-      "headline": "IRÁN PERMITE EL PASO DE BARCOS ESPAÑOLES POR ORMUZ TRAS LA POSTURA DE SÁNCHEZ",
-      "detail": "Teherán habilita la navegación de la flota mercante de Madrid en pleno bloqueo del estrecho, en un gesto político poco habitual",
+      "timestamp": "25 MAR 2026 · 14:59 UTC",
+      "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
+      "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.0 (+0.00%)",
-    "VIX: 29.64",
+    "BRENT: $104.08 (+0.00%)",
+    "VIX: 29.66",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
