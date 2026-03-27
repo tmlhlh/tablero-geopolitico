@@ -1,21 +1,27 @@
 {
-  "updated_at": "2026-03-27T17:47:08.026055+00:00",
+  "updated_at": "2026-03-27T18:51:55.587654+00:00",
   "market": {
-    "brent_usd": 104.7,
+    "brent_usd": 105.05,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 30.21,
+    "vix": 30.94,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.1
+    "insurance_spread_pct": 6.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "27 MAR 2026 · 16:40 UTC",
+      "timestamp": "27 MAR 2026 · 18:41 UTC",
+      "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
+      "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAR 2026 · 18:31 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
@@ -43,17 +49,11 @@
       "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
       "detail": "La guerra entre EE UU, Israel e Irán dispara el petróleo. El bloqueo de Ormuz sacude el suministro mundial y encarece los combustibles en Europa",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 20:50 UTC",
-      "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
-      "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”. Washington aplaza diez días el ultimátum para llegar un acuerdo",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.7 (+0.00%)",
-    "VIX: 30.21",
+    "BRENT: $105.05 (+0.00%)",
+    "VIX: 30.94",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
