@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-03-27T12:58:58.433235+00:00",
+  "updated_at": "2026-03-27T14:14:27.271490+00:00",
   "market": {
-    "brent_usd": 104.08,
+    "brent_usd": 103.75,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 29.66,
+    "vix": 30.33,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.9
+    "insurance_spread_pct": 6.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "27 MAR 2026 · 12:39 UTC",
+      "timestamp": "27 MAR 2026 · 14:10 UTC",
+      "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
+      "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAR 2026 · 13:53 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 11:28 UTC",
-      "headline": "LUIS CAPUTO DIJO QUE HAY RÉCORD DE CONSUMO Y EXPORTACIONES; IRÁN PERMITE EL PASO",
-      "detail": "Además, el piloto del viaje desde Punta del Este desmintió a Adorni; el Gobierno envió al Congreso la “Ley de Hojarascas”; Colapinto terminó 17mo en las prácticas de Japón. Estas son las noticias de l",
+      "timestamp": "27 MAR 2026 · 13:27 UTC",
+      "headline": "SAUDI, UAE, IRAQ: CAN THREE PIPELINES HELP OIL ESCAPE STRAIT OF HORMUZ?",
+      "detail": "Countries in the Middle East have ramped up oil exports via pipeline to bridge the Strait of Hormuz gap.",
       "severity": "INFO"
     },
     {
@@ -33,27 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 05:36 UTC",
-      "headline": "THE STRAIT OF HORMUZ IS NOT JUST AN OIL CHOKEPOINT",
-      "detail": "It is the single point of failure of globalised production.",
+      "timestamp": "27 MAR 2026 · 10:15 UTC",
+      "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
+      "detail": "La guerra entre EE UU, Israel e Irán dispara el petróleo. El bloqueo de Ormuz sacude el suministro mundial y encarece los combustibles en Europa",
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAR 2026 · 08:10 UTC",
-      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
-      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 MAR 2026 · 14:59 UTC",
-      "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
-      "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
+      "timestamp": "26 MAR 2026 · 20:50 UTC",
+      "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
+      "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”. Washington aplaza diez días el ultimátum para llegar un acuerdo",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.08 (+0.00%)",
-    "VIX: 29.66",
+    "BRENT: $103.75 (+0.00%)",
+    "VIX: 30.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
