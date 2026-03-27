@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-03-27T10:43:42.672513+00:00",
+  "updated_at": "2026-03-27T11:39:23.275399+00:00",
   "market": {
-    "brent_usd": 103.67,
+    "brent_usd": 104.0,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 28.8,
+    "vix": 29.64,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.6
+    "insurance_spread_pct": 5.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "27 MAR 2026 · 11:28 UTC",
+      "headline": "LUIS CAPUTO DIJO QUE HAY RÉCORD DE CONSUMO Y EXPORTACIONES; IRÁN PERMITE EL PASO",
+      "detail": "Además, el piloto del viaje desde Punta del Este desmintió a Adorni; el Gobierno envió al Congreso la “Ley de Hojarascas”; Colapinto terminó 17mo en las prácticas de Japón. Estas son las noticias de l",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAR 2026 · 10:53 UTC",
+      "headline": "WHAT IS LNG AND WHAT IS IT USED FOR?",
+      "detail": "Natural gas powers a quarter of the world, and almost a fifth of LNG moves through the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 MAR 2026 · 10:15 UTC",
       "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
@@ -37,23 +49,11 @@
       "headline": "IRÁN PERMITE EL PASO DE BARCOS ESPAÑOLES POR ORMUZ TRAS LA POSTURA DE SÁNCHEZ",
       "detail": "Teherán habilita la navegación de la flota mercante de Madrid en pleno bloqueo del estrecho, en un gesto político poco habitual",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 20:50 UTC",
-      "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
-      "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”. Washington aplaza diez días el ultimátum para llegar un acuerdo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 08:10 UTC",
-      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
-      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.67 (+0.00%)",
-    "VIX: 28.8",
+    "BRENT: $104.0 (+0.00%)",
+    "VIX: 29.64",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
