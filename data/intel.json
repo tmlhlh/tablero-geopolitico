@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-27T16:52:09.084935+00:00",
+  "updated_at": "2026-03-27T17:47:08.026055+00:00",
   "market": {
-    "brent_usd": 104.42,
+    "brent_usd": 104.7,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 29.63,
+    "vix": 30.21,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.9
+    "insurance_spread_pct": 6.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -18,12 +18,6 @@
       "timestamp": "27 MAR 2026 · 16:40 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 MAR 2026 · 14:46 UTC",
-      "headline": "IRÁN RETIENE EL PASO DE DOS BUQUES CHINOS EN EL ESTRECHO DE ORMUZ ",
-      "detail": "Se trata del primer intento de travesía por parte de un gran grupo naviero desde el inicio de la guerra; el incidente demostró que “no se puede garantizar un paso seguro” incluso para las “naciones am",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
       "detail": "La guerra entre EE UU, Israel e Irán dispara el petróleo. El bloqueo de Ormuz sacude el suministro mundial y encarece los combustibles en Europa",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 20:50 UTC",
+      "headline": "ISRAEL MATA AL RESPONSABLE DEL CIERRE DE ORMUZ MIENTRAS TRUMP URGE A IRÁN A ALCA",
+      "detail": "Teherán insiste en que el intercambio de mensajes a través de otros países “no es negociación ni diálogo”. Washington aplaza diez días el ultimátum para llegar un acuerdo",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.42 (+0.00%)",
-    "VIX: 29.63",
+    "BRENT: $104.7 (+0.00%)",
+    "VIX: 30.21",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
