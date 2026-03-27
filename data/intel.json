@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-27T18:51:55.587654+00:00",
+  "updated_at": "2026-03-27T19:39:32.151086+00:00",
   "market": {
-    "brent_usd": 105.05,
+    "brent_usd": 105.8,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 30.94,
+    "vix": 31.23,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.4
+    "insurance_spread_pct": 6.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "27 MAR 2026 · 19:05 UTC",
+      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 MAR 2026 · 18:41 UTC",
       "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
@@ -21,9 +27,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 18:31 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "timestamp": "27 MAR 2026 · 18:34 UTC",
+      "headline": "US DIPLOMAT MARCO RUBIO DENOUNCES SETTLER VIOLENCE, TOLLS IN HORMUZ STRAIT",
+      "detail": "Rubio reiterated President Donald Trump's call for other countries to participate in securing the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAR 2026 · 10:53 UTC",
-      "headline": "WHAT IS LNG AND WHAT IS IT USED FOR?",
-      "detail": "Natural gas powers a quarter of the world, and almost a fifth of LNG moves through the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "27 MAR 2026 · 10:15 UTC",
       "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
       "detail": "La guerra entre EE UU, Israel e Irán dispara el petróleo. El bloqueo de Ormuz sacude el suministro mundial y encarece los combustibles en Europa",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.05 (+0.00%)",
-    "VIX: 30.94",
+    "BRENT: $105.8 (+0.00%)",
+    "VIX: 31.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
