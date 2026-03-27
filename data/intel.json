@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-27T09:52:07.981222+00:00",
+  "updated_at": "2026-03-27T10:43:42.672513+00:00",
   "market": {
-    "brent_usd": 103.34,
+    "brent_usd": 103.67,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 28.5,
+    "vix": 28.8,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.5
+    "insurance_spread_pct": 5.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "27 MAR 2026 · 10:15 UTC",
+      "headline": "VÍDEO | CRISIS ENERGÉTICA: ¿HASTA DÓNDE SUBIRÁ LA GASOLINA? ",
+      "detail": "La guerra entre EE UU, Israel e Irán dispara el petróleo. El bloqueo de Ormuz sacude el suministro mundial y encarece los combustibles en Europa",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 MAR 2026 · 05:36 UTC",
       "headline": "THE STRAIT OF HORMUZ IS NOT JUST AN OIL CHOKEPOINT",
@@ -43,17 +49,11 @@
       "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
       "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 MAR 2026 · 14:59 UTC",
-      "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
-      "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.34 (+0.00%)",
-    "VIX: 28.5",
+    "BRENT: $103.67 (+0.00%)",
+    "VIX: 28.8",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
