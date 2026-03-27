@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-27T02:03:19.341143+00:00",
+  "updated_at": "2026-03-27T05:04:33.561880+00:00",
   "market": {
-    "brent_usd": 100.75,
+    "brent_usd": 101.22,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "26 MAR 2026 · 23:30 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "timestamp": "27 MAR 2026 · 04:24 UTC",
+      "headline": "MALAYSIA’S SHIPS ALLOWED TO PASS STRAIT OF HORMUZ, PM ANWAR SAYS",
+      "detail": "Malaysian leader says oil tankers granted clearance by Iran as government introduces measures to conserve fuel.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAR 2026 · 03:16 UTC",
+      "headline": "IRÁN PERMITE EL PASO DE BARCOS ESPAÑOLES POR ORMUZ TRAS LA POSTURA DE SÁNCHEZ",
+      "detail": "Teherán habilita la navegación de la flota mercante de Madrid en pleno bloqueo del estrecho, en un gesto político poco habitual",
       "severity": "INFO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
       "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 MAR 2026 · 14:59 UTC",
-      "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
-      "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.75 (+0.00%)",
+    "BRENT: $101.22 (+0.00%)",
     "VIX: 27.44",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
