@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T19:27:43.899153+00:00",
+  "updated_at": "2026-03-28T20:26:05.001773+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "28 MAR 2026 · 18:18 UTC",
+      "timestamp": "28 MAR 2026 · 20:11 UTC",
       "headline": "IRAN-BACKED HOUTHIS JOIN WAR WITH ATTACK AGAINST ISRAEL",
       "detail": "There are fears the Iranian proxy may attack shipping in the Red Sea, adding to global economic woes.",
       "severity": "CRÍTICO"
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "28 MAR 2026 · 12:45 UTC",
-      "headline": "LOS HUTÍES ENTRAN A LA GUERRA CON SU PRIMER ATAQUE: UN MISIL CONTRA ISRAEL ",
-      "detail": "Desde la milicia se adjudicaron el ataque a dintintos “sitios militares israelíes sensibles”; la ofensiva del grupo vuelve a poner bajo presión al estrecho de Bab el-Mandeb, un paso estratégico clave ",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "27 MAR 2026 · 21:16 UTC",
       "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
       "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
@@ -49,6 +43,12 @@
       "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
       "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 08:10 UTC",
+      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
+      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
