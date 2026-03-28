@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T09:33:50.152033+00:00",
+  "updated_at": "2026-03-28T10:28:25.788324+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -19,12 +19,6 @@
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "28 MAR 2026 · 03:00 UTC",
-      "headline": "TRAS UN MES DE INTENSOS ATAQUES, IRÁN RESISTE Y MANTIENE A LA ECONOMÍA MUNDIAL E",
-      "detail": "Irán combina presión económica global —a través del estrecho de Ormuz— con tácticas de guerrilla para resistir a Estados Unidos e Israel; la escalada amenaza con profundizar el impacto sobre los merca",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "27 MAR 2026 · 21:16 UTC",
@@ -49,6 +43,12 @@
       "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
       "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAR 2026 · 19:42 UTC",
+      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
+      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
