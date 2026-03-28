@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T16:30:07.964789+00:00",
+  "updated_at": "2026-03-28T17:25:53.504865+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -16,9 +16,15 @@
   "events": [
     {
       "timestamp": "28 MAR 2026 · 16:22 UTC",
-      "headline": "IRÁN LANZÓ UN ATAQUE ÁEREO CERCA DE JERUSALEN: AL MENOS 11 HERIDOS ",
+      "headline": "IRÁN LANZÓ UN ATAQUE ÁEREO CERCA DE JERUSALÉN: AL MENOS 11 HERIDOS ",
       "detail": "Teherán profundizó además su ofensiva contra países árabes del Golfo Pérsico que alojan bases militares de Estados Unidos",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "28 MAR 2026 · 16:16 UTC",
+      "headline": "UKRAINE’S ZELENSKYY SIGNS AIR DEFENCE DEALS WITH UAE, QATAR ON GULF TOUR",
+      "detail": "Kyiv has sought to leverage its expertise in downing Russian drones to help Gulf nations.",
+      "severity": "INFO"
     },
     {
       "timestamp": "28 MAR 2026 · 12:45 UTC",
@@ -43,12 +49,6 @@
       "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
       "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 08:10 UTC",
-      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
-      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
