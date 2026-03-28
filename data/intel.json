@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T10:28:25.788324+00:00",
+  "updated_at": "2026-03-28T11:25:31.585450+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "28 MAR 2026 · 10:30 UTC",
+      "headline": "POR QUÉ NO SE PROTEGIÓ LO SUFICIENTE AL ESTRECHO DE ORMUZ, UN PASO CLAVE PARA EL",
+      "detail": "El régimen iraní domina una región fundamental para el paso del crudo; Andrés Repetto en LN+ analizó las nuevas tácticas militares en el conflicto",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "28 MAR 2026 · 05:00 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
@@ -43,12 +49,6 @@
       "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
       "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 19:42 UTC",
-      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
-      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
