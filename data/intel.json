@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T17:25:53.504865+00:00",
+  "updated_at": "2026-03-28T18:36:16.568896+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "28 MAR 2026 · 10:30 UTC",
-      "headline": "POR QUÉ NO SE PROTEGIÓ LO SUFICIENTE AL ESTRECHO DE ORMUZ, UN PASO CLAVE PARA EL",
-      "detail": "El régimen iraní domina una región fundamental para el paso del crudo; Andrés Repetto en LN+ analizó las nuevas tácticas militares en el conflicto",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "27 MAR 2026 · 21:16 UTC",
       "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
       "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
@@ -49,6 +43,12 @@
       "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
       "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAR 2026 · 08:10 UTC",
+      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
+      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
