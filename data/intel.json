@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T12:48:18.104180+00:00",
+  "updated_at": "2026-03-28T13:49:11.740356+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "28 MAR 2026 · 12:45 UTC",
+      "headline": "LOS HUTÍES ENTRAN A LA GUERRA CON SU PRIMER ATAQUE: UN MISIL CONTRA ISRAEL ",
+      "detail": "Desde la milicia se adjudicaron el ataque a dintintos “sitios militares israelíes sensibles”; la ofensiva del grupo vuelve a poner bajo presión al estrecho de Bab el-Mandeb, un paso estratégico clave ",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "28 MAR 2026 · 10:30 UTC",
       "headline": "POR QUÉ NO SE PROTEGIÓ LO SUFICIENTE AL ESTRECHO DE ORMUZ, UN PASO CLAVE PARA EL",
@@ -43,12 +49,6 @@
       "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
       "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAR 2026 · 19:42 UTC",
-      "headline": "IRAN HAS ‘PREVIOUS’ IN THE GULF: MINING HORMUZ IS A RISK ITS READY TO TAKE",
-      "detail": "Iran has threatened to mine the entire Persian Gulf if the US launches a ground incursion Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
