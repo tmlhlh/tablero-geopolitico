@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T20:26:05.001773+00:00",
+  "updated_at": "2026-03-28T21:27:09.098413+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "28 MAR 2026 · 20:11 UTC",
-      "headline": "IRAN-BACKED HOUTHIS JOIN WAR WITH ATTACK AGAINST ISRAEL",
-      "detail": "There are fears the Iranian proxy may attack shipping in the Red Sea, adding to global economic woes.",
-      "severity": "CRÍTICO"
+      "timestamp": "28 MAR 2026 · 20:50 UTC",
+      "headline": "COULD UKRAINE’S DRONE EXPERTISE SERVE GULF COUNTRIES?",
+      "detail": "Gulf nations seek new defence partnerships as Iran war escalates.",
+      "severity": "INFO"
     },
     {
       "timestamp": "28 MAR 2026 · 16:22 UTC",
