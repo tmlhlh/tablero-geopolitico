@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T18:36:16.568896+00:00",
+  "updated_at": "2026-03-28T19:27:43.899153+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "28 MAR 2026 · 18:18 UTC",
+      "headline": "IRAN-BACKED HOUTHIS JOIN WAR WITH ATTACK AGAINST ISRAEL",
+      "detail": "There are fears the Iranian proxy may attack shipping in the Red Sea, adding to global economic woes.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "28 MAR 2026 · 16:22 UTC",
       "headline": "IRÁN LANZÓ UN ATAQUE ÁEREO CERCA DE JERUSALÉN: AL MENOS 11 HERIDOS ",
@@ -43,12 +49,6 @@
       "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
       "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 08:10 UTC",
-      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
-      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
