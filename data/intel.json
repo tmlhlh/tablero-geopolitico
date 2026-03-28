@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T15:27:55.016225+00:00",
+  "updated_at": "2026-03-28T16:30:07.964789+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "28 MAR 2026 · 16:22 UTC",
+      "headline": "IRÁN LANZÓ UN ATAQUE ÁEREO CERCA DE JERUSALEN: AL MENOS 11 HERIDOS ",
+      "detail": "Teherán profundizó además su ofensiva contra países árabes del Golfo Pérsico que alojan bases militares de Estados Unidos",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "28 MAR 2026 · 12:45 UTC",
       "headline": "LOS HUTÍES ENTRAN A LA GUERRA CON SU PRIMER ATAQUE: UN MISIL CONTRA ISRAEL ",
@@ -43,12 +49,6 @@
       "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
       "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 MAR 2026 · 14:59 UTC",
-      "headline": "IRAN RESPONDS TO TRUMP’S 15-POINT ULTIMATUM – MEDIA",
-      "detail": "The US has reportedly presented Iran with a proposal demanding that it dismantle its nuclear program and agree to open the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
