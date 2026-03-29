@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-29T05:08:13.809805+00:00",
+  "updated_at": "2026-03-29T06:59:32.348951+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -16,7 +16,7 @@
   "events": [
     {
       "timestamp": "29 MAR 2026 · 04:39 UTC",
-      "headline": "US BRACES FOR ‘WEEKS‘ OF GROUND RAIDS IN IRAN – WAPO",
+      "headline": "US PREPARES FOR ‘WEEKS‘ OF GROUND RAIDS IN IRAN – WAPO",
       "detail": "The US is reportedly preparing options for limited ground operations in Iran, including raids on Kharg Island and near the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
