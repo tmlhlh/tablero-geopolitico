@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-29T16:31:15.455137+00:00",
+  "updated_at": "2026-03-29T17:27:34.558090+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "29 MAR 2026 · 17:05 UTC",
+      "headline": "‘WE CAN INSURE THE SHIP, BUT WE CANNOT INSURE A HUMAN LIFE.’",
+      "detail": "International Maritime Organization chief Arsenio Dominguez warns of 20,000 seafarers stranded in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "29 MAR 2026 · 16:47 UTC",
+      "headline": "HOUTHIS OPEN NEW FRONT AGAINST ISRAEL, IS RED SEA SHIPPING AT RISK?",
+      "detail": "The Houthis in Yemen have launched their first attacks on Israel, opening a new front in the month-long regional war.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "29 MAR 2026 · 15:09 UTC",
       "headline": "HOUTHIS OPEN NEW FRONT IN IRAN WAR: WILL YEMENI GROUP BLOCK BAB AL-MANDEB?",
@@ -36,18 +48,6 @@
       "timestamp": "29 MAR 2026 · 04:39 UTC",
       "headline": "US PREPARES FOR ‘WEEKS‘ OF GROUND RAIDS IN IRAN – WAPO",
       "detail": "The US is reportedly preparing options for limited ground operations in Iran, including raids on Kharg Island and near the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 MAR 2026 · 21:16 UTC",
-      "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
-      "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 MAR 2026 · 14:10 UTC",
-      "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
-      "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
       "severity": "INFO"
     }
   ],
