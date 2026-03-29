@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-29T12:48:34.061497+00:00",
+  "updated_at": "2026-03-29T13:51:25.862628+00:00",
   "market": {
     "brent_usd": 105.32,
     "brent_chg": 0.0
@@ -15,7 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "29 MAR 2026 · 11:38 UTC",
+      "timestamp": "29 MAR 2026 · 13:33 UTC",
+      "headline": "IRAN ‘HITS’ US AWACS, AIR TANKERS: WHAT ELSE HAS IT TARGETED IN PAST MONTH?",
+      "detail": "Iran reportedly hits E-3 Sentry flying radars, which track drones, missiles, aircraft from hundreds of kilometres away.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "29 MAR 2026 · 13:32 UTC",
       "headline": "IRANIAN ATTACKS ACROSS GULF CONTINUE AS MAJOR INDUSTRIAL SITES HIT",
       "detail": "A number of people are said to have been injured after attacks on aluminium sites in the UAE and Bahrain.",
       "severity": "CRÍTICO"
@@ -43,12 +49,6 @@
       "headline": "WHY IS IT SO HARD TO PASS THROUGH THE STRAIT OF HORMUZ?",
       "detail": "Paul Adams explains why it is so dangerous to navigate the strait, one of the world's busiest oil shipping channels.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAR 2026 · 08:10 UTC",
-      "headline": "TURKISH TANKER BLACKLISTED BY UKRAINE HIT IN DRONE ATTACK – MEDIA",
-      "detail": "A Turkish tanker carrying Russian oil and banned by Ukraine was reportedly struck in a drone attack near the Bosphorus Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
