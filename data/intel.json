@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-30T18:56:06.963003+00:00",
+  "updated_at": "2026-03-30T19:54:55.683391+00:00",
   "market": {
-    "brent_usd": 107.69,
+    "brent_usd": 107.99,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.7,
-    "vix": 30.57,
+    "ormuz_flow_pct": 4.0,
+    "vix": 31.1,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.2
+    "insurance_spread_pct": 6.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.7%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.0%"
   },
   "events": [
+    {
+      "timestamp": "30 MAR 2026 · 18:56 UTC",
+      "headline": "CUBA WAITS FOR RUSSIAN OIL TANKER TO ARRIVE AMID US BLOCKADE",
+      "detail": "After a US blockade, Cuba is waiting on the arrival of a sanctioned Russian tanker carrying thousands of barrels of oil.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 MAR 2026 · 18:00 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
@@ -24,12 +30,6 @@
       "timestamp": "30 MAR 2026 · 18:00 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 17:19 UTC",
-      "headline": "TRUMP AFIRMA QUE EE.UU. MANTIENE “CONVERSACIONES SERIAS” CON IRÁN PARA PONER FIN",
-      "detail": "El presidente norteamericano volvió a abrir la puerta a un acuerdo con un “nuevo y más razonable régimen”; nueva advertencia por el bloqueo estrecho de Ormuz",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.69 (+0.00%)",
-    "VIX: 30.57",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.7%"
+    "BRENT: $107.99 (+0.00%)",
+    "VIX: 31.1",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.0%"
   ]
 }
