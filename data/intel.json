@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-03-30T07:22:59.569826+00:00",
+  "updated_at": "2026-03-30T09:08:30.119323+00:00",
   "market": {
-    "brent_usd": 108.23,
+    "brent_usd": 107.69,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 31.05,
+    "vix": 30.64,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.4
+    "insurance_spread_pct": 6.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "30 MAR 2026 · 08:00 UTC",
+      "headline": "ESTADOS UNIDOS FLEXIBILIZA EL BLOQUEO A CUBA Y AUTORIZA LA LLEGADA DE UN BUQUE P",
+      "detail": "El barco con 700.000 barriles de crudo ha llegado a la isla este lunes al puerto de Matanzas, a unos 100 kilómetros de La Habana",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 MAR 2026 · 05:40 UTC",
       "headline": "CANADIAN YOUTUBER CAPTURES CONGESTION OF DOZENS OF SHIPS IN HORMUZ STRAIT",
@@ -33,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "29 MAR 2026 · 13:32 UTC",
-      "headline": "IRANIAN ATTACKS ACROSS GULF CONTINUE AS MAJOR INDUSTRIAL SITES HIT",
-      "detail": "A number of people are said to have been injured after attacks on aluminium sites in the UAE and Bahrain.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "29 MAR 2026 · 04:39 UTC",
       "headline": "US PREPARES FOR ‘WEEKS‘ OF GROUND RAIDS IN IRAN – WAPO",
       "detail": "The US is reportedly preparing options for limited ground operations in Iran, including raids on Kharg Island and near the Strait of Hormuz Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $108.23 (+0.00%)",
-    "VIX: 31.05",
+    "BRENT: $107.69 (+0.00%)",
+    "VIX: 30.64",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
