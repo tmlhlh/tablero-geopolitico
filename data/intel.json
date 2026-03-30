@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-03-30T09:08:30.119323+00:00",
+  "updated_at": "2026-03-30T10:59:00.830175+00:00",
   "market": {
-    "brent_usd": 107.69,
+    "brent_usd": 108.11,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 30.64,
+    "ormuz_flow_pct": 3.9,
+    "vix": 31.28,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.3
+    "insurance_spread_pct": 6.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.9%"
   },
   "events": [
+    {
+      "timestamp": "30 MAR 2026 · 10:44 UTC",
+      "headline": "YEMEN’S HOUTHIS SIDE WITH IRAN: WHO ARE THEY AND HOW MUCH FIREPOWER DO THEY HAVE",
+      "detail": "Houthis in Yemen join Iran in the Middle East conflict, threatening attacks on US allies and potential disruption to Red Sea shipping routes Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "30 MAR 2026 · 09:57 UTC",
+      "headline": "IRAQ RISKS ARAB TIES AS IRAN-ALIGNED GROUPS STRIKE GULF NATIONS",
+      "detail": "Joint Arab condemnation of cross-border attacks exposes Baghdad's failure to control armed proxies on its soil.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "30 MAR 2026 · 09:46 UTC",
+      "headline": "RUSSIAN OIL TANKER REACHES CUBA AFTER TRUMP APPEARS TO LOOSEN BLOCKADE",
+      "detail": "The tanker has reached Cuban waters just hours after Donald Trump said he had \"no problem\" with it arriving.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 MAR 2026 · 08:00 UTC",
       "headline": "ESTADOS UNIDOS FLEXIBILIZA EL BLOQUEO A CUBA Y AUTORIZA LA LLEGADA DE UN BUQUE P",
@@ -31,29 +49,11 @@
       "headline": "RUSSIAN TANKER APPROACHES CUBA DESPITE US OIL BLOCKADE",
       "detail": "Washington will allow a Russian oil tanker to reach Cuba as people need to survive, the US President has said Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS WANTS TO TAKE IRAN’S OIL; KUWAIT POWER SITE HIT",
-      "detail": "Kuwait says an Indian worker has been killed in an Iranian raid as attacks across the Gulf continue.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 MAR 2026 · 04:39 UTC",
-      "headline": "US PREPARES FOR ‘WEEKS‘ OF GROUND RAIDS IN IRAN – WAPO",
-      "detail": "The US is reportedly preparing options for limited ground operations in Iran, including raids on Kharg Island and near the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 MAR 2026 · 21:16 UTC",
-      "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
-      "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.69 (+0.00%)",
-    "VIX: 30.64",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $108.11 (+0.00%)",
+    "VIX: 31.28",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.9%"
   ]
 }
