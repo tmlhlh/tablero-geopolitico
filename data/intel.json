@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-03-30T10:59:00.830175+00:00",
+  "updated_at": "2026-03-30T11:57:22.595808+00:00",
   "market": {
-    "brent_usd": 108.11,
+    "brent_usd": 107.79,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.9,
-    "vix": 31.28,
+    "ormuz_flow_pct": 4.7,
+    "vix": 30.58,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.5
+    "insurance_spread_pct": 6.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.9%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.7%"
   },
   "events": [
+    {
+      "timestamp": "30 MAR 2026 · 11:12 UTC",
+      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
+      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 MAR 2026 · 11:12 UTC",
+      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 MAR 2026 · 11:10 UTC",
+      "headline": "SIRENS HEARD ACROSS HAIFA PORT",
+      "detail": "Sirens were heard across the port of Haifa on Monday, amid expectations of incoming missiles.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 MAR 2026 · 10:44 UTC",
       "headline": "YEMEN’S HOUTHIS SIDE WITH IRAN: WHO ARE THEY AND HOW MUCH FIREPOWER DO THEY HAVE",
@@ -31,29 +49,11 @@
       "headline": "RUSSIAN OIL TANKER REACHES CUBA AFTER TRUMP APPEARS TO LOOSEN BLOCKADE",
       "detail": "The tanker has reached Cuban waters just hours after Donald Trump said he had \"no problem\" with it arriving.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 08:00 UTC",
-      "headline": "ESTADOS UNIDOS FLEXIBILIZA EL BLOQUEO A CUBA Y AUTORIZA LA LLEGADA DE UN BUQUE P",
-      "detail": "El barco con 700.000 barriles de crudo ha llegado a la isla este lunes al puerto de Matanzas, a unos 100 kilómetros de La Habana",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 05:40 UTC",
-      "headline": "CANADIAN YOUTUBER CAPTURES CONGESTION OF DOZENS OF SHIPS IN HORMUZ STRAIT",
-      "detail": "A Canadian activist captured dozens of oil tankers and cargo ships crowding the vital waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 00:36 UTC",
-      "headline": "RUSSIAN TANKER APPROACHES CUBA DESPITE US OIL BLOCKADE",
-      "detail": "Washington will allow a Russian oil tanker to reach Cuba as people need to survive, the US President has said Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.11 (+0.00%)",
-    "VIX: 31.28",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.9%"
+    "BRENT: $107.79 (+0.00%)",
+    "VIX: 30.58",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.7%"
   ]
 }
