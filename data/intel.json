@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-30T02:08:14.041109+00:00",
+  "updated_at": "2026-03-30T05:21:34.711364+00:00",
   "market": {
-    "brent_usd": 108.21,
+    "brent_usd": 107.61,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -17,7 +17,7 @@
     {
       "timestamp": "30 MAR 2026 · 00:36 UTC",
       "headline": "RUSSIAN TANKER APPROACHES CUBA DESPITE US OIL BLOCKADE",
-      "detail": "Washington will not intercept a Russian oil tanker en route to Cuba, a US official told the NYT Read Full Article at RT.com",
+      "detail": "Washington will allow a Russian oil tanker to reach Cuba as people need to survive, the US President has said Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -33,26 +33,26 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "29 MAR 2026 · 16:47 UTC",
-      "headline": "HOUTHIS OPEN NEW FRONT AGAINST ISRAEL, IS RED SEA SHIPPING AT RISK?",
-      "detail": "The Houthis in Yemen have launched their first attacks on Israel, opening a new front in the month-long regional war.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 MAR 2026 · 15:09 UTC",
-      "headline": "HOUTHIS OPEN NEW FRONT IN IRAN WAR: WILL YEMENI GROUP BLOCK BAB AL-MANDEB?",
-      "detail": "Blockade of strait, one of the world's busiest maritime routes, would prove disastrous for global economy.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "29 MAR 2026 · 13:32 UTC",
       "headline": "IRANIAN ATTACKS ACROSS GULF CONTINUE AS MAJOR INDUSTRIAL SITES HIT",
       "detail": "A number of people are said to have been injured after attacks on aluminium sites in the UAE and Bahrain.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "29 MAR 2026 · 04:39 UTC",
+      "headline": "US PREPARES FOR ‘WEEKS‘ OF GROUND RAIDS IN IRAN – WAPO",
+      "detail": "The US is reportedly preparing options for limited ground operations in Iran, including raids on Kharg Island and near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAR 2026 · 21:16 UTC",
+      "headline": "RUBIO SAYS US EXPECTS TO FINISH IRAN WAR 'IN NEXT COUPLE OF WEEKS'",
+      "detail": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.21 (+0.00%)",
+    "BRENT: $107.61 (+0.00%)",
     "VIX: 31.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
