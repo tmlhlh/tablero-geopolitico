@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-30T05:21:34.711364+00:00",
+  "updated_at": "2026-03-30T07:22:59.569826+00:00",
   "market": {
-    "brent_usd": 107.61,
+    "brent_usd": 108.23,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "30 MAR 2026 · 05:40 UTC",
+      "headline": "CANADIAN YOUTUBER CAPTURES CONGESTION OF DOZENS OF SHIPS IN HORMUZ STRAIT",
+      "detail": "A Canadian activist captured dozens of oil tankers and cargo ships crowding the vital waterway.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "30 MAR 2026 · 00:36 UTC",
       "headline": "RUSSIAN TANKER APPROACHES CUBA DESPITE US OIL BLOCKADE",
       "detail": "Washington will allow a Russian oil tanker to reach Cuba as people need to survive, the US President has said Read Full Article at RT.com",
@@ -25,12 +31,6 @@
       "headline": "IRAN WAR LIVE: TRUMP SAYS WANTS TO TAKE IRAN’S OIL; KUWAIT POWER SITE HIT",
       "detail": "Kuwait says an Indian worker has been killed in an Iranian raid as attacks across the Gulf continue.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 MAR 2026 · 17:05 UTC",
-      "headline": "‘WE CAN INSURE THE SHIP, BUT WE CANNOT INSURE A HUMAN LIFE.’",
-      "detail": "International Maritime Organization chief Arsenio Dominguez warns of 20,000 seafarers stranded in the Strait of Hormuz.",
-      "severity": "INFO"
     },
     {
       "timestamp": "29 MAR 2026 · 13:32 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.61 (+0.00%)",
+    "BRENT: $108.23 (+0.00%)",
     "VIX: 31.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
