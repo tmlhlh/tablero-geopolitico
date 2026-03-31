@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-03-31T07:09:03.854662+00:00",
+  "updated_at": "2026-03-31T08:54:48.891942+00:00",
   "market": {
-    "brent_usd": 107.01,
+    "brent_usd": 107.27,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 30.61,
+    "vix": 28.89,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.3
+    "insurance_spread_pct": 5.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "31 MAR 2026 · 08:39 UTC",
+      "headline": "US SEEKS TO PASS THE BUCK ON HORMUZ CRISIS",
+      "detail": "The Trump administration expects other nations to ensure free transit through the Strait of Hormuz after its war with Iran Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 07:29 UTC",
+      "headline": "THREE SCENARIOS FOR THE STRAIT OF HORMUZ",
+      "detail": "Two military scenarios and one diplomatic one emerge, with Pakistan playing a crucial mediatory role.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 06:45 UTC",
+      "headline": "DRONE ATTACK SPARKS FIRE ON KUWAITI TANKER IN UAE AMID IRAN’S GULF ATTACKS",
+      "detail": "Dubai authorities say blaze contained with no oil leakage or injuries reported, as attacks are reported across the Gulf.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "31 MAR 2026 · 02:00 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
@@ -27,33 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: KUWAITI OIL TANKER HIT IN DUBAI PORT; 3 UN SOLDIERS KILLED",
-      "detail": "Saudi, Qatari, Jordanian leaders meet as Iran continues to retaliate for US-Israeli raids with attacks on Gulf nations.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "30 MAR 2026 · 23:10 UTC",
       "headline": "INSIDE THE COCKPIT OF RAF TANKER DURING DEFENSIVE MISSION AGAINST IRANIAN DRONES",
       "detail": "Defence correspondent Jonathan Beale flies onboard a Royal Air Force Voyager as it refuels jets in the Middle East.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 16:08 UTC",
-      "headline": "TRUMP ELEVA LAS AMENAZAS CONTRA IRÁN PESE A PRESUMIR DE PROGRESOS EN LAS NEGOCIA",
-      "detail": "Teherán da pasos para abandonar el Tratado de No Proliferación Nuclear tras los avisos de EE UU de que arrasará la República Islámica si no reabre el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 10:44 UTC",
-      "headline": "YEMEN’S HOUTHIS SIDE WITH IRAN: WHO ARE THEY AND HOW MUCH FIREPOWER DO THEY HAVE",
-      "detail": "Houthis in Yemen join Iran in the Middle East conflict, threatening attacks on US allies and potential disruption to Red Sea shipping routes Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.01 (+0.00%)",
-    "VIX: 30.61",
+    "BRENT: $107.27 (+0.00%)",
+    "VIX: 28.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
