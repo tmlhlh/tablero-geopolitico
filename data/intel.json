@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-31T02:04:01.175668+00:00",
+  "updated_at": "2026-03-31T05:06:45.411914+00:00",
   "market": {
-    "brent_usd": 105.13,
+    "brent_usd": 107.18,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -35,13 +35,7 @@
     {
       "timestamp": "30 MAR 2026 · 23:10 UTC",
       "headline": "INSIDE THE COCKPIT OF RAF TANKER DURING DEFENSIVE MISSION AGAINST IRANIAN DRONES",
-      "detail": "Defence correspondent Jonathan Beale flies onboard an RAF Voyager as it refuels jets in the Middle East.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 18:56 UTC",
-      "headline": "CUBA WAITS FOR RUSSIAN OIL TANKER TO ARRIVE AMID US BLOCKADE",
-      "detail": "After a US blockade, Cuba is waiting on the arrival of a sanctioned Russian tanker carrying thousands of barrels of oil.",
+      "detail": "Defence correspondent Jonathan Beale flies onboard a Royal Air Force Voyager as it refuels jets in the Middle East.",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "TRUMP ELEVA LAS AMENAZAS CONTRA IRÁN PESE A PRESUMIR DE PROGRESOS EN LAS NEGOCIA",
       "detail": "Teherán da pasos para abandonar el Tratado de No Proliferación Nuclear tras los avisos de EE UU de que arrasará la República Islámica si no reabre el estrecho de Ormuz",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "30 MAR 2026 · 10:44 UTC",
+      "headline": "YEMEN’S HOUTHIS SIDE WITH IRAN: WHO ARE THEY AND HOW MUCH FIREPOWER DO THEY HAVE",
+      "detail": "Houthis in Yemen join Iran in the Middle East conflict, threatening attacks on US allies and potential disruption to Red Sea shipping routes Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.13 (+0.00%)",
+    "BRENT: $107.18 (+0.00%)",
     "VIX: 30.61",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
