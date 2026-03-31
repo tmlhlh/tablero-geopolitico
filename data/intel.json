@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-31T05:06:45.411914+00:00",
+  "updated_at": "2026-03-31T07:09:03.854662+00:00",
   "market": {
-    "brent_usd": 107.18,
+    "brent_usd": 107.01,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -28,7 +28,7 @@
     },
     {
       "timestamp": "31 MAR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: KUWAITI OIL TANKER HIT IN DUBAI PORT; 3 UN TROOPS KILLED",
+      "headline": "IRAN WAR LIVE: KUWAITI OIL TANKER HIT IN DUBAI PORT; 3 UN SOLDIERS KILLED",
       "detail": "Saudi, Qatari, Jordanian leaders meet as Iran continues to retaliate for US-Israeli raids with attacks on Gulf nations.",
       "severity": "CRÍTICO"
     },
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.18 (+0.00%)",
+    "BRENT: $107.01 (+0.00%)",
     "VIX: 30.61",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
