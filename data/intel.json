@@ -1,29 +1,41 @@
 {
-  "updated_at": "2026-03-30T23:32:00.521896+00:00",
+  "updated_at": "2026-03-31T02:04:01.175668+00:00",
   "market": {
-    "brent_usd": 109.73,
+    "brent_usd": 105.13,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 6.8,
+    "ormuz_flow_pct": 8.5,
     "vix": 30.61,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 6.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 6.8%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "30 MAR 2026 · 20:12 UTC",
+      "timestamp": "31 MAR 2026 · 02:00 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "30 MAR 2026 · 20:10 UTC",
+      "timestamp": "31 MAR 2026 · 01:03 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: KUWAITI OIL TANKER HIT IN DUBAI PORT; 3 UN TROOPS KILLED",
+      "detail": "Saudi, Qatari, Jordanian leaders meet as Iran continues to retaliate for US-Israeli raids with attacks on Gulf nations.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "30 MAR 2026 · 23:10 UTC",
+      "headline": "INSIDE THE COCKPIT OF RAF TANKER DURING DEFENSIVE MISSION AGAINST IRANIAN DRONES",
+      "detail": "Defence correspondent Jonathan Beale flies onboard an RAF Voyager as it refuels jets in the Middle East.",
       "severity": "INFO"
     },
     {
@@ -33,27 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "30 MAR 2026 · 16:51 UTC",
-      "headline": "‘STRAIT OF HORMUZ WILL REOPEN ONE WAY OR ANOTHER’, RUBIO TELLS AL JAZEERA",
-      "detail": "Secretary of State Marco Rubio has told Al Jazeera that the US will not accept Iran’s claim over the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "30 MAR 2026 · 16:08 UTC",
       "headline": "TRUMP ELEVA LAS AMENAZAS CONTRA IRÁN PESE A PRESUMIR DE PROGRESOS EN LAS NEGOCIA",
       "detail": "Teherán da pasos para abandonar el Tratado de No Proliferación Nuclear tras los avisos de EE UU de que arrasará la República Islámica si no reabre el estrecho de Ormuz",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "30 MAR 2026 · 14:46 UTC",
-      "headline": "RUSSIAN OIL TANKER REACHES CUBA AFTER TRUMP APPEARS TO LOOSEN BLOCKADE",
-      "detail": "The tanker has reached Cuban waters just hours after Donald Trump said he had \"no problem\" with it.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.73 (+0.00%)",
+    "BRENT: $105.13 (+0.00%)",
     "VIX: 30.61",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 6.8%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
