@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-31T14:59:05.868895+00:00",
+  "updated_at": "2026-03-31T16:09:45.749139+00:00",
   "market": {
-    "brent_usd": 107.78,
+    "brent_usd": 107.18,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 27.68,
+    "vix": 27.65,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 5.2
   },
@@ -15,27 +15,33 @@
   },
   "events": [
     {
-      "timestamp": "31 MAR 2026 · 14:22 UTC",
+      "timestamp": "31 MAR 2026 · 15:19 UTC",
+      "headline": "US DEFENCE SECRETARY CALLS ON ALLIES TO 'STEP UP' OVER STRAIT OF HORMUZ",
+      "detail": "The defence secretary's comments came after US President Donald Trump told other nations to \"go get your own oil\".",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 15:06 UTC",
+      "headline": "TRUMP SE DESENTIENDE DEL ESTRECHO DE ORMUZ, PESE A QUE PUSO SU REAPERTURA COMO C",
+      "detail": "“Hagan acopio de valentía y tomen el petróleo ustedes mismos”, dice el presidente de EE UU a los países que usan la estratégica vía marítima",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 15:04 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 14:22 UTC",
+      "timestamp": "31 MAR 2026 · 15:04 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 14:04 UTC",
-      "headline": "IRÁN ESTABLECE PEAJES EN EL ESTRECHO DE ORMUZ",
-      "detail": "Un comité del Parlamento iraní aprobó la iniciativa que restringiría aún más el flujo marítimo sobre el paso estratégico; desde Washington advierten que Trump tiene “varias opciones” para evitarlo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 13:41 UTC",
-      "headline": "TRUMP REPROCHÓ A SUS ALIADOS LA FALTA DE APOYO EN LA GUERRA Y LLAMÓ A METERSE EN",
-      "detail": "El presidente apuntó contra el Reino Unido por no involucrarse en el conflicto y dijo que su país no estará siempre para ayudar a los demás; EE.UU. está dispuesto a llegar a un acuerdo con Irán, afirm",
+      "timestamp": "31 MAR 2026 · 14:53 UTC",
+      "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
+      "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "RUSSIAN OIL TANKER DOCKS IN CUBA ENDING NEAR-TOTAL BLOCKADE",
       "detail": "A Russian oil tanker has docked in Cuba, providing temporary relief after months of shortages.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 10:54 UTC",
-      "headline": "DRONES STRIKE RUSSIA’S UST-LUGA PORT AGAIN AS EU OFFICIALS VISIT UKRAINE",
-      "detail": "Attacks come as Ukraine says its air defences shot down 267 out of 289 drones launched by Russia overnight.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.78 (+0.00%)",
-    "VIX: 27.68",
+    "BRENT: $107.18 (+0.00%)",
+    "VIX: 27.65",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
