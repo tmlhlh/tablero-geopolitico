@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-31T21:36:29.876981+00:00",
+  "updated_at": "2026-03-31T22:31:32.746339+00:00",
   "market": {
-    "brent_usd": 103.28,
+    "brent_usd": 104.16,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "31 MAR 2026 · 20:11 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
+      "timestamp": "31 MAR 2026 · 22:22 UTC",
+      "headline": "TRUMP SE DESENTIENDE DEL ESTRECHO DE ORMUZ, PESE A QUE PUSO SU REAPERTURA COMO C",
+      "detail": "El presidente de Estados Unidos prevé la salida de sus tropas “en dos o tres semanas”, algo que asegura que “desplomará” los precios del petróleo",
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 19:45 UTC",
-      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
-      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "timestamp": "31 MAR 2026 · 21:25 UTC",
+      "headline": "RUSSIAN TANKER REACHES CUBA AMID CRITICAL ENERGY SHORTAGE",
+      "detail": "Russian tanker delivers enough fuel to meet Cuba’s energy needs for up to 10 days, following a three-month blockade.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 20:11 UTC",
+      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
@@ -33,26 +39,20 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "31 MAR 2026 · 16:01 UTC",
-      "headline": "TRUMP ATTACKS NATO ALLIES AS PRESSURE MOUNTS OVER STRAIT OF HORMUZ",
-      "detail": "Al Jazeera’s Alan Fisher explains what Trump’s latest criticism of US allies means.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 15:06 UTC",
-      "headline": "TRUMP SE DESENTIENDE DEL ESTRECHO DE ORMUZ, PESE A QUE PUSO SU REAPERTURA COMO C",
-      "detail": "“Hagan acopio de valentía y tomen el petróleo ustedes mismos”, dice el presidente de EE UU a los países que usan la estratégica vía marítima",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "31 MAR 2026 · 14:53 UTC",
       "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
       "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 12:51 UTC",
+      "headline": "RUSSIAN OIL TANKER DOCKS IN CUBA ENDING NEAR-TOTAL BLOCKADE",
+      "detail": "A Russian oil tanker has docked in Cuba, providing temporary relief after months of shortages.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.28 (+0.00%)",
+    "BRENT: $104.16 (+0.00%)",
     "VIX: 25.25",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
