@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-03-31T11:44:56.817593+00:00",
+  "updated_at": "2026-03-31T13:10:57.771497+00:00",
   "market": {
-    "brent_usd": 107.55,
+    "brent_usd": 107.33,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 28.64,
+    "vix": 28.14,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.6
+    "insurance_spread_pct": 5.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "31 MAR 2026 · 11:32 UTC",
-      "headline": "TRUMP REPROCHÓ A SUS ALIADOS LA FALTA DE APOYO EN LA GUERRA Y LLAMÓ A METERSE EN",
-      "detail": "El presidente de Estados Unidos apuntó a sus aliados por no querer involucrarse en la guerra contra Irán",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 11:05 UTC",
+      "timestamp": "31 MAR 2026 · 13:09 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 11:05 UTC",
+      "timestamp": "31 MAR 2026 · 13:08 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 12:46 UTC",
+      "headline": "TRUMP REPROCHÓ A SUS ALIADOS LA FALTA DE APOYO EN LA GUERRA Y LLAMÓ A METERSE EN",
+      "detail": "El presidente de Estados Unidos apuntó contra el Reino Unido por no involucrarse en el conflicto y dijo que su país no estará siempre para ayudar a los demás",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.55 (+0.00%)",
-    "VIX: 28.64",
+    "BRENT: $107.33 (+0.00%)",
+    "VIX: 28.14",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
