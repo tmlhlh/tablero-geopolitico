@@ -1,42 +1,36 @@
 {
-  "updated_at": "2026-03-31T18:57:39.053292+00:00",
+  "updated_at": "2026-03-31T19:56:10.464506+00:00",
   "market": {
-    "brent_usd": 104.55,
+    "brent_usd": 104.5,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.11,
+    "vix": 25.24,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.7
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "31 MAR 2026 · 18:52 UTC",
-      "headline": "PUTIN STEPS UP MIDDLE EAST DIPLOMACY AS US‑ISRAELI STRIKES ON IRAN CONTINUE (PHO",
-      "detail": "Russian President Vladimir Putin has called for de‑escalation of the Middle East war as tanker attacks and rising fuel costs add to tensions Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 18:26 UTC",
+      "timestamp": "31 MAR 2026 · 19:45 UTC",
       "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 18:26 UTC",
+      "timestamp": "31 MAR 2026 · 19:45 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 17:48 UTC",
-      "headline": "TRUMP REPROCHÓ A SUS ALIADOS LA FALTA DE APOYO EN LA GUERRA Y LLAMÓ A METERSE EN",
-      "detail": "El presidente apuntó contra el Reino Unido por no involucrarse en el conflicto y dijo que su país no estará siempre para ayudar a los demás; EE.UU. está dispuesto a llegar a un acuerdo con Irán, afirm",
-      "severity": "INFO"
+      "timestamp": "31 MAR 2026 · 18:52 UTC",
+      "headline": "PUTIN STEPS UP MIDDLE EAST DIPLOMACY AS US‑ISRAELI STRIKES ON IRAN CONTINUE (PHO",
+      "detail": "Russian President Vladimir Putin has called for de‑escalation of the Middle East war as tanker attacks and rising fuel costs add to tensions Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "31 MAR 2026 · 16:01 UTC",
@@ -49,11 +43,17 @@
       "headline": "TRUMP SE DESENTIENDE DEL ESTRECHO DE ORMUZ, PESE A QUE PUSO SU REAPERTURA COMO C",
       "detail": "“Hagan acopio de valentía y tomen el petróleo ustedes mismos”, dice el presidente de EE UU a los países que usan la estratégica vía marítima",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 14:53 UTC",
+      "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
+      "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.55 (+0.00%)",
-    "VIX: 26.11",
+    "BRENT: $104.5 (+0.00%)",
+    "VIX: 25.24",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
