@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-01T09:00:29.981543+00:00",
+  "updated_at": "2026-04-01T10:51:50.252974+00:00",
   "market": {
-    "brent_usd": 102.22,
+    "brent_usd": 103.18,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 24.76,
+    "vix": 24.84,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.2
   },
@@ -19,12 +19,6 @@
       "headline": "TRUMP SUGIERE UN NUEVO PLAZO PARA EL FINAL DE LA GUERRA CON IRÁN Y LANZA OTRO ME",
       "detail": "El presidente norteamericano dijo que la operación militar podría terminar en “dos o tres semanas”",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: ‘MISSILE FROM IRAN’ HITS OIL TANKER OFF QATAR’S COAST",
-      "detail": "One of three missiles launched from Iran hit an oil tanker off Qatar's coast, no injuries reported.",
-      "severity": "INFO"
     },
     {
       "timestamp": "31 MAR 2026 · 22:48 UTC",
@@ -40,7 +34,7 @@
     },
     {
       "timestamp": "31 MAR 2026 · 18:52 UTC",
-      "headline": "TRUMP EXPECTS IRAN WAR TO END IN ‘TWO TO THREE WEEKS’ AS ISRAEL BOMBS BEIRUT (VI",
+      "headline": "US VOWS TO ‘REEXAMINE’ NATO TIES AS RIFT WIDENS OVER WAR ON IRAN (VIDEOS, PHOTOS",
       "detail": "Russian President Vladimir Putin has called for de‑escalation of the Middle East war as tanker attacks and rising fuel costs add to tensions Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
@@ -49,11 +43,17 @@
       "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
       "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 12:51 UTC",
+      "headline": "RUSSIAN OIL TANKER DOCKS IN CUBA ENDING NEAR-TOTAL BLOCKADE",
+      "detail": "A Russian oil tanker has docked in Cuba, providing temporary relief after months of shortages.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.22 (+0.00%)",
-    "VIX: 24.76",
+    "BRENT: $103.18 (+0.00%)",
+    "VIX: 24.84",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
