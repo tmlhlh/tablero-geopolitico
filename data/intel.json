@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-01T22:34:16.269145+00:00",
+  "updated_at": "2026-04-01T23:33:16.376218+00:00",
   "market": {
-    "brent_usd": 100.55,
+    "brent_usd": 100.44,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.55 (+0.00%)",
+    "BRENT: $100.44 (+0.00%)",
     "VIX: 24.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
