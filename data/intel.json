@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-01T02:12:18.425277+00:00",
+  "updated_at": "2026-04-01T05:21:41.523834+00:00",
   "market": {
-    "brent_usd": 105.66,
+    "brent_usd": 104.6,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,18 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "01 APR 2026 · 00:25 UTC",
-      "headline": "POR QUÉ IRÁN MANTIENE EL CONTROL SOBRE EL ESTRECHO DE ORMUZ, PESE A QUE “EL RÉGI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el despliegue de tropas de Estados Unidos y la persistencia de la capacidad nuclear del país rival en medio de la guerra en Medio Oriente",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 APR 2026 · 00:05 UTC",
-      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
-      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
-      "severity": "INFO"
-    },
     {
       "timestamp": "31 MAR 2026 · 23:03 UTC",
       "headline": "AFTER STRAIT OF HORMUZ OPENS, TURMOIL WOULD STILL LAST MONTHS, ANALYSTS SAY",
@@ -49,10 +37,22 @@
       "headline": "RUSSIAN TANKER REACHES CUBA AMID CRITICAL ENERGY SHORTAGE",
       "detail": "Russian tanker delivers enough fuel to meet Cuba’s energy needs for up to 10 days, following a three-month blockade.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 18:52 UTC",
+      "headline": "TRUMP EXPECTS IRAN WAR TO END IN ‘TWO TO THREE WEEKS’ AS ISRAELI JETS BOMB BEIRU",
+      "detail": "Russian President Vladimir Putin has called for de‑escalation of the Middle East war as tanker attacks and rising fuel costs add to tensions Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 14:53 UTC",
+      "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
+      "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.66 (+0.00%)",
+    "BRENT: $104.6 (+0.00%)",
     "VIX: 25.25",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
