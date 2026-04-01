@@ -1,30 +1,42 @@
 {
-  "updated_at": "2026-04-01T15:01:28.285550+00:00",
+  "updated_at": "2026-04-01T16:50:40.937370+00:00",
   "market": {
-    "brent_usd": 101.29,
+    "brent_usd": 101.97,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 24.3,
+    "vix": 23.79,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.1
+    "insurance_spread_pct": 3.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "01 APR 2026 · 14:29 UTC",
-      "headline": "DONALD TRUMP ANUNCIÓ QUE IRÁN LE PIDIÓ UN ALTO EL FUEGO EN LA GUERRA",
-      "detail": "El presidente norteamericano dijo quel o considerará una vez que el estrecho de Ormuz, bloqueado por las fuerzas del régimen, “esté abierto, libre y despejado”; Teherán lo desmintió",
+      "timestamp": "01 APR 2026 · 15:55 UTC",
+      "headline": "UK TO HOST MEETING OF 35 COUNTRIES ON REOPENING STRAIT OF HORMUZ",
+      "detail": "Before talks with 35 countries, UK Prime Minister Keir Starmer says reopening strait 'will not be easy'.",
       "severity": "INFO"
     },
     {
-      "timestamp": "01 APR 2026 · 13:57 UTC",
-      "headline": "IRÁN E ISRAEL INTERCAMBIAN INTENSOS ATAQUES CRUZADOS ANTES DEL ESPERADO DISCURSO",
-      "detail": "Teherán golpeó un petrolero frente a Qatar y el aeropuerto de Kuwait; la Casa Blanca dijo que el mandatario norteamericano dará “una importante actualización sobre Irán” a las 21 hora local",
-      "severity": "CRÍTICO"
+      "timestamp": "01 APR 2026 · 15:42 UTC",
+      "headline": "DONALD TRUMP ANUNCIÓ QUE IRÁN LE PIDIÓ UN ALTO EL FUEGO EN LA GUERRA, PERO EL RÉ",
+      "detail": "El presidente norteamericano dijo que lo considerará una vez que el estrecho de Ormuz, bloqueado por las fuerzas del régimen, “esté abierto, libre y despejado”",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 APR 2026 · 15:32 UTC",
+      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
+      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 APR 2026 · 15:11 UTC",
+      "headline": "IRAN DENIES TRUMP’S CLAIM IRANIAN PRESIDENT REQUESTED CEASEFIRE",
+      "detail": "Donald Trump says US will continue 'blasting Iran into oblivion' until Strait of Hormuz is reopened.",
+      "severity": "INFO"
     },
     {
       "timestamp": "01 APR 2026 · 13:55 UTC",
@@ -33,27 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "01 APR 2026 · 13:38 UTC",
-      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
-      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "01 APR 2026 · 13:11 UTC",
       "headline": "EL REINO UNIDO ACOGERÁ ESTA SEMANA UNA CUMBRE INTERNACIONAL PARA IMPULSAR LA REA",
       "detail": "35 países acudirán al encuentro. Starmer responde a la amenaza de Trump de dejar la OTAN con el compromiso de reforzar la cooperación en defensa con la UE",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 22:48 UTC",
-      "headline": "ASIA'S MIGRANT WORKERS DEBATE IF GULF JOBS ARE WORTH DEADLY RISK OF IRAN WAR",
-      "detail": "Iran's strikes on Gulf states have been especially hard for migrants who have long supported these economies to lift their families back home from poverty.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.29 (+0.00%)",
-    "VIX: 24.3",
+    "BRENT: $101.97 (+0.00%)",
+    "VIX: 23.79",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
