@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-04-01T17:47:05.755862+00:00",
+  "updated_at": "2026-04-01T18:57:17.229080+00:00",
   "market": {
-    "brent_usd": 100.7,
+    "brent_usd": 101.06,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 23.58,
+    "vix": 24.95,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.8
+    "insurance_spread_pct": 4.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "01 APR 2026 · 17:36 UTC",
-      "headline": "MACRON LE RESPONDE A TRUMP Y ASEGURA QUE FRANCIA “NO PARTICIPA” EN LA GUERRA",
-      "detail": "El mandatario francés reiteró su llamado a una desescalada del conflicto; reclamó por una reapertura ordenada en el estrecho de Ormuz",
+      "timestamp": "01 APR 2026 · 18:26 UTC",
+      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
+      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
     },
     {
-      "timestamp": "01 APR 2026 · 17:03 UTC",
-      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
-      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "timestamp": "01 APR 2026 · 18:22 UTC",
+      "headline": "EL REINO UNIDO ACOGERÁ ESTA SEMANA UNA CUMBRE INTERNACIONAL PARA IMPULSAR LA REA",
+      "detail": "35 países acudirán al encuentro. Starmer responde a la amenaza de Trump de dejar la OTAN con el compromiso de reforzar la cooperación en defensa con la UE",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 APR 2026 · 17:36 UTC",
+      "headline": "MACRON LE RESPONDE A TRUMP Y ASEGURA QUE FRANCIA “NO PARTICIPA” EN LA GUERRA",
+      "detail": "El mandatario francés reiteró su llamado a una desescalada del conflicto; reclamó por una reapertura ordenada en el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "CAN RUSSIA HELP FILL THE GLOBAL ENERGY GAP?",
       "detail": "Higher crude prices due to the disruption in the Strait of Hormuz have helped Russia earn more from energy exports.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "01 APR 2026 · 13:11 UTC",
-      "headline": "EL REINO UNIDO ACOGERÁ ESTA SEMANA UNA CUMBRE INTERNACIONAL PARA IMPULSAR LA REA",
-      "detail": "35 países acudirán al encuentro. Starmer responde a la amenaza de Trump de dejar la OTAN con el compromiso de reforzar la cooperación en defensa con la UE",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.7 (+0.00%)",
-    "VIX: 23.58",
+    "BRENT: $101.06 (+0.00%)",
+    "VIX: 24.95",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
