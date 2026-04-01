@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-01T20:51:23.761420+00:00",
+  "updated_at": "2026-04-01T21:38:35.281593+00:00",
   "market": {
-    "brent_usd": 100.36,
+    "brent_usd": 100.3,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -33,26 +33,26 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "01 APR 2026 · 15:11 UTC",
-      "headline": "IRAN DENIES TRUMP’S CLAIM IRANIAN PRESIDENT REQUESTED CEASEFIRE",
-      "detail": "Donald Trump says US will continue 'blasting Iran into oblivion' until Strait of Hormuz is reopened.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 APR 2026 · 13:55 UTC",
-      "headline": "CAN RUSSIA HELP FILL THE GLOBAL ENERGY GAP?",
-      "detail": "Higher crude prices due to the disruption in the Strait of Hormuz have helped Russia earn more from energy exports.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "31 MAR 2026 · 22:48 UTC",
       "headline": "ASIA'S MIGRANT WORKERS DEBATE IF GULF JOBS ARE WORTH DEADLY RISK OF IRAN WAR",
       "detail": "Iran's strikes on Gulf states have been especially hard for migrants who have long supported these economies to lift their families back home from poverty.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 22:22 UTC",
+      "headline": "TRUMP SE DESENTIENDE DEL ESTRECHO DE ORMUZ, PESE A QUE PUSO SU REAPERTURA COMO C",
+      "detail": "El presidente de Estados Unidos prevé la salida de sus tropas “en dos o tres semanas”, algo que asegura que “desplomará” los precios del petróleo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 14:53 UTC",
+      "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
+      "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.36 (+0.00%)",
+    "BRENT: $100.3 (+0.00%)",
     "VIX: 24.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
