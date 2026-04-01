@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-01T16:50:40.937370+00:00",
+  "updated_at": "2026-04-01T17:47:05.755862+00:00",
   "market": {
-    "brent_usd": 101.97,
+    "brent_usd": 100.7,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 23.79,
+    "vix": 23.58,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.9
+    "insurance_spread_pct": 3.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "01 APR 2026 · 17:36 UTC",
+      "headline": "MACRON LE RESPONDE A TRUMP Y ASEGURA QUE FRANCIA “NO PARTICIPA” EN LA GUERRA",
+      "detail": "El mandatario francés reiteró su llamado a una desescalada del conflicto; reclamó por una reapertura ordenada en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 APR 2026 · 17:03 UTC",
+      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
+      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "01 APR 2026 · 15:55 UTC",
       "headline": "UK TO HOST MEETING OF 35 COUNTRIES ON REOPENING STRAIT OF HORMUZ",
       "detail": "Before talks with 35 countries, UK Prime Minister Keir Starmer says reopening strait 'will not be easy'.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 APR 2026 · 15:42 UTC",
-      "headline": "DONALD TRUMP ANUNCIÓ QUE IRÁN LE PIDIÓ UN ALTO EL FUEGO EN LA GUERRA, PERO EL RÉ",
-      "detail": "El presidente norteamericano dijo que lo considerará una vez que el estrecho de Ormuz, bloqueado por las fuerzas del régimen, “esté abierto, libre y despejado”",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 APR 2026 · 15:32 UTC",
-      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
-      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.97 (+0.00%)",
-    "VIX: 23.79",
+    "BRENT: $100.7 (+0.00%)",
+    "VIX: 23.58",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
