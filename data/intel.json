@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-01T19:58:12.451642+00:00",
+  "updated_at": "2026-04-01T20:51:23.761420+00:00",
   "market": {
-    "brent_usd": 100.78,
+    "brent_usd": 100.36,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 24.44,
+    "vix": 24.54,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.1
   },
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "01 APR 2026 · 18:26 UTC",
+      "timestamp": "01 APR 2026 · 19:57 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
@@ -24,12 +24,6 @@
       "timestamp": "01 APR 2026 · 18:22 UTC",
       "headline": "EL REINO UNIDO ACOGERÁ ESTA SEMANA UNA CUMBRE INTERNACIONAL PARA IMPULSAR LA REA",
       "detail": "35 países acudirán al encuentro. Starmer responde a la amenaza de Trump de dejar la OTAN con el compromiso de reforzar la cooperación en defensa con la UE",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 APR 2026 · 17:36 UTC",
-      "headline": "MACRON LE RESPONDE A TRUMP Y ASEGURA QUE FRANCIA “NO PARTICIPA” EN LA GUERRA",
-      "detail": "El mandatario francés reiteró su llamado a una desescalada del conflicto; reclamó por una reapertura ordenada en el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "CAN RUSSIA HELP FILL THE GLOBAL ENERGY GAP?",
       "detail": "Higher crude prices due to the disruption in the Strait of Hormuz have helped Russia earn more from energy exports.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 22:48 UTC",
+      "headline": "ASIA'S MIGRANT WORKERS DEBATE IF GULF JOBS ARE WORTH DEADLY RISK OF IRAN WAR",
+      "detail": "Iran's strikes on Gulf states have been especially hard for migrants who have long supported these economies to lift their families back home from poverty.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.78 (+0.00%)",
-    "VIX: 24.44",
+    "BRENT: $100.36 (+0.00%)",
+    "VIX: 24.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
