@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-04-01T10:51:50.252974+00:00",
+  "updated_at": "2026-04-01T11:50:53.899088+00:00",
   "market": {
-    "brent_usd": 103.18,
+    "brent_usd": 101.36,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 24.84,
+    "vix": 24.26,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.2
+    "insurance_spread_pct": 4.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "01 APR 2026 · 07:00 UTC",
-      "headline": "TRUMP SUGIERE UN NUEVO PLAZO PARA EL FINAL DE LA GUERRA CON IRÁN Y LANZA OTRO ME",
-      "detail": "El presidente norteamericano dijo que la operación militar podría terminar en “dos o tres semanas”",
-      "severity": "CRÍTICO"
+      "timestamp": "01 APR 2026 · 11:08 UTC",
+      "headline": "EL REINO UNIDO ACOGERÁ ESTA SEMANA UNA CUMBRE INTERNACIONAL PARA IMPULSAR LA REA",
+      "detail": "35 países acudirán al encuentro. Starmer responde a la amenaza de Trump de dejar la OTAN con el compromiso de reforzar la cooperación en defensa con la UE",
+      "severity": "INFO"
     },
     {
       "timestamp": "31 MAR 2026 · 22:48 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $103.18 (+0.00%)",
-    "VIX: 24.84",
+    "BRENT: $101.36 (+0.00%)",
+    "VIX: 24.26",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
