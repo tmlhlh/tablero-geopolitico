@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-01T07:16:12.315713+00:00",
+  "updated_at": "2026-04-01T09:00:29.981543+00:00",
   "market": {
-    "brent_usd": 99.87,
+    "brent_usd": 102.22,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.25,
+    "vix": 24.76,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.4
+    "insurance_spread_pct": 4.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -21,9 +21,9 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "31 MAR 2026 · 23:03 UTC",
-      "headline": "AFTER STRAIT OF HORMUZ OPENS, TURMOIL WOULD STILL LAST MONTHS, ANALYSTS SAY",
-      "detail": "Effective shutdown of key waterway could lead to permanent changes in how shipping industry does business.",
+      "timestamp": "01 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: ‘MISSILE FROM IRAN’ HITS OIL TANKER OFF QATAR’S COAST",
+      "detail": "One of three missiles launched from Iran hit an oil tanker off Qatar's coast, no injuries reported.",
       "severity": "INFO"
     },
     {
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 21:25 UTC",
-      "headline": "RUSSIAN TANKER REACHES CUBA AMID CRITICAL ENERGY SHORTAGE",
-      "detail": "Russian tanker delivers enough fuel to meet Cuba’s energy needs for up to 10 days, following a three-month blockade.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "31 MAR 2026 · 18:52 UTC",
-      "headline": "TRUMP EXPECTS IRAN WAR TO END IN ‘TWO TO THREE WEEKS’ AS ISRAELI JETS BOMB BEIRU",
+      "headline": "TRUMP EXPECTS IRAN WAR TO END IN ‘TWO TO THREE WEEKS’ AS ISRAEL BOMBS BEIRUT (VI",
       "detail": "Russian President Vladimir Putin has called for de‑escalation of the Middle East war as tanker attacks and rising fuel costs add to tensions Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 14:53 UTC",
+      "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
+      "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.87 (+0.00%)",
-    "VIX: 25.25",
+    "BRENT: $102.22 (+0.00%)",
+    "VIX: 24.76",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
