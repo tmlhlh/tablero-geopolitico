@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-02T04:36:13.943946+00:00",
+  "updated_at": "2026-04-02T06:10:39.986033+00:00",
   "market": {
-    "brent_usd": 107.44,
+    "brent_usd": 107.81,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "02 APR 2026 · 04:54 UTC",
+      "headline": "TRUMP URGES COUNTRIES ‘GET INVOLVED’ IN WAR ON IRAN IF THEY CAN’T GET FUEL",
+      "detail": "US President Donald Trump says nations that rely on oil from the Strait of Hormuz should build up some delayed courage.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "02 APR 2026 · 01:54 UTC",
       "headline": "TRUMP URGES ALLIES TO ‘GO TO STRAIT OF HORMUZ AND JUST TAKE IT’",
@@ -43,16 +49,10 @@
       "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
       "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 08:39 UTC",
-      "headline": "US SEEKS TO PASS THE BUCK ON HORMUZ CRISIS",
-      "detail": "The Trump administration expects other nations to ensure free transit through the Strait of Hormuz after its war with Iran Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.44 (+0.00%)",
+    "BRENT: $107.81 (+0.00%)",
     "VIX: 24.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
