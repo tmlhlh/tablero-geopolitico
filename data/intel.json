@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-02T02:00:08.293127+00:00",
+  "updated_at": "2026-04-02T04:36:13.943946+00:00",
   "market": {
-    "brent_usd": 105.47,
+    "brent_usd": 107.44,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -16,7 +16,7 @@
   "events": [
     {
       "timestamp": "02 APR 2026 · 01:54 UTC",
-      "headline": "TRUMP URGES ALLIES TO ‘GO TO THE STRAIT OF HORMUZ AND JUST TAKE IT’",
+      "headline": "TRUMP URGES ALLIES TO ‘GO TO STRAIT OF HORMUZ AND JUST TAKE IT’",
       "detail": "US President Donald Trump has urged other countries to help unblock the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
@@ -39,20 +39,20 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "31 MAR 2026 · 22:22 UTC",
-      "headline": "TRUMP SE DESENTIENDE DEL ESTRECHO DE ORMUZ, PESE A QUE PUSO SU REAPERTURA COMO C",
-      "detail": "El presidente de Estados Unidos prevé la salida de sus tropas “en dos o tres semanas”, algo que asegura que “desplomará” los precios del petróleo",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "31 MAR 2026 · 14:53 UTC",
       "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
       "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "31 MAR 2026 · 08:39 UTC",
+      "headline": "US SEEKS TO PASS THE BUCK ON HORMUZ CRISIS",
+      "detail": "The Trump administration expects other nations to ensure free transit through the Strait of Hormuz after its war with Iran Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.47 (+0.00%)",
+    "BRENT: $107.44 (+0.00%)",
     "VIX: 24.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
