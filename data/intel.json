@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-04-02T11:46:48.055294+00:00",
+  "updated_at": "2026-04-02T13:06:02.964753+00:00",
   "market": {
-    "brent_usd": 109.65,
+    "brent_usd": 108.99,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 27.41,
+    "vix": 27.5,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.1
+    "insurance_spread_pct": 5.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "02 APR 2026 · 11:35 UTC",
+      "timestamp": "02 APR 2026 · 12:46 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
     },
     {
-      "timestamp": "02 APR 2026 · 04:54 UTC",
-      "headline": "TRUMP URGES COUNTRIES ‘GET INVOLVED’ IN WAR ON IRAN IF THEY CAN’T GET FUEL",
-      "detail": "US President Donald Trump says nations that rely on oil from the Strait of Hormuz should build up some delayed courage.",
+      "timestamp": "02 APR 2026 · 12:19 UTC",
+      "headline": "MACRON, DESPUÉS DE QUE TRUMP LE ACUSASE DE DEJARSE MALTRATAR POR SU MUJER: “NO E",
+      "detail": "El presidente de EE UU se queja también de que Francia no colabore en el desbloqueo del estrecho de Ormuz, algo que Macron considera “irreal”",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 11:57 UTC",
+      "headline": "PAKISTAN-BOUND SHIPS PASS THROUGH STRAIT OF HORMUZ",
+      "detail": "Two ships have passed through the Strait of Hormuz and arrived at Karachi Port.",
       "severity": "INFO"
     },
     {
@@ -39,21 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "31 MAR 2026 · 14:53 UTC",
-      "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
-      "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 08:39 UTC",
-      "headline": "US SEEKS TO PASS THE BUCK ON HORMUZ CRISIS",
-      "detail": "The Trump administration expects other nations to ensure free transit through the Strait of Hormuz after its war with Iran Read Full Article at RT.com",
-      "severity": "INFO"
+      "timestamp": "01 APR 2026 · 17:31 UTC",
+      "headline": "GULF STATES REPORTEDLY MULLING WAYS TO BYPASS STRAIT OF HORMUZ AMID ENERGY SHOCK",
+      "detail": "Iran has denied Trump’s claim it sought a ceasefire as strikes continue, and the US president prepares a primetime address on the war Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.65 (+0.00%)",
-    "VIX: 27.41",
+    "BRENT: $108.99 (+0.00%)",
+    "VIX: 27.5",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
