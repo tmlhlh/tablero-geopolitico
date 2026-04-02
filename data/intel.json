@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-02T16:59:48.562588+00:00",
+  "updated_at": "2026-04-02T17:54:50.748768+00:00",
   "market": {
-    "brent_usd": 107.58,
+    "brent_usd": 108.41,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.5,
+    "vix": 25.43,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.5
   },
@@ -15,9 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "02 APR 2026 · 16:40 UTC",
+      "timestamp": "02 APR 2026 · 17:29 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 17:15 UTC",
+      "headline": "EL REINO UNIDO REÚNE AL MARGEN DE TRUMP A 40 PAÍSES PARA IMPULSAR LA REAPERTURA ",
+      "detail": "Unos 2.000 buques mercantes y cerca de 20.000 marineros permanecen atrapados por el bloqueo de Irán",
       "severity": "INFO"
     },
     {
@@ -34,8 +40,8 @@
     },
     {
       "timestamp": "02 APR 2026 · 13:27 UTC",
-      "headline": "UK-LED COALITION OF 40 COUNTRIES VOWS ACTION ON HORMUZ STRAIT GRIDLOCK",
-      "detail": "UK PM Keir Starmer urges non-military solutions ahead of coalition meeting to ease gridlock in vital Strait of Hormuz.",
+      "headline": "UK-LED COALITION OF 40 COUNTRIES VOWS ACTION ON HORMUZ STRAIT CLOSURE",
+      "detail": "UK Foreign Secretary Yvette Cooper accused Iran of blockading the waterway 'to hold the global economy hostage'.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "STRAIT OF HORMUZ WON’T RETURN TO PRE-WAR STATUS QUO – IRANIAN OFFICIAL",
       "detail": "Tehran will maintain control of the Strait of Hormuz, an Iranian security official has told RT Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "02 APR 2026 · 12:19 UTC",
-      "headline": "MACRON, DESPUÉS DE QUE TRUMP LE ACUSASE DE DEJARSE MALTRATAR POR SU MUJER: “NO E",
-      "detail": "El presidente de EE UU se queja también de que Francia no colabore en el desbloqueo del estrecho de Ormuz, algo que Macron considera “poco realista”",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.58 (+0.00%)",
-    "VIX: 25.5",
+    "BRENT: $108.41 (+0.00%)",
+    "VIX: 25.43",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
