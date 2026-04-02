@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-04-02T14:52:58.088832+00:00",
+  "updated_at": "2026-04-02T15:58:13.607056+00:00",
   "market": {
-    "brent_usd": 106.54,
+    "brent_usd": 107.81,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 24.68,
+    "vix": 25.41,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.2
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "02 APR 2026 · 14:26 UTC",
-      "headline": "CAN STARMER’S 40-NATION COALITION OPEN THE STRAIT OF HORMUZ?",
-      "detail": "About 20 percent of global oil and gas passes through the Gulf waterway.",
+      "timestamp": "02 APR 2026 · 15:22 UTC",
+      "headline": "US REINFORCEMENTS ARE COMING TO THE GULF – BUT WHAT DOES VICTORY LOOK LIKE?",
+      "detail": "Al Jazeera's defence editor looks at how the US-Israeli attack on Iran has become a regional war",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 15:02 UTC",
+      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
+      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
     },
     {
-      "timestamp": "02 APR 2026 · 13:43 UTC",
-      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
-      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "timestamp": "02 APR 2026 · 14:26 UTC",
+      "headline": "CAN STARMER’S 40-NATION COALITION OPEN THE STRAIT OF HORMUZ?",
+      "detail": "About 20 percent of global oil and gas passes through the Gulf waterway.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "MACRON, DESPUÉS DE QUE TRUMP LE ACUSASE DE DEJARSE MALTRATAR POR SU MUJER: “NO E",
       "detail": "El presidente de EE UU se queja también de que Francia no colabore en el desbloqueo del estrecho de Ormuz, algo que Macron considera “poco realista”",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "02 APR 2026 · 11:57 UTC",
-      "headline": "PAKISTAN-BOUND SHIPS PASS THROUGH STRAIT OF HORMUZ",
-      "detail": "Two ships have passed through the Strait of Hormuz and arrived at Karachi Port.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.54 (+0.00%)",
-    "VIX: 24.68",
+    "BRENT: $107.81 (+0.00%)",
+    "VIX: 25.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
