@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-02T22:28:16.752603+00:00",
+  "updated_at": "2026-04-02T23:31:55.585625+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 23.87,
+    "vix": 24.54,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.9
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "02 APR 2026 · 19:19 UTC",
-      "headline": "GRAN BRETAÑA BUSCA LIDERAR UNA MOVILIZACIÓN COLECTIVA DE PAÍSES PARA LIBERAR EL ",
-      "detail": "Más de 40 naciones reclamaron la apertura inmediata del estratégico paso marítimo, mientras crece la presión internacional sobre Irán y se disparan los precios de la energía",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "02 APR 2026 · 18:40 UTC",
       "headline": "GCC CHIEF URGES UN TO HALT IRANIAN ATTACKS, PROTECT GULF WATERWAYS",
       "detail": "Jassim al-Budaiwi calls on UN Security Council to guarantee 'uninterrupted navigation through all strategic waterways'.",
@@ -49,11 +43,17 @@
       "headline": "CAN RUSSIA HELP FILL THE GLOBAL ENERGY GAP?",
       "detail": "Higher crude prices due to the disruption in the Strait of Hormuz have helped Russia earn more from energy exports.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 17:15 UTC",
+      "headline": "EL REINO UNIDO REÚNE AL MARGEN DE TRUMP A 40 PAÍSES PARA IMPULSAR LA REAPERTURA ",
+      "detail": "Unos 2.000 buques mercantes y cerca de 20.000 marineros permanecen atrapados por el bloqueo de Irán",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $109.05 (+0.00%)",
-    "VIX: 23.87",
+    "VIX: 24.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
