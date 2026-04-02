@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-01T23:33:16.376218+00:00",
+  "updated_at": "2026-04-02T02:00:08.293127+00:00",
   "market": {
-    "brent_usd": 100.44,
+    "brent_usd": 105.47,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "01 APR 2026 · 18:22 UTC",
-      "headline": "EL REINO UNIDO ACOGERÁ ESTA SEMANA UNA CUMBRE INTERNACIONAL PARA IMPULSAR LA REA",
-      "detail": "35 países acudirán al encuentro. Starmer responde a la amenaza de Trump de dejar la OTAN con el compromiso de reforzar la cooperación en defensa con la UE",
+      "timestamp": "02 APR 2026 · 01:54 UTC",
+      "headline": "TRUMP URGES ALLIES TO ‘GO TO THE STRAIT OF HORMUZ AND JUST TAKE IT’",
+      "detail": "US President Donald Trump has urged other countries to help unblock the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
-      "timestamp": "01 APR 2026 · 15:55 UTC",
-      "headline": "UK TO HOST MEETING OF 35 COUNTRIES ON REOPENING STRAIT OF HORMUZ",
-      "detail": "Before talks with 35 countries, UK Prime Minister Keir Starmer says reopening strait 'will not be easy'.",
+      "timestamp": "02 APR 2026 · 01:05 UTC",
+      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
+      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 APR 2026 · 18:22 UTC",
+      "headline": "EL REINO UNIDO ACOGERÁ ESTA SEMANA UNA CUMBRE INTERNACIONAL PARA IMPULSAR LA REA",
+      "detail": "35 países acudirán al encuentro. Starmer responde a la amenaza de Trump de dejar la OTAN con el compromiso de reforzar la cooperación en defensa con la UE",
       "severity": "INFO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
       "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 08:39 UTC",
-      "headline": "US SEEKS TO PASS THE BUCK ON HORMUZ CRISIS",
-      "detail": "The Trump administration expects other nations to ensure free transit through the Strait of Hormuz after its war with Iran Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.44 (+0.00%)",
+    "BRENT: $105.47 (+0.00%)",
     "VIX: 24.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
