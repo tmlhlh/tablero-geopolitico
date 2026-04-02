@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-02T17:54:50.748768+00:00",
+  "updated_at": "2026-04-02T18:52:49.445536+00:00",
   "market": {
-    "brent_usd": 108.41,
+    "brent_usd": 108.63,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.43,
+    "vix": 25.33,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.5
+    "insurance_spread_pct": 4.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "02 APR 2026 · 17:29 UTC",
+      "timestamp": "02 APR 2026 · 18:48 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $108.41 (+0.00%)",
-    "VIX: 25.43",
+    "BRENT: $108.63 (+0.00%)",
+    "VIX: 25.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
