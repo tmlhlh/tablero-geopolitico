@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T02:01:42.056598+00:00",
+  "updated_at": "2026-04-03T05:02:03.489482+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "03 APR 2026 · 02:42 UTC",
+      "headline": "EL CONSEJO DE SEGURIDAD DE LA ONU VOTARÁ UNA PROPUESTA DE BAHRÉIN SOBRE EL ESTRE",
+      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
     {
       "timestamp": "03 APR 2026 · 01:05 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
@@ -42,12 +48,6 @@
       "timestamp": "02 APR 2026 · 18:40 UTC",
       "headline": "CAN RUSSIA HELP FILL THE GLOBAL ENERGY GAP?",
       "detail": "Higher crude prices due to the disruption in the Strait of Hormuz have helped Russia earn more from energy exports.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 APR 2026 · 17:15 UTC",
-      "headline": "EL REINO UNIDO REÚNE AL MARGEN DE TRUMP A 40 PAÍSES PARA IMPULSAR LA REAPERTURA ",
-      "detail": "Unos 2.000 buques mercantes y cerca de 20.000 marineros permanecen atrapados por el bloqueo de Irán",
       "severity": "INFO"
     }
   ],
