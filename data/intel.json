@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T05:02:03.489482+00:00",
+  "updated_at": "2026-04-03T07:03:52.239015+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "03 APR 2026 · 05:00 UTC",
+      "headline": "POR QUÉ A EE.UU. LE DEJÓ DE IMPORTAR AHORA EL ESTRECHO DE ORMUZ Y SE CONCENTRA E",
+      "detail": "El analista internacional Andrés Repetto detalló en diálogo con LN+ el cambio de prioridades de Washington; la administración norteamericana relega el control de las rutas comerciales para centrar su ",
+      "severity": "INFO"
+    },
     {
       "timestamp": "03 APR 2026 · 02:42 UTC",
       "headline": "EL CONSEJO DE SEGURIDAD DE LA ONU VOTARÁ UNA PROPUESTA DE BAHRÉIN SOBRE EL ESTRE",
@@ -39,15 +45,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "02 APR 2026 · 18:40 UTC",
-      "headline": "GCC CHIEF URGES UN TO HALT IRANIAN ATTACKS, PROTECT GULF WATERWAYS",
-      "detail": "Jassim al-Budaiwi calls on UN Security Council to guarantee 'uninterrupted navigation through all strategic waterways'.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 APR 2026 · 18:40 UTC",
-      "headline": "CAN RUSSIA HELP FILL THE GLOBAL ENERGY GAP?",
-      "detail": "Higher crude prices due to the disruption in the Strait of Hormuz have helped Russia earn more from energy exports.",
+      "timestamp": "02 APR 2026 · 17:15 UTC",
+      "headline": "EL REINO UNIDO REÚNE AL MARGEN DE TRUMP A 40 PAÍSES PARA IMPULSAR LA REAPERTURA ",
+      "detail": "Unos 2.000 buques mercantes y cerca de 20.000 marineros permanecen atrapados por el bloqueo de Irán",
       "severity": "INFO"
     }
   ],
