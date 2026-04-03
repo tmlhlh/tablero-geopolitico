@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T11:35:56.232922+00:00",
+  "updated_at": "2026-04-03T12:56:59.141910+00:00",
   "market": {
     "brent_usd": 76.92,
     "brent_chg": 0.0
@@ -15,14 +15,14 @@
   },
   "events": [
     {
-      "timestamp": "03 APR 2026 · 05:00 UTC",
+      "timestamp": "03 APR 2026 · 12:34 UTC",
       "headline": "POR QUÉ A EE.UU. LE DEJÓ DE IMPORTAR AHORA EL ESTRECHO DE ORMUZ Y SE CONCENTRA E",
       "detail": "El analista internacional Andrés Repetto detalló en diálogo con LN+ el cambio de prioridades de Washington; la administración norteamericana relega el control de las rutas comerciales para centrar su ",
       "severity": "INFO"
     },
     {
       "timestamp": "03 APR 2026 · 05:00 UTC",
-      "headline": "IRAN WAR LIVE: WATER PLANT HIT IN KUWAIT AS TEHRAN ATTACKS THE GULF, ISRAEL",
+      "headline": "IRAN WAR LIVE: WATER PLANT HIT IN KUWAIT; TEHRAN ATTACKS THE GULF, ISRAEL",
       "detail": "Water plant hit in Kuwait as Iran warns to expand attacks if Trump follows through on threats to escalate strikes.",
       "severity": "CRÍTICO"
     },
