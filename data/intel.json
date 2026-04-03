@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T20:32:56.157691+00:00",
+  "updated_at": "2026-04-03T21:30:07.382043+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -15,6 +15,18 @@
   },
   "events": [
     {
+      "timestamp": "03 APR 2026 · 20:55 UTC",
+      "headline": "WILL FORCE BE USED TO REOPEN STRAIT OF HORMUZ?",
+      "detail": "Some countries threaten action against Iran's blockade of waterway.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "03 APR 2026 · 20:44 UTC",
+      "headline": "UN SEGUNDO AVIÓN DE COMBATE DE ESTADOS UNIDOS SE ESTRELLÓ CERCA DEL ESTRECHO DE ",
+      "detail": "Ocurrió casi en simultáneo con el derribo de un caza en Irán, en plena escalada del conflicto en Medio Oriente; el único piloto a bordo fue rescatado sano y salvo",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "03 APR 2026 · 20:30 UTC",
       "headline": "POR QUÉ A EE.UU. LE DEJÓ DE IMPORTAR AHORA EL ESTRECHO DE ORMUZ Y SE CONCENTRA E",
       "detail": "El analista internacional Andrés Repetto detalló en diálogo con LN+ el cambio de prioridades de Washington; la administración norteamericana relega el control de las rutas comerciales para centrar su ",
@@ -27,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "03 APR 2026 · 20:09 UTC",
-      "headline": "UN SEGUNDO AVIÓN DE COMBATE DE ESTADOS UNIDOS SE ESTRELLÓ CERCA DEL ESTRECHO DE ",
-      "detail": "Ocurrió casi en simultáneo con el derribo de un caza en Irán, en plena escalada del conflicto en Medio Oriente; el único piloto a bordo fue rescatado sano y salvo",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "03 APR 2026 · 17:45 UTC",
       "headline": "FRENCH-OWNED SHIP PASSES THROUGH STRAIT OF HORMUZ",
       "detail": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.",
@@ -40,14 +46,8 @@
     },
     {
       "timestamp": "03 APR 2026 · 16:24 UTC",
-      "headline": "FRENCH-OWNED CONTAINER SHIP TRANSITS HORMUZ STRAIT IN FIRST SINCE IRAN WAR",
+      "headline": "OMANI, FRENCH AND JAPANESE VESSELS TRANSIT THE STRAIT OF HORMUZ",
       "detail": "CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 APR 2026 · 15:43 UTC",
-      "headline": "IRAN SAYS IT DOWNED TWO US JETS AS SEARCH FOR ONE PILOT CONTINUES",
-      "detail": "Trump says downing of F-15 will not affect talks as Iranian forces say they also struck an A-10 aircraft near Hormuz.",
       "severity": "INFO"
     }
   ],
