@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T09:50:09.666464+00:00",
+  "updated_at": "2026-04-03T10:39:40.780606+00:00",
   "market": {
     "brent_usd": 76.92,
     "brent_chg": 0.0
@@ -21,15 +21,15 @@
       "severity": "INFO"
     },
     {
+      "timestamp": "03 APR 2026 · 05:00 UTC",
+      "headline": "IRAN WAR LIVE: WATER PLANT HIT IN KUWAIT AS TEHRAN ATTACKS THE GULF, ISRAEL",
+      "detail": "Water plant hit in Kuwait as Iran warns to expand attacks if Trump follows through on threats to escalate strikes.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "03 APR 2026 · 02:42 UTC",
       "headline": "EL CONSEJO DE SEGURIDAD DE LA ONU VOTARÁ UNA PROPUESTA DE BAHRÉIN SOBRE EL ESTRE",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 APR 2026 · 01:05 UTC",
-      "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
-      "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
       "severity": "INFO"
     },
     {
