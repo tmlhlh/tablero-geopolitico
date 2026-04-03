@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T10:39:40.780606+00:00",
+  "updated_at": "2026-04-03T11:35:56.232922+00:00",
   "market": {
     "brent_usd": 76.92,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "02 APR 2026 · 21:04 UTC",
-      "headline": "OIL SHOCK TRIGGERS GLOBAL PRICE SPIKES AS IRAN WAR DRAGS ON",
-      "detail": "Fuel shocks from the US-Israel war on Iran are rippling worldwide, as Strait of Hormuz disruptions push prices higher.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "02 APR 2026 · 17:15 UTC",
       "headline": "EL REINO UNIDO REÚNE AL MARGEN DE TRUMP A 40 PAÍSES PARA IMPULSAR LA REAPERTURA ",
       "detail": "Unos 2.000 buques mercantes y cerca de 20.000 marineros permanecen atrapados por el bloqueo de Irán",
@@ -48,6 +42,12 @@
       "timestamp": "02 APR 2026 · 13:24 UTC",
       "headline": "STRAIT OF HORMUZ WON’T RETURN TO PRE-WAR STATUS QUO – IRANIAN OFFICIAL",
       "detail": "Tehran will maintain control of the Strait of Hormuz, an Iranian security official has told RT Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 12:19 UTC",
+      "headline": "MACRON, DESPUÉS DE QUE TRUMP LE ACUSASE DE DEJARSE MALTRATAR POR SU MUJER: “NO E",
+      "detail": "El presidente de EE UU se queja también de que Francia no colabore en el desbloqueo del estrecho de Ormuz, algo que Macron considera “poco realista”",
       "severity": "INFO"
     }
   ],
