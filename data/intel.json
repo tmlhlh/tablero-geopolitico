@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T16:36:40.488678+00:00",
+  "updated_at": "2026-04-03T17:31:05.288435+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -15,21 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "03 APR 2026 · 16:24 UTC",
-      "headline": "FRENCH-OWNED CONTAINER SHIP TRANSITS HORMUZ STRAIT IN FIRST SINCE IRAN WAR",
-      "detail": "CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 APR 2026 · 15:40 UTC",
+      "timestamp": "03 APR 2026 · 16:40 UTC",
       "headline": "POR QUÉ A EE.UU. LE DEJÓ DE IMPORTAR AHORA EL ESTRECHO DE ORMUZ Y SE CONCENTRA E",
       "detail": "El analista internacional Andrés Repetto detalló en diálogo con LN+ el cambio de prioridades de Washington; la administración norteamericana relega el control de las rutas comerciales para centrar su ",
       "severity": "INFO"
     },
     {
-      "timestamp": "03 APR 2026 · 15:40 UTC",
+      "timestamp": "03 APR 2026 · 16:39 UTC",
       "headline": "ANDRÉS REPETTO, ANALISTA INTERNACIONAL: “ESTAMOS AL BORDE DEL ABISMO”",
       "detail": "En diálogo con LN+, el especialista detalló el cambio en la táctica militar del régimen iraní y el control sobre el estrecho de Ormuz; la advertencia de Donald Trump y el posible despliegue de tropas ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "03 APR 2026 · 16:24 UTC",
+      "headline": "FRENCH-OWNED CONTAINER SHIP TRANSITS HORMUZ STRAIT IN FIRST SINCE IRAN WAR",
+      "detail": "CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began.",
       "severity": "INFO"
     },
     {
