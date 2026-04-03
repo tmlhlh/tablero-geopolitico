@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T08:49:13.946136+00:00",
+  "updated_at": "2026-04-03T09:50:09.666464+00:00",
   "market": {
     "brent_usd": 76.92,
     "brent_chg": 0.0
@@ -39,15 +39,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "02 APR 2026 · 20:51 UTC",
-      "headline": "RUSSIA SENDING SECOND SHIP WITH OIL TO CUBA AMID US BLOCKADE",
-      "detail": "Announcement comes days after Russian tanker brought some 700,000 barrels of crude to Cuba in response to energy crisis.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "02 APR 2026 · 17:15 UTC",
       "headline": "EL REINO UNIDO REÚNE AL MARGEN DE TRUMP A 40 PAÍSES PARA IMPULSAR LA REAPERTURA ",
       "detail": "Unos 2.000 buques mercantes y cerca de 20.000 marineros permanecen atrapados por el bloqueo de Irán",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 13:24 UTC",
+      "headline": "STRAIT OF HORMUZ WON’T RETURN TO PRE-WAR STATUS QUO – IRANIAN OFFICIAL",
+      "detail": "Tehran will maintain control of the Strait of Hormuz, an Iranian security official has told RT Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
