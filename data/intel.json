@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T18:37:16.319008+00:00",
+  "updated_at": "2026-04-04T19:28:30.458554+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "04 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP ISSUES HORMUZ DEADLINE, SEARCH FOR US AIRMAN CONTINUES",
-      "detail": "US and Israel attack Iran's civilian infrastructure as Trump issues 48-hour deadline on reopening the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "03 APR 2026 · 17:45 UTC",
       "headline": "FRENCH-OWNED SHIP PASSES THROUGH STRAIT OF HORMUZ",
       "detail": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.",
@@ -48,6 +42,12 @@
       "timestamp": "03 APR 2026 · 13:26 UTC",
       "headline": "IRAN WAR IS ‘THE END OF AMERICAN EMPIRE’ – TUCKER CARLSON",
       "detail": "Donald Trump has essentially acknowledged that the US is unable to reopen the Strait of Hormuz, Tucker Carlson has said Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 13:24 UTC",
+      "headline": "STRAIT OF HORMUZ WON’T RETURN TO PRE-WAR STATUS QUO – IRANIAN OFFICIAL",
+      "detail": "Tehran will maintain control of the Strait of Hormuz, an Iranian security official has told RT Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
