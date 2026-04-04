@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:28:25.724100+00:00",
+  "updated_at": "2026-04-04T16:31:13.038168+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "04 APR 2026 · 15:37 UTC",
+      "headline": "TRUMP LANZA UN ULTIMÁTUM A IRÁN Y AMENAZA: “48 HORAS PARA QUE EL INFIERNO SE APO",
+      "detail": "El presidente de Estados Unidos se refirió al estrecho de Ormuz, que es un paso clave para el petróleo y el suministro energético mundial",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP ISSUES HORMUZ DEADLINE, SEARCH FOR US AIRMAN CONTINUES",
+      "detail": "US and Israel attack Iran's civilian infrastructure as Trump issues a 48-hour deadline on opening Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "03 APR 2026 · 20:55 UTC",
       "headline": "WILL FORCE BE USED TO REOPEN STRAIT OF HORMUZ?",
@@ -36,18 +48,6 @@
       "timestamp": "02 APR 2026 · 13:24 UTC",
       "headline": "STRAIT OF HORMUZ WON’T RETURN TO PRE-WAR STATUS QUO – IRANIAN OFFICIAL",
       "detail": "Tehran will maintain control of the Strait of Hormuz, an Iranian security official has told RT Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 APR 2026 · 01:54 UTC",
-      "headline": "TRUMP URGES ALLIES TO ‘GO TO STRAIT OF HORMUZ AND JUST TAKE IT’",
-      "detail": "US President Donald Trump has urged other countries to help unblock the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "31 MAR 2026 · 14:53 UTC",
-      "headline": "EN EL ESTRECHO DE ORMUZ, LA INTELIGENCIA ARTIFICIAL SE CONVIERTE EN GEOGRAFÍA",
-      "detail": "La guerra en el Golfo no interrumpe solo los flujos comerciales, también la fantasía de que el capitalismo se había emancipado de sus servidumbres materiales",
       "severity": "INFO"
     }
   ],
