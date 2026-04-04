@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T06:56:49.527394+00:00",
+  "updated_at": "2026-04-04T07:49:01.726017+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "03 APR 2026 · 16:24 UTC",
-      "headline": "OMANI, FRENCH AND JAPANESE VESSELS TRANSIT THE STRAIT OF HORMUZ",
-      "detail": "CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "03 APR 2026 · 13:26 UTC",
       "headline": "IRAN WAR IS ‘THE END OF AMERICAN EMPIRE’ – TUCKER CARLSON",
       "detail": "Donald Trump has essentially acknowledged that the US is unable to reopen the Strait of Hormuz, Tucker Carlson has said Read Full Article at RT.com",
@@ -48,6 +42,12 @@
       "timestamp": "02 APR 2026 · 13:24 UTC",
       "headline": "STRAIT OF HORMUZ WON’T RETURN TO PRE-WAR STATUS QUO – IRANIAN OFFICIAL",
       "detail": "Tehran will maintain control of the Strait of Hormuz, an Iranian security official has told RT Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 12:19 UTC",
+      "headline": "MACRON, DESPUÉS DE QUE TRUMP LE ACUSASE DE DEJARSE MALTRATAR POR SU MUJER: “NO E",
+      "detail": "El presidente de EE UU se queja también de que Francia no colabore en el desbloqueo del estrecho de Ormuz, algo que Macron considera “poco realista”",
       "severity": "INFO"
     }
   ],
