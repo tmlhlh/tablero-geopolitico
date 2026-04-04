@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T22:26:05.515122+00:00",
+  "updated_at": "2026-04-04T23:27:57.334886+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "04 APR 2026 · 21:56 UTC",
+      "timestamp": "04 APR 2026 · 22:54 UTC",
       "headline": "US AND IRAN TRADE THREATS TO UNLEASH 'HELL' AS SEARCH FOR MISSING US AIRMAN CONT",
       "detail": "Donald Trump wants Iran to strike a deal and to open the strategic Strait of Hormuz whose closure has led to a spike in oil prices.",
       "severity": "CRÍTICO"
