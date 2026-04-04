@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T08:37:15.533263+00:00",
+  "updated_at": "2026-04-04T09:34:32.256976+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -45,9 +45,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "02 APR 2026 · 12:19 UTC",
-      "headline": "MACRON, DESPUÉS DE QUE TRUMP LE ACUSASE DE DEJARSE MALTRATAR POR SU MUJER: “NO E",
-      "detail": "El presidente de EE UU se queja también de que Francia no colabore en el desbloqueo del estrecho de Ormuz, algo que Macron considera “poco realista”",
+      "timestamp": "02 APR 2026 · 01:54 UTC",
+      "headline": "TRUMP URGES ALLIES TO ‘GO TO STRAIT OF HORMUZ AND JUST TAKE IT’",
+      "detail": "US President Donald Trump has urged other countries to help unblock the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
