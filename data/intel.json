@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T01:54:16.193307+00:00",
+  "updated_at": "2026-04-04T04:15:09.128149+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -15,21 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "04 APR 2026 · 03:19 UTC",
+      "headline": "BAHRÉIN POSPUSO LA VOTACIÓN SOBRE LA RESOLUCIÓN DE LA ONU DESTINADA A PONER FIN ",
+      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "03 APR 2026 · 20:55 UTC",
       "headline": "WILL FORCE BE USED TO REOPEN STRAIT OF HORMUZ?",
       "detail": "Some countries threaten action against Iran's blockade of waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 APR 2026 · 20:44 UTC",
-      "headline": "UN SEGUNDO AVIÓN DE COMBATE DE ESTADOS UNIDOS SE ESTRELLÓ CERCA DEL ESTRECHO DE ",
-      "detail": "Ocurrió casi en simultáneo con el derribo de un caza en Irán, en plena escalada del conflicto en Medio Oriente; el único piloto a bordo fue rescatado sano y salvo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 APR 2026 · 20:30 UTC",
-      "headline": "POR QUÉ A EE.UU. LE DEJÓ DE IMPORTAR AHORA EL ESTRECHO DE ORMUZ Y SE CONCENTRA E",
-      "detail": "El analista internacional Andrés Repetto detalló en diálogo con LN+ el cambio de prioridades de Washington; la administración norteamericana relega el control de las rutas comerciales para centrar su ",
       "severity": "INFO"
     },
     {
@@ -45,9 +39,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "03 APR 2026 · 15:43 UTC",
-      "headline": "IRAN SAYS IT DOWNED TWO US JETS AS SEARCH FOR ONE PILOT CONTINUES",
-      "detail": "Trump says downing of F-15 will not affect talks as Iranian forces say they also struck an A-10 aircraft near Hormuz.",
+      "timestamp": "03 APR 2026 · 13:26 UTC",
+      "headline": "IRAN WAR IS ‘THE END OF AMERICAN EMPIRE’ – TUCKER CARLSON",
+      "detail": "Donald Trump has essentially acknowledged that the US is unable to reopen the Strait of Hormuz, Tucker Carlson has said Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 APR 2026 · 13:24 UTC",
+      "headline": "STRAIT OF HORMUZ WON’T RETURN TO PRE-WAR STATUS QUO – IRANIAN OFFICIAL",
+      "detail": "Tehran will maintain control of the Strait of Hormuz, an Iranian security official has told RT Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
