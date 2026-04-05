@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T14:33:20.872491+00:00",
+  "updated_at": "2026-04-05T15:29:20.017078+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "05 APR 2026 · 15:05 UTC",
+      "headline": "WHY AN ATTACK ON BUSHEHR NUCLEAR PLANT WOULD BE CATASTROPHIC FOR THE GULF",
+      "detail": "The US and Israel have repeatedly hit the plant, raising risks of radioactive contamination far beyond Iran's borders.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "05 APR 2026 · 13:46 UTC",
       "headline": "DONALD TRUMP CONFIRMÓ EL RESCATE DEL SEGUNDO TRIPULANTE DE UN F-15 DERRIBADO EN ",
@@ -42,12 +48,6 @@
       "timestamp": "05 APR 2026 · 08:52 UTC",
       "headline": "KUWAIT’S POWER, WATER PLANTS DAMAGED AS IRAN KEEPS ATTACKING GULF STATES",
       "detail": "Bahrain and the UAE also report attacks resulting in fires, which are put out quickly.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 APR 2026 · 06:41 UTC",
-      "headline": "‘OPEN THE FU*KIN’ STRAIT, CRAZY BASTARDS’ – TRUMP THREATENS IRAN WITH STRIKES ON",
-      "detail": "US President Donald Trump has warned of strikes on key Iranian infrastructure unless Tehran reopens the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
