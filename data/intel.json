@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T08:38:51.747224+00:00",
+  "updated_at": "2026-04-05T09:35:45.947405+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "05 APR 2026 · 08:52 UTC",
+      "headline": "KUWAIT’S POWER, WATER PLANTS DAMAGED AS IRAN KEEPS ATTACKING GULF STATES",
+      "detail": "Bahrain and the UAE also reported attacks resulting in fires, which were put out quickly.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "05 APR 2026 · 06:41 UTC",
       "headline": "IRAN HITS ENERGY SITES IN KUWAIT AS US SAYS DOWNED PILOT RESCUED (PHOTOS, VIDEOS",
@@ -42,12 +48,6 @@
       "timestamp": "03 APR 2026 · 13:26 UTC",
       "headline": "IRAN WAR IS ‘THE END OF AMERICAN EMPIRE’ – TUCKER CARLSON",
       "detail": "Donald Trump has essentially acknowledged that the US is unable to reopen the Strait of Hormuz, Tucker Carlson has said Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 APR 2026 · 13:24 UTC",
-      "headline": "STRAIT OF HORMUZ WON’T RETURN TO PRE-WAR STATUS QUO – IRANIAN OFFICIAL",
-      "detail": "Tehran will maintain control of the Strait of Hormuz, an Iranian security official has told RT Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
