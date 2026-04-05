@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T15:29:20.017078+00:00",
+  "updated_at": "2026-04-05T16:33:02.495620+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "05 APR 2026 · 15:32 UTC",
+      "headline": "TRUMP THREATENS ‘HELL’ FOR IRAN OVER HORMUZ STRAIT AS DEADLINE APPROACHES",
+      "detail": "US president threatens to strike power plants and bridges on Tuesday in an expletive-laden social media post.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "05 APR 2026 · 15:05 UTC",
       "headline": "WHY AN ATTACK ON BUSHEHR NUCLEAR PLANT WOULD BE CATASTROPHIC FOR THE GULF",
@@ -43,12 +49,6 @@
       "headline": "OMAN, IRAN DISCUSS SMOOTH TRANSIT IN STRAIT OF HORMUZ, MUSCAT SAYS",
       "detail": "The talks focus on a 'smooth passage' through the Strait of Hormuz, as Tehran effectively blocks the vital waterway.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 APR 2026 · 08:52 UTC",
-      "headline": "KUWAIT’S POWER, WATER PLANTS DAMAGED AS IRAN KEEPS ATTACKING GULF STATES",
-      "detail": "Bahrain and the UAE also report attacks resulting in fires, which are put out quickly.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
