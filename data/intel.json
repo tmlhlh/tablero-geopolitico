@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-05T21:28:08.658939+00:00",
+  "updated_at": "2026-04-05T22:27:32.971364+00:00",
   "market": {
-    "brent_usd": 109.05,
+    "brent_usd": 110.97,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,18 @@
   },
   "events": [
     {
+      "timestamp": "05 APR 2026 · 21:30 UTC",
+      "headline": "'WE ARE AT THE EDGE OF A BATTLEFIELD': BBC REPORTS NEAR STRAIT OF HORMUZ",
+      "detail": "The BBC's Orla Guerin travels to the edge of the critical waterway that Iran has put a stranglehold on.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 APR 2026 · 21:10 UTC",
+      "headline": "TRUMP ISSUES EXPLETIVE-LADEN THREAT  TO IRAN OVER HORMUZ STRAIT BLOCKAGE",
+      "detail": "The US president says he will destroy Iranian power plants and bridges if the vital waterway is not reopened.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "05 APR 2026 · 19:07 UTC",
       "headline": "TRUMP THREATENS IRAN IN EXPLETIVE-FILLED SOCIAL MEDIA POST",
       "detail": "Donald Trump unleashed a vulgar online tirade against Iran’s leaders as his deadline for reopening the Strait of Hormuz.",
@@ -27,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "05 APR 2026 · 13:46 UTC",
-      "headline": "DONALD TRUMP CONFIRMÓ EL RESCATE DEL SEGUNDO TRIPULANTE DE UN F-15 DERRIBADO EN ",
-      "detail": "El presidente informó que el militar se encuentra “seriamente herido”; calificó la operación como una de las “más audaces de la historia” de Estados Unidos; nueva amenaza al régimen para que reabra el",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "05 APR 2026 · 06:41 UTC",
       "headline": "IRAN SAYS TRUMP’S ‘OPEN THE F**KIN STRAIT’ THREAT SHOWS ‘INTENT TO COMMIT WAR CR",
       "detail": "Tehran has said US President Trump’s latest threat to strike Iranian civilian infrastructure shows an intent to “commit war crimes” Read Full Article at RT.com",
@@ -43,16 +49,10 @@
       "headline": "FRENCH-OWNED SHIP PASSES THROUGH STRAIT OF HORMUZ",
       "detail": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "03 APR 2026 · 16:48 UTC",
-      "headline": "IRAN HITS ENERGY SITES IN KUWAIT AS US SAYS DOWNED PILOT RESCUED (PHOTOS, VIDEOS",
-      "detail": "US President Donald Trump has demanded that Tehran open the Strait of Hormuz, giving it 48 hours before “all Hell will reign down” Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.05 (+0.00%)",
+    "BRENT: $110.97 (+0.00%)",
     "VIX: 23.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
