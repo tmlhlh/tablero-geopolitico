@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T23:27:57.334886+00:00",
+  "updated_at": "2026-04-05T02:07:38.491217+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -17,13 +17,7 @@
     {
       "timestamp": "04 APR 2026 · 22:54 UTC",
       "headline": "US AND IRAN TRADE THREATS TO UNLEASH 'HELL' AS SEARCH FOR MISSING US AIRMAN CONT",
-      "detail": "Donald Trump wants Iran to strike a deal and to open the strategic Strait of Hormuz whose closure has led to a spike in oil prices.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 APR 2026 · 16:47 UTC",
-      "headline": "TRUMP LANZA UN ULTIMÁTUM A IRÁN Y AMENAZA: “48 HORAS PARA QUE EL INFIERNO SE APO",
-      "detail": "El presidente de Estados Unidos se refirió al estrecho de Ormuz, que es un paso clave para el petróleo y el suministro energético mundial",
+      "detail": "Iran rejected Donald Trump's ultimatum for a deal to re-open the Strait of Hormuz whose closure has led to a spike in oil prices.",
       "severity": "INFO"
     },
     {
@@ -46,8 +40,14 @@
     },
     {
       "timestamp": "03 APR 2026 · 16:48 UTC",
-      "headline": "‘ALL HELL WILL REIGN DOWN’: TRUMP ISSUES 48-HOUR ULTIMATUM TO IRAN (PHOTOS, VIDE",
-      "detail": "The US president has demanded that Tehran open the Strait of Hormuz, giving it 48 hours before “all Hell will reign down” Read Full Article at RT.com",
+      "headline": "IRAN HITS ENERGY SITES IN KUWAIT AS SEARCH FOR DOWNED US PILOT CONTINUES (PHOTOS",
+      "detail": "US President Donald Trump has demanded that Tehran open the Strait of Hormuz, giving it 48 hours before “all Hell will reign down” Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "03 APR 2026 · 13:26 UTC",
+      "headline": "IRAN WAR IS ‘THE END OF AMERICAN EMPIRE’ – TUCKER CARLSON",
+      "detail": "Donald Trump has essentially acknowledged that the US is unable to reopen the Strait of Hormuz, Tucker Carlson has said Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
