@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T18:39:21.844149+00:00",
+  "updated_at": "2026-04-05T19:32:09.243357+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "05 APR 2026 · 19:07 UTC",
+      "headline": "TRUMP THREATENS IRAN IN EXPLETIVE-FILLED SOCIAL MEDIA POST",
+      "detail": "Donald Trump unleashed a vulgar online tirade against Iran’s leaders as his deadline for reopening the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "05 APR 2026 · 15:32 UTC",
       "headline": "TRUMP THREATENS ‘HELL’ FOR IRAN OVER HORMUZ STRAIT AS DEADLINE APPROACHES",
@@ -42,12 +48,6 @@
       "timestamp": "05 APR 2026 · 12:44 UTC",
       "headline": "IRAN’S EX-FM ZARIF PROPOSES PEACE ROADMAP; GULF POINTS AT EROSION OF TRUST",
       "detail": "Zarif’s plan calls for limits on Iran’s nuclear programme and reopening Strait of Hormuz in return for end to sanctions.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 APR 2026 · 12:18 UTC",
-      "headline": "OMAN, IRAN DISCUSS SMOOTH TRANSIT IN STRAIT OF HORMUZ, MUSCAT SAYS",
-      "detail": "The talks focus on a 'smooth passage' through the Strait of Hormuz, as Tehran effectively blocks the vital waterway.",
       "severity": "INFO"
     }
   ],
