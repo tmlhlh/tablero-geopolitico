@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T12:51:31.897755+00:00",
+  "updated_at": "2026-04-05T13:52:32.349795+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -15,6 +15,24 @@
   },
   "events": [
     {
+      "timestamp": "05 APR 2026 · 13:46 UTC",
+      "headline": "DONALD TRUMP CONFIRMÓ EL RESCATE DEL SEGUNDO TRIPULANTE DE UN F-15 DERRIBADO EN ",
+      "detail": "El presidente informó que el militar se encuentra “seriamente herido”; calificó la operación como una de las “más audaces de la historia” de Estados Unidos; nueva amenaza al régimen para que reabra el",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 APR 2026 · 13:23 UTC",
+      "headline": "TRUMP OFFERS NO CONCRETE PLAN AS STRAIT OF HORMUZ CLOSURE SHOCKS EUROPE",
+      "detail": "Economist James Meadway says US President Donald Trump offers threats but no clear plan to end the crisis.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 APR 2026 · 12:44 UTC",
+      "headline": "IRAN’S EX-FM ZARIF PROPOSES PEACE ROADMAP; GULF POINTS AT EROSION OF TRUST",
+      "detail": "Zarif’s plan calls for limits on Iran’s nuclear programme and reopening Strait of Hormuz in return for end to sanctions.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "05 APR 2026 · 12:18 UTC",
       "headline": "OMAN, IRAN DISCUSS SMOOTH TRANSIT IN STRAIT OF HORMUZ, MUSCAT SAYS",
       "detail": "The talks focus on a 'smooth passage' through the Strait of Hormuz, as Tehran effectively blocks the vital waterway.",
@@ -23,31 +41,13 @@
     {
       "timestamp": "05 APR 2026 · 08:52 UTC",
       "headline": "KUWAIT’S POWER, WATER PLANTS DAMAGED AS IRAN KEEPS ATTACKING GULF STATES",
-      "detail": "Bahrain and the UAE also reported attacks resulting in fires, which were put out quickly.",
+      "detail": "Bahrain and the UAE also report attacks resulting in fires, which are put out quickly.",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "05 APR 2026 · 06:41 UTC",
-      "headline": "IRAN HITS ENERGY SITES IN KUWAIT AS US SAYS DOWNED PILOT RESCUED (PHOTOS, VIDEOS",
-      "detail": "US President Donald Trump has demanded that Tehran open the Strait of Hormuz, giving it 48 hours before “all Hell will reign down” Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 APR 2026 · 02:14 UTC",
-      "headline": "IRAN SAYS IRAQI SHIPS CAN PASS STRAIT OF HORMUZ AS TRANSITS TICK UP",
-      "detail": "Tehran says Iraq will face no restrictions in waterway, praising country's 'struggle' against the US.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRAN CLAIMS DOWNING OF 2 US PLANES; HORMUZ ‘DEADLINE’ LOOMS",
-      "detail": "Tehran says shot down two US C-130 planes, two helicopters, as Iran's infrastructure attacks cause fires across Gulf.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 APR 2026 · 16:37 UTC",
-      "headline": "UN TEMPORAL IMPIDE A LIBIA CONTROLAR UN METANERO RUSO A LA DERIVA EN EL MEDITERR",
-      "detail": "El buque representa una amenaza medioambiental y económica para el país norteafricano, pero las condiciones meteorológicas, la falta de ayuda y las sanciones al barco están dificultando la operación",
+      "headline": "‘OPEN THE FU*KIN’ STRAIT, CRAZY BASTARDS’ – TRUMP THREATENS IRAN WITH STRIKES ON",
+      "detail": "US President Donald Trump has warned of strikes on key Iranian infrastructure unless Tehran reopens the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
