@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T02:07:38.491217+00:00",
+  "updated_at": "2026-04-05T05:09:14.034432+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "04 APR 2026 · 22:54 UTC",
-      "headline": "US AND IRAN TRADE THREATS TO UNLEASH 'HELL' AS SEARCH FOR MISSING US AIRMAN CONT",
-      "detail": "Iran rejected Donald Trump's ultimatum for a deal to re-open the Strait of Hormuz whose closure has led to a spike in oil prices.",
+      "timestamp": "05 APR 2026 · 02:14 UTC",
+      "headline": "IRAN SAYS IRAQI SHIPS CAN PASS STRAIT OF HORMUZ AS TRANSITS TICK UP",
+      "detail": "Tehran says Iraq will face no restrictions in waterway, praising country's 'struggle' against the US.",
       "severity": "INFO"
     },
     {
@@ -40,7 +40,7 @@
     },
     {
       "timestamp": "03 APR 2026 · 16:48 UTC",
-      "headline": "IRAN HITS ENERGY SITES IN KUWAIT AS SEARCH FOR DOWNED US PILOT CONTINUES (PHOTOS",
+      "headline": "IRAN HITS ENERGY SITES IN KUWAIT AS US SAYS DOWNED PILOT RESCUED (PHOTOS, VIDEOS",
       "detail": "US President Donald Trump has demanded that Tehran open the Strait of Hormuz, giving it 48 hours before “all Hell will reign down” Read Full Article at RT.com",
       "severity": "INFO"
     },
