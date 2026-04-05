@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T11:27:14.819476+00:00",
+  "updated_at": "2026-04-05T12:51:31.897755+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "05 APR 2026 · 12:18 UTC",
+      "headline": "OMAN, IRAN DISCUSS SMOOTH TRANSIT IN STRAIT OF HORMUZ, MUSCAT SAYS",
+      "detail": "The talks focus on a 'smooth passage' through the Strait of Hormuz, as Tehran effectively blocks the vital waterway.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "05 APR 2026 · 08:52 UTC",
       "headline": "KUWAIT’S POWER, WATER PLANTS DAMAGED AS IRAN KEEPS ATTACKING GULF STATES",
@@ -35,20 +41,14 @@
     {
       "timestamp": "05 APR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: IRAN CLAIMS DOWNING OF 2 US PLANES; HORMUZ ‘DEADLINE’ LOOMS",
-      "detail": "Tehran says it shoots down two C-130 planes and two Blackhawk helicopters belonging to the US.",
-      "severity": "INFO"
+      "detail": "Tehran says shot down two US C-130 planes, two helicopters, as Iran's infrastructure attacks cause fires across Gulf.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "04 APR 2026 · 16:37 UTC",
       "headline": "UN TEMPORAL IMPIDE A LIBIA CONTROLAR UN METANERO RUSO A LA DERIVA EN EL MEDITERR",
       "detail": "El buque representa una amenaza medioambiental y económica para el país norteafricano, pero las condiciones meteorológicas, la falta de ayuda y las sanciones al barco están dificultando la operación",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "03 APR 2026 · 17:45 UTC",
-      "headline": "FRENCH-OWNED SHIP PASSES THROUGH STRAIT OF HORMUZ",
-      "detail": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
