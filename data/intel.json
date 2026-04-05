@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T10:30:32.323326+00:00",
+  "updated_at": "2026-04-05T11:27:14.819476+00:00",
   "market": {
     "brent_usd": 109.05,
     "brent_chg": 0.0
@@ -34,8 +34,8 @@
     },
     {
       "timestamp": "05 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRAN CLAIMS NEW DOWNING OF US PLANE; HORMUZ ‘DEADLINE’ LOOMS",
-      "detail": "Tehran says it shoots down a C-130 plane and two Blackhawk helicopters belonging to the US.",
+      "headline": "IRAN WAR LIVE: IRAN CLAIMS DOWNING OF 2 US PLANES; HORMUZ ‘DEADLINE’ LOOMS",
+      "detail": "Tehran says it shoots down two C-130 planes and two Blackhawk helicopters belonging to the US.",
       "severity": "INFO"
     },
     {
