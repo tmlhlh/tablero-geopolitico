@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-04-06T19:51:16.914259+00:00",
+  "updated_at": "2026-04-06T20:34:54.928282+00:00",
   "market": {
-    "brent_usd": 109.83,
+    "brent_usd": 109.39,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.8,
-    "vix": 24.42,
+    "ormuz_flow_pct": 85.3,
+    "vix": 24.17,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.1
+    "insurance_spread_pct": 4.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "06 APR 2026 · 19:30 UTC",
-      "headline": "TRUMP, SOBRE EL ULTIMÁTUM A IRÁN: “PODEMOS DESTRUIR UN PAÍS ENTERO EN UNA NOCHE ",
-      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
+      "timestamp": "06 APR 2026 · 20:00 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
+      "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 APR 2026 · 19:26 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
-      "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
+      "timestamp": "06 APR 2026 · 19:30 UTC",
+      "headline": "TRUMP, SOBRE EL ULTIMÁTUM A IRÁN: “PODEMOS DESTRUIR UN PAÍS ENTERO EN UNA NOCHE ",
+      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
       "severity": "INFO"
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "timestamp": "06 APR 2026 · 17:38 UTC",
-      "headline": "TRUMP WARNS DEADLINE ‘FINAL’ AS IRAN PUSHES PROPOSAL TO END WAR",
+      "headline": "TRUMP WARNS HORMUZ DEADLINE ‘FINAL’ AS IRAN PUSHES PROPOSAL TO END WAR",
       "detail": "US president says proposal not enough to avert threat to infrastructure should Iran fail to open Strait of Hormuz.",
       "severity": "INFO"
     },
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.83 (+0.00%)",
-    "VIX: 24.42",
+    "BRENT: $109.39 (+0.00%)",
+    "VIX: 24.17",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
