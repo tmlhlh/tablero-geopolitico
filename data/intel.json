@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-06T22:32:59.123947+00:00",
+  "updated_at": "2026-04-06T23:32:36.778237+00:00",
   "market": {
-    "brent_usd": 109.69,
+    "brent_usd": 109.93,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "06 APR 2026 · 23:04 UTC",
+      "headline": "TRUMP'S DEADLINE NEARS - WITH LITTLE INDICATION IRAN IS ON BOARD",
+      "detail": "The US president is in a delicate political position as the final hours to Tuesday's deadline for Iran to open the Strait of Hormuz tick down.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 21:55 UTC",
+      "headline": "TRUMP THREATENS TO TAKE OUT IRAN IN 'ONE NIGHT' IF NO DEAL BEFORE DEADLINE",
+      "detail": "The US president wants Tehran to reopen the Strait of Hormuz, a critical global energy route, before his Tuesday deadline.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 APR 2026 · 21:34 UTC",
       "headline": "CON AMENAZAS CAMBIANTES, TRUMP MANTIENE AL MUNDO EN CONSTANTE DESEQUILIBRIO",
@@ -37,22 +49,10 @@
       "headline": "TRUMP, SOBRE EL ULTIMÁTUM A IRÁN: “PODEMOS DESTRUIR UN PAÍS ENTERO EN UNA NOCHE ",
       "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 18:18 UTC",
-      "headline": "HEGSETH SAYS STRIKES ON IRAN INCREASING AS HORMUZ DEADLINE LOOMS",
-      "detail": "US Secretary of Defense Pete Hegseth said Monday will be the “largest volume of strikes” on Iran since the war began.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 17:38 UTC",
-      "headline": "TRUMP WARNS HORMUZ DEADLINE ‘FINAL’ AS IRAN PUSHES PROPOSAL TO END WAR",
-      "detail": "US president says proposal not enough to avert threat to infrastructure should Iran fail to open Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.69 (+0.00%)",
+    "BRENT: $109.93 (+0.00%)",
     "VIX: 24.17",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
