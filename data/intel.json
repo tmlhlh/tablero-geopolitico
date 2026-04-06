@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-06T16:42:32.172325+00:00",
+  "updated_at": "2026-04-06T17:41:33.220334+00:00",
   "market": {
-    "brent_usd": 108.91,
+    "brent_usd": 110.34,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.4,
-    "vix": 24.12,
+    "ormuz_flow_pct": 84.9,
+    "vix": 24.37,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.0
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "06 APR 2026 · 16:50 UTC",
+      "headline": "LIBYA’S OIL DISPUTES MIRROR HORMUZ CRISIS, FUEL EUROPEAN ENERGY FEARS",
+      "detail": "Libyan oil sector proxy wars occur during Hormuz tensions, creating dangerous supply vulnerabilities for global markets.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 APR 2026 · 16:25 UTC",
       "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
@@ -43,17 +49,11 @@
       "headline": "IRAN THREATENS BAB AL-MANDEB CLOSURE: HOW WOULD THAT AFFECT WORLD TRADE?",
       "detail": "If the chokepoint were shut, along with the Strait of Hormuz, a quarter of the world's energy supply would be blocked.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 11:25 UTC",
-      "headline": "PAKISTAN OFFERS ‘TWO-PHASED’ TRUCE DEAL TO END US-ISRAEL WAR ON IRAN",
-      "detail": "Iran, while still reviewing the proposal, says it won't reopen Hormuz as part of a temporary ceasefire.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.91 (+0.00%)",
-    "VIX: 24.12",
+    "BRENT: $110.34 (+0.00%)",
+    "VIX: 24.37",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
