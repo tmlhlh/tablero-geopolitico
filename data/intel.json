@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-05T23:30:21.210141+00:00",
+  "updated_at": "2026-04-06T02:08:44.679206+00:00",
   "market": {
-    "brent_usd": 111.29,
+    "brent_usd": 110.61,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "05 APR 2026 · 21:30 UTC",
-      "headline": "'WE ARE AT THE EDGE OF A BATTLEFIELD': BBC REPORTS NEAR STRAIT OF HORMUZ",
-      "detail": "The BBC's Orla Guerin travels to the edge of the critical waterway that Iran has put a stranglehold on.",
+      "timestamp": "06 APR 2026 · 01:14 UTC",
+      "headline": "VIETNAM’S GIG WORKERS SLAMMED BY RISING FUEL COSTS AMID FALLOUT OF IRAN WAR",
+      "detail": "Diesel prices have more than doubled in the Southeast Asian nation amid Iran's blockade of the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "05 APR 2026 · 21:10 UTC",
-      "headline": "TRUMP ISSUES EXPLETIVE-LADEN THREAT  TO IRAN OVER HORMUZ STRAIT BLOCKAGE",
+      "timestamp": "06 APR 2026 · 00:01 UTC",
+      "headline": "TRUMP ISSUES EXPLETIVE-LADEN THREAT TO IRAN OVER HORMUZ STRAIT BLOCKAGE",
       "detail": "The US president says he will destroy Iranian power plants and bridges if the vital waterway is not reopened.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN REJECTS TRUMP’S TUESDAY DEADLINE ON STRAIT OF HORMUZ",
+      "detail": "Iranian officials dismiss Trump's ultimatum, condemn latest threats as 'incitement to war crimes'.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 APR 2026 · 21:30 UTC",
+      "headline": "'WE ARE AT THE EDGE OF A BATTLEFIELD': BBC REPORTS NEAR STRAIT OF HORMUZ",
+      "detail": "The BBC's Orla Guerin travels to the edge of the critical waterway that Iran has put a stranglehold on.",
       "severity": "INFO"
     },
     {
@@ -37,22 +49,10 @@
       "headline": "TRUMP THREATENS ‘HELL’ FOR IRAN OVER HORMUZ STRAIT AS DEADLINE APPROACHES",
       "detail": "US president threatens to strike power plants and bridges on Tuesday in an expletive-laden social media post.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 APR 2026 · 06:41 UTC",
-      "headline": "IRAN SAYS TRUMP’S ‘OPEN THE F**KIN STRAIT’ THREAT SHOWS ‘INTENT TO COMMIT WAR CR",
-      "detail": "Tehran has said US President Trump’s latest threat to strike Iranian civilian infrastructure shows an intent to “commit war crimes” Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "03 APR 2026 · 17:45 UTC",
-      "headline": "FRENCH-OWNED SHIP PASSES THROUGH STRAIT OF HORMUZ",
-      "detail": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.29 (+0.00%)",
+    "BRENT: $110.61 (+0.00%)",
     "VIX: 23.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
