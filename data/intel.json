@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-06T02:08:44.679206+00:00",
+  "updated_at": "2026-04-06T05:21:05.767980+00:00",
   "market": {
-    "brent_usd": 110.61,
+    "brent_usd": 109.87,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,20 +15,26 @@
   },
   "events": [
     {
+      "timestamp": "06 APR 2026 · 03:45 UTC",
+      "headline": "IRÁN GOLPEA LAS INFRAESTRUCTURAS CRÍTICAS DE LOS PAÍSES DEL GOLFO EN RESPUESTA A",
+      "detail": "La contención de las petromonarquías, que evitan lanzar ataques de represalia, refuerza a Teherán como potencia regional tras más de cinco semanas de guerra",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 03:45 UTC",
+      "headline": "TRUMP VUELVE A DAR PRIORIDAD A LA REAPERTURA DEL ESTRECHO DE ORMUZ AL ACERCARSE ",
+      "detail": "El presidente estadounidense dará este lunes una rueda de prensa junto a representantes militares para tratar sobre la guerra y la operación de rescate del tripulante",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "06 APR 2026 · 01:14 UTC",
       "headline": "VIETNAM’S GIG WORKERS SLAMMED BY RISING FUEL COSTS AMID FALLOUT OF IRAN WAR",
       "detail": "Diesel prices have more than doubled in the Southeast Asian nation amid Iran's blockade of the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 APR 2026 · 00:01 UTC",
-      "headline": "TRUMP ISSUES EXPLETIVE-LADEN THREAT TO IRAN OVER HORMUZ STRAIT BLOCKAGE",
-      "detail": "The US president says he will destroy Iranian power plants and bridges if the vital waterway is not reopened.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "06 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN REJECTS TRUMP’S TUESDAY DEADLINE ON STRAIT OF HORMUZ",
+      "headline": "IRAN WAR LIVE: TEHRAN REJECTS TRUMP’S HORMUZ DEADLINE; 2 KILLED IN HAIFA",
       "detail": "Iranian officials dismiss Trump's ultimatum, condemn latest threats as 'incitement to war crimes'.",
       "severity": "INFO"
     },
@@ -43,16 +49,10 @@
       "headline": "TRUMP THREATENS IRAN IN EXPLETIVE-FILLED SOCIAL MEDIA POST",
       "detail": "Donald Trump unleashed a vulgar online tirade against Iran’s leaders as his deadline for reopening the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 APR 2026 · 15:32 UTC",
-      "headline": "TRUMP THREATENS ‘HELL’ FOR IRAN OVER HORMUZ STRAIT AS DEADLINE APPROACHES",
-      "detail": "US president threatens to strike power plants and bridges on Tuesday in an expletive-laden social media post.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.61 (+0.00%)",
+    "BRENT: $109.87 (+0.00%)",
     "VIX: 23.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
