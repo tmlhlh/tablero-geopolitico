@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-06T15:42:34.357428+00:00",
+  "updated_at": "2026-04-06T16:42:32.172325+00:00",
   "market": {
-    "brent_usd": 109.74,
+    "brent_usd": 108.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.2,
-    "vix": 24.24,
+    "ormuz_flow_pct": 85.4,
+    "vix": 24.12,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.0
   },
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "06 APR 2026 · 16:25 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
+      "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 16:00 UTC",
+      "headline": "IRÁN RECHAZA UN ALTO EL FUEGO TEMPORAL Y TRUMP AVISA DE QUE NO PRORROGARÁ SU ULT",
+      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 APR 2026 · 14:50 UTC",
       "headline": "WHERE ARE IRAN’S POWER PLANTS THAT TRUMP HAS THREATENED TO DESTROY?",
@@ -27,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "06 APR 2026 · 14:19 UTC",
-      "headline": "IRÁN RECHAZA UN ALTO EL FUEGO TEMPORAL CON EE UU Y TRUMP AVISA DE QUE NO PRORROG",
-      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "06 APR 2026 · 11:49 UTC",
       "headline": "IRAN THREATENS BAB AL-MANDEB CLOSURE: HOW WOULD THAT AFFECT WORLD TRADE?",
       "detail": "If the chokepoint were shut, along with the Strait of Hormuz, a quarter of the world's energy supply would be blocked.",
@@ -43,17 +49,11 @@
       "headline": "PAKISTAN OFFERS ‘TWO-PHASED’ TRUCE DEAL TO END US-ISRAEL WAR ON IRAN",
       "detail": "Iran, while still reviewing the proposal, says it won't reopen Hormuz as part of a temporary ceasefire.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 08:01 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 38 OF US-ISRAELI ATTACKS?",
-      "detail": "Tensions continue after Trump's threat on Truth Social for Iran to reopen the Strait of Hormuz.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.74 (+0.00%)",
-    "VIX: 24.24",
+    "BRENT: $108.91 (+0.00%)",
+    "VIX: 24.12",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
