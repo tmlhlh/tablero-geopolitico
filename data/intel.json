@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-06T11:45:03.095124+00:00",
+  "updated_at": "2026-04-06T13:02:48.062528+00:00",
   "market": {
-    "brent_usd": 108.51,
+    "brent_usd": 108.42,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.01,
+    "vix": 24.88,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.3
   },
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "06 APR 2026 · 11:49 UTC",
+      "headline": "IRAN THREATENS BAB AL-MANDEB CLOSURE: HOW WOULD THAT AFFECT WORLD TRADE?",
+      "detail": "If the chokepoint were shut, along with the Strait of Hormuz, a quarter of the world's energy supply would be blocked.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 11:25 UTC",
+      "headline": "PAKISTAN OFFERS ‘TWO-PHASED’ TRUCE DEAL TO END US-ISRAEL WAR ON IRAN",
+      "detail": "Iran, while still reviewing the proposal, says it won't reopen Hormuz as part of a temporary ceasefire.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 APR 2026 · 08:01 UTC",
       "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 38 OF US-ISRAELI ATTACKS?",
@@ -37,23 +49,11 @@
       "headline": "TRUMP VUELVE A DAR PRIORIDAD A LA REAPERTURA DEL ESTRECHO DE ORMUZ AL ACERCARSE ",
       "detail": "El presidente estadounidense dará este lunes una rueda de prensa junto a representantes militares para tratar sobre la guerra y la operación de rescate del tripulante",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 01:14 UTC",
-      "headline": "VIETNAM’S GIG WORKERS SLAMMED BY RISING FUEL COSTS AMID FALLOUT OF IRAN WAR",
-      "detail": "Diesel prices have more than doubled in the Southeast Asian nation amid Iran's blockade of the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SAYS RESPONSE TO CEASEFIRE PROPOSALS FORMULATED",
-      "detail": "Iran says no direct talks during escalating US-Israeli attacks as Trump's Hormuz deadline nears.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.51 (+0.00%)",
-    "VIX: 25.01",
+    "BRENT: $108.42 (+0.00%)",
+    "VIX: 24.88",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
