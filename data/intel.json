@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-06T14:43:21.350309+00:00",
+  "updated_at": "2026-04-06T15:42:34.357428+00:00",
   "market": {
-    "brent_usd": 108.33,
+    "brent_usd": 109.74,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.9,
-    "vix": 23.92,
+    "ormuz_flow_pct": 85.2,
+    "vix": 24.24,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.9
+    "insurance_spread_pct": 4.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "06 APR 2026 · 14:50 UTC",
+      "headline": "WHERE ARE IRAN’S POWER PLANTS THAT TRUMP HAS THREATENED TO DESTROY?",
+      "detail": "US President Trump threatens to destroy power plants, bridges by 8pm Tuesday if Iran doesn't open the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 APR 2026 · 14:23 UTC",
       "headline": "“ABRAN EL JODIDO ESTRECHO O VIVIRÁN EL INFIERNO”: TRUMP AMENAZA CON UN FEROZ ATA",
@@ -22,9 +28,9 @@
     },
     {
       "timestamp": "06 APR 2026 · 14:19 UTC",
-      "headline": "ISRAEL ATACA EN IRÁN EL MAYOR YACIMIENTO DE GAS NATURAL DEL MUNDO MIENTRAS TEHER",
-      "detail": "El régimen aclara que no reabrirá el estrecho de Ormuz a cambio de un alto el fuego temporal. Netanyahu celebra la muerte en un ataque del jefe de inteligencia de la Guardia Revolucionaria",
-      "severity": "CRÍTICO"
+      "headline": "IRÁN RECHAZA UN ALTO EL FUEGO TEMPORAL CON EE UU Y TRUMP AVISA DE QUE NO PRORROG",
+      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
+      "severity": "INFO"
     },
     {
       "timestamp": "06 APR 2026 · 11:49 UTC",
@@ -43,17 +49,11 @@
       "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 38 OF US-ISRAELI ATTACKS?",
       "detail": "Tensions continue after Trump's threat on Truth Social for Iran to reopen the Strait of Hormuz.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 03:45 UTC",
-      "headline": "IRÁN GOLPEA LAS INFRAESTRUCTURAS CRÍTICAS DE LOS PAÍSES DEL GOLFO EN RESPUESTA A",
-      "detail": "La contención de las petromonarquías, que evitan lanzar ataques de represalia, refuerza a Teherán como potencia regional tras más de cinco semanas de guerra",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.33 (+0.00%)",
-    "VIX: 23.92",
+    "BRENT: $109.74 (+0.00%)",
+    "VIX: 24.24",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
