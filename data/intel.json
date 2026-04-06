@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-06T18:54:23.463054+00:00",
+  "updated_at": "2026-04-06T19:51:16.914259+00:00",
   "market": {
-    "brent_usd": 109.88,
+    "brent_usd": 109.83,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.7,
-    "vix": 24.46,
+    "ormuz_flow_pct": 84.8,
+    "vix": 24.42,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.1
   },
@@ -15,7 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "06 APR 2026 · 18:42 UTC",
+      "timestamp": "06 APR 2026 · 19:30 UTC",
+      "headline": "TRUMP, SOBRE EL ULTIMÁTUM A IRÁN: “PODEMOS DESTRUIR UN PAÍS ENTERO EN UNA NOCHE ",
+      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 19:26 UTC",
       "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
       "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
       "severity": "INFO"
@@ -39,21 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "06 APR 2026 · 16:00 UTC",
-      "headline": "IRÁN RECHAZA UN ALTO EL FUEGO TEMPORAL Y TRUMP AVISA DE QUE NO PRORROGARÁ SU ULT",
-      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 14:50 UTC",
-      "headline": "WHERE ARE IRAN’S POWER PLANTS THAT TRUMP HAS THREATENED TO DESTROY?",
-      "detail": "US President Trump threatens to destroy power plants, bridges by 8pm Tuesday if Iran doesn't open the Strait of Hormuz.",
-      "severity": "INFO"
+      "timestamp": "06 APR 2026 · 15:40 UTC",
+      "headline": "'WE'RE SINKING DEEPER': IRANIANS BRACE FOR INFRASTRUCTURE STRIKES AS TRUMP DEADL",
+      "detail": "Ordinary Iranians respond to the US president's threat to destroy Iran's power plants and bridges unless it opens the Strait of Hormuz.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.88 (+0.00%)",
-    "VIX: 24.46",
+    "BRENT: $109.83 (+0.00%)",
+    "VIX: 24.42",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
