@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-06T21:35:09.087181+00:00",
+  "updated_at": "2026-04-06T22:32:59.123947+00:00",
   "market": {
-    "brent_usd": 109.63,
+    "brent_usd": 109.69,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "06 APR 2026 · 21:34 UTC",
+      "headline": "CON AMENAZAS CAMBIANTES, TRUMP MANTIENE AL MUNDO EN CONSTANTE DESEQUILIBRIO",
+      "detail": "El presidente estadounidense alterna anuncios de fin de la guerra con amenazas de bombardeos masivos, mientras líderes globales intentan evitar una crisis mayor en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 21:26 UTC",
+      "headline": "TRUMP SAYS US COULD CHARGE FOR STRAIT OF HORMUZ PASSAGE AMID IRAN WAR",
+      "detail": "US president says Washington, as the 'winner' of the war, has a 'concept' for charging a toll in the strategic waterway.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 APR 2026 · 20:00 UTC",
       "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
@@ -37,22 +49,10 @@
       "headline": "TRUMP WARNS HORMUZ DEADLINE ‘FINAL’ AS IRAN PUSHES PROPOSAL TO END WAR",
       "detail": "US president says proposal not enough to avert threat to infrastructure should Iran fail to open Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 16:50 UTC",
-      "headline": "LIBYA’S OIL DISPUTES MIRROR HORMUZ CRISIS, FUEL EUROPEAN ENERGY FEARS",
-      "detail": "Libyan oil sector proxy wars occur during Hormuz tensions, creating dangerous supply vulnerabilities for global markets.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 15:40 UTC",
-      "headline": "'WE'RE SINKING DEEPER': IRANIANS BRACE FOR INFRASTRUCTURE STRIKES AS TRUMP DEADL",
-      "detail": "Ordinary Iranians respond to the US president's threat to destroy Iran's power plants and bridges unless it opens the Strait of Hormuz.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.63 (+0.00%)",
+    "BRENT: $109.69 (+0.00%)",
     "VIX: 24.17",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
