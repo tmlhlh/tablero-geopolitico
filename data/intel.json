@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-06T17:41:33.220334+00:00",
+  "updated_at": "2026-04-06T18:54:23.463054+00:00",
   "market": {
-    "brent_usd": 110.34,
+    "brent_usd": 109.88,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.9,
-    "vix": 24.37,
+    "ormuz_flow_pct": 84.7,
+    "vix": 24.46,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.1
   },
@@ -15,15 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "06 APR 2026 · 16:50 UTC",
-      "headline": "LIBYA’S OIL DISPUTES MIRROR HORMUZ CRISIS, FUEL EUROPEAN ENERGY FEARS",
-      "detail": "Libyan oil sector proxy wars occur during Hormuz tensions, creating dangerous supply vulnerabilities for global markets.",
+      "timestamp": "06 APR 2026 · 18:42 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
+      "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 APR 2026 · 16:25 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
-      "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
+      "timestamp": "06 APR 2026 · 18:18 UTC",
+      "headline": "HEGSETH SAYS STRIKES ON IRAN INCREASING AS HORMUZ DEADLINE LOOMS",
+      "detail": "US Secretary of Defense Pete Hegseth said Monday will be the “largest volume of strikes” on Iran since the war began.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 17:38 UTC",
+      "headline": "TRUMP WARNS DEADLINE ‘FINAL’ AS IRAN PUSHES PROPOSAL TO END WAR",
+      "detail": "US president says proposal not enough to avert threat to infrastructure should Iran fail to open Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 16:50 UTC",
+      "headline": "LIBYA’S OIL DISPUTES MIRROR HORMUZ CRISIS, FUEL EUROPEAN ENERGY FEARS",
+      "detail": "Libyan oil sector proxy wars occur during Hormuz tensions, creating dangerous supply vulnerabilities for global markets.",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "WHERE ARE IRAN’S POWER PLANTS THAT TRUMP HAS THREATENED TO DESTROY?",
       "detail": "US President Trump threatens to destroy power plants, bridges by 8pm Tuesday if Iran doesn't open the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 14:23 UTC",
-      "headline": "“ABRAN EL JODIDO ESTRECHO O VIVIRÁN EL INFIERNO”: TRUMP AMENAZA CON UN FEROZ ATA",
-      "detail": "“El martes será el día de las centrales eléctricas y el día de los puentes”, dijo el mandatario estadounidense, que le dio al régimen iraní un ultimátum de 48 horas para alcanzar un acuerdo que permit",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 11:49 UTC",
-      "headline": "IRAN THREATENS BAB AL-MANDEB CLOSURE: HOW WOULD THAT AFFECT WORLD TRADE?",
-      "detail": "If the chokepoint were shut, along with the Strait of Hormuz, a quarter of the world's energy supply would be blocked.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.34 (+0.00%)",
-    "VIX: 24.37",
+    "BRENT: $109.88 (+0.00%)",
+    "VIX: 24.46",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
