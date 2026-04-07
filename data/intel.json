@@ -1,23 +1,47 @@
 {
-  "updated_at": "2026-04-07T22:35:01.640133+00:00",
+  "updated_at": "2026-04-07T23:34:29.216323+00:00",
   "market": {
-    "brent_usd": 103.13,
+    "brent_usd": 90.01,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 81.9,
     "vix": 25.78,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 4.6
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "07 APR 2026 · 21:44 UTC",
+      "timestamp": "07 APR 2026 · 23:28 UTC",
+      "headline": "LOS DETALLES DEL ACUERDO DE 10 PUNTOS ENTRE ESTADOS UNIDOS E IRÁN",
+      "detail": "La propuesta incluye el tránsito controlado por el estrecho de Ormuz y la retirada de las fuerzas de combate estadounidenses de todas las bases regionales, entre otros",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 23:26 UTC",
+      "headline": "IRÁN ACEPTÓ LA TREGUA Y ANUNCIÓ LA REAPERTURA DEL ESTRECHO DE ORMUZ, PERO ADVIRT",
+      "detail": "El Consejo Supremo de Seguridad Nacional dijo que empezará a negociar con EE.UU. el viernes en Islamabad",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 23:12 UTC",
+      "headline": "RUSIA Y CHINA VETARON UNA RESOLUCIÓN DE LA ONU PARA EXIGIR LA REAPERTURA DEL EST",
+      "detail": "Aunque luego de semanas de negociaciones el texto “lavado” ya no incluía la autorización al uso de la fuerza, Moscú y Pekín rechazaron la iniciativa contraria a los intereses de Irán",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 22:48 UTC",
+      "headline": "TRUMP SUSPENDS IRAN BOMBING FOR TWO WEEKS FOLLOWING DIRE THREATS",
+      "detail": "The US president nevertheless warned that the suspension was dependent on Iran reopening the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 22:28 UTC",
       "headline": "“UNA CIVILIZACIÓN ENTERA VA A MORIR”: TRAS AMENAZAR A IRÁN, TRUMP EVALÚA UNA PRO",
-      "detail": "Horas antes de que se cumpla el plazo que le impuso a Teherán para reabrir el estrecho de Ormuz, Islamabad hizo un llamado para que lo prorrogue por dos semanas",
+      "detail": "Antes de que se cumpla el plazo que el presidente norteamericano le impuso a Teherán para reabrir el estrecho de Ormuz, Islamabad hizo un llamado para que lo prorrogue por dos semanas",
       "severity": "INFO"
     },
     {
@@ -25,35 +49,11 @@
       "headline": "PAKISTAN APPEALS TO TRUMP TO EXTEND DEADLINE, IRAN TO REOPEN HORMUZ STRAIT",
       "detail": "PM Sharif cites progress in diplomatic efforts for peaceful settlement of war, urges to allow diplomacy run its course.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 21:20 UTC",
-      "headline": "PRECIO DEL PETRÓLEO HOY: EL BRENT SUPERÓ LOS US$110 POR LA CRISIS EN MEDIO ORIEN",
-      "detail": "La amenaza de Estados Unidos a Irán y el bloqueo del estrecho por donde pasa el 20% del crudo mundial empujaron los valores; analistas advierten por un impacto prolongado en la oferta global",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 20:17 UTC",
-      "headline": "RUSSIA AND CHINA BLOCK UN RESOLUTION ON STRAIT OF HORMUZ",
-      "detail": "A total 11 out of 15 members supported resolution, which was already watered down to evade vetoes.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 20:05 UTC",
-      "headline": "QUÉ SE SABE Y CUÁNDO VENCE EL ULTIMÁTUM DE TRUMP A IRÁN EN LA GUERRA DE MEDIO OR",
-      "detail": "El mandatario estadounidense le puso fecha límite al régimen para que libere el estrecho de Ormuz; caso contrario, fuerzas armadas estadounidenses atacarán; la reacción de Irán en plena cuenta regresi",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 20:03 UTC",
-      "headline": "EN QUÉ CONSISTE EL ULTIMÁTUM DE TRUMP A IRÁN EN LA GUERRA DE MEDIO ORIENTE, SEGÚ",
-      "detail": "En diálogo con LN+, el analista Andrés Repetto ahondó en la fortísima amenaza que lanzó el mandatario a horas de que se venza el plazo impuesto para reabrir el estrecho de Ormuz",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.13 (+0.00%)",
+    "BRENT: $90.01 (+0.00%)",
     "VIX: 25.78",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
