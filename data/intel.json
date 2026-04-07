@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-06T23:32:36.778237+00:00",
+  "updated_at": "2026-04-07T02:04:42.913897+00:00",
   "market": {
-    "brent_usd": 109.93,
+    "brent_usd": 111.06,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,8 +15,26 @@
   },
   "events": [
     {
+      "timestamp": "07 APR 2026 · 01:25 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
+      "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP WARNS OF ATTACKS AS HORMUZ DEAL DEADLINE NEARS",
+      "detail": "Defense Secretary Pete Hegseth says US forces are carrying out more strikes on Iran than any day since start of war.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 23:46 UTC",
+      "headline": "IRÁN LLAMA A JÓVENES ATLETAS A FORMAR CADENAS HUMANAS ALREDEDOR DE LAS PLANTAS D",
+      "detail": "Es una respuesta extrema a la amenaza de Trump de bombardear mañana infraestructura clave para que Teherán libere el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "06 APR 2026 · 23:04 UTC",
-      "headline": "TRUMP'S DEADLINE NEARS - WITH LITTLE INDICATION IRAN IS ON BOARD",
+      "headline": "CLOCK TICKS ON TRUMP'S IRAN ULTIMATUM WITH LITTLE SIGN OF BREAKTHROUGH",
       "detail": "The US president is in a delicate political position as the final hours to Tuesday's deadline for Iran to open the Strait of Hormuz tick down.",
       "severity": "INFO"
     },
@@ -31,28 +49,10 @@
       "headline": "CON AMENAZAS CAMBIANTES, TRUMP MANTIENE AL MUNDO EN CONSTANTE DESEQUILIBRIO",
       "detail": "El presidente estadounidense alterna anuncios de fin de la guerra con amenazas de bombardeos masivos, mientras líderes globales intentan evitar una crisis mayor en el estrecho de Ormuz",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 21:26 UTC",
-      "headline": "TRUMP SAYS US COULD CHARGE FOR STRAIT OF HORMUZ PASSAGE AMID IRAN WAR",
-      "detail": "US president says Washington, as the 'winner' of the war, has a 'concept' for charging a toll in the strategic waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 20:00 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
-      "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 19:30 UTC",
-      "headline": "TRUMP, SOBRE EL ULTIMÁTUM A IRÁN: “PODEMOS DESTRUIR UN PAÍS ENTERO EN UNA NOCHE ",
-      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.93 (+0.00%)",
+    "BRENT: $111.06 (+0.00%)",
     "VIX: 24.17",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
