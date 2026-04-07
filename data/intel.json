@@ -1,41 +1,29 @@
 {
-  "updated_at": "2026-04-07T10:10:48.497618+00:00",
+  "updated_at": "2026-04-07T11:51:52.155993+00:00",
   "market": {
-    "brent_usd": 108.99,
+    "brent_usd": 110.54,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.7,
-    "vix": 24.45,
+    "ormuz_flow_pct": 81.8,
+    "vix": 25.8,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.1
+    "insurance_spread_pct": 4.6
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "07 APR 2026 · 01:25 UTC",
+      "timestamp": "07 APR 2026 · 11:41 UTC",
       "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
       "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP WARNS OF ATTACKS AS HORMUZ DEAL DEADLINE NEARS",
-      "detail": "Defense Secretary Pete Hegseth says US forces are carrying out more strikes on Iran than any day since start of war.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "06 APR 2026 · 23:04 UTC",
       "headline": "LITTLE SIGN OF BREAKTHROUGH AS TRUMP'S IRAN DEADLINE NEARS ",
       "detail": "The US president is in a delicate political position as the final hours to Tuesday's deadline for Iran to open the Strait of Hormuz tick down.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 21:26 UTC",
-      "headline": "TRUMP SAYS US COULD CHARGE FOR STRAIT OF HORMUZ PASSAGE AMID IRAN WAR",
-      "detail": "US president says Washington, as the 'winner' of the war, has a 'concept' for charging a toll in the strategic waterway.",
       "severity": "INFO"
     },
     {
@@ -49,11 +37,23 @@
       "headline": "'WE'RE SINKING DEEPER': IRANIANS BRACE FOR INFRASTRUCTURE STRIKES AS TRUMP DEADL",
       "detail": "Ordinary Iranians respond to the US president's threat to destroy Iran's power plants and bridges unless it opens the Strait of Hormuz.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 03:45 UTC",
+      "headline": "IRÁN GOLPEA LAS INFRAESTRUCTURAS CRÍTICAS DE LOS PAÍSES DEL GOLFO EN RESPUESTA A",
+      "detail": "La contención de las petromonarquías, que evitan lanzar ataques de represalia, refuerza a Teherán como potencia regional tras más de cinco semanas de guerra",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 APR 2026 · 21:30 UTC",
+      "headline": "'WE ARE AT THE EDGE OF A BATTLEFIELD': BBC REPORTS NEAR STRAIT OF HORMUZ",
+      "detail": "The BBC's Orla Guerin travels to the edge of the critical waterway that Iran has put a stranglehold on.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.99 (+0.00%)",
-    "VIX: 24.45",
+    "BRENT: $110.54 (+0.00%)",
+    "VIX: 25.8",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
