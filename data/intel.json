@@ -1,23 +1,47 @@
 {
-  "updated_at": "2026-04-07T13:12:40.622611+00:00",
+  "updated_at": "2026-04-07T15:04:52.825063+00:00",
   "market": {
-    "brent_usd": 110.7,
+    "brent_usd": 110.61,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 82.9,
-    "vix": 25.27,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.4
+    "ormuz_flow_pct": 8.5,
+    "vix": 26.35,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 4.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "07 APR 2026 · 13:02 UTC",
+      "timestamp": "07 APR 2026 · 14:50 UTC",
       "headline": "EN QUÉ CONSISTE EL ULTIMÁTUM DE TRUMP A IRÁN EN LA GUERRA DE MEDIO ORIENTE, SEGÚ",
       "detail": "En diálogo con LN+, el analista Andrés Repetto ahondó en la fortísima amenaza que lanzó el mandatario a horas de que se venza el plazo impuesto para reabrir el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 14:37 UTC",
+      "headline": "DONALD TRUMP: “UNA CIVILIZACIÓN ENTERA VA A MORIR ESTA NOCHE”",
+      "detail": "El presidente estadounidense publicó un mensaje en sus redes sociales antes de que se cumpla el plazo de 48 horas que le impuso a Irán para reabrir el estrecho de Ormuz; Vance reafirmó que hay negocia",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 14:07 UTC",
+      "headline": "DÍA D EN MEDIO ORIENTE: ¿CUMPLIRÁ TRUMP SU AMENAZA CONTRA IRÁN?",
+      "detail": "El ultimátum por Ormuz vence esta noche y pone a prueba si la Casa Blanca escalará el conflicto o abrirá una última vía diplomática",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 13:53 UTC",
+      "headline": "TRUMP ON IRAN: ‘A WHOLE CIVILISATION WILL DIE TONIGHT’",
+      "detail": "Increasingly angry US president escalates his threats to Iran as his deadline for opening Strait of Hormuz approaches.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 13:50 UTC",
+      "headline": "PRECIO DEL PETRÓLEO HOY: EL BRENT SUPERA LOS US$110 POR LA CRISIS EN EL ESTRECHO",
+      "detail": "La amenaza de Estados Unidos a Irán y el bloqueo del estrecho por donde pasa el 20% del crudo mundial empujan los precios; analistas advierten por un impacto prolongado en la oferta global",
       "severity": "INFO"
     },
     {
@@ -25,35 +49,11 @@
       "headline": "A QUÉ HORA VENCE EL ULTIMÁTUM DE TRUMP A IRÁN QUE PUEDE DESATAR LA MAYOR ESCALAD",
       "detail": "El presidente estadounidense amenazó con atacar las centrales eléctricas y los puentes si no se reabre el estrecho de Ormuz; el país de Medio Oriente advirtió que habrá “represalias devastadoras”",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 12:54 UTC",
-      "headline": "DONALD TRUMP: “UNA CIVILIZACIÓN ENTERA VA A MORIR ESTA NOCHE”",
-      "detail": "El presidente estadounidense publicó un mensaje en sus redes sociales antes de que se cumpla el plazo de 48 horas que le impuso a Irán para reabrir el estrecho de Ormuz; Vance reafirmó que hay negocia",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 12:51 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PASA CON EL ULTIMÁTUM DE TRUMP ",
-      "detail": "En diálogo con LN+, el analista Andrés Repetto profundizó en la decisión del mandatario estadounidense de extender el plazo para alcanzar una resolución definitiva con Irán y el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 12:45 UTC",
-      "headline": "DÍA D EN MEDIO ORIENTE: ¿CUMPLIRÁ TRUMP SU AMENAZA CONTRA IRÁN?",
-      "detail": "El ultimátum por Ormuz vence esta noche y pone a prueba si la Casa Blanca escalará el conflicto o abrirá una última vía diplomática",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 12:34 UTC",
-      "headline": "REPORTAN ATAQUES AÉREOS A PUENTES EN IRÁN ANTES DEL ULTIMÁTUM DE TRUMP A IRÁN PO",
-      "detail": "A medida que se acerca el plazo fijado por el presidente norteamericano, las negociaciones diplomáticas parecen estancadas y el fuego cruzado se extiende en Medio Oriente",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.7 (+0.00%)",
-    "VIX: 25.27",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $110.61 (+0.00%)",
+    "VIX: 26.35",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
