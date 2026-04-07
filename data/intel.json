@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-04-07T20:42:43.382748+00:00",
+  "updated_at": "2026-04-07T21:39:18.624640+00:00",
   "market": {
-    "brent_usd": 105.88,
+    "brent_usd": 105.47,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 81.9,
+    "ormuz_flow_pct": 8.5,
     "vix": 25.78,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.6
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "07 APR 2026 · 21:20 UTC",
+      "headline": "PRECIO DEL PETRÓLEO HOY: EL BRENT SUPERÓ LOS US$110 POR LA CRISIS EN MEDIO ORIEN",
+      "detail": "La amenaza de Estados Unidos a Irán y el bloqueo del estrecho por donde pasa el 20% del crudo mundial empujaron los valores; analistas advierten por un impacto prolongado en la oferta global",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 21:00 UTC",
+      "headline": "DONALD TRUMP AMENAZA A IRÁN HORAS ANTES DEL ULTIMÁTUM: “UNA CIVILIZACIÓN ENTERA ",
+      "detail": "Tras el fuerte mensaje del presidente antes de que esta noche se cumpla el plazo que le impuso a Irán para reabrir el estrecho de Ormuz, Islamabad hizo un llamado para que lo prorrogue por dos semanas",
+      "severity": "INFO"
+    },
     {
       "timestamp": "07 APR 2026 · 20:17 UTC",
       "headline": "RUSSIA AND CHINA BLOCK UN RESOLUTION ON STRAIT OF HORMUZ",
       "detail": "A total 11 out of 15 members supported resolution, which was already watered down to evade vetoes.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 20:15 UTC",
-      "headline": "DONALD TRUMP AMENAZA A IRÁN HORAS ANTES DEL ULTIMÁTUM: “UNA CIVILIZACIÓN ENTERA ",
-      "detail": "Tras el fuerte mensaje del presidente antes de que esta noche se cumpla el plazo que le impuso a Irán para reabrir el estrecho de Ormuz, Pakistán hizo un llamado para que lo prorrogue por dos semanas;",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "TRUMP ANTICIPÓ DETALLES DEL PLAN PARA ATACAR A IRÁN EN PLENA CUENTA REGRESIVA DE",
       "detail": "El presidente de Estados Unidos le puso fecha límite al régimen iraní para que libere el estrecho de Ormuz; de lo contrario, fuerzas armadas estadounidenses atacarán; “Vivirán el infierno”, amenazó",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 16:09 UTC",
-      "headline": "LOS EXPERTOS AFIRMAN QUE TRUMP INCURRIRÁ EN CRÍMENES DE GUERRA SI CUMPLE SUS AME",
-      "detail": "Los ataques a infraestructuras civiles y centrales eléctricas en Irán violan el derecho internacional, según varios especialistas consultados. Teherán también ha golpeado al sector energético en el Go",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.88 (+0.00%)",
+    "BRENT: $105.47 (+0.00%)",
     "VIX: 25.78",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
