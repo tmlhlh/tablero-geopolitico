@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-07T05:06:33.896047+00:00",
+  "updated_at": "2026-04-07T07:11:07.852924+00:00",
   "market": {
-    "brent_usd": 111.09,
+    "brent_usd": 111.3,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -34,14 +34,8 @@
     },
     {
       "timestamp": "06 APR 2026 · 23:04 UTC",
-      "headline": "CLOCK TICKS ON TRUMP'S IRAN ULTIMATUM WITH LITTLE SIGN OF BREAKTHROUGH",
+      "headline": "LITTLE SIGN OF BREAKTHROUGH AS TRUMP'S IRAN DEADLINE NEARS ",
       "detail": "The US president is in a delicate political position as the final hours to Tuesday's deadline for Iran to open the Strait of Hormuz tick down.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 APR 2026 · 21:55 UTC",
-      "headline": "TRUMP THREATENS TO TAKE OUT IRAN IN 'ONE NIGHT' IF NO DEAL BEFORE DEADLINE",
-      "detail": "The US president wants Tehran to reopen the Strait of Hormuz, a critical global energy route, before his Tuesday deadline.",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "TRUMP SAYS US COULD CHARGE FOR STRAIT OF HORMUZ PASSAGE AMID IRAN WAR",
       "detail": "US president says Washington, as the 'winner' of the war, has a 'concept' for charging a toll in the strategic waterway.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "06 APR 2026 · 19:30 UTC",
+      "headline": "TRUMP, SOBRE EL ULTIMÁTUM A IRÁN: “PODEMOS DESTRUIR UN PAÍS ENTERO EN UNA NOCHE ",
+      "detail": "Teherán solo reabrirá el estrecho de Ormuz en el marco de un acuerdo de paz definitivo. Israel ataca el mayor yacimiento de gas natural del mundo, otra planta petroquímica y tres aeropuertos",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.09 (+0.00%)",
+    "BRENT: $111.3 (+0.00%)",
     "VIX: 24.17",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
