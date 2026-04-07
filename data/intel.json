@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-07T21:39:18.624640+00:00",
+  "updated_at": "2026-04-07T22:35:01.640133+00:00",
   "market": {
-    "brent_usd": 105.47,
+    "brent_usd": 103.13,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "07 APR 2026 · 21:20 UTC",
-      "headline": "PRECIO DEL PETRÓLEO HOY: EL BRENT SUPERÓ LOS US$110 POR LA CRISIS EN MEDIO ORIEN",
-      "detail": "La amenaza de Estados Unidos a Irán y el bloqueo del estrecho por donde pasa el 20% del crudo mundial empujaron los valores; analistas advierten por un impacto prolongado en la oferta global",
+      "timestamp": "07 APR 2026 · 21:44 UTC",
+      "headline": "“UNA CIVILIZACIÓN ENTERA VA A MORIR”: TRAS AMENAZAR A IRÁN, TRUMP EVALÚA UNA PRO",
+      "detail": "Horas antes de que se cumpla el plazo que le impuso a Teherán para reabrir el estrecho de Ormuz, Islamabad hizo un llamado para que lo prorrogue por dos semanas",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 APR 2026 · 21:00 UTC",
-      "headline": "DONALD TRUMP AMENAZA A IRÁN HORAS ANTES DEL ULTIMÁTUM: “UNA CIVILIZACIÓN ENTERA ",
-      "detail": "Tras el fuerte mensaje del presidente antes de que esta noche se cumpla el plazo que le impuso a Irán para reabrir el estrecho de Ormuz, Islamabad hizo un llamado para que lo prorrogue por dos semanas",
+      "timestamp": "07 APR 2026 · 21:35 UTC",
+      "headline": "PAKISTAN APPEALS TO TRUMP TO EXTEND DEADLINE, IRAN TO REOPEN HORMUZ STRAIT",
+      "detail": "PM Sharif cites progress in diplomatic efforts for peaceful settlement of war, urges to allow diplomacy run its course.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 21:20 UTC",
+      "headline": "PRECIO DEL PETRÓLEO HOY: EL BRENT SUPERÓ LOS US$110 POR LA CRISIS EN MEDIO ORIEN",
+      "detail": "La amenaza de Estados Unidos a Irán y el bloqueo del estrecho por donde pasa el 20% del crudo mundial empujaron los valores; analistas advierten por un impacto prolongado en la oferta global",
       "severity": "INFO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "EN QUÉ CONSISTE EL ULTIMÁTUM DE TRUMP A IRÁN EN LA GUERRA DE MEDIO ORIENTE, SEGÚ",
       "detail": "En diálogo con LN+, el analista Andrés Repetto ahondó en la fortísima amenaza que lanzó el mandatario a horas de que se venza el plazo impuesto para reabrir el estrecho de Ormuz",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 20:03 UTC",
-      "headline": "TRUMP ANTICIPÓ DETALLES DEL PLAN PARA ATACAR A IRÁN EN PLENA CUENTA REGRESIVA DE",
-      "detail": "El presidente de Estados Unidos le puso fecha límite al régimen iraní para que libere el estrecho de Ormuz; de lo contrario, fuerzas armadas estadounidenses atacarán; “Vivirán el infierno”, amenazó",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.47 (+0.00%)",
+    "BRENT: $103.13 (+0.00%)",
     "VIX: 25.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
