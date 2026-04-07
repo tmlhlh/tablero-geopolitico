@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-07T02:04:42.913897+00:00",
+  "updated_at": "2026-04-07T05:06:33.896047+00:00",
   "market": {
-    "brent_usd": 111.06,
+    "brent_usd": 111.09,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -45,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "06 APR 2026 · 21:34 UTC",
-      "headline": "CON AMENAZAS CAMBIANTES, TRUMP MANTIENE AL MUNDO EN CONSTANTE DESEQUILIBRIO",
-      "detail": "El presidente estadounidense alterna anuncios de fin de la guerra con amenazas de bombardeos masivos, mientras líderes globales intentan evitar una crisis mayor en el estrecho de Ormuz",
+      "timestamp": "06 APR 2026 · 21:26 UTC",
+      "headline": "TRUMP SAYS US COULD CHARGE FOR STRAIT OF HORMUZ PASSAGE AMID IRAN WAR",
+      "detail": "US president says Washington, as the 'winner' of the war, has a 'concept' for charging a toll in the strategic waterway.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.06 (+0.00%)",
+    "BRENT: $111.09 (+0.00%)",
     "VIX: 24.17",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
