@@ -1,46 +1,40 @@
 {
-  "updated_at": "2026-04-08T13:14:24.407837+00:00",
+  "updated_at": "2026-04-08T15:06:49.723381+00:00",
   "market": {
-    "brent_usd": 90.77,
+    "brent_usd": 95.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.22,
+    "vix": 21.66,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.6
+    "insurance_spread_pct": 3.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "08 APR 2026 · 12:49 UTC",
-      "headline": "IRÁN ACEPTÓ LA TREGUA Y ANUNCIÓ LA REAPERTURA DEL ESTRECHO DE ORMUZ, PERO ADVIRT",
-      "detail": "El Consejo Supremo de Seguridad Nacional dijo que empezará a negociar con EE.UU. el viernes en Islamabad",
-      "severity": "INFO"
+      "timestamp": "08 APR 2026 · 14:54 UTC",
+      "headline": "QUÉ SE SABE SOBRE EL ALTO EL FUEGO ENTRE ESTADOS UNIDOS E IRÁN Y QUÉ PODRÍA PASA",
+      "detail": "Trump declinó de llevar a cabo sus amenazas contra el régimen iraní a cambio de la reapertura del estrecho de Ormuz; la guerra aún no termina y los términos del acuerdo siguen sin estar claros",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "08 APR 2026 · 12:40 UTC",
-      "headline": "LOS DETALLES DEL ACUERDO ENTRE ESTADOS UNIDOS E IRÁN PARA ALCANZAR LA PAZ",
-      "detail": "La propuesta del régimen incluye el tránsito controlado por el estrecho de Ormuz y la retirada de las fuerzas de combate estadounidenses de todas las bases regionales, entre otros",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 11:38 UTC",
+      "timestamp": "08 APR 2026 · 14:08 UTC",
       "headline": "REABRIÓ EL ESTRECHO DE ORMUZ TRAS EL ANUNCIO DE LA TREGUA ENTRE IRÁN Y ESTADOS U",
       "detail": "Durante este periodo, el tránsito por esa vía se realizará “en coordinación con las fuerzas armadas iraníes”, declaró en X el ministro iraní de Relaciones Exteriores",
       "severity": "INFO"
     },
     {
-      "timestamp": "08 APR 2026 · 11:24 UTC",
-      "headline": "HOY DECLARA LA ESCRIBANA DE ADORNI; TRAS LA TREGUA ENTRE EE.UU. E IRÁN, REABREN ",
-      "detail": "Además, el oficialismo busca sancionar la ley de glaciares; ganó Boca en su primer partido de Libertadores. Estas son las noticias de la mañana del 8 de abril de 2026",
+      "timestamp": "08 APR 2026 · 13:57 UTC",
+      "headline": "EL PRECIO DEL PETRÓLEO SE DESPLOMÓ TRAS EL ALTO EL FUEGO ENTRE ESTADOS UNIDOS E ",
+      "detail": "El Brent llegó a máximos por el riesgo de un cierre mayor en el estrecho de Ormuz y ahora cotiza cerca de los US$90 por barril tras el anuncio de una tregua por dos semanas",
       "severity": "INFO"
     },
     {
       "timestamp": "08 APR 2026 · 10:43 UTC",
-      "headline": "UAE, KUWAIT, BAHRAIN REPORT ATTACKS DESPITE IRAN-US CEASEFIRE",
+      "headline": "SAUDI ARABIA, UAE, KUWAIT, BAHRAIN REPORT ATTACKS AFTER IRAN-US CEASEFIRE",
       "detail": "Several strikes reported across the Gulf region hours after the US and Iran announce a ceasefire for two weeks.",
       "severity": "CRÍTICO"
     },
@@ -49,11 +43,17 @@
       "headline": "ESTADOS UNIDOS E IRÁN ACUERDAN UN ALTO EL FUEGO DE DOS SEMANAS JUSTO ANTES DE EX",
       "detail": "El mediador, Pakistán, precisa que tiene “efecto inmediato” en todos los países involucrados en el conflicto. Teherán permitirá el “paso seguro” por el estrecho de Ormuz mientras ambos países negocian",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 06:21 UTC",
+      "headline": "IN STRAIT OF HORMUZ, IRAN AND CHINA TAKE AIM AT US DOLLAR HEGEMONY",
+      "detail": "Tehran and Beijing both stand to gain from boosting status of the Chinese yuan.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.77 (+0.00%)",
-    "VIX: 20.22",
+    "BRENT: $95.1 (+0.00%)",
+    "VIX: 21.66",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
