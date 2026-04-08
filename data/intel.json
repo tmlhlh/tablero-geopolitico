@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-08T20:44:40.566085+00:00",
+  "updated_at": "2026-04-08T21:38:41.355890+00:00",
   "market": {
-    "brent_usd": 96.38,
+    "brent_usd": 96.26,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -18,12 +18,6 @@
       "timestamp": "08 APR 2026 · 20:03 UTC",
       "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
       "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 19:26 UTC",
-      "headline": "EE.UU. CUESTIONA EL PLAN DE PAZ QUE PUBLICÓ IRÁN Y EL RÉGIMEN DENUNCIA QUE YA SE",
-      "detail": "El plan reafirma el control iraní del estrecho de Ormuz y mantiene el derecho del país al enriquecimiento nuclear; según Washington, no es el mismo que vio Trump en las negociaciones",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "IRAN STRAIT OF HORMUZ WARNING ADDS TO SHIPPING UNCERTAINTY",
       "detail": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 07:44 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN ACUERDAN UN ALTO EL FUEGO DE DOS SEMANAS JUSTO ANTES DE EX",
+      "detail": "El mediador, Pakistán, precisa que tiene “efecto inmediato” en todos los países involucrados en el conflicto. Teherán permitirá el “paso seguro” por el estrecho de Ormuz mientras ambos países negocian",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.38 (+0.00%)",
+    "BRENT: $96.26 (+0.00%)",
     "VIX: 21.04",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
