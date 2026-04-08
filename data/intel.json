@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-08T15:06:49.723381+00:00",
+  "updated_at": "2026-04-08T16:58:07.885785+00:00",
   "market": {
-    "brent_usd": 95.1,
+    "brent_usd": 94.96,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 21.66,
+    "vix": 20.78,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.1
+    "insurance_spread_pct": 2.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 APR 2026 · 16:13 UTC",
+      "headline": "SHIPS STILL CAUTIOUS ABOUT USING STRAIT OF HORMUZ AS IRAN ISSUES WARNING",
+      "detail": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "08 APR 2026 · 14:54 UTC",
       "headline": "QUÉ SE SABE SOBRE EL ALTO EL FUEGO ENTRE ESTADOS UNIDOS E IRÁN Y QUÉ PODRÍA PASA",
@@ -21,20 +27,8 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "08 APR 2026 · 14:08 UTC",
-      "headline": "REABRIÓ EL ESTRECHO DE ORMUZ TRAS EL ANUNCIO DE LA TREGUA ENTRE IRÁN Y ESTADOS U",
-      "detail": "Durante este periodo, el tránsito por esa vía se realizará “en coordinación con las fuerzas armadas iraníes”, declaró en X el ministro iraní de Relaciones Exteriores",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 13:57 UTC",
-      "headline": "EL PRECIO DEL PETRÓLEO SE DESPLOMÓ TRAS EL ALTO EL FUEGO ENTRE ESTADOS UNIDOS E ",
-      "detail": "El Brent llegó a máximos por el riesgo de un cierre mayor en el estrecho de Ormuz y ahora cotiza cerca de los US$90 por barril tras el anuncio de una tregua por dos semanas",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "08 APR 2026 · 10:43 UTC",
-      "headline": "SAUDI ARABIA, UAE, KUWAIT, BAHRAIN REPORT ATTACKS AFTER IRAN-US CEASEFIRE",
+      "headline": "S ARABIA, UAE, KUWAIT, QATAR, BAHRAIN REPORT ATTACKS AFTER IRAN-US TRUCE",
       "detail": "Several strikes reported across the Gulf region hours after the US and Iran announce a ceasefire for two weeks.",
       "severity": "CRÍTICO"
     },
@@ -45,15 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "08 APR 2026 · 06:21 UTC",
-      "headline": "IN STRAIT OF HORMUZ, IRAN AND CHINA TAKE AIM AT US DOLLAR HEGEMONY",
-      "detail": "Tehran and Beijing both stand to gain from boosting status of the Chinese yuan.",
+      "timestamp": "08 APR 2026 · 03:30 UTC",
+      "headline": "¿QUÉ BARCOS ESTÁN CRUZANDO EL ESTRECHO DE ORMUZ? EL TRÁNSITO CRECE EN LA ÚLTIMA ",
+      "detail": "Más de 80 buques han atravesado el corredor marítimo en los últimos siete días, casi un tercio de todos los registrados desde que comenzó el bloqueo. China es la principal beneficiada",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 16:09 UTC",
+      "headline": "LOS EXPERTOS AFIRMAN QUE TRUMP INCURRIRÁ EN CRÍMENES DE GUERRA SI CUMPLE SUS AME",
+      "detail": "Los ataques a infraestructuras civiles y centrales eléctricas en Irán violan el derecho internacional, según varios especialistas consultados. Teherán también ha golpeado al sector energético en el Go",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.1 (+0.00%)",
-    "VIX: 21.66",
+    "BRENT: $94.96 (+0.00%)",
+    "VIX: 20.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
