@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-08T21:38:41.355890+00:00",
+  "updated_at": "2026-04-08T22:35:51.828239+00:00",
   "market": {
-    "brent_usd": 96.26,
+    "brent_usd": 97.18,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "08 APR 2026 · 20:03 UTC",
-      "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
-      "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
-      "severity": "INFO"
+      "timestamp": "08 APR 2026 · 22:14 UTC",
+      "headline": "EN MEDIO DE LA FRÁGIL TREGUA, TRUMP ANUNCIA EL DIÁLOGO DIRECTO CON IRÁN, QUE MAN",
+      "detail": "Israel llevó a cabo sus ataques más intensos en el Líbano desde que estalló un nuevo conflicto con Hezbollah el mes pasado; hubo 254 muertos",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "08 APR 2026 · 18:56 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.26 (+0.00%)",
+    "BRENT: $97.18 (+0.00%)",
     "VIX: 21.04",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
