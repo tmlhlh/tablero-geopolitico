@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-08T11:52:40.982363+00:00",
+  "updated_at": "2026-04-08T13:14:24.407837+00:00",
   "market": {
-    "brent_usd": 92.58,
+    "brent_usd": 90.77,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.28,
+    "vix": 20.22,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.6
   },
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 APR 2026 · 12:49 UTC",
+      "headline": "IRÁN ACEPTÓ LA TREGUA Y ANUNCIÓ LA REAPERTURA DEL ESTRECHO DE ORMUZ, PERO ADVIRT",
+      "detail": "El Consejo Supremo de Seguridad Nacional dijo que empezará a negociar con EE.UU. el viernes en Islamabad",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 12:40 UTC",
+      "headline": "LOS DETALLES DEL ACUERDO ENTRE ESTADOS UNIDOS E IRÁN PARA ALCANZAR LA PAZ",
+      "detail": "La propuesta del régimen incluye el tránsito controlado por el estrecho de Ormuz y la retirada de las fuerzas de combate estadounidenses de todas las bases regionales, entre otros",
+      "severity": "INFO"
+    },
     {
       "timestamp": "08 APR 2026 · 11:38 UTC",
       "headline": "REABRIÓ EL ESTRECHO DE ORMUZ TRAS EL ANUNCIO DE LA TREGUA ENTRE IRÁN Y ESTADOS U",
@@ -37,23 +49,11 @@
       "headline": "ESTADOS UNIDOS E IRÁN ACUERDAN UN ALTO EL FUEGO DE DOS SEMANAS JUSTO ANTES DE EX",
       "detail": "El mediador, Pakistán, precisa que tiene “efecto inmediato” en todos los países involucrados en el conflicto. Teherán permitirá el “paso seguro” por el estrecho de Ormuz mientras ambos países negocian",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 07:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP DECLARES CEASEFIRE, TEHRAN AGREES SAFE HORMUZ TRANSIT",
-      "detail": "Iran has claimed victory and says upcoming talks in Pakistan do not mean the end of war is guaranteed.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 06:21 UTC",
-      "headline": "IN STRAIT OF HORMUZ, IRAN AND CHINA TAKE AIM AT US DOLLAR HEGEMONY",
-      "detail": "Tehran and Beijing both stand to gain from boosting status of the Chinese yuan.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.58 (+0.00%)",
-    "VIX: 20.28",
+    "BRENT: $90.77 (+0.00%)",
+    "VIX: 20.22",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
