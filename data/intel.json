@@ -1,36 +1,42 @@
 {
-  "updated_at": "2026-04-08T16:58:07.885785+00:00",
+  "updated_at": "2026-04-08T18:08:41.758124+00:00",
   "market": {
-    "brent_usd": 94.96,
+    "brent_usd": 95.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.78,
+    "vix": 21.22,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.8
+    "insurance_spread_pct": 3.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "08 APR 2026 · 16:13 UTC",
-      "headline": "SHIPS STILL CAUTIOUS ABOUT USING STRAIT OF HORMUZ AS IRAN ISSUES WARNING",
-      "detail": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
+      "timestamp": "08 APR 2026 · 18:02 UTC",
+      "headline": "LOS DETALLES DEL ACUERDO ENTRE ESTADOS UNIDOS E IRÁN PARA ALCANZAR LA PAZ",
+      "detail": "La propuesta del régimen incluye el tránsito controlado por el estrecho de Ormuz y la retirada de las fuerzas de combate estadounidenses de todas las bases regionales, entre otros",
       "severity": "INFO"
     },
     {
-      "timestamp": "08 APR 2026 · 14:54 UTC",
-      "headline": "QUÉ SE SABE SOBRE EL ALTO EL FUEGO ENTRE ESTADOS UNIDOS E IRÁN Y QUÉ PODRÍA PASA",
-      "detail": "Trump declinó de llevar a cabo sus amenazas contra el régimen iraní a cambio de la reapertura del estrecho de Ormuz; la guerra aún no termina y los términos del acuerdo siguen sin estar claros",
+      "timestamp": "08 APR 2026 · 17:45 UTC",
+      "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
+      "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 17:32 UTC",
+      "headline": "NUEVOS ATAQUES EN ORIENTE PRÓXIMO MUESTRAN LA FRAGILIDAD DEL ALTO EL FUEGO ENTRE",
+      "detail": "Israel acata el cese de hostilidades pactado por Trump, pero redobla los bombardeos sobre Líbano. Teherán golpea infraestructuras de los países del Golfo y se muestra ambiguo sobre la reapertura del e",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "08 APR 2026 · 10:43 UTC",
-      "headline": "S ARABIA, UAE, KUWAIT, QATAR, BAHRAIN REPORT ATTACKS AFTER IRAN-US TRUCE",
-      "detail": "Several strikes reported across the Gulf region hours after the US and Iran announce a ceasefire for two weeks.",
-      "severity": "CRÍTICO"
+      "timestamp": "08 APR 2026 · 17:21 UTC",
+      "headline": "IRAN STRAIT OF HORMUZ WARNING ADDS TO SHIPPING UNCERTAINTY",
+      "detail": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
+      "severity": "INFO"
     },
     {
       "timestamp": "08 APR 2026 · 07:44 UTC",
@@ -43,17 +49,11 @@
       "headline": "¿QUÉ BARCOS ESTÁN CRUZANDO EL ESTRECHO DE ORMUZ? EL TRÁNSITO CRECE EN LA ÚLTIMA ",
       "detail": "Más de 80 buques han atravesado el corredor marítimo en los últimos siete días, casi un tercio de todos los registrados desde que comenzó el bloqueo. China es la principal beneficiada",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 16:09 UTC",
-      "headline": "LOS EXPERTOS AFIRMAN QUE TRUMP INCURRIRÁ EN CRÍMENES DE GUERRA SI CUMPLE SUS AME",
-      "detail": "Los ataques a infraestructuras civiles y centrales eléctricas en Irán violan el derecho internacional, según varios especialistas consultados. Teherán también ha golpeado al sector energético en el Go",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.96 (+0.00%)",
-    "VIX: 20.78",
+    "BRENT: $95.1 (+0.00%)",
+    "VIX: 21.22",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
