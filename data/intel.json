@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-08T05:08:24.874815+00:00",
+  "updated_at": "2026-04-08T07:13:50.646109+00:00",
   "market": {
-    "brent_usd": 95.1,
+    "brent_usd": 94.34,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,44 +15,44 @@
   },
   "events": [
     {
+      "timestamp": "08 APR 2026 · 07:09 UTC",
+      "headline": "EL PRECIO DEL PETRÓLEO SE DESPLOMÓ TRAS EL ALTO EL FUEGO ENTRE ESTADOS UNIDOS E ",
+      "detail": "El Brent llegó a máximos por el riesgo de un cierre mayor en el Estrecho de Ormuz aunque ahora cotiza cerca de los US$90 por barril, pero los futuros se desplomaron tras el anuncio de una tregua por d",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 07:01 UTC",
+      "headline": "LOS DETALLES DEL ACUERDO DE 10 PUNTOS ENTRE ESTADOS UNIDOS E IRÁN PARA ALCANZAR ",
+      "detail": "La propuesta del régimen incluye el tránsito controlado por el estrecho de Ormuz y la retirada de las fuerzas de combate estadounidenses de todas las bases regionales, entre otros",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 07:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP ANNOUNCES TRUCE, TEHRAN AGREES SAFE TRANSIT IN HORMUZ",
+      "detail": "Iran has claimed victory and says upcoming talks in Pakistan do not mean the end of war is guaranteed.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 06:46 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN ACUERDAN UN ALTO EL FUEGO DE DOS SEMANAS JUSTO ANTES DE EX",
+      "detail": "El mediador, Pakistán, precisa que tiene “efecto inmediato” en todos los países involucrados en el conflicto. Teherán permitirá el “paso seguro” por el estrecho de Ormuz mientras ambos países negocian",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 06:21 UTC",
+      "headline": "IN STRAIT OF HORMUZ, IRAN AND CHINA TAKE AIM AT US DOLLAR HEGEMONY",
+      "detail": "Tehran and Beijing both stand to gain from boosting status of the Chinese yuan.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "08 APR 2026 · 03:30 UTC",
       "headline": "¿QUÉ BARCOS ESTÁN CRUZANDO EL ESTRECHO DE ORMUZ? EL TRÁNSITO CRECE EN LA ÚLTIMA ",
       "detail": "Más de 80 buques han atravesado el corredor marítimo en los últimos siete días, casi un tercio de todos los registrados desde que comenzó el bloqueo. China es la principal beneficiada",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 03:24 UTC",
-      "headline": "OIL PLUNGES AFTER US-IRAN CEASEFIRE DEAL TO REOPEN STRAIT OF HORMUZ",
-      "detail": "The agreement was announced not long before Trump's Tuesday evening deadline was reached.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 01:29 UTC",
-      "headline": "OIL PRICES SLIDE, STOCKS SURGE AS TRUMP ANNOUNCES TWO-WEEK IRAN CEASEFIRE",
-      "detail": "Investors welcome the possible resumption of oil and gas flows through the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 01:06 UTC",
-      "headline": "IRAN SAYS TALKS WITH US WILL BEGIN IN PAKISTAN’S ISLAMABAD ON FRIDAY",
-      "detail": "Tehran says the negotiations will be based on its 10-point proposal, which calls for control over Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 01:00 UTC",
-      "headline": "IRAN AGREES TO OPEN STRAIT OF HORMUZ FOR TWO-WEEK US CEASEFIRE",
-      "detail": "Iran’s Foreign Minister Abbas Araghchi says ‘if attacks against Iran are halted,’ then Iran agrees to a US ceasefire.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 23:25 UTC",
-      "headline": "TRUMP AGREES TO PAUSE ATTACKS ON IRAN IF STRAIT OF HORMUZ OPENS",
-      "detail": "US President Donald Trump says he has agreed to extend his threatened deadline to attack Iran by two weeks.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.1 (+0.00%)",
+    "BRENT: $94.34 (+0.00%)",
     "VIX: 25.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
