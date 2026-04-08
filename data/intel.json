@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-08T07:13:50.646109+00:00",
+  "updated_at": "2026-04-08T08:57:32.914211+00:00",
   "market": {
-    "brent_usd": 94.34,
+    "brent_usd": 94.18,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.78,
+    "vix": 20.57,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.6
+    "insurance_spread_pct": 2.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 APR 2026 · 07:44 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN ACUERDAN UN ALTO EL FUEGO DE DOS SEMANAS JUSTO ANTES DE EX",
+      "detail": "El mediador, Pakistán, precisa que tiene “efecto inmediato” en todos los países involucrados en el conflicto. Teherán permitirá el “paso seguro” por el estrecho de Ormuz mientras ambos países negocian",
+      "severity": "INFO"
+    },
     {
       "timestamp": "08 APR 2026 · 07:09 UTC",
       "headline": "EL PRECIO DEL PETRÓLEO SE DESPLOMÓ TRAS EL ALTO EL FUEGO ENTRE ESTADOS UNIDOS E ",
@@ -28,14 +34,8 @@
     },
     {
       "timestamp": "08 APR 2026 · 07:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP ANNOUNCES TRUCE, TEHRAN AGREES SAFE TRANSIT IN HORMUZ",
+      "headline": "IRAN WAR LIVE: TRUMP DECLARES CEASEFIRE, TEHRAN AGREES SAFE HORMUZ TRANSIT",
       "detail": "Iran has claimed victory and says upcoming talks in Pakistan do not mean the end of war is guaranteed.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 06:46 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN ACUERDAN UN ALTO EL FUEGO DE DOS SEMANAS JUSTO ANTES DE EX",
-      "detail": "El mediador, Pakistán, precisa que tiene “efecto inmediato” en todos los países involucrados en el conflicto. Teherán permitirá el “paso seguro” por el estrecho de Ormuz mientras ambos países negocian",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.34 (+0.00%)",
-    "VIX: 25.78",
+    "BRENT: $94.18 (+0.00%)",
+    "VIX: 20.57",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
