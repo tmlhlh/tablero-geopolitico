@@ -1,22 +1,28 @@
 {
-  "updated_at": "2026-04-08T02:05:26.410560+00:00",
+  "updated_at": "2026-04-08T05:08:24.874815+00:00",
   "market": {
-    "brent_usd": 94.93,
+    "brent_usd": 95.1,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 81.9,
+    "ormuz_flow_pct": 8.5,
     "vix": 25.78,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.6
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "08 APR 2026 · 02:01 UTC",
-      "headline": "OIL SLIDES AFTER US-IRAN CEASEFIRE DEAL TO REOPEN STRAIT OF HORMUZ",
+      "timestamp": "08 APR 2026 · 03:30 UTC",
+      "headline": "¿QUÉ BARCOS ESTÁN CRUZANDO EL ESTRECHO DE ORMUZ? EL TRÁNSITO CRECE EN LA ÚLTIMA ",
+      "detail": "Más de 80 buques han atravesado el corredor marítimo en los últimos siete días, casi un tercio de todos los registrados desde que comenzó el bloqueo. China es la principal beneficiada",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 03:24 UTC",
+      "headline": "OIL PLUNGES AFTER US-IRAN CEASEFIRE DEAL TO REOPEN STRAIT OF HORMUZ",
       "detail": "The agreement was announced not long before Trump's Tuesday evening deadline was reached.",
       "severity": "INFO"
     },
@@ -39,21 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "07 APR 2026 · 23:53 UTC",
-      "headline": "LOS DETALLES DEL ACUERDO DE 10 PUNTOS ENTRE ESTADOS UNIDOS E IRÁN PARA ALCANZAR ",
-      "detail": "La propuesta del régimen incluye el tránsito controlado por el estrecho de Ormuz y la retirada de las fuerzas de combate estadounidenses de todas las bases regionales, entre otros",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 23:50 UTC",
-      "headline": "TRUMP ANTICIPÓ DETALLES DEL PLAN PARA ATACAR A IRÁN EN PLENA CUENTA REGRESIVA DE",
-      "detail": "El presidente de Estados Unidos le puso fecha límite al régimen iraní para que libere el estrecho de Ormuz; de lo contrario, fuerzas armadas estadounidenses atacarán; “Vivirán el infierno”, amenazó",
-      "severity": "INFO"
+      "timestamp": "07 APR 2026 · 23:25 UTC",
+      "headline": "TRUMP AGREES TO PAUSE ATTACKS ON IRAN IF STRAIT OF HORMUZ OPENS",
+      "detail": "US President Donald Trump says he has agreed to extend his threatened deadline to attack Iran by two weeks.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.93 (+0.00%)",
+    "BRENT: $95.1 (+0.00%)",
     "VIX: 25.78",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
