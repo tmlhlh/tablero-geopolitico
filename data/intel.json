@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-07T23:34:29.216323+00:00",
+  "updated_at": "2026-04-08T02:05:26.410560+00:00",
   "market": {
-    "brent_usd": 90.01,
+    "brent_usd": 94.93,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,44 +15,44 @@
   },
   "events": [
     {
-      "timestamp": "07 APR 2026 · 23:28 UTC",
-      "headline": "LOS DETALLES DEL ACUERDO DE 10 PUNTOS ENTRE ESTADOS UNIDOS E IRÁN",
-      "detail": "La propuesta incluye el tránsito controlado por el estrecho de Ormuz y la retirada de las fuerzas de combate estadounidenses de todas las bases regionales, entre otros",
+      "timestamp": "08 APR 2026 · 02:01 UTC",
+      "headline": "OIL SLIDES AFTER US-IRAN CEASEFIRE DEAL TO REOPEN STRAIT OF HORMUZ",
+      "detail": "The agreement was announced not long before Trump's Tuesday evening deadline was reached.",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 APR 2026 · 23:26 UTC",
-      "headline": "IRÁN ACEPTÓ LA TREGUA Y ANUNCIÓ LA REAPERTURA DEL ESTRECHO DE ORMUZ, PERO ADVIRT",
-      "detail": "El Consejo Supremo de Seguridad Nacional dijo que empezará a negociar con EE.UU. el viernes en Islamabad",
+      "timestamp": "08 APR 2026 · 01:29 UTC",
+      "headline": "OIL PRICES SLIDE, STOCKS SURGE AS TRUMP ANNOUNCES TWO-WEEK IRAN CEASEFIRE",
+      "detail": "Investors welcome the possible resumption of oil and gas flows through the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 APR 2026 · 23:12 UTC",
-      "headline": "RUSIA Y CHINA VETARON UNA RESOLUCIÓN DE LA ONU PARA EXIGIR LA REAPERTURA DEL EST",
-      "detail": "Aunque luego de semanas de negociaciones el texto “lavado” ya no incluía la autorización al uso de la fuerza, Moscú y Pekín rechazaron la iniciativa contraria a los intereses de Irán",
+      "timestamp": "08 APR 2026 · 01:06 UTC",
+      "headline": "IRAN SAYS TALKS WITH US WILL BEGIN IN PAKISTAN’S ISLAMABAD ON FRIDAY",
+      "detail": "Tehran says the negotiations will be based on its 10-point proposal, which calls for control over Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 APR 2026 · 22:48 UTC",
-      "headline": "TRUMP SUSPENDS IRAN BOMBING FOR TWO WEEKS FOLLOWING DIRE THREATS",
-      "detail": "The US president nevertheless warned that the suspension was dependent on Iran reopening the Strait of Hormuz.",
+      "timestamp": "08 APR 2026 · 01:00 UTC",
+      "headline": "IRAN AGREES TO OPEN STRAIT OF HORMUZ FOR TWO-WEEK US CEASEFIRE",
+      "detail": "Iran’s Foreign Minister Abbas Araghchi says ‘if attacks against Iran are halted,’ then Iran agrees to a US ceasefire.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 APR 2026 · 23:53 UTC",
+      "headline": "LOS DETALLES DEL ACUERDO DE 10 PUNTOS ENTRE ESTADOS UNIDOS E IRÁN PARA ALCANZAR ",
+      "detail": "La propuesta del régimen incluye el tránsito controlado por el estrecho de Ormuz y la retirada de las fuerzas de combate estadounidenses de todas las bases regionales, entre otros",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 APR 2026 · 22:28 UTC",
-      "headline": "“UNA CIVILIZACIÓN ENTERA VA A MORIR”: TRAS AMENAZAR A IRÁN, TRUMP EVALÚA UNA PRO",
-      "detail": "Antes de que se cumpla el plazo que el presidente norteamericano le impuso a Teherán para reabrir el estrecho de Ormuz, Islamabad hizo un llamado para que lo prorrogue por dos semanas",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 APR 2026 · 21:35 UTC",
-      "headline": "PAKISTAN APPEALS TO TRUMP TO EXTEND DEADLINE, IRAN TO REOPEN HORMUZ STRAIT",
-      "detail": "PM Sharif cites progress in diplomatic efforts for peaceful settlement of war, urges to allow diplomacy run its course.",
+      "timestamp": "07 APR 2026 · 23:50 UTC",
+      "headline": "TRUMP ANTICIPÓ DETALLES DEL PLAN PARA ATACAR A IRÁN EN PLENA CUENTA REGRESIVA DE",
+      "detail": "El presidente de Estados Unidos le puso fecha límite al régimen iraní para que libere el estrecho de Ormuz; de lo contrario, fuerzas armadas estadounidenses atacarán; “Vivirán el infierno”, amenazó",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.01 (+0.00%)",
+    "BRENT: $94.93 (+0.00%)",
     "VIX: 25.78",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
