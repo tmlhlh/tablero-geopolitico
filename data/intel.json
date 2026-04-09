@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-08T23:35:15.569095+00:00",
+  "updated_at": "2026-04-09T01:57:57.671603+00:00",
   "market": {
-    "brent_usd": 96.8,
+    "brent_usd": 97.34,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 APR 2026 · 01:10 UTC",
+      "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
+      "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
+      "severity": "INFO"
+    },
     {
       "timestamp": "08 APR 2026 · 22:14 UTC",
       "headline": "EN MEDIO DE LA FRÁGIL TREGUA, TRUMP ANUNCIA EL DIÁLOGO DIRECTO CON IRÁN, QUE MAN",
@@ -33,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "08 APR 2026 · 18:08 UTC",
-      "headline": "‘A LOT OF WORK TO DO’ TO REOPEN STRAIT OF HORMUZ AFTER US-IRAN CEASEFIRE",
-      "detail": "British Prime Minister Keir Starmer said more work is needed to reopen the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "08 APR 2026 · 17:21 UTC",
       "headline": "IRAN STRAIT OF HORMUZ WARNING ADDS TO SHIPPING UNCERTAINTY",
       "detail": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.8 (+0.00%)",
+    "BRENT: $97.34 (+0.00%)",
     "VIX: 21.04",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
