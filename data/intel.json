@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-09T04:36:39.401812+00:00",
+  "updated_at": "2026-04-09T06:19:49.001039+00:00",
   "market": {
-    "brent_usd": 97.09,
+    "brent_usd": 96.86,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 58.4,
     "vix": 21.04,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 2.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "09 APR 2026 · 05:58 UTC",
+      "headline": "FOR GULF STATES, HORMUZ UNCERTAINTY CASTS SHADOW OVER FRAGILE US-IRAN TRUCE",
+      "detail": "Experts say Gulf states wary US could agree to deal giving Iran leverage over strategic energy waterway.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 APR 2026 · 03:30 UTC",
       "headline": "ORMUZ, ¿Y AHORA QUÉ?",
@@ -40,20 +46,14 @@
     },
     {
       "timestamp": "08 APR 2026 · 21:50 UTC",
-      "headline": "IRAN ANNOUNCES MINE-SAFE HORMUZ ROUTE AS HEZBOLLAH RETALIATES AGAINST ISRAEL (PH",
+      "headline": "IRAN ANNOUNCES ALTERNATIVE HORMUZ ROUTE AS HEZBOLLAH RETALIATES AGAINST ISRAEL (",
       "detail": "President Donald Trump is reportedly mulling ways to punish NATO members who refused to help the US in its war against Iran Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 18:56 UTC",
-      "headline": "NUEVOS ATAQUES EN ORIENTE PRÓXIMO MUESTRAN LA FRAGILIDAD DEL ALTO EL FUEGO ENTRE",
-      "detail": "Israel acata el cese de hostilidades pactado por Trump, pero redobla los bombardeos sobre Líbano. Teherán golpea infraestructuras de los países del Golfo y se muestra ambiguo sobre la reapertura del e",
-      "severity": "CRÍTICO"
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.09 (+0.00%)",
+    "BRENT: $96.86 (+0.00%)",
     "VIX: 21.04",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
