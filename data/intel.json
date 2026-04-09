@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-09T11:53:12.355428+00:00",
+  "updated_at": "2026-04-09T13:19:42.421849+00:00",
   "market": {
-    "brent_usd": 98.27,
+    "brent_usd": 98.12,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 70.8,
-    "vix": 21.54,
+    "ormuz_flow_pct": 72.6,
+    "vix": 21.33,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.1
+    "insurance_spread_pct": 3.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "09 APR 2026 · 11:23 UTC",
+      "timestamp": "09 APR 2026 · 12:31 UTC",
       "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
       "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
       "severity": "INFO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.27 (+0.00%)",
-    "VIX: 21.54",
+    "BRENT: $98.12 (+0.00%)",
+    "VIX: 21.33",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
