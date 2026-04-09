@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-09T10:10:03.749511+00:00",
+  "updated_at": "2026-04-09T11:53:12.355428+00:00",
   "market": {
-    "brent_usd": 97.91,
+    "brent_usd": 98.27,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 47.8,
-    "vix": 21.43,
+    "ormuz_flow_pct": 70.8,
+    "vix": 21.54,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.1
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "09 APR 2026 · 11:23 UTC",
+      "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
+      "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 APR 2026 · 09:50 UTC",
       "headline": "THE GULF HAS A NEW BOSS. HERE ARE THREE SCENARIOS AFTER THE PAUSE",
@@ -39,12 +45,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "09 APR 2026 · 02:55 UTC",
-      "headline": "TEHERÁN CERRÓ DE NUEVO EL ESTRECHO DE ORMUZ POR LOS ATAQUES ISRAELÍES EN EL LÍBA",
-      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "08 APR 2026 · 21:50 UTC",
       "headline": "ISRAEL CONTINUES INVASION OF LEBANON AS GULF STATES REPORT NO STRIKES (VIDEOS/PH",
       "detail": "President Donald Trump is reportedly mulling ways to punish NATO members who refused to help the US in its war against Iran Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.91 (+0.00%)",
-    "VIX: 21.43",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "BRENT: $98.27 (+0.00%)",
+    "VIX: 21.54",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
