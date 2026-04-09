@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-09T08:18:49.864454+00:00",
+  "updated_at": "2026-04-09T10:10:03.749511+00:00",
   "market": {
-    "brent_usd": 97.89,
+    "brent_usd": 97.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 60.6,
-    "vix": 21.47,
+    "ormuz_flow_pct": 47.8,
+    "vix": 21.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "09 APR 2026 · 09:50 UTC",
+      "headline": "THE GULF HAS A NEW BOSS. HERE ARE THREE SCENARIOS AFTER THE PAUSE",
+      "detail": "Extended truce, renewed war, or endless strikes – each reshapes the region in Iran’s favor as opposed to the US and Israel Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "09 APR 2026 · 05:58 UTC",
       "headline": "FOR GULF STATES, HORMUZ UNCERTAINTY CASTS SHADOW OVER US-IRAN CEASEFIRE",
@@ -40,20 +46,14 @@
     },
     {
       "timestamp": "08 APR 2026 · 21:50 UTC",
-      "headline": "IRAN ANNOUNCES ALTERNATIVE HORMUZ ROUTE AS HEZBOLLAH RETALIATES AGAINST ISRAEL (",
+      "headline": "ISRAEL CONTINUES INVASION OF LEBANON AS GULF STATES REPORT NO STRIKES (VIDEOS/PH",
       "detail": "President Donald Trump is reportedly mulling ways to punish NATO members who refused to help the US in its war against Iran Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 18:56 UTC",
-      "headline": "NUEVOS ATAQUES EN ORIENTE PRÓXIMO MUESTRAN LA FRAGILIDAD DEL ALTO EL FUEGO ENTRE",
-      "detail": "Israel acata el cese de hostilidades pactado por Trump, pero redobla los bombardeos sobre Líbano. Teherán golpea infraestructuras de los países del Golfo y se muestra ambiguo sobre la reapertura del e",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.89 (+0.00%)",
-    "VIX: 21.47",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $97.91 (+0.00%)",
+    "VIX: 21.43",
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
