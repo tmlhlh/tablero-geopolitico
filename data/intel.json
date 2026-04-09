@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-09T21:42:38.330821+00:00",
+  "updated_at": "2026-04-09T22:37:31.491075+00:00",
   "market": {
-    "brent_usd": 96.44,
+    "brent_usd": 96.54,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,21 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "09 APR 2026 · 21:47 UTC",
+      "headline": "EE UU EMPUJA A ISRAEL A NEGOCIAR CON LÍBANO SOBRE HEZBOLÁ PARA EVITAR QUE DESCAR",
+      "detail": "Los bombardeos en el país árabe y el bloqueo de Ormuz hacen temer por la tregua en su segundo día y en vísperas de que Washington y Teherán comiencen a dialogar en Pakistán",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "09 APR 2026 · 20:13 UTC",
       "headline": "IRAN: STRAIT OF HORMUZ OPEN WITH RESTRICTIONS",
       "detail": "Iran’s Deputy Foreign Minister says the Strait of Hormuz is open but ships must coordinate with Iranian forces.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 20:04 UTC",
-      "headline": "UN ALTO EL FUEGO TEMPORARIO CON IRÁN, UN DURO REVÉS PARA LA CREDIBILIDAD DE ESTA",
-      "detail": "El acuerdo deja a Teherán en control de Ormuz, expone límites en la estrategia de Washington y alimenta dudas entre aliados sobre su capacidad para garantizar la seguridad del comercio global",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 19:05 UTC",
-      "headline": "EE UU EMPUJA A ISRAEL A NEGOCIAR CON LÍBANO SOBRE HEZBOLÁ PARA EVITAR QUE DESCAR",
-      "detail": "Los bombardeos en el país árabe y el bloqueo de Ormuz hacen temer por la tregua en su segundo día y en vísperas de que Washington y Teherán comiencen a dialogar en Pakistán",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
       "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 13:58 UTC",
+      "headline": "SHIPS REMAIN CAUTIOUS APPROACHING STRAIT OF HORMUZ AMID FRAGILE CEASEFIRE",
+      "detail": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.44 (+0.00%)",
+    "BRENT: $96.54 (+0.00%)",
     "VIX: 19.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
