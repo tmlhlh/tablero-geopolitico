@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-09T06:19:49.001039+00:00",
+  "updated_at": "2026-04-09T08:18:49.864454+00:00",
   "market": {
-    "brent_usd": 96.86,
+    "brent_usd": 97.89,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 58.4,
-    "vix": 21.04,
+    "ormuz_flow_pct": 60.6,
+    "vix": 21.47,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 2.9
+    "insurance_spread_pct": 3.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
@@ -16,14 +16,14 @@
   "events": [
     {
       "timestamp": "09 APR 2026 · 05:58 UTC",
-      "headline": "FOR GULF STATES, HORMUZ UNCERTAINTY CASTS SHADOW OVER FRAGILE US-IRAN TRUCE",
-      "detail": "Experts say Gulf states wary US could agree to deal giving Iran leverage over strategic energy waterway.",
+      "headline": "FOR GULF STATES, HORMUZ UNCERTAINTY CASTS SHADOW OVER US-IRAN CEASEFIRE",
+      "detail": "Experts say Gulf countries are wary of the US agreeing to a deal that gives Iran leverage over the vital energy route.",
       "severity": "INFO"
     },
     {
       "timestamp": "09 APR 2026 · 03:30 UTC",
       "headline": "ORMUZ, ¿Y AHORA QUÉ?",
-      "detail": "La reapertura del estrecho que incluye el alto el fuego aleja el fantasma de una crisis como la de los setenta, pero los interrogantes siguen siendo mayúsculos",
+      "detail": "La reapertura del estrecho que incluye el alto el fuego aleja el fantasma de una crisis como la de los setenta, pero los interrogantes siguen siendo colosales",
       "severity": "INFO"
     },
     {
@@ -39,21 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "09 APR 2026 · 01:10 UTC",
-      "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
-      "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "08 APR 2026 · 21:50 UTC",
       "headline": "IRAN ANNOUNCES ALTERNATIVE HORMUZ ROUTE AS HEZBOLLAH RETALIATES AGAINST ISRAEL (",
       "detail": "President Donald Trump is reportedly mulling ways to punish NATO members who refused to help the US in its war against Iran Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "08 APR 2026 · 18:56 UTC",
+      "headline": "NUEVOS ATAQUES EN ORIENTE PRÓXIMO MUESTRAN LA FRAGILIDAD DEL ALTO EL FUEGO ENTRE",
+      "detail": "Israel acata el cese de hostilidades pactado por Trump, pero redobla los bombardeos sobre Líbano. Teherán golpea infraestructuras de los países del Golfo y se muestra ambiguo sobre la reapertura del e",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.86 (+0.00%)",
-    "VIX: 21.04",
+    "BRENT: $97.89 (+0.00%)",
+    "VIX: 21.47",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
