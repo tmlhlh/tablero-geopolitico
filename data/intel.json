@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-09T01:57:57.671603+00:00",
+  "updated_at": "2026-04-09T04:36:39.401812+00:00",
   "market": {
-    "brent_usd": 97.34,
+    "brent_usd": 97.09,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,33 @@
   },
   "events": [
     {
+      "timestamp": "09 APR 2026 · 03:30 UTC",
+      "headline": "ORMUZ, ¿Y AHORA QUÉ?",
+      "detail": "La reapertura del estrecho que incluye el alto el fuego aleja el fantasma de una crisis como la de los setenta, pero los interrogantes siguen siendo mayúsculos",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 03:30 UTC",
+      "headline": "PAGAR UN PEAJE A IRÁN POR CRUZAR EL ESTRECHO DE ORMUZ: UNA MODERNA PIRATERÍA CON",
+      "detail": "Un hipotético acuerdo de paz que autorizara a la República Islámica a cobrar una tasa de navegación para financiar la reconstrucción del país sería ilegal y discriminatorio, según cuatro juristas",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 02:55 UTC",
+      "headline": "TEHERÁN CERRÓ DE NUEVO EL ESTRECHO DE ORMUZ POR LOS ATAQUES ISRAELÍES EN EL LÍBA",
+      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "09 APR 2026 · 01:10 UTC",
       "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
       "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
       "severity": "INFO"
     },
     {
-      "timestamp": "08 APR 2026 · 22:14 UTC",
-      "headline": "EN MEDIO DE LA FRÁGIL TREGUA, TRUMP ANUNCIA EL DIÁLOGO DIRECTO CON IRÁN, QUE MAN",
-      "detail": "Israel llevó a cabo sus ataques más intensos en el Líbano desde que estalló un nuevo conflicto con Hezbollah el mes pasado; hubo 254 muertos",
+      "timestamp": "08 APR 2026 · 21:50 UTC",
+      "headline": "IRAN ANNOUNCES MINE-SAFE HORMUZ ROUTE AS HEZBOLLAH RETALIATES AGAINST ISRAEL (PH",
+      "detail": "President Donald Trump is reportedly mulling ways to punish NATO members who refused to help the US in its war against Iran Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -31,28 +49,10 @@
       "headline": "NUEVOS ATAQUES EN ORIENTE PRÓXIMO MUESTRAN LA FRAGILIDAD DEL ALTO EL FUEGO ENTRE",
       "detail": "Israel acata el cese de hostilidades pactado por Trump, pero redobla los bombardeos sobre Líbano. Teherán golpea infraestructuras de los países del Golfo y se muestra ambiguo sobre la reapertura del e",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 18:25 UTC",
-      "headline": "LA UE, CANADÁ, REINO UNIDO Y JAPÓN RECLAMAN QUE EL ALTO EL FUEGO EN LA GUERRA DE",
-      "detail": "Los aliados de Estados Unidos aseguran que contribuirán a mantener “la libertad de navegación en el estrecho de Ormuz”",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 17:21 UTC",
-      "headline": "IRAN STRAIT OF HORMUZ WARNING ADDS TO SHIPPING UNCERTAINTY",
-      "detail": "Only a few vessels have crossed the strait since the US-Iran ceasefire deal, according to BBC Verify analysis.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 APR 2026 · 07:44 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN ACUERDAN UN ALTO EL FUEGO DE DOS SEMANAS JUSTO ANTES DE EX",
-      "detail": "El mediador, Pakistán, precisa que tiene “efecto inmediato” en todos los países involucrados en el conflicto. Teherán permitirá el “paso seguro” por el estrecho de Ormuz mientras ambos países negocian",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.34 (+0.00%)",
+    "BRENT: $97.09 (+0.00%)",
     "VIX: 21.04",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
