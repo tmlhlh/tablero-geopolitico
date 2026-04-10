@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-10T02:10:03.001453+00:00",
+  "updated_at": "2026-04-10T05:22:08.617563+00:00",
   "market": {
-    "brent_usd": 96.5,
+    "brent_usd": 96.67,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,24 @@
   },
   "events": [
     {
+      "timestamp": "10 APR 2026 · 03:30 UTC",
+      "headline": "EL EJÉRCITO DE UCRANIA DESEMBARCA EN EL MEDITERRÁNEO PARA TENER A TIRO A LA FLOT",
+      "detail": "Militares ucranios operan con drones desde Libia para hundir buques que transportan carburantes de Rusia y para apoyar a los Gobiernos opositores al Kremlin en África",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 APR 2026 · 02:47 UTC",
+      "headline": "SHIPPING IN STRAIT OF HORMUZ AT A STANDSTILL DESPITE US-IRAN CEASEFIRE",
+      "detail": "Washington and Tehran accuse each other of not honouring truce agreement.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 APR 2026 · 02:10 UTC",
+      "headline": "TRUMP SAYS IRAN'S HANDLING OF STRAIT OF HORMUZ IS 'NOT THE AGREEMENT WE HAVE'",
+      "detail": "The US president accused Iran of \"doing a very poor job\" with the waterway as Israel and Lebanon to begin peace talks.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "10 APR 2026 · 01:05 UTC",
       "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
       "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
@@ -27,32 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "09 APR 2026 · 23:54 UTC",
-      "headline": "TIEMBLA LA TREGUA: TRUMP ACUSÓ A TEHERÁN DE ESTAR HACIENDO UN “POBRE TRABAJO” EN",
-      "detail": "El mandatario estadounidense aseguró que el petróleo comenzará a fluir por ese paso estratégico “con o sin la ayuda de Irán”",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "09 APR 2026 · 22:48 UTC",
       "headline": "US-IRAN CEASEFIRE: UNCERTAINTY OVER WHAT’S NEXT",
       "detail": "Two‑week US‑Iran ceasefire pauses war; “who won?” unresolved as Hormuz, Lebanon strikes, Iran capabilities persist.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 21:47 UTC",
-      "headline": "EE UU EMPUJA A ISRAEL A NEGOCIAR CON LÍBANO SOBRE HEZBOLÁ PARA EVITAR QUE DESCAR",
-      "detail": "Los bombardeos en el país árabe y el bloqueo de Ormuz hacen temer por la tregua en su segundo día y en vísperas de que Washington y Teherán comiencen a dialogar en Pakistán",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 20:13 UTC",
-      "headline": "IRAN: STRAIT OF HORMUZ OPEN WITH RESTRICTIONS",
-      "detail": "Iran’s Deputy Foreign Minister says the Strait of Hormuz is open but ships must coordinate with Iranian forces.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.5 (+0.00%)",
+    "BRENT: $96.67 (+0.00%)",
     "VIX: 19.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
