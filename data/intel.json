@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-10T13:02:53.844258+00:00",
+  "updated_at": "2026-04-10T14:44:41.923033+00:00",
   "market": {
-    "brent_usd": 95.53,
+    "brent_usd": 95.43,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.19,
+    "vix": 18.87,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 APR 2026 · 13:30 UTC",
+      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA DE MEDIO ORIENTE Y CÓMO LO UT",
+      "detail": "La zona se convirtió desde el principio en motivo de conflictos entre los dos países en guerra; el analista Andrés Repetto explicó en LN+ su importancia para el comercio global",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 APR 2026 · 12:52 UTC",
       "headline": "LA VISIÓN DE TRUMP DE ORMUZ COMO UN PEAJE DELATA UNA PROFUNDA INCOMPRENSIÓN DEL ",
@@ -24,12 +30,6 @@
       "timestamp": "10 APR 2026 · 03:30 UTC",
       "headline": "EL EJÉRCITO DE UCRANIA DESEMBARCA EN EL MEDITERRÁNEO PARA TENER A TIRO A LA FLOT",
       "detail": "Militares ucranios operan con drones desde Libia para hundir buques que transportan carburantes de Rusia y para apoyar a los Gobiernos opositores al Kremlin en África",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 APR 2026 · 02:47 UTC",
-      "headline": "SHIPPING IN STRAIT OF HORMUZ AT A STANDSTILL DESPITE US-IRAN CEASEFIRE",
-      "detail": "Washington and Tehran accuse each other of not honouring truce agreement.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.53 (+0.00%)",
-    "VIX: 19.19",
+    "BRENT: $95.43 (+0.00%)",
+    "VIX: 18.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
