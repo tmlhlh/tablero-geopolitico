@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-10T17:44:23.972494+00:00",
+  "updated_at": "2026-04-10T18:46:44.719500+00:00",
   "market": {
-    "brent_usd": 96.55,
+    "brent_usd": 94.83,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 20.2,
+    "ormuz_flow_pct": 7.7,
+    "vix": 19.89,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.6
+    "insurance_spread_pct": 2.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.7%"
   },
   "events": [
     {
-      "timestamp": "10 APR 2026 · 17:31 UTC",
+      "timestamp": "10 APR 2026 · 18:27 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA DE MEDIO ORIENTE Y CÓMO LO UT",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre los dos países en guerra; el analista Andrés Repetto explicó en LN+ su importancia para el comercio global",
       "severity": "INFO"
     },
     {
+      "timestamp": "10 APR 2026 · 17:49 UTC",
+      "headline": "LOS ÚLTIMOS ATAQUES ISRAELÍES EN LÍBANO Y EL BLOQUEO IRANÍ DEL ESTRECHO DE ORMUZ",
+      "detail": "Teherán mantiene la exigencia de extender el alto el fuego a territorio libanés antes de confirmar su presencia en las conversaciones con EE UU en Pakistán",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "10 APR 2026 · 17:03 UTC",
       "headline": "STARMER AND TRUMP TALKED MILITARY OPTIONS TO REOPEN STRAIT OF HORMUZ",
       "detail": "British PM Starmer said he and US President Donald Trump discussed “military capabilities” to reopen Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 APR 2026 · 15:47 UTC",
-      "headline": "LA VISIÓN DE TRUMP DE ORMUZ COMO UN PEAJE DELATA UNA PROFUNDA INCOMPRENSIÓN DEL ",
-      "detail": "La idea de cobrar por el paso en el estrecho rompe con décadas de una estrategia basada en garantizar la libre navegación como bien público y revela un giro hacia una lógica puramente transaccional de",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.55 (+0.00%)",
-    "VIX: 20.2",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $94.83 (+0.00%)",
+    "VIX: 19.89",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.7%"
   ]
 }
