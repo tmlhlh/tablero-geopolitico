@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T21:33:49.752836+00:00",
+  "updated_at": "2026-04-10T22:34:16.273441+00:00",
   "market": {
     "brent_usd": 94.45,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "10 APR 2026 · 15:20 UTC",
-      "headline": "INFLATION RISES IN US AMID HORMUZ BLOCKADE, CONSUMER SENTIMENT PLUNGES",
-      "detail": "Government report shows petrol going up by 21.2 percent in March as price remain above $4 per gallon despite truce.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "10 APR 2026 · 03:30 UTC",
       "headline": "EL EJÉRCITO DE UCRANIA DESEMBARCA EN EL MEDITERRÁNEO PARA TENER A TIRO A LA FLOT",
       "detail": "Militares ucranios operan con drones desde Libia para hundir buques que transportan carburantes de Rusia y para apoyar a los Gobiernos opositores al Kremlin en África",
@@ -48,6 +42,12 @@
       "timestamp": "10 APR 2026 · 02:10 UTC",
       "headline": "TRUMP SAYS IRAN'S HANDLING OF STRAIT OF HORMUZ IS 'NOT THE AGREEMENT WE HAVE'",
       "detail": "The US president accused Iran of \"doing a very poor job\" with the waterway as Israel and Lebanon to begin peace talks.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 21:47 UTC",
+      "headline": "EE UU EMPUJA A ISRAEL A NEGOCIAR CON LÍBANO SOBRE HEZBOLÁ PARA EVITAR QUE DESCAR",
+      "detail": "Los bombardeos en el país árabe y el bloqueo de Ormuz hacen temer por la tregua en su segundo día y en vísperas de que Washington y Teherán comiencen a dialogar en Pakistán",
       "severity": "INFO"
     }
   ],
