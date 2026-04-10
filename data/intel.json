@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-10T19:41:26.282495+00:00",
+  "updated_at": "2026-04-10T20:32:17.116041+00:00",
   "market": {
-    "brent_usd": 94.39,
+    "brent_usd": 94.42,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.56,
+    "vix": 19.23,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "10 APR 2026 · 19:04 UTC",
+      "timestamp": "10 APR 2026 · 19:55 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA DE MEDIO ORIENTE Y CÓMO LO UT",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre los dos países en guerra; el analista Andrés Repetto explicó en LN+ su importancia para el comercio global",
       "severity": "INFO"
@@ -34,8 +34,8 @@
     },
     {
       "timestamp": "10 APR 2026 · 15:20 UTC",
-      "headline": "INFLATION RISES IN US AMID IRAN WAR, HORMUZ BLOCKADE",
-      "detail": "Government report shows gasoline going up by 21.2 percent in March as petrol remains above $4 per gallon despite truce.",
+      "headline": "INFLATION RISES IN US AMID HORMUZ BLOCKADE, CONSUMER SENTIMENT PLUNGES",
+      "detail": "Government report shows petrol going up by 21.2 percent in March as price remain above $4 per gallon despite truce.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.39 (+0.00%)",
-    "VIX: 19.56",
+    "BRENT: $94.42 (+0.00%)",
+    "VIX: 19.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
