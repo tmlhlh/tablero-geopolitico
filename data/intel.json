@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-10T18:46:44.719500+00:00",
+  "updated_at": "2026-04-10T19:41:26.282495+00:00",
   "market": {
-    "brent_usd": 94.83,
+    "brent_usd": 94.39,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 7.7,
-    "vix": 19.89,
+    "ormuz_flow_pct": 8.5,
+    "vix": 19.56,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.5
+    "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 7.7%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "10 APR 2026 · 18:27 UTC",
+      "timestamp": "10 APR 2026 · 19:04 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA DE MEDIO ORIENTE Y CÓMO LO UT",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre los dos países en guerra; el analista Andrés Repetto explicó en LN+ su importancia para el comercio global",
       "severity": "INFO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.83 (+0.00%)",
-    "VIX: 19.89",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 7.7%"
+    "BRENT: $94.39 (+0.00%)",
+    "VIX: 19.56",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
