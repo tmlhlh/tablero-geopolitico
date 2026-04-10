@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T22:34:16.273441+00:00",
+  "updated_at": "2026-04-10T23:32:17.577256+00:00",
   "market": {
     "brent_usd": 94.45,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "10 APR 2026 · 19:55 UTC",
-      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA DE MEDIO ORIENTE Y CÓMO LO UT",
-      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre los dos países en guerra; el analista Andrés Repetto explicó en LN+ su importancia para el comercio global",
-      "severity": "INFO"
-    },
     {
       "timestamp": "10 APR 2026 · 17:49 UTC",
       "headline": "LOS ÚLTIMOS ATAQUES ISRAELÍES EN LÍBANO Y EL BLOQUEO IRANÍ DEL ESTRECHO DE ORMUZ",
@@ -49,6 +43,12 @@
       "headline": "EE UU EMPUJA A ISRAEL A NEGOCIAR CON LÍBANO SOBRE HEZBOLÁ PARA EVITAR QUE DESCAR",
       "detail": "Los bombardeos en el país árabe y el bloqueo de Ormuz hacen temer por la tregua en su segundo día y en vísperas de que Washington y Teherán comiencen a dialogar en Pakistán",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 14:59 UTC",
+      "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
+      "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
