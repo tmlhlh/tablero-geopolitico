@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-09T23:35:28.100033+00:00",
+  "updated_at": "2026-04-10T02:10:03.001453+00:00",
   "market": {
-    "brent_usd": 96.58,
+    "brent_usd": 96.5,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 APR 2026 · 01:05 UTC",
+      "headline": "LA REACCIÓN DE IRÁN TRAS EL ACUERDO CON EE.UU. Y EL CESE DEL FUEGO, SEGÚN UN EXP",
+      "detail": "Andrés Repetto detalló en diálogo con LN+ las implicancias del pacto entre la gestión de Donald Trump y el régimen de Teherán; la reapertura del estrecho de Ormuz y el retiro de tropas militares figur",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 APR 2026 · 01:00 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL PUSO EN DUDA LA CUMBRE ENTRE EE.UU. E IRÁN, EN MEDIO D",
+      "detail": "Andrés Repetto profundizó en LN+ el alcance de la tregua: “Es un acuerdo que ya nació muy, muy, muy debilitado”; el cese del fuego y el estrecho de Ormuz, en la mira",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 23:54 UTC",
+      "headline": "TIEMBLA LA TREGUA: TRUMP ACUSÓ A TEHERÁN DE ESTAR HACIENDO UN “POBRE TRABAJO” EN",
+      "detail": "El mandatario estadounidense aseguró que el petróleo comenzará a fluir por ese paso estratégico “con o sin la ayuda de Irán”",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 APR 2026 · 22:48 UTC",
       "headline": "US-IRAN CEASEFIRE: UNCERTAINTY OVER WHAT’S NEXT",
@@ -31,28 +49,10 @@
       "headline": "IRAN: STRAIT OF HORMUZ OPEN WITH RESTRICTIONS",
       "detail": "Iran’s Deputy Foreign Minister says the Strait of Hormuz is open but ships must coordinate with Iranian forces.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 18:23 UTC",
-      "headline": "RUTTE PLANTEA UN PAPEL PARA LA OTAN EN ORMUZ CON EL FIN DE APLACAR A TRUMP",
-      "detail": "El secretario general de la Alianza está embarcado en una nueva ofensiva para calmar al republicano en sus embates contra la organización",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 15:57 UTC",
-      "headline": "IRÁN INTENSIFICA EL BLOQUEO DE ORMUZ TRAS EL ALTO EL FUEGO",
-      "detail": "Solo cinco barcos franquearon el paso marítimo el primer día de la tregua. La Guardia Revolucionaria identifica en un mapa las áreas minadas",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 14:59 UTC",
-      "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
-      "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.58 (+0.00%)",
+    "BRENT: $96.5 (+0.00%)",
     "VIX: 19.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
