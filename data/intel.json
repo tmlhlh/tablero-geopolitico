@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T19:32:52.299869+00:00",
+  "updated_at": "2026-04-11T20:29:08.819680+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 APR 2026 · 19:38 UTC",
+      "headline": "US SAYS TWO NAVAL SHIPS ‘TRANSITED’ STRAIT OF HORMUZ FOR MINE-CLEARING",
+      "detail": "Negotiations are ongoing between US-Iranian delegations in Islamabad, with control of the strait a key sticking point.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "11 APR 2026 · 17:15 UTC",
       "headline": "STRAIT OF HORMUZ LEVERAGE LOOMS OVER US-IRAN TALKS IN ISLAMABAD",
@@ -36,12 +42,6 @@
       "timestamp": "11 APR 2026 · 11:04 UTC",
       "headline": "THREE WEEKS OF FUEL, 170 MILLION PEOPLE: INSIDE BANGLADESH’S WORSENING FUEL SHOR",
       "detail": "As Hormuz shipping remains uncertain, Dhaka juggles rationing, early shop closures, and hybrid schooling to manage national energy use Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 10:56 UTC",
-      "headline": "WE NEED A REGIONAL AGREEMENT FOR THE STRAIT OF HORMUZ",
-      "detail": "A governing arrangement for the strait can and must be developed based on law and fact.",
       "severity": "INFO"
     },
     {
