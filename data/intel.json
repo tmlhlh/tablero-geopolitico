@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-11T17:28:37.084495+00:00",
+  "updated_at": "2026-04-11T18:39:16.689534+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 55.2,
+    "ormuz_flow_pct": 8.5,
     "vix": 19.23,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 APR 2026 · 17:15 UTC",
+      "headline": "STRAIT OF HORMUZ LEVERAGE LOOMS OVER US-IRAN TALKS IN ISLAMABAD",
+      "detail": "US and Iran hold first direct talks since 1979 in Islamabad, with progress hinging on the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 APR 2026 · 15:58 UTC",
       "headline": "LIBERAN EL PASO A BUQUES EN EL ESTRECHO DE ORMUZ EN MEDIO DEL DIÁLOGO ENTRE WASH",
@@ -39,21 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "09 APR 2026 · 14:59 UTC",
-      "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
-      "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 09:50 UTC",
-      "headline": "THE GULF HAS A NEW BOSS. HERE ARE THREE SCENARIOS AFTER THE PAUSE",
-      "detail": "Extended truce, renewed war, or endless strikes – each reshapes the region in Iran’s favor as opposed to the US and Israel Read Full Article at RT.com",
+      "timestamp": "10 APR 2026 · 17:49 UTC",
+      "headline": "LOS ÚLTIMOS ATAQUES ISRAELÍES EN LÍBANO Y EL BLOQUEO IRANÍ DEL ESTRECHO DE ORMUZ",
+      "detail": "Teherán mantiene la exigencia de extender el alto el fuego a territorio libanés antes de confirmar su presencia en las conversaciones con EE UU en Pakistán",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $95.2 (+0.00%)",
     "VIX: 19.23",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
