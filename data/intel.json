@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T01:58:34.878535+00:00",
+  "updated_at": "2026-04-11T04:25:39.930042+00:00",
   "market": {
     "brent_usd": 94.45,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "11 APR 2026 · 03:06 UTC",
+      "headline": "TRUMP SAYS STRAIT OF HORMUZ TO REOPEN ‘SOON’ AS US, IRAN HEAD TO TALKS",
+      "detail": "Trump says Washington will not accept Iran's imposition of a de facto toll booth system in the critical waterway.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "11 APR 2026 · 01:05 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA DE MEDIO ORIENTE Y CÓMO LO UT",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre los dos países en guerra; el analista Andrés Repetto explicó en LN+ su importancia para el comercio global",
@@ -27,18 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "10 APR 2026 · 03:30 UTC",
-      "headline": "EL EJÉRCITO DE UCRANIA DESEMBARCA EN EL MEDITERRÁNEO PARA TENER A TIRO A LA FLOT",
-      "detail": "Militares ucranios operan con drones desde Libia para hundir buques que transportan carburantes de Rusia y para apoyar a los Gobiernos opositores al Kremlin en África",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 APR 2026 · 02:10 UTC",
-      "headline": "TRUMP SAYS IRAN'S HANDLING OF STRAIT OF HORMUZ IS 'NOT THE AGREEMENT WE HAVE'",
-      "detail": "The US president accused Iran of \"doing a very poor job\" with the waterway as Israel and Lebanon to begin peace talks.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "09 APR 2026 · 21:47 UTC",
       "headline": "EE UU EMPUJA A ISRAEL A NEGOCIAR CON LÍBANO SOBRE HEZBOLÁ PARA EVITAR QUE DESCAR",
       "detail": "Los bombardeos en el país árabe y el bloqueo de Ormuz hacen temer por la tregua en su segundo día y en vísperas de que Washington y Teherán comiencen a dialogar en Pakistán",
@@ -48,6 +42,12 @@
       "timestamp": "09 APR 2026 · 14:59 UTC",
       "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
       "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 09:50 UTC",
+      "headline": "THE GULF HAS A NEW BOSS. HERE ARE THREE SCENARIOS AFTER THE PAUSE",
+      "detail": "Extended truce, renewed war, or endless strikes – each reshapes the region in Iran’s favor as opposed to the US and Israel Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
