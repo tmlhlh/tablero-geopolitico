@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T20:29:08.819680+00:00",
+  "updated_at": "2026-04-11T21:29:09.786875+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 APR 2026 · 19:44 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN AVANZAN CON PIES DE PLOMO EN UNA NEGOCIACIÓN HISTÓRICA EN ",
+      "detail": "Tres superpetroleros cruzan el estrecho de Ormuz y Washington asegura que dos barcos militares se han adentrado en el corredor para desminarlo",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "11 APR 2026 · 19:38 UTC",
       "headline": "US SAYS TWO NAVAL SHIPS ‘TRANSITED’ STRAIT OF HORMUZ FOR MINE-CLEARING",
@@ -30,12 +36,6 @@
       "timestamp": "11 APR 2026 · 15:58 UTC",
       "headline": "LIBERAN EL PASO A BUQUES EN EL ESTRECHO DE ORMUZ EN MEDIO DEL DIÁLOGO ENTRE WASH",
       "detail": "Se trata de dos destructores equipados con misiles guiados de la Armada de Estados Unidos y de tres superpetroleros de Liberia y China",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 14:06 UTC",
-      "headline": "FRENTES EN JUEGO: QUÉ NEGOCIAN ESTADOS UNIDOS E IRÁN EN PAKISTÁN",
-      "detail": "Previo al inicio de las conversaciones una fuente iraní declaró que Washington había acordado liberar los activos congelados, un punto clave para el régimen; entre las principales demandas también se ",
       "severity": "INFO"
     },
     {
