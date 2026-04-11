@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T13:54:04.140172+00:00",
+  "updated_at": "2026-04-11T14:33:56.691918+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "11 APR 2026 · 14:06 UTC",
+      "headline": "FRENTES EN JUEGO: QUÉ NEGOCIAN ESTADOS UNIDOS E IRÁN EN PAKISTÁN",
+      "detail": "Previo al inicio de las conversaciones una fuente iraní declaró que Washington había acordado liberar los activos congelados, un punto clave para el régimen; entre las principales demandas también se ",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "11 APR 2026 · 11:04 UTC",
       "headline": "THREE WEEKS OF FUEL, 170 MILLION PEOPLE: INSIDE BANGLADESH’S WORSENING FUEL SHOR",
       "detail": "As Hormuz shipping remains uncertain, Dhaka juggles rationing, early shop closures, and hybrid schooling to manage national energy use Read Full Article at RT.com",
@@ -24,12 +30,6 @@
       "timestamp": "11 APR 2026 · 10:56 UTC",
       "headline": "WE NEED A REGIONAL AGREEMENT FOR THE STRAIT OF HORMUZ",
       "detail": "A governing arrangement for the strait can and must be developed based on law and fact.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 03:06 UTC",
-      "headline": "TRUMP SAYS STRAIT OF HORMUZ TO REOPEN ‘SOON’ AS US, IRAN HEAD TO TALKS",
-      "detail": "Trump says he will not accept Iran's imposition of tolls on shipping in the vital waterway.",
       "severity": "INFO"
     },
     {
