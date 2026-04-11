@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T15:30:21.383049+00:00",
+  "updated_at": "2026-04-11T16:33:19.308990+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 APR 2026 · 15:58 UTC",
+      "headline": "LIBERAN EL PASO A BUQUES EN EL ESTRECHO DE ORMUZ EN MEDIO DEL DIÁLOGO ENTRE WASH",
+      "detail": "Se trata de dos destructores equipados con misiles guiados de la Armada de Estados Unidos y de tres superpetroleros de Liberia y China",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 APR 2026 · 14:06 UTC",
       "headline": "FRENTES EN JUEGO: QUÉ NEGOCIAN ESTADOS UNIDOS E IRÁN EN PAKISTÁN",
@@ -43,12 +49,6 @@
       "headline": "EE UU EMPUJA A ISRAEL A NEGOCIAR CON LÍBANO SOBRE HEZBOLÁ PARA EVITAR QUE DESCAR",
       "detail": "Los bombardeos en el país árabe y el bloqueo de Ormuz hacen temer por la tregua en su segundo día y en vísperas de que Washington y Teherán comiencen a dialogar en Pakistán",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 14:59 UTC",
-      "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
-      "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
