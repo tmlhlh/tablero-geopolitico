@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T21:29:09.786875+00:00",
+  "updated_at": "2026-04-11T22:28:23.106338+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 APR 2026 · 21:49 UTC",
+      "headline": "LIBERAN EL PASO A BUQUES EN EL ESTRECHO DE ORMUZ EN MEDIO DEL DIÁLOGO ENTRE WASH",
+      "detail": "Se trata de dos destructores equipados con misiles guiados de la Armada de Estados Unidos y de tres superpetroleros de Liberia y China",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 APR 2026 · 19:44 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN AVANZAN CON PIES DE PLOMO EN UNA NEGOCIACIÓN HISTÓRICA EN ",
@@ -30,12 +36,6 @@
       "timestamp": "11 APR 2026 · 17:15 UTC",
       "headline": "STRAIT OF HORMUZ LEVERAGE LOOMS OVER US-IRAN TALKS IN ISLAMABAD",
       "detail": "US and Iran hold first direct talks since 1979 in Islamabad, with progress hinging on the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 15:58 UTC",
-      "headline": "LIBERAN EL PASO A BUQUES EN EL ESTRECHO DE ORMUZ EN MEDIO DEL DIÁLOGO ENTRE WASH",
-      "detail": "Se trata de dos destructores equipados con misiles guiados de la Armada de Estados Unidos y de tres superpetroleros de Liberia y China",
       "severity": "INFO"
     },
     {
