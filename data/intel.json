@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T08:39:12.766022+00:00",
+  "updated_at": "2026-04-11T09:36:55.855994+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -18,12 +18,6 @@
       "timestamp": "11 APR 2026 · 03:06 UTC",
       "headline": "TRUMP SAYS STRAIT OF HORMUZ TO REOPEN ‘SOON’ AS US, IRAN HEAD TO TALKS",
       "detail": "Trump says he will not accept Iran's imposition of tolls on shipping in the vital waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 01:05 UTC",
-      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA DE MEDIO ORIENTE Y CÓMO LO UT",
-      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre los dos países en guerra; el analista Andrés Repetto explicó en LN+ su importancia para el comercio global",
       "severity": "INFO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "THE GULF HAS A NEW BOSS. HERE ARE THREE SCENARIOS AFTER THE PAUSE",
       "detail": "Extended truce, renewed war, or endless strikes – each reshapes the region in Iran’s favor as opposed to the US and Israel Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 03:30 UTC",
+      "headline": "ORMUZ, ¿Y AHORA QUÉ?",
+      "detail": "De cristalizar, la reapertura del estrecho alejaría el fantasma de una crisis como la de los setenta. Los interrogantes, sin embargo, son colosales",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
