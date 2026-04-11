@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T11:27:27.682311+00:00",
+  "updated_at": "2026-04-11T12:51:36.588012+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "11 APR 2026 · 11:04 UTC",
-      "headline": "THREE WEEKS OF FUEL, 170 MILLION PEOPLE: INSIDE BANGLADESH’S WORSENING FUEL SHOR",
-      "detail": "As Hormuz shipping remains uncertain, Dhaka juggles rationing, early shop closures, and hybrid schooling to manage national energy use Read Full Article at RT.com",
-      "severity": "INFO"
-    },
     {
       "timestamp": "11 APR 2026 · 10:56 UTC",
       "headline": "WE NEED A REGIONAL AGREEMENT FOR THE STRAIT OF HORMUZ",
@@ -45,10 +39,16 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "09 APR 2026 · 14:59 UTC",
-      "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
-      "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
+      "timestamp": "09 APR 2026 · 03:30 UTC",
+      "headline": "ORMUZ, ¿Y AHORA QUÉ?",
+      "detail": "De cristalizar, la reapertura del estrecho alejaría el fantasma de una crisis como la de los setenta. Los interrogantes, sin embargo, son colosales",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 APR 2026 · 12:51 UTC",
+      "headline": "CRUDE OIL AND PETROLEUM PRODUCT PRICES INCREASED SHARPLY IN THE FIRST QUARTER OF",
+      "detail": "Crude oil and petroleum product prices increased significantly in the first quarter of 2026 (1Q26), particularly following military action in the Middle East on February 28 and the subsequent de facto",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
