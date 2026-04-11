@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T23:32:17.577256+00:00",
+  "updated_at": "2026-04-11T01:58:34.878535+00:00",
   "market": {
     "brent_usd": 94.45,
     "brent_chg": 0.0
@@ -15,16 +15,16 @@
   },
   "events": [
     {
+      "timestamp": "11 APR 2026 · 01:05 UTC",
+      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA DE MEDIO ORIENTE Y CÓMO LO UT",
+      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre los dos países en guerra; el analista Andrés Repetto explicó en LN+ su importancia para el comercio global",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "10 APR 2026 · 17:49 UTC",
       "headline": "LOS ÚLTIMOS ATAQUES ISRAELÍES EN LÍBANO Y EL BLOQUEO IRANÍ DEL ESTRECHO DE ORMUZ",
       "detail": "Teherán mantiene la exigencia de extender el alto el fuego a territorio libanés antes de confirmar su presencia en las conversaciones con EE UU en Pakistán",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 APR 2026 · 17:03 UTC",
-      "headline": "STARMER AND TRUMP TALKED MILITARY OPTIONS TO REOPEN STRAIT OF HORMUZ",
-      "detail": "British PM Starmer said he and US President Donald Trump discussed “military capabilities” to reopen Hormuz.",
-      "severity": "INFO"
     },
     {
       "timestamp": "10 APR 2026 · 03:30 UTC",
