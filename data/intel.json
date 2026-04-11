@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T07:06:21.041912+00:00",
+  "updated_at": "2026-04-11T08:39:12.766022+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -17,7 +17,7 @@
     {
       "timestamp": "11 APR 2026 · 03:06 UTC",
       "headline": "TRUMP SAYS STRAIT OF HORMUZ TO REOPEN ‘SOON’ AS US, IRAN HEAD TO TALKS",
-      "detail": "Trump says Washington will not accept Iran's imposition of a de facto toll booth system in the critical waterway.",
+      "detail": "Trump says he will not accept Iran's imposition of tolls on shipping in the vital waterway.",
       "severity": "INFO"
     },
     {
