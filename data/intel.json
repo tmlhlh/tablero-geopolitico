@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T18:41:44.487765+00:00",
+  "updated_at": "2026-04-12T19:37:12.010014+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -15,13 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "12 APR 2026 · 18:15 UTC",
+      "timestamp": "12 APR 2026 · 18:54 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ASEGURA QUE BLOQUE",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
     },
     {
-      "timestamp": "12 APR 2026 · 17:45 UTC",
+      "timestamp": "12 APR 2026 · 18:48 UTC",
       "headline": "TRUMP'S STRAIT OF HORMUZ BLOCKADE THREAT RAISES RISKS AND LEAVES PREDICAMENTS UN",
       "detail": "The conflict is now a test of wills - Iran’s capacity to absorb strikes versus Trump’s tolerance for the war's costs.",
       "severity": "CRÍTICO"
