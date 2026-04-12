@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T14:45:13.520805+00:00",
+  "updated_at": "2026-04-12T15:33:21.699414+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -15,9 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "12 APR 2026 · 13:55 UTC",
+      "timestamp": "12 APR 2026 · 15:15 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ASEGURA QUE BLOQUE",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 15:09 UTC",
+      "headline": "TRUMP SAYS US TO BLOCKADE SHIPS CROSSING STRAIT OF HORMUZ",
+      "detail": "US President Donald Trump says the US Navy will immediately blockade the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -25,12 +31,6 @@
       "headline": "TRUMP ANUNCIÓ QUE BLOQUEARÁ LA CIRCULACIÓN DE BUQUES EN EL ESTRECHO DE ORMUZ",
       "detail": "Tras el fracaso de las conversaciones de paz con Irán, el presidente estadounidense afirmó que tomará el control del estrecho para eliminar las minas colocadas por Teherán",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 APR 2026 · 05:00 UTC",
-      "headline": "OIL TANKERS EXIT STRAIT OF HORMUZ AMID FRAGILE US-IRAN CEASEFIRE",
-      "detail": "Three supertankers laden with oil exit waterway amid global energy crunch, shipping data shows.",
-      "severity": "INFO"
     },
     {
       "timestamp": "11 APR 2026 · 11:04 UTC",
