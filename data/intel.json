@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T02:12:14.996691+00:00",
+  "updated_at": "2026-04-12T05:20:44.357693+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -15,28 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "12 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: VANCE SAYS NO DEAL YET, US SENT ‘OUR BEST AND FINAL OFFER’",
-      "detail": "Iran and US continue direct talks in Islamabad, with the Strait of Hormuz believed to be a key sticking point.",
+      "timestamp": "12 APR 2026 · 03:20 UTC",
+      "headline": "IRAN MUST NOT CHARGE TOLLS IN STRAIT OF HORMUZ, UN MARITIME CHIEF SAYS",
+      "detail": "In interview with Al Jazeera, International Maritime Organization chief says world should reject tolls in waterway.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 19:44 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN AVANZAN CON PIES DE PLOMO EN UNA NEGOCIACIÓN HISTÓRICA EN ",
-      "detail": "Tres superpetroleros cruzan el estrecho de Ormuz y Washington asegura que dos barcos militares se han adentrado en el corredor para desminarlo",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "11 APR 2026 · 19:38 UTC",
       "headline": "US SAYS TWO NAVAL SHIPS ‘TRANSITED’ STRAIT OF HORMUZ FOR MINE-CLEARING",
       "detail": "Negotiations are ongoing between US-Iranian delegations in Islamabad, with control of the strait a key sticking point.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 17:15 UTC",
-      "headline": "STRAIT OF HORMUZ LEVERAGE LOOMS OVER US-IRAN TALKS IN ISLAMABAD",
-      "detail": "US and Iran hold first direct talks since 1979 in Islamabad, with progress hinging on the Strait of Hormuz.",
-      "severity": "INFO"
     },
     {
       "timestamp": "11 APR 2026 · 11:04 UTC",
@@ -48,6 +36,18 @@
       "timestamp": "10 APR 2026 · 17:49 UTC",
       "headline": "LOS ÚLTIMOS ATAQUES ISRAELÍES EN LÍBANO Y EL BLOQUEO IRANÍ DEL ESTRECHO DE ORMUZ",
       "detail": "Teherán mantiene la exigencia de extender el alto el fuego a territorio libanés antes de confirmar su presencia en las conversaciones con EE UU en Pakistán",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 14:59 UTC",
+      "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
+      "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 09:50 UTC",
+      "headline": "THE GULF HAS A NEW BOSS. HERE ARE THREE SCENARIOS AFTER THE PAUSE",
+      "detail": "Extended truce, renewed war, or endless strikes – each reshapes the region in Iran’s favor as opposed to the US and Israel Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
