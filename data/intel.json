@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T05:20:44.357693+00:00",
+  "updated_at": "2026-04-12T07:09:45.470230+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 APR 2026 · 05:00 UTC",
+      "headline": "OIL TANKERS EXIT STRAIT OF HORMUZ AMID FRAGILE US-IRAN CEASEFIRE",
+      "detail": "Three supertankers laden with oil exit waterway amid global energy crunch, shipping data shows.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 APR 2026 · 03:20 UTC",
       "headline": "IRAN MUST NOT CHARGE TOLLS IN STRAIT OF HORMUZ, UN MARITIME CHIEF SAYS",
@@ -42,12 +48,6 @@
       "timestamp": "09 APR 2026 · 14:59 UTC",
       "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
       "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 APR 2026 · 09:50 UTC",
-      "headline": "THE GULF HAS A NEW BOSS. HERE ARE THREE SCENARIOS AFTER THE PAUSE",
-      "detail": "Extended truce, renewed war, or endless strikes – each reshapes the region in Iran’s favor as opposed to the US and Israel Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
