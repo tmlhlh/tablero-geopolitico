@@ -1,23 +1,41 @@
 {
-  "updated_at": "2026-04-12T20:31:45.193721+00:00",
+  "updated_at": "2026-04-12T21:31:23.339585+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.7,
+    "ormuz_flow_pct": 3.0,
     "vix": 19.23,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.7%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "12 APR 2026 · 20:19 UTC",
+      "timestamp": "12 APR 2026 · 21:18 UTC",
+      "headline": "PENTAGON ANNOUNCES ‘BLOCKADE’ OF IRANIAN PORTS",
+      "detail": "The US Department of War will begin enforcing a blockade of all maritime traffic entering and exiting Iranian ports on April 13 Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 20:56 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ASEGURA QUE BLOQUE",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 20:30 UTC",
+      "headline": "HISTORY OF FLOTILLA CAMPAIGNS TO END ISRAEL’S SIEGE OF GAZA",
+      "detail": "A 70-boat flotilla sets sail from Spain, aiming to break Israel's naval blockade on Gaza amid history of interceptions.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 19:25 UTC",
+      "headline": "WHAT IS A NAVAL BLOCKADE AND HOW WOULD IT WORK IN STRAIT OF HORMUZ?",
+      "detail": "Donald Trump says that the US is going to start blockading the Strait of Hormuz. What does this mean in practice?",
       "severity": "INFO"
     },
     {
@@ -31,29 +49,11 @@
       "headline": "TRUMP ANUNCIA SU PROPIO BLOQUEO NAVAL DEL ESTRECHO DE ORMUZ Y LAS NEGOCIACIONES ",
       "detail": "El presidente de Estados Unidos asegura que sus fuerzas evitarán el paso de cualquier buque y dispararán contra los barcos iraníes que ataquen a “embarcaciones pacíficas”",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 APR 2026 · 15:47 UTC",
-      "headline": "‘BLOWN TO HELL’: TRUMP ORDERS HORMUZ BLOCKADE AFTER US-IRAN PEACE TALKS END",
-      "detail": "US Navy to enforce blockade, Trump says after condemning Iran for blocking waterway, complaining of no deal in Pakistan.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 APR 2026 · 15:29 UTC",
-      "headline": "J. D. VANCE, LA PIEZA CLAVE DE LAS NEGOCIACIONES PARA PONER FIN A LA GUERRA",
-      "detail": "Pese al fracaso de la ronda de diálogo en Islamabad, el vicepresidente de EE UU ha trabajado entre bastidores con Pakistán para intentar convencer a Irán de que reabra el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 APR 2026 · 15:09 UTC",
-      "headline": "TRUMP SAYS US TO BLOCKADE SHIPS CROSSING STRAIT OF HORMUZ",
-      "detail": "US President Donald Trump says the US Navy will immediately blockade the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $95.2 (+0.00%)",
     "VIX: 19.23",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.7%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
