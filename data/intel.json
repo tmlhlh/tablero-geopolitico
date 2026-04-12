@@ -1,23 +1,41 @@
 {
-  "updated_at": "2026-04-12T15:33:21.699414+00:00",
+  "updated_at": "2026-04-12T16:34:52.971839+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 4.9,
     "vix": 19.23,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.9%"
   },
   "events": [
     {
-      "timestamp": "12 APR 2026 · 15:15 UTC",
+      "timestamp": "12 APR 2026 · 16:13 UTC",
+      "headline": "TRUMP ANUNCIÓ QUE BLOQUEARÁ LA CIRCULACIÓN DE BUQUES EN EL ESTRECHO DE ORMUZ",
+      "detail": "Tras el fracaso de las conversaciones de paz con Irán, el presidente estadounidense afirmó que tomará el control del estrecho para eliminar las minas colocadas por Teherán",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 15:47 UTC",
+      "headline": "TRUMP ANNOUNCES STRAIT OF HORMUZ BLOCKADE AFTER US-IRAN PEACE TALKS END",
+      "detail": "US Navy to enforce blockade, Trump says after condemning Iran for blocking waterway, complaining of no deal in Pakistan.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 15:40 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ASEGURA QUE BLOQUE",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 15:29 UTC",
+      "headline": "J. D. VANCE, LA PIEZA CLAVE DE LAS NEGOCIACIONES PARA PONER FIN A LA GUERRA",
+      "detail": "Pese al fracaso de la ronda de diálogo en Islamabad, el vicepresidente de EE UU ha trabajado entre bastidores con Pakistán para intentar convencer a Irán de que reabra el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
@@ -27,33 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "12 APR 2026 · 13:29 UTC",
-      "headline": "TRUMP ANUNCIÓ QUE BLOQUEARÁ LA CIRCULACIÓN DE BUQUES EN EL ESTRECHO DE ORMUZ",
-      "detail": "Tras el fracaso de las conversaciones de paz con Irán, el presidente estadounidense afirmó que tomará el control del estrecho para eliminar las minas colocadas por Teherán",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "11 APR 2026 · 11:04 UTC",
       "headline": "THREE WEEKS OF FUEL, 170 MILLION PEOPLE: INSIDE BANGLADESH’S WORSENING FUEL SHOR",
       "detail": "As Hormuz shipping remains uncertain, Dhaka juggles rationing, early shop closures, and hybrid schooling to manage national energy use Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 02:10 UTC",
-      "headline": "TRUMP ORDERS BLOCKADE OF STRAIT OF HORMUZ AFTER FAILED IRAN TALKS (PHOTOS, VIDEO",
-      "detail": "President Donald Trump has declared that the US Navy will start a “blockade” of the Strait of Hormuz after failed talks with Iran Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 APR 2026 · 17:49 UTC",
-      "headline": "LOS ÚLTIMOS ATAQUES ISRAELÍES EN LÍBANO Y EL BLOQUEO IRANÍ DEL ESTRECHO DE ORMUZ",
-      "detail": "Teherán mantiene la exigencia de extender el alto el fuego a territorio libanés antes de confirmar su presencia en las conversaciones con EE UU en Pakistán",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $95.2 (+0.00%)",
     "VIX: 19.23",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.9%"
   ]
 }
