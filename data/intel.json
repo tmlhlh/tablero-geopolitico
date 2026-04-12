@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-12T19:37:12.010014+00:00",
+  "updated_at": "2026-04-12T20:31:45.193721+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
+    "ormuz_flow_pct": 3.7,
     "vix": 19.23,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.7%"
   },
   "events": [
     {
-      "timestamp": "12 APR 2026 · 18:54 UTC",
+      "timestamp": "12 APR 2026 · 20:19 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ASEGURA QUE BLOQUE",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
     },
     {
-      "timestamp": "12 APR 2026 · 18:48 UTC",
-      "headline": "TRUMP'S STRAIT OF HORMUZ BLOCKADE THREAT RAISES RISKS AND LEAVES PREDICAMENTS UN",
-      "detail": "The conflict is now a test of wills - Iran’s capacity to absorb strikes versus Trump’s tolerance for the war's costs.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 APR 2026 · 17:18 UTC",
       "headline": "TRUMP ANUNCIÓ QUE BLOQUEARÁ LA CIRCULACIÓN DE BUQUES EN EL ESTRECHO DE ORMUZ",
       "detail": "Tras el fracaso de las conversaciones de paz con Irán, el presidente estadounidense afirmó que tomará el control del estrecho para eliminar las minas colocadas por Teherán; temor a un fuerte impacto e",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 17:03 UTC",
+      "headline": "TRUMP ANUNCIA SU PROPIO BLOQUEO NAVAL DEL ESTRECHO DE ORMUZ Y LAS NEGOCIACIONES ",
+      "detail": "El presidente de Estados Unidos asegura que sus fuerzas evitarán el paso de cualquier buque y dispararán contra los barcos iraníes que ataquen a “embarcaciones pacíficas”",
       "severity": "CRÍTICO"
     },
     {
@@ -54,6 +54,6 @@
   "ticker_items": [
     "BRENT: $95.2 (+0.00%)",
     "VIX: 19.23",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.7%"
   ]
 }
