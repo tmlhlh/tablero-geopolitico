@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T07:09:45.470230+00:00",
+  "updated_at": "2026-04-12T08:43:00.335267+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "11 APR 2026 · 19:38 UTC",
-      "headline": "US SAYS TWO NAVAL SHIPS ‘TRANSITED’ STRAIT OF HORMUZ FOR MINE-CLEARING",
-      "detail": "Negotiations are ongoing between US-Iranian delegations in Islamabad, with control of the strait a key sticking point.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "11 APR 2026 · 11:04 UTC",
       "headline": "THREE WEEKS OF FUEL, 170 MILLION PEOPLE: INSIDE BANGLADESH’S WORSENING FUEL SHOR",
       "detail": "As Hormuz shipping remains uncertain, Dhaka juggles rationing, early shop closures, and hybrid schooling to manage national energy use Read Full Article at RT.com",
@@ -48,6 +42,12 @@
       "timestamp": "09 APR 2026 · 14:59 UTC",
       "headline": "NORWAY HELPING UKRAINE PREPARE ATTACKS ON RUSSIAN COMMERCIAL VESSELS – TASS",
       "detail": "Norway is assisting Ukraine with preparing “terrorist attacks” on Russian vessels in the Barents and Norwegian seas, TASS has reported Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 APR 2026 · 09:50 UTC",
+      "headline": "THE GULF HAS A NEW BOSS. HERE ARE THREE SCENARIOS AFTER THE PAUSE",
+      "detail": "Extended truce, renewed war, or endless strikes – each reshapes the region in Iran’s favor as opposed to the US and Israel Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
