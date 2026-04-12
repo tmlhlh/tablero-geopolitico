@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-04-12T17:32:09.678323+00:00",
+  "updated_at": "2026-04-12T18:41:44.487765+00:00",
   "market": {
     "brent_usd": 95.2,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.3,
+    "ormuz_flow_pct": 3.0,
     "vix": 19.23,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "12 APR 2026 · 18:15 UTC",
+      "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ASEGURA QUE BLOQUE",
+      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 APR 2026 · 17:45 UTC",
+      "headline": "TRUMP'S STRAIT OF HORMUZ BLOCKADE THREAT RAISES RISKS AND LEAVES PREDICAMENTS UN",
+      "detail": "The conflict is now a test of wills - Iran’s capacity to absorb strikes versus Trump’s tolerance for the war's costs.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 APR 2026 · 17:18 UTC",
       "headline": "TRUMP ANUNCIÓ QUE BLOQUEARÁ LA CIRCULACIÓN DE BUQUES EN EL ESTRECHO DE ORMUZ",
@@ -21,14 +33,8 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 APR 2026 · 17:05 UTC",
-      "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ASEGURA QUE BLOQUE",
-      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "12 APR 2026 · 15:47 UTC",
-      "headline": "TRUMP ANNOUNCES STRAIT OF HORMUZ BLOCKADE AFTER US-IRAN PEACE TALKS END",
+      "headline": "‘BLOWN TO HELL’: TRUMP ORDERS HORMUZ BLOCKADE AFTER US-IRAN PEACE TALKS END",
       "detail": "US Navy to enforce blockade, Trump says after condemning Iran for blocking waterway, complaining of no deal in Pakistan.",
       "severity": "INFO"
     },
@@ -43,17 +49,11 @@
       "headline": "TRUMP SAYS US TO BLOCKADE SHIPS CROSSING STRAIT OF HORMUZ",
       "detail": "US President Donald Trump says the US Navy will immediately blockade the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "11 APR 2026 · 11:04 UTC",
-      "headline": "THREE WEEKS OF FUEL, 170 MILLION PEOPLE: INSIDE BANGLADESH’S WORSENING FUEL SHOR",
-      "detail": "As Hormuz shipping remains uncertain, Dhaka juggles rationing, early shop closures, and hybrid schooling to manage national energy use Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $95.2 (+0.00%)",
     "VIX: 19.23",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.3%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
