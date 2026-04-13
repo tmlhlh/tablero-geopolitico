@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-04-13T13:19:42.210245+00:00",
+  "updated_at": "2026-04-13T15:13:57.612778+00:00",
   "market": {
-    "brent_usd": 101.7,
+    "brent_usd": 100.97,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 20.92,
+    "vix": 19.74,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.9
+    "insurance_spread_pct": 2.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "13 APR 2026 · 13:07 UTC",
+      "timestamp": "13 APR 2026 · 15:03 UTC",
       "headline": "QUÉ SE SABE DE LA GUERRA ENTRE ESTADOS UNIDOS, ISRAEL E IRÁN HOY ",
       "detail": "El presidente Donald Trump anunció el bloqueo de EE.UU. en el estrecho de Ormuz; es una respuesta al fracaso de las conversaciones de paz con Irán",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 13:01 UTC",
+      "timestamp": "13 APR 2026 · 15:01 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ANUNCIÓ EL BLOQUEO",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 12:01 UTC",
+      "timestamp": "13 APR 2026 · 14:47 UTC",
+      "headline": "REINO UNIDO CONFIRMÓ QUE “NO PARTICIPARÁ” EN EL BLOQUEO DEL ESTRECHO DE ORMUZ",
+      "detail": "Gran Bretaña, Francia y otros países se niegan a sumarse a la medida de Estados Unidos contra Irán y proponen una misión internacional para garantizar la navegación; se agrava la incertidumbre mundial",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 14:36 UTC",
+      "headline": "TRUMP SAYS IRANIAN SHIPS WILL BE ‘ELIMINATED’ AS US NAVAL BLOCKADE BEGINS",
+      "detail": "US president says Iranian military vessels approaching the blockade zone in Gulf will be 'immediately eliminated'.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 14:34 UTC",
       "headline": "COMIENZA EL BLOQUEO DE EE.UU. EN EL ESTRECHO DE ORMUZ TRAS LAS FALLIDAS NEGOCIAC",
-      "detail": "El presidente Donald Trump anunció la medida el domingo como respuesta al fracaso de las conversaciones de paz con Irán; será a partir de este lunes a las 11",
+      "detail": "El presidente norteamericano anunció la medida el domingo como respuesta al fracaso de las conversaciones de paz con Teherán",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 10:52 UTC",
-      "headline": "IRAN’S ARMY SAYS US PLAN TO BLOCKADE HORMUZ ‘AMOUNTS TO PIRACY’",
-      "detail": "The US restrictions on maritime navigation and transit in international waters are illegal, Iranian military says.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 10:15 UTC",
-      "headline": "STARMER SAYS UK WILL NOT SUPPORT US BLOCKADE OF STRAIT OF HORMUZ",
-      "detail": "Other US allies criticise Trump's move, including France, Spain and Turkiye, and China also condemns the plan.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 09:52 UTC",
-      "headline": "US BLOCKADE OF IRAN WOULD WORSEN GLOBAL ENERGY CRISIS, ANALYSTS SAY",
-      "detail": "While US military says it will blockade Iranian ports only, move would have ripples worldwide, according to analysts.",
+      "timestamp": "13 APR 2026 · 14:14 UTC",
+      "headline": "TRUMP’S THREAT TO BLOCKADE HORMUZ: WHY IT’S THE LATEST MAJOR ESCALATION",
+      "detail": "Analysts warn Washington's blockade could harm the fragile ceasefire between the US and Iran.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.7 (+0.00%)",
-    "VIX: 20.92",
+    "BRENT: $100.97 (+0.00%)",
+    "VIX: 19.74",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
