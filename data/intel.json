@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-12T23:31:12.381400+00:00",
+  "updated_at": "2026-04-13T02:24:28.619225+00:00",
   "market": {
-    "brent_usd": 103.15,
+    "brent_usd": 102.1,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,33 @@
   },
   "events": [
     {
-      "timestamp": "12 APR 2026 · 23:17 UTC",
+      "timestamp": "13 APR 2026 · 01:39 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ASEGURA QUE BLOQUE",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 01:30 UTC",
+      "headline": "OIL PRICES SURGE PAST $103 A BARREL AFTER US ANNOUNCES BLOCKADE OF IRAN",
+      "detail": "Asian stocks fall as naval blockade threat injects new turmoil into financial markets.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 00:35 UTC",
+      "headline": "OIL BACK ABOVE $100 AS US TO BLOCKADE IRANIAN PORTS AFTER PEACE TALKS FAIL",
+      "detail": "The failure of negotiations at the weekend has raised concerns that the global energy crisis will deepen.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 00:32 UTC",
+      "headline": "US MILITARY THREATENS TO BLOCKADE ALL IRANIAN PORTS STARTING ON MONDAY",
+      "detail": "Vessels will still be able to transit the Strait of Hormuz to and from non-Iranian ports, says US Central Command.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US MILITARY SAYS IT WILL BLOCK IRANIAN TRAFFIC IN HORMUZ",
+      "detail": "CENTCOM says the blockade will begin at 14:00 GMT, as Iran warns of even higher prices at the pump.",
       "severity": "INFO"
     },
     {
@@ -25,34 +49,10 @@
       "headline": "WHAT IS A NAVAL BLOCKADE AND HOW WOULD IT WORK IN STRAIT OF HORMUZ?",
       "detail": "Donald Trump says that the US is going to start blockading the Strait of Hormuz. What does this mean in practice?",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 APR 2026 · 21:18 UTC",
-      "headline": "IRAN WARNS AMERICANS TO ‘ENJOY’ GAS PRICES AS TRUMP ORDERS HORMUZ ‘BLOCKADE’: LI",
-      "detail": "The US Department of War will begin enforcing a blockade of all maritime traffic entering and exiting Iranian ports on April 13 Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 APR 2026 · 20:30 UTC",
-      "headline": "HISTORY OF FLOTILLA CAMPAIGNS TO END ISRAEL’S SIEGE OF GAZA",
-      "detail": "A 70-boat flotilla sets sail from Spain, aiming to break Israel's naval blockade on Gaza amid history of interceptions.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 APR 2026 · 17:03 UTC",
-      "headline": "TRUMP ANUNCIA SU PROPIO BLOQUEO NAVAL DEL ESTRECHO DE ORMUZ Y LAS NEGOCIACIONES ",
-      "detail": "El Mando Central de EE UU asegura que el bloqueo entrará en vigor este lunes. El presidente asegura que sus fuerzas evitarán el paso de cualquier buque y dispararán contra los barcos iraníes que ataqu",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 APR 2026 · 15:47 UTC",
-      "headline": "‘BLOWN TO HELL’: TRUMP ORDERS HORMUZ BLOCKADE AFTER US-IRAN PEACE TALKS END",
-      "detail": "US Navy to enforce blockade, Trump says after condemning Iran for blocking waterway, complaining of no deal in Pakistan.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.15 (+0.00%)",
+    "BRENT: $102.1 (+0.00%)",
     "VIX: 19.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
