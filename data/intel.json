@@ -1,29 +1,41 @@
 {
-  "updated_at": "2026-04-13T05:38:08.437143+00:00",
+  "updated_at": "2026-04-13T07:58:14.720304+00:00",
   "market": {
-    "brent_usd": 102.19,
+    "brent_usd": 101.85,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 19.23,
+    "vix": 21.14,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "13 APR 2026 · 05:24 UTC",
-      "headline": "OIL BACK ABOVE $100 AS US TO BLOCKADE IRANIAN PORTS AFTER PEACE TALKS FAIL",
-      "detail": "The failure of negotiations at the weekend has raised concerns that the global energy crisis will deepen.",
+      "timestamp": "13 APR 2026 · 07:30 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 45 OF THE US-IRAN CONFLICT?",
+      "detail": "The move to blockade the Strait of Hormuz is the latest escalation in the war after failure to sign peace deal.",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 05:22 UTC",
+      "timestamp": "13 APR 2026 · 07:10 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ANUNCIÓ EL BLOQUEO",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 05:56 UTC",
+      "headline": "CUÁNDO EMPIEZA EL BLOQUEO DE PUERTOS IRANÍES ANUNCIADO POR DONALD TRUMP",
+      "detail": "La medida fue comunicada luego del fracaso de las conversaciones entabladas entre autoridades de Washington y Teherán para alcanzar un acuerdo en relación a la guerra",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 05:24 UTC",
+      "headline": "OIL BACK ABOVE $100 AS US TO BLOCKADE IRANIAN PORTS AFTER PEACE TALKS FAIL",
+      "detail": "The failure of negotiations at the weekend has raised concerns that the global energy crisis will deepen.",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "OIL PRICES SURGE PAST $103 A BARREL AFTER US ANNOUNCES BLOCKADE OF IRAN",
       "detail": "Asian stocks fall as naval blockade threat injects new turmoil into financial markets.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 00:32 UTC",
-      "headline": "US MILITARY THREATENS TO BLOCKADE ALL IRANIAN PORTS STARTING ON MONDAY",
-      "detail": "Vessels will still be able to transit the Strait of Hormuz to and from non-Iranian ports, says US Central Command.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US MILITARY SAYS IT WILL BLOCK IRANIAN TRAFFIC IN HORMUZ",
-      "detail": "CENTCOM says the blockade will begin at 14:00 GMT, as Iran warns of even higher prices at the pump.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.19 (+0.00%)",
-    "VIX: 19.23",
+    "BRENT: $101.85 (+0.00%)",
+    "VIX: 21.14",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
