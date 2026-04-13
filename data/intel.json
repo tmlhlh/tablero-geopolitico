@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-04-13T17:00:48.935407+00:00",
+  "updated_at": "2026-04-13T19:10:25.634562+00:00",
   "market": {
-    "brent_usd": 99.95,
+    "brent_usd": 97.75,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 19.5,
+    "vix": 19.38,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "13 APR 2026 · 16:47 UTC",
+      "timestamp": "13 APR 2026 · 19:02 UTC",
+      "headline": "EN QUÉ CONSISTE LA ADVERTENCIA DE TRUMP SOBRE UN BLOQUEO NAVAL A IRÁN Y QUÉ PASA",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó las últimas medidas de las fuerzas armadas estadounidenses, tras las amenazas del mandatario sobre la región estratégica de Medio Oriente",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 19:02 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ANUNCIÓ EL BLOQUEO",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 16:41 UTC",
+      "timestamp": "13 APR 2026 · 18:52 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 16:33 UTC",
-      "headline": "IRAN TO CHARGE SHIPS FROM ‘HOSTILE’ NATIONS TO CROSS HORMUZ – SECURITY CHIEF",
-      "detail": "The Strait of Hormuz will not return to toll-free status after the failed US talks, Iranian security chief Ebrahim Azizi has told RT Read Full Article at RT.com",
+      "timestamp": "13 APR 2026 · 18:39 UTC",
+      "headline": "EL BLOQUEO A IRÁN PONE A PRUEBA QUÉ BANDO PUEDE SOPORTAR MÁS DOLOR",
+      "detail": "Donald Trump busca estrangula la principal vía de suministro del país mediante la obstrucción del estrecho de Ormuz; los iraníes apuestan a que su tolerancia al sufrimiento político es limitada",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 16:07 UTC",
-      "headline": "WHAT IS A NAVAL BLOCKADE AND HOW WOULD IT WORK IN STRAIT OF HORMUZ?",
-      "detail": "Donald Trump says that the US is blockading the Strait of Hormuz. What does this mean in practice?",
+      "timestamp": "13 APR 2026 · 17:46 UTC",
+      "headline": "STARMER ANNOUNCES TALKS TO ADDRESS THE STRAIT OF HORMUZ CRISIS",
+      "detail": "Starmer has announced talks to be held this week and co-hosted with France, aiming at diplomatic end to the war on Iran",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 15:27 UTC",
-      "headline": "THE US BLOCKADE OF IRAN IS A GAMBLE. WILL IT WORK?",
-      "detail": "The US military has the capability to mount a blockade of vessels moving in and out of the Gulf. The question is: to what end?",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 15:13 UTC",
-      "headline": "EN QUÉ CONSISTE LA ADVERTENCIA DE TRUMP SOBRE UN BLOQUEO NAVAL A IRÁN Y QUÉ PASA",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó las últimas medidas de las fuerzas armadas estadounidenses, tras las amenazas del mandatario sobre la región estratégica de Medio Oriente",
-      "severity": "INFO"
+      "timestamp": "13 APR 2026 · 17:28 UTC",
+      "headline": "EU: NO PEACE POSSIBLE WHILE “LEBANON IS IN FLAMES”",
+      "detail": "Von der Leyen warns Hormuz closure and Israeli strikes on Lebanon threaten regional stability.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.95 (+0.00%)",
-    "VIX: 19.5",
+    "BRENT: $97.75 (+0.00%)",
+    "VIX: 19.38",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
