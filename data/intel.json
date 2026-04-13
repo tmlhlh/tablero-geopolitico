@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-13T21:44:09.391156+00:00",
+  "updated_at": "2026-04-13T22:40:04.970887+00:00",
   "market": {
-    "brent_usd": 98.11,
+    "brent_usd": 98.06,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,7 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "13 APR 2026 · 21:24 UTC",
+      "timestamp": "13 APR 2026 · 22:27 UTC",
+      "headline": "ESTADOS UNIDOS ACTIVA EL BLOQUEO NAVAL DEL ESTRECHO DE ORMUZ Y TRUMP AFIRMA QUE ",
+      "detail": "El Comando Central (Centcom) norteamericano inició, por orden del presidente, el operativo para restringir el acceso y egreso marítimo a los puertos iraníes a lo largo del Golfo Pérsico",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 22:08 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ANUNCIÓ EL BLOQUEO",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
@@ -33,26 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 19:19 UTC",
-      "headline": "EL BLOQUEO NAVAL DE EE.UU. A IRÁN SERÁ UNA OPERACIÓN MILITAR DE GRAN ENVERGADURA",
-      "detail": "Analistas señalan que la medida implica un compromiso indefinido de fuerzas y puede tensar aún más un alto el fuego ya frágil",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "13 APR 2026 · 17:46 UTC",
       "headline": "STARMER ANNOUNCES TALKS TO ADDRESS THE STRAIT OF HORMUZ CRISIS",
       "detail": "Starmer has announced talks to be held this week and co-hosted with France, aiming at diplomatic end to the war on Iran",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 17:28 UTC",
-      "headline": "EU: NO PEACE POSSIBLE WHILE “LEBANON IS IN FLAMES”",
-      "detail": "Von der Leyen warns Hormuz closure and Israeli strikes on Lebanon threaten regional stability.",
-      "severity": "CRÍTICO"
+      "timestamp": "13 APR 2026 · 17:33 UTC",
+      "headline": "US BLOCKADE OF IRANIAN PORTS EXPLAINED IN TWO MINUTES",
+      "detail": "The BBC's security correspondent Frank Gardner explains how the US blockade of Iranian ports will work.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.11 (+0.00%)",
+    "BRENT: $98.06 (+0.00%)",
     "VIX: 19.12",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
