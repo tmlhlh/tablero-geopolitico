@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-04-13T19:10:25.634562+00:00",
+  "updated_at": "2026-04-13T20:50:57.121697+00:00",
   "market": {
-    "brent_usd": 97.75,
+    "brent_usd": 98.32,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 19.38,
+    "vix": 19.12,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "13 APR 2026 · 19:02 UTC",
-      "headline": "EN QUÉ CONSISTE LA ADVERTENCIA DE TRUMP SOBRE UN BLOQUEO NAVAL A IRÁN Y QUÉ PASA",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó las últimas medidas de las fuerzas armadas estadounidenses, tras las amenazas del mandatario sobre la región estratégica de Medio Oriente",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 19:02 UTC",
+      "timestamp": "13 APR 2026 · 20:43 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ANUNCIÓ EL BLOQUEO",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 18:52 UTC",
+      "timestamp": "13 APR 2026 · 19:59 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 18:39 UTC",
-      "headline": "EL BLOQUEO A IRÁN PONE A PRUEBA QUÉ BANDO PUEDE SOPORTAR MÁS DOLOR",
-      "detail": "Donald Trump busca estrangula la principal vía de suministro del país mediante la obstrucción del estrecho de Ormuz; los iraníes apuestan a que su tolerancia al sufrimiento político es limitada",
+      "timestamp": "13 APR 2026 · 19:57 UTC",
+      "headline": "EN QUÉ CONSISTE LA ADVERTENCIA DE TRUMP SOBRE UN BLOQUEO NAVAL A IRÁN Y QUÉ PASA",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó las últimas medidas de las fuerzas armadas estadounidenses, tras las amenazas del mandatario sobre la región estratégica de Medio Oriente",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 19:19 UTC",
+      "headline": "EL BLOQUEO NAVAL DE EE.UU. A IRÁN SERÁ UNA OPERACIÓN MILITAR DE GRAN ENVERGADURA",
+      "detail": "Analistas señalan que la medida implica un compromiso indefinido de fuerzas y puede tensar aún más un alto el fuego ya frágil",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.75 (+0.00%)",
-    "VIX: 19.38",
+    "BRENT: $98.32 (+0.00%)",
+    "VIX: 19.12",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
