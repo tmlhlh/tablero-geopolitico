@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-13T22:40:04.970887+00:00",
+  "updated_at": "2026-04-13T23:39:37.896720+00:00",
   "market": {
-    "brent_usd": 98.06,
+    "brent_usd": 97.65,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,27 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "13 APR 2026 · 22:27 UTC",
-      "headline": "ESTADOS UNIDOS ACTIVA EL BLOQUEO NAVAL DEL ESTRECHO DE ORMUZ Y TRUMP AFIRMA QUE ",
-      "detail": "El Comando Central (Centcom) norteamericano inició, por orden del presidente, el operativo para restringir el acceso y egreso marítimo a los puertos iraníes a lo largo del Golfo Pérsico",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 22:08 UTC",
+      "timestamp": "13 APR 2026 · 23:22 UTC",
       "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ANUNCIÓ EL BLOQUEO",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 19:59 UTC",
-      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
-      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
+      "timestamp": "13 APR 2026 · 23:05 UTC",
+      "headline": "EN QUÉ CONSISTE LA ADVERTENCIA DE TRUMP SOBRE UN BLOQUEO NAVAL A IRÁN Y QUÉ PASA",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó las últimas medidas de las fuerzas armadas estadounidenses, tras las amenazas del mandatario sobre la región estratégica de Medio Oriente",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 19:57 UTC",
-      "headline": "EN QUÉ CONSISTE LA ADVERTENCIA DE TRUMP SOBRE UN BLOQUEO NAVAL A IRÁN Y QUÉ PASA",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó las últimas medidas de las fuerzas armadas estadounidenses, tras las amenazas del mandatario sobre la región estratégica de Medio Oriente",
+      "timestamp": "13 APR 2026 · 22:33 UTC",
+      "headline": "UN URGES ‘ALL PARTIES’ TO RESPECT NAVIGATION IN STRAIT OF HORMUZ",
+      "detail": "UN Secretary-General is calling on ‘all parties’ to respect freedom of navigation in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 22:27 UTC",
+      "headline": "ESTADOS UNIDOS ACTIVA EL BLOQUEO NAVAL DEL ESTRECHO DE ORMUZ Y TRUMP AFIRMA QUE ",
+      "detail": "El Comando Central (Centcom) norteamericano inició, por orden del presidente, el operativo para restringir el acceso y egreso marítimo a los puertos iraníes a lo largo del Golfo Pérsico",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.06 (+0.00%)",
+    "BRENT: $97.65 (+0.00%)",
     "VIX: 19.12",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
