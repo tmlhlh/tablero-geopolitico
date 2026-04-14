@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-04-14T10:59:57.756193+00:00",
+  "updated_at": "2026-04-14T12:04:18.960385+00:00",
   "market": {
-    "brent_usd": 98.99,
+    "brent_usd": 99.0,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 18.41,
+    "vix": 18.28,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "14 APR 2026 · 11:48 UTC",
+      "headline": "WHO CONTROLS THE STRAIT OF HORMUZ?",
+      "detail": "A US move to block the strait has intensified a broader struggle over who controls access and under what terms.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 APR 2026 · 11:31 UTC",
+      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
+      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 APR 2026 · 09:58 UTC",
       "headline": "SANCTIONED TANKERS TRANSIT STRAIT OF HORMUZ AMID US BLOCKADE",
@@ -37,23 +49,11 @@
       "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 46 OF THE US-IRAN CONFLICT?",
       "detail": "The US started a blockade on Iranian ports, but Trump said there is still a chance for Tehran to reach a deal.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 02:47 UTC",
-      "headline": "US MILITARY KILLS TWO MEN IN NEW STRIKE ON VESSEL IN EASTERN PACIFIC",
-      "detail": "Latest attack brings death toll from US strikes on vessels in the Pacific and Caribbean to at least 170 since September.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS TEHRAN WANTS DEAL AMID US BLOCKADE IN HORMUZ",
-      "detail": "Iran accuses US of committing piracy as thousands rally in Tehran against the blockade in the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.99 (+0.00%)",
-    "VIX: 18.41",
+    "BRENT: $99.0 (+0.00%)",
+    "VIX: 18.28",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
