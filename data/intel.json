@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-14T02:11:10.343385+00:00",
+  "updated_at": "2026-04-14T05:20:31.139959+00:00",
   "market": {
-    "brent_usd": 97.81,
+    "brent_usd": 97.93,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "14 APR 2026 · 01:58 UTC",
-      "headline": "GUERRA DE ESTADOS UNIDOS E ISRAEL CONTRA IRÁN, EN VIVO: TRUMP ANUNCIÓ EL BLOQUEO",
-      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "INFO"
+      "timestamp": "14 APR 2026 · 02:47 UTC",
+      "headline": "US MILITARY KILLS TWO MEN IN NEW STRIKE ON VESSEL IN EASTERN PACIFIC",
+      "detail": "Latest attack brings death toll from US strikes on vessels in the Pacific and Caribbean to at least 170 since September.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "14 APR 2026 · 00:15 UTC",
@@ -28,14 +28,8 @@
     },
     {
       "timestamp": "14 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS TEHRAN WANTS DEAL AS US BLOCKADE IN HORMUZ BEGINS",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS TEHRAN WANTS DEAL AMID US BLOCKADE IN HORMUZ",
       "detail": "Iran accuses US of committing piracy as thousands rally in Tehran against the blockade in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 23:05 UTC",
-      "headline": "EN QUÉ CONSISTE LA ADVERTENCIA DE TRUMP SOBRE UN BLOQUEO NAVAL A IRÁN Y QUÉ PASA",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó las últimas medidas de las fuerzas armadas estadounidenses, tras las amenazas del mandatario sobre la región estratégica de Medio Oriente",
       "severity": "INFO"
     },
     {
@@ -45,14 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "13 APR 2026 · 22:27 UTC",
-      "headline": "ESTADOS UNIDOS ACTIVA EL BLOQUEO NAVAL DEL ESTRECHO DE ORMUZ Y TRUMP AFIRMA QUE ",
-      "detail": "El Comando Central (Centcom) norteamericano inició, por orden del presidente, el operativo para restringir el acceso y egreso marítimo a los puertos iraníes a lo largo del Golfo Pérsico",
+      "timestamp": "13 APR 2026 · 17:33 UTC",
+      "headline": "US BLOCKADE OF IRANIAN PORTS EXPLAINED IN TWO MINUTES",
+      "detail": "The BBC's security correspondent Frank Gardner explains how the US blockade of Iranian ports will work.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "13 APR 2026 · 17:14 UTC",
+      "headline": "TRUMP AMENAZA CON “ELIMINAR” LOS BUQUES IRANÍES QUE DESAFÍEN EL BLOQUEO DE ORMUZ",
+      "detail": "EE UU prohíbe el paso de todas las embarcaciones con Irán como origen o destino. Teherán califica la medida de “piratería”. Netanyahu dice que la frágil tregua puede “cambiar de rumbo en un instante”",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.81 (+0.00%)",
+    "BRENT: $97.93 (+0.00%)",
     "VIX: 19.12",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
