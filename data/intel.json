@@ -1,30 +1,42 @@
 {
-  "updated_at": "2026-04-14T14:48:53.144087+00:00",
+  "updated_at": "2026-04-14T16:09:18.656011+00:00",
   "market": {
-    "brent_usd": 95.75,
+    "brent_usd": 95.43,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 18.0,
+    "vix": 18.15,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
+      "timestamp": "14 APR 2026 · 16:06 UTC",
+      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
+      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 APR 2026 · 15:25 UTC",
+      "headline": "UNCERTAINTY IS KILLING US – CAPTAIN OF SHIP STRANDED IN PERSIAN GULF (EXCLUSIVE ",
+      "detail": "The captain of a civilian ship stranded in the Persian Gulf has told RT uncertainty is “killing” his crew amid the Strait of Hormuz blockade Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 APR 2026 · 14:57 UTC",
+      "headline": "WHY IS TRUMP MAKING THE GLOBAL ENERGY CRISIS WORSE?",
+      "detail": "The US has announced a naval blockade of Iran after inconclusive peace talks, further disrupting global energy trade Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "14 APR 2026 · 14:18 UTC",
       "headline": "US BLOCKADE OF IRAN PORTS IRRESPONSIBLE AND DANGEROUS, CHINA SAYS",
       "detail": "China, the biggest buyer of Iranian oil, says the US naval blockade undermines an \"already fragile ceasefire\".",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 14:16 UTC",
-      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
-      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
-      "severity": "INFO"
     },
     {
       "timestamp": "14 APR 2026 · 14:02 UTC",
@@ -33,27 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "14 APR 2026 · 13:42 UTC",
-      "headline": "QUÉ IMPLICA EL BLOQUEO NAVAL DE EE.UU. A IRÁN PARA LOS FLUJOS GLOBALES DE PETRÓL",
-      "detail": "La medida amenaza con sacar del mercado hasta dos millones de barriles diarios, golpea sobre todo a Asia y reconfigura rutas y precios del crudo",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "14 APR 2026 · 12:31 UTC",
       "headline": "HOW MUCH WILL US HORMUZ BLOCKADE HURT IRAN, AND DOES TEHRAN HAVE AN ESCAPE?",
       "detail": "Iran earned $5bn in oil exports in past month while it shut the strait for most other ships. That revenue is at risk.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 12:27 UTC",
-      "headline": "HOW MANY SHIPS HAVE PASSED THE STRAIT OF HORMUZ AND HOW MANY WERE ATTACKED?",
-      "detail": "Ship-tracking data shows 279 ships have passed through the strait and 22 have been attacked since the war on Iran began.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.75 (+0.00%)",
-    "VIX: 18.0",
+    "BRENT: $95.43 (+0.00%)",
+    "VIX: 18.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
