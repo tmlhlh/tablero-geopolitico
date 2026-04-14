@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-04-14T12:04:18.960385+00:00",
+  "updated_at": "2026-04-14T14:48:53.144087+00:00",
   "market": {
-    "brent_usd": 99.0,
+    "brent_usd": 95.75,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 18.28,
+    "vix": 18.0,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "14 APR 2026 · 11:48 UTC",
-      "headline": "WHO CONTROLS THE STRAIT OF HORMUZ?",
-      "detail": "A US move to block the strait has intensified a broader struggle over who controls access and under what terms.",
-      "severity": "INFO"
+      "timestamp": "14 APR 2026 · 14:18 UTC",
+      "headline": "US BLOCKADE OF IRAN PORTS IRRESPONSIBLE AND DANGEROUS, CHINA SAYS",
+      "detail": "China, the biggest buyer of Iranian oil, says the US naval blockade undermines an \"already fragile ceasefire\".",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 APR 2026 · 11:31 UTC",
+      "timestamp": "14 APR 2026 · 14:16 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 APR 2026 · 09:58 UTC",
-      "headline": "SANCTIONED TANKERS TRANSIT STRAIT OF HORMUZ AMID US BLOCKADE",
-      "detail": "Chinese-owned tanker Rich Starry becomes the first sanctioned vessel to exit the Gulf after the US blockade.",
+      "timestamp": "14 APR 2026 · 14:02 UTC",
+      "headline": "WHY AND HOW IS US BLOCKADING IRANIAN PORTS IN STRAIT OF HORMUZ?",
+      "detail": "Donald Trump says that the US is blockading the Strait of Hormuz. What does this mean in practice?",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 APR 2026 · 09:08 UTC",
-      "headline": "RUSSIA’S LAVROV VISITS CHINA AS US PRESSURES IRAN WITH HORMUZ BLOCKADE",
-      "detail": "China and Russia have been vocal critics of the US-Israel war on Iran, an ally of both world powers.",
+      "timestamp": "14 APR 2026 · 13:42 UTC",
+      "headline": "QUÉ IMPLICA EL BLOQUEO NAVAL DE EE.UU. A IRÁN PARA LOS FLUJOS GLOBALES DE PETRÓL",
+      "detail": "La medida amenaza con sacar del mercado hasta dos millones de barriles diarios, golpea sobre todo a Asia y reconfigura rutas y precios del crudo",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 APR 2026 · 08:52 UTC",
-      "headline": "WORLD FACES FOOD ‘CATASTROPHE’ IF STRAIT OF HORMUZ DISRUPTION PERSISTS: FAO",
-      "detail": "Global agriculture is highly exposed to the blockage of waterways, risking higher commodity prices and food inflation.",
+      "timestamp": "14 APR 2026 · 12:31 UTC",
+      "headline": "HOW MUCH WILL US HORMUZ BLOCKADE HURT IRAN, AND DOES TEHRAN HAVE AN ESCAPE?",
+      "detail": "Iran earned $5bn in oil exports in past month while it shut the strait for most other ships. That revenue is at risk.",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 APR 2026 · 06:58 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 46 OF THE US-IRAN CONFLICT?",
-      "detail": "The US started a blockade on Iranian ports, but Trump said there is still a chance for Tehran to reach a deal.",
-      "severity": "INFO"
+      "timestamp": "14 APR 2026 · 12:27 UTC",
+      "headline": "HOW MANY SHIPS HAVE PASSED THE STRAIT OF HORMUZ AND HOW MANY WERE ATTACKED?",
+      "detail": "Ship-tracking data shows 279 ships have passed through the strait and 22 have been attacked since the war on Iran began.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.0 (+0.00%)",
-    "VIX: 18.28",
+    "BRENT: $95.75 (+0.00%)",
+    "VIX: 18.0",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
