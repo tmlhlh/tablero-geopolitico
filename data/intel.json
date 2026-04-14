@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-14T21:48:01.819322+00:00",
+  "updated_at": "2026-04-14T22:41:47.305887+00:00",
   "market": {
-    "brent_usd": 95.14,
+    "brent_usd": 94.95,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
-    {
-      "timestamp": "14 APR 2026 · 20:51 UTC",
-      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
-      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
-      "severity": "INFO"
-    },
     {
       "timestamp": "14 APR 2026 · 20:10 UTC",
       "headline": "HOW US BLOCKADE ON IRAN WILL WORSEN ENERGY CRISIS",
@@ -40,19 +34,25 @@
     },
     {
       "timestamp": "14 APR 2026 · 17:30 UTC",
-      "headline": "WHO CONTROLS THE STRAIT OF HORMUZ?",
-      "detail": "A US move to block the strait has intensified a broader struggle over who controls access and under what terms.",
+      "headline": "ESTADOS UNIDOS E IRÁN NEGOCIAN PARA VOLVER A REUNIRSE TRAS UNA SEMANA DE ALTO EL",
+      "detail": "Las delegaciones de los dos países podrían retomar el diálogo en Pakistán al final de esta semana, según Trump. Varios buques sortean el bloqueo estadounidense en el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 APR 2026 · 17:30 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN NEGOCIAN PARA VOLVER A REUNIRSE TRAS UNA SEMANA DE ALTO EL",
-      "detail": "Las delegaciones de los dos países podrían retomar el diálogo en Pakistán al final de esta semana, según Trump. Varios buques sortean el bloqueo estadounidense en el estrecho de Ormuz",
+      "timestamp": "14 APR 2026 · 17:10 UTC",
+      "headline": "WHY AND HOW IS US BLOCKADING IRANIAN PORTS IN STRAIT OF HORMUZ?",
+      "detail": "Donald Trump says that the US is blockading the Strait of Hormuz. What does this mean in practice?",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 APR 2026 · 15:25 UTC",
+      "headline": "UNCERTAINTY IS KILLING US – CAPTAIN OF SHIP STRANDED IN PERSIAN GULF (EXCLUSIVE ",
+      "detail": "The captain of a civilian ship stranded in the Persian Gulf has told RT uncertainty is “killing” his crew amid the Strait of Hormuz blockade Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.14 (+0.00%)",
+    "BRENT: $94.95 (+0.00%)",
     "VIX: 18.36",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
