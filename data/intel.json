@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-14T09:14:40.799722+00:00",
+  "updated_at": "2026-04-14T10:59:57.756193+00:00",
   "market": {
-    "brent_usd": 98.0,
+    "brent_usd": 98.99,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 18.57,
+    "vix": 18.41,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.0
   },
@@ -15,15 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "14 APR 2026 · 06:58 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 46 OF THE US-IRAN CONFLICT?",
-      "detail": "The US started a blockade on Iranian ports, but Trump said there is still a chance for Tehran to reach a deal.",
+      "timestamp": "14 APR 2026 · 09:58 UTC",
+      "headline": "SANCTIONED TANKERS TRANSIT STRAIT OF HORMUZ AMID US BLOCKADE",
+      "detail": "Chinese-owned tanker Rich Starry becomes the first sanctioned vessel to exit the Gulf after the US blockade.",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 APR 2026 · 05:26 UTC",
-      "headline": "POR QUÉ EL BLOQUEO NAVAL A IRÁN ES UNA JUGADA ARRIESGADA DE TRUMP Y QUÉ ROL PUED",
-      "detail": "Estados Unidos inició el operativo para restringir el acceso y egreso marítimo a los puertos iraníes a lo largo del Golfo Pérsico",
+      "timestamp": "14 APR 2026 · 09:08 UTC",
+      "headline": "RUSSIA’S LAVROV VISITS CHINA AS US PRESSURES IRAN WITH HORMUZ BLOCKADE",
+      "detail": "China and Russia have been vocal critics of the US-Israel war on Iran, an ally of both world powers.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 APR 2026 · 08:52 UTC",
+      "headline": "WORLD FACES FOOD ‘CATASTROPHE’ IF STRAIT OF HORMUZ DISRUPTION PERSISTS: FAO",
+      "detail": "Global agriculture is highly exposed to the blockage of waterways, risking higher commodity prices and food inflation.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 APR 2026 · 06:58 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 46 OF THE US-IRAN CONFLICT?",
+      "detail": "The US started a blockade on Iranian ports, but Trump said there is still a chance for Tehran to reach a deal.",
       "severity": "INFO"
     },
     {
@@ -33,27 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 APR 2026 · 00:15 UTC",
-      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
-      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "14 APR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP SAYS TEHRAN WANTS DEAL AMID US BLOCKADE IN HORMUZ",
       "detail": "Iran accuses US of committing piracy as thousands rally in Tehran against the blockade in the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 22:33 UTC",
-      "headline": "UN URGES ‘ALL PARTIES’ TO RESPECT NAVIGATION IN STRAIT OF HORMUZ",
-      "detail": "UN Secretary-General is calling on ‘all parties’ to respect freedom of navigation in the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.0 (+0.00%)",
-    "VIX: 18.57",
+    "BRENT: $98.99 (+0.00%)",
+    "VIX: 18.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
