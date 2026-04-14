@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-14T05:20:31.139959+00:00",
+  "updated_at": "2026-04-14T07:26:15.624202+00:00",
   "market": {
-    "brent_usd": 97.93,
+    "brent_usd": 97.79,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "14 APR 2026 · 06:58 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 46 OF THE US-IRAN CONFLICT?",
+      "detail": "The US started a blockade on Iranian ports, but Trump said there is still a chance for Tehran to reach a deal.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 APR 2026 · 05:26 UTC",
+      "headline": "POR QUÉ EL BLOQUEO NAVAL A IRÁN ES UNA JUGADA ARRIESGADA DE TRUMP Y QUÉ ROL PUED",
+      "detail": "Estados Unidos inició el operativo para restringir el acceso y egreso marítimo a los puertos iraníes a lo largo del Golfo Pérsico",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 APR 2026 · 02:47 UTC",
       "headline": "US MILITARY KILLS TWO MEN IN NEW STRIKE ON VESSEL IN EASTERN PACIFIC",
@@ -37,22 +49,10 @@
       "headline": "UN URGES ‘ALL PARTIES’ TO RESPECT NAVIGATION IN STRAIT OF HORMUZ",
       "detail": "UN Secretary-General is calling on ‘all parties’ to respect freedom of navigation in the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 17:33 UTC",
-      "headline": "US BLOCKADE OF IRANIAN PORTS EXPLAINED IN TWO MINUTES",
-      "detail": "The BBC's security correspondent Frank Gardner explains how the US blockade of Iranian ports will work.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 APR 2026 · 17:14 UTC",
-      "headline": "TRUMP AMENAZA CON “ELIMINAR” LOS BUQUES IRANÍES QUE DESAFÍEN EL BLOQUEO DE ORMUZ",
-      "detail": "EE UU prohíbe el paso de todas las embarcaciones con Irán como origen o destino. Teherán califica la medida de “piratería”. Netanyahu dice que la frágil tregua puede “cambiar de rumbo en un instante”",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.93 (+0.00%)",
+    "BRENT: $97.79 (+0.00%)",
     "VIX: 19.12",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
