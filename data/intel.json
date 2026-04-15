@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-15T09:15:29.158544+00:00",
+  "updated_at": "2026-04-15T10:56:15.783602+00:00",
   "market": {
-    "brent_usd": 95.71,
+    "brent_usd": 95.99,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 17.93,
+    "vix": 18.46,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "15 APR 2026 · 10:00 UTC",
+      "headline": "MORE THAN 200 IRANIAN SAILORS STRANDED AFTER US TORPEDO ATTACK RETURN HOME",
+      "detail": "The survivors of the US attack on Iranian vessel Iris Dena, which claimed the lives of 104 people, were among those repatriated.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 APR 2026 · 05:17 UTC",
       "headline": "US MILITARY SAYS BLOCKADE OF IRAN PORTS ‘COMPLETELY’ HALTS ECONOMIC TRADE",
@@ -43,17 +49,11 @@
       "headline": "US FORCES KILL 4 PEOPLE IN LATEST STRIKE ON VESSELS IN EASTERN PACIFIC",
       "detail": "The killings mark the fourth US deadly strike in the past four days on vessels in the eastern Pacific Ocean.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS WAR ‘CLOSE TO OVER’ AS HORMUZ BLOCKADE CONTINUES",
-      "detail": "US president says second round of talks could be held in Pakistan as naval blockade of Iranian ports continues.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.71 (+0.00%)",
-    "VIX: 17.93",
+    "BRENT: $95.99 (+0.00%)",
+    "VIX: 18.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
