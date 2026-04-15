@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-14T23:39:46.297521+00:00",
+  "updated_at": "2026-04-15T02:08:24.900823+00:00",
   "market": {
-    "brent_usd": 94.75,
+    "brent_usd": 94.59,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,18 @@
   },
   "events": [
     {
+      "timestamp": "15 APR 2026 · 01:40 UTC",
+      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
+      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS WAR ‘CLOSE TO OVER’, ISRAEL POUNDS LEBANON",
+      "detail": "US president says second round of talks could be held in Pakistan as blockade of Iranian ports continues.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "14 APR 2026 · 20:10 UTC",
       "headline": "HOW US BLOCKADE ON IRAN WILL WORSEN ENERGY CRISIS",
       "detail": "With the US military blockade of Iranian ports now in force, global energy markets are already reacting.",
@@ -24,12 +36,6 @@
       "timestamp": "14 APR 2026 · 19:14 UTC",
       "headline": "IMF CUTS GLOBAL GROWTH FORECAST DURING HORMUZ BLOCKADE",
       "detail": "Higher global inflation forecast at 4.4 percent, up 0.6 points, driven by surging oil, gas and fertiliser costs.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 17:53 UTC",
-      "headline": "NO SHIPS ‘MAKE IT PAST US BLOCKADE’ IN HORMUZ STRAIT IN FIRST DAY: PENTAGON",
-      "detail": "CENTCOM contradicts reports on ships breaking blockade as Trump says US-Iran talks could resume in the next two days.",
       "severity": "INFO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "WHY AND HOW IS US BLOCKADING IRANIAN PORTS IN STRAIT OF HORMUZ?",
       "detail": "Donald Trump says that the US is blockading the Strait of Hormuz. What does this mean in practice?",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 15:25 UTC",
-      "headline": "UNCERTAINTY IS KILLING US – CAPTAIN OF SHIP STRANDED IN PERSIAN GULF (EXCLUSIVE ",
-      "detail": "The captain of a civilian ship stranded in the Persian Gulf has told RT uncertainty is “killing” his crew amid the Strait of Hormuz blockade Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.75 (+0.00%)",
+    "BRENT: $94.59 (+0.00%)",
     "VIX: 18.36",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
