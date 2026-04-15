@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-04-15T10:56:15.783602+00:00",
+  "updated_at": "2026-04-15T11:55:35.747762+00:00",
   "market": {
-    "brent_usd": 95.99,
+    "brent_usd": 95.76,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 18.46,
+    "vix": 18.15,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "15 APR 2026 · 11:45 UTC",
+      "headline": "IRÁN AMENAZA CON FRENAR TODO EL COMERCIO EN TRES ÁREAS CLAVE SI EE.UU. SIGUE CON",
+      "detail": "El general Alí Abdollahi, jefe del mando de las fuerzas armadas iraníes, afirmó que si Washington “crea inseguridad para los buques comerciales y los petroleros”, eso será “el preludio”",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 11:06 UTC",
+      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
+      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 APR 2026 · 10:00 UTC",
       "headline": "MORE THAN 200 IRANIAN SAILORS STRANDED AFTER US TORPEDO ATTACK RETURN HOME",
@@ -37,23 +49,11 @@
       "headline": "¿QUÉ BUSCA TRUMP CON EL DOBLE BLOQUEO DE ORMUZ? UN ÓRDAGO CON MUCHAS LIMITACIONE",
       "detail": "Estados Unidos tensa la cuerda negociadora, debilitando la posición iraní y elevando la presión de China sobre los ayatolás. Pero llevarlo a la práctica no será fácil",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 03:18 UTC",
-      "headline": "EL SECRETARIO DEL TESORO ESTADOUNIDENSE AFIRMÓ QUE CHINA NO PODRÁ OBTENER PETRÓL",
-      "detail": "En una rueda de prensa realizada este martes en la Casa Blanca, Scott Bessent declaró que Estados Unidos bloqueará el paso de petroleros chinos que transportan petróleo iraní por el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 02:54 UTC",
-      "headline": "US FORCES KILL 4 PEOPLE IN LATEST STRIKE ON VESSELS IN EASTERN PACIFIC",
-      "detail": "The killings mark the fourth US deadly strike in the past four days on vessels in the eastern Pacific Ocean.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.99 (+0.00%)",
-    "VIX: 18.46",
+    "BRENT: $95.76 (+0.00%)",
+    "VIX: 18.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
