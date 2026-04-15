@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-15T02:08:24.900823+00:00",
+  "updated_at": "2026-04-15T05:21:04.781914+00:00",
   "market": {
-    "brent_usd": 94.59,
+    "brent_usd": 95.58,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,30 @@
   },
   "events": [
     {
+      "timestamp": "15 APR 2026 · 04:54 UTC",
+      "headline": "US SAYS IRANIAN TRADE THROUGH STRAIT OF HORMUZ FULLY HALTED",
+      "detail": "The US military said it has completely cut off Iranian trade through the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 03:30 UTC",
+      "headline": "¿QUÉ BUSCA TRUMP CON EL DOBLE BLOQUEO DE ORMUZ? UN ÓRDAGO CON MUCHAS LIMITACIONE",
+      "detail": "Estados Unidos tensa la cuerda negociadora, debilitando la posición iraní y elevando la presión de China sobre los ayatolás. Pero llevarlo a la práctica no será fácil",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 03:18 UTC",
+      "headline": "EL SECRETARIO DEL TESORO ESTADOUNIDENSE AFIRMÓ QUE CHINA NO PODRÁ OBTENER PETRÓL",
+      "detail": "En una rueda de prensa realizada este martes en la Casa Blanca, Scott Bessent declaró que Estados Unidos bloqueará el paso de petroleros chinos que transportan petróleo iraní por el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 02:54 UTC",
+      "headline": "US FORCES KILL 4 PEOPLE IN LATEST STRIKE ON VESSELS IN EASTERN PACIFIC",
+      "detail": "The killings mark the fourth US deadly strike in the past four days on vessels in the eastern Pacific Ocean.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "15 APR 2026 · 01:40 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
@@ -22,37 +46,13 @@
     },
     {
       "timestamp": "15 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS WAR ‘CLOSE TO OVER’, ISRAEL POUNDS LEBANON",
-      "detail": "US president says second round of talks could be held in Pakistan as blockade of Iranian ports continues.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 20:10 UTC",
-      "headline": "HOW US BLOCKADE ON IRAN WILL WORSEN ENERGY CRISIS",
-      "detail": "With the US military blockade of Iranian ports now in force, global energy markets are already reacting.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 19:14 UTC",
-      "headline": "IMF CUTS GLOBAL GROWTH FORECAST DURING HORMUZ BLOCKADE",
-      "detail": "Higher global inflation forecast at 4.4 percent, up 0.6 points, driven by surging oil, gas and fertiliser costs.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 17:30 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN NEGOCIAN PARA VOLVER A REUNIRSE TRAS UNA SEMANA DE ALTO EL",
-      "detail": "Las delegaciones de los dos países podrían retomar el diálogo en Pakistán al final de esta semana, según Trump. Varios buques sortean el bloqueo estadounidense en el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 APR 2026 · 17:10 UTC",
-      "headline": "WHY AND HOW IS US BLOCKADING IRANIAN PORTS IN STRAIT OF HORMUZ?",
-      "detail": "Donald Trump says that the US is blockading the Strait of Hormuz. What does this mean in practice?",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS WAR ‘CLOSE TO OVER’ AS HORMUZ BLOCKADE CONTINUES",
+      "detail": "US president says second round of talks could be held in Pakistan as naval blockade of Iranian ports continues.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.59 (+0.00%)",
+    "BRENT: $95.58 (+0.00%)",
     "VIX: 18.36",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
