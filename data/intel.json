@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-04-15T13:20:15.021043+00:00",
+  "updated_at": "2026-04-15T15:07:09.264083+00:00",
   "market": {
-    "brent_usd": 0,
-    "brent_chg": 0
+    "brent_usd": 94.94,
+    "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 0,
+    "ormuz_flow_pct": 4.5,
+    "vix": 17.87,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.8
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.5%"
   },
   "events": [
     {
-      "timestamp": "15 APR 2026 · 12:42 UTC",
+      "timestamp": "15 APR 2026 · 14:34 UTC",
+      "headline": "IRÁN AMENAZA CON FRENAR TODO EL COMERCIO EN TRES ÁREAS CLAVE SI EE.UU. SIGUE CON",
+      "detail": "El general Alí Abdollahi, jefe del mando de las fuerzas armadas iraníes, afirmó que si Washington “crea inseguridad para los buques comerciales y los petroleros”, eso será “el preludio”",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 14:31 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
       "severity": "INFO"
     },
     {
       "timestamp": "15 APR 2026 · 12:40 UTC",
-      "headline": "TRUMP OPENING STRAIT OF HORMUZ ‘FOR CHINA’",
-      "detail": "Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 12:37 UTC",
-      "headline": "IRÁN AMENAZA CON FRENAR TODO EL COMERCIO EN TRES ÁREAS CLAVE SI EE.UU. SIGUE CON",
-      "detail": "El general Alí Abdollahi, jefe del mando de las fuerzas armadas iraníes, afirmó que si Washington “crea inseguridad para los buques comerciales y los petroleros”, eso será “el preludio”",
+      "headline": "TRUMP ‘PERMANENTLY OPENING’ STRAIT OF HORMUZ ‘FOR CHINA’",
+      "detail": "US President Donald Trump says he is “permanently opening” the Strait of Hormuz after China reportedly agreed not to send weapons to Iran Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
       "timestamp": "15 APR 2026 · 10:00 UTC",
-      "headline": "MORE THAN 200 IRANIAN SAILORS STRANDED AFTER US TORPEDO ATTACK RETURN HOME",
-      "detail": "The survivors of the US attack on Iranian vessel Iris Dena, which claimed the lives of 104 people, were among those repatriated.",
+      "headline": "SRI LANKA REPATRIATES 238 IRANIAN SAILORS STRANDED AFTER US TORPEDO ATTACK",
+      "detail": "The survivors of the US attack on Iranian vessel Iris Dena, which claimed the lives of 104 people, were among those sent home.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 05:17 UTC",
-      "headline": "US MILITARY SAYS BLOCKADE OF IRAN PORTS ‘COMPLETELY’ HALTS ECONOMIC TRADE",
-      "detail": "US Central Command say more than 10,000 armed forces members, as well as warships and planes, are involved in blockade.",
-      "severity": "INFO"
     },
     {
       "timestamp": "15 APR 2026 · 04:54 UTC",
       "headline": "US SAYS IRANIAN TRADE THROUGH STRAIT OF HORMUZ FULLY HALTED",
       "detail": "The US military said it has completely cut off Iranian trade through the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 03:30 UTC",
+      "headline": "¿QUÉ BUSCA TRUMP CON EL DOBLE BLOQUEO DE ORMUZ? UN ÓRDAGO CON MUCHAS LIMITACIONE",
+      "detail": "Estados Unidos tensa la cuerda negociadora, debilitando la posición iraní y elevando la presión de China sobre los ayatolás. Pero llevarlo a la práctica no será fácil",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $0 (+0.00%)",
-    "VIX: 0",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $94.94 (+0.00%)",
+    "VIX: 17.87",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.5%"
   ]
 }
