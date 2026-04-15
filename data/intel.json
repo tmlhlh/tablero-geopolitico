@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-15T21:48:50.809871+00:00",
+  "updated_at": "2026-04-15T22:38:41.081121+00:00",
   "market": {
-    "brent_usd": 94.93,
+    "brent_usd": 94.81,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "15 APR 2026 · 22:30 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL ANALIZÓ EL IMPACTO DEL ÚLTIMO POSTEO DE DONALD TRUMP Y",
+      "detail": "En diálogo con LN+, Julián Schvindlerman cuestionó la difusión de una pieza con iconografía cristiana; la publicación coincide con el envío de naves de guerra al Golfo Pérsico",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 APR 2026 · 20:57 UTC",
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
@@ -43,16 +49,10 @@
       "headline": "TRUMP ‘PERMANENTLY OPENING’ STRAIT OF HORMUZ ‘FOR CHINA’",
       "detail": "US President Donald Trump says he is “permanently opening” the Strait of Hormuz after China reportedly agreed not to send weapons to Iran Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 10:00 UTC",
-      "headline": "SRI LANKA REPATRIATES 238 IRANIAN SAILORS STRANDED AFTER US TORPEDO ATTACK",
-      "detail": "The survivors of the US attack on Iranian vessel Iris Dena, which claimed the lives of 104 people, were among those sent home.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.93 (+0.00%)",
+    "BRENT: $94.81 (+0.00%)",
     "VIX: 18.17",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
