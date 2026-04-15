@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-15T05:21:04.781914+00:00",
+  "updated_at": "2026-04-15T07:26:46.362662+00:00",
   "market": {
-    "brent_usd": 95.58,
+    "brent_usd": 95.08,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "15 APR 2026 · 05:17 UTC",
+      "headline": "US MILITARY SAYS BLOCKADE OF IRAN PORTS ‘COMPLETELY’ HALTS ECONOMIC TRADE",
+      "detail": "US Central Command say more than 10,000 armed forces members, as well as warships and planes, are involved in blockade.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 APR 2026 · 04:54 UTC",
       "headline": "US SAYS IRANIAN TRADE THROUGH STRAIT OF HORMUZ FULLY HALTED",
@@ -43,16 +49,10 @@
       "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
       "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS WAR ‘CLOSE TO OVER’ AS HORMUZ BLOCKADE CONTINUES",
-      "detail": "US president says second round of talks could be held in Pakistan as naval blockade of Iranian ports continues.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.58 (+0.00%)",
+    "BRENT: $95.08 (+0.00%)",
     "VIX: 18.36",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
