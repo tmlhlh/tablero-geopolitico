@@ -1,35 +1,29 @@
 {
-  "updated_at": "2026-04-16T02:24:01.128574+00:00",
+  "updated_at": "2026-04-16T05:27:59.003760+00:00",
   "market": {
-    "brent_usd": 95.17,
+    "brent_usd": 94.98,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.3,
+    "ormuz_flow_pct": 8.5,
     "vix": 18.17,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "16 APR 2026 · 00:15 UTC",
-      "headline": "POR QUÉ ES CLAVE EL ESTRECHO DE ORMUZ EN LA GUERRA Y CÓMO IMPACTARÁ EL BLOQUEO, ",
-      "detail": "La zona se convirtió desde el principio en motivo de conflicto entre EE.UU. e Irán; el analista Andrés Repetto explicó en LN+ el alcance del anuncio de Trump para el comercio global",
+      "timestamp": "16 APR 2026 · 03:30 UTC",
+      "headline": "EL BLOQUEO DE ORMUZ VA DE MAL (IRÁN) EN PEOR (ESTADOS UNIDOS)",
+      "detail": "Si aún queda algo de racionalidad, esperemos que no se profundice una dinámica que no ofrece salida airosa a ninguno de los contendientes",
       "severity": "INFO"
     },
     {
       "timestamp": "15 APR 2026 · 23:50 UTC",
       "headline": "IRAN CONSIDERING EASING STRAIT OF HORMUZ RESTRICTIONS – REUTERS",
       "detail": "Iran has reportedly floated a proposal to allow ships to sail freely through the Omani side of the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 23:10 UTC",
-      "headline": "EL BLOQUEO DE TRUMP EN ORMUZ AMENAZA CON SEPULTAR LA INCIPIENTE DISTENSIÓN CON C",
-      "detail": "Xi Jinping advirtió que no se puede utilizar el derecho internacional “cuando nos conviene y abandonarlo cuando no”",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "TRUMP ‘PERMANENTLY OPENING’ STRAIT OF HORMUZ ‘FOR CHINA’",
       "detail": "US President Donald Trump says he is “permanently opening” the Strait of Hormuz after China reportedly agreed not to send weapons to Iran Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 10:00 UTC",
+      "headline": "SRI LANKA REPATRIATES 238 IRANIAN SAILORS STRANDED AFTER US TORPEDO ATTACK",
+      "detail": "The survivors of the US attack on Iranian vessel Iris Dena, which claimed the lives of 104 people, were among those sent home.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.17 (+0.00%)",
+    "BRENT: $94.98 (+0.00%)",
     "VIX: 18.17",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.3%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
