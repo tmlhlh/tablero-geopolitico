@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-16T20:54:55.741748+00:00",
+  "updated_at": "2026-04-16T21:39:34.404476+00:00",
   "market": {
-    "brent_usd": 97.99,
+    "brent_usd": 98.01,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -18,12 +18,6 @@
       "timestamp": "16 APR 2026 · 17:18 UTC",
       "headline": "CLAVES SOBRE LAS NEGOCIACIONES PARA EL FIN DE LA GUERRA EN ORIENTE PRÓXIMO: ¿SE ",
       "detail": "Pakistán media en Teherán para destrabar los principales desacuerdos en relación con el programa nuclear iraní y la apertura del estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 APR 2026 · 16:55 UTC",
-      "headline": "US GENERAL CLARIFIES IRANIAN PORTS UNDER BLOCKADE, NOT STRAIT OF HORMUZ",
-      "detail": "A US general had to clarify that the US military is only blockading Iranian ports, not the entire Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "IRÁN Y EE UU BUSCAN RETOMAR EL DIÁLOGO EN MEDIO DE AMENAZAS SOBRE ORMUZ",
       "detail": "Una delegación de Pakistán, el país mediador, visita Teherán mientras se suceden las señales de acercamiento con Washington para celebrar una segunda ronda negociadora",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 APR 2026 · 19:37 UTC",
+      "headline": "TRUMP CLAIMS ‘OPENING’ STRAIT OF HORMUZ AS MEDIATORS PUSH NEW US-IRAN TALKS: WHA",
+      "detail": "US President Donald Trump has claimed he is “opening” the Strait of Hormuz while the US military enforces a blockade on Iranian trade Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.99 (+0.00%)",
+    "BRENT: $98.01 (+0.00%)",
     "VIX: 17.94",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
