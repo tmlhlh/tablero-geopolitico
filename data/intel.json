@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-16T18:06:11.175292+00:00",
+  "updated_at": "2026-04-16T19:58:21.561910+00:00",
   "market": {
-    "brent_usd": 99.74,
+    "brent_usd": 98.16,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 18.32,
+    "ormuz_flow_pct": 3.5,
+    "vix": 17.81,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.5%"
   },
   "events": [
+    {
+      "timestamp": "16 APR 2026 · 19:09 UTC",
+      "headline": "EUROPA ENFRENTA UN LÍMITE DE “SEIS SEMANAS” DE COMBUSTIBLE AÉREO POR LA GUERRA E",
+      "detail": "El director de la Agencia Internacional de la Energía advirtió sobre las alarmantes consecuencias a corto plazo del bloqueo al suministro de petróleo a través del estrecho de Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 APR 2026 · 17:18 UTC",
       "headline": "CLAVES SOBRE LAS NEGOCIACIONES PARA EL FIN DE LA GUERRA EN ORIENTE PRÓXIMO: ¿SE ",
@@ -33,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "16 APR 2026 · 15:40 UTC",
-      "headline": "HEGSETH AMENAZA CON REANUDAR LA GUERRA SI IRÁN NO ACEPTA EL PACTO CON ESTADOS UN",
-      "detail": "El secretario de Defensa conmina a Teherán a “elegir sabiamente”. El jefe del Estado Mayor ofrece detalles sobre el “exitoso” bloqueo estadounidense del estrecho de Ormuz",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "16 APR 2026 · 15:10 UTC",
       "headline": "US STRIKE ON PACIFIC VESSEL KILLS THREE",
       "detail": "US military footage released Wednesday shows its latest strike on a vessel in the eastern Pacific, killing three people.",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $99.74 (+0.00%)",
-    "VIX: 18.32",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $98.16 (+0.00%)",
+    "VIX: 17.81",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.5%"
   ]
 }
