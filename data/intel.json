@@ -1,19 +1,43 @@
 {
-  "updated_at": "2026-04-16T14:52:19.859691+00:00",
+  "updated_at": "2026-04-16T16:19:59.721940+00:00",
   "market": {
-    "brent_usd": 97.91,
+    "brent_usd": 98.52,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 19.06,
+    "ormuz_flow_pct": 3.0,
+    "vix": 18.63,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "16 APR 2026 · 15:44 UTC",
+      "headline": "JET FUEL SHORTAGE: WHY IRAN WAR COULD GROUND FLIGHTS IN EUROPE",
+      "detail": "Europe's aviation faces fuel shortages as Hormuz tensions threaten travel at the start of the summer season.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 APR 2026 · 15:40 UTC",
+      "headline": "HEGSETH AMENAZA CON REANUDAR LA GUERRA SI IRÁN NO ACEPTA EL PACTO CON ESTADOS UN",
+      "detail": "El secretario de Defensa conmina a Teherán a “elegir sabiamente”. El jefe del Estado Mayor ofrece detalles sobre el “exitoso” bloqueo estadounidense del estrecho de Ormuz",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 APR 2026 · 15:17 UTC",
+      "headline": "CLAVES SOBRE LAS NEGOCIACIONES PARA EL FIN DE LA GUERRA EN ORIENTE PRÓXIMO: ¿SE ",
+      "detail": "Pakistán media en Teherán para destrabar los principales desacuerdos en relación con el programa nuclear iraní y la apertura del estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 APR 2026 · 15:10 UTC",
+      "headline": "US STRIKE ON PACIFIC VESSEL KILLS THREE",
+      "detail": "US military footage released Wednesday shows its latest strike on a vessel in the eastern Pacific, killing three people.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "16 APR 2026 · 13:56 UTC",
       "headline": "HEGSETH SAYS US TO KEEP IRAN PORT BLOCKADE IN HORMUZ, READY FOR NEW ATTACKS",
@@ -25,35 +49,11 @@
       "headline": "TRUMP WANTS TO ‘REWIRE’ GLOBAL OIL AWAY FROM HORMUZ – EXPERT (VIDEO)",
       "detail": "US President Donald Trump aims to rewire oil flows away from Hormuz with Europe seen as the biggest loser, according to Tom Luongo Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 APR 2026 · 03:30 UTC",
-      "headline": "EL BLOQUEO DE ORMUZ VA DE MAL (IRÁN) EN PEOR (ESTADOS UNIDOS)",
-      "detail": "Si aún queda algo de racionalidad, esperemos que no se profundice una dinámica que no ofrece salida airosa a ninguno de los contendientes",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 23:50 UTC",
-      "headline": "IRAN CONSIDERING EASING STRAIT OF HORMUZ RESTRICTIONS – REUTERS",
-      "detail": "Iran has reportedly floated a proposal to allow ships to sail freely through the Omani side of the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 20:01 UTC",
-      "headline": "IRÁN Y EE UU BUSCAN RETOMAR EL DIÁLOGO EN MEDIO DE AMENAZAS SOBRE ORMUZ",
-      "detail": "Una delegación de Pakistán, el país mediador, visita Teherán mientras se suceden las señales de acercamiento con Washington para celebrar una segunda ronda negociadora",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 19:37 UTC",
-      "headline": "TRUMP CLAIMS ‘OPENING’ STRAIT OF HORMUZ AS MEDIATORS PUSH NEW US-IRAN TALKS: WHA",
-      "detail": "US President Donald Trump has claimed he is “opening” the Strait of Hormuz while the US military enforces a blockade on Iranian trade Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.91 (+0.00%)",
-    "VIX: 19.06",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $98.52 (+0.00%)",
+    "VIX: 18.63",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
