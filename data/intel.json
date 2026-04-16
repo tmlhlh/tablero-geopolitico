@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-16T12:03:16.440031+00:00",
+  "updated_at": "2026-04-16T14:52:19.859691+00:00",
   "market": {
-    "brent_usd": 95.6,
+    "brent_usd": 97.91,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.28,
+    "vix": 19.06,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "16 APR 2026 · 13:56 UTC",
+      "headline": "HEGSETH SAYS US TO KEEP IRAN PORT BLOCKADE IN HORMUZ, READY FOR NEW ATTACKS",
+      "detail": "US urges resolution through talks, but says Washington 'locked and loaded' to resume attacks.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "16 APR 2026 · 09:53 UTC",
       "headline": "TRUMP WANTS TO ‘REWIRE’ GLOBAL OIL AWAY FROM HORMUZ – EXPERT (VIDEO)",
@@ -43,17 +49,11 @@
       "headline": "TRUMP CLAIMS ‘OPENING’ STRAIT OF HORMUZ AS MEDIATORS PUSH NEW US-IRAN TALKS: WHA",
       "detail": "US President Donald Trump has claimed he is “opening” the Strait of Hormuz while the US military enforces a blockade on Iranian trade Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 12:40 UTC",
-      "headline": "TRUMP ‘PERMANENTLY OPENING’ STRAIT OF HORMUZ ‘FOR CHINA’",
-      "detail": "US President Donald Trump says he is “permanently opening” the Strait of Hormuz after China reportedly agreed not to send weapons to Iran Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.6 (+0.00%)",
-    "VIX: 18.28",
+    "BRENT: $97.91 (+0.00%)",
+    "VIX: 19.06",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
