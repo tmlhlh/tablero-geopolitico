@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-17T13:11:36.560541+00:00",
+  "updated_at": "2026-04-17T14:52:37.772001+00:00",
   "market": {
-    "brent_usd": 91.06,
+    "brent_usd": 86.41,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.46,
+    "vix": 17.68,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
@@ -15,45 +15,45 @@
   },
   "events": [
     {
+      "timestamp": "17 APR 2026 · 14:50 UTC",
+      "headline": "FUERTE REACCIÓN DEL PETRÓLEO A LA APERTURA DEL ESTRECHO DE ORMUZ",
+      "detail": "El crudo Brent, de referencia internacional, registra una baja del 10%",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 13:51 UTC",
+      "headline": "DONALD TRUMP: “EL ESTRECHO DE ORMUZ ESTÁ COMPLETAMENTE ABIERTO Y LISTO PARA SU P",
+      "detail": "",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 13:51 UTC",
+      "headline": "IRÁN ANUNCIA LA REAPERTURA DEL ESTRECHO DE ORMUZ HASTA EL FIN DEL ALTO EL FUEGO ",
+      "detail": "Tras el inicio de la tregua en Líbano, Teherán asegura que permitirá la navegación por el paso marítimo. Trump insiste en mantener el bloqueo estadounidense hasta un acuerdo de paz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 13:45 UTC",
+      "headline": "TRUMP THANKS IRAN FOR OPENING STRAIT OF HORMUZ AS OIL PRICES IN FREEFALL (PHOTOS",
+      "detail": "Iran has declared the Strait of Hormuz “completely open” for all commercial ships Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 13:37 UTC",
+      "headline": "IRAN FOREIGN MINISTER SAYS STRAIT OF HORMUZ ‘COMPLETELY OPEN’",
+      "detail": "Iran says 'passage for all commercial vessels through Strait of Hormuz' open during the Israel-Lebanon ceasefire.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "17 APR 2026 · 13:04 UTC",
-      "headline": "HORMUZ STRAIT OPEN FOR EVERYONE – IRAN",
+      "headline": "STRAIT OF HORMUZ OPEN FOR EVERYONE – IRAN",
       "detail": "The Strait of Hormuz is open for all vessels for the remainder of the ceasefire in Lebanon, Iran’s Foreign Ministry has announced Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 12:45 UTC",
-      "headline": "MACRON AND STARMER HOST ALLIES FOR SUMMIT ON HORMUZ MARITIME SECURITY",
-      "detail": "US not part of France- and UK-led talks on a post-war Hormuz maritime force, but Europe's role remains limited.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 11:23 UTC",
-      "headline": "EUROPE HAS ‘SIX WEEKS’ OF JET FUEL LEFT – IEA CHIEF ",
-      "detail": "Europe could run out of jet fuel within “six weeks” as blocked oil flows through the Strait of Hormuz disrupt supply chains, IEA says Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 03:30 UTC",
-      "headline": "LOS BUQUES DESAFÍAN LOS BLOQUEOS EN ORMUZ CON IDENTIDADES FALSAS, TRANSPONDEDORE",
-      "detail": "El uso de prácticas irregulares se multiplica, mientras Estados Unidos afirma que su cerco marítimo ha obligado a 14 barcos a dar media vuelta",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 APR 2026 · 09:53 UTC",
-      "headline": "TRUMP WANTS TO ‘REWIRE’ GLOBAL OIL AWAY FROM HORMUZ – EXPERT (VIDEO)",
-      "detail": "US President Donald Trump aims to rewire oil flows away from Hormuz with Europe seen as the biggest loser, according to Tom Luongo Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 APR 2026 · 03:30 UTC",
-      "headline": "EL BLOQUEO DE ORMUZ VA DE MAL (IRÁN) EN PEOR (ESTADOS UNIDOS)",
-      "detail": "Si aún queda algo de racionalidad, esperemos que no se profundice una dinámica que no ofrece salida airosa a ninguno de los contendientes",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.06 (+0.00%)",
-    "VIX: 17.46",
+    "BRENT: $86.41 (+0.00%)",
+    "VIX: 17.68",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
