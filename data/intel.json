@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T22:35:24.391539+00:00",
+  "updated_at": "2026-04-17T23:36:15.015255+00:00",
   "market": {
     "brent_usd": 91.87,
     "brent_chg": 0.0
@@ -15,9 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "17 APR 2026 · 22:29 UTC",
+      "timestamp": "17 APR 2026 · 23:11 UTC",
+      "headline": "IRÁN REABRE EL ESTRECHO DE ORMUZ Y CRECE EL OPTIMISMO DE UN ACUERDO CON EE.UU.",
+      "detail": "Trump dijo que “ya no hay puntos en conflicto” con el régimen y que “pronto” podría tener lugar una segunda ronda de negociaciones",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 23:11 UTC",
       "headline": "FUERTE REACCIÓN DEL PETRÓLEO Y DE WALL STREET A LA APERTURA DEL ESTRECHO DE ORMU",
       "detail": "El crudo Brent, de referencia internacional, registra una baja de más del 12%; la Bolsa de Nueva York también reporta mejoras",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 22:39 UTC",
+      "headline": "LA DURA RESPUESTA DE TRUMP A EUROPA TRAS SU PROPUESTA DE AYUDA EN ORMUZ ",
+      "detail": "El presidente estadounidense renovó sus críticas contra el bloque y rechazó su intervención para asegurar el estratégico paso marítimo",
       "severity": "INFO"
     },
     {
@@ -37,18 +49,6 @@
       "headline": "SHIPPING FIRMS SEEK CLARIFICATIONS BEFORE CROSSING HORMUZ",
       "detail": "Shipping companies said several things had to be clarified, including the presence of mines, Iranian conditions.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 18:24 UTC",
-      "headline": "WHAT HAS TRUMP SAID BEFORE POSSIBLE US-IRAN TALKS AND WHAT COULD IT MEAN?",
-      "detail": "In rapid-fire posts, Trump says Iran will give up nuclear material and 'never close' Hormuz, but questions remain.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 17:33 UTC",
-      "headline": "MACRON Y STARMER IMPULSAN EN PARÍS UNA MISIÓN INTERNACIONAL PARA ASEGURAR EL EST",
-      "detail": "Medio centenar de países respalda un desbloqueo sin condiciones del paso marítimo y una docena ofrece apoyo militar una vez se consolide el alto el fuego",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
