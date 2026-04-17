@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-17T10:52:03.186096+00:00",
+  "updated_at": "2026-04-17T11:49:43.574231+00:00",
   "market": {
-    "brent_usd": 96.22,
+    "brent_usd": 96.34,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.1,
+    "vix": 17.88,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 APR 2026 · 11:23 UTC",
+      "headline": "EUROPE HAS ‘SIX WEEKS’ OF JET FUEL LEFT – IEA CHIEF ",
+      "detail": "Europe could run out of jet fuel within “six weeks” as blocked oil flows through the Strait of Hormuz disrupt supply chains, IEA says Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "17 APR 2026 · 03:30 UTC",
       "headline": "LOS BUQUES DESAFÍAN LOS BLOQUEOS EN ORMUZ CON IDENTIDADES FALSAS, TRANSPONDEDORE",
@@ -43,17 +49,11 @@
       "headline": "IRÁN Y EE UU BUSCAN RETOMAR EL DIÁLOGO EN MEDIO DE AMENAZAS SOBRE ORMUZ",
       "detail": "Una delegación de Pakistán, el país mediador, visita Teherán mientras se suceden las señales de acercamiento con Washington para celebrar una segunda ronda negociadora",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 19:37 UTC",
-      "headline": "TRUMP CLAIMS ‘OPENING’ STRAIT OF HORMUZ AS MEDIATORS PUSH NEW US-IRAN TALKS: WHA",
-      "detail": "US President Donald Trump has claimed he is “opening” the Strait of Hormuz while the US military enforces a blockade on Iranian trade Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.22 (+0.00%)",
-    "VIX: 18.1",
+    "BRENT: $96.34 (+0.00%)",
+    "VIX: 17.88",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
