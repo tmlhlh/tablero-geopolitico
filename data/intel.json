@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-17T17:49:58.889692+00:00",
+  "updated_at": "2026-04-17T18:55:50.539604+00:00",
   "market": {
-    "brent_usd": 90.67,
+    "brent_usd": 90.93,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.54,
+    "vix": 17.53,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
@@ -14,6 +14,30 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 APR 2026 · 18:35 UTC",
+      "headline": "SHIPPING FIRMS SEEK CLARIFICATIONS BEFORE CROSSING HORMUZ",
+      "detail": "Shipping companies said several things had to be clarified, including the presence of mines, Iranian conditions.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 18:26 UTC",
+      "headline": "QUÉ SIGNIFICA LA APERTURA DEL ESTRECHO DE ORMUZ Y POR QUÉ ES UNA BUENA SEÑAL, SE",
+      "detail": "Tras el anuncio, el analista internacional Alejandro Laurnagaray, explicó en detalle en LN+ el alcance de las declaraciones de Trump y la continuidad de la guerra",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 18:24 UTC",
+      "headline": "WHAT HAS TRUMP SAID BEFORE POSSIBLE US-IRAN TALKS AND WHAT COULD IT MEAN?",
+      "detail": "In rapid-fire posts, Trump says Iran will give up nuclear material and 'never close' Hormuz, but questions remain.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 18:19 UTC",
+      "headline": "LA DURA RESPUESTA DE TRUMP A EUROPA TRAS SU PROPUESTA DE AYUDA EN ORMUZ ",
+      "detail": "El presidente estadounidense renovó sus críticas contra el bloque y rechazó su intervención para asegurar el estratégico paso marítimo",
+      "severity": "INFO"
+    },
     {
       "timestamp": "17 APR 2026 · 17:33 UTC",
       "headline": "MACRON Y STARMER IMPULSAN EN PARÍS UNA MISIÓN INTERNACIONAL PARA ASEGURAR EL EST",
@@ -25,35 +49,11 @@
       "headline": "FUERTE REACCIÓN DEL PETRÓLEO Y DE WALL STREET A LA APERTURA DEL ESTRECHO DE ORMU",
       "detail": "El crudo Brent, de referencia internacional, registra una baja de más del 12%; la Bolsa de Nueva York también reporta mejoras",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 17:05 UTC",
-      "headline": "QUÉ SIGNIFICA LA APERTURA DEL ESTRECHO DE ORMUZ Y POR QUÉ ES UNA BUENA SEÑAL, SE",
-      "detail": "Tras el anuncio, el analista internacional Alejandro Laurnagaray, explicó en detalle en LN+ el alcance de las declaraciones de Trump y la continuidad de la guerra",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 16:53 UTC",
-      "headline": "IRÁN ANUNCIA LA REAPERTURA DEL ESTRECHO DE ORMUZ PERO TRUMP INSISTE EN MANTENER ",
-      "detail": "Tras el inicio de la tregua en Líbano, Teherán asegura que permitirá la navegación por el paso marítimo hasta el fin del alto el fuego con Estados Unidos",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 16:14 UTC",
-      "headline": "MACRON DEMANDS ASSURANCES AFTER IRAN OPENS STRAIT OF HORMUZ",
-      "detail": "French President Emmanuel Macron said he welcomed the reopening of the Strait of Hormuz and the Lebanon ceasefire.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 16:02 UTC",
-      "headline": "LA DURA RESPUESTA DE TRUMP A EUROPA TRAS SU PROPUESTA DE AYUDA EN ORMUZ ",
-      "detail": "El presidente estadounidense renovó sus críticas contra el bloque y rechazó su intervención para asegurar el estratégico paso marítimo",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.67 (+0.00%)",
-    "VIX: 17.54",
+    "BRENT: $90.93 (+0.00%)",
+    "VIX: 17.53",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
