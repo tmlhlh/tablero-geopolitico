@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:38:35.716391+00:00",
+  "updated_at": "2026-04-17T22:35:24.391539+00:00",
   "market": {
     "brent_usd": 91.87,
     "brent_chg": 0.0
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "17 APR 2026 · 21:01 UTC",
+      "timestamp": "17 APR 2026 · 22:29 UTC",
       "headline": "FUERTE REACCIÓN DEL PETRÓLEO Y DE WALL STREET A LA APERTURA DEL ESTRECHO DE ORMU",
       "detail": "El crudo Brent, de referencia internacional, registra una baja de más del 12%; la Bolsa de Nueva York también reporta mejoras",
       "severity": "INFO"
