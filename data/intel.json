@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-17T20:49:52.447087+00:00",
+  "updated_at": "2026-04-17T21:38:35.716391+00:00",
   "market": {
-    "brent_usd": 90.98,
+    "brent_usd": 91.87,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "17 APR 2026 · 20:42 UTC",
-      "headline": "QUÉ SIGNIFICA LA APERTURA DEL ESTRECHO DE ORMUZ Y POR QUÉ ES UNA BUENA SEÑAL, SE",
-      "detail": "Tras el anuncio, el analista internacional Alejandro Laurnagaray, explicó en detalle en LN+ el alcance de las declaraciones de Trump y la continuidad de la guerra",
+      "timestamp": "17 APR 2026 · 21:01 UTC",
+      "headline": "FUERTE REACCIÓN DEL PETRÓLEO Y DE WALL STREET A LA APERTURA DEL ESTRECHO DE ORMU",
+      "detail": "El crudo Brent, de referencia internacional, registra una baja de más del 12%; la Bolsa de Nueva York también reporta mejoras",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 APR 2026 · 20:26 UTC",
-      "headline": "FUERTE REACCIÓN DEL PETRÓLEO Y DE WALL STREET A LA APERTURA DEL ESTRECHO DE ORMU",
-      "detail": "El crudo Brent, de referencia internacional, registra una baja de más del 12%; la Bolsa de Nueva York también reporta mejoras",
+      "timestamp": "17 APR 2026 · 20:51 UTC",
+      "headline": "QUÉ SIGNIFICA LA APERTURA DEL ESTRECHO DE ORMUZ Y POR QUÉ ES UNA BUENA SEÑAL, SE",
+      "detail": "Tras el anuncio, el analista internacional Alejandro Laurnagaray, explicó en detalle en LN+ el alcance de las declaraciones de Trump y la continuidad de la guerra",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $90.98 (+0.00%)",
+    "BRENT: $91.87 (+0.00%)",
     "VIX: 17.48",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
