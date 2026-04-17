@@ -1,29 +1,47 @@
 {
-  "updated_at": "2026-04-17T15:57:41.779988+00:00",
+  "updated_at": "2026-04-17T16:56:42.608160+00:00",
   "market": {
-    "brent_usd": 89.2,
+    "brent_usd": 88.93,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 17.19,
+    "ormuz_flow_pct": 8.2,
+    "vix": 17.5,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.2%"
   },
   "events": [
     {
-      "timestamp": "17 APR 2026 · 15:48 UTC",
+      "timestamp": "17 APR 2026 · 16:53 UTC",
+      "headline": "IRÁN ANUNCIA LA REAPERTURA DEL ESTRECHO DE ORMUZ AUNQUE TRUMP INSISTE EN MANTENE",
+      "detail": "Tras el inicio de la tregua en Líbano, Teherán asegura que permitirá la navegación por el paso marítimo hasta el fin del alto fuego con Estados Unidos",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 16:35 UTC",
       "headline": "QUÉ SIGNIFICA LA APERTURA DEL ESTRECHO DE ORMUZ Y POR QUÉ ES UNA BUENA SEÑAL, SE",
       "detail": "Tras el anuncio, el analista internacional Alejandro Laurnagaray, explicó en detalle en LN+ el alcance de las declaraciones de Trump y la continuidad de la guerra",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 APR 2026 · 15:32 UTC",
-      "headline": "IRÁN ANUNCIA LA REAPERTURA DEL ESTRECHO DE ORMUZ HASTA EL FIN DEL ALTO EL FUEGO ",
-      "detail": "Tras el inicio de la tregua en Líbano, Teherán asegura que permitirá la navegación por el paso marítimo. Trump insiste en mantener el bloqueo estadounidense hasta un acuerdo de paz",
+      "timestamp": "17 APR 2026 · 16:32 UTC",
+      "headline": "FUERTE REACCIÓN DEL PETRÓLEO Y DE WALL STREET A LA APERTURA DEL ESTRECHO DE ORMU",
+      "detail": "El crudo Brent, de referencia internacional, registra una baja de más del 12%; la Bolsa de Nueva York también reporta mejoras",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 16:14 UTC",
+      "headline": "MACRON DEMANDS ASSURANCES AFTER IRAN OPENS STRAIT OF HORMUZ",
+      "detail": "French President Emmanuel Macron said he welcomed the reopening of the Strait of Hormuz and the Lebanon ceasefire.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 16:02 UTC",
+      "headline": "LA DURA RESPUESTA DE TRUMP A EUROPA TRAS SU PROPUESTA DE AYUDA EN ORMUZ ",
+      "detail": "El presidente estadounidense renovó sus críticas contra el bloque y rechazó su intervención para asegurar el estratégico paso marítimo",
       "severity": "INFO"
     },
     {
@@ -31,29 +49,11 @@
       "headline": "TRUMP DICE QUE IRÁN ACEPTÓ NO VOLVER A CERRAR “NUNCA MÁS” EL ESTRECHO DE ORMUZ",
       "detail": "Los buques podrán pasar por una ruta determinada y con el permiso de la Guardia Revolucionaria; el mandatario estadounidense remarcó que el bloqueo contra el transporte marítimo iraní seguirá vigente ",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 15:25 UTC",
-      "headline": "FUERTE REACCIÓN DEL PETRÓLEO A LA APERTURA DEL ESTRECHO DE ORMUZ",
-      "detail": "El crudo Brent, de referencia internacional, registra una baja del 10%",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 15:24 UTC",
-      "headline": "TRUMP TELLS ‘USELESS’ NATO TO ‘STAY AWAY’ FROM HORMUZ",
-      "detail": "US President Donald Trump has slammed “paper tiger” NATO, telling the military bloc to stay away from the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 14:56 UTC",
-      "headline": "DONALD TRUMP, TRAS LA DECISIÓN DE IRÁN: “EL ESTRECHO DE ORMUZ ESTÁ COMPLETAMENTE",
-      "detail": "El presidente de Estados Unidos celebró el anuncio de Irán sobre la reapertura del paso estratégico, aunque advirtió que el bloqueo naval contra el régimen se mantendrá hasta cerrar un acuerdo definit",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.2 (+0.00%)",
-    "VIX: 17.19",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $88.93 (+0.00%)",
+    "VIX: 17.5",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.2%"
   ]
 }
