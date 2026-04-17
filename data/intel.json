@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-17T02:11:55.164261+00:00",
+  "updated_at": "2026-04-17T05:24:55.383284+00:00",
   "market": {
-    "brent_usd": 98.31,
+    "brent_usd": 98.09,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 APR 2026 · 03:30 UTC",
+      "headline": "LOS BUQUES DESAFÍAN LOS BLOQUEOS EN ORMUZ CON IDENTIDADES FALSAS, TRANSPONDEDORE",
+      "detail": "El uso de prácticas irregulares se multiplica, mientras Estados Unidos afirma que su cerco marítimo ha obligado a 14 barcos a dar media vuelta",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 APR 2026 · 17:18 UTC",
       "headline": "CLAVES SOBRE LAS NEGOCIACIONES PARA EL FIN DE LA GUERRA EN ORIENTE PRÓXIMO: ¿SE ",
@@ -43,16 +49,10 @@
       "headline": "IRÁN Y EE UU BUSCAN RETOMAR EL DIÁLOGO EN MEDIO DE AMENAZAS SOBRE ORMUZ",
       "detail": "Una delegación de Pakistán, el país mediador, visita Teherán mientras se suceden las señales de acercamiento con Washington para celebrar una segunda ronda negociadora",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 APR 2026 · 19:37 UTC",
-      "headline": "TRUMP CLAIMS ‘OPENING’ STRAIT OF HORMUZ AS MEDIATORS PUSH NEW US-IRAN TALKS: WHA",
-      "detail": "US President Donald Trump has claimed he is “opening” the Strait of Hormuz while the US military enforces a blockade on Iranian trade Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.31 (+0.00%)",
+    "BRENT: $98.09 (+0.00%)",
     "VIX: 17.94",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
