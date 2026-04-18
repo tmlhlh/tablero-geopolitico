@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-18T02:03:04.750771+00:00",
+  "updated_at": "2026-04-18T05:04:02.637526+00:00",
   "market": {
-    "brent_usd": 91.87,
+    "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "18 APR 2026 · 01:00 UTC",
-      "headline": "QUÉ SIGNIFICA LA APERTURA DEL ESTRECHO DE ORMUZ Y POR QUÉ ES UNA BUENA SEÑAL, SE",
-      "detail": "Tras el anuncio, el analista internacional Alejandro Laurnagaray, explicó en detalle en LN+ el alcance de las declaraciones de Trump y la continuidad de la guerra",
+      "timestamp": "18 APR 2026 · 03:58 UTC",
+      "headline": "DONALD TRUMP CELEBRÓ LA APERTURA DE ORMUZ Y SOSTUVO QUE EL PRESIDENTE DE CHINA E",
+      "detail": "El presidente de Estados Unidos se manifestó a través de redes sociales; además, aseguró que la reunión con la potencia asiática “será histórica”",
       "severity": "INFO"
     },
     {
@@ -27,32 +27,32 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "17 APR 2026 · 23:51 UTC",
-      "headline": "FUERTE REACCIÓN DEL PETRÓLEO Y DE WALL STREET A LA APERTURA DEL ESTRECHO DE ORMU",
-      "detail": "El crudo Brent, de referencia internacional, registra una baja de más del 12%; la Bolsa de Nueva York también reporta mejoras",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 23:11 UTC",
-      "headline": "IRÁN REABRE EL ESTRECHO DE ORMUZ Y CRECE EL OPTIMISMO DE UN ACUERDO CON EE.UU.",
-      "detail": "Trump dijo que “ya no hay puntos en conflicto” con el régimen y que “pronto” podría tener lugar una segunda ronda de negociaciones",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 22:39 UTC",
-      "headline": "LA DURA RESPUESTA DE TRUMP A EUROPA TRAS SU PROPUESTA DE AYUDA EN ORMUZ ",
-      "detail": "El presidente estadounidense renovó sus críticas contra el bloque y rechazó su intervención para asegurar el estratégico paso marítimo",
-      "severity": "INFO"
+      "timestamp": "18 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN SAYS US BLOCKADE OF PORTS MUST END AS STRAIT TO OPEN",
+      "detail": "Tens of thousands of people forcibly displaced by Israeli attacks on Lebanon use first day of ceasefire to return home.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "17 APR 2026 · 19:10 UTC",
       "headline": "WORLD REACTS TO STRAIT OF HORMUZ REOPENING AMID US-IRAN CONFLICT",
       "detail": "Politicians and industry welcome reopening of the vital waterway after throttling of traffic caused oil prices to spike.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 18:35 UTC",
+      "headline": "SHIPPING FIRMS SEEK CLARIFICATIONS BEFORE CROSSING HORMUZ",
+      "detail": "Shipping companies said several things had to be clarified, including the presence of mines, Iranian conditions.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 APR 2026 · 18:24 UTC",
+      "headline": "WHAT HAS TRUMP SAID BEFORE POSSIBLE US-IRAN TALKS AND WHAT COULD IT MEAN?",
+      "detail": "In rapid-fire posts, Trump says Iran will give up nuclear material and 'never close' Hormuz, but questions remain.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.87 (+0.00%)",
+    "BRENT: $90.38 (+0.00%)",
     "VIX: 17.48",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
