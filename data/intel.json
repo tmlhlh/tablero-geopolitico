@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T17:34:09.601651+00:00",
+  "updated_at": "2026-04-18T18:43:13.408622+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "18 APR 2026 · 16:20 UTC",
+      "timestamp": "18 APR 2026 · 18:28 UTC",
       "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
       "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor y ataca dos buques",
       "severity": "INFO"
