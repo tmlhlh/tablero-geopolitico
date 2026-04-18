@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T05:04:02.637526+00:00",
+  "updated_at": "2026-04-18T07:02:58.011988+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,6 +15,24 @@
   },
   "events": [
     {
+      "timestamp": "18 APR 2026 · 06:07 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 50 OF THE US-IRAN CONFLICT?",
+      "detail": "Iran reopens the Strait of Hormuz with conditions and threatens closure if the US blockade of Iranian ports continues.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 05:51 UTC",
+      "headline": "IRÁN REABRE EL ESTRECHO DE ORMUZ Y CRECE EL OPTIMISMO DE UN ACUERDO CON EE.UU.",
+      "detail": "Trump dijo que “ya no hay puntos en conflicto” con el régimen y que “pronto” podría tener lugar una segunda ronda de negociaciones",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 05:36 UTC",
+      "headline": "EE.UU. ANUNCIÓ EL LEVANTAMIENTO TEMPORAL DE LA MAYORÍA DE SANCIONES CONTRA EL PE",
+      "detail": "Luego de la apertura del estrecho de Ormuz se prorrogaron las puniciones hasta el 16 de mayo; Trump también anticipó su reunión con el presidente chino",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "18 APR 2026 · 03:58 UTC",
       "headline": "DONALD TRUMP CELEBRÓ LA APERTURA DE ORMUZ Y SOSTUVO QUE EL PRESIDENTE DE CHINA E",
       "detail": "El presidente de Estados Unidos se manifestó a través de redes sociales; además, aseguró que la reunión con la potencia asiática “será histórica”",
@@ -28,27 +46,9 @@
     },
     {
       "timestamp": "18 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SAYS US BLOCKADE OF PORTS MUST END AS STRAIT TO OPEN",
+      "headline": "IRAN WAR LIVE: TEHRAN SAYS US BLOCKADE OF PORTS MUST END AS STRAIT OPENS",
       "detail": "Tens of thousands of people forcibly displaced by Israeli attacks on Lebanon use first day of ceasefire to return home.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 19:10 UTC",
-      "headline": "WORLD REACTS TO STRAIT OF HORMUZ REOPENING AMID US-IRAN CONFLICT",
-      "detail": "Politicians and industry welcome reopening of the vital waterway after throttling of traffic caused oil prices to spike.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 18:35 UTC",
-      "headline": "SHIPPING FIRMS SEEK CLARIFICATIONS BEFORE CROSSING HORMUZ",
-      "detail": "Shipping companies said several things had to be clarified, including the presence of mines, Iranian conditions.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 APR 2026 · 18:24 UTC",
-      "headline": "WHAT HAS TRUMP SAID BEFORE POSSIBLE US-IRAN TALKS AND WHAT COULD IT MEAN?",
-      "detail": "In rapid-fire posts, Trump says Iran will give up nuclear material and 'never close' Hormuz, but questions remain.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
