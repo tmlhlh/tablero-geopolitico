@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T12:55:44.600946+00:00",
+  "updated_at": "2026-04-18T14:00:42.920229+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,6 +15,18 @@
   },
   "events": [
     {
+      "timestamp": "18 APR 2026 · 13:05 UTC",
+      "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
+      "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor más importante del mundo para el flujo de petróleo y gas. Algunos buques habían logrado salir en las últimas horas",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 13:03 UTC",
+      "headline": "TRUMP CLAIMS ON IRANIAN CONCESSIONS TRIGGER QUESTIONS, REJECTIONS IN TEHRAN",
+      "detail": "The political drama culminates with the IRGC announcing that the Strait of Hormuz is once again restricted.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "18 APR 2026 · 12:47 UTC",
       "headline": "TRUMP LIED SEVEN TIMES IN ONE HOUR – IRAN’S TOP NEGOTIATOR",
       "detail": "All seven claims made by Donald Trump after Iran opened the Strait of Hormuz are false, Mohammad Bagher Ghalibaf has said Read Full Article at RT.com",
@@ -22,14 +34,8 @@
     },
     {
       "timestamp": "18 APR 2026 · 12:39 UTC",
-      "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
-      "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor más importante del mundo para el flujo de petróleo y gas. Algunos buques habían logrado salir en las últimas horas",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 12:39 UTC",
       "headline": "IRÁN ABRIÓ FUEGO CONTRA UN PETROLERO BRITÁNICO TRAS EL NUEVO BLOQUEO DEL ESTRECH",
-      "detail": "Lanchas rápidas de la Guardia Revolucionaria dispararon contra un buque que depende del ejército de Gran Bretaña; la embestida obligó a otras enbarcaciones a dar la vuelta y abandonar la zona",
+      "detail": "Lanchas rápidas de la Guardia Revolucionaria dispararon contra un buque que depende del ejército de Gran Bretaña; la embestida obligó a otras embarcaciones a dar la vuelta y abandonar la zona",
       "severity": "INFO"
     },
     {
@@ -42,12 +48,6 @@
       "timestamp": "18 APR 2026 · 12:00 UTC",
       "headline": "IRÁN ANUNCIA QUE VUELVE A CERRAR EL ESTRECHO DE ORMUZ PORQUE TRUMP NO LEVANTÓ EL",
       "detail": "La medida fue comunicada por el mando militar conjunto del régimen de Teherán a menos de 24 horas de la reapertura; el presidente de EE.UU. había dicho que no iba a ocurrir “nunca más”",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 11:55 UTC",
-      "headline": "GUNFIRE REPORTED BY VESSEL IN STRAIT OF HORMUZ",
-      "detail": "A maritime agency reported that a tanker was fired on by gunboats in the Strait of Hormuz.",
       "severity": "INFO"
     }
   ],
