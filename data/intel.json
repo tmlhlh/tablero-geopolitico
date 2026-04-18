@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T08:43:35.973134+00:00",
+  "updated_at": "2026-04-18T09:43:42.546928+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "18 APR 2026 · 09:30 UTC",
+      "headline": "IRAN RESTRICTS STRAIT OF HORMUZ PASSAGE AGAIN, ACCUSES US OF ‘PIRACY’ (PHOTOS/VI",
+      "detail": "Iran has restricted passage through the Strait of Hormuz, after Trump vowed to maintain blockade of Tehran’s ports Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 APR 2026 · 08:25 UTC",
       "headline": "IRAN HAS LEARNED THAT THE STRAIT OF HORMUZ IS ITS STRONGEST DETERRENT",
@@ -42,12 +48,6 @@
       "timestamp": "18 APR 2026 · 03:58 UTC",
       "headline": "DONALD TRUMP CELEBRÓ LA APERTURA DE ORMUZ Y SOSTUVO QUE EL PRESIDENTE DE CHINA E",
       "detail": "El presidente de Estados Unidos se manifestó a través de redes sociales; además, aseguró que la reunión con la potencia asiática “será histórica”",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 00:54 UTC",
-      "headline": "TRUMP THANKS GULF STATES FOR THEIR ‘TREMENDOUS’ SUPPORT",
-      "detail": "‘This will be a great and brilliant day for the world’ Donald Trump said as Iran fully opens the Strait of Hormuz.",
       "severity": "INFO"
     }
   ],
