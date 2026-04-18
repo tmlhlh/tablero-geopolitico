@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T15:34:30.673773+00:00",
+  "updated_at": "2026-04-18T16:35:39.220742+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,6 +15,18 @@
   },
   "events": [
     {
+      "timestamp": "18 APR 2026 · 16:20 UTC",
+      "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
+      "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor y ataca dos buques",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 15:45 UTC",
+      "headline": "IRÁN ABRIÓ FUEGO CONTRA DOS PETROLEROS TRAS EL NUEVO BLOQUEO DEL ESTRECHO ",
+      "detail": "Lanchas rápidas de la Guardia Revolucionaria dispararon contra un buque que depende del ejército de Gran Bretaña; la embestida obligó a otras embarcaciones a dar la vuelta y abandonar la zona",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "18 APR 2026 · 14:24 UTC",
       "headline": "IRÁN ANUNCIA QUE VUELVE A CERRAR EL ESTRECHO DE ORMUZ PORQUE TRUMP NO LEVANTÓ EL",
       "detail": "La medida fue comunicada por el mando militar conjunto del régimen de Teherán a menos de 24 horas de la reapertura; el presidente de EE.UU. había dicho que no iba a ocurrir “nunca más”",
@@ -23,7 +35,7 @@
     {
       "timestamp": "18 APR 2026 · 14:16 UTC",
       "headline": "IRAN DEFENDS LIMITS ON STRAIT OF HORMUZ PASSAGE",
-      "detail": "Tehran has every right to keep the strategic Strait of Hormuz closed amid US hostility, Iranian foreign ministry spokesman told RT Read Full Article at RT.com",
+      "detail": "Tehran has every right to keep the strategic Strait of Hormuz closed amid US hostility, Iranian foreign ministry spokesman said Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -33,22 +45,10 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "18 APR 2026 · 13:05 UTC",
-      "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
-      "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor más importante del mundo para el flujo de petróleo y gas. Algunos buques habían logrado salir en las últimas horas",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "18 APR 2026 · 13:03 UTC",
       "headline": "TRUMP CLAIMS ON IRANIAN CONCESSIONS TRIGGER QUESTIONS, REJECTIONS IN TEHRAN",
       "detail": "The political drama culminates with the IRGC announcing that the Strait of Hormuz is once again restricted.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 12:47 UTC",
-      "headline": "TRUMP LIED SEVEN TIMES IN ONE HOUR – IRAN’S TOP NEGOTIATOR",
-      "detail": "All seven claims made by Donald Trump after Iran opened the Strait of Hormuz are false, Mohammad Bagher Ghalibaf has said Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
