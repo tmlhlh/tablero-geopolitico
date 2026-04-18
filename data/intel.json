@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T07:02:58.011988+00:00",
+  "updated_at": "2026-04-18T08:43:35.973134+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "18 APR 2026 · 08:25 UTC",
+      "headline": "IRAN HAS LEARNED THAT THE STRAIT OF HORMUZ IS ITS STRONGEST DETERRENT",
+      "detail": "Donald Heflin, a senior fellow at Tufts University, says Iran has shown it doesn’t need nuclear weapons as a deterrent.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 APR 2026 · 06:07 UTC",
       "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 50 OF THE US-IRAN CONFLICT?",
@@ -43,12 +49,6 @@
       "headline": "TRUMP THANKS GULF STATES FOR THEIR ‘TREMENDOUS’ SUPPORT",
       "detail": "‘This will be a great and brilliant day for the world’ Donald Trump said as Iran fully opens the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SAYS US BLOCKADE OF PORTS MUST END AS STRAIT OPENS",
-      "detail": "Tens of thousands of people forcibly displaced by Israeli attacks on Lebanon use first day of ceasefire to return home.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
