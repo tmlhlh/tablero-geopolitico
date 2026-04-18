@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T14:00:42.920229+00:00",
+  "updated_at": "2026-04-18T15:34:30.673773+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "18 APR 2026 · 14:24 UTC",
+      "headline": "IRÁN ANUNCIA QUE VUELVE A CERRAR EL ESTRECHO DE ORMUZ PORQUE TRUMP NO LEVANTÓ EL",
+      "detail": "La medida fue comunicada por el mando militar conjunto del régimen de Teherán a menos de 24 horas de la reapertura; el presidente de EE.UU. había dicho que no iba a ocurrir “nunca más”",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 14:16 UTC",
+      "headline": "IRAN DEFENDS LIMITS ON STRAIT OF HORMUZ PASSAGE",
+      "detail": "Tehran has every right to keep the strategic Strait of Hormuz closed amid US hostility, Iranian foreign ministry spokesman told RT Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 14:12 UTC",
+      "headline": "TRUMP DICE QUE IRÁN NO PUEDE “CHANTAJEAR” A EE.UU. CON ORMUZ Y QUE ESPERA DEFINI",
+      "detail": "El mandatario estadounidense aseguró que pese al bloqueo se mantienen las conversaciones con Teherán; a menos de 24 horas de haber abierto el paso, el régimen dio marcha atrás y volvió a cerrar el est",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "18 APR 2026 · 13:05 UTC",
       "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
@@ -30,24 +48,6 @@
       "timestamp": "18 APR 2026 · 12:47 UTC",
       "headline": "TRUMP LIED SEVEN TIMES IN ONE HOUR – IRAN’S TOP NEGOTIATOR",
       "detail": "All seven claims made by Donald Trump after Iran opened the Strait of Hormuz are false, Mohammad Bagher Ghalibaf has said Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 12:39 UTC",
-      "headline": "IRÁN ABRIÓ FUEGO CONTRA UN PETROLERO BRITÁNICO TRAS EL NUEVO BLOQUEO DEL ESTRECH",
-      "detail": "Lanchas rápidas de la Guardia Revolucionaria dispararon contra un buque que depende del ejército de Gran Bretaña; la embestida obligó a otras embarcaciones a dar la vuelta y abandonar la zona",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 12:03 UTC",
-      "headline": "IRAN CLOSES STRAIT OF HORMUZ AGAIN OVER US BLOCKADE OF ITS PORTS",
-      "detail": "Reports of Iranian gunboats opening fire on tanker after Tehran says it is closing waterway until US lifts its blockade.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 12:00 UTC",
-      "headline": "IRÁN ANUNCIA QUE VUELVE A CERRAR EL ESTRECHO DE ORMUZ PORQUE TRUMP NO LEVANTÓ EL",
-      "detail": "La medida fue comunicada por el mando militar conjunto del régimen de Teherán a menos de 24 horas de la reapertura; el presidente de EE.UU. había dicho que no iba a ocurrir “nunca más”",
       "severity": "INFO"
     }
   ],
