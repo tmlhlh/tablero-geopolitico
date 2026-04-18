@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T11:32:15.708339+00:00",
+  "updated_at": "2026-04-18T12:55:44.600946+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,39 +15,39 @@
   },
   "events": [
     {
-      "timestamp": "18 APR 2026 · 11:04 UTC",
+      "timestamp": "18 APR 2026 · 12:47 UTC",
+      "headline": "TRUMP LIED SEVEN TIMES IN ONE HOUR – IRAN’S TOP NEGOTIATOR",
+      "detail": "All seven claims made by Donald Trump after Iran opened the Strait of Hormuz are false, Mohammad Bagher Ghalibaf has said Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 12:39 UTC",
       "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
       "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor más importante del mundo para el flujo de petróleo y gas. Algunos buques habían logrado salir en las últimas horas",
       "severity": "INFO"
     },
     {
-      "timestamp": "18 APR 2026 · 10:54 UTC",
+      "timestamp": "18 APR 2026 · 12:39 UTC",
+      "headline": "IRÁN ABRIÓ FUEGO CONTRA UN PETROLERO BRITÁNICO TRAS EL NUEVO BLOQUEO DEL ESTRECH",
+      "detail": "Lanchas rápidas de la Guardia Revolucionaria dispararon contra un buque que depende del ejército de Gran Bretaña; la embestida obligó a otras enbarcaciones a dar la vuelta y abandonar la zona",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 12:03 UTC",
+      "headline": "IRAN CLOSES STRAIT OF HORMUZ AGAIN OVER US BLOCKADE OF ITS PORTS",
+      "detail": "Reports of Iranian gunboats opening fire on tanker after Tehran says it is closing waterway until US lifts its blockade.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 12:00 UTC",
       "headline": "IRÁN ANUNCIA QUE VUELVE A CERRAR EL ESTRECHO DE ORMUZ PORQUE TRUMP NO LEVANTÓ EL",
       "detail": "La medida fue comunicada por el mando militar conjunto del régimen de Teherán a menos de 24 horas de la reapertura; el presidente de EE.UU. había dicho que no iba a ocurrir “nunca más”",
       "severity": "INFO"
     },
     {
-      "timestamp": "18 APR 2026 · 10:48 UTC",
-      "headline": "HORMUZ: SPIN IN THE STRAIT",
-      "detail": "The blockade saga in Hormuz and the tactics of war versus tactics of propaganda.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 10:29 UTC",
-      "headline": "AS OIL PRICES PLUNGE BELOW $91 AFTER WEEKS, A NEW HORMUZ CRISIS EMERGES",
-      "detail": "Brent crude falls over 9 percent after Iran said it will reopen waterway, only to shut it again over US blockade.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 10:00 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL OPINÓ SOBRE EL CURSO DE LA GUERRA Y SI SE AVECINA PRON",
-      "detail": "En diálogo con LN+, Alejandro Laurnagaray, analizó los posibles escenarios de la guerra tras el anuncio del régimen iraní sobre la apertura del estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 09:30 UTC",
-      "headline": "IRAN RESTRICTS STRAIT OF HORMUZ PASSAGE AGAIN, ACCUSES US OF ‘PIRACY’ (PHOTOS/VI",
-      "detail": "Iran has restricted passage through the Strait of Hormuz, after Trump vowed to maintain blockade of Tehran’s ports Read Full Article at RT.com",
+      "timestamp": "18 APR 2026 · 11:55 UTC",
+      "headline": "GUNFIRE REPORTED BY VESSEL IN STRAIT OF HORMUZ",
+      "detail": "A maritime agency reported that a tanker was fired on by gunboats in the Strait of Hormuz.",
       "severity": "INFO"
     }
   ],
