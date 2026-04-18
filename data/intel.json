@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T20:32:54.759607+00:00",
+  "updated_at": "2026-04-18T21:31:17.987393+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,6 +15,30 @@
   },
   "events": [
     {
+      "timestamp": "18 APR 2026 · 21:27 UTC",
+      "headline": "LA GUERRA CON IRÁN EXPONE EL PUNTO DÉBIL DE TRUMP: LAS CONSECUENCIAS ECONÓMICAS",
+      "detail": "El control iraní del estrecho de Ormuz expuso la vulnerabilidad económica de EE.UU.; Rusia y China podrían tomar notas de este talón de Aquiles",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 21:19 UTC",
+      "headline": "STRAIT OF HORMUZ CLOSED AGAIN, IRAN SAYS, AS SHIPS ATTACKED",
+      "detail": "Tehran is blaming a US blockade for its actions, saying it breaches the ceasefire the two reached.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 21:10 UTC",
+      "headline": "US TO BOARD IRAN-LINKED VESSELS GLOBALLY ‘IN DAYS’ – WSJ",
+      "detail": "The US plans to target Iran-linked vessels globally to force Tehran to reopen the Strait of Hormuz and make nuclear concessions, WSJ reports Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 21:06 UTC",
+      "headline": "IRAN MILITARY ORDERS INDIAN SHIP TO ABORT STRAIT OF HORMUZ PASSAGE",
+      "detail": "Video shows the moment Iran’s military ordered an Indian ship to abort its passage of the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "18 APR 2026 · 18:28 UTC",
       "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
       "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor y ataca dos buques",
@@ -25,30 +49,6 @@
       "headline": "IRÁN ABRIÓ FUEGO CONTRA DOS PETROLEROS TRAS EL NUEVO BLOQUEO DEL ESTRECHO ",
       "detail": "Lanchas rápidas de la Guardia Revolucionaria dispararon contra un buque que depende del ejército de Gran Bretaña; la embestida obligó a otras embarcaciones a dar la vuelta y abandonar la zona",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 14:24 UTC",
-      "headline": "IRÁN ANUNCIA QUE VUELVE A CERRAR EL ESTRECHO DE ORMUZ PORQUE TRUMP NO LEVANTÓ EL",
-      "detail": "La medida fue comunicada por el mando militar conjunto del régimen de Teherán a menos de 24 horas de la reapertura; el presidente de EE.UU. había dicho que no iba a ocurrir “nunca más”",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 14:16 UTC",
-      "headline": "IRAN DEFENDS LIMITS ON STRAIT OF HORMUZ PASSAGE",
-      "detail": "Tehran has every right to keep the strategic Strait of Hormuz closed amid US hostility, Iranian foreign ministry spokesman said Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 14:12 UTC",
-      "headline": "TRUMP DICE QUE IRÁN NO PUEDE “CHANTAJEAR” A EE.UU. CON ORMUZ Y QUE ESPERA DEFINI",
-      "detail": "El mandatario estadounidense aseguró que pese al bloqueo se mantienen las conversaciones con Teherán; a menos de 24 horas de haber abierto el paso, el régimen dio marcha atrás y volvió a cerrar el est",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 13:03 UTC",
-      "headline": "TRUMP CLAIMS ON IRANIAN CONCESSIONS TRIGGER QUESTIONS, REJECTIONS IN TEHRAN",
-      "detail": "The political drama culminates with the IRGC announcing that the Strait of Hormuz is once again restricted.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
