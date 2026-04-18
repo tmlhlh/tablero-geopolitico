@@ -1,29 +1,41 @@
 {
-  "updated_at": "2026-04-18T10:37:02.352816+00:00",
+  "updated_at": "2026-04-18T11:32:15.708339+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 3.0,
     "vix": 17.48,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "18 APR 2026 · 10:34 UTC",
+      "timestamp": "18 APR 2026 · 11:04 UTC",
+      "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
+      "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor más importante del mundo para el flujo de petróleo y gas. Algunos buques habían logrado salir en las últimas horas",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 10:54 UTC",
       "headline": "IRÁN ANUNCIA QUE VUELVE A CERRAR EL ESTRECHO DE ORMUZ PORQUE TRUMP NO LEVANTÓ EL",
       "detail": "La medida fue comunicada por el mando militar conjunto del régimen de Teherán a menos de 24 horas de la reapertura; el presidente de EE.UU. había dicho que no iba a ocurrir “nunca más”",
       "severity": "INFO"
     },
     {
-      "timestamp": "18 APR 2026 · 10:30 UTC",
-      "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
-      "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor más importante del mundo para el flujo de petróleo y gas. Algunos buques habían logrado salir en las últimas horas",
+      "timestamp": "18 APR 2026 · 10:48 UTC",
+      "headline": "HORMUZ: SPIN IN THE STRAIT",
+      "detail": "The blockade saga in Hormuz and the tactics of war versus tactics of propaganda.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 APR 2026 · 10:29 UTC",
+      "headline": "AS OIL PRICES PLUNGE BELOW $91 AFTER WEEKS, A NEW HORMUZ CRISIS EMERGES",
+      "detail": "Brent crude falls over 9 percent after Iran said it will reopen waterway, only to shut it again over US blockade.",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "IRAN RESTRICTS STRAIT OF HORMUZ PASSAGE AGAIN, ACCUSES US OF ‘PIRACY’ (PHOTOS/VI",
       "detail": "Iran has restricted passage through the Strait of Hormuz, after Trump vowed to maintain blockade of Tehran’s ports Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 08:25 UTC",
-      "headline": "IRAN HAS LEARNED THAT THE STRAIT OF HORMUZ IS ITS STRONGEST DETERRENT",
-      "detail": "Donald Heflin, a senior fellow at Tufts University, says Iran has shown it doesn’t need nuclear weapons as a deterrent.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 06:07 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 50 OF THE US-IRAN CONFLICT?",
-      "detail": "Iran closes Strait of Hormuz again until US lifts its ports blockade, hours after Trump said he was optimistic of deal.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.38 (+0.00%)",
     "VIX: 17.48",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
