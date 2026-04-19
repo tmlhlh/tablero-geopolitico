@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T02:23:58.787959+00:00",
+  "updated_at": "2026-04-19T05:25:57.240970+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "19 APR 2026 · 03:40 UTC",
+      "headline": "MINAS EN EL ESTRECHO DE ORMUZ, EL ARMA CASI INVISIBLE DE IRÁN QUE HA PUESTO EN J",
+      "detail": "Teherán resiste frente a EE UU con el uso de artefactos básicos y baratos sembrados en una vía marítima por la que circulaba el 20% del petróleo mundial antes de la guerra",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 03:40 UTC",
+      "headline": "CERCA DE 20.000 MARINEROS ATRAPADOS POR EL CIERRE DEL ESTRECHO DE ORMUZ: “POR FA",
+      "detail": "Los sindicatos de marineros y la OMI alertan de las dificultades a las que se enfrentan las tripulaciones de los buques debido al bloqueo iraní y estadounidense, incluida la falta de comida y agua pot",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 APR 2026 · 00:33 UTC",
       "headline": "TRUMP DICE QUE IRÁN NO PUEDE “CHANTAJEAR” A EE.UU. CON ORMUZ Y QUE ESPERA DEFINI",
@@ -31,18 +43,6 @@
       "headline": "IRAN REASSERTS CONTROL OF HORMUZ STRAIT AS TRUMP WARNS AGAINST ‘BLACKMAIL’",
       "detail": "Top negotiator Mohammad Bagher Ghalibaf says US naval blockade of Iran's ports is 'a clumsy and ignorant decision'.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 21:27 UTC",
-      "headline": "LA GUERRA CON IRÁN EXPONE EL PUNTO DÉBIL DE TRUMP: LAS CONSECUENCIAS ECONÓMICAS",
-      "detail": "El control iraní del estrecho de Ormuz expuso la vulnerabilidad económica de EE.UU.; Rusia y China podrían tomar notas de este talón de Aquiles",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 21:19 UTC",
-      "headline": "STRAIT OF HORMUZ CLOSED AGAIN, IRAN SAYS, AS SHIPS ATTACKED",
-      "detail": "Iran is blaming a US blockade for the closure, saying it breaches the ceasefire reached between the two countries.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "18 APR 2026 · 21:10 UTC",
