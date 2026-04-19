@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-04-19T13:58:42.961211+00:00",
+  "updated_at": "2026-04-19T14:47:49.694458+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 7.6,
+    "ormuz_flow_pct": 3.2,
     "vix": 17.48,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 7.6%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.2%"
   },
   "events": [
+    {
+      "timestamp": "19 APR 2026 · 14:40 UTC",
+      "headline": "TRUMP RETOMA LAS NEGOCIACIONES CON IRÁN, PERO AMENAZA CON “DESTRUIR TODAS SUS CE",
+      "detail": "El presidente estadounidense envía una delegación a Pakistán para reanudar el lunes las conversaciones de paz. Teherán asegura que no acudirá mientras prosiga el “bloqueo naval”",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 14:08 UTC",
+      "headline": "WHAT TO KNOW ABOUT US-IRAN STANDOFF OVER THE STRAIT OF HORMUZ",
+      "detail": "Trump accuses Iran of violating the ceasefire as he announces plans to send US negotiators to Pakistan for more talks.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 APR 2026 · 12:06 UTC",
       "headline": "IRAN WILL ‘STAND TO THE END’ AGAINST US PRESSURE – TOP NEGOTIATOR",
@@ -37,23 +49,11 @@
       "headline": "IRAN, US STILL ‘FAR’ FROM BREAKTHROUGH AMID STRAIT OF HORMUZ IMPASSE",
       "detail": "Tehran is 'fully prepared' for the US to resume hostilities at any moment, says Iran's parliament speaker Ghalibaf.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 03:40 UTC",
-      "headline": "MINAS EN EL ESTRECHO DE ORMUZ, EL ARMA CASI INVISIBLE DE IRÁN QUE HA PUESTO EN J",
-      "detail": "Teherán resiste frente a EE UU con el uso de artefactos básicos y baratos sembrados en una vía marítima por la que circulaba el 20% del petróleo mundial antes de la guerra",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 03:40 UTC",
-      "headline": "CERCA DE 20.000 MARINEROS ATRAPADOS POR EL CIERRE DEL ESTRECHO DE ORMUZ: “POR FA",
-      "detail": "Los sindicatos de marineros y la OMI alertan de las dificultades a las que se enfrentan las tripulaciones de los buques debido al bloqueo iraní y estadounidense, incluida la falta de comida y agua pot",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.38 (+0.00%)",
     "VIX: 17.48",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 7.6%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.2%"
   ]
 }
