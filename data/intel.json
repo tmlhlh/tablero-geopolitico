@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-19T08:50:54.611748+00:00",
+  "updated_at": "2026-04-19T09:43:16.392152+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
+    "ormuz_flow_pct": 3.4,
     "vix": 17.48,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.4%"
   },
   "events": [
+    {
+      "timestamp": "19 APR 2026 · 08:49 UTC",
+      "headline": "IRAN, US STILL ‘FAR’ FROM BREAKTHROUGH AMID STRAIT OF HORMUZ IMPASSE",
+      "detail": "Tehran is 'fully prepared' for the US to resume hostilities at any moment, says Iran's parliament speaker Ghalibaf.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 APR 2026 · 03:40 UTC",
       "headline": "MINAS EN EL ESTRECHO DE ORMUZ, EL ARMA CASI INVISIBLE DE IRÁN QUE HA PUESTO EN J",
@@ -43,17 +49,11 @@
       "headline": "US TO BOARD IRAN-LINKED VESSELS GLOBALLY ‘IN DAYS’ – WSJ",
       "detail": "The US plans to target Iran-linked vessels globally to force Tehran to reopen the Strait of Hormuz and make nuclear concessions, WSJ reports Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 21:06 UTC",
-      "headline": "IRAN MILITARY ORDERS INDIAN SHIP TO ABORT STRAIT OF HORMUZ PASSAGE",
-      "detail": "Video shows the moment Iran’s military ordered an Indian ship to abort its passage of the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.38 (+0.00%)",
     "VIX: 17.48",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.4%"
   ]
 }
