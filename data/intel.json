@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-04-19T11:33:03.064722+00:00",
+  "updated_at": "2026-04-19T12:55:19.400083+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
+    "ormuz_flow_pct": 4.0,
     "vix": 17.48,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.0%"
   },
   "events": [
     {
+      "timestamp": "19 APR 2026 · 12:06 UTC",
+      "headline": "IRAN WILL ‘STAND TO THE END’ AGAINST US PRESSURE – TOP NEGOTIATOR",
+      "detail": "Progress has been made in talks with the US, but gaps remain over nuclear issues and the Strait of Hormuz, Mohammad Bagher Ghalibaf says Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 11:31 UTC",
+      "headline": "IRAN WARNS HORMUZ WILL STAY SHUT UNLESS US LIFTS SIEGE ON ITS PORTS",
+      "detail": "Tehran is threatening to keep the Strait of Hormuz shut unless Washington lifts the ‘US siege’ on Iranian ports.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "19 APR 2026 · 09:26 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 51 OF THE US-IRAN CONFLICT?",
-      "detail": "Tehran will keep the strategic Strait of Hormuz closed until Washington ends the blockade of Iranian ports.",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 51 OF THE US-ISRAELI CONFLICT?",
+      "detail": "Tehran says it will keep the strategic Strait of Hormuz closed until Washington ends its blockade of Iranian ports.",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "CERCA DE 20.000 MARINEROS ATRAPADOS POR EL CIERRE DEL ESTRECHO DE ORMUZ: “POR FA",
       "detail": "Los sindicatos de marineros y la OMI alertan de las dificultades a las que se enfrentan las tripulaciones de los buques debido al bloqueo iraní y estadounidense, incluida la falta de comida y agua pot",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: HORMUZ STRAIT ‘CLOSED’ AS TEHRAN SAYS NO DATE FOR US TALKS",
-      "detail": "IRGC says the Strait of Hormuz will remain closed until the US stops blockading Iranian ports.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 21:41 UTC",
-      "headline": "IRAN REASSERTS CONTROL OF HORMUZ STRAIT AS TRUMP WARNS AGAINST ‘BLACKMAIL’",
-      "detail": "Top negotiator Mohammad Bagher Ghalibaf says US naval blockade of Iran's ports is 'a clumsy and ignorant decision'.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.38 (+0.00%)",
     "VIX: 17.48",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.0%"
   ]
 }
