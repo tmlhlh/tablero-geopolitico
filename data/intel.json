@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T23:31:19.203608+00:00",
+  "updated_at": "2026-04-19T02:23:58.787959+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "19 APR 2026 · 00:33 UTC",
+      "headline": "TRUMP DICE QUE IRÁN NO PUEDE “CHANTAJEAR” A EE.UU. CON ORMUZ Y QUE ESPERA DEFINI",
+      "detail": "El mandatario estadounidense aseguró que pese al bloqueo se mantienen las conversaciones con Teherán; a menos de 24 horas de haber abierto el paso, el régimen dio marcha atrás y volvió a cerrar el est",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN SAYS NO DATE SET FOR US TALKS, HORMUZ STRAIT CLOSED",
+      "detail": "IRGC says the Strait of Hormuz will remain closed until the US stops blockading Iranian ports.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 APR 2026 · 21:41 UTC",
       "headline": "IRAN REASSERTS CONTROL OF HORMUZ STRAIT AS TRUMP WARNS AGAINST ‘BLACKMAIL’",
@@ -36,18 +48,6 @@
       "timestamp": "18 APR 2026 · 21:10 UTC",
       "headline": "US TO BOARD IRAN-LINKED VESSELS GLOBALLY ‘IN DAYS’ – WSJ",
       "detail": "The US plans to target Iran-linked vessels globally to force Tehran to reopen the Strait of Hormuz and make nuclear concessions, WSJ reports Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 21:06 UTC",
-      "headline": "IRAN MILITARY ORDERS INDIAN SHIP TO ABORT STRAIT OF HORMUZ PASSAGE",
-      "detail": "Video shows the moment Iran’s military ordered an Indian ship to abort its passage of the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 18:28 UTC",
-      "headline": "IRÁN CIERRA DE NUEVO EL ESTRECHO DE ORMUZ HASTA QUE TRUMP LEVANTE SU PROPIO BLOQ",
-      "detail": "La Guardia Revolucionaria reimpone un “control estricto” sobre el corredor y ataca dos buques",
       "severity": "INFO"
     }
   ],
