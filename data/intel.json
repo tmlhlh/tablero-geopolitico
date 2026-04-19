@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T21:32:25.242310+00:00",
+  "updated_at": "2026-04-19T22:31:40.250922+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,10 +15,22 @@
   },
   "events": [
     {
-      "timestamp": "19 APR 2026 · 21:25 UTC",
-      "headline": "ESTADOS UNIDOS ATACÓ UN CARGUERO IRANÍ CUANDO “INTENTÓ PASAR EL BLOQUEO” DE LA A",
+      "timestamp": "19 APR 2026 · 22:22 UTC",
+      "headline": "ESTADOS UNIDOS ATACÓ UN CARGUERO EN EL ESTRECHO DE ORMUZ: IRÁN ADVIERTE QUE HABR",
       "detail": "El buque identificado como Touska fue interceptado por un destructor estadounidense, que le ordenó detenerse; ante la negativa, dispararon contra la sala de máquinas",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 22:13 UTC",
+      "headline": "US DESTROYER FIRES ON IRANIAN-FLAGGED CARGO SHIP (VIDEO)",
+      "detail": "US Central Command has released a video of an American destroyer firing on an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 21:53 UTC",
+      "headline": "US FORCES ATTACK AND SEIZE IRANIAN SHIP TOUSKA NEAR STRAIT OF HORMUZ",
+      "detail": "US Central Command has published a video said to show a guided-missile destroyer firing at an Iranian-flagged ship.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "19 APR 2026 · 21:09 UTC",
@@ -34,21 +46,9 @@
     },
     {
       "timestamp": "19 APR 2026 · 19:52 UTC",
-      "headline": "TRUMP SAYS US SEIZED IRAN-FLAGGED SHIP TRYING TO GET PAST HORMUZ BLOCKADE",
-      "detail": "US president says his country's ​forces ⁠stopped cargo ⁠ship Touska by 'blowing a hole' in ‌its engine room.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 19:45 UTC",
-      "headline": "US SEIZES IRANIAN-FLAGGED CARGO SHIP – TRUMP",
-      "detail": "The US has seized an Iranian-flagged vessel in Gulf of Oman amid the naval blockade of Iran, President Donald Trump has announced Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 17:49 UTC",
-      "headline": "TRUMP RETOMA LAS NEGOCIACIONES, PERO AMENAZA CON HACER “VOLAR IRÁN POR LOS AIRES",
-      "detail": "El presidente estadounidense envía a Vance, Witkoff y Kushner a Pakistán para reanudar el lunes las conversaciones de paz. Teherán no acudirá mientras prosiga el “bloqueo naval”",
-      "severity": "INFO"
+      "headline": "TRUMP SAYS US SEIZED IRANIAN SHIP TRYING TO GET PAST BLOCKADE NEAR HORMUZ",
+      "detail": "Iran vows retaliation, accuses US of violating ceasefire after attack on cargo ship Touska.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
