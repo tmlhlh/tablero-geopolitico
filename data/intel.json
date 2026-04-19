@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T20:33:47.829550+00:00",
+  "updated_at": "2026-04-19T21:32:25.242310+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "19 APR 2026 · 21:25 UTC",
+      "headline": "ESTADOS UNIDOS ATACÓ UN CARGUERO IRANÍ CUANDO “INTENTÓ PASAR EL BLOQUEO” DE LA A",
+      "detail": "El buque identificado como Touska fue interceptado por un destructor estadounidense, que le ordenó detenerse; ante la negativa, dispararon contra la sala de máquinas",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 21:09 UTC",
+      "headline": "TEHRAN WILL NEVER CEDE CONTROL OF STRAIT OF HORMUZ, SENIOR IRANIAN POLITICIAN TE",
+      "detail": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 APR 2026 · 20:02 UTC",
       "headline": "IRÁN ENCONTRÓ SU NUEVA ARMA NUCLEAR: EL ESTRECHO DE ORMUZ",
@@ -36,18 +48,6 @@
       "timestamp": "19 APR 2026 · 17:49 UTC",
       "headline": "TRUMP RETOMA LAS NEGOCIACIONES, PERO AMENAZA CON HACER “VOLAR IRÁN POR LOS AIRES",
       "detail": "El presidente estadounidense envía a Vance, Witkoff y Kushner a Pakistán para reanudar el lunes las conversaciones de paz. Teherán no acudirá mientras prosiga el “bloqueo naval”",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 15:19 UTC",
-      "headline": "ISRAEL ATTACKS THREE NATIONS FOR ALLEGED BACKING OF IRAN",
-      "detail": "Israel’s UN envoy questioned France, China and Pakistan over the Strait of Hormuz as their vessels reportedly passed despite Iran’s blockade Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 14:08 UTC",
-      "headline": "WHAT TO KNOW ABOUT US-IRAN STANDOFF OVER THE STRAIT OF HORMUZ",
-      "detail": "Trump accuses Iran of violating the ceasefire as he announces plans to send US negotiators to Pakistan for more talks.",
       "severity": "INFO"
     }
   ],
