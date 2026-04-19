@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T15:34:51.672840+00:00",
+  "updated_at": "2026-04-19T16:36:14.520836+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,16 +15,16 @@
   },
   "events": [
     {
+      "timestamp": "19 APR 2026 · 16:11 UTC",
+      "headline": "TRUMP RETOMA LAS NEGOCIACIONES, PERO AMENAZA CON HACER “VOLAR IRÁN POR LOS AIRES",
+      "detail": "El presidente estadounidense envía a Witkoff y Kushner a Pakistán para reanudar el lunes las conversaciones de paz. Teherán asegura que no acudirá mientras prosiga el “bloqueo naval”",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "19 APR 2026 · 15:19 UTC",
       "headline": "ISRAEL ATTACKS THREE NATIONS FOR ALLEGED BACKING OF IRAN",
       "detail": "Israel’s UN envoy questioned France, China and Pakistan over the Strait of Hormuz as their vessels reportedly passed despite Iran’s blockade Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 15:12 UTC",
-      "headline": "TRUMP RETOMA LAS NEGOCIACIONES CON IRÁN, PERO AMENAZA CON “DESTRUIR TODAS SUS CE",
-      "detail": "El presidente estadounidense envía una delegación a Pakistán para reanudar el lunes las conversaciones de paz. Teherán asegura que no acudirá mientras prosiga el “bloqueo naval”",
-      "severity": "INFO"
     },
     {
       "timestamp": "19 APR 2026 · 14:08 UTC",
