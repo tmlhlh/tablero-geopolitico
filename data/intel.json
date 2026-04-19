@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T17:33:03.153515+00:00",
+  "updated_at": "2026-04-19T18:43:18.709519+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "19 APR 2026 · 16:11 UTC",
+      "timestamp": "19 APR 2026 · 17:49 UTC",
       "headline": "TRUMP RETOMA LAS NEGOCIACIONES, PERO AMENAZA CON HACER “VOLAR IRÁN POR LOS AIRES",
-      "detail": "El presidente estadounidense envía a Witkoff y Kushner a Pakistán para reanudar el lunes las conversaciones de paz. Teherán asegura que no acudirá mientras prosiga el “bloqueo naval”",
+      "detail": "El presidente estadounidense envía a Vance, Witkoff y Kushner a Pakistán para reanudar el lunes las conversaciones de paz. Teherán no acudirá mientras prosiga el “bloqueo naval”",
       "severity": "INFO"
     },
     {
