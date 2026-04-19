@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-04-19T19:39:12.943550+00:00",
+  "updated_at": "2026-04-19T20:33:47.829550+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.0,
+    "ormuz_flow_pct": 3.0,
     "vix": 17.48,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "19 APR 2026 · 20:02 UTC",
+      "headline": "IRÁN ENCONTRÓ SU NUEVA ARMA NUCLEAR: EL ESTRECHO DE ORMUZ",
+      "detail": "La decisión del régimen en Teherán de ejercer su control sobre la vía marítima trastocó todos los planes de guerra de Estados Unidos e Israel",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 19:52 UTC",
+      "headline": "TRUMP SAYS US SEIZED IRAN-FLAGGED SHIP TRYING TO GET PAST HORMUZ BLOCKADE",
+      "detail": "US president says his country's ​forces ⁠stopped cargo ⁠ship Touska by 'blowing a hole' in ‌its engine room.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 19:45 UTC",
+      "headline": "US SEIZES IRANIAN-FLAGGED CARGO SHIP – TRUMP",
+      "detail": "The US has seized an Iranian-flagged vessel in Gulf of Oman amid the naval blockade of Iran, President Donald Trump has announced Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 APR 2026 · 17:49 UTC",
       "headline": "TRUMP RETOMA LAS NEGOCIACIONES, PERO AMENAZA CON HACER “VOLAR IRÁN POR LOS AIRES",
@@ -31,29 +49,11 @@
       "headline": "WHAT TO KNOW ABOUT US-IRAN STANDOFF OVER THE STRAIT OF HORMUZ",
       "detail": "Trump accuses Iran of violating the ceasefire as he announces plans to send US negotiators to Pakistan for more talks.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 12:06 UTC",
-      "headline": "IRAN WILL ‘STAND TO THE END’ AGAINST US PRESSURE – TOP NEGOTIATOR",
-      "detail": "Progress has been made in talks with the US, but gaps remain over nuclear issues and the Strait of Hormuz, Mohammad Bagher Ghalibaf says Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 11:31 UTC",
-      "headline": "IRAN WARNS HORMUZ WILL STAY SHUT UNLESS US LIFTS SIEGE ON ITS PORTS",
-      "detail": "Tehran is threatening to keep the Strait of Hormuz shut unless Washington lifts the ‘US siege’ on Iranian ports.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 03:40 UTC",
-      "headline": "MINAS EN EL ESTRECHO DE ORMUZ, EL ARMA CASI INVISIBLE DE IRÁN QUE HA PUESTO EN J",
-      "detail": "Teherán resiste frente a EE UU con el uso de artefactos básicos y baratos sembrados en una vía marítima por la que circulaba el 20% del petróleo mundial antes de la guerra",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.38 (+0.00%)",
     "VIX: 17.48",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
