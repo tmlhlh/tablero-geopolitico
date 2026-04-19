@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-04-19T18:43:18.709519+00:00",
+  "updated_at": "2026-04-19T19:39:12.943550+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
+    "ormuz_flow_pct": 5.0,
     "vix": 17.48,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.0%"
   },
   "events": [
     {
@@ -45,15 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "19 APR 2026 · 09:26 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 51 OF THE US-ISRAELI CONFLICT?",
-      "detail": "Tehran says it will keep the strategic Strait of Hormuz closed until Washington ends its blockade of Iranian ports.",
-      "severity": "INFO"
+      "timestamp": "19 APR 2026 · 03:40 UTC",
+      "headline": "MINAS EN EL ESTRECHO DE ORMUZ, EL ARMA CASI INVISIBLE DE IRÁN QUE HA PUESTO EN J",
+      "detail": "Teherán resiste frente a EE UU con el uso de artefactos básicos y baratos sembrados en una vía marítima por la que circulaba el 20% del petróleo mundial antes de la guerra",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.38 (+0.00%)",
     "VIX: 17.48",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.0%"
   ]
 }
