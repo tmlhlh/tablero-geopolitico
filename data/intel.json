@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-19T09:43:16.392152+00:00",
+  "updated_at": "2026-04-19T10:36:00.751046+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.4,
+    "ormuz_flow_pct": 3.0,
     "vix": 17.48,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "19 APR 2026 · 09:26 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 51 OF THE US-IRAN CONFLICT?",
+      "detail": "Tehran will keep the strategic Strait of Hormuz closed until Washington ends the blockade of Iranian ports.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 APR 2026 · 08:49 UTC",
       "headline": "IRAN, US STILL ‘FAR’ FROM BREAKTHROUGH AMID STRAIT OF HORMUZ IMPASSE",
@@ -34,7 +40,7 @@
     },
     {
       "timestamp": "19 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SAYS NO DATE SET FOR US TALKS, HORMUZ STRAIT CLOSED",
+      "headline": "IRAN WAR LIVE: HORMUZ STRAIT ‘CLOSED’ AS TEHRAN SAYS NO DATE FOR US TALKS",
       "detail": "IRGC says the Strait of Hormuz will remain closed until the US stops blockading Iranian ports.",
       "severity": "INFO"
     },
@@ -43,17 +49,11 @@
       "headline": "IRAN REASSERTS CONTROL OF HORMUZ STRAIT AS TRUMP WARNS AGAINST ‘BLACKMAIL’",
       "detail": "Top negotiator Mohammad Bagher Ghalibaf says US naval blockade of Iran's ports is 'a clumsy and ignorant decision'.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 APR 2026 · 21:10 UTC",
-      "headline": "US TO BOARD IRAN-LINKED VESSELS GLOBALLY ‘IN DAYS’ – WSJ",
-      "detail": "The US plans to target Iran-linked vessels globally to force Tehran to reopen the Strait of Hormuz and make nuclear concessions, WSJ reports Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.38 (+0.00%)",
     "VIX: 17.48",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.4%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
