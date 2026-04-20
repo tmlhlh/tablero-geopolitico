@@ -1,41 +1,23 @@
 {
-  "updated_at": "2026-04-20T16:05:47.406785+00:00",
+  "updated_at": "2026-04-20T17:54:33.170430+00:00",
   "market": {
-    "brent_usd": 95.53,
+    "brent_usd": 95.18,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.1,
-    "vix": 19.45,
+    "ormuz_flow_pct": 8.2,
+    "vix": 19.07,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.1%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.2%"
   },
   "events": [
-    {
-      "timestamp": "20 APR 2026 · 15:16 UTC",
-      "headline": "LA ESCALADA MILITAR EN ORMUZ PONE EN DUDA LAS NEGOCIACIONES ENTRE EE.UU. E IRÁN ",
-      "detail": "Trump aseguró que los negociadores norteamericanos llegarán esta noche a Pakistán, pero el régimen islámico dijo que “no hay planes” para la próxima ronda de conversaciones",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 14:57 UTC",
-      "headline": "CÓMO SERÁ LA RESPUESTA DE IRÁN AL ATAQUE DE EE.UU. EN EL ESTRECHO DE ORMUZ Y QUÉ",
-      "detail": "En diálogo con LN+, Andrés Repetto profundizó en los intercambios entre la administración de Donald Trump y el regimén iraní a tan solo horas de que venza el ultimátum",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "20 APR 2026 · 12:43 UTC",
       "headline": "WHAT WE KNOW ABOUT THE US CAPTURE OF IRANIAN VESSEL NEAR HORMUZ",
       "detail": "US releases video showing the capture of Iranian-flagged ship near Hormuz, Trump says it tried to breach its blockade.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 10:06 UTC",
-      "headline": "US CAPTURES IRANIAN SHIP TOUSKA AMID MEDIATION EFFORTS: ALL WE KNOW",
-      "detail": "The US claims the ship was trying to evade its naval blockade. Iran calls it 'piracy'.",
       "severity": "INFO"
     },
     {
@@ -49,11 +31,29 @@
       "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
       "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 21:09 UTC",
+      "headline": "TEHRAN WILL NEVER CEDE CONTROL OF STRAIT OF HORMUZ, SENIOR IRANIAN POLITICIAN TE",
+      "detail": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 19:45 UTC",
+      "headline": "US SEIZES IRANIAN-FLAGGED CARGO SHIP – TRUMP",
+      "detail": "The US has seized an Iranian-flagged vessel in Gulf of Oman amid the naval blockade of Iran, President Donald Trump has announced Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 17:49 UTC",
+      "headline": "TRUMP RETOMA LAS NEGOCIACIONES, PERO AMENAZA CON HACER “VOLAR IRÁN POR LOS AIRES",
+      "detail": "El presidente estadounidense envía a Vance, Witkoff y Kushner a Pakistán para reanudar el lunes las conversaciones de paz. Teherán no acudirá mientras prosiga el “bloqueo naval”",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.53 (+0.00%)",
-    "VIX: 19.45",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.1%"
+    "BRENT: $95.18 (+0.00%)",
+    "VIX: 19.07",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.2%"
   ]
 }
