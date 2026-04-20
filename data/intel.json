@@ -1,35 +1,29 @@
 {
-  "updated_at": "2026-04-20T14:46:35.073333+00:00",
+  "updated_at": "2026-04-20T16:05:47.406785+00:00",
   "market": {
-    "brent_usd": 94.49,
+    "brent_usd": 95.53,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 19.25,
+    "ormuz_flow_pct": 3.1,
+    "vix": 19.45,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.1%"
   },
   "events": [
     {
-      "timestamp": "20 APR 2026 · 13:44 UTC",
+      "timestamp": "20 APR 2026 · 15:16 UTC",
       "headline": "LA ESCALADA MILITAR EN ORMUZ PONE EN DUDA LAS NEGOCIACIONES ENTRE EE.UU. E IRÁN ",
       "detail": "Trump aseguró que los negociadores norteamericanos llegarán esta noche a Pakistán, pero el régimen islámico dijo que “no hay planes” para la próxima ronda de conversaciones",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 APR 2026 · 13:03 UTC",
-      "headline": "SUBEN EL PETRÓLEO Y LAS ACCIONES MIENTRAS AUMENTA LA TENSIÓN ENTRE ESTADOS UNIDO",
-      "detail": "El crudo Brent, de referencia internacional, registra una suba de más del 5%; las bolsas del mercado asiático cotizan mayormente al alza",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 12:56 UTC",
-      "headline": "ASÍ FUE EL ATAQUE DE ESTADOS UNIDOS A UN CARGUERO IRANÍ QUE INTENTÓ EVADIR EL BL",
-      "detail": "Las fuerzas navales estadounidenses inutilizaron la propulsión de la embarcación tras horas de advertencias y luego la abordaron; la operación fue registrada en imágenes difundidas por el Departamento",
+      "timestamp": "20 APR 2026 · 14:57 UTC",
+      "headline": "CÓMO SERÁ LA RESPUESTA DE IRÁN AL ATAQUE DE EE.UU. EN EL ESTRECHO DE ORMUZ Y QUÉ",
+      "detail": "En diálogo con LN+, Andrés Repetto profundizó en los intercambios entre la administración de Donald Trump y el regimén iraní a tan solo horas de que venza el ultimátum",
       "severity": "CRÍTICO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
       "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 22:13 UTC",
+      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
+      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.49 (+0.00%)",
-    "VIX: 19.25",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $95.53 (+0.00%)",
+    "VIX: 19.45",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.1%"
   ]
 }
