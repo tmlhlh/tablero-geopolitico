@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-20T10:44:59.380621+00:00",
+  "updated_at": "2026-04-20T12:01:35.944211+00:00",
   "market": {
-    "brent_usd": 94.73,
+    "brent_usd": 90.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 19.4,
+    "ormuz_flow_pct": 3.6,
+    "vix": 19.42,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.6%"
   },
   "events": [
+    {
+      "timestamp": "20 APR 2026 · 11:36 UTC",
+      "headline": "SUBEN EL PETRÓLEO Y LAS ACCIONES MIENTRAS AUMENTA LA TENSIÓN ENTRE ESTADOS UNIDO",
+      "detail": "El crudo Brent, de referencia internacional, registra una suba de más del 5%; las bolsas del mercado asiático cotizan mayormente al alza",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 APR 2026 · 10:06 UTC",
       "headline": "US CAPTURES IRANIAN SHIP TOUSKA AMID MEDIATION EFFORTS: ALL WE KNOW",
@@ -43,17 +49,11 @@
       "headline": "US MILITARY RELEASES VIDEO OF MARINES SEIZING IRANIAN SHIP",
       "detail": "Video from the US military show an operation by its forces to seize an Iranian-flagged ship near the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 22:13 UTC",
-      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
-      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.73 (+0.00%)",
-    "VIX: 19.4",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $90.38 (+0.00%)",
+    "VIX: 19.42",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.6%"
   ]
 }
