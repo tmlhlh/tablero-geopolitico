@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-04-20T08:01:15.114672+00:00",
+  "updated_at": "2026-04-20T10:44:59.380621+00:00",
   "market": {
-    "brent_usd": 90.38,
+    "brent_usd": 94.73,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 17.48,
+    "vix": 19.4,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "20 APR 2026 · 07:29 UTC",
-      "headline": "US RELEASES VIDEO SAID TO SHOW MISSION TO CAPTURE IRANIAN SHIP",
-      "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
+      "timestamp": "20 APR 2026 · 10:06 UTC",
+      "headline": "US CAPTURES IRANIAN SHIP TOUSKA AMID MEDIATION EFFORTS: ALL WE KNOW",
+      "detail": "The US claims the ship was trying to evade its naval blockade. Iran calls it 'piracy'.",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 APR 2026 · 07:21 UTC",
-      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 52 OF THE US-ISRAELI CONFLICT?",
-      "detail": "Islamabad talks in limbo as Iran says it will retaliate after US marines capture an Iranian ship near Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 06:20 UTC",
-      "headline": "US MILITARY RELEASES VIDEO OF MARINES SEIZING IRANIAN SHIP",
-      "detail": "Video from the US military show an operation by its forces to seize an Iranian-flagged ship near the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 23:35 UTC",
+      "timestamp": "20 APR 2026 · 09:43 UTC",
       "headline": "ASÍ FUE EL ATAQUE DE ESTADOS UNIDOS A UN CARGUERO IRANÍ QUE INTENTÓ EVADIR EL BL",
       "detail": "Las fuerzas navales estadounidenses inutilizaron la propulsión de la embarcación tras horas de advertencias y luego la abordaron; la operación fue registrada en imágenes difundidas por el Departamento",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "19 APR 2026 · 23:30 UTC",
-      "headline": "ESTADOS UNIDOS ATACÓ UN CARGUERO EN EL ESTRECHO DE ORMUZ: IRÁN ADVIERTE QUE HABR",
-      "detail": "El buque identificado como Touska fue interceptado por un destructor estadounidense, que le ordenó detenerse; ante la negativa, dispararon contra la sala de máquinas",
+      "timestamp": "20 APR 2026 · 07:29 UTC",
+      "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
+      "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 APR 2026 · 07:21 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 52 OF US-ISRAELI ATTACKS?",
+      "detail": "Islamabad talks in limbo as Iran says it will retaliate after US marines capture an Iranian ship near Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "20 APR 2026 · 06:20 UTC",
+      "headline": "US MILITARY RELEASES VIDEO OF MARINES SEIZING IRANIAN SHIP",
+      "detail": "Video from the US military show an operation by its forces to seize an Iranian-flagged ship near the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $90.38 (+0.00%)",
-    "VIX: 17.48",
+    "BRENT: $94.73 (+0.00%)",
+    "VIX: 19.4",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
