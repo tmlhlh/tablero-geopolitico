@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T23:32:37.081509+00:00",
+  "updated_at": "2026-04-20T02:24:50.807167+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -15,13 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "19 APR 2026 · 23:29 UTC",
+      "timestamp": "19 APR 2026 · 23:35 UTC",
       "headline": "ASÍ FUE EL ATAQUE DE ESTADOS UNIDOS A UN CARGUERO IRANÍ QUE INTENTÓ EVADIR EL BL",
       "detail": "Las fuerzas navales estadounidenses inutilizaron la propulsión de la embarcación tras horas de advertencias y luego la abordaron; la operación fue registrada en imágenes difundidas por el Departamento",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "19 APR 2026 · 23:29 UTC",
+      "timestamp": "19 APR 2026 · 23:30 UTC",
       "headline": "ESTADOS UNIDOS ATACÓ UN CARGUERO EN EL ESTRECHO DE ORMUZ: IRÁN ADVIERTE QUE HABR",
       "detail": "El buque identificado como Touska fue interceptado por un destructor estadounidense, que le ordenó detenerse; ante la negativa, dispararon contra la sala de máquinas",
       "severity": "INFO"
@@ -45,10 +45,10 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "19 APR 2026 · 20:02 UTC",
-      "headline": "IRÁN ENCONTRÓ SU NUEVA ARMA NUCLEAR: EL ESTRECHO DE ORMUZ",
-      "detail": "La decisión del régimen en Teherán de ejercer su control sobre la vía marítima trastocó todos los planes de guerra de Estados Unidos e Israel",
-      "severity": "INFO"
+      "timestamp": "19 APR 2026 · 19:52 UTC",
+      "headline": "TRUMP SAYS US SEIZED IRANIAN SHIP TRYING TO GET PAST BLOCKADE NEAR HORMUZ",
+      "detail": "Iran vows retaliation, accuses US of violating ceasefire after attack on cargo ship Touska.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
