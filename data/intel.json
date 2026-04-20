@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-04-20T19:00:10.904403+00:00",
+  "updated_at": "2026-04-20T20:04:03.443962+00:00",
   "market": {
-    "brent_usd": 95.57,
+    "brent_usd": 95.1,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.1,
-    "vix": 19.03,
+    "ormuz_flow_pct": 8.5,
+    "vix": 19.13,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.1%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "20 APR 2026 · 12:43 UTC",
-      "headline": "WHAT WE KNOW ABOUT THE US CAPTURE OF IRANIAN VESSEL NEAR HORMUZ",
-      "detail": "US releases video showing the capture of Iranian-flagged ship near Hormuz, Trump says it tried to breach its blockade.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "20 APR 2026 · 07:29 UTC",
       "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
       "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
@@ -45,15 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "19 APR 2026 · 21:09 UTC",
-      "headline": "TEHRAN WILL NEVER CEDE CONTROL OF STRAIT OF HORMUZ, SENIOR IRANIAN POLITICIAN TE",
-      "detail": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
+      "timestamp": "19 APR 2026 · 19:45 UTC",
+      "headline": "US SEIZES IRANIAN-FLAGGED CARGO SHIP – TRUMP",
+      "detail": "The US has seized an Iranian-flagged vessel in Gulf of Oman amid the naval blockade of Iran, President Donald Trump has announced Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 17:49 UTC",
+      "headline": "TRUMP RETOMA LAS NEGOCIACIONES, PERO AMENAZA CON HACER “VOLAR IRÁN POR LOS AIRES",
+      "detail": "El presidente estadounidense envía a Vance, Witkoff y Kushner a Pakistán para reanudar el lunes las conversaciones de paz. Teherán no acudirá mientras prosiga el “bloqueo naval”",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.57 (+0.00%)",
-    "VIX: 19.03",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.1%"
+    "BRENT: $95.1 (+0.00%)",
+    "VIX: 19.13",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
