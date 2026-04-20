@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T05:37:45.355183+00:00",
+  "updated_at": "2026-04-20T08:01:15.114672+00:00",
   "market": {
     "brent_usd": 90.38,
     "brent_chg": 0.0
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "20 APR 2026 · 07:29 UTC",
+      "headline": "US RELEASES VIDEO SAID TO SHOW MISSION TO CAPTURE IRANIAN SHIP",
+      "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 APR 2026 · 07:21 UTC",
+      "headline": "IRAN WAR: WHAT IS HAPPENING ON DAY 52 OF THE US-ISRAELI CONFLICT?",
+      "detail": "Islamabad talks in limbo as Iran says it will retaliate after US marines capture an Iranian ship near Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 APR 2026 · 06:20 UTC",
+      "headline": "US MILITARY RELEASES VIDEO OF MARINES SEIZING IRANIAN SHIP",
+      "detail": "Video from the US military show an operation by its forces to seize an Iranian-flagged ship near the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 APR 2026 · 23:35 UTC",
       "headline": "ASÍ FUE EL ATAQUE DE ESTADOS UNIDOS A UN CARGUERO IRANÍ QUE INTENTÓ EVADIR EL BL",
@@ -31,24 +49,6 @@
       "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
       "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 21:53 UTC",
-      "headline": "US FORCES ATTACK AND SEIZE IRANIAN SHIP TOUSKA NEAR STRAIT OF HORMUZ",
-      "detail": "US Central Command has published a video said to show a guided-missile destroyer firing at an Iranian-flagged ship.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 21:09 UTC",
-      "headline": "TEHRAN WILL NEVER CEDE CONTROL OF STRAIT OF HORMUZ, SENIOR IRANIAN POLITICIAN TE",
-      "detail": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 19:52 UTC",
-      "headline": "TRUMP SAYS US SEIZED IRANIAN SHIP TRYING TO GET PAST BLOCKADE NEAR HORMUZ",
-      "detail": "Iran vows retaliation, accuses US of violating ceasefire after attack on cargo ship Touska.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
