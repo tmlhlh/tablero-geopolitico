@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-20T20:04:03.443962+00:00",
+  "updated_at": "2026-04-20T21:42:55.729058+00:00",
   "market": {
-    "brent_usd": 95.1,
+    "brent_usd": 94.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 19.13,
+    "ormuz_flow_pct": 5.7,
+    "vix": 18.87,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.7%"
   },
   "events": [
+    {
+      "timestamp": "20 APR 2026 · 20:04 UTC",
+      "headline": "WHAT WE KNOW ABOUT THE IRANIAN SHIP SEIZED BY THE US",
+      "detail": "The US has intercepted an Iranian ship entering the Gulf as part of its naval blockade, US President Donald Trump has said.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 APR 2026 · 18:13 UTC",
       "headline": "UKRAINIAN DRONE ATTACK HITS RUSSIA’S TUAPSE PORT",
@@ -43,17 +49,11 @@
       "headline": "US SEIZES IRANIAN-FLAGGED CARGO SHIP – TRUMP",
       "detail": "The US has seized an Iranian-flagged vessel in Gulf of Oman amid the naval blockade of Iran, President Donald Trump has announced Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 17:49 UTC",
-      "headline": "TRUMP RETOMA LAS NEGOCIACIONES, PERO AMENAZA CON HACER “VOLAR IRÁN POR LOS AIRES",
-      "detail": "El presidente estadounidense envía a Vance, Witkoff y Kushner a Pakistán para reanudar el lunes las conversaciones de paz. Teherán no acudirá mientras prosiga el “bloqueo naval”",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.1 (+0.00%)",
-    "VIX: 19.13",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $94.28 (+0.00%)",
+    "VIX: 18.87",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.7%"
   ]
 }
