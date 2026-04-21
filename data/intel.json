@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-04-21T17:59:39.295783+00:00",
+  "updated_at": "2026-04-21T19:23:24.835076+00:00",
   "market": {
-    "brent_usd": 92.95,
+    "brent_usd": 92.07,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.84,
+    "vix": 19.6,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.5
+    "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "21 APR 2026 · 11:11 UTC",
-      "headline": "STRAIT OF HORMUZ: HOW A THREAT BECAME A PLAYBOOK",
-      "detail": "How the Strait of Hormuz became a system of control, shaping power and the global economy.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "21 APR 2026 · 03:30 UTC",
       "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
@@ -49,11 +43,17 @@
       "headline": "US SEIZES IRANIAN-FLAGGED CARGO SHIP – TRUMP",
       "detail": "The US has seized an Iranian-flagged vessel in Gulf of Oman amid the naval blockade of Iran, President Donald Trump has announced Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 15:19 UTC",
+      "headline": "ISRAEL ATTACKS THREE NATIONS FOR ALLEGED BACKING OF IRAN",
+      "detail": "Israel’s UN envoy questioned France, China and Pakistan over the Strait of Hormuz as their vessels reportedly passed despite Iran’s blockade Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.95 (+0.00%)",
-    "VIX: 19.84",
+    "BRENT: $92.07 (+0.00%)",
+    "VIX: 19.6",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
