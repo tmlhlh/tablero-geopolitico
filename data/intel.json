@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-21T13:18:18.761837+00:00",
+  "updated_at": "2026-04-21T15:09:56.849225+00:00",
   "market": {
-    "brent_usd": 90.78,
+    "brent_usd": 91.95,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.97,
+    "vix": 19.22,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -16,7 +16,7 @@
   "events": [
     {
       "timestamp": "21 APR 2026 · 13:14 UTC",
-      "headline": "ESTADOS UNIDOS INTERCEPTÓ UN PETROLERO IRANÍ SANCIONADO POR CONTRABANDO DE CRUDO",
+      "headline": "EE.UU. INCAUTA UN PETROLERO EN ASIA Y APUNTA CONTRA CHINA: “UN REGALO PARA IRÁN”",
       "detail": "En el contexto del bloqueo norteamericano de los puertos iraníes en el estrecho de Ormuz, Washington aumenta la presión al régimen islámico",
       "severity": "INFO"
     },
@@ -33,6 +33,12 @@
       "severity": "INFO"
     },
     {
+      "timestamp": "20 APR 2026 · 17:05 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN APROXIMAN POSTURAS PARA UNA NUEVA RONDA DE CONVERSACIONES,",
+      "detail": "El vicepresidente Vance tiene previsto viajar el martes a Islamabad mientras la delegación iraní se abre a volver a sentarse en la mesa en las últimas horas del alto el fuego. Ormuz sigue cerrado",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "20 APR 2026 · 07:29 UTC",
       "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
       "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
@@ -43,17 +49,11 @@
       "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
       "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 19:45 UTC",
-      "headline": "US SEIZES IRANIAN-FLAGGED CARGO SHIP – TRUMP",
-      "detail": "The US has seized an Iranian-flagged vessel in Gulf of Oman amid the naval blockade of Iran, President Donald Trump has announced Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.78 (+0.00%)",
-    "VIX: 18.97",
+    "BRENT: $91.95 (+0.00%)",
+    "VIX: 19.22",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
