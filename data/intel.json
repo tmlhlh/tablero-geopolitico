@@ -1,29 +1,23 @@
 {
-  "updated_at": "2026-04-21T09:22:26.338051+00:00",
+  "updated_at": "2026-04-21T11:03:30.725399+00:00",
   "market": {
-    "brent_usd": 90.5,
+    "brent_usd": 89.9,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.1,
-    "vix": 19.09,
+    "ormuz_flow_pct": 8.5,
+    "vix": 18.89,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.1%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
       "timestamp": "21 APR 2026 · 03:30 UTC",
       "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
       "detail": "Para controlar el estrecho, Irán y EE UU han establecido dos puntos estratégicos a 500 kilómetros de distancia. Aun así, algunos barcos consiguen cruzar",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SPURNS TALKS UNDER THREATS; TRUMP SAYS BLOCKADE STAYS",
-      "detail": "Iran says will not accept negotiations 'under the shadow of threats', as Trump promises to continue blockade in Hormuz.",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
       "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 19:45 UTC",
+      "headline": "US SEIZES IRANIAN-FLAGGED CARGO SHIP – TRUMP",
+      "detail": "The US has seized an Iranian-flagged vessel in Gulf of Oman amid the naval blockade of Iran, President Donald Trump has announced Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.5 (+0.00%)",
-    "VIX: 19.09",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.1%"
+    "BRENT: $89.9 (+0.00%)",
+    "VIX: 18.89",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
