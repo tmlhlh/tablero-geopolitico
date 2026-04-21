@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-21T02:12:47.566834+00:00",
+  "updated_at": "2026-04-21T05:24:14.457541+00:00",
   "market": {
-    "brent_usd": 95.11,
+    "brent_usd": 94.39,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "21 APR 2026 · 03:30 UTC",
+      "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
+      "detail": "Para controlar el estrecho, Irán y EE UU han establecido dos puntos estratégicos a 500 kilómetros de distancia. Aun así, algunos barcos consiguen cruzar",
+      "severity": "INFO"
+    },
     {
       "timestamp": "21 APR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TEHRAN SPURNS TALKS UNDER THREATS; TRUMP SAYS BLOCKADE STAYS",
@@ -33,26 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "20 APR 2026 · 18:13 UTC",
-      "headline": "UKRAINIAN DRONE ATTACK HITS RUSSIA’S TUAPSE PORT",
-      "detail": "Plumes of black smoke were seen after Ukrainian drones targeted Russia’s Black Sea port of Tuapse.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 18:00 UTC",
-      "headline": "UAE REPORTS DISMANTLING OF IRAN-LINKED ‘TERROR’ CELL",
-      "detail": "Arrests come after United Arab Emirates bore the brunt of Iranian attacks on Gulf neighbours.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "20 APR 2026 · 07:29 UTC",
       "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
       "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 22:13 UTC",
+      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
+      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.11 (+0.00%)",
+    "BRENT: $94.39 (+0.00%)",
     "VIX: 18.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
