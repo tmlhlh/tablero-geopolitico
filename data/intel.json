@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-21T11:03:30.725399+00:00",
+  "updated_at": "2026-04-21T13:18:18.761837+00:00",
   "market": {
-    "brent_usd": 89.9,
+    "brent_usd": 90.78,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.89,
+    "vix": 18.97,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.2
   },
@@ -15,21 +15,21 @@
   },
   "events": [
     {
+      "timestamp": "21 APR 2026 · 13:14 UTC",
+      "headline": "ESTADOS UNIDOS INTERCEPTÓ UN PETROLERO IRANÍ SANCIONADO POR CONTRABANDO DE CRUDO",
+      "detail": "En el contexto del bloqueo norteamericano de los puertos iraníes en el estrecho de Ormuz, Washington aumenta la presión al régimen islámico",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 APR 2026 · 11:11 UTC",
+      "headline": "STRAIT OF HORMUZ: HOW A THREAT BECAME A PLAYBOOK",
+      "detail": "How the Strait of Hormuz became a system of control, shaping power and the global economy.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "21 APR 2026 · 03:30 UTC",
       "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
       "detail": "Para controlar el estrecho, Irán y EE UU han establecido dos puntos estratégicos a 500 kilómetros de distancia. Aun así, algunos barcos consiguen cruzar",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 21:52 UTC",
-      "headline": "TRUMP SAYS US WILL NOT LIFT HORMUZ BLOCKADE UNTIL DEAL MADE WITH IRAN",
-      "detail": "The US president's comments come amid uncertainty over whether Iran will attend peace talks in Pakistan this week.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 20:04 UTC",
-      "headline": "WHAT WE KNOW ABOUT THE IRANIAN SHIP SEIZED BY THE US",
-      "detail": "The US has intercepted an Iranian ship entering the Gulf as part of its naval blockade, US President Donald Trump has said.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.9 (+0.00%)",
-    "VIX: 18.89",
+    "BRENT: $90.78 (+0.00%)",
+    "VIX: 18.97",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
