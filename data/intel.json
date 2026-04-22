@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-22T05:22:37.764792+00:00",
+  "updated_at": "2026-04-22T07:28:08.158137+00:00",
   "market": {
-    "brent_usd": 92.76,
+    "brent_usd": 93.04,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -22,7 +22,7 @@
     },
     {
       "timestamp": "21 APR 2026 · 21:30 UTC",
-      "headline": "TRUMP PRORROGA EL ALTO EL FUEGO HASTA QUE IRÁN PRESENTE UNA PROPUESTA Y SE NEGOC",
+      "headline": "TRUMP PRORROGA EL ALTO EL FUEGO HASTA QUE IRÁN PRESENTE UNA PROPUESTA Y CONCLUYA",
       "detail": "El presidente de EE UU extiende la tregua a pocas horas de que expire, aunque mantiene el bloqueo naval sobre Ormuz",
       "severity": "INFO"
     },
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $92.76 (+0.00%)",
+    "BRENT: $93.04 (+0.00%)",
     "VIX: 19.5",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
