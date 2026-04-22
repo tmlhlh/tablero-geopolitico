@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-04-22T15:09:53.606779+00:00",
+  "updated_at": "2026-04-22T16:55:54.780501+00:00",
   "market": {
-    "brent_usd": 95.84,
+    "brent_usd": 102.11,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.18,
+    "vix": 19.44,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "22 APR 2026 · 14:56 UTC",
+      "timestamp": "22 APR 2026 · 16:45 UTC",
       "headline": "QUÉ SE SABE DE LA NUEVA TREGUA DE TRUMP CON IRÁN EN LA GUERRA DE MEDIO ORIENTE",
       "detail": "El presidente de Estados Unidos volvió a extender el alto el fuego; pese a la decisión, la Guardia Revolucionaria de Irán atacó tres buques en Ormuz; se complica el diálogo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 16:19 UTC",
+      "headline": "US AND IRAN IN BLOCKADE STANDOFF AS PAKISTAN PUSHES FOR TALKS",
+      "detail": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 15:28 UTC",
+      "headline": "IRÁN CAPTURA DOS BARCOS QUE INTENTABAN CRUZAR EL ESTRECHO DE ORMUZ",
+      "detail": "La represalia a las últimas acciones de Estados Unidos eleva aún más la tensión y estrecha el margen negociador",
       "severity": "INFO"
     },
     {
@@ -27,33 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 APR 2026 · 11:20 UTC",
-      "headline": "IRÁN CAPTURA DOS BARCOS QUE INTENTABAN CRUZAR EL ESTRECHO DE ORMUZ",
-      "detail": "La represalia a las últimas acciones de Estados Unidos eleva aún más la tensión y estrecha el margen negociador",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 APR 2026 · 09:32 UTC",
-      "headline": "IRAN CAPTURES TWO VESSELS IN STRAIT OF HORMUZ AFTER SHIP COMES UNDER FIRE",
-      "detail": "The IRGC says the aggression came in response to what it described as the US's capture of an Iranian commercial vessel.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 APR 2026 · 09:16 UTC",
-      "headline": "RUSSIA STRIKES UKRAINE’S ODESA PORT, KILLS RAILWAY WORKER IN ZAPORIZHIA",
-      "detail": "Ukraine's deputy prime minister says the attacks on the country's civilian infrastructure are 'another proof of terrorism'.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "21 APR 2026 · 21:30 UTC",
       "headline": "TRUMP PRORROGA EL ALTO EL FUEGO HASTA QUE IRÁN PRESENTE UNA PROPUESTA Y CONCLUYA",
       "detail": "El presidente de EE UU extiende la tregua a pocas horas de que expire, aunque mantiene el bloqueo naval sobre Ormuz",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "21 APR 2026 · 03:30 UTC",
+      "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
+      "detail": "Para controlar el estrecho, Irán y EE UU han establecido dos puntos estratégicos a 500 kilómetros de distancia. Aun así, algunos barcos consiguen cruzar",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.84 (+0.00%)",
-    "VIX: 19.18",
+    "BRENT: $102.11 (+0.00%)",
+    "VIX: 19.44",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
