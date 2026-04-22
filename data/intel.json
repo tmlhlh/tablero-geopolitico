@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-22T07:28:08.158137+00:00",
+  "updated_at": "2026-04-22T09:17:16.559052+00:00",
   "market": {
-    "brent_usd": 93.04,
+    "brent_usd": 94.28,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.5,
+    "vix": 19.08,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -24,12 +24,6 @@
       "timestamp": "21 APR 2026 · 21:30 UTC",
       "headline": "TRUMP PRORROGA EL ALTO EL FUEGO HASTA QUE IRÁN PRESENTE UNA PROPUESTA Y CONCLUYA",
       "detail": "El presidente de EE UU extiende la tregua a pocas horas de que expire, aunque mantiene el bloqueo naval sobre Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 APR 2026 · 20:33 UTC",
-      "headline": "EU EYES OPTIONS AS IRAN CONFLICT THREATENS JET FUEL SHORTAGES",
-      "detail": "The blockade of the Strait of Hormuz is causing concern in Europe, which relies heavily on imported jet fuel.",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
       "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 22:13 UTC",
+      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
+      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.04 (+0.00%)",
-    "VIX: 19.5",
+    "BRENT: $94.28 (+0.00%)",
+    "VIX: 19.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
