@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-22T21:48:30.206638+00:00",
+  "updated_at": "2026-04-22T22:43:30.021701+00:00",
   "market": {
-    "brent_usd": 101.85,
+    "brent_usd": 101.6,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 APR 2026 · 22:26 UTC",
+      "headline": "TENSIÓN POR UN ATAQUE: INCENDIARON UN CAMIÓN Y APUNTAN A UNA INTERNA GREMIAL",
+      "detail": "El hecho ocurrió en una playa privada de Necochea; fuentes del municipio lo vincularon a disputas por la distribución de cargas en pleno paro del transporte de granos que afecta al puerto de Quequén",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "22 APR 2026 · 20:55 UTC",
       "headline": "QUÉ SE SABE DE LA NUEVA TREGUA DE TRUMP CON IRÁN EN LA GUERRA DE MEDIO ORIENTE",
@@ -43,16 +49,10 @@
       "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
       "detail": "Para controlar el estrecho, Irán y EE UU han establecido dos puntos estratégicos a 500 kilómetros de distancia. Aun así, algunos barcos consiguen cruzar",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 07:29 UTC",
-      "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
-      "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.85 (+0.00%)",
+    "BRENT: $101.6 (+0.00%)",
     "VIX: 18.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
