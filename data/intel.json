@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-22T16:55:54.780501+00:00",
+  "updated_at": "2026-04-22T17:59:09.273987+00:00",
   "market": {
-    "brent_usd": 102.11,
+    "brent_usd": 101.5,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.44,
+    "vix": 19.24,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "22 APR 2026 · 16:45 UTC",
+      "timestamp": "22 APR 2026 · 16:58 UTC",
       "headline": "QUÉ SE SABE DE LA NUEVA TREGUA DE TRUMP CON IRÁN EN LA GUERRA DE MEDIO ORIENTE",
       "detail": "El presidente de Estados Unidos volvió a extender el alto el fuego; pese a la decisión, la Guardia Revolucionaria de Irán atacó tres buques en Ormuz; se complica el diálogo",
       "severity": "INFO"
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "22 APR 2026 · 14:50 UTC",
-      "headline": "VUELVE A SUBIR EL PETRÓLEO TRAS LOS NUEVOS ATAQUES EN ORMUZ Y LA EXTENSIÓN INDEF",
-      "detail": "Irán abrió fuego contra al menos tres buques portacontenedores en el estratégico estrecho mientras Trump prorrogaba el alto el fuego, horas antes de que expire",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "21 APR 2026 · 21:30 UTC",
       "headline": "TRUMP PRORROGA EL ALTO EL FUEGO HASTA QUE IRÁN PRESENTE UNA PROPUESTA Y CONCLUYA",
       "detail": "El presidente de EE UU extiende la tregua a pocas horas de que expire, aunque mantiene el bloqueo naval sobre Ormuz",
@@ -49,11 +43,17 @@
       "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
       "detail": "Para controlar el estrecho, Irán y EE UU han establecido dos puntos estratégicos a 500 kilómetros de distancia. Aun así, algunos barcos consiguen cruzar",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "20 APR 2026 · 07:29 UTC",
+      "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
+      "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.11 (+0.00%)",
-    "VIX: 19.44",
+    "BRENT: $101.5 (+0.00%)",
+    "VIX: 19.24",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
