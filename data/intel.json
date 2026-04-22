@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-22T09:17:16.559052+00:00",
+  "updated_at": "2026-04-22T11:02:08.458100+00:00",
   "market": {
-    "brent_usd": 94.28,
+    "brent_usd": 93.94,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.08,
+    "vix": 19.14,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.2
   },
@@ -15,10 +15,22 @@
   },
   "events": [
     {
+      "timestamp": "22 APR 2026 · 09:16 UTC",
+      "headline": "RUSSIA STRIKES UKRAINE’S ODESA PORT, KILLS RAILWAY WORKER IN ZAPORIZHIA",
+      "detail": "Ukraine's deputy prime minister says the attacks on the country's civilian infrastructure are 'another proof of terrorism'.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "22 APR 2026 · 03:20 UTC",
       "headline": "LONDRES ACOGE CONVERSACIONES MULTILATERALES PARA PROTEGER LA NAVEGACIÓN EN EL ES",
       "detail": "Reino Unido recibirá desde este miércoles a militares de unos 30 países para debatir durante dos días la formación de una misión liderada en conjunto con Francia",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: IRGC SEIZES TWO VESSELS IN STRAIT OF HORMUZ AMID US BLOCKADE",
+      "detail": "Lebanon's disaster management unit raises death toll from weeks of Israeli attacks to 2,454, with 7,658 people injured.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "21 APR 2026 · 21:30 UTC",
@@ -37,23 +49,11 @@
       "headline": "ESTADOS UNIDOS E IRÁN APROXIMAN POSTURAS PARA UNA NUEVA RONDA DE CONVERSACIONES,",
       "detail": "El vicepresidente Vance tiene previsto viajar el martes a Islamabad mientras la delegación iraní se abre a volver a sentarse en la mesa en las últimas horas del alto el fuego. Ormuz sigue cerrado",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 07:29 UTC",
-      "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
-      "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 22:13 UTC",
-      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
-      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.28 (+0.00%)",
-    "VIX: 19.08",
+    "BRENT: $93.94 (+0.00%)",
+    "VIX: 19.14",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
