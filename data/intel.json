@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-04-22T11:02:08.458100+00:00",
+  "updated_at": "2026-04-22T13:19:46.545585+00:00",
   "market": {
-    "brent_usd": 93.94,
+    "brent_usd": 93.97,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.14,
+    "vix": 19.16,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "22 APR 2026 · 13:03 UTC",
+      "headline": "QUÉ SE SABE DE LA NUEVA TREGUA DE TRUMP CON IRÁN EN LA GUERRA DE MEDIO ORIENTE",
+      "detail": "El presidente de Estados Unidos volvió a extender el alto el fuego; pese a la decisión, la Guardia Revolucionaria de Irán atacó tres buques en Ormuz; se complica el diálogo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 12:46 UTC",
+      "headline": "LA GUARDIA REVOLUCIONARIA DE IRÁN ATACA BUQUES EN ORMUZ Y COMPLICA EL DIÁLOGO CO",
+      "detail": "Fue el Ejército británico el primero en denunciar las agresiones en el estrecho clave para el transporte de crudo; horas antes, el presidente estadounidense afirmó que el régimen de Teherán está “cola",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 12:21 UTC",
+      "headline": "VUELVE A SUBIR EL PETRÓLEO TRAS LOS NUEVOS ATAQUES EN ORMUZ Y LA EXTENSIÓN INDEF",
+      "detail": "Irán abrió fuego contra al menos tres buques portacontenedores en el estratégico estrecho mientras Trump prorrogaba el alto el fuego, horas antes de que expire",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 11:20 UTC",
+      "headline": "IRÁN CAPTURA DOS BARCOS QUE INTENTABAN CRUZAR EL ESTRECHO DE ORMUZ",
+      "detail": "La represalia a las últimas acciones de Estados Unidos eleva aún más la tensión y estrecha el margen negociador",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 09:32 UTC",
+      "headline": "IRAN CAPTURES TWO VESSELS IN STRAIT OF HORMUZ AFTER SHIP COMES UNDER FIRE",
+      "detail": "The IRGC says the aggression came in response to what it described as the US's capture of an Iranian commercial vessel.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "22 APR 2026 · 09:16 UTC",
       "headline": "RUSSIA STRIKES UKRAINE’S ODESA PORT, KILLS RAILWAY WORKER IN ZAPORIZHIA",
       "detail": "Ukraine's deputy prime minister says the attacks on the country's civilian infrastructure are 'another proof of terrorism'.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 APR 2026 · 03:20 UTC",
-      "headline": "LONDRES ACOGE CONVERSACIONES MULTILATERALES PARA PROTEGER LA NAVEGACIÓN EN EL ES",
-      "detail": "Reino Unido recibirá desde este miércoles a militares de unos 30 países para debatir durante dos días la formación de una misión liderada en conjunto con Francia",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRGC SEIZES TWO VESSELS IN STRAIT OF HORMUZ AMID US BLOCKADE",
-      "detail": "Lebanon's disaster management unit raises death toll from weeks of Israeli attacks to 2,454, with 7,658 people injured.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 APR 2026 · 21:30 UTC",
-      "headline": "TRUMP PRORROGA EL ALTO EL FUEGO HASTA QUE IRÁN PRESENTE UNA PROPUESTA Y CONCLUYA",
-      "detail": "El presidente de EE UU extiende la tregua a pocas horas de que expire, aunque mantiene el bloqueo naval sobre Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 APR 2026 · 03:30 UTC",
-      "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
-      "detail": "Para controlar el estrecho, Irán y EE UU han establecido dos puntos estratégicos a 500 kilómetros de distancia. Aun así, algunos barcos consiguen cruzar",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 17:05 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN APROXIMAN POSTURAS PARA UNA NUEVA RONDA DE CONVERSACIONES,",
-      "detail": "El vicepresidente Vance tiene previsto viajar el martes a Islamabad mientras la delegación iraní se abre a volver a sentarse en la mesa en las últimas horas del alto el fuego. Ormuz sigue cerrado",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.94 (+0.00%)",
-    "VIX: 19.14",
+    "BRENT: $93.97 (+0.00%)",
+    "VIX: 19.16",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
