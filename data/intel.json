@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-22T17:59:09.273987+00:00",
+  "updated_at": "2026-04-22T19:23:45.980598+00:00",
   "market": {
-    "brent_usd": 101.5,
+    "brent_usd": 101.91,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.24,
+    "vix": 19.08,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "22 APR 2026 · 16:58 UTC",
+      "timestamp": "22 APR 2026 · 19:04 UTC",
       "headline": "QUÉ SE SABE DE LA NUEVA TREGUA DE TRUMP CON IRÁN EN LA GUERRA DE MEDIO ORIENTE",
       "detail": "El presidente de Estados Unidos volvió a extender el alto el fuego; pese a la decisión, la Guardia Revolucionaria de Irán atacó tres buques en Ormuz; se complica el diálogo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 18:12 UTC",
+      "headline": "IRÁN CAPTURA DOS BARCOS QUE INTENTABAN CRUZAR EL ESTRECHO DE ORMUZ",
+      "detail": "La represalia a las últimas acciones de Estados Unidos eleva aún más la tensión y estrecha el margen negociador",
       "severity": "INFO"
     },
     {
       "timestamp": "22 APR 2026 · 16:19 UTC",
       "headline": "US AND IRAN IN BLOCKADE STANDOFF AS PAKISTAN PUSHES FOR TALKS",
       "detail": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 APR 2026 · 15:28 UTC",
-      "headline": "IRÁN CAPTURA DOS BARCOS QUE INTENTABAN CRUZAR EL ESTRECHO DE ORMUZ",
-      "detail": "La represalia a las últimas acciones de Estados Unidos eleva aún más la tensión y estrecha el margen negociador",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.5 (+0.00%)",
-    "VIX: 19.24",
+    "BRENT: $101.91 (+0.00%)",
+    "VIX: 19.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
