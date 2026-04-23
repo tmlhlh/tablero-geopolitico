@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-23T05:27:09.255040+00:00",
+  "updated_at": "2026-04-23T07:46:20.257086+00:00",
   "market": {
-    "brent_usd": 103.3,
+    "brent_usd": 97.33,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.92,
+    "vix": 19.46,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -27,18 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "22 APR 2026 · 23:46 UTC",
-      "headline": "TENSIÓN POR UN ATAQUE: INCENDIARON UN CAMIÓN Y APUNTAN A UNA INTERNA GREMIAL",
-      "detail": "El hecho ocurrió en una playa privada de Necochea; fuentes del municipio lo vincularon a disputas por la distribución de cargas en pleno paro del transporte de granos que afecta al puerto de Quequén",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 APR 2026 · 23:35 UTC",
-      "headline": "QUÉ SE SABE DE LA NUEVA TREGUA DE TRUMP CON IRÁN EN LA GUERRA DE MEDIO ORIENTE",
-      "detail": "El presidente de Estados Unidos volvió a extender el alto el fuego; pese a la decisión, la Guardia Revolucionaria de Irán atacó tres buques en Ormuz; se complica el diálogo",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "22 APR 2026 · 18:12 UTC",
       "headline": "IRÁN CAPTURA DOS BARCOS QUE INTENTABAN CRUZAR EL ESTRECHO DE ORMUZ",
       "detail": "La represalia a las últimas acciones de Estados Unidos eleva aún más la tensión y estrecha el margen negociador",
@@ -49,11 +37,23 @@
       "headline": "US AND IRAN IN BLOCKADE STANDOFF AS PAKISTAN PUSHES FOR TALKS",
       "detail": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "20 APR 2026 · 07:29 UTC",
+      "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
+      "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 22:13 UTC",
+      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
+      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.3 (+0.00%)",
-    "VIX: 18.92",
+    "BRENT: $97.33 (+0.00%)",
+    "VIX: 19.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
