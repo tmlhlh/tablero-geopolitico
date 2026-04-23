@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-23T09:24:33.514379+00:00",
+  "updated_at": "2026-04-23T11:05:03.825578+00:00",
   "market": {
-    "brent_usd": 98.66,
+    "brent_usd": 97.66,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.95,
+    "vix": 19.71,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.5
+    "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 APR 2026 · 10:04 UTC",
+      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
+      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 APR 2026 · 03:45 UTC",
       "headline": "LA ‘FLOTA MOSQUITO’ DE IRÁN LLEVA AL ESTRECHO DE ORMUZ LA GUERRA DE GUERRILLAS",
@@ -43,17 +49,11 @@
       "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
       "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "19 APR 2026 · 22:13 UTC",
-      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
-      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.66 (+0.00%)",
-    "VIX: 19.95",
+    "BRENT: $97.66 (+0.00%)",
+    "VIX: 19.71",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
