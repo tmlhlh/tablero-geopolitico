@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-23T02:22:47.023351+00:00",
+  "updated_at": "2026-04-23T05:27:09.255040+00:00",
   "market": {
-    "brent_usd": 102.61,
+    "brent_usd": 103.3,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 APR 2026 · 03:45 UTC",
+      "headline": "LA ‘FLOTA MOSQUITO’ DE IRÁN LLEVA AL ESTRECHO DE ORMUZ LA GUERRA DE GUERRILLAS",
+      "detail": "La captura de dos grandes buques por parte de lanchas rápidas de la Guardia Revolucionaria recuerda su papel crucial en el bloqueo de esa arteria marítima",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 APR 2026 · 00:40 UTC",
       "headline": "IRAN RELEASES VIDEO OF IRGC SEIZING SHIP IN THE STRAIT OF HORMUZ",
@@ -43,16 +49,10 @@
       "headline": "US AND IRAN IN BLOCKADE STANDOFF AS PAKISTAN PUSHES FOR TALKS",
       "detail": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 APR 2026 · 21:30 UTC",
-      "headline": "TRUMP PRORROGA EL ALTO EL FUEGO HASTA QUE IRÁN PRESENTE UNA PROPUESTA Y CONCLUYA",
-      "detail": "El presidente de EE UU extiende la tregua a pocas horas de que expire, aunque mantiene el bloqueo naval sobre Ormuz",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.61 (+0.00%)",
+    "BRENT: $103.3 (+0.00%)",
     "VIX: 18.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
