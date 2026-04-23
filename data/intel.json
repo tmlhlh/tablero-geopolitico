@@ -1,24 +1,30 @@
 {
-  "updated_at": "2026-04-23T13:20:58.935745+00:00",
+  "updated_at": "2026-04-23T15:49:44.984712+00:00",
   "market": {
-    "brent_usd": 102.53,
+    "brent_usd": 103.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 19.31,
+    "ormuz_flow_pct": 7.4,
+    "vix": 18.88,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.4%"
   },
   "events": [
     {
-      "timestamp": "23 APR 2026 · 13:11 UTC",
-      "headline": "LA FILOSA ADVERTENCIA DE TRUMP A TODAS LAS EMBARCACIONES QUE COLOQUEN MINAS EN E",
-      "detail": "El presidente estadounidense además aseguró que los dragaminas estaban trabajando “al triple de su capacidad habitual”",
+      "timestamp": "23 APR 2026 · 14:58 UTC",
+      "headline": "US TO ‘SHOOT AND KILL’ IRANIAN BOATS LAYING MINES IN HORMUZ, TRUMP SAYS",
+      "detail": "US says it intercepted another tanker carrying Iranian oil as Trump underscores alleged infighting within Iran's leadership.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 APR 2026 · 14:57 UTC",
+      "headline": "ESTAFAN CON CRIPTOMONEDAS A LOS BARCOS QUE QUIEREN TRANSITAR EL ESTRECHO DE ORMU",
+      "detail": "El gobierno iraní autoriza la circulación de barcos por el estrecho tras un pago en criptomonedas, pero al menos un barco fue estafado por alguien que se hizo pasar por una autoridad y se quedó con el",
+      "severity": "INFO"
     },
     {
       "timestamp": "23 APR 2026 · 11:57 UTC",
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "22 APR 2026 · 18:12 UTC",
-      "headline": "IRÁN CAPTURA DOS BARCOS QUE INTENTABAN CRUZAR EL ESTRECHO DE ORMUZ",
-      "detail": "La represalia a las últimas acciones de Estados Unidos eleva aún más la tensión y estrecha el margen negociador",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "22 APR 2026 · 16:19 UTC",
       "headline": "US AND IRAN IN BLOCKADE STANDOFF AS PAKISTAN PUSHES FOR TALKS",
       "detail": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.53 (+0.00%)",
-    "VIX: 19.31",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $103.41 (+0.00%)",
+    "VIX: 18.88",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.4%"
   ]
 }
