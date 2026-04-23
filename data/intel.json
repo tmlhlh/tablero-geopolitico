@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-04-23T21:42:23.815206+00:00",
+  "updated_at": "2026-04-23T22:40:27.132336+00:00",
   "market": {
-    "brent_usd": 106.47,
+    "brent_usd": 106.15,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 6.3,
+    "ormuz_flow_pct": 3.0,
     "vix": 19.31,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 6.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
@@ -33,6 +33,12 @@
       "severity": "CRÍTICO"
     },
     {
+      "timestamp": "23 APR 2026 · 20:45 UTC",
+      "headline": "US BOARDS SHIP CARRYING IRAN OIL AS TRUMP THREATENS MINE-LAYING VESSELS",
+      "detail": "Central Command said it has intercepted 33 vessels since imposing a blockade on ships coming to and from Iran.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "23 APR 2026 · 17:19 UTC",
       "headline": "TRUMP ORDENA “DISPARAR A MATAR” A LOS BARCOS QUE MINEN ORMUZ Y DICE QUE IRÁN NO ",
       "detail": "Israel espera “luz verde” de EE UU para matar al líder supremo del régimen de Teherán y devolver el país “a la Edad de Piedra”. La segunda ronda de las negociaciones entre Washington y Teherán sigue s",
@@ -43,17 +49,11 @@
       "headline": "US-ISRAELI WAR ON IRAN WILL PUSH 30 MILLION BACK INTO POVERTY, UN WARNS",
       "detail": "Disruption to fuel and fertiliser supplies due to the Strait of Hormuz closure will hit crop yields, UNDP chief warns.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 APR 2026 · 11:57 UTC",
-      "headline": "LA ‘FLOTA MOSQUITO’ DE IRÁN LLEVA AL ESTRECHO DE ORMUZ LA GUERRA DE GUERRILLAS",
-      "detail": "La captura de dos grandes buques por parte de lanchas rápidas de la Guardia Revolucionaria recuerda su papel crucial en el bloqueo de esa arteria marítima",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.47 (+0.00%)",
+    "BRENT: $106.15 (+0.00%)",
     "VIX: 19.31",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 6.3%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
