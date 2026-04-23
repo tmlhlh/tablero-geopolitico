@@ -1,35 +1,41 @@
 {
-  "updated_at": "2026-04-23T11:05:03.825578+00:00",
+  "updated_at": "2026-04-23T13:20:58.935745+00:00",
   "market": {
-    "brent_usd": 97.66,
+    "brent_usd": 102.53,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.71,
+    "vix": 19.31,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "23 APR 2026 · 10:04 UTC",
-      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
-      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
-      "severity": "INFO"
+      "timestamp": "23 APR 2026 · 13:11 UTC",
+      "headline": "LA FILOSA ADVERTENCIA DE TRUMP A TODAS LAS EMBARCACIONES QUE COLOQUEN MINAS EN E",
+      "detail": "El presidente estadounidense además aseguró que los dragaminas estaban trabajando “al triple de su capacidad habitual”",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 APR 2026 · 03:45 UTC",
+      "timestamp": "23 APR 2026 · 11:57 UTC",
       "headline": "LA ‘FLOTA MOSQUITO’ DE IRÁN LLEVA AL ESTRECHO DE ORMUZ LA GUERRA DE GUERRILLAS",
       "detail": "La captura de dos grandes buques por parte de lanchas rápidas de la Guardia Revolucionaria recuerda su papel crucial en el bloqueo de esa arteria marítima",
       "severity": "INFO"
     },
     {
-      "timestamp": "23 APR 2026 · 00:40 UTC",
-      "headline": "IRAN RELEASES VIDEO OF IRGC SEIZING SHIP IN THE STRAIT OF HORMUZ",
-      "detail": "Iran’s revolutionary guard has released a video said to show its forces seizing a ship in the Strait of Hormuz.",
+      "timestamp": "23 APR 2026 · 11:25 UTC",
+      "headline": "HOW IRAN RAISED HORMUZ STAKES BY CAPTURING SHIPS",
+      "detail": "After the US and Israel launched a war on Iran on February 28, Tehran blocked the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 APR 2026 · 10:04 UTC",
+      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
+      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "US AND IRAN IN BLOCKADE STANDOFF AS PAKISTAN PUSHES FOR TALKS",
       "detail": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 APR 2026 · 07:29 UTC",
-      "headline": "US RELEASES VIDEO OF FORCES SEIZING IRANIAN SHIP",
-      "detail": "The US has intercepted an Iranian-flagged cargo ship in the Gulf as part of its naval blockade, Donald Trump has said.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.66 (+0.00%)",
-    "VIX: 19.71",
+    "BRENT: $102.53 (+0.00%)",
+    "VIX: 19.31",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
