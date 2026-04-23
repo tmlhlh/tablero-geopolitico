@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-22T23:42:33.782924+00:00",
+  "updated_at": "2026-04-23T02:22:47.023351+00:00",
   "market": {
-    "brent_usd": 101.45,
+    "brent_usd": 102.61,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,16 +15,22 @@
   },
   "events": [
     {
+      "timestamp": "23 APR 2026 · 00:40 UTC",
+      "headline": "IRAN RELEASES VIDEO OF IRGC SEIZING SHIP IN THE STRAIT OF HORMUZ",
+      "detail": "Iran’s revolutionary guard has released a video said to show its forces seizing a ship in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 APR 2026 · 23:46 UTC",
+      "headline": "TENSIÓN POR UN ATAQUE: INCENDIARON UN CAMIÓN Y APUNTAN A UNA INTERNA GREMIAL",
+      "detail": "El hecho ocurrió en una playa privada de Necochea; fuentes del municipio lo vincularon a disputas por la distribución de cargas en pleno paro del transporte de granos que afecta al puerto de Quequén",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "22 APR 2026 · 23:35 UTC",
       "headline": "QUÉ SE SABE DE LA NUEVA TREGUA DE TRUMP CON IRÁN EN LA GUERRA DE MEDIO ORIENTE",
       "detail": "El presidente de Estados Unidos volvió a extender el alto el fuego; pese a la decisión, la Guardia Revolucionaria de Irán atacó tres buques en Ormuz; se complica el diálogo",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "22 APR 2026 · 22:26 UTC",
-      "headline": "TENSIÓN POR UN ATAQUE: INCENDIARON UN CAMIÓN Y APUNTAN A UNA INTERNA GREMIAL",
-      "detail": "El hecho ocurrió en una playa privada de Necochea; fuentes del municipio lo vincularon a disputas por la distribución de cargas en pleno paro del transporte de granos que afecta al puerto de Quequén",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "22 APR 2026 · 18:12 UTC",
@@ -43,16 +49,10 @@
       "headline": "TRUMP PRORROGA EL ALTO EL FUEGO HASTA QUE IRÁN PRESENTE UNA PROPUESTA Y CONCLUYA",
       "detail": "El presidente de EE UU extiende la tregua a pocas horas de que expire, aunque mantiene el bloqueo naval sobre Ormuz",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 APR 2026 · 03:30 UTC",
-      "headline": "MAPAS | CÓMO FUNCIONA EL BLOQUEO DE ORMUZ Y POR QUÉ ALGUNOS BUQUES PASAN Y OTROS",
-      "detail": "Para controlar el estrecho, Irán y EE UU han establecido dos puntos estratégicos a 500 kilómetros de distancia. Aun así, algunos barcos consiguen cruzar",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.45 (+0.00%)",
+    "BRENT: $102.61 (+0.00%)",
     "VIX: 18.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
