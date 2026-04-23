@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-23T19:03:30.934225+00:00",
+  "updated_at": "2026-04-23T20:48:47.463572+00:00",
   "market": {
-    "brent_usd": 105.23,
+    "brent_usd": 106.25,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.47,
+    "vix": 19.31,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "23 APR 2026 · 18:40 UTC",
+      "timestamp": "23 APR 2026 · 20:41 UTC",
       "headline": "POR QUÉ LOS NUEVOS ATAQUES EN EL ESTRECHO DE ORMUZ “NO ROMPEN EL CESE AL FUEGO”,",
       "detail": "En diálogo con LN+, Andrés Repetto profundizó en la toma de un buque contenedor por parte del régimen iraní en medio de una extensión del cese al fuego anunciada por Donald Trump",
       "severity": "CRÍTICO"
@@ -23,7 +23,7 @@
     {
       "timestamp": "23 APR 2026 · 17:19 UTC",
       "headline": "TRUMP ORDENA “DISPARAR A MATAR” A LOS BARCOS QUE MINEN ORMUZ Y DICE QUE IRÁN NO ",
-      "detail": "El presidente de Estados Unidos eleva el tono de sus amenazas mientras sigue sin haber una fecha para la reanudación de las conversaciones o para el fin del ultimátum a Teherán",
+      "detail": "Israel espera “luz verde” de EE UU para matar al líder supremo del régimen de Teherán y devolver el país “a la Edad de Piedra”. La segunda ronda de las negociaciones entre Washington y Teherán sigue s",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.23 (+0.00%)",
-    "VIX: 19.47",
+    "BRENT: $106.25 (+0.00%)",
+    "VIX: 19.31",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
