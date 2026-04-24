@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T21:43:34.334989+00:00",
+  "updated_at": "2026-04-24T22:36:13.598335+00:00",
   "market": {
     "brent_usd": 99.78,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 APR 2026 · 22:10 UTC",
+      "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó los posibles escenarios de acción por parte del régimen iraní en medio de una escalada del conflicto en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 APR 2026 · 17:53 UTC",
       "headline": "LA UE ASEGURA QUE SERÁ “PARTE DE LA SOLUCIÓN” EN ORIENTE PRÓXIMO PERO BAJO LA BA",
@@ -30,12 +36,6 @@
       "timestamp": "24 APR 2026 · 16:04 UTC",
       "headline": "US HAS THREE AIRCRAFT CARRIERS IN THE MIDDLE EAST FOR FIRST TIME SINCE 2003",
       "detail": "As tensions ramp up amid fragile truce, US military says it 'redirected' 34 vessels as part of blockade on Iran's ports.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 APR 2026 · 15:00 UTC",
-      "headline": "IRAN-IRAQ TANKER WAR REDUX? WHY THE STRAIT OF HORMUZ CRISIS IS DIFFERENT",
-      "detail": "The Tanker War between Iran and Iraq in the 1980s also disrupted global shipping. But the situation today is different.",
       "severity": "INFO"
     },
     {
