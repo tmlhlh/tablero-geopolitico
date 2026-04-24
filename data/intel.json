@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-04-24T13:16:33.871430+00:00",
+  "updated_at": "2026-04-24T15:05:20.083825+00:00",
   "market": {
-    "brent_usd": 99.07,
+    "brent_usd": 99.14,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.98,
+    "vix": 18.69,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "24 APR 2026 · 12:51 UTC",
+      "timestamp": "24 APR 2026 · 14:57 UTC",
       "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó los posibles escenarios de acción por parte del régimen iraní en medio de una escalada del conflicto en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 14:33 UTC",
+      "headline": "US NAVY AUTHORISED TO TARGET IRANIAN FAST BOATS IN STRAIT OF HORMUZ",
+      "detail": "Hegseth says President Trump authorised the navy to target Iranian fast boats in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 13:50 UTC",
+      "headline": "CÓMO LA GUERRA EN IRÁN PASÓ DE LOS BOMBARDEOS A UNA PRUEBA DE VOLUNTADES",
+      "detail": "El conflicto deriva en un pulso volátil en el estrecho de Ormuz, con costos económicos en alza y presión política creciente para Donald Trump",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "US BOARDS SHIP CARRYING IRAN OIL AS TRUMP THREATENS MINE-LAYING VESSELS",
       "detail": "Central Command said it has intercepted 33 vessels since imposing a blockade on ships coming to and from Iran.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 APR 2026 · 17:19 UTC",
-      "headline": "TRUMP ORDENA “DISPARAR A MATAR” A LOS BARCOS QUE MINEN ORMUZ Y DICE QUE IRÁN NO ",
-      "detail": "Israel espera “luz verde” de EE UU para matar al líder supremo del régimen de Teherán y devolver el país “a la Edad de Piedra”. La segunda ronda de las negociaciones entre Washington y Teherán sigue s",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 APR 2026 · 10:04 UTC",
-      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
-      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.07 (+0.00%)",
-    "VIX: 18.98",
+    "BRENT: $99.14 (+0.00%)",
+    "VIX: 18.69",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
