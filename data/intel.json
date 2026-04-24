@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-04-24T02:23:34.444795+00:00",
+  "updated_at": "2026-04-24T05:31:49.136477+00:00",
   "market": {
-    "brent_usd": 106.29,
+    "brent_usd": 105.54,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.1,
+    "ormuz_flow_pct": 8.5,
     "vix": 19.31,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.1%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 APR 2026 · 05:00 UTC",
+      "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó los posibles escenarios de acción por parte del régimen iraní en medio de una escalada del conflicto en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 02:50 UTC",
+      "headline": "OIL RISES ABOVE $106 PER BARREL AS US, IRAN DEADLOCKED IN STRAIT OF HORMUZ",
+      "detail": "Jump in prices comes as Donald Trump says vessels will need permission of US Navy to transit key waterway.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 APR 2026 · 00:55 UTC",
       "headline": "POR QUÉ LOS NUEVOS ATAQUES EN EL ESTRECHO DE ORMUZ “NO ROMPEN EL CESE AL FUEGO”,",
@@ -37,23 +49,11 @@
       "headline": "TRUMP ORDENA “DISPARAR A MATAR” A LOS BARCOS QUE MINEN ORMUZ Y DICE QUE IRÁN NO ",
       "detail": "Israel espera “luz verde” de EE UU para matar al líder supremo del régimen de Teherán y devolver el país “a la Edad de Piedra”. La segunda ronda de las negociaciones entre Washington y Teherán sigue s",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 APR 2026 · 11:57 UTC",
-      "headline": "LA ‘FLOTA MOSQUITO’ DE IRÁN LLEVA AL ESTRECHO DE ORMUZ LA GUERRA DE GUERRILLAS",
-      "detail": "La captura de dos grandes buques por parte de lanchas rápidas de la Guardia Revolucionaria recuerda su papel crucial en el bloqueo de esa arteria marítima",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 APR 2026 · 10:04 UTC",
-      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
-      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.29 (+0.00%)",
+    "BRENT: $105.54 (+0.00%)",
     "VIX: 19.31",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.1%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
