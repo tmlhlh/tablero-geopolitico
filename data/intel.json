@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-24T20:42:37.776456+00:00",
+  "updated_at": "2026-04-24T21:43:34.334989+00:00",
   "market": {
-    "brent_usd": 100.17,
+    "brent_usd": 99.78,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -39,20 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "24 APR 2026 · 14:33 UTC",
-      "headline": "US NAVY AUTHORISED TO TARGET IRANIAN FAST BOATS IN STRAIT OF HORMUZ",
-      "detail": "Hegseth says President Trump authorised the navy to target Iranian fast boats in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "24 APR 2026 · 09:26 UTC",
       "headline": "'A DANGEROUS STANDOFF' AS STRAIT OF HORMUZ BLOCKADE CONTINUES",
       "detail": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 APR 2026 · 10:04 UTC",
+      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
+      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.17 (+0.00%)",
+    "BRENT: $99.78 (+0.00%)",
     "VIX: 18.71",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
