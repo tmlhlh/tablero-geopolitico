@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-04-24T11:03:54.513000+00:00",
+  "updated_at": "2026-04-24T13:16:33.871430+00:00",
   "market": {
-    "brent_usd": 100.42,
+    "brent_usd": 99.07,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.17,
+    "vix": 18.98,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "24 APR 2026 · 09:26 UTC",
-      "headline": "'A DANGEROUS STANDOFF' AS STRAIT OF HORMUZ BLOCKADE CONTINUES",
-      "detail": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 APR 2026 · 05:00 UTC",
+      "timestamp": "24 APR 2026 · 12:51 UTC",
       "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó los posibles escenarios de acción por parte del régimen iraní en medio de una escalada del conflicto en el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "24 APR 2026 · 02:50 UTC",
-      "headline": "OIL RISES ABOVE $106 PER BARREL AS US, IRAN DEADLOCKED IN STRAIT OF HORMUZ",
-      "detail": "Jump in prices comes as Donald Trump says vessels will need permission of US Navy to transit key waterway.",
+      "timestamp": "24 APR 2026 · 11:26 UTC",
+      "headline": "HOW LONG CAN IRAN SURVIVE THE US’S HORMUZ BLOCKADE?",
+      "detail": "And just how long can the US hold out?",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 09:26 UTC",
+      "headline": "'A DANGEROUS STANDOFF' AS STRAIT OF HORMUZ BLOCKADE CONTINUES",
+      "detail": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.42 (+0.00%)",
-    "VIX: 19.17",
+    "BRENT: $99.07 (+0.00%)",
+    "VIX: 18.98",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
