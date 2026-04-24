@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-24T19:49:57.468345+00:00",
+  "updated_at": "2026-04-24T20:42:37.776456+00:00",
   "market": {
-    "brent_usd": 99.82,
+    "brent_usd": 100.17,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.65,
+    "vix": 18.71,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "24 APR 2026 · 18:32 UTC",
-      "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó los posibles escenarios de acción por parte del régimen iraní en medio de una escalada del conflicto en el estrecho de Ormuz",
-      "severity": "INFO"
-    },
     {
       "timestamp": "24 APR 2026 · 17:53 UTC",
       "headline": "LA UE ASEGURA QUE SERÁ “PARTE DE LA SOLUCIÓN” EN ORIENTE PRÓXIMO PERO BAJO LA BA",
@@ -49,11 +43,17 @@
       "headline": "US NAVY AUTHORISED TO TARGET IRANIAN FAST BOATS IN STRAIT OF HORMUZ",
       "detail": "Hegseth says President Trump authorised the navy to target Iranian fast boats in the Strait of Hormuz.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 09:26 UTC",
+      "headline": "'A DANGEROUS STANDOFF' AS STRAIT OF HORMUZ BLOCKADE CONTINUES",
+      "detail": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.82 (+0.00%)",
-    "VIX: 18.65",
+    "BRENT: $100.17 (+0.00%)",
+    "VIX: 18.71",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
