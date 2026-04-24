@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-24T09:47:51.888425+00:00",
+  "updated_at": "2026-04-24T11:03:54.513000+00:00",
   "market": {
-    "brent_usd": 101.09,
+    "brent_usd": 100.42,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.29,
+    "vix": 19.17,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 APR 2026 · 09:26 UTC",
+      "headline": "'A DANGEROUS STANDOFF' AS STRAIT OF HORMUZ BLOCKADE CONTINUES",
+      "detail": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 APR 2026 · 05:00 UTC",
       "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
@@ -25,12 +31,6 @@
       "headline": "OIL RISES ABOVE $106 PER BARREL AS US, IRAN DEADLOCKED IN STRAIT OF HORMUZ",
       "detail": "Jump in prices comes as Donald Trump says vessels will need permission of US Navy to transit key waterway.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 APR 2026 · 00:55 UTC",
-      "headline": "POR QUÉ LOS NUEVOS ATAQUES EN EL ESTRECHO DE ORMUZ “NO ROMPEN EL CESE AL FUEGO”,",
-      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la toma de un buque contenedor por parte del régimen iraní en medio de una extensión del cese al fuego anunciada por Donald Trump",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "23 APR 2026 · 20:45 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.09 (+0.00%)",
-    "VIX: 19.29",
+    "BRENT: $100.42 (+0.00%)",
+    "VIX: 19.17",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
