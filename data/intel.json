@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-24T07:58:01.551539+00:00",
+  "updated_at": "2026-04-24T09:47:51.888425+00:00",
   "market": {
-    "brent_usd": 100.4,
+    "brent_usd": 101.09,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.99,
+    "vix": 19.29,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 APR 2026 · 20:53 UTC",
-      "headline": "TRUMP SAYS HE IS KEEPING STRAIT OF HORMUZ CLOSED, NOT IRAN",
-      "detail": "Donald Trump said he is the one keeping the Strait of Hormuz closed, not Iran.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "23 APR 2026 · 20:45 UTC",
       "headline": "US BOARDS SHIP CARRYING IRAN OIL AS TRUMP THREATENS MINE-LAYING VESSELS",
       "detail": "Central Command said it has intercepted 33 vessels since imposing a blockade on ships coming to and from Iran.",
@@ -49,11 +43,17 @@
       "headline": "TRUMP ORDENA “DISPARAR A MATAR” A LOS BARCOS QUE MINEN ORMUZ Y DICE QUE IRÁN NO ",
       "detail": "Israel espera “luz verde” de EE UU para matar al líder supremo del régimen de Teherán y devolver el país “a la Edad de Piedra”. La segunda ronda de las negociaciones entre Washington y Teherán sigue s",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 APR 2026 · 10:04 UTC",
+      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
+      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.4 (+0.00%)",
-    "VIX: 18.99",
+    "BRENT: $101.09 (+0.00%)",
+    "VIX: 19.29",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
