@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-23T23:41:43.222135+00:00",
+  "updated_at": "2026-04-24T02:23:34.444795+00:00",
   "market": {
-    "brent_usd": 106.25,
+    "brent_usd": 106.29,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.4,
+    "ormuz_flow_pct": 8.1,
     "vix": 19.31,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.1%"
   },
   "events": [
+    {
+      "timestamp": "24 APR 2026 · 00:55 UTC",
+      "headline": "POR QUÉ LOS NUEVOS ATAQUES EN EL ESTRECHO DE ORMUZ “NO ROMPEN EL CESE AL FUEGO”,",
+      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la toma de un buque contenedor por parte del régimen iraní en medio de una extensión del cese al fuego anunciada por Donald Trump",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 APR 2026 · 20:53 UTC",
       "headline": "TRUMP SAYS HE IS KEEPING STRAIT OF HORMUZ CLOSED, NOT IRAN",
@@ -43,17 +49,11 @@
       "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
       "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "22 APR 2026 · 16:19 UTC",
-      "headline": "US AND IRAN IN BLOCKADE STANDOFF AS PAKISTAN PUSHES FOR TALKS",
-      "detail": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.25 (+0.00%)",
+    "BRENT: $106.29 (+0.00%)",
     "VIX: 19.31",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.4%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.1%"
   ]
 }
