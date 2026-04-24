@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-24T15:05:20.083825+00:00",
+  "updated_at": "2026-04-24T16:52:15.371543+00:00",
   "market": {
-    "brent_usd": 99.14,
+    "brent_usd": 98.9,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.69,
+    "vix": 18.77,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
@@ -15,9 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "24 APR 2026 · 14:57 UTC",
+      "timestamp": "24 APR 2026 · 16:18 UTC",
       "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó los posibles escenarios de acción por parte del régimen iraní en medio de una escalada del conflicto en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 16:04 UTC",
+      "headline": "US HAS THREE AIRCRAFT CARRIERS IN THE MIDDLE EAST FOR FIRST TIME SINCE 2003",
+      "detail": "As tensions ramp up amid fragile truce, US military says it 'redirected' 34 vessels as part of blockade on Iran's ports.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 15:49 UTC",
+      "headline": "CÓMO LA GUERRA EN IRÁN PASÓ DE LOS BOMBARDEOS A UNA PRUEBA DE VOLUNTADES",
+      "detail": "El conflicto deriva en un pulso volátil en el estrecho de Ormuz, con costos económicos en alza y presión política creciente para Donald Trump",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 15:00 UTC",
+      "headline": "IRAN-IRAQ TANKER WAR REDUX? WHY THE STRAIT OF HORMUZ CRISIS IS DIFFERENT",
+      "detail": "The Tanker War between Iran and Iraq in the 1980s also disrupted global shipping. But the situation today is different.",
       "severity": "INFO"
     },
     {
@@ -27,33 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "24 APR 2026 · 13:50 UTC",
-      "headline": "CÓMO LA GUERRA EN IRÁN PASÓ DE LOS BOMBARDEOS A UNA PRUEBA DE VOLUNTADES",
-      "detail": "El conflicto deriva en un pulso volátil en el estrecho de Ormuz, con costos económicos en alza y presión política creciente para Donald Trump",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "24 APR 2026 · 11:26 UTC",
       "headline": "HOW LONG CAN IRAN SURVIVE THE US’S HORMUZ BLOCKADE?",
       "detail": "And just how long can the US hold out?",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 APR 2026 · 09:26 UTC",
-      "headline": "'A DANGEROUS STANDOFF' AS STRAIT OF HORMUZ BLOCKADE CONTINUES",
-      "detail": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 APR 2026 · 20:45 UTC",
-      "headline": "US BOARDS SHIP CARRYING IRAN OIL AS TRUMP THREATENS MINE-LAYING VESSELS",
-      "detail": "Central Command said it has intercepted 33 vessels since imposing a blockade on ships coming to and from Iran.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.14 (+0.00%)",
-    "VIX: 18.69",
+    "BRENT: $98.9 (+0.00%)",
+    "VIX: 18.77",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
