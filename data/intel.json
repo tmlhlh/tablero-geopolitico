@@ -1,21 +1,27 @@
 {
-  "updated_at": "2026-04-24T16:52:15.371543+00:00",
+  "updated_at": "2026-04-24T17:47:12.730514+00:00",
   "market": {
-    "brent_usd": 98.9,
+    "brent_usd": 98.15,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 18.77,
+    "ormuz_flow_pct": 8.1,
+    "vix": 18.76,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.1%"
   },
   "events": [
     {
-      "timestamp": "24 APR 2026 · 16:18 UTC",
+      "timestamp": "24 APR 2026 · 17:02 UTC",
+      "headline": "US TO ‘SHOOT AND KILL’ IRANIAN MINE-LAYING BOATS IN STRAIT OF HORMUZ – TRUMP",
+      "detail": "Donald Trump has threatened lethal force against Iranian mine-laying boats in the Strait of Hormuz and claimed total control of the waterway Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 17:00 UTC",
       "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
       "detail": "En diálogo con LN+, Andrés Repetto analizó los posibles escenarios de acción por parte del régimen iraní en medio de una escalada del conflicto en el estrecho de Ormuz",
       "severity": "INFO"
@@ -24,12 +30,6 @@
       "timestamp": "24 APR 2026 · 16:04 UTC",
       "headline": "US HAS THREE AIRCRAFT CARRIERS IN THE MIDDLE EAST FOR FIRST TIME SINCE 2003",
       "detail": "As tensions ramp up amid fragile truce, US military says it 'redirected' 34 vessels as part of blockade on Iran's ports.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 APR 2026 · 15:49 UTC",
-      "headline": "CÓMO LA GUERRA EN IRÁN PASÓ DE LOS BOMBARDEOS A UNA PRUEBA DE VOLUNTADES",
-      "detail": "El conflicto deriva en un pulso volátil en el estrecho de Ormuz, con costos económicos en alza y presión política creciente para Donald Trump",
       "severity": "INFO"
     },
     {
@@ -45,15 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "24 APR 2026 · 11:26 UTC",
-      "headline": "HOW LONG CAN IRAN SURVIVE THE US’S HORMUZ BLOCKADE?",
-      "detail": "And just how long can the US hold out?",
+      "timestamp": "24 APR 2026 · 09:26 UTC",
+      "headline": "'A DANGEROUS STANDOFF' AS STRAIT OF HORMUZ BLOCKADE CONTINUES",
+      "detail": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $98.9 (+0.00%)",
-    "VIX: 18.77",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $98.15 (+0.00%)",
+    "VIX: 18.76",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.1%"
   ]
 }
