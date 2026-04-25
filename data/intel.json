@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T14:03:41.228071+00:00",
+  "updated_at": "2026-04-25T15:36:50.709342+00:00",
   "market": {
     "brent_usd": 99.13,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "25 APR 2026 · 14:27 UTC",
+      "headline": "AFRICAN GOVERNMENTS NEED TO TAKE URGENT ACTION ON FERTILISER SHORTAGES",
+      "detail": "Tensions in the Strait of Hormuz have slowed fertiliser shipments which could put harvests at risk.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 APR 2026 · 17:53 UTC",
       "headline": "LA UE ASEGURA QUE SERÁ “PARTE DE LA SOLUCIÓN” EN ORIENTE PRÓXIMO PERO BAJO LA BA",
@@ -39,16 +45,10 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 APR 2026 · 14:03 UTC",
+      "timestamp": "25 APR 2026 · 15:36 UTC",
       "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
       "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 APR 2026 · 14:03 UTC",
-      "headline": "CHINA, THE UNITED STATES, AND JAPAN HOLD MOST STRATEGIC OIL INVENTORIES IN 2025",
-      "detail": "In the 1970s, the United States and other OECD countries established strategic oil stocks aimed at mitigating the impact of supply disruptions. In March 2026, the United States, along with other membe",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
