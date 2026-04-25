@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T10:40:14.191304+00:00",
+  "updated_at": "2026-04-25T11:35:58.734732+00:00",
   "market": {
     "brent_usd": 99.13,
     "brent_chg": 0.0
@@ -39,16 +39,16 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "19 APR 2026 · 22:13 UTC",
-      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
-      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 APR 2026 · 10:40 UTC",
+      "timestamp": "25 APR 2026 · 11:35 UTC",
       "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
       "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 APR 2026 · 11:35 UTC",
+      "headline": "CHINA, THE UNITED STATES, AND JAPAN HOLD MOST STRATEGIC OIL INVENTORIES IN 2025",
+      "detail": "In the 1970s, the United States and other OECD countries established strategic oil stocks aimed at mitigating the impact of supply disruptions. In March 2026, the United States, along with other membe",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
