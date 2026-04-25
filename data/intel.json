@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-25T02:05:08.339290+00:00",
+  "updated_at": "2026-04-25T05:08:54.630696+00:00",
   "market": {
-    "brent_usd": 99.78,
+    "brent_usd": 99.13,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "24 APR 2026 · 22:10 UTC",
-      "headline": "EN QUÉ CONSISTE LA NUEVA ESTRATEGIA DEL RÉGIMEN IRANÍ, A CASI DOS MESES DE INICI",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó los posibles escenarios de acción por parte del régimen iraní en medio de una escalada del conflicto en el estrecho de Ormuz",
-      "severity": "INFO"
+      "timestamp": "25 APR 2026 · 02:30 UTC",
+      "headline": "HALLAZGO HISTÓRICO: VIERON UN TROZO DE MADERA SOBRESALIR EN LA ARENA Y ERA UN NA",
+      "detail": "Parks Canada descubrió en Sable Island restos de un barco hundido en 1812 bajo las dunas; qué evidencias lo vinculan con el sloop Swift y cómo lo preservaron",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "24 APR 2026 · 17:53 UTC",
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "24 APR 2026 · 16:04 UTC",
-      "headline": "US HAS THREE AIRCRAFT CARRIERS IN THE MIDDLE EAST FOR FIRST TIME SINCE 2003",
-      "detail": "As tensions ramp up amid fragile truce, US military says it 'redirected' 34 vessels as part of blockade on Iran's ports.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "24 APR 2026 · 09:26 UTC",
       "headline": "'A DANGEROUS STANDOFF' AS STRAIT OF HORMUZ BLOCKADE CONTINUES",
       "detail": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
@@ -49,10 +43,16 @@
       "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
       "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "19 APR 2026 · 22:13 UTC",
+      "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
+      "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.78 (+0.00%)",
+    "BRENT: $99.13 (+0.00%)",
     "VIX: 18.71",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
