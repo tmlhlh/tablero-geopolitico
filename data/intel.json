@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T09:49:59.174340+00:00",
+  "updated_at": "2026-04-25T10:40:14.191304+00:00",
   "market": {
     "brent_usd": 99.13,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "25 APR 2026 · 02:30 UTC",
-      "headline": "HALLAZGO HISTÓRICO: VIERON UN TROZO DE MADERA SOBRESALIR EN LA ARENA Y ERA UN NA",
-      "detail": "Parks Canada descubrió en Sable Island restos de un barco hundido en 1812 bajo las dunas; qué evidencias lo vinculan con el sloop Swift y cómo lo preservaron",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "24 APR 2026 · 17:53 UTC",
       "headline": "LA UE ASEGURA QUE SERÁ “PARTE DE LA SOLUCIÓN” EN ORIENTE PRÓXIMO PERO BAJO LA BA",
@@ -49,6 +43,12 @@
       "headline": "US NAVY FIRES AT AND BOARDS IRANIAN-FLAGGED CARGO SHIP (VIDEOS)",
       "detail": "US Central Command has released a video of an American destroyer firing at an Iranian cargo ship near the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "25 APR 2026 · 10:40 UTC",
+      "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
+      "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
