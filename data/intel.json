@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T08:57:05.030336+00:00",
+  "updated_at": "2026-04-26T09:54:18.024382+00:00",
   "market": {
     "brent_usd": 99.13,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "26 APR 2026 · 08:41 UTC",
+      "headline": "RUSSIAN ATTACKS ON UKRAINE KILL AT LEAST FIVE, DAMAGE SHIP IN PORT",
+      "detail": "Ukrainian attacks on Russia injure at least six people in Vologda region and annexed Crimea.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "26 APR 2026 · 02:15 UTC",
       "headline": "ESTADOS UNIDOS RETIRA MINAS EXPLOSIVAS DEL ESTRECHO DE ORMUZ",
       "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
@@ -24,12 +30,6 @@
       "timestamp": "25 APR 2026 · 21:07 UTC",
       "headline": "TRUMP CANCELS ENVOYS’ TRIP TO PAKISTAN FOR IRAN TALKS",
       "detail": "US President Donald Trump has scrapped his envoys’ trip to Pakistan as tensions rise over the ceasefire and the Strait of Hormuz standoff Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 APR 2026 · 17:53 UTC",
-      "headline": "LA UE ASEGURA QUE SERÁ “PARTE DE LA SOLUCIÓN” EN ORIENTE PRÓXIMO PERO BAJO LA BA",
-      "detail": "Sánchez considera que la crisis en la región “demuestra el fracaso de la fuerza bruta”. Los líderes europeos rechazan levantar sanciones a Irán y exigen la reapertura del estrecho de Ormuz “sin peajes",
       "severity": "INFO"
     },
     {
@@ -45,7 +45,7 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 APR 2026 · 08:57 UTC",
+      "timestamp": "26 APR 2026 · 09:54 UTC",
       "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
       "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
       "severity": "CRÍTICO"
