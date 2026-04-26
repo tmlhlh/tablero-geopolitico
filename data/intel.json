@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T23:34:37.106966+00:00",
+  "updated_at": "2026-04-26T02:27:35.897721+00:00",
   "market": {
     "brent_usd": 99.13,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 APR 2026 · 02:15 UTC",
+      "headline": "ESTADOS UNIDOS RETIRA MINAS EXPLOSIVAS DEL ESTRECHO DE ORMUZ",
+      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "25 APR 2026 · 21:07 UTC",
       "headline": "TRUMP CANCELS ENVOYS’ TRIP TO PAKISTAN FOR IRAN TALKS",
@@ -43,12 +49,6 @@
       "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
       "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 APR 2026 · 23:34 UTC",
-      "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
-      "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
