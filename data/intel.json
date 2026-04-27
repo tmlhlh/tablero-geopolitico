@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-27T17:18:46.694873+00:00",
+  "updated_at": "2026-04-27T19:14:44.004691+00:00",
   "market": {
-    "brent_usd": 101.85,
+    "brent_usd": 101.67,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.51,
+    "vix": 18.52,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.0
   },
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "27 APR 2026 · 14:40 UTC",
-      "headline": "PUTIN SE INVOLUCRA EN EL DIÁLOGO EN MEDIO ORIENTE E IRÁN PRESENTA UNA NUEVA PROP",
-      "detail": "El proyecto del régimen islámico dejaría las discusiones sobre su programa nuclear para una fase posterior y prevé que la Guardia Revolucionaria mantenga el control de la vía marítima",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "27 APR 2026 · 08:26 UTC",
       "headline": "IRAN OFFERS DEAL TO BREAK DEADLOCK WITH US – AXIOS",
       "detail": "Iran has proposed negotiating on reopening the Strait of Hormuz, and then focus on nuclear talks, according to Axios Read Full Article at RT.com",
@@ -49,11 +43,17 @@
       "headline": "TRUMP CANCELS ENVOYS’ TRIP TO PAKISTAN FOR IRAN TALKS",
       "detail": "US President Donald Trump has scrapped his envoys’ trip to Pakistan as tensions rise over the ceasefire and the Strait of Hormuz standoff Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "24 APR 2026 · 17:02 UTC",
+      "headline": "US TO ‘SHOOT AND KILL’ IRANIAN MINE-LAYING BOATS IN STRAIT OF HORMUZ – TRUMP",
+      "detail": "Donald Trump has threatened lethal force against Iranian mine-laying boats in the Strait of Hormuz and claimed total control of the waterway Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.85 (+0.00%)",
-    "VIX: 18.51",
+    "BRENT: $101.67 (+0.00%)",
+    "VIX: 18.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
