@@ -1,29 +1,41 @@
 {
-  "updated_at": "2026-04-27T12:22:26.076685+00:00",
+  "updated_at": "2026-04-27T15:05:28.752400+00:00",
   "market": {
-    "brent_usd": 100.14,
+    "brent_usd": 101.71,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.98,
+    "vix": 18.63,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "27 APR 2026 · 08:26 UTC",
-      "headline": "IRAN OFFERS DEAL TO BREAK DEADLOCK WITH US – AXIOS",
-      "detail": "Iran has proposed negotiating on reopening the Strait of Hormuz, and then focus on nuclear talks, according to Axios Read Full Article at RT.com",
+      "timestamp": "27 APR 2026 · 14:41 UTC",
+      "headline": "US AND CANADA SOURCE GOLD FROM DRUG CARTEL MINES – NYT",
+      "detail": "US and Canadian Mints reportedly source gold linked to Colombia’s Clan del Golfo, laundered and supplied via a Texas-based contractor Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "27 APR 2026 · 14:40 UTC",
+      "headline": "PUTIN SE INVOLUCRA EN EL DIÁLOGO EN MEDIO ORIENTE E IRÁN PRESENTA UNA NUEVA PROP",
+      "detail": "El proyecto del régimen islámico dejaría las discusiones sobre su programa nuclear para una fase posterior y prevé que la Guardia Revolucionaria mantenga el control de la vía marítima",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: ARAGHCHI TO MEET PUTIN; STRAIT OF HORMUZ REMAINS SHUT",
-      "detail": "Iran's foreign minister heads to Russia as Trump says Iranian leaders can call on the phone if they want to talk.",
+      "timestamp": "27 APR 2026 · 13:53 UTC",
+      "headline": "SEGÚN THE ECONOMIST, MILLONES DE PERSONAS PASARÁN HAMBRE SI EL ESTRECHO DE ORMUZ",
+      "detail": "Mientras el foco global se posa sobre el petróleo, otra amenaza silenciosa crece con la guerra: fertilizantes más caros, alimentos en riesgo y economías emergentes expuestas; la Argentina tampoco qued",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 APR 2026 · 08:26 UTC",
+      "headline": "IRAN OFFERS DEAL TO BREAK DEADLOCK WITH US – AXIOS",
+      "detail": "Iran has proposed negotiating on reopening the Strait of Hormuz, and then focus on nuclear talks, according to Axios Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "US TO ‘SHOOT AND KILL’ IRANIAN MINE-LAYING BOATS IN STRAIT OF HORMUZ – TRUMP",
       "detail": "Donald Trump has threatened lethal force against Iranian mine-laying boats in the Strait of Hormuz and claimed total control of the waterway Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 APR 2026 · 10:04 UTC",
-      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
-      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 APR 2026 · 12:22 UTC",
-      "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
-      "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.14 (+0.00%)",
-    "VIX: 18.98",
+    "BRENT: $101.71 (+0.00%)",
+    "VIX: 18.63",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
