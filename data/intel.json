@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-27T05:51:05.224526+00:00",
+  "updated_at": "2026-04-27T08:17:26.108470+00:00",
   "market": {
-    "brent_usd": 101.24,
+    "brent_usd": 102.02,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.71,
+    "vix": 19.18,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -33,27 +33,27 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 APR 2026 · 05:51 UTC",
+      "timestamp": "27 APR 2026 · 08:17 UTC",
       "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
       "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "27 APR 2026 · 05:51 UTC",
+      "timestamp": "27 APR 2026 · 08:17 UTC",
       "headline": "CHINA, THE UNITED STATES, AND JAPAN HOLD MOST STRATEGIC OIL INVENTORIES IN 2025",
       "detail": "In the 1970s, the United States and other OECD countries established strategic oil stocks aimed at mitigating the impact of supply disruptions. In March 2026, the United States, along with other membe",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 APR 2026 · 05:51 UTC",
+      "timestamp": "27 APR 2026 · 08:17 UTC",
       "headline": "CRUDE OIL AND PETROLEUM PRODUCT PRICES INCREASED SHARPLY IN THE FIRST QUARTER OF",
       "detail": "Crude oil and petroleum product prices increased significantly in the first quarter of 2026 (1Q26), particularly following military action in the Middle East on February 28 and the subsequent de facto",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.24 (+0.00%)",
-    "VIX: 18.71",
+    "BRENT: $102.02 (+0.00%)",
+    "VIX: 19.18",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
