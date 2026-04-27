@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-04-27T15:05:28.752400+00:00",
+  "updated_at": "2026-04-27T17:18:46.694873+00:00",
   "market": {
-    "brent_usd": 101.71,
+    "brent_usd": 101.85,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.63,
+    "vix": 18.51,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "27 APR 2026 · 16:44 UTC",
+      "headline": "SUSPECTED PIRATES STEER CARGO VESSEL TOWARDS SOMALIA",
+      "detail": "Hijacking reported as maritime traffic is diverted towards Africa while Strait of Hormuz is essentially closed.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 APR 2026 · 15:50 UTC",
+      "headline": "IRAN OFFERS HORMUZ DEAL WITHOUT NUCLEAR TALKS, AS IT SEEKS BROADER BUY-IN",
+      "detail": "Tehran widens diplomacy to regional and global players while indirect US talks remain uncertain.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 APR 2026 · 14:41 UTC",
       "headline": "US AND CANADA SOURCE GOLD FROM DRUG CARTEL MINES – NYT",
@@ -27,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 APR 2026 · 13:53 UTC",
-      "headline": "SEGÚN THE ECONOMIST, MILLONES DE PERSONAS PASARÁN HAMBRE SI EL ESTRECHO DE ORMUZ",
-      "detail": "Mientras el foco global se posa sobre el petróleo, otra amenaza silenciosa crece con la guerra: fertilizantes más caros, alimentos en riesgo y economías emergentes expuestas; la Argentina tampoco qued",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "27 APR 2026 · 08:26 UTC",
       "headline": "IRAN OFFERS DEAL TO BREAK DEADLOCK WITH US – AXIOS",
       "detail": "Iran has proposed negotiating on reopening the Strait of Hormuz, and then focus on nuclear talks, according to Axios Read Full Article at RT.com",
@@ -43,17 +49,11 @@
       "headline": "TRUMP CANCELS ENVOYS’ TRIP TO PAKISTAN FOR IRAN TALKS",
       "detail": "US President Donald Trump has scrapped his envoys’ trip to Pakistan as tensions rise over the ceasefire and the Strait of Hormuz standoff Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 APR 2026 · 17:02 UTC",
-      "headline": "US TO ‘SHOOT AND KILL’ IRANIAN MINE-LAYING BOATS IN STRAIT OF HORMUZ – TRUMP",
-      "detail": "Donald Trump has threatened lethal force against Iranian mine-laying boats in the Strait of Hormuz and claimed total control of the waterway Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.71 (+0.00%)",
-    "VIX: 18.63",
+    "BRENT: $101.85 (+0.00%)",
+    "VIX: 18.51",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
