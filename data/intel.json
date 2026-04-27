@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-27T11:00:02.808142+00:00",
+  "updated_at": "2026-04-27T12:22:26.076685+00:00",
   "market": {
-    "brent_usd": 100.34,
+    "brent_usd": 100.14,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -45,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 APR 2026 · 11:00 UTC",
+      "timestamp": "27 APR 2026 · 12:22 UTC",
       "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
       "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.34 (+0.00%)",
+    "BRENT: $100.14 (+0.00%)",
     "VIX: 18.98",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
