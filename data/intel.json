@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-28T18:15:07.426900+00:00",
+  "updated_at": "2026-04-28T20:12:50.234936+00:00",
   "market": {
-    "brent_usd": 104.23,
+    "brent_usd": 104.36,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.27,
+    "vix": 17.83,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "28 APR 2026 · 19:34 UTC",
+      "headline": "UN YATE DE LUJO DE UN OLIGARCA RUSO ATRAVESÓ EL ESTRECHO DE ORMUZ SIN PROBLEMAS ",
+      "detail": "El Nord, propiedad de Alexei Mordashov, navegó el corredor más sensible del mundo sin objeciones de Estados Unidos ni de Irán",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 APR 2026 · 16:48 UTC",
       "headline": "UKRAINIAN DRONES STRIKE RUSSIA’S TUAPSE REFINERY FOR THIRD TIME",
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "28 APR 2026 · 12:33 UTC",
-      "headline": "UAE LEAVES OPEC IN BLOW TO OIL CARTEL DURING WAR ON IRAN",
-      "detail": "Announcement comes as Gulf producers are already struggling to ship exports through the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "28 APR 2026 · 12:03 UTC",
       "headline": "RUSSIAN SUPERYACHT SAILS THROUGH STRAIT OF HORMUZ DESPITE BLOCKADE",
       "detail": "The 141m-long vessel, linked to a close ally of Russian President Vladimir Putin, cleared the waterway despite an ongoing blockade.",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.23 (+0.00%)",
-    "VIX: 18.27",
+    "BRENT: $104.36 (+0.00%)",
+    "VIX: 17.83",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
