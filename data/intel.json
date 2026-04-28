@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-04-28T11:02:05.429954+00:00",
+  "updated_at": "2026-04-28T16:07:42.914404+00:00",
   "market": {
-    "brent_usd": 104.34,
+    "brent_usd": 104.22,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.46,
+    "vix": 18.68,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "28 APR 2026 · 10:16 UTC",
-      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
-      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 07:55 UTC",
-      "headline": "TRUMP REVIEWS IRANIAN PROPOSAL AIMED AT REOPENING STRAIT OF HORMUZ",
-      "detail": "The White House confirms Trump met his national security advisers on Monday to discuss the plan.",
+      "timestamp": "28 APR 2026 · 14:55 UTC",
+      "headline": "QATAR SAYS USING HORMUZ STRAIT AS POLITICAL WEAPON IS ‘UNACCEPTABLE’",
+      "detail": "Qatar’s foreign ministry spokesman Majed al-Ansari said that the Strait of Hormuz must not be used as a bargaining chip.",
       "severity": "INFO"
     },
     {
-      "timestamp": "28 APR 2026 · 07:42 UTC",
-      "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
-      "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
+      "timestamp": "28 APR 2026 · 13:45 UTC",
+      "headline": "EMIRATOS ÁRABES UNIDOS SALE DE LA OPEP EN PLENA CRISIS POR EL CIERRE DE ORMUZ",
+      "detail": "La decisión del quinto mayor productor de petróleo del planeta dinamita el cartel, liderado por Arabia Saudí y en el que continúa Irán",
       "severity": "INFO"
     },
     {
-      "timestamp": "28 APR 2026 · 07:17 UTC",
+      "timestamp": "28 APR 2026 · 12:33 UTC",
+      "headline": "UAE LEAVES OPEC IN BLOW TO OIL CARTEL DURING WAR ON IRAN",
+      "detail": "Announcement comes as Gulf producers are already struggling to ship exports through the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 12:03 UTC",
       "headline": "RUSSIAN SUPERYACHT SAILS THROUGH STRAIT OF HORMUZ DESPITE BLOCKADE",
       "detail": "The 141m-long vessel, linked to a close ally of Russian President Vladimir Putin, cleared the waterway despite an ongoing blockade.",
       "severity": "INFO"
     },
     {
-      "timestamp": "28 APR 2026 · 07:06 UTC",
-      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 60 AS DIPLOMACY GATHERS PACE?",
-      "detail": "Trump team reviews Iran peace plan to reopen Hormuz with nuclear talks potentially delayed to a later stage.",
+      "timestamp": "28 APR 2026 · 11:18 UTC",
+      "headline": "WHEN WILL STRAIT OF HORMUZ BE ‘SAFE’ FOR COMMERCIAL SHIPPING AGAIN?",
+      "detail": "Even if the strait reopens, shipping insurance could cost 20 times more than before the war, analysts say.",
       "severity": "INFO"
     },
     {
-      "timestamp": "28 APR 2026 · 05:13 UTC",
-      "headline": "OIL PRICES RISE DESPITE IRAN’S PROPOSAL TO REOPEN STRAIT OF HORMUZ",
-      "detail": "Brent crude rises 3 percent despite Iran's offer to reopen waterway in exchange for deferral of nuclear talks.",
-      "severity": "INFO"
+      "timestamp": "28 APR 2026 · 10:16 UTC",
+      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
+      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.34 (+0.00%)",
-    "VIX: 18.46",
+    "BRENT: $104.22 (+0.00%)",
+    "VIX: 18.68",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
