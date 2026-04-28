@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-28T02:37:21.875333+00:00",
+  "updated_at": "2026-04-28T05:55:59.786588+00:00",
   "market": {
-    "brent_usd": 102.65,
+    "brent_usd": 103.81,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "28 APR 2026 · 05:13 UTC",
+      "headline": "OIL PRICES RISE DESPITE IRAN’S PROPOSAL TO REOPEN STRAIT OF HORMUZ",
+      "detail": "Brent crude rises more than 1 percent despite Iran's offer to reopen waterway in exchange for deferral of nuclear talks.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 03:40 UTC",
+      "headline": "POR QUÉ NADIE PUEDE PERMITIRSE QUE ORMUZ LLEGUE CERRADO AL VERANO",
+      "detail": "Con el paso de los días, el riesgo de que la crisis de precios mute en escasez generalizada se multiplica. Irán sufre sin poder exportar y Trump se asoma a las elecciones de medio mandato con la gasol",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 APR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP REVIEWS PEACE PLAN; UN CALLS FOR HORMUZ TO REOPEN",
@@ -37,22 +49,10 @@
       "headline": "TRUMP CANCELS ENVOYS’ TRIP TO PAKISTAN FOR IRAN TALKS",
       "detail": "US President Donald Trump has scrapped his envoys’ trip to Pakistan as tensions rise over the ceasefire and the Strait of Hormuz standoff Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 APR 2026 · 17:02 UTC",
-      "headline": "US TO ‘SHOOT AND KILL’ IRANIAN MINE-LAYING BOATS IN STRAIT OF HORMUZ – TRUMP",
-      "detail": "Donald Trump has threatened lethal force against Iranian mine-laying boats in the Strait of Hormuz and claimed total control of the waterway Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 APR 2026 · 10:04 UTC",
-      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
-      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.65 (+0.00%)",
+    "BRENT: $103.81 (+0.00%)",
     "VIX: 18.02",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
