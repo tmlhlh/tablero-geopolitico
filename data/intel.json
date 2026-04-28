@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-28T21:54:21.268636+00:00",
+  "updated_at": "2026-04-28T22:54:18.936078+00:00",
   "market": {
-    "brent_usd": 104.3,
+    "brent_usd": 103.97,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -19,12 +19,6 @@
       "headline": "UKRAINIAN DRONES STRIKE RUSSIA’S TUAPSE REFINERY FOR THIRD TIME",
       "detail": "Ukraine targeted a major Russian oil refinery in the Black Sea port city of Tuapse for the third time within two weeks.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 16:28 UTC",
-      "headline": "IS A US-IRAN DEAL STILL POSSIBLE?",
-      "detail": "As the Strait of Hormuz stays largely shut and Washington sends mixed signals, talks run through Islamabad and Moscow.",
-      "severity": "INFO"
     },
     {
       "timestamp": "28 APR 2026 · 13:45 UTC",
@@ -49,10 +43,16 @@
       "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
       "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 03:40 UTC",
+      "headline": "POR QUÉ NADIE PUEDE PERMITIRSE QUE ORMUZ LLEGUE CERRADO AL VERANO",
+      "detail": "Con el paso de los días, el riesgo de que la crisis de precios mute en escasez generalizada se multiplica. Irán sufre sin poder exportar y Trump se asoma a las elecciones de medio mandato con la gasol",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.3 (+0.00%)",
+    "BRENT: $103.97 (+0.00%)",
     "VIX: 17.83",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
