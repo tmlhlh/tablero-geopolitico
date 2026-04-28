@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-27T23:53:38.036932+00:00",
+  "updated_at": "2026-04-28T02:37:21.875333+00:00",
   "market": {
-    "brent_usd": 101.85,
+    "brent_usd": 102.65,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "27 APR 2026 · 16:44 UTC",
-      "headline": "SUSPECTED PIRATES STEER CARGO VESSEL TOWARDS SOMALIA",
-      "detail": "Hijacking reported as maritime traffic is diverted towards Africa while Strait of Hormuz is essentially closed.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 APR 2026 · 15:50 UTC",
-      "headline": "IRAN OFFERS HORMUZ DEAL WITHOUT NUCLEAR TALKS, AS IT SEEKS BROADER BUY-IN",
-      "detail": "Tehran widens diplomacy to regional and global players while indirect US talks remain uncertain.",
+      "timestamp": "28 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP REVIEWS PEACE PLAN; UN CALLS FOR HORMUZ TO REOPEN",
+      "detail": "UN chief says US-Iran standoff in the Strait of Hormuz risks triggering a global food emergency.",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "US TO ‘SHOOT AND KILL’ IRANIAN MINE-LAYING BOATS IN STRAIT OF HORMUZ – TRUMP",
       "detail": "Donald Trump has threatened lethal force against Iranian mine-laying boats in the Strait of Hormuz and claimed total control of the waterway Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 APR 2026 · 10:04 UTC",
+      "headline": "SHIP SEIZURES BY IRAN DON’T BREACH TRUCE – WHITE HOUSE (VIDEO) ",
+      "detail": "Iran’s seizure of two ships in the Strait of Hormuz does not violate the truce because they were not US or Israeli-owned, Washington says Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.85 (+0.00%)",
+    "BRENT: $102.65 (+0.00%)",
     "VIX: 18.02",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
