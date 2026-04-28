@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-04-28T16:07:42.914404+00:00",
+  "updated_at": "2026-04-28T18:15:07.426900+00:00",
   "market": {
-    "brent_usd": 104.22,
+    "brent_usd": 104.23,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.68,
+    "vix": 18.27,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "28 APR 2026 · 16:48 UTC",
+      "headline": "UKRAINIAN DRONES STRIKE RUSSIA’S TUAPSE REFINERY FOR THIRD TIME",
+      "detail": "Ukraine targeted a major Russian oil refinery in the Black Sea port city of Tuapse for the third time within two weeks.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 16:28 UTC",
+      "headline": "IS A US-IRAN DEAL STILL POSSIBLE?",
+      "detail": "As the Strait of Hormuz stays largely shut and Washington sends mixed signals, talks run through Islamabad and Moscow.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 APR 2026 · 14:55 UTC",
       "headline": "QATAR SAYS USING HORMUZ STRAIT AS POLITICAL WEAPON IS ‘UNACCEPTABLE’",
@@ -23,7 +35,7 @@
     {
       "timestamp": "28 APR 2026 · 13:45 UTC",
       "headline": "EMIRATOS ÁRABES UNIDOS SALE DE LA OPEP EN PLENA CRISIS POR EL CIERRE DE ORMUZ",
-      "detail": "La decisión del quinto mayor productor de petróleo del planeta dinamita el cartel, liderado por Arabia Saudí y en el que continúa Irán",
+      "detail": "La decisión del quinto mayor exportador de petróleo del planeta dinamita el cartel, liderado por Arabia Saudí y en el que continúa Irán",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "RUSSIAN SUPERYACHT SAILS THROUGH STRAIT OF HORMUZ DESPITE BLOCKADE",
       "detail": "The 141m-long vessel, linked to a close ally of Russian President Vladimir Putin, cleared the waterway despite an ongoing blockade.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 11:18 UTC",
-      "headline": "WHEN WILL STRAIT OF HORMUZ BE ‘SAFE’ FOR COMMERCIAL SHIPPING AGAIN?",
-      "detail": "Even if the strait reopens, shipping insurance could cost 20 times more than before the war, analysts say.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 10:16 UTC",
-      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
-      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.22 (+0.00%)",
-    "VIX: 18.68",
+    "BRENT: $104.23 (+0.00%)",
+    "VIX: 18.27",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
