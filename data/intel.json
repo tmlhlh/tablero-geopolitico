@@ -1,23 +1,47 @@
 {
-  "updated_at": "2026-04-28T05:55:59.786588+00:00",
+  "updated_at": "2026-04-28T08:23:11.541065+00:00",
   "market": {
-    "brent_usd": 103.81,
+    "brent_usd": 104.54,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.02,
+    "vix": 18.43,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "28 APR 2026 · 07:55 UTC",
+      "headline": "TRUMP REVIEWS IRANIAN PROPOSAL AIMED AT REOPENING STRAIT OF HORMUZ",
+      "detail": "The White House confirms Trump met his national security advisers on Monday to discuss the plan.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 07:42 UTC",
+      "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
+      "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 07:17 UTC",
+      "headline": "RUSSIAN SUPERYACHT SAILS THROUGH STRAIT OF HORMUZ DESPITE BLOCKADE",
+      "detail": "The 141m-long vessel, linked to a close ally of Russian President Vladimir Putin, cleared the waterway despite an ongoing blockade.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 07:06 UTC",
+      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 60 AS DIPLOMACY GATHERS PACE?",
+      "detail": "Trump team reviews Iran peace plan to reopen Hormuz with nuclear talks potentially delayed to a later stage.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "28 APR 2026 · 05:13 UTC",
       "headline": "OIL PRICES RISE DESPITE IRAN’S PROPOSAL TO REOPEN STRAIT OF HORMUZ",
-      "detail": "Brent crude rises more than 1 percent despite Iran's offer to reopen waterway in exchange for deferral of nuclear talks.",
+      "detail": "Brent crude rises 3 percent despite Iran's offer to reopen waterway in exchange for deferral of nuclear talks.",
       "severity": "INFO"
     },
     {
@@ -25,35 +49,11 @@
       "headline": "POR QUÉ NADIE PUEDE PERMITIRSE QUE ORMUZ LLEGUE CERRADO AL VERANO",
       "detail": "Con el paso de los días, el riesgo de que la crisis de precios mute en escasez generalizada se multiplica. Irán sufre sin poder exportar y Trump se asoma a las elecciones de medio mandato con la gasol",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP REVIEWS PEACE PLAN; UN CALLS FOR HORMUZ TO REOPEN",
-      "detail": "UN chief says US-Iran standoff in the Strait of Hormuz risks triggering a global food emergency.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 APR 2026 · 14:41 UTC",
-      "headline": "US AND CANADA SOURCE GOLD FROM DRUG CARTEL MINES – NYT",
-      "detail": "US and Canadian Mints reportedly source gold linked to Colombia’s Clan del Golfo, laundered and supplied via a Texas-based contractor Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "27 APR 2026 · 08:26 UTC",
-      "headline": "IRAN OFFERS DEAL TO BREAK DEADLOCK WITH US – AXIOS",
-      "detail": "Iran has proposed negotiating on reopening the Strait of Hormuz, and then focus on nuclear talks, according to Axios Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 APR 2026 · 21:07 UTC",
-      "headline": "TRUMP CANCELS ENVOYS’ TRIP TO PAKISTAN FOR IRAN TALKS",
-      "detail": "US President Donald Trump has scrapped his envoys’ trip to Pakistan as tensions rise over the ceasefire and the Strait of Hormuz standoff Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.81 (+0.00%)",
-    "VIX: 18.02",
+    "BRENT: $104.54 (+0.00%)",
+    "VIX: 18.43",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
