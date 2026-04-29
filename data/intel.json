@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-29T21:00:06.889500+00:00",
+  "updated_at": "2026-04-29T22:07:32.848599+00:00",
   "market": {
-    "brent_usd": 111.69,
+    "brent_usd": 111.91,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "29 APR 2026 · 19:23 UTC",
-      "headline": "QUIÉN ES ALEXEI MORDASHOV, EL MAGNATE QUE LOGRÓ ATRAVESAR EL ESTRECHO DE ORMUZ E",
-      "detail": "Dueño de una de las mayores fortunas de Rusia, construyó su imperio desde una siderúrgica y mantiene su influencia pese al aislamiento internacional",
-      "severity": "INFO"
-    },
     {
       "timestamp": "29 APR 2026 · 19:00 UTC",
       "headline": "TRUMP VOWS TO MAINTAIN IRAN BLOCKADE, TEHRAN THREATENS ‘PRACTICAL’ ACTION",
@@ -49,10 +43,16 @@
       "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
       "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "27 APR 2026 · 14:41 UTC",
+      "headline": "US AND CANADA SOURCE GOLD FROM DRUG CARTEL MINES – NYT",
+      "detail": "US and Canadian Mints reportedly source gold linked to Colombia’s Clan del Golfo, laundered and supplied via a Texas-based contractor Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.69 (+0.00%)",
+    "BRENT: $111.91 (+0.00%)",
     "VIX: 18.81",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
