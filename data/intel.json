@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-04-29T17:24:36.938985+00:00",
+  "updated_at": "2026-04-29T19:19:51.253785+00:00",
   "market": {
-    "brent_usd": 111.34,
+    "brent_usd": 110.67,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.78,
+    "vix": 18.43,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "29 APR 2026 · 12:22 UTC",
-      "headline": "IS IRAN’S OIL STORAGE NEARLY FULL – AND WILL IT HAVE TO CUT PRODUCTION?",
-      "detail": "Experts predict Iran could gradually scale back oil production if the US naval blockade of Hormuz persists.",
+      "timestamp": "29 APR 2026 · 19:10 UTC",
+      "headline": "QUIÉN ES ALEXEI MORDASHOV, EL MAGNATE QUE LOGRÓ ATRAVESAR EL ESTRECHO DE ORMUZ E",
+      "detail": "Dueño de una de las mayores fortunas de Rusia, construyó su imperio desde una siderúrgica y mantiene su influencia pese al aislamiento internacional",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "29 APR 2026 · 19:00 UTC",
+      "headline": "TRUMP VOWS TO MAINTAIN IRAN BLOCKADE, TEHRAN THREATEN ‘PRACTICAL’ ACTION",
+      "detail": "US president says Washington's naval siege on Iranian ports is 'more effective than the bombing' as oil price soars.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "29 APR 2026 · 18:52 UTC",
+      "headline": "ESTADOS UNIDOS SE PREPARA PARA UN BLOQUEO LARGO DE ORMUZ",
+      "detail": "“Es más efectivo que los bombardeos”, ha sostenido Trump, tras cumplirse dos meses desde el inicio de la guerra",
       "severity": "INFO"
     },
     {
@@ -25,12 +37,6 @@
       "headline": "LOS PIRATAS SOMALÍES RESURGEN A LA SOMBRA DE LAS CRISIS EN EL GOLFO Y EL MAR ROJ",
       "detail": "En los últimos días se han producido varios ataques contra embarcaciones que navegaban frente a la costa de Somalia, incluidos cuatro secuestros, que han encendido las alarmas",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 13:45 UTC",
-      "headline": "EMIRATOS ÁRABES UNIDOS SALE DE LA OPEP EN PLENA CRISIS POR EL CIERRE DE ORMUZ",
-      "detail": "La decisión del quinto mayor exportador de petróleo del planeta dinamita el cartel, liderado por Arabia Saudí y en el que continúa Irán",
-      "severity": "INFO"
     },
     {
       "timestamp": "28 APR 2026 · 10:16 UTC",
@@ -43,17 +49,11 @@
       "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
       "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "27 APR 2026 · 14:41 UTC",
-      "headline": "US AND CANADA SOURCE GOLD FROM DRUG CARTEL MINES – NYT",
-      "detail": "US and Canadian Mints reportedly source gold linked to Colombia’s Clan del Golfo, laundered and supplied via a Texas-based contractor Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.34 (+0.00%)",
-    "VIX: 18.78",
+    "BRENT: $110.67 (+0.00%)",
+    "VIX: 18.43",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
