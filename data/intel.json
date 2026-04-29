@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-04-29T22:07:32.848599+00:00",
+  "updated_at": "2026-04-29T23:52:22.179920+00:00",
   "market": {
-    "brent_usd": 111.91,
+    "brent_usd": 111.67,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 8.2,
     "vix": 18.81,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.2%"
   },
   "events": [
+    {
+      "timestamp": "29 APR 2026 · 21:46 UTC",
+      "headline": "ISRAEL INTERCEPTS GLOBAL SUMUD BOATS, DEMANDS ACTIVISTS HALT THEIR MISSION",
+      "detail": "Seven out of 58 vessels captured by Israel near Crete as flotilla aims to deliver aid to Gaza under blockade.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "29 APR 2026 · 19:00 UTC",
       "headline": "TRUMP VOWS TO MAINTAIN IRAN BLOCKADE, TEHRAN THREATENS ‘PRACTICAL’ ACTION",
@@ -43,17 +49,11 @@
       "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
       "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "27 APR 2026 · 14:41 UTC",
-      "headline": "US AND CANADA SOURCE GOLD FROM DRUG CARTEL MINES – NYT",
-      "detail": "US and Canadian Mints reportedly source gold linked to Colombia’s Clan del Golfo, laundered and supplied via a Texas-based contractor Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.91 (+0.00%)",
+    "BRENT: $111.67 (+0.00%)",
     "VIX: 18.81",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.2%"
   ]
 }
