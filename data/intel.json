@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-29T10:53:24.232027+00:00",
+  "updated_at": "2026-04-29T12:15:35.291300+00:00",
   "market": {
-    "brent_usd": 107.33,
+    "brent_usd": 107.51,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.92,
+    "vix": 17.98,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "29 APR 2026 · 10:46 UTC",
+      "timestamp": "29 APR 2026 · 11:11 UTC",
       "headline": "TRUMP LANZÓ UNA AMENAZA A IRÁN Y COMPARTIÓ UNA IMAGEN SUYA CON UN FUSIL CREADA C",
       "detail": "El republicano insistió en que Teherán debería “espabilar” ante estancamiento del diálogo; The Wall Street Journal aseguró que el mandatario habría ordenado a su equipo que se prepare para un bloqueo ",
       "severity": "INFO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.33 (+0.00%)",
-    "VIX: 17.92",
+    "BRENT: $107.51 (+0.00%)",
+    "VIX: 17.98",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
