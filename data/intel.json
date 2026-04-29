@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-04-29T19:19:51.253785+00:00",
+  "updated_at": "2026-04-29T21:00:06.889500+00:00",
   "market": {
-    "brent_usd": 110.67,
+    "brent_usd": 111.69,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.43,
+    "vix": 18.81,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "29 APR 2026 · 19:10 UTC",
+      "timestamp": "29 APR 2026 · 19:23 UTC",
       "headline": "QUIÉN ES ALEXEI MORDASHOV, EL MAGNATE QUE LOGRÓ ATRAVESAR EL ESTRECHO DE ORMUZ E",
       "detail": "Dueño de una de las mayores fortunas de Rusia, construyó su imperio desde una siderúrgica y mantiene su influencia pese al aislamiento internacional",
       "severity": "INFO"
     },
     {
       "timestamp": "29 APR 2026 · 19:00 UTC",
-      "headline": "TRUMP VOWS TO MAINTAIN IRAN BLOCKADE, TEHRAN THREATEN ‘PRACTICAL’ ACTION",
+      "headline": "TRUMP VOWS TO MAINTAIN IRAN BLOCKADE, TEHRAN THREATENS ‘PRACTICAL’ ACTION",
       "detail": "US president says Washington's naval siege on Iranian ports is 'more effective than the bombing' as oil price soars.",
       "severity": "INFO"
     },
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $110.67 (+0.00%)",
-    "VIX: 18.43",
+    "BRENT: $111.69 (+0.00%)",
+    "VIX: 18.81",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
