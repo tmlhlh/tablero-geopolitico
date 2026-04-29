@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-29T12:15:35.291300+00:00",
+  "updated_at": "2026-04-29T15:10:18.098144+00:00",
   "market": {
-    "brent_usd": 107.51,
+    "brent_usd": 109.67,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.98,
+    "vix": 18.0,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "29 APR 2026 · 11:11 UTC",
+      "timestamp": "29 APR 2026 · 13:26 UTC",
       "headline": "TRUMP LANZÓ UNA AMENAZA A IRÁN Y COMPARTIÓ UNA IMAGEN SUYA CON UN FUSIL CREADA C",
       "detail": "El republicano insistió en que Teherán debería “espabilar” ante estancamiento del diálogo; The Wall Street Journal aseguró que el mandatario habría ordenado a su equipo que se prepare para un bloqueo ",
       "severity": "INFO"
     },
     {
-      "timestamp": "29 APR 2026 · 06:02 UTC",
-      "headline": "CAN RUSSIA SERVE AS AN ECONOMIC LIFELINE FOR IRAN AMID THE HORMUZ BLOCKADE?",
-      "detail": "Analysts say that Moscow could offer a 'lifeline' but logistical issues, costs offer little incentive in the long-run.",
+      "timestamp": "29 APR 2026 · 12:22 UTC",
+      "headline": "IS IRAN’S OIL STORAGE NEARLY FULL – AND WILL IT HAVE TO CUT PRODUCTION?",
+      "detail": "Experts predict Iran could gradually scale back oil production if the US naval blockade of Hormuz persists.",
       "severity": "INFO"
     },
     {
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "28 APR 2026 · 12:03 UTC",
-      "headline": "RUSSIAN SUPERYACHT SAILS THROUGH STRAIT OF HORMUZ DESPITE BLOCKADE",
-      "detail": "The 141m-long vessel, linked to a close ally of Russian President Vladimir Putin, cleared the waterway despite an ongoing blockade.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "28 APR 2026 · 10:16 UTC",
       "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
       "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 07:42 UTC",
+      "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
+      "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.51 (+0.00%)",
-    "VIX: 17.98",
+    "BRENT: $109.67 (+0.00%)",
+    "VIX: 18.0",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
