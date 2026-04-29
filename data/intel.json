@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-28T23:52:58.634319+00:00",
+  "updated_at": "2026-04-29T02:37:17.287573+00:00",
   "market": {
-    "brent_usd": 103.96,
+    "brent_usd": 103.53,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "29 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS TEHRAN WANTS END TO BLOCKADE; ISRAEL KILLS MEDICS",
+      "detail": "US president says Iran has reached out and asked Washington to lift its naval blockade on Iranian ports.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 APR 2026 · 13:45 UTC",
       "headline": "EMIRATOS ÁRABES UNIDOS SALE DE LA OPEP EN PLENA CRISIS POR EL CIERRE DE ORMUZ",
@@ -43,16 +49,10 @@
       "headline": "POR QUÉ NADIE PUEDE PERMITIRSE QUE ORMUZ LLEGUE CERRADO AL VERANO",
       "detail": "Con el paso de los días, el riesgo de que la crisis de precios mute en escasez generalizada se multiplica. Irán sufre sin poder exportar y Trump se asoma a las elecciones de medio mandato con la gasol",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "27 APR 2026 · 14:41 UTC",
-      "headline": "US AND CANADA SOURCE GOLD FROM DRUG CARTEL MINES – NYT",
-      "detail": "US and Canadian Mints reportedly source gold linked to Colombia’s Clan del Golfo, laundered and supplied via a Texas-based contractor Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.96 (+0.00%)",
+    "BRENT: $103.53 (+0.00%)",
     "VIX: 17.83",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
