@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-29T08:11:03.753147+00:00",
+  "updated_at": "2026-04-29T10:53:24.232027+00:00",
   "market": {
-    "brent_usd": 106.09,
+    "brent_usd": 107.33,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.94,
+    "vix": 17.92,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "29 APR 2026 · 10:46 UTC",
+      "headline": "TRUMP LANZÓ UNA AMENAZA A IRÁN Y COMPARTIÓ UNA IMAGEN SUYA CON UN FUSIL CREADA C",
+      "detail": "El republicano insistió en que Teherán debería “espabilar” ante estancamiento del diálogo; The Wall Street Journal aseguró que el mandatario habría ordenado a su equipo que se prepare para un bloqueo ",
+      "severity": "INFO"
+    },
     {
       "timestamp": "29 APR 2026 · 06:02 UTC",
       "headline": "CAN RUSSIA SERVE AS AN ECONOMIC LIFELINE FOR IRAN AMID THE HORMUZ BLOCKADE?",
@@ -25,12 +31,6 @@
       "headline": "LOS PIRATAS SOMALÍES RESURGEN A LA SOMBRA DE LAS CRISIS EN EL GOLFO Y EL MAR ROJ",
       "detail": "En los últimos días se han producido varios ataques contra embarcaciones que navegaban frente a la costa de Somalia, incluidos cuatro secuestros, que han encendido las alarmas",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS TEHRAN WANTS END TO BLOCKADE; ISRAEL KILLS MEDICS",
-      "detail": "US president says Iran has reached out and asked Washington to lift its naval blockade on Iranian ports.",
-      "severity": "INFO"
     },
     {
       "timestamp": "28 APR 2026 · 13:45 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $106.09 (+0.00%)",
-    "VIX: 17.94",
+    "BRENT: $107.33 (+0.00%)",
+    "VIX: 17.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
