@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-29T02:37:17.287573+00:00",
+  "updated_at": "2026-04-29T05:51:39.494855+00:00",
   "market": {
-    "brent_usd": 103.53,
+    "brent_usd": 104.41,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "29 APR 2026 · 03:40 UTC",
+      "headline": "LOS PIRATAS SOMALÍES RESURGEN A LA SOMBRA DE LAS CRISIS EN EL GOLFO Y EL MAR ROJ",
+      "detail": "En los últimos días se han producido varios ataques contra embarcaciones que navegaban frente a la costa de Somalia, incluidos cuatro secuestros, que han encendido las alarmas",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "29 APR 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP SAYS TEHRAN WANTS END TO BLOCKADE; ISRAEL KILLS MEDICS",
@@ -43,16 +49,10 @@
       "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
       "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 03:40 UTC",
-      "headline": "POR QUÉ NADIE PUEDE PERMITIRSE QUE ORMUZ LLEGUE CERRADO AL VERANO",
-      "detail": "Con el paso de los días, el riesgo de que la crisis de precios mute en escasez generalizada se multiplica. Irán sufre sin poder exportar y Trump se asoma a las elecciones de medio mandato con la gasol",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.53 (+0.00%)",
+    "BRENT: $104.41 (+0.00%)",
     "VIX: 17.83",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
