@@ -1,36 +1,24 @@
 {
-  "updated_at": "2026-04-30T15:06:25.848905+00:00",
+  "updated_at": "2026-04-30T17:17:23.446912+00:00",
   "market": {
-    "brent_usd": 110.4,
+    "brent_usd": 109.49,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.58,
+    "vix": 17.33,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "30 APR 2026 · 14:07 UTC",
-      "headline": "TRUMP EVALÚA “POTENTES” ATAQUES MILITARES CONTRA TEHERÁN PARA PRESIONAR EN LA NE",
-      "detail": "El mandatario estadounidense se reunirá este jueves con el jefe del Comando Central, Brad Cooper, para definir si se retoman las operaciones de combate; no se desestima un desembarco de fuerzas terres",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "30 APR 2026 · 13:36 UTC",
       "headline": "HORMUZ EFFECT? HOW US, CHINA ARE RAMPING UP TENSIONS OVER THE PANAMA CANAL",
       "detail": "Rising tensions over Panama Canal prompt US-China showdown in global shipping power struggle.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 13:24 UTC",
-      "headline": "REVELAN QUE EE.UU. BUSCA FORMAR UNA COALICIÓN INTERNACIONAL PARA REABRIR EL ESTR",
-      "detail": "Al mismo tiempo, Trump tiene tiene previsto recibir un informe sobre planes para una nueva serie de ataques militares contra Irán, según el medio norteamericano Axios",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "30 APR 2026 · 11:54 UTC",
@@ -49,11 +37,23 @@
       "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
       "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "29 APR 2026 · 18:52 UTC",
+      "headline": "ESTADOS UNIDOS SE PREPARA PARA UN BLOQUEO LARGO DE ORMUZ",
+      "detail": "“Es más efectivo que los bombardeos”, ha sostenido Trump, tras cumplirse dos meses desde el inicio de la guerra",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 10:16 UTC",
+      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
+      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.4 (+0.00%)",
-    "VIX: 17.58",
+    "BRENT: $109.49 (+0.00%)",
+    "VIX: 17.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
