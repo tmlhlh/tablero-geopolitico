@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30T21:55:55.787942+00:00",
+  "updated_at": "2026-04-30T22:52:02.622126+00:00",
   "market": {
-    "brent_usd": 111.23,
+    "brent_usd": 111.6,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "30 APR 2026 · 22:19 UTC",
+      "headline": "TRUMP DICE QUE “PROBABLEMENTE” PODRÍA RETIRAR LAS TROPAS DE EE.UU DE ITALIA Y ES",
+      "detail": "El mandatario redobló su apuesta luego de anunciar la reducción de efectivos en Alemania; las medidas buscan disciplinar a sus aliados de la OTAN por su falta de apoyo en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 21:31 UTC",
+      "headline": "US GAS REACHES $4.30 PER GALLON; TRUMP SAYS PRICES WILL DROP AFTER IRAN WAR",
+      "detail": "Price of petrol in US jumps by nearly 30 cents in one week amid Strait of Hormuz blockade and Iran diplomatic deadlock.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 APR 2026 · 18:02 UTC",
       "headline": "UN CHIEF CALLS FOR IMMEDIATE REOPENING OF THE STRAIT OF HORMUZ",
@@ -37,22 +49,10 @@
       "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
       "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "29 APR 2026 · 18:52 UTC",
-      "headline": "ESTADOS UNIDOS SE PREPARA PARA UN BLOQUEO LARGO DE ORMUZ",
-      "detail": "“Es más efectivo que los bombardeos”, ha sostenido Trump, tras cumplirse dos meses desde el inicio de la guerra",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 10:16 UTC",
-      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
-      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.23 (+0.00%)",
+    "BRENT: $111.6 (+0.00%)",
     "VIX: 16.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
