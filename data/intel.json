@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-04-29T23:52:22.179920+00:00",
+  "updated_at": "2026-04-30T02:38:20.999712+00:00",
   "market": {
-    "brent_usd": 111.67,
+    "brent_usd": 111.79,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.2,
+    "ormuz_flow_pct": 4.6,
     "vix": 18.81,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.2%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.6%"
   },
   "events": [
     {
+      "timestamp": "30 APR 2026 · 01:37 UTC",
+      "headline": "PRO-GOVERNMENT RALLY IN TEHRAN DEMANDS END TO US THREATS",
+      "detail": "Hundreds of Iranians have rallied in Tehran to demand an end to US threats and the ongoing blockade of Iranian ports.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP URGES TEHRAN TO GIVE UP; GHALIBAF MOCKS US STRATEGY",
+      "detail": "Mohammad Bagher Ghalibaf ridicules US's economic pressure campaign as oil prices surge and Hormuz standoff continues.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "29 APR 2026 · 21:46 UTC",
-      "headline": "ISRAEL INTERCEPTS GLOBAL SUMUD BOATS, DEMANDS ACTIVISTS HALT THEIR MISSION",
-      "detail": "Seven out of 58 vessels captured by Israel near Crete as flotilla aims to deliver aid to Gaza under blockade.",
+      "headline": "ISRAELI FORCES RAID GLOBAL SUMUD FLOTILLA BOATS IN INTERNATIONAL WATERS",
+      "detail": "Seven out of 58 vessels were captured by Israel near Crete, as flotilla aims to deliver aid to Gaza under blockade.",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "LOS PIRATAS SOMALÍES RESURGEN A LA SOMBRA DE LAS CRISIS EN EL GOLFO Y EL MAR ROJ",
       "detail": "En los últimos días se han producido varios ataques contra embarcaciones que navegaban frente a la costa de Somalia, incluidos cuatro secuestros, que han encendido las alarmas",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 10:16 UTC",
-      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
-      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 07:42 UTC",
-      "headline": "IRAN USING HORMUZ AS ‘ECONOMIC NUCLEAR WEAPON’ – RUBIO",
-      "detail": "The US will not accept the reopening of the Strait of Hormuz on Iran’s terms and the postponement of nuclear talks, Marco Rubio says Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.67 (+0.00%)",
+    "BRENT: $111.79 (+0.00%)",
     "VIX: 18.81",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.2%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.6%"
   ]
 }
