@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-30T17:17:23.446912+00:00",
+  "updated_at": "2026-04-30T19:15:34.570761+00:00",
   "market": {
-    "brent_usd": 109.49,
+    "brent_usd": 110.79,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.33,
+    "vix": 17.21,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "30 APR 2026 · 13:36 UTC",
-      "headline": "HORMUZ EFFECT? HOW US, CHINA ARE RAMPING UP TENSIONS OVER THE PANAMA CANAL",
-      "detail": "Rising tensions over Panama Canal prompt US-China showdown in global shipping power struggle.",
+      "timestamp": "30 APR 2026 · 18:02 UTC",
+      "headline": "UN CHIEF CALLS FOR IMMEDIATE REOPENING OF THE STRAIT OF HORMUZ",
+      "detail": "UN Secretary-General António Guterres has urged the immediate reopening of the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "30 APR 2026 · 11:54 UTC",
-      "headline": "TRACKING THE SHADOW FLEET: HOW IRAN EVADED THE US NAVAL BLOCKADE IN HORMUZ",
-      "detail": "Iran's shadow fleet uses fake flags and dark ships to evade the US naval blockade in the Strait of Hormuz.",
+      "timestamp": "30 APR 2026 · 17:51 UTC",
+      "headline": "EL LÍDER SUPREMO DE IRÁN AFIRMA QUE SU CONTROL DE ORMUZ BENEFICIARÁ A UNA REGIÓN",
+      "detail": "Mojtaba Jameneí, aún en paradero desconocido, tiende la mano a sus vecinos árabes al sugerir que también sacarán provecho de la explotación de la vía marítima",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 13:36 UTC",
+      "headline": "HORMUZ EFFECT? HOW US, CHINA ARE RAMPING UP TENSIONS OVER THE PANAMA CANAL",
+      "detail": "Rising tensions over Panama Canal prompt US-China showdown in global shipping power struggle.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "ESTADOS UNIDOS SE PREPARA PARA UN BLOQUEO LARGO DE ORMUZ",
       "detail": "“Es más efectivo que los bombardeos”, ha sostenido Trump, tras cumplirse dos meses desde el inicio de la guerra",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 10:16 UTC",
-      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
-      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.49 (+0.00%)",
-    "VIX: 17.33",
+    "BRENT: $110.79 (+0.00%)",
+    "VIX: 17.21",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
