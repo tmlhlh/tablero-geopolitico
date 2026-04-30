@@ -1,19 +1,43 @@
 {
-  "updated_at": "2026-04-30T12:13:00.413880+00:00",
+  "updated_at": "2026-04-30T15:06:25.848905+00:00",
   "market": {
-    "brent_usd": 102.08,
+    "brent_usd": 110.4,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.1,
-    "vix": 17.99,
+    "ormuz_flow_pct": 8.5,
+    "vix": 17.58,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.1%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "30 APR 2026 · 14:07 UTC",
+      "headline": "TRUMP EVALÚA “POTENTES” ATAQUES MILITARES CONTRA TEHERÁN PARA PRESIONAR EN LA NE",
+      "detail": "El mandatario estadounidense se reunirá este jueves con el jefe del Comando Central, Brad Cooper, para definir si se retoman las operaciones de combate; no se desestima un desembarco de fuerzas terres",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 13:36 UTC",
+      "headline": "HORMUZ EFFECT? HOW US, CHINA ARE RAMPING UP TENSIONS OVER THE PANAMA CANAL",
+      "detail": "Rising tensions over Panama Canal prompt US-China showdown in global shipping power struggle.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 13:24 UTC",
+      "headline": "REVELAN QUE EE.UU. BUSCA FORMAR UNA COALICIÓN INTERNACIONAL PARA REABRIR EL ESTR",
+      "detail": "Al mismo tiempo, Trump tiene tiene previsto recibir un informe sobre planes para una nueva serie de ataques militares contra Irán, según el medio norteamericano Axios",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 11:54 UTC",
+      "headline": "TRACKING THE SHADOW FLEET: HOW IRAN EVADED THE US NAVAL BLOCKADE IN HORMUZ",
+      "detail": "Iran's shadow fleet uses fake flags and dark ships to evade the US naval blockade in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 APR 2026 · 11:26 UTC",
       "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
@@ -21,39 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "30 APR 2026 · 08:44 UTC",
-      "headline": "PAKISTAN OPENS UP ROAD TRADE ROUTES INTO IRAN AMID HORMUZ BLOCKADE",
-      "detail": "With shipping disrupted by US-Iran tensions, Islamabad activates overland corridor to move stranded cargo into Iran.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 07:30 UTC",
-      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 62 AS TRUMP ASKS IRAN TO ‘GIVE UP’?",
-      "detail": "Trump says the US blockade of Iranian ports is working, urging Tehran to 'give up' amid tensions.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 04:06 UTC",
-      "headline": "OIL PRICES SOAR ON FEARS OF LONG SUPPLY DISRUPTION, US SIEGE OF IRAN PORTS",
-      "detail": "US President Trump meets with oil firms over ways to minimise impact on fuel supplies amid US blockade of Iranian ports.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "30 APR 2026 · 03:40 UTC",
       "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
       "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 01:37 UTC",
-      "headline": "PRO-GOVERNMENT RALLY IN TEHRAN DEMANDS END TO US THREATS",
-      "detail": "Hundreds of Iranians have rallied in Tehran to demand an end to US threats and the ongoing blockade of Iranian ports.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.08 (+0.00%)",
-    "VIX: 17.99",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.1%"
+    "BRENT: $110.4 (+0.00%)",
+    "VIX: 17.58",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
