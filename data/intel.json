@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30T20:56:41.714274+00:00",
+  "updated_at": "2026-04-30T21:55:55.787942+00:00",
   "market": {
-    "brent_usd": 111.55,
+    "brent_usd": 111.23,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "30 APR 2026 · 13:36 UTC",
-      "headline": "HORMUZ EFFECT? HOW US, CHINA ARE RAMPING UP TENSIONS OVER THE PANAMA CANAL",
-      "detail": "Rising tensions over Panama Canal prompt US-China showdown in global shipping power struggle.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "30 APR 2026 · 11:26 UTC",
       "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
       "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
@@ -49,10 +43,16 @@
       "headline": "ESTADOS UNIDOS SE PREPARA PARA UN BLOQUEO LARGO DE ORMUZ",
       "detail": "“Es más efectivo que los bombardeos”, ha sostenido Trump, tras cumplirse dos meses desde el inicio de la guerra",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 10:16 UTC",
+      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
+      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.55 (+0.00%)",
+    "BRENT: $111.23 (+0.00%)",
     "VIX: 16.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
