@@ -1,21 +1,27 @@
 {
-  "updated_at": "2026-04-30T05:55:43.631470+00:00",
+  "updated_at": "2026-04-30T08:16:24.671394+00:00",
   "market": {
-    "brent_usd": 113.53,
+    "brent_usd": 104.52,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 18.81,
+    "vix": 18.57,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "30 APR 2026 · 05:53 UTC",
+      "timestamp": "30 APR 2026 · 07:30 UTC",
+      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 62 AS TRUMP ASKS IRAN TO ‘GIVE UP’?",
+      "detail": "Trump says the US blockade of Iranian ports is working, urging Tehran to 'give up' amid tensions.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 06:03 UTC",
       "headline": "EL BARRIL DE PETRÓLEO SUPERÓ LOS US$125, EL PRECIO MÁS ALTO DESDE EL INICIO DE L",
       "detail": "El incremento en el valor del crudo se da ante el temor de un bloqueo prolongado del estrecho de Ormuz",
       "severity": "INFO"
@@ -43,17 +49,11 @@
       "headline": "IRAN WAR LIVE: TRUMP URGES TEHRAN TO ‘GIVE UP’; GHALIBAF MOCKS US STRATEGY",
       "detail": "Mohammad Bagher Ghalibaf ridicules US's economic pressure campaign as oil prices surge and Hormuz standoff continues.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "29 APR 2026 · 21:46 UTC",
-      "headline": "ISRAELI FORCES RAID GLOBAL SUMUD FLOTILLA BOATS IN INTERNATIONAL WATERS",
-      "detail": "Seven out of 58 vessels were captured by Israel near Crete, as flotilla aims to deliver aid to Gaza under blockade.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $113.53 (+0.00%)",
-    "VIX: 18.81",
+    "BRENT: $104.52 (+0.00%)",
+    "VIX: 18.57",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
