@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-04-30T02:38:20.999712+00:00",
+  "updated_at": "2026-04-30T05:55:43.631470+00:00",
   "market": {
-    "brent_usd": 111.79,
+    "brent_usd": 113.53,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.6,
+    "ormuz_flow_pct": 3.0,
     "vix": 18.81,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.6%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "30 APR 2026 · 05:53 UTC",
+      "headline": "EL BARRIL DE PETRÓLEO SUPERÓ LOS US$125, EL PRECIO MÁS ALTO DESDE EL INICIO DE L",
+      "detail": "El incremento en el valor del crudo se da ante el temor de un bloqueo prolongado del estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 04:06 UTC",
+      "headline": "OIL PRICES SOAR ON FEARS OF LONG SUPPLY DISRUPTION, US SIEGE OF IRAN PORTS",
+      "detail": "US President Trump meets with oil firms over ways to minimise impact on fuel supplies amid US blockade of Iranian ports.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 03:40 UTC",
+      "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
+      "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 APR 2026 · 01:37 UTC",
       "headline": "PRO-GOVERNMENT RALLY IN TEHRAN DEMANDS END TO US THREATS",
@@ -22,7 +40,7 @@
     },
     {
       "timestamp": "30 APR 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP URGES TEHRAN TO GIVE UP; GHALIBAF MOCKS US STRATEGY",
+      "headline": "IRAN WAR LIVE: TRUMP URGES TEHRAN TO ‘GIVE UP’; GHALIBAF MOCKS US STRATEGY",
       "detail": "Mohammad Bagher Ghalibaf ridicules US's economic pressure campaign as oil prices surge and Hormuz standoff continues.",
       "severity": "INFO"
     },
@@ -31,29 +49,11 @@
       "headline": "ISRAELI FORCES RAID GLOBAL SUMUD FLOTILLA BOATS IN INTERNATIONAL WATERS",
       "detail": "Seven out of 58 vessels were captured by Israel near Crete, as flotilla aims to deliver aid to Gaza under blockade.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "29 APR 2026 · 19:00 UTC",
-      "headline": "TRUMP VOWS TO MAINTAIN IRAN BLOCKADE, TEHRAN THREATENS ‘PRACTICAL’ ACTION",
-      "detail": "US president says Washington's naval siege on Iranian ports is 'more effective than the bombing' as oil price soars.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "29 APR 2026 · 18:52 UTC",
-      "headline": "ESTADOS UNIDOS SE PREPARA PARA UN BLOQUEO LARGO DE ORMUZ",
-      "detail": "“Es más efectivo que los bombardeos”, ha sostenido Trump, tras cumplirse dos meses desde el inicio de la guerra",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "29 APR 2026 · 03:40 UTC",
-      "headline": "LOS PIRATAS SOMALÍES RESURGEN A LA SOMBRA DE LAS CRISIS EN EL GOLFO Y EL MAR ROJ",
-      "detail": "En los últimos días se han producido varios ataques contra embarcaciones que navegaban frente a la costa de Somalia, incluidos cuatro secuestros, que han encendido las alarmas",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.79 (+0.00%)",
+    "BRENT: $113.53 (+0.00%)",
     "VIX: 18.81",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.6%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
