@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-01T08:58:02.942328+00:00",
+  "updated_at": "2026-05-01T10:25:07.068115+00:00",
   "market": {
-    "brent_usd": 104.46,
+    "brent_usd": 111.19,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.09,
+    "vix": 17.08,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "01 MAY 2026 · 09:49 UTC",
+      "headline": "MORE THAN 40 IRANIAN SEAFARERS KILLED DURING US–ISRAELI WAR: UNION LEADER",
+      "detail": "The Iranian Merchant Mariners Syndicate blamed US and Israeli attacks on Iran's ports and commercial fleet for deaths.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "01 MAY 2026 · 03:40 UTC",
       "headline": "LOS DRONES RUSOS ESPOLEAN EL MIEDO EN LOS PUEBLOS FRONTERIZOS DE RUMANIA: “VIVIM",
@@ -25,12 +31,6 @@
       "headline": "IT'S NOT JUST OIL: IRAN WAR ALSO THREATENS ASIA'S FOOD SECURITY",
       "detail": "Planting season is beginning in Asia - but the closure of the Strait of Hormuz and Chinese restrictions has hit fertiliser supply.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "01 MAY 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SAYS US PORTS SIEGE ‘INTOLERABLE’; TRUMP MULLS ACTION",
-      "detail": "Israeli attacks on Lebanon killed at least 2,586 people and wounded more than 8,000 since March 2, local media report.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "30 APR 2026 · 21:31 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.46 (+0.00%)",
-    "VIX: 17.09",
+    "BRENT: $111.19 (+0.00%)",
+    "VIX: 17.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
