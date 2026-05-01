@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-01T17:56:56.385338+00:00",
+  "updated_at": "2026-05-01T19:13:17.217113+00:00",
   "market": {
-    "brent_usd": 108.1,
+    "brent_usd": 108.4,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.79,
+    "vix": 16.9,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -19,12 +19,6 @@
       "headline": "US WARNS SHIPPERS AGAINST PAYING STRAIT OF HORMUZ TOLLS, ‘DONATIONS’",
       "detail": "Latest warning comes as Iranian state media reports Tehran has presented new peace proposal to US.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "01 MAY 2026 · 17:17 UTC",
-      "headline": "TRUMP REDOBLA SUS ATAQUES CONTRA LOS LÍDERES EUROPEOS Y ANUNCIA QUE ELEVARÁ LOS ",
-      "detail": "El impuesto se incrementará al 25%; la medida llega después de cuestionar la falta de apoyo de los aliados de la OTAN para abrir el estrecho de Ormuz; amenazó con reducir el número de tropas estadouni",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "01 MAY 2026 · 16:32 UTC",
@@ -39,21 +33,27 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "01 MAY 2026 · 09:49 UTC",
-      "headline": "MORE THAN 40 IRANIAN SEAFARERS KILLED DURING US-ISRAELI WAR: UNION LEADER",
-      "detail": "The Iranian Merchant Mariners Syndicate blamed US and Israeli attacks on Iran's ports and commercial fleet for deaths.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "01 MAY 2026 · 03:40 UTC",
       "headline": "LOS DRONES RUSOS ESPOLEAN EL MIEDO EN LOS PUEBLOS FRONTERIZOS DE RUMANIA: “VIVIM",
       "detail": "La intensificación de los ataques contra los puertos del Danubio de Ucrania ha provocado explosiones y evacuaciones en localidades cercanas a la línea divisoria",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "01 MAY 2026 · 00:01 UTC",
+      "headline": "IT'S NOT JUST OIL: IRAN WAR ALSO THREATENS ASIA'S FOOD SECURITY",
+      "detail": "Planting season is beginning in Asia - but the closure of the Strait of Hormuz and Chinese restrictions has hit fertiliser supply.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 17:51 UTC",
+      "headline": "EL LÍDER SUPREMO DE IRÁN AFIRMA QUE SU CONTROL DE ORMUZ BENEFICIARÁ A UNA REGIÓN",
+      "detail": "Mojtaba Jameneí, aún en paradero desconocido, tiende la mano a sus vecinos árabes al sugerir que también sacarán provecho de la explotación de la vía marítima",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.1 (+0.00%)",
-    "VIX: 16.79",
+    "BRENT: $108.4 (+0.00%)",
+    "VIX: 16.9",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
