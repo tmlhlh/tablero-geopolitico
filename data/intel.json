@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-05-01T15:54:25.410033+00:00",
+  "updated_at": "2026-05-01T16:54:31.876253+00:00",
   "market": {
-    "brent_usd": 108.12,
+    "brent_usd": 107.99,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.66,
+    "vix": 16.93,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "01 MAY 2026 · 16:32 UTC",
+      "headline": "UAE EXIT FROM OPEC SIGNALS CLOSER ALIGNMENT WITH US INTERESTS, EXPERTS SAY",
+      "detail": "UAE wants to supply more oil than its OPEC quota and that could help push down prices once the Strait of Hormuz opens.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "01 MAY 2026 · 14:51 UTC",
-      "headline": "TRUMP REDOBLA SUS ATAQUES CONTRA LOS LÍDERES EUROPEOS Y RECRUDECE LA CRISIS CON ",
-      "detail": "Entre sus exigencias, el presidente republicano cuestionó que no enviaran sus fuerzas armadas para abrir el estrecho de Ormuz; amenazó con reducir el número de tropas estadounidenses en Alemania, Ital",
+      "headline": "TRUMP REDOBLA SUS ATAQUES CONTRA LOS LÍDERES EUROPEOS Y ANUNCIA QUE ELEVARÁ LOS ",
+      "detail": "El impuesto se incrementará al 25%; la medida llega después de cuestionar la falta de apoyo de los aliados de la OTAN para abrir el estrecho de Ormuz; amenazó con reducir el número de tropas estadouni",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IT'S NOT JUST OIL: IRAN WAR ALSO THREATENS ASIA'S FOOD SECURITY",
       "detail": "Planting season is beginning in Asia - but the closure of the Strait of Hormuz and Chinese restrictions has hit fertiliser supply.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 17:51 UTC",
-      "headline": "EL LÍDER SUPREMO DE IRÁN AFIRMA QUE SU CONTROL DE ORMUZ BENEFICIARÁ A UNA REGIÓN",
-      "detail": "Mojtaba Jameneí, aún en paradero desconocido, tiende la mano a sus vecinos árabes al sugerir que también sacarán provecho de la explotación de la vía marítima",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.12 (+0.00%)",
-    "VIX: 16.66",
+    "BRENT: $107.99 (+0.00%)",
+    "VIX: 16.93",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
