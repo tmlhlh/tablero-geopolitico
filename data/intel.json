@@ -1,30 +1,36 @@
 {
-  "updated_at": "2026-05-01T16:54:31.876253+00:00",
+  "updated_at": "2026-05-01T17:56:56.385338+00:00",
   "market": {
-    "brent_usd": 107.99,
+    "brent_usd": 108.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.93,
+    "vix": 16.79,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "01 MAY 2026 · 17:18 UTC",
+      "headline": "US WARNS SHIPPERS AGAINST PAYING STRAIT OF HORMUZ TOLLS, ‘DONATIONS’",
+      "detail": "Latest warning comes as Iranian state media reports Tehran has presented new peace proposal to US.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 MAY 2026 · 17:17 UTC",
+      "headline": "TRUMP REDOBLA SUS ATAQUES CONTRA LOS LÍDERES EUROPEOS Y ANUNCIA QUE ELEVARÁ LOS ",
+      "detail": "El impuesto se incrementará al 25%; la medida llega después de cuestionar la falta de apoyo de los aliados de la OTAN para abrir el estrecho de Ormuz; amenazó con reducir el número de tropas estadouni",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "01 MAY 2026 · 16:32 UTC",
       "headline": "UAE EXIT FROM OPEC SIGNALS CLOSER ALIGNMENT WITH US INTERESTS, EXPERTS SAY",
       "detail": "UAE wants to supply more oil than its OPEC quota and that could help push down prices once the Strait of Hormuz opens.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "01 MAY 2026 · 14:51 UTC",
-      "headline": "TRUMP REDOBLA SUS ATAQUES CONTRA LOS LÍDERES EUROPEOS Y ANUNCIA QUE ELEVARÁ LOS ",
-      "detail": "El impuesto se incrementará al 25%; la medida llega después de cuestionar la falta de apoyo de los aliados de la OTAN para abrir el estrecho de Ormuz; amenazó con reducir el número de tropas estadouni",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "01 MAY 2026 · 13:18 UTC",
@@ -43,17 +49,11 @@
       "headline": "LOS DRONES RUSOS ESPOLEAN EL MIEDO EN LOS PUEBLOS FRONTERIZOS DE RUMANIA: “VIVIM",
       "detail": "La intensificación de los ataques contra los puertos del Danubio de Ucrania ha provocado explosiones y evacuaciones en localidades cercanas a la línea divisoria",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 MAY 2026 · 00:01 UTC",
-      "headline": "IT'S NOT JUST OIL: IRAN WAR ALSO THREATENS ASIA'S FOOD SECURITY",
-      "detail": "Planting season is beginning in Asia - but the closure of the Strait of Hormuz and Chinese restrictions has hit fertiliser supply.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.99 (+0.00%)",
-    "VIX: 16.93",
+    "BRENT: $108.1 (+0.00%)",
+    "VIX: 16.79",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
