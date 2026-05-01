@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-01T20:47:54.027223+00:00",
+  "updated_at": "2026-05-01T21:50:49.521814+00:00",
   "market": {
-    "brent_usd": 108.97,
+    "brent_usd": 108.83,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "01 MAY 2026 · 13:18 UTC",
-      "headline": "‘TURBULENT AND DANGEROUS’: HOW SHIPPING IS THE NEW GLOBAL BATTLEGROUND",
-      "detail": "From Hormuz to Panama, the South China Sea to the Black Sea, geopolitics is rewriting the rules of global shipping.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "01 MAY 2026 · 03:40 UTC",
       "headline": "LOS DRONES RUSOS ESPOLEAN EL MIEDO EN LOS PUEBLOS FRONTERIZOS DE RUMANIA: “VIVIM",
       "detail": "La intensificación de los ataques contra los puertos del Danubio de Ucrania ha provocado explosiones y evacuaciones en localidades cercanas a la línea divisoria",
@@ -49,10 +43,16 @@
       "headline": "IT'S NOT JUST OIL: IRAN WAR ALSO THREATENS ASIA'S FOOD SECURITY",
       "detail": "Planting season is beginning in Asia - but the closure of the Strait of Hormuz and Chinese restrictions has hit fertiliser supply.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 11:26 UTC",
+      "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
+      "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.97 (+0.00%)",
+    "BRENT: $108.83 (+0.00%)",
     "VIX: 16.99",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
