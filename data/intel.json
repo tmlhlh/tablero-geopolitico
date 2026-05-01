@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-01T02:44:31.463324+00:00",
+  "updated_at": "2026-05-01T06:13:36.515941+00:00",
   "market": {
-    "brent_usd": 112.13,
+    "brent_usd": 111.1,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "01 MAY 2026 · 03:40 UTC",
+      "headline": "LOS DRONES RUSOS ESPOLEAN EL MIEDO EN LOS PUEBLOS FRONTERIZOS DE RUMANIA: “VIVIM",
+      "detail": "La intensificación de los ataques contra los puertos del Danubio de Ucrania ha provocado explosiones y evacuaciones en localidades cercanas a la línea divisoria",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "01 MAY 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TEHRAN SAYS US PORTS SIEGE ‘INTOLERABLE’; TRUMP MULLS ACTION",
       "detail": "Israeli attacks on Lebanon killed at least 2,586 people and wounded more than 8,000 since March 2, local media report.",
@@ -24,12 +30,6 @@
       "timestamp": "30 APR 2026 · 21:31 UTC",
       "headline": "US GAS REACHES $4.30 PER GALLON; TRUMP SAYS PRICES WILL DROP AFTER IRAN WAR",
       "detail": "Price of petrol in US jumps by nearly 30 cents in one week amid Strait of Hormuz blockade and Iran diplomatic deadlock.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 18:02 UTC",
-      "headline": "UN CHIEF CALLS FOR IMMEDIATE REOPENING OF THE STRAIT OF HORMUZ",
-      "detail": "UN Secretary-General António Guterres has urged the immediate reopening of the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $112.13 (+0.00%)",
+    "BRENT: $111.1 (+0.00%)",
     "VIX: 16.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
