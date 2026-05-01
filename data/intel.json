@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30T23:50:31.503843+00:00",
+  "updated_at": "2026-05-01T02:44:31.463324+00:00",
   "market": {
-    "brent_usd": 111.61,
+    "brent_usd": 112.13,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "30 APR 2026 · 22:19 UTC",
-      "headline": "TRUMP DICE QUE “PROBABLEMENTE” PODRÍA RETIRAR LAS TROPAS DE EE.UU DE ITALIA Y ES",
-      "detail": "El mandatario redobló su apuesta luego de anunciar la reducción de efectivos en Alemania; las medidas buscan disciplinar a sus aliados de la OTAN por su falta de apoyo en el estrecho de Ormuz",
-      "severity": "INFO"
+      "timestamp": "01 MAY 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN SAYS US PORTS SIEGE ‘INTOLERABLE’; TRUMP MULLS ACTION",
+      "detail": "Israeli attacks on Lebanon killed at least 2,586 people and wounded more than 8,000 since March 2, local media report.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "30 APR 2026 · 21:31 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $111.61 (+0.00%)",
+    "BRENT: $112.13 (+0.00%)",
     "VIX: 16.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
