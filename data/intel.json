@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T19:53:09.498262+00:00",
+  "updated_at": "2026-05-02T20:37:39.062966+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -15,16 +15,16 @@
   },
   "events": [
     {
+      "timestamp": "02 MAY 2026 · 19:45 UTC",
+      "headline": "SYRIA BECOMES ALTERNATIVE ENERGY CORRIDOR FOR OIL AS HORMUZ EFFECTIVELY BLO",
+      "detail": "Syria is receiving hundreds of Iraqi oil trucks hauling crude overland as an alternative energy corridor to Europe.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "02 MAY 2026 · 11:34 UTC",
       "headline": "TRUMP SAYS US NAVY ACTING ‘LIKE PIRATES’ TO ENFORCE IRAN BLOCKADE",
       "detail": "The US president says the ongoing naval blockade of the Strait of Hormuz is 'a very profitable business'.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "02 MAY 2026 · 07:37 UTC",
-      "headline": "CHINA’S UN ENVOY: HORMUZ CLOSURE WILL DOMINATE TRUMP-XI TALKS",
-      "detail": "China's UN Ambassador Fu Cong says maintaining the ceasefire and reopening the Strait of Hormuz are “urgent” priorities.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "02 MAY 2026 · 03:45 UTC",
