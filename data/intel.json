@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T23:48:28.819816+00:00",
+  "updated_at": "2026-05-02T02:27:06.349824+00:00",
   "market": {
     "brent_usd": 108.83,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "01 MAY 2026 · 20:22 UTC",
-      "headline": "TRUMP REDOBLA SUS ATAQUES CONTRA LOS LÍDERES EUROPEOS Y ANUNCIA QUE ELEVARÁ LOS ",
-      "detail": "El impuesto se incrementará al 25%; la medida llega después de cuestionar la falta de apoyo de los aliados de la OTAN para abrir el estrecho de Ormuz; ya había amenazado con retirar tropas de Alemania",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "01 MAY 2026 · 17:18 UTC",
       "headline": "US WARNS SHIPPERS AGAINST PAYING STRAIT OF HORMUZ TOLLS, ‘DONATIONS’",
@@ -48,6 +42,12 @@
       "timestamp": "30 APR 2026 · 11:26 UTC",
       "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
       "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 03:40 UTC",
+      "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
+      "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
     }
   ],
