@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-02T02:27:06.349824+00:00",
+  "updated_at": "2026-05-02T05:34:13.976182+00:00",
   "market": {
-    "brent_usd": 108.83,
+    "brent_usd": 108.17,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "02 MAY 2026 · 04:35 UTC",
+      "headline": "TRUMP SAYS US FORCES ARE ‘LIKE PIRATES’ TAKING IRANIAN OIL",
+      "detail": "Donald Trump says US forces are ‘like pirates’ taking over Iranian ships and cargo near the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 MAY 2026 · 03:45 UTC",
+      "headline": "LOS PAÍSES PETROLEROS DE FUERA DEL GOLFO HACEN CAJA CON LA CRISIS DE ORMUZ",
+      "detail": "A los mayores precios de venta se suman aumentos modestos de la producción que ayudan a cubrir el boquete global abierto por la guerra. Estados Unidos y Rusia, entre los beneficiados",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 MAY 2026 · 02:29 UTC",
+      "headline": "ESTADOS UNIDOS AFIRMÓ QUE DETUVO 45 BARCOS POR EL BLOQUEO DE PUERTOS IRANÍES",
+      "detail": "El anuncio fue realizado a través de la cuenta en X del Comando Central de Estados Unidos; “Continuamos patrullando aguas internacionales”, aseguraron",
+      "severity": "INFO"
+    },
     {
       "timestamp": "01 MAY 2026 · 17:18 UTC",
       "headline": "US WARNS SHIPPERS AGAINST PAYING STRAIT OF HORMUZ TOLLS, ‘DONATIONS’",
@@ -31,28 +49,10 @@
       "headline": "LOS DRONES RUSOS ESPOLEAN EL MIEDO EN LOS PUEBLOS FRONTERIZOS DE RUMANIA: “VIVIM",
       "detail": "La intensificación de los ataques contra los puertos del Danubio de Ucrania ha provocado explosiones y evacuaciones en localidades cercanas a la línea divisoria",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 MAY 2026 · 00:01 UTC",
-      "headline": "IT'S NOT JUST OIL: IRAN WAR ALSO THREATENS ASIA'S FOOD SECURITY",
-      "detail": "Planting season is beginning in Asia - but the closure of the Strait of Hormuz and Chinese restrictions has hit fertiliser supply.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 11:26 UTC",
-      "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
-      "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 03:40 UTC",
-      "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
-      "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.83 (+0.00%)",
+    "BRENT: $108.17 (+0.00%)",
     "VIX: 16.99",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
