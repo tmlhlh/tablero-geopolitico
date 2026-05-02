@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T09:02:38.257981+00:00",
+  "updated_at": "2026-05-02T10:47:25.241442+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "02 MAY 2026 · 02:29 UTC",
-      "headline": "ESTADOS UNIDOS AFIRMÓ QUE DETUVO 45 BARCOS POR EL BLOQUEO DE PUERTOS IRANÍES",
-      "detail": "El anuncio fue realizado a través de la cuenta en X del Comando Central de Estados Unidos; “Continuamos patrullando aguas internacionales”, aseguraron",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "01 MAY 2026 · 00:01 UTC",
       "headline": "IT'S NOT JUST OIL: IRAN WAR ALSO THREATENS ASIA'S FOOD SECURITY",
       "detail": "Planting season is beginning in Asia - but the closure of the Strait of Hormuz and Chinese restrictions has hit fertiliser supply.",
@@ -48,6 +42,12 @@
       "timestamp": "30 APR 2026 · 11:26 UTC",
       "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
       "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 03:40 UTC",
+      "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
+      "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
     }
   ],
