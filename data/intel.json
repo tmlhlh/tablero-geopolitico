@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T18:54:33.747164+00:00",
+  "updated_at": "2026-05-02T19:53:09.498262+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "02 MAY 2026 · 12:43 UTC",
-      "headline": "TRUMP AMENAZA CON SANCIONAR A LAS EMPRESAS NAVIERAS QUE PAGUEN PEAJES A IRÁN",
-      "detail": "La Oficina de Control de Activos Extranjeros advirtió sobre los riesgos de contribuir económicamente con el régimen islámico para garantizarse el paso seguro por el estrecho de Ormuz",
-      "severity": "INFO"
-    },
     {
       "timestamp": "02 MAY 2026 · 11:34 UTC",
       "headline": "TRUMP SAYS US NAVY ACTING ‘LIKE PIRATES’ TO ENFORCE IRAN BLOCKADE",
@@ -48,6 +42,12 @@
       "timestamp": "30 APR 2026 · 11:26 UTC",
       "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
       "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 03:40 UTC",
+      "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
+      "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
     }
   ],
