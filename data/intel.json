@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T20:37:39.062966+00:00",
+  "updated_at": "2026-05-02T21:36:55.448107+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -18,12 +18,6 @@
       "timestamp": "02 MAY 2026 · 19:45 UTC",
       "headline": "SYRIA BECOMES ALTERNATIVE ENERGY CORRIDOR FOR OIL AS HORMUZ EFFECTIVELY BLO",
       "detail": "Syria is receiving hundreds of Iraqi oil trucks hauling crude overland as an alternative energy corridor to Europe.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 MAY 2026 · 11:34 UTC",
-      "headline": "TRUMP SAYS US NAVY ACTING ‘LIKE PIRATES’ TO ENFORCE IRAN BLOCKADE",
-      "detail": "The US president says the ongoing naval blockade of the Strait of Hormuz is 'a very profitable business'.",
       "severity": "INFO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
       "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "28 APR 2026 · 10:16 UTC",
+      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
+      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
