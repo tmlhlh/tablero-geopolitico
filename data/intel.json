@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T23:39:17.006272+00:00",
+  "updated_at": "2026-05-03T02:35:56.509803+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "03 MAY 2026 · 01:47 UTC",
+      "headline": "GREECE REJECTS UKRAINE’S TERMS FOR NAVAL DRONE DEAL – MEDIA",
+      "detail": "A drone deal between Ukraine and Greece has reportedly stalled due to disagreements over terms Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "02 MAY 2026 · 19:45 UTC",
       "headline": "SYRIA BECOMES ALTERNATIVE ENERGY CORRIDOR FOR OIL AS HORMUZ EFFECTIVELY BLO",
       "detail": "Syria is receiving hundreds of Iraqi oil trucks hauling crude overland as an alternative energy corridor to Europe.",
@@ -24,12 +30,6 @@
       "timestamp": "02 MAY 2026 · 03:45 UTC",
       "headline": "LOS PAÍSES PETROLEROS DE FUERA DEL GOLFO HACEN CAJA CON LA CRISIS DE ORMUZ",
       "detail": "A los mayores precios de venta se suman aumentos modestos de la producción que ayudan a cubrir el boquete global abierto por la guerra. Estados Unidos y Rusia, entre los beneficiados",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 MAY 2026 · 00:01 UTC",
-      "headline": "IT'S NOT JUST OIL: IRAN WAR ALSO THREATENS ASIA'S FOOD SECURITY",
-      "detail": "Planting season is beginning in Asia - but the closure of the Strait of Hormuz and Chinese restrictions has hit fertiliser supply.",
       "severity": "INFO"
     },
     {
