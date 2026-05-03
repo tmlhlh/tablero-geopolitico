@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-05-03T11:39:15.752240+00:00",
+  "updated_at": "2026-05-03T13:02:12.576738+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 6.4,
     "vix": 16.99,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 6.4%"
   },
   "events": [
+    {
+      "timestamp": "03 MAY 2026 · 12:12 UTC",
+      "headline": "NEW MECHANISM TO GOVERN STRAIT OF HORMUZ IN IRAN PEACE PROPOSAL – RT REPORTER (V",
+      "detail": "New mechanism to govern Strait of Hormuz included in 14-point Iran peace proposal, RT reporter in Tehran says Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "03 MAY 2026 · 12:05 UTC",
+      "headline": "RUSSIAN STRIKES KILL 10 AS ZELENSKY SAYS UKRAINE HITS OIL TANKERS AND TERMINAL",
+      "detail": "Fatalities have been reported around Ukraine as Kyiv says Russian \"shadow fleet\" tankers were hit by drones.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "03 MAY 2026 · 10:36 UTC",
       "headline": "STRAIT OF HORMUZ BLOCKADE AND OTHER MAJOR NAVAL SIEGES IN MODERN TIMES",
@@ -23,7 +35,7 @@
     {
       "timestamp": "03 MAY 2026 · 09:57 UTC",
       "headline": "UKRAINE DRONE ATTACK HITS RUSSIAN BALTIC PORT, GOVERNOR SAYS",
-      "detail": "Ukrainian forces also strike two shadow fleet tankers near port of Novorossiysk, President Volodymyr Zelenskyy says.",
+      "detail": "Ukraine confirmed the attack on the port, with President Volodymyr Zelenskyy claiming it as a 'successful destruction'.",
       "severity": "CRÍTICO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "MÁXIMO TORERO (FAO): “NOS ENCAMINAMOS A UNA CRISIS ALIMENTARIA SI ORMUZ NO REABR",
       "detail": "El economista jefe de la agencia de la ONU advierte de una peligrosa confluencia de fertilizantes escasos y caros y una alta probabilidad del fenómeno de El Niño",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "03 MAY 2026 · 01:47 UTC",
-      "headline": "GREECE REJECTS UKRAINE’S TERMS FOR NAVAL DRONE DEAL – MEDIA",
-      "detail": "A drone deal between Ukraine and Greece has reportedly stalled due to disagreements over terms Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 MAY 2026 · 03:45 UTC",
-      "headline": "LOS PAÍSES PETROLEROS DE FUERA DEL GOLFO HACEN CAJA CON LA CRISIS DE ORMUZ",
-      "detail": "A los mayores precios de venta se suman aumentos modestos de la producción que ayudan a cubrir el boquete global abierto por la guerra. Estados Unidos y Rusia, entre los beneficiados",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $108.17 (+0.00%)",
     "VIX: 16.99",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 6.4%"
   ]
 }
