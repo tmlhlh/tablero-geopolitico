@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-03T20:38:46.130726+00:00",
+  "updated_at": "2026-05-03T21:38:29.511620+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 45.3,
+    "ormuz_flow_pct": 47.2,
     "vix": 16.99,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.5
@@ -14,6 +14,18 @@
     "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "03 MAY 2026 · 20:51 UTC",
+      "headline": "IRAN LAWMAKER SAYS STRAIT OF HORMUZ WILL NOT RETURN TO PRE‑WAR STATE",
+      "detail": "Iran says the Strait of Hormuz will never return to the status quo that existed before the US-Israel war on Tehran.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "03 MAY 2026 · 20:47 UTC",
+      "headline": "TRUMP SAYS US WILL ‘HELP FREE UP’ SHIPS STUCK IN HORMUZ STRAIT",
+      "detail": "US president says any interference with operation, which will start on Monday, will 'have to be dealt with forcefully'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "03 MAY 2026 · 13:43 UTC",
       "headline": "RUSSIAN STRIKES KILL 10 AS ZELENSKY SAYS UKRAINE HITS OIL TANKERS AND TERMINAL",
@@ -36,18 +48,6 @@
       "timestamp": "03 MAY 2026 · 03:40 UTC",
       "headline": "EL MUNDO SE ASOMA AL PRECIPICIO TRAS DOS MESES DE CIERRE DE ORMUZ",
       "detail": "Sin avances en las negociaciones entre EE UU e Irán, la crisis energética amenaza con descarrilar la economía si el estrecho no reabre en las próximas semanas",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 MAY 2026 · 03:40 UTC",
-      "headline": "MÁXIMO TORERO (FAO): “NOS ENCAMINAMOS A UNA CRISIS ALIMENTARIA SI ORMUZ NO REABR",
-      "detail": "El economista jefe de la agencia de la ONU advierte de una peligrosa confluencia de fertilizantes escasos y caros y una alta probabilidad del fenómeno de El Niño",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "03 MAY 2026 · 01:47 UTC",
-      "headline": "GREECE REJECTS UKRAINE’S TERMS FOR NAVAL DRONE DEAL – MEDIA",
-      "detail": "A drone deal between Ukraine and Greece has reportedly stalled due to disagreements over terms Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
