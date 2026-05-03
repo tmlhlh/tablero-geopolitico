@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T02:35:56.509803+00:00",
+  "updated_at": "2026-05-03T05:55:41.573803+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "03 MAY 2026 · 03:40 UTC",
+      "headline": "EL MUNDO SE ASOMA AL PRECIPICIO TRAS DOS MESES DE CIERRE DE ORMUZ",
+      "detail": "Sin avances en las negociaciones entre EE UU e Irán, la crisis energética amenaza con descarrilar la economía si el estrecho no reabre en las próximas semanas",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "03 MAY 2026 · 03:40 UTC",
+      "headline": "MÁXIMO TORERO (FAO): “NOS ENCAMINAMOS A UNA CRISIS ALIMENTARIA SI ORMUZ NO REABR",
+      "detail": "El economista jefe de la agencia de la ONU advierte de una peligrosa confluencia de fertilizantes escasos y caros y una alta probabilidad del fenómeno de El Niño",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "03 MAY 2026 · 01:47 UTC",
       "headline": "GREECE REJECTS UKRAINE’S TERMS FOR NAVAL DRONE DEAL – MEDIA",
@@ -37,18 +49,6 @@
       "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
       "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 03:40 UTC",
-      "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
-      "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "28 APR 2026 · 10:16 UTC",
-      "headline": "GULF MONARCHY STRIPS DOZENS OF CITIZENSHIP OVER ‘IRAN SYMPATHY’",
-      "detail": "Bahrain has stripped 69 people of citizenship over alleged Iran sympathy following Tehran’s retaliatory strikes on the kingdom Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
