@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-05-03T19:53:28.089698+00:00",
+  "updated_at": "2026-05-03T20:38:46.130726+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 45.3,
     "vix": 16.99,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "03 MAY 2026 · 10:36 UTC",
-      "headline": "STRAIT OF HORMUZ BLOCKADE AND OTHER MAJOR NAVAL SIEGES IN MODERN TIMES",
-      "detail": "Naval blockades are among the oldest weapons of war, using sea control to cut supplies and force an enemy’s surrender.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "03 MAY 2026 · 03:40 UTC",
       "headline": "EL MUNDO SE ASOMA AL PRECIPICIO TRAS DOS MESES DE CIERRE DE ORMUZ",
       "detail": "Sin avances en las negociaciones entre EE UU e Irán, la crisis energética amenaza con descarrilar la economía si el estrecho no reabre en las próximas semanas",
@@ -49,11 +43,17 @@
       "headline": "MÁXIMO TORERO (FAO): “NOS ENCAMINAMOS A UNA CRISIS ALIMENTARIA SI ORMUZ NO REABR",
       "detail": "El economista jefe de la agencia de la ONU advierte de una peligrosa confluencia de fertilizantes escasos y caros y una alta probabilidad del fenómeno de El Niño",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "03 MAY 2026 · 01:47 UTC",
+      "headline": "GREECE REJECTS UKRAINE’S TERMS FOR NAVAL DRONE DEAL – MEDIA",
+      "detail": "A drone deal between Ukraine and Greece has reportedly stalled due to disagreements over terms Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $108.17 (+0.00%)",
     "VIX: 16.99",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
