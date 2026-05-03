@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T16:44:05.379891+00:00",
+  "updated_at": "2026-05-03T17:43:32.408351+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -39,16 +39,16 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "03 MAY 2026 · 09:57 UTC",
-      "headline": "UKRAINE DRONE ATTACKS HIT NUCLEAR POWER PLANT, BALTIC PORT",
-      "detail": "President Volodymyr Zelenskyy hails 'successful destruction' of the port, as Russia warns of oil price rises.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "03 MAY 2026 · 03:40 UTC",
       "headline": "EL MUNDO SE ASOMA AL PRECIPICIO TRAS DOS MESES DE CIERRE DE ORMUZ",
       "detail": "Sin avances en las negociaciones entre EE UU e Irán, la crisis energética amenaza con descarrilar la economía si el estrecho no reabre en las próximas semanas",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "03 MAY 2026 · 03:40 UTC",
+      "headline": "MÁXIMO TORERO (FAO): “NOS ENCAMINAMOS A UNA CRISIS ALIMENTARIA SI ORMUZ NO REABR",
+      "detail": "El economista jefe de la agencia de la ONU advierte de una peligrosa confluencia de fertilizantes escasos y caros y una alta probabilidad del fenómeno de El Niño",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
