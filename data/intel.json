@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T07:58:07.397704+00:00",
+  "updated_at": "2026-05-03T09:24:31.501417+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "02 MAY 2026 · 19:45 UTC",
-      "headline": "SYRIA BECOMES ALTERNATIVE ENERGY CORRIDOR FOR OIL AS HORMUZ EFFECTIVELY BLO",
-      "detail": "Syria is receiving hundreds of Iraqi oil trucks hauling crude overland as an alternative energy corridor to Europe.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "02 MAY 2026 · 03:45 UTC",
       "headline": "LOS PAÍSES PETROLEROS DE FUERA DEL GOLFO HACEN CAJA CON LA CRISIS DE ORMUZ",
       "detail": "A los mayores precios de venta se suman aumentos modestos de la producción que ayudan a cubrir el boquete global abierto por la guerra. Estados Unidos y Rusia, entre los beneficiados",
@@ -48,6 +42,12 @@
       "timestamp": "30 APR 2026 · 11:26 UTC",
       "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
       "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 APR 2026 · 03:40 UTC",
+      "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
+      "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
     }
   ],
