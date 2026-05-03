@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-03T21:38:29.511620+00:00",
+  "updated_at": "2026-05-03T22:37:02.148198+00:00",
   "market": {
-    "brent_usd": 108.17,
+    "brent_usd": 107.44,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 47.2,
+    "ormuz_flow_pct": 49.1,
     "vix": 16.99,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.5
@@ -14,6 +14,12 @@
     "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "03 MAY 2026 · 22:22 UTC",
+      "headline": "TRUMP ANUNCIÓ EL “PROYECTO LIBERTAD” PARA GARANTIZAR EL TRASLADO DE BUQUES EN EL",
+      "detail": "Aseguró que sus representantes están teniendo conversaciones con Irán que podrían conducir a algo “muy positivo para todos”",
+      "severity": "INFO"
+    },
     {
       "timestamp": "03 MAY 2026 · 20:51 UTC",
       "headline": "IRAN LAWMAKER SAYS STRAIT OF HORMUZ WILL NOT RETURN TO PRE‑WAR STATE",
@@ -33,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "03 MAY 2026 · 12:59 UTC",
-      "headline": "OPEC+ ANNOUNCES SYMBOLIC OIL OUTPUT RISE DURING STRAIT OF HORMUZ CLOSURE",
-      "detail": "Seven major producers will add 188,000 barrels per day to their total production quota for June, OPEC+ says.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "03 MAY 2026 · 12:12 UTC",
       "headline": "NEW MECHANISM TO GOVERN STRAIT OF HORMUZ IN IRAN PEACE PROPOSAL – RT REPORTER (V",
       "detail": "New mechanism to govern Strait of Hormuz included in 14-point Iran peace proposal, RT reporter in Tehran says Read Full Article at RT.com",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $108.17 (+0.00%)",
+    "BRENT: $107.44 (+0.00%)",
     "VIX: 16.99",
     "ORMUZ: DISRUPCIÓN SEVERA"
   ]
