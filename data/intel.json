@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-05-03T22:37:02.148198+00:00",
+  "updated_at": "2026-05-03T23:40:46.009379+00:00",
   "market": {
-    "brent_usd": 107.44,
+    "brent_usd": 107.91,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 49.1,
+    "ormuz_flow_pct": 8.5,
     "vix": 16.99,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "03 MAY 2026 · 23:10 UTC",
+      "headline": "ENCUENTRAN EN EL ATLÁNTICO EL BUQUE DE EE.UU. CON LA MAYOR PÉRDIDA DE VIDAS EN L",
+      "detail": "Buzos británicos hallaron el Tampa, hundido en 1918 por un submarino alemán con 131 personas a bordo. Es la mayor pérdida naval de EE.UU. en la Primera Guerra Mundial.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "03 MAY 2026 · 22:37 UTC",
+      "headline": "TRUMP REVELA CONVERSACIONES “POSITIVAS” CON IRÁN Y UN PLAN PARA ESCOLTAR BARCOS ",
+      "detail": "Trump calificó de “inaceptable” la propuesta iraní para poner fin a la guerra; un nuevo ataque a un buque comercial en el estrecho y la presión económica de Washington elevan el riesgo de una escalada",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "03 MAY 2026 · 22:22 UTC",
       "headline": "TRUMP ANUNCIÓ EL “PROYECTO LIBERTAD” PARA GARANTIZAR EL TRASLADO DE BUQUES EN EL",
@@ -37,23 +49,11 @@
       "headline": "RUSSIAN STRIKES KILL 10 AS ZELENSKY SAYS UKRAINE HITS OIL TANKERS AND TERMINAL",
       "detail": "Fatalities have been reported around Ukraine as Kyiv says Russian \"shadow fleet\" tankers were hit by drones.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "03 MAY 2026 · 12:12 UTC",
-      "headline": "NEW MECHANISM TO GOVERN STRAIT OF HORMUZ IN IRAN PEACE PROPOSAL – RT REPORTER (V",
-      "detail": "New mechanism to govern Strait of Hormuz included in 14-point Iran peace proposal, RT reporter in Tehran says Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 MAY 2026 · 03:40 UTC",
-      "headline": "EL MUNDO SE ASOMA AL PRECIPICIO TRAS DOS MESES DE CIERRE DE ORMUZ",
-      "detail": "Sin avances en las negociaciones entre EE UU e Irán, la crisis energética amenaza con descarrilar la economía si el estrecho no reabre en las próximas semanas",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.44 (+0.00%)",
+    "BRENT: $107.91 (+0.00%)",
     "VIX: 16.99",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
