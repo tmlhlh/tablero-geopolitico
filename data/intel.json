@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T10:52:01.714884+00:00",
+  "updated_at": "2026-05-03T11:39:15.752240+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "03 MAY 2026 · 10:36 UTC",
+      "headline": "STRAIT OF HORMUZ BLOCKADE AND OTHER MAJOR NAVAL SIEGES IN MODERN TIMES",
+      "detail": "Naval blockades are among the oldest weapons of war, using sea control to cut supplies and force an enemy’s surrender.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "03 MAY 2026 · 09:57 UTC",
       "headline": "UKRAINE DRONE ATTACK HITS RUSSIAN BALTIC PORT, GOVERNOR SAYS",
@@ -42,12 +48,6 @@
       "timestamp": "02 MAY 2026 · 03:45 UTC",
       "headline": "LOS PAÍSES PETROLEROS DE FUERA DEL GOLFO HACEN CAJA CON LA CRISIS DE ORMUZ",
       "detail": "A los mayores precios de venta se suman aumentos modestos de la producción que ayudan a cubrir el boquete global abierto por la guerra. Estados Unidos y Rusia, entre los beneficiados",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 11:26 UTC",
-      "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
-      "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
