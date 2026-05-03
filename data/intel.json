@@ -1,30 +1,36 @@
 {
-  "updated_at": "2026-05-03T13:02:12.576738+00:00",
+  "updated_at": "2026-05-03T14:44:52.054940+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 6.4,
+    "ormuz_flow_pct": 7.7,
     "vix": 16.99,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 6.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.7%"
   },
   "events": [
+    {
+      "timestamp": "03 MAY 2026 · 13:43 UTC",
+      "headline": "RUSSIAN STRIKES KILL 10 AS ZELENSKY SAYS UKRAINE HITS OIL TANKERS AND TERMINAL",
+      "detail": "Fatalities have been reported around Ukraine as Kyiv says Russian \"shadow fleet\" tankers were hit by drones.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "03 MAY 2026 · 12:59 UTC",
+      "headline": "OPEC+ ANNOUNCES SYMBOLIC OIL OUTPUT RISE DURING STRAIT OF HORMUZ CLOSURE",
+      "detail": "Seven major producers will add 188,000 barrels per day to their total production quota for June, OPEC+ says.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "03 MAY 2026 · 12:12 UTC",
       "headline": "NEW MECHANISM TO GOVERN STRAIT OF HORMUZ IN IRAN PEACE PROPOSAL – RT REPORTER (V",
       "detail": "New mechanism to govern Strait of Hormuz included in 14-point Iran peace proposal, RT reporter in Tehran says Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "03 MAY 2026 · 12:05 UTC",
-      "headline": "RUSSIAN STRIKES KILL 10 AS ZELENSKY SAYS UKRAINE HITS OIL TANKERS AND TERMINAL",
-      "detail": "Fatalities have been reported around Ukraine as Kyiv says Russian \"shadow fleet\" tankers were hit by drones.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "03 MAY 2026 · 10:36 UTC",
@@ -34,8 +40,8 @@
     },
     {
       "timestamp": "03 MAY 2026 · 09:57 UTC",
-      "headline": "UKRAINE DRONE ATTACK HITS RUSSIAN BALTIC PORT, GOVERNOR SAYS",
-      "detail": "Ukraine confirmed the attack on the port, with President Volodymyr Zelenskyy claiming it as a 'successful destruction'.",
+      "headline": "UKRAINE DRONE ATTACK HITS RUSSIAN BALTIC PORT",
+      "detail": "President Volodymyr Zelenskyy said attack was 'successful destruction' of the port, as Russia warns of oil price rises.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "EL MUNDO SE ASOMA AL PRECIPICIO TRAS DOS MESES DE CIERRE DE ORMUZ",
       "detail": "Sin avances en las negociaciones entre EE UU e Irán, la crisis energética amenaza con descarrilar la economía si el estrecho no reabre en las próximas semanas",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "03 MAY 2026 · 03:40 UTC",
-      "headline": "MÁXIMO TORERO (FAO): “NOS ENCAMINAMOS A UNA CRISIS ALIMENTARIA SI ORMUZ NO REABR",
-      "detail": "El economista jefe de la agencia de la ONU advierte de una peligrosa confluencia de fertilizantes escasos y caros y una alta probabilidad del fenómeno de El Niño",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $108.17 (+0.00%)",
     "VIX: 16.99",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 6.4%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.7%"
   ]
 }
