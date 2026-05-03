@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T09:24:31.501417+00:00",
+  "updated_at": "2026-05-03T10:52:01.714884+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "03 MAY 2026 · 09:57 UTC",
+      "headline": "UKRAINE DRONE ATTACK HITS RUSSIAN BALTIC PORT, GOVERNOR SAYS",
+      "detail": "Ukrainian forces also strike two shadow fleet tankers near port of Novorossiysk, President Volodymyr Zelenskyy says.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "03 MAY 2026 · 03:40 UTC",
       "headline": "EL MUNDO SE ASOMA AL PRECIPICIO TRAS DOS MESES DE CIERRE DE ORMUZ",
@@ -42,12 +48,6 @@
       "timestamp": "30 APR 2026 · 11:26 UTC",
       "headline": "US CABLE OUTLINES NEW ‘CONSTRUCT’ TO CONTROL STRAIT OF HORMUZ – MEDIA",
       "detail": "A US diplomatic cable from lays out a proposed system for managing the Strait of Hormuz, according to media reports Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 APR 2026 · 03:40 UTC",
-      "headline": "EMIRATOS ABANDONA LA OPEP: IMPACTO DIFERIDO, REALINEAMIENTO ANTICIPADO",
-      "detail": "La salida solo ayudará en la reducción del precio del petróleo cuando Ormuz se abra, pero el país aprovecha la guerra para aumentar su producción y marcar su propia estrategia geopolítica en la región",
       "severity": "INFO"
     }
   ],
