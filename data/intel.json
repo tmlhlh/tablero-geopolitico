@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T15:43:07.258113+00:00",
+  "updated_at": "2026-05-03T16:44:05.379891+00:00",
   "market": {
     "brent_usd": 108.17,
     "brent_chg": 0.0
@@ -40,8 +40,8 @@
     },
     {
       "timestamp": "03 MAY 2026 · 09:57 UTC",
-      "headline": "UKRAINE DRONE ATTACK HITS RUSSIAN BALTIC PORT",
-      "detail": "President Volodymyr Zelenskyy said attack was 'successful destruction' of the port, as Russia warns of oil price rises.",
+      "headline": "UKRAINE DRONE ATTACKS HIT NUCLEAR POWER PLANT, BALTIC PORT",
+      "detail": "President Volodymyr Zelenskyy hails 'successful destruction' of the port, as Russia warns of oil price rises.",
       "severity": "CRÍTICO"
     },
     {
