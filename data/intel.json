@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-05-04T06:09:16.754314+00:00",
+  "updated_at": "2026-05-04T09:15:04.284189+00:00",
   "market": {
-    "brent_usd": 107.32,
+    "brent_usd": 109.24,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.99,
+    "vix": 17.49,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "04 MAY 2026 · 09:00 UTC",
+      "headline": "US THREATENS SANCTIONS OVER PAYMENTS TO IRAN FOR HORMUZ PASSAGE",
+      "detail": "The US Office of Foreign Assets Control has warned that companies paying Iran for passage through the Strait of Hormuz could face sanctions Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 08:27 UTC",
+      "headline": "JAPAN PM: HORMUZ CLOSURE ‘INFLICTING ENORMOUS IMPACT’ ON ASIA PACIFIC",
+      "detail": "Japan’s PM says the effective closure of the Strait of Hormuz is ‘inflicting an ‘enormous impact’ on Asia Pacific.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 08:20 UTC",
+      "headline": "IRAN WARNS US TO STAY OUT OF HORMUZ AFTER TRUMP SAYS US WILL ‘GUIDE’ SHIPS",
+      "detail": "President Trump said the US will begin Project Freedom on Monday to guide stranded ships out of the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "04 MAY 2026 · 04:07 UTC",
       "headline": "TWO CARGO VESSELS STRUCK NEAR STRAIT OF HORMUZ – MONITOR",
@@ -22,38 +40,20 @@
     },
     {
       "timestamp": "04 MAY 2026 · 03:47 UTC",
-      "headline": "TRUMP SAYS US TO BEGIN ESCORTING SHIPS IN STRAIT OF HORMUZ",
-      "detail": "US President Donald Trump has announced a naval mission to escort stranded ships through the Strait of Hormuz.",
+      "headline": "TRUMP SAYS US TO BEGIN ‘GUIDING’ SHIPS IN STRAIT OF HORMUZ",
+      "detail": "US President Donald Trump has announced a naval mission to 'guide' stranded ships through the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
       "timestamp": "04 MAY 2026 · 03:37 UTC",
       "headline": "OIL PRICES FLAT AS TRUMP’S PLAN FOR STRAIT OF HORMUZ FAILS TO CALM MARKET",
-      "detail": "Brent crude is largely unmoved by Trump's announcement of the operation, dubbed Project Freedom.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 03:30 UTC",
-      "headline": "ORMUZ, LA ISLA QUE DA NOMBRE AL ESTRECHO, ANTE EL BLOQUEO: “TODO HA COLAPSADO” ",
-      "detail": "La población de la zona, dependiente del turismo y de la pesca, sufre el hundimiento de su economía y una parte huye a otras zonas de Irán",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 02:38 UTC",
-      "headline": "IRÁN CONSIDERARÍA CUALQUIER “INTERFERENCIA” DE EE.UU. EN ORMUZ COMO UNA VIOLACIÓ",
-      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 02:13 UTC",
-      "headline": "US TO ‘GUIDE’ NEUTRAL SHIPS THROUGH STRAIT OF HORMUZ – TRUMP",
-      "detail": "The US is launching an initiative to assist neutral ships stranded in and around the Strait of Hormuz, US President Donald Trump said Read Full Article at RT.com",
+      "detail": "Brent crude is largely unmoved by Trump's announcement of the operation, dubbed 'Project Freedom'.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.32 (+0.00%)",
-    "VIX: 16.99",
+    "BRENT: $109.24 (+0.00%)",
+    "VIX: 17.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
