@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-05-04T17:46:48.662530+00:00",
+  "updated_at": "2026-05-04T19:24:18.552215+00:00",
   "market": {
-    "brent_usd": 114.01,
+    "brent_usd": 113.98,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 18.09,
+    "ormuz_flow_pct": 3.5,
+    "vix": 18.28,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.5%"
   },
   "events": [
     {
-      "timestamp": "04 MAY 2026 · 17:02 UTC",
+      "timestamp": "04 MAY 2026 · 18:59 UTC",
       "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 18:54 UTC",
+      "headline": "EMIRATOS ÁRABES UNIDOS ACTIVÓ SUS DEFENSAS ANTIAÉREAS ANTE UNA AMENAZA DE MISILE",
+      "detail": "Es la primera alerta desde el alto el fuego en la guerra entre Estados Unidos, Israel e Irán; el episodio ocurre en medio de la crisis en el estrecho de Ormuz y la disputa por el control del tráfico m",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 18:48 UTC",
+      "headline": "¿EN QUÉ CONSISTE LA OPERACIÓN PROYECTO LIBERTAD DE ESTADOS UNIDOS EN EL ESTRECHO",
+      "detail": "El ejército estadounidense “guiará” a buques atrapados por el bloqueo iraní, pero sin plantear de momento escoltarlos",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 18:39 UTC",
+      "headline": "MÁS DE 800 BUQUES Y 20.000 MARINEROS CONTINÚAN ATRAPADOS POR EL BLOQUEO DE ORMUZ",
+      "detail": "El sector de la navegación desconfía de la efectividad de la operación de Estados Unidos para sacar barcos del estratégico paso marítimo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 18:38 UTC",
+      "headline": "DOS DESTRUCTORES DE EE.UU. ENTRARON AL GOLFO PARA ROMPER EL BLOQUEO EN ORMUZ E I",
+      "detail": "El buque fue obligado a retroceder tras el fuerte impacto, según indicó la agencia de noticias del régimen; el ataque habría sido luego de que EE.UU. “violara los protocolos de seguridad”",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "04 MAY 2026 · 16:27 UTC",
       "headline": "CAPTAIN WARNS ‘NO SHIP WILL BE A HERO’ BY RISKING HORMUZ TRANSIT",
       "detail": "Captain Raman Kapoor says no vessel will attempt to exit the Strait of Hormuz without assurance of safety.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 15:55 UTC",
-      "headline": "US OFFICIAL SAYS CHINA IS ‘FUNDING’ IRAN, URGES BEIJING TO HELP OPEN HORMUZ",
-      "detail": "Scott Bessent says US has 'absolute control' of Hormuz, but calls on China to 'step up' with diplomacy to reopen strait.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 15:05 UTC",
-      "headline": "DOS DESTRUCTORES DE EE.UU. ENTRARON AL GOLFO PARA ROMPER EL BLOQUEO EN ORMUZ E I",
-      "detail": "El buque fue obligado a retroceder tras el fuerte impacto, según indicó la agencia de noticias del régimen; el ataque habría sido luego de que EE.UU. “violara los protocolos de seguridad”",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 14:56 UTC",
-      "headline": "DOES TRUMP HOLD ‘ALL THE CARDS’ AGAINST IRAN IN THE STRAIT OF HORMUZ?",
-      "detail": "Trump signals confidence in Iran standoff as tensions rise in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 13:28 UTC",
-      "headline": "¿EN QUÉ CONSISTE LA OPERACIÓN PROYECTO LIBERTAD DE ESTADOS UNIDOS EN EL ESTRECHO",
-      "detail": "El ejército estadounidense “guiará” a buques atrapados por el bloqueo iraní, pero sin precisar si estos serán escoltados, una posibilidad improbable",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $114.01 (+0.00%)",
-    "VIX: 18.09",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $113.98 (+0.00%)",
+    "VIX: 18.28",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.5%"
   ]
 }
