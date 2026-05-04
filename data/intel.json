@@ -1,24 +1,36 @@
 {
-  "updated_at": "2026-05-04T13:50:41.225025+00:00",
+  "updated_at": "2026-05-04T15:59:23.514959+00:00",
   "market": {
-    "brent_usd": 110.47,
+    "brent_usd": 114.16,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 17.69,
+    "ormuz_flow_pct": 5.2,
+    "vix": 18.44,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.2%"
   },
   "events": [
     {
-      "timestamp": "04 MAY 2026 · 13:41 UTC",
-      "headline": "EE.UU. ANUNCIA QUE DOS DESTRUCTORES ENTRARON AL GOLFO PARA ROMPER EL BLOQUEO DE ",
+      "timestamp": "04 MAY 2026 · 15:29 UTC",
+      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 15:05 UTC",
+      "headline": "DOS DESTRUCTORES DE EE.UU. ENTRARON AL GOLFO PARA ROMPER EL BLOQUEO EN ORMUZ E I",
       "detail": "El buque fue obligado a retroceder tras el fuerte impacto, según indicó la agencia de noticias del régimen; el ataque habría sido luego de que EE.UU. “violara los protocolos de seguridad”",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 14:56 UTC",
+      "headline": "DOES TRUMP HOLD ‘ALL THE CARDS’ AGAINST IRAN IN THE STRAIT OF HORMUZ?",
+      "detail": "Trump signals confidence in Iran standoff as tensions rise in the Strait of Hormuz.",
+      "severity": "INFO"
     },
     {
       "timestamp": "04 MAY 2026 · 13:28 UTC",
@@ -27,33 +39,21 @@
       "severity": "INFO"
     },
     {
+      "timestamp": "04 MAY 2026 · 13:12 UTC",
+      "headline": "WAR PREPARATIONS UNDER WAY IN IRAN AS HORMUZ TENSIONS WITH US ESCALATE",
+      "detail": "Amid stalled talks and sparring over key waterway, Iranian media say US warship struck, but Washington denies incident.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "04 MAY 2026 · 13:10 UTC",
       "headline": "TRUMP’S ‘PROJECT FREEDOM’: CAN US NAVY ‘GUIDE’ STUCK SHIPS OUT OF HORMUZ?",
       "detail": "Trump says US navy will free up ships stranded in the Gulf, but it remains unclear how the campaign will be implemented.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 11:32 UTC",
-      "headline": "AUMENTA EL BOLETO DE COLECTIVO BONAERENSE; TRES MUERTOS POR HANTAVIRUS EN UN CRU",
-      "detail": "Además, el Gobierno reabre la sala de prensa en Casa Rosada; EE.UU. escoltará a buques neutrales en Ormuz; Colapinto quedó séptimo en Miami. Estas son las noticias de la mañana del lunes 4 de mayo de ",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 11:27 UTC",
-      "headline": "WHAT IS THE UKRAINIAN ANTI-DRONE SYSTEM SKY MAP BEING USED IN THE GULF?",
-      "detail": "Ukraine’s battle-tested system uses thousands of acoustic sensors and interceptors to find and destroy incoming drones.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 10:55 UTC",
-      "headline": "IRAN SAYS IT FIRED MISSILES AT US WARSHIP TO PREVENT IT ENTERING HORMUZ",
-      "detail": "Iranian state media says two missiles have struck a US navy destroyer to prevent it entering the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.47 (+0.00%)",
-    "VIX: 17.69",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $114.16 (+0.00%)",
+    "VIX: 18.44",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.2%"
   ]
 }
