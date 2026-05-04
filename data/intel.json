@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-05-04T11:45:32.431531+00:00",
+  "updated_at": "2026-05-04T13:50:41.225025+00:00",
   "market": {
-    "brent_usd": 111.72,
+    "brent_usd": 110.47,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 18.05,
+    "ormuz_flow_pct": 3.0,
+    "vix": 17.69,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "04 MAY 2026 · 13:41 UTC",
+      "headline": "EE.UU. ANUNCIA QUE DOS DESTRUCTORES ENTRARON AL GOLFO PARA ROMPER EL BLOQUEO DE ",
+      "detail": "El buque fue obligado a retroceder tras el fuerte impacto, según indicó la agencia de noticias del régimen; el ataque habría sido luego de que EE.UU. “violara los protocolos de seguridad”",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 13:28 UTC",
+      "headline": "¿EN QUÉ CONSISTE LA OPERACIÓN PROYECTO LIBERTAD DE ESTADOS UNIDOS EN EL ESTRECHO",
+      "detail": "El ejército estadounidense “guiará” a buques atrapados por el bloqueo iraní, pero sin precisar si estos serán escoltados, una posibilidad improbable",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 13:10 UTC",
+      "headline": "TRUMP’S ‘PROJECT FREEDOM’: CAN US NAVY ‘GUIDE’ STUCK SHIPS OUT OF HORMUZ?",
+      "detail": "Trump says US navy will free up ships stranded in the Gulf, but it remains unclear how the campaign will be implemented.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "04 MAY 2026 · 11:32 UTC",
       "headline": "AUMENTA EL BOLETO DE COLECTIVO BONAERENSE; TRES MUERTOS POR HANTAVIRUS EN UN CRU",
@@ -21,39 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "04 MAY 2026 · 11:23 UTC",
-      "headline": "IRÁN ASEGURA QUE DOS MISILES IMPACTARON CONTRA UN BUQUE DE ESTADOS UNIDOS Y WASH",
-      "detail": "El buque fue obligado a retroceder tras el fuerte impacto, según indicó la agencia de noticias del régimen; el ataque habría sido luego de que EE.UU. “violara los protocolos de seguridad”",
-      "severity": "CRÍTICO"
+      "timestamp": "04 MAY 2026 · 11:27 UTC",
+      "headline": "WHAT IS THE UKRAINIAN ANTI-DRONE SYSTEM SKY MAP BEING USED IN THE GULF?",
+      "detail": "Ukraine’s battle-tested system uses thousands of acoustic sensors and interceptors to find and destroy incoming drones.",
+      "severity": "INFO"
     },
     {
       "timestamp": "04 MAY 2026 · 10:55 UTC",
       "headline": "IRAN SAYS IT FIRED MISSILES AT US WARSHIP TO PREVENT IT ENTERING HORMUZ",
       "detail": "Iranian state media says two missiles have struck a US navy destroyer to prevent it entering the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 10:52 UTC",
-      "headline": "IRAN HITS US NAVY SHIP WITH MISSILE STRIKE – MEDIA",
-      "detail": "Iran has hit a US patrol boat with two missiles not far from the Strait of Hormuz after it ignored warnings, according to Fars Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 09:11 UTC",
-      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 66 AS TRUMP ANNOUNCES HORMUZ MISSION?",
-      "detail": "Trump orders new Hormuz mission after Iran says it receives US response to its peace proposal.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 09:00 UTC",
-      "headline": "US THREATENS SANCTIONS OVER PAYMENTS TO IRAN FOR HORMUZ PASSAGE",
-      "detail": "The US Office of Foreign Assets Control has warned that companies paying Iran for passage through the Strait of Hormuz could face sanctions Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.72 (+0.00%)",
-    "VIX: 18.05",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $110.47 (+0.00%)",
+    "VIX: 17.69",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
