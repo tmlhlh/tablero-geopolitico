@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-05-04T22:54:59.194027+00:00",
+  "updated_at": "2026-05-04T23:51:56.347973+00:00",
   "market": {
-    "brent_usd": 113.8,
+    "brent_usd": 113.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.1,
+    "ormuz_flow_pct": 5.8,
     "vix": 18.29,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.1%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.8%"
   },
   "events": [
+    {
+      "timestamp": "04 MAY 2026 · 23:42 UTC",
+      "headline": "US STRIKES IRANIAN FAST BOATS AS IRAN ATTACKS UAE OIL FACILITY ",
+      "detail": "Shipping company Maersk says one of its US-flagged commercial vessels has successfully exited the Strait of Hormuz under US military protection.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "04 MAY 2026 · 22:45 UTC",
       "headline": "TEHRAN DENIES US CLAIM ABOUT SINKING IRANIAN BOATS",
       "detail": "Tehran has dismissed as a “lie” a US claim that it sank six Iranian military boats in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 22:44 UTC",
-      "headline": "US STRIKES IRANIAN FAST BOATS AS IRAN ATTACKS UAE OIL FACILITY ",
-      "detail": "Meanwhile shipping company Maersk said one of its US-flagged commercial vessels had successfully exited the Strait of Hormuz under US military protection.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "04 MAY 2026 · 22:02 UTC",
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "04 MAY 2026 · 20:59 UTC",
-      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "04 MAY 2026 · 19:02 UTC",
       "headline": "IRAN-US CLASH OVER ALLEGED WARSHIP ATTACK IN STRAIT OF HORMUZ",
       "detail": "Iran claims its navy forced a US warship to turn back from the Strait of Hormuz as Washington denies any clash.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 18:57 UTC",
+      "headline": "IRÁN ABRE FUEGO ANTE EL INTENTO DE ESTADOS UNIDOS DE SACAR BUQUES DEL ESTRECHO D",
+      "detail": "Teherán incendia una instalación petrolera de Emiratos Árabes Unidos con el lanzamiento de un dron. Trump amenaza con borrar Irán “de la faz de la Tierra”",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $113.8 (+0.00%)",
+    "BRENT: $113.95 (+0.00%)",
     "VIX: 18.29",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.1%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.8%"
   ]
 }
