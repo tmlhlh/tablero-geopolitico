@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-05T08:04:07.442294+00:00",
+  "updated_at": "2026-05-05T10:43:07.640045+00:00",
   "market": {
-    "brent_usd": 113.32,
+    "brent_usd": 112.82,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.96,
+    "vix": 17.65,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "05 MAY 2026 · 00:03 UTC",
-      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
+      "timestamp": "04 MAY 2026 · 22:45 UTC",
+      "headline": "US ‘LYING’ ABOUT SINKING IRANIAN BOATS – TEHRAN",
+      "detail": "Tehran has dismissed the US claim that it sank six Iranian military boats in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
-      "timestamp": "05 MAY 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: WASHINGTON, TEHRAN TRADE THREATS OVER STRAIT OF HORMUZ",
-      "detail": "Israeli attacks have killed 2,696 people in Lebanon since March 2, the country's Health Ministry reports.",
-      "severity": "CRÍTICO"
+      "timestamp": "04 MAY 2026 · 18:57 UTC",
+      "headline": "IRÁN ABRE FUEGO ANTE EL INTENTO DE ESTADOS UNIDOS DE SACAR BUQUES DEL ESTRECHO D",
+      "detail": "Teherán incendia una instalación petrolera de Emiratos Árabes Unidos con el lanzamiento de un dron. Trump amenaza con borrar Irán “de la faz de la Tierra”",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $113.32 (+0.00%)",
-    "VIX: 17.96",
+    "BRENT: $112.82 (+0.00%)",
+    "VIX: 17.65",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
