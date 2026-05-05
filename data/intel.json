@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-05T20:04:39.479034+00:00",
+  "updated_at": "2026-05-05T21:58:09.698393+00:00",
   "market": {
-    "brent_usd": 110.28,
+    "brent_usd": 110.5,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.33,
+    "vix": 17.38,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
@@ -15,45 +15,45 @@
   },
   "events": [
     {
-      "timestamp": "05 MAY 2026 · 19:57 UTC",
+      "timestamp": "05 MAY 2026 · 21:30 UTC",
+      "headline": "POR QUÉ EMIRATOS ÁRABES UNIDOS ES EL ÚNICO PAÍS DEL GOLFO PÉRSICO AL QUE IRÁN SI",
+      "detail": "Ataques, alianzas y economía explican por qué EAU se convirtió en el epicentro de la ofensiva iraní en medio de la guerra",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 21:07 UTC",
+      "headline": "CENTCOM: ‘SAFE PATH’ THROUGH HORMUZ IS US PRIORITY IN ‘PROJECT FREEDOM’",
+      "detail": "US CENTCOM spokesman Tim Hawkins says the main priorities in Hormuz are securing safe routes & blockading Iran.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 20:55 UTC",
       "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
     },
     {
+      "timestamp": "05 MAY 2026 · 20:42 UTC",
+      "headline": "US ARMY SAYS ‘PROJECT FREEDOM’ IN BLOCKADED HORMUZ HAS ‘JUST BEGUN’",
+      "detail": "A US Central Command spokesperson says the mission to secure a safe passage of ships in the blocked waterway has begun.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 19:45 UTC",
+      "headline": "MISCALCULATION OVER STRAIT OF HORMUZ COULD ‘BRING AN ALL-OUT WAR’",
+      "detail": "Neither the US nor Iran are willing to compromise on the Strait of Hormuz, increasing the chance of miscalculation.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "05 MAY 2026 · 19:18 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN SE ATRIBUYEN CADA UNO EL DOMINIO SOBRE ORMUZ",
-      "detail": "Washington afirma que el alto el fuego se mantiene pese a los ataques iraníes de los últimos dos días",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 14:46 UTC",
-      "headline": "US-IRAN CEASEFIRE HOLDS DESPITE HORMUZ STANDOFF: PENTAGON CHIEF HEGSETH",
-      "detail": "Trump aide says the US has established a security 'dome' for ships over Hormuz, but traffic in strait remains stalled.",
+      "headline": "RUBIO DA POR ACABADA LA OFENSIVA CONTRA IRÁN Y PONE EL FOCO EN ORMUZ",
+      "detail": "El secretario de Estado asegura que el Proyecto Libertad para guiar a buques mercantes por el estrecho es una medida defensiva",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 14:27 UTC",
-      "headline": "GLOBAL OIL SHORTAGES TO HIT WITHIN WEEKS – CHEVRON CEO",
-      "detail": "Physical oil shortages could emerge globally within weeks due to the closure of the Strait of Hormuz, Chevron CEO Mike Wirth has warned Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 14:19 UTC",
-      "headline": "MAP OF DOMINANCE: WHY IRAN CAN’T AFFORD TO GIVE UP HORMUZ CONTROL",
-      "detail": "The vital passageway is key for Tehran as it seeks to leverage in negotiations with Washington.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 13:00 UTC",
-      "headline": "US, IRAN, UAE TRADE HORMUZ ATTACK CLAIMS: WHAT WE KNOW",
-      "detail": "Experts say claims and counterclaims threaten the diplomatic route to end the US-Israel war on Iran.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.28 (+0.00%)",
-    "VIX: 17.33",
+    "BRENT: $110.5 (+0.00%)",
+    "VIX: 17.38",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
