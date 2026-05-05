@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-05T18:07:50.440184+00:00",
+  "updated_at": "2026-05-05T20:04:39.479034+00:00",
   "market": {
-    "brent_usd": 110.13,
+    "brent_usd": 110.28,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.22,
+    "vix": 17.33,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
@@ -15,22 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "05 MAY 2026 · 16:55 UTC",
-      "headline": "IRÁN LANZA NUEVAS AMENAZAS SOBRE ORMUZ, PERO EE.UU. ACLARA QUE TODAVÍA RIGE EL A",
-      "detail": "El secretario de Guerra norteamericano, Pete Hegseth, afirmó que el régimen de los ayatollahs no controla la vía marítima y señaló que el “Proyecto Libertad” impulsado por Trump para garantizar el pas",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 16:50 UTC",
-      "headline": "UAE COMES UNDER IRANIAN ATTACKS FOR SECOND CONSECUTIVE DAY",
-      "detail": "The strikes come a day after the Gulf nation was attacked by 15 missiles amid a shaky US-Iran ceasefire.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 16:48 UTC",
+      "timestamp": "05 MAY 2026 · 19:57 UTC",
       "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 19:18 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN SE ATRIBUYEN CADA UNO EL DOMINIO SOBRE ORMUZ",
+      "detail": "Washington afirma que el alto el fuego se mantiene pese a los ataques iraníes de los últimos dos días",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "05 MAY 2026 · 14:46 UTC",
@@ -49,11 +43,17 @@
       "headline": "MAP OF DOMINANCE: WHY IRAN CAN’T AFFORD TO GIVE UP HORMUZ CONTROL",
       "detail": "The vital passageway is key for Tehran as it seeks to leverage in negotiations with Washington.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 13:00 UTC",
+      "headline": "US, IRAN, UAE TRADE HORMUZ ATTACK CLAIMS: WHAT WE KNOW",
+      "detail": "Experts say claims and counterclaims threaten the diplomatic route to end the US-Israel war on Iran.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.13 (+0.00%)",
-    "VIX: 17.22",
+    "BRENT: $110.28 (+0.00%)",
+    "VIX: 17.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
