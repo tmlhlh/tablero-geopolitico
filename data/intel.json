@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T21:58:09.698393+00:00",
+  "updated_at": "2026-05-05T22:58:31.828386+00:00",
   "market": {
-    "brent_usd": 110.5,
+    "brent_usd": 110.11,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "05 MAY 2026 · 22:17 UTC",
+      "headline": "OFFENSIVE STAGE OF IRAN WAR IS OVER, US SECRETARY OF STATE RUBIO SAYS",
+      "detail": "As a spate of incidents in the Strait of Hormuz test the ceasefire, an Iranian official says, \"We are just getting started\".",
+      "severity": "INFO"
+    },
     {
       "timestamp": "05 MAY 2026 · 21:30 UTC",
       "headline": "POR QUÉ EMIRATOS ÁRABES UNIDOS ES EL ÚNICO PAÍS DEL GOLFO PÉRSICO AL QUE IRÁN SI",
@@ -43,16 +49,10 @@
       "headline": "MISCALCULATION OVER STRAIT OF HORMUZ COULD ‘BRING AN ALL-OUT WAR’",
       "detail": "Neither the US nor Iran are willing to compromise on the Strait of Hormuz, increasing the chance of miscalculation.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 19:18 UTC",
-      "headline": "RUBIO DA POR ACABADA LA OFENSIVA CONTRA IRÁN Y PONE EL FOCO EN ORMUZ",
-      "detail": "El secretario de Estado asegura que el Proyecto Libertad para guiar a buques mercantes por el estrecho es una medida defensiva",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.5 (+0.00%)",
+    "BRENT: $110.11 (+0.00%)",
     "VIX: 17.38",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
