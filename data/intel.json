@@ -1,21 +1,33 @@
 {
-  "updated_at": "2026-05-05T16:21:47.102727+00:00",
+  "updated_at": "2026-05-05T18:07:50.440184+00:00",
   "market": {
-    "brent_usd": 110.53,
+    "brent_usd": 110.13,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.47,
+    "vix": 17.22,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "05 MAY 2026 · 16:06 UTC",
+      "timestamp": "05 MAY 2026 · 16:55 UTC",
+      "headline": "IRÁN LANZA NUEVAS AMENAZAS SOBRE ORMUZ, PERO EE.UU. ACLARA QUE TODAVÍA RIGE EL A",
+      "detail": "El secretario de Guerra norteamericano, Pete Hegseth, afirmó que el régimen de los ayatollahs no controla la vía marítima y señaló que el “Proyecto Libertad” impulsado por Trump para garantizar el pas",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 16:50 UTC",
+      "headline": "UAE COMES UNDER IRANIAN ATTACKS FOR SECOND CONSECUTIVE DAY",
+      "detail": "The strikes come a day after the Gulf nation was attacked by 15 missiles amid a shaky US-Iran ceasefire.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 16:48 UTC",
       "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
@@ -37,23 +49,11 @@
       "headline": "MAP OF DOMINANCE: WHY IRAN CAN’T AFFORD TO GIVE UP HORMUZ CONTROL",
       "detail": "The vital passageway is key for Tehran as it seeks to leverage in negotiations with Washington.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 13:00 UTC",
-      "headline": "US, IRAN, UAE TRADE HORMUZ ATTACK CLAIMS: WHAT WE KNOW",
-      "detail": "Experts say claims and counterclaims threaten the diplomatic route to end the US-Israel war on Iran.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 22:45 UTC",
-      "headline": "US ‘LYING’ ABOUT SINKING IRANIAN BOATS – TEHRAN",
-      "detail": "Tehran has dismissed the US claim that it sank six Iranian military boats in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.53 (+0.00%)",
-    "VIX: 17.47",
+    "BRENT: $110.13 (+0.00%)",
+    "VIX: 17.22",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
