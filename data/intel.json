@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-05-05T05:40:08.255356+00:00",
+  "updated_at": "2026-05-05T08:04:07.442294+00:00",
   "market": {
-    "brent_usd": 113.51,
+    "brent_usd": 113.32,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.0,
-    "vix": 18.29,
+    "ormuz_flow_pct": 8.5,
+    "vix": 17.96,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "05 MAY 2026 · 04:34 UTC",
-      "headline": "US STRIKES IRANIAN FAST BOATS AS IRAN ATTACKS UAE OIL FACILITY ",
-      "detail": "Shipping company Maersk says one of its US-flagged commercial vessels has successfully exited the Strait of Hormuz under US military protection.",
+      "timestamp": "05 MAY 2026 · 06:31 UTC",
+      "headline": "IRAN WAR: WHAT’S HAPPENING ON DAY 67 AS HORMUZ CRISIS DEEPENS?",
+      "detail": "The UAE says it intercepted Iranian missiles after a suspected drone attack, with no comment from Iran.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 05:52 UTC",
+      "headline": "IRAN SAYS US MILITARY KILLED FIVE CIVILIANS IN ATTACKS ON PASSENGER BOATS",
+      "detail": "Iranian commander says US military attacked two passenger boats, not IRGC vessels, in the Strait of Hormuz on Monday.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRAN WAR LIVE: WASHINGTON, TEHRAN TRADE THREATS OVER STRAIT OF HORMUZ",
       "detail": "Israeli attacks have killed 2,696 people in Lebanon since March 2, the country's Health Ministry reports.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 MAY 2026 · 22:45 UTC",
-      "headline": "TEHRAN DENIES US CLAIM THAT IT SANK SIX BOATS",
-      "detail": "Tehran has dismissed the US claim that it sank six Iranian military boats in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $113.51 (+0.00%)",
-    "VIX: 18.29",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.0%"
+    "BRENT: $113.32 (+0.00%)",
+    "VIX: 17.96",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
