@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-05T10:43:07.640045+00:00",
+  "updated_at": "2026-05-05T11:57:58.672286+00:00",
   "market": {
-    "brent_usd": 112.82,
+    "brent_usd": 112.67,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.65,
+    "vix": 17.69,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
@@ -27,18 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "05 MAY 2026 · 03:30 UTC",
-      "headline": "LA GUERRA EN IRÁN SUME A ÁFRICA EN UNA CRISIS ENERGÉTICA",
-      "detail": "La ONU alerta del riesgo de escasez de fertilizantes para los países en desarrollo ante el bloqueo del estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 03:23 UTC",
-      "headline": "OIL PRICES SURGE AS VIOLENCE FLARES IN STRAIT OF HORMUZ",
-      "detail": "Brent crude rises nearly 6 percent as soaring tensions in waterway push ceasefire to the brink.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "04 MAY 2026 · 22:45 UTC",
       "headline": "US ‘LYING’ ABOUT SINKING IRANIAN BOATS – TEHRAN",
       "detail": "Tehran has dismissed the US claim that it sank six Iranian military boats in the Strait of Hormuz Read Full Article at RT.com",
@@ -49,11 +37,23 @@
       "headline": "IRÁN ABRE FUEGO ANTE EL INTENTO DE ESTADOS UNIDOS DE SACAR BUQUES DEL ESTRECHO D",
       "detail": "Teherán incendia una instalación petrolera de Emiratos Árabes Unidos con el lanzamiento de un dron. Trump amenaza con borrar Irán “de la faz de la Tierra”",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 18:39 UTC",
+      "headline": "MÁS DE 800 BUQUES Y 20.000 MARINEROS CONTINÚAN ATRAPADOS POR EL BLOQUEO DE ORMUZ",
+      "detail": "El sector de la navegación desconfía de la efectividad de la operación de Estados Unidos para sacar barcos del estratégico paso marítimo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 MAY 2026 · 10:52 UTC",
+      "headline": "IRAN HITS US NAVY SHIP WITH MISSILE STRIKE – MEDIA",
+      "detail": "Iran has hit a US patrol boat with two missiles not far from the Strait of Hormuz after it ignored warnings, according to Fars Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $112.82 (+0.00%)",
-    "VIX: 17.65",
+    "BRENT: $112.67 (+0.00%)",
+    "VIX: 17.69",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
