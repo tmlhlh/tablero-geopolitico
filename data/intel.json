@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-05-06T05:54:23.728586+00:00",
+  "updated_at": "2026-05-06T11:03:32.481427+00:00",
   "market": {
-    "brent_usd": 108.67,
+    "brent_usd": 99.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.38,
+    "vix": 16.52,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "06 MAY 2026 · 10:22 UTC",
+      "headline": "IRAN ROLLS OUT NEW HORMUZ RULES AS ‘PROJECT FREEDOM’ PAUSED – MEDIA",
+      "detail": "Iran has launched a new mechanism to govern maritime traffic through the Strait of Hormuz amid the standoff with the US, Press TV reports Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 10:17 UTC",
+      "headline": "SAUDI ARABIA POSTS $33.5BN BUDGET DEFICIT AMID DROP IN OIL SALES",
+      "detail": "Kingdom announces sharp rise in budget shortfall amid the effective closure of the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 07:25 UTC",
+      "headline": "IRAN WAR DAY 68: TRUMP TALKS ABOUT PROGRESS IN TALKS; RUBIO SAYS WAR ‘OVER’",
+      "detail": "Trump pauses US 'Project Freedom' operation in Strait of Hormuz, citing progress towards Iran agreement.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 MAY 2026 · 03:39 UTC",
       "headline": "US PAUSES PLAN TO GUIDE SHIPS THROUGH THE STRAIT OF HORMUZ",
@@ -27,33 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS HORMUZ OPERATION PAUSED AMID US, TEHRAN TALKS",
-      "detail": "US Defense Secretary Pete Hegseth says ceasefire with Iran remains in place despite growing tensions in Hormuz Strait.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 23:40 UTC",
-      "headline": "TRUMP PAUSES US OPERATION IN STRAIT OF HORMUZ IN PUSH FOR DEAL WITH IRAN",
-      "detail": "US president says 'Project Freedom' suspended to see whether an agreement with Iran can be finalised and signed.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "05 MAY 2026 · 23:35 UTC",
       "headline": "TRUMP PAUSES US MILITARY ESCORTS IN HORMUZ",
-      "detail": "The US president has paused his Project Freedom in the Strait of Hormuz, but said the blockade of Iranian ports would “remain in full force” Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 23:24 UTC",
-      "headline": "TRUMP PONE EN PAUSA LA MISIÓN PARA GUIAR A BUQUES MERCANTES EN ORMUZ ",
-      "detail": "El secretario de Estado, Marco Rubio, había asegurado que el Proyecto Libertad para guiar a buques mercantes por el estrecho es una medida defensiva y necesaria para garantizar la libre navegación",
+      "detail": "US President Donald Trump has paused ‘Project Freedom’ in the Strait of Hormuz, but said the blockade of Iranian ports will remain in force Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.67 (+0.00%)",
-    "VIX: 17.38",
+    "BRENT: $99.1 (+0.00%)",
+    "VIX: 16.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
