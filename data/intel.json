@@ -1,36 +1,42 @@
 {
-  "updated_at": "2026-05-06T18:13:19.789067+00:00",
+  "updated_at": "2026-05-06T20:19:31.439780+00:00",
   "market": {
-    "brent_usd": 101.57,
+    "brent_usd": 101.38,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.01,
+    "vix": 17.39,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "06 MAY 2026 · 16:57 UTC",
+      "timestamp": "06 MAY 2026 · 19:38 UTC",
       "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 18:52 UTC",
+      "headline": "FRANCIA MUEVE SU PORTAAVIONES CHARLES DE GAULLE HACIA EL MAR ROJO Y CRECE LA PRE",
+      "detail": "París aseguró que el despliegue busca acelerar una posible respuesta en Ormuz, mientras el bloqueo iraní mantiene paralizado el tráfico marítimo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 18:48 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN NEGOCIAN UNA PROPUESTA PARA TERMINAR LA GUERRA Y CONCRETAR",
+      "detail": "Trump amenaza a Teherán con bombardeos a “un nivel e intensidad mucho mayores” si no acepta el memorando, que plantea el desbloqueo de Ormuz",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "06 MAY 2026 · 15:20 UTC",
       "headline": "MAPPING HORMUZ: RT’S RICK SANCHEZ ON STRATEGIC EDGE (VIDEO)",
       "detail": "Iran retains a strategic advantage and control of the Strait of Hormuz despite US claims of restored shipping, RT’s Rick Sanchez has said Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 14:26 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN NEGOCIAN UNA PROPUESTA PARA TERMINAR LA GUERRA Y CONCRETAR",
-      "detail": "Trump amenaza a Teherán con bombardeos a “un nivel e intensidad mucho mayores” si no acepta el memorando, que plantea el desbloqueo de Ormuz",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "06 MAY 2026 · 13:47 UTC",
@@ -43,17 +49,11 @@
       "headline": "TRUMP PAUSES HORMUZ PLAN 50 HOURS AFTER HE ANNOUNCED IT - WHAT HAPPENED?",
       "detail": "The US president pauses the military operation to get ships through the Strait of Hormuz two days after he announced it.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 12:41 UTC",
-      "headline": "IRAN SAYS STRAIT OF HORMUZ PASSAGE TO BE ENSURED AFTER US PAUSES OPERATION",
-      "detail": "Navy of Iran's Islamic Revolutionary Guard Corps (IRGC) says safe transit will be ensured with new procedures in place.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.57 (+0.00%)",
-    "VIX: 17.01",
+    "BRENT: $101.38 (+0.00%)",
+    "VIX: 17.39",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
