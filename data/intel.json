@@ -1,35 +1,29 @@
 {
-  "updated_at": "2026-05-06T16:24:49.628487+00:00",
+  "updated_at": "2026-05-06T18:13:19.789067+00:00",
   "market": {
-    "brent_usd": 102.23,
+    "brent_usd": 101.57,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.23,
+    "vix": 17.01,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "06 MAY 2026 · 15:44 UTC",
-      "headline": "¿EXISTEN LOS LOS DELFINES KAMIKAZES? LA SUPUESTA ARMA DE EE.UU. EN MEDIO ORIENTE",
-      "detail": "Pete Hegseth descartó que Teherán posea delfines armados para atacar barcos en Ormuz, pero el episodio volvió a poner bajo la lupa una vieja práctica militar",
+      "timestamp": "06 MAY 2026 · 16:57 UTC",
+      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
     },
     {
       "timestamp": "06 MAY 2026 · 15:20 UTC",
       "headline": "MAPPING HORMUZ: RT’S RICK SANCHEZ ON STRATEGIC EDGE (VIDEO)",
       "detail": "Iran retains a strategic advantage and control of the Strait of Hormuz despite US claims of restored shipping, RT’s Rick Sanchez has said Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 15:18 UTC",
-      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "TRUMP PAUSES HORMUZ PLAN 50 HOURS AFTER HE ANNOUNCED IT - WHAT HAPPENED?",
       "detail": "The US president pauses the military operation to get ships through the Strait of Hormuz two days after he announced it.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 12:41 UTC",
+      "headline": "IRAN SAYS STRAIT OF HORMUZ PASSAGE TO BE ENSURED AFTER US PAUSES OPERATION",
+      "detail": "Navy of Iran's Islamic Revolutionary Guard Corps (IRGC) says safe transit will be ensured with new procedures in place.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.23 (+0.00%)",
-    "VIX: 17.23",
+    "BRENT: $101.57 (+0.00%)",
+    "VIX: 17.01",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
