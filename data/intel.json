@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-05-06T11:03:32.481427+00:00",
+  "updated_at": "2026-05-06T14:00:47.568786+00:00",
   "market": {
-    "brent_usd": 99.1,
+    "brent_usd": 102.85,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.52,
+    "vix": 17.03,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.3
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "06 MAY 2026 · 10:22 UTC",
-      "headline": "IRAN ROLLS OUT NEW HORMUZ RULES AS ‘PROJECT FREEDOM’ PAUSED – MEDIA",
-      "detail": "Iran has launched a new mechanism to govern maritime traffic through the Strait of Hormuz amid the standoff with the US, Press TV reports Read Full Article at RT.com",
+      "timestamp": "06 MAY 2026 · 13:52 UTC",
+      "headline": "DONALD TRUMP: “SI IRÁN NO ACEPTA, COMENZARÁN LOS BOMBARDEOS Y SERÁN MÁS INTENSOS",
+      "detail": "El presidente de Estados Unidos sostuvo que si el régimen islámico llega a un acuerdo con Washington, se abrirá el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 10:17 UTC",
-      "headline": "SAUDI ARABIA POSTS $33.5BN BUDGET DEFICIT AMID DROP IN OIL SALES",
-      "detail": "Kingdom announces sharp rise in budget shortfall amid the effective closure of the Strait of Hormuz.",
+      "timestamp": "06 MAY 2026 · 13:28 UTC",
+      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 07:25 UTC",
-      "headline": "IRAN WAR DAY 68: TRUMP TALKS ABOUT PROGRESS IN TALKS; RUBIO SAYS WAR ‘OVER’",
-      "detail": "Trump pauses US 'Project Freedom' operation in Strait of Hormuz, citing progress towards Iran agreement.",
+      "timestamp": "06 MAY 2026 · 12:41 UTC",
+      "headline": "IRAN SAYS STRAIT OF HORMUZ PASSAGE TO BE ENSURED AFTER US PAUSES OPERATION",
+      "detail": "Navy of Iran's Islamic Revolutionary Guard Corps (IRGC) says safe transit will be ensured with new procedures in place.",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 03:39 UTC",
-      "headline": "US PAUSES PLAN TO GUIDE SHIPS THROUGH THE STRAIT OF HORMUZ",
-      "detail": "Donald Trump has said that the US military operation guiding ships through the Strait of Hormuz will be paused.",
+      "timestamp": "06 MAY 2026 · 12:00 UTC",
+      "headline": "HAS THE US ACCEPTED IRAN’S DEMAND TO SETTLE HORMUZ FIRST, NUCLEAR LATER?",
+      "detail": "US pauses Hormuz escorts after Pakistan-led mediation gains traction, signalling shift towards a limited framework deal.",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 02:23 UTC",
-      "headline": "WHAT IS TRUMP'S 'PROJECT FREEDOM' IN THE STRAIT OF HORMUZ?",
-      "detail": "The US president said the operation has been paused after starting on Monday.",
+      "timestamp": "06 MAY 2026 · 11:51 UTC",
+      "headline": "IRÁN CREA UN ORGANISMO PARA CONTROLAR EL TRÁNSITO EN EL ESTRECHO DE ORMUZ: PEAJE",
+      "detail": "Teherán anuncia el establecimiento de la Autoridad del Estrecho del Golfo Pérsico después de que Trump suspendiera la misión para desbloquear Ormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "05 MAY 2026 · 23:35 UTC",
-      "headline": "TRUMP PAUSES US MILITARY ESCORTS IN HORMUZ",
-      "detail": "US President Donald Trump has paused ‘Project Freedom’ in the Strait of Hormuz, but said the blockade of Iranian ports will remain in force Read Full Article at RT.com",
+      "timestamp": "06 MAY 2026 · 11:20 UTC",
+      "headline": "OPERATION EPIC FURY HAS ENDED: IS THE IRAN WAR OVER?",
+      "detail": "Experts say Trump's pause of Project Freedom in Strait of Hormuz could be the 'beginning of the end' for war on Iran.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.1 (+0.00%)",
-    "VIX: 16.52",
+    "BRENT: $102.85 (+0.00%)",
+    "VIX: 17.03",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
