@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T22:48:22.882864+00:00",
+  "updated_at": "2026-05-06T23:46:42.475748+00:00",
   "market": {
-    "brent_usd": 102.0,
+    "brent_usd": 101.9,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "06 MAY 2026 · 21:00 UTC",
-      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
-      "severity": "INFO"
+      "timestamp": "06 MAY 2026 · 22:55 UTC",
+      "headline": "US ATTACKS IRANIAN TANKER AFTER TRUMP’S ULTIMATUM",
+      "detail": "The US president has threatened to resume bombing at much higher “intensity” unless Tehran agrees to end the war on Washington’s terms Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "06 MAY 2026 · 18:48 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.0 (+0.00%)",
+    "BRENT: $101.9 (+0.00%)",
     "VIX: 17.39",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
