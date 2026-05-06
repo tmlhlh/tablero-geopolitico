@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T23:53:59.593950+00:00",
+  "updated_at": "2026-05-06T02:32:42.455694+00:00",
   "market": {
-    "brent_usd": 107.61,
+    "brent_usd": 107.99,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,33 @@
   },
   "events": [
     {
-      "timestamp": "05 MAY 2026 · 23:44 UTC",
-      "headline": "TRUMP SAYS 'PROJECT FREEDOM' TO BE PAUSED 'FOR A SHORT PERIOD OF TIME'",
-      "detail": "The operation guide ships through the Strait of Hormuz will be halted because progress has been made toward reaching a deal with Iran, the US president says.",
+      "timestamp": "06 MAY 2026 · 02:18 UTC",
+      "headline": "TRUMP SAYS US TO PAUSE OPERATION TO GUIDE VESSELS THROUGH STRAIT OF HORMUZ",
+      "detail": "\"Project Freedom\", which began on Monday, will be halted because progress has been made toward a deal with Iran, the US president says.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 00:44 UTC",
+      "headline": "DONALD TRUMP PONE EN PAUSA  EL “PROYECTO LIBERTAD” EN EL ESTRECHO DE ORMUZ PARA ",
+      "detail": "El presidente anunció que suspenderá durante un breve periodo la iniciativa, aunque se mantendrá el bloqueo; destacó el “éxito militar” en la ofensiva contra el régimen",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS HORMUZ OPERATION PAUSED AMID US, TEHRAN TALKS",
+      "detail": "US Defense Secretary Pete Hegseth says ceasefire with Iran remains in place despite growing tensions in Hormuz Strait.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 MAY 2026 · 23:55 UTC",
+      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
+      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
     },
     {
       "timestamp": "05 MAY 2026 · 23:40 UTC",
-      "headline": "TRUMP ANNOUNCES PAUSE ON US OPERATION TO REOPEN STRAIT OF HORMUZ",
-      "detail": "US president says Project Freedom paused to see whether an agreement with Iran can be finalised and signed.",
+      "headline": "TRUMP PAUSES US OPERATION IN STRAIT OF HORMUZ IN PUSH FOR DEAL WITH IRAN",
+      "detail": "US president says 'Project Freedom' suspended to see whether an agreement with Iran can be finalised and signed.",
       "severity": "INFO"
     },
     {
@@ -31,28 +49,10 @@
       "headline": "TRUMP PAUSES US MILITARY ESCORTS IN HORMUZ",
       "detail": "The US president has paused his Project Freedom in the Strait of Hormuz, but said the blockade of Iranian ports would “remain in full force” Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 23:32 UTC",
-      "headline": "DONALD TRUMP PONE EN PAUSA  EL “PROYECTO LIBERTAD” EN EL ESTRECHO DE ORMUZ PARA ",
-      "detail": "El presidente anunció que suspenderá durante un breve periodo la iniciativa, aunque se mantendrá el bloqueo; destacó el “éxito militar” en la ofensiva contra el régimen",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 23:24 UTC",
-      "headline": "TRUMP PONE EN PAUSA LA MISIÓN PARA GUIAR A BUQUES MERCANTES EN ORMUZ ",
-      "detail": "El secretario de Estado, Marco Rubio, había asegurado que el Proyecto Libertad para guiar a buques mercantes por el estrecho es una medida defensiva y necesaria para garantizar la libre navegación",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 MAY 2026 · 21:30 UTC",
-      "headline": "POR QUÉ EMIRATOS ÁRABES UNIDOS ES EL ÚNICO PAÍS DEL GOLFO PÉRSICO AL QUE IRÁN SI",
-      "detail": "Ataques, alianzas y economía explican por qué EAU se convirtió en el epicentro de la ofensiva iraní en medio de la guerra",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.61 (+0.00%)",
+    "BRENT: $107.99 (+0.00%)",
     "VIX: 17.38",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
