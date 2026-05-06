@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-05-06T14:00:47.568786+00:00",
+  "updated_at": "2026-05-06T16:24:49.628487+00:00",
   "market": {
-    "brent_usd": 102.85,
+    "brent_usd": 102.23,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.03,
+    "vix": 17.23,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "06 MAY 2026 · 13:52 UTC",
-      "headline": "DONALD TRUMP: “SI IRÁN NO ACEPTA, COMENZARÁN LOS BOMBARDEOS Y SERÁN MÁS INTENSOS",
-      "detail": "El presidente de Estados Unidos sostuvo que si el régimen islámico llega a un acuerdo con Washington, se abrirá el estrecho de Ormuz",
+      "timestamp": "06 MAY 2026 · 15:44 UTC",
+      "headline": "¿EXISTEN LOS LOS DELFINES KAMIKAZES? LA SUPUESTA ARMA DE EE.UU. EN MEDIO ORIENTE",
+      "detail": "Pete Hegseth descartó que Teherán posea delfines armados para atacar barcos en Ormuz, pero el episodio volvió a poner bajo la lupa una vieja práctica militar",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 13:28 UTC",
+      "timestamp": "06 MAY 2026 · 15:20 UTC",
+      "headline": "MAPPING HORMUZ: RT’S RICK SANCHEZ ON STRATEGIC EDGE (VIDEO)",
+      "detail": "Iran retains a strategic advantage and control of the Strait of Hormuz despite US claims of restored shipping, RT’s Rick Sanchez has said Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 15:18 UTC",
       "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 12:41 UTC",
-      "headline": "IRAN SAYS STRAIT OF HORMUZ PASSAGE TO BE ENSURED AFTER US PAUSES OPERATION",
-      "detail": "Navy of Iran's Islamic Revolutionary Guard Corps (IRGC) says safe transit will be ensured with new procedures in place.",
+      "timestamp": "06 MAY 2026 · 14:26 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN NEGOCIAN UNA PROPUESTA PARA TERMINAR LA GUERRA Y CONCRETAR",
+      "detail": "Trump amenaza a Teherán con bombardeos a “un nivel e intensidad mucho mayores” si no acepta el memorando, que plantea el desbloqueo de Ormuz",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 13:47 UTC",
+      "headline": "ARAGHCHI IN BEIJING: HOW CHINA COULD SHAPE THE DIRECTION OF THE US-IRAN WAR",
+      "detail": "Analysts say shared US and Chinese interests in reopening the Strait of Hormuz could create a path towards peace.",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 12:00 UTC",
-      "headline": "HAS THE US ACCEPTED IRAN’S DEMAND TO SETTLE HORMUZ FIRST, NUCLEAR LATER?",
-      "detail": "US pauses Hormuz escorts after Pakistan-led mediation gains traction, signalling shift towards a limited framework deal.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 11:51 UTC",
-      "headline": "IRÁN CREA UN ORGANISMO PARA CONTROLAR EL TRÁNSITO EN EL ESTRECHO DE ORMUZ: PEAJE",
-      "detail": "Teherán anuncia el establecimiento de la Autoridad del Estrecho del Golfo Pérsico después de que Trump suspendiera la misión para desbloquear Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 11:20 UTC",
-      "headline": "OPERATION EPIC FURY HAS ENDED: IS THE IRAN WAR OVER?",
-      "detail": "Experts say Trump's pause of Project Freedom in Strait of Hormuz could be the 'beginning of the end' for war on Iran.",
+      "timestamp": "06 MAY 2026 · 13:39 UTC",
+      "headline": "TRUMP PAUSES HORMUZ PLAN 50 HOURS AFTER HE ANNOUNCED IT - WHAT HAPPENED?",
+      "detail": "The US president pauses the military operation to get ships through the Strait of Hormuz two days after he announced it.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.85 (+0.00%)",
-    "VIX: 17.03",
+    "BRENT: $102.23 (+0.00%)",
+    "VIX: 17.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
