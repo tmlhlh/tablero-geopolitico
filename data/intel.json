@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T20:19:31.439780+00:00",
+  "updated_at": "2026-05-06T21:53:57.517648+00:00",
   "market": {
-    "brent_usd": 101.38,
+    "brent_usd": 101.96,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "06 MAY 2026 · 19:38 UTC",
+      "timestamp": "06 MAY 2026 · 21:00 UTC",
       "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 18:52 UTC",
-      "headline": "FRANCIA MUEVE SU PORTAAVIONES CHARLES DE GAULLE HACIA EL MAR ROJO Y CRECE LA PRE",
-      "detail": "París aseguró que el despliegue busca acelerar una posible respuesta en Ormuz, mientras el bloqueo iraní mantiene paralizado el tráfico marítimo",
       "severity": "INFO"
     },
     {
@@ -39,20 +33,26 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "06 MAY 2026 · 13:47 UTC",
-      "headline": "ARAGHCHI IN BEIJING: HOW CHINA COULD SHAPE THE DIRECTION OF THE US-IRAN WAR",
-      "detail": "Analysts say shared US and Chinese interests in reopening the Strait of Hormuz could create a path towards peace.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "06 MAY 2026 · 13:39 UTC",
       "headline": "TRUMP PAUSES HORMUZ PLAN 50 HOURS AFTER HE ANNOUNCED IT - WHAT HAPPENED?",
       "detail": "The US president pauses the military operation to get ships through the Strait of Hormuz two days after he announced it.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 11:51 UTC",
+      "headline": "IRÁN CREA UN ORGANISMO PARA CONTROLAR EL TRÁNSITO EN EL ESTRECHO DE ORMUZ: PEAJE",
+      "detail": "Teherán anuncia el establecimiento de la Autoridad del Estrecho del Golfo Pérsico después de que Trump suspendiera la misión para desbloquear Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 MAY 2026 · 10:52 UTC",
+      "headline": "EL JEFE DE LA DIPLOMACIA IRANÍ VISITA PEKÍN MIENTRAS CHINA SE PREPARA PARA LA VI",
+      "detail": "El ministro de Exteriores chino pide restablecer “cuanto antes” la navegación en el estrecho de Ormuz",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.38 (+0.00%)",
+    "BRENT: $101.96 (+0.00%)",
     "VIX: 17.39",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
