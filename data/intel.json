@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T22:58:51.543465+00:00",
+  "updated_at": "2026-05-07T23:58:28.229972+00:00",
   "market": {
-    "brent_usd": 102.73,
+    "brent_usd": 102.37,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "07 MAY 2026 · 21:33 UTC",
-      "headline": "DENUNCIAN ATAQUES EN UNA ESTRATÉGICA ISLA E IRÁN ESTUDIA LA ÚLTIMA PROPUESTA DE ",
-      "detail": "El gobierno iraní dijo que estaba estudiando el texto de un acuerdo presentado por Washington con tres puntos principales; fuego cruzado en el estrecho de Ormuz",
+      "timestamp": "07 MAY 2026 · 23:50 UTC",
+      "headline": "TRUMP AMENAZA A IRÁN CON MÁS ATAQUES SI EL ACUERDO NO SE FIRMA “RÁPIDO”",
+      "detail": "El presidente de Estados Unidos aseguró que tres barcos americanos cruzaron el estrecho de Ormuz y sumó presión al régimen que evalúa el plan presentado por Washington",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.73 (+0.00%)",
+    "BRENT: $102.37 (+0.00%)",
     "VIX: 17.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
