@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-07T18:24:15.765682+00:00",
+  "updated_at": "2026-05-07T20:11:53.583486+00:00",
   "market": {
-    "brent_usd": 100.66,
+    "brent_usd": 101.77,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.18,
+    "vix": 17.17,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
@@ -15,15 +15,33 @@
   },
   "events": [
     {
-      "timestamp": "07 MAY 2026 · 15:58 UTC",
-      "headline": "IRAN’S PRESIDENT PEZESHKIAN SEEKS TO QUASH DIVIDED LEADERSHIP NARRATIVE",
-      "detail": "Tehran emphasises solidarity among top officials as Washington pressures Iran during Strait of Hormuz disputes.",
+      "timestamp": "07 MAY 2026 · 19:32 UTC",
+      "headline": "GULF STATES URGE UN ACTION TO ENSURE STRAIT OF HORMUZ SAFETY",
+      "detail": "Draft resolution demands Iran halt attacks, pin-point mines and ensure passage of humanitarian aid through strait.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 19:17 UTC",
+      "headline": "LA GUERRA SE ASOMA A UN NUEVO VENCIMIENTO PENDIENTE DEL ACUERDO ENTRE ESTADOS UN",
+      "detail": "Los dos países siguen enredados en la negociación para cerrar el conflicto, mientras el estrecho de Ormuz continúa bloqueado",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 MAY 2026 · 13:05 UTC",
-      "headline": "WHY IS THE US SEEKING UN HELP TO OPEN HORMUZ AFTER UNDERMINING IT?",
-      "detail": "Marco Rubio has called on the UN for a Hormuz solution as talks for a peace deal in Iran continue.",
+      "timestamp": "07 MAY 2026 · 19:15 UTC",
+      "headline": "POR QUÉ EE.UU. SUSPENDIÓ LA ESCOLTA DE LOS BUQUES EN EL ESTRECHO DE ORMUZ Y CÓMO",
+      "detail": "En diálogo con LN+, Andrés Repetto profundizó en el conflicto de Medio Oriente tras las declaraciones cruzadas sobre un posible acuerdo entre ambas partes",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 18:50 UTC",
+      "headline": "TRUMP BUSCA RELANZAR SU OPERATIVO NAVAL EN ORMUZ TRAS UN FUERTE DESACUERDO CON A",
+      "detail": "Según The Wall Street Journal, Riad y Kuwait bloquearon temporalmente el uso de bases y espacio aéreo por parte de Estados Unidos tras ataques iraníes en el Golfo; Washington ahora busca relanzar el “",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 15:58 UTC",
+      "headline": "IRAN’S PRESIDENT PEZESHKIAN SEEKS TO QUASH DIVIDED LEADERSHIP NARRATIVE",
+      "detail": "Tehran emphasises solidarity among top officials as Washington pressures Iran during Strait of Hormuz disputes.",
       "severity": "INFO"
     },
     {
@@ -31,29 +49,11 @@
       "headline": "IRAN’S TOP NEGOTIATOR TROLLS TRUMP",
       "detail": "The Iranian parliament speaker has mocked Donald Trump over the decision to suspend US efforts to guide ships through the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 03:30 UTC",
-      "headline": "CAMIONES, TRENES Y OLEODUCTOS: LOS PAÍSES DEL GOLFO BUSCAN A LA DESESPERADA NUEV",
-      "detail": "Al margen de los parches de corto plazo, varios países de la región resucitan proyectos de conducciones para salvar el bloqueo de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 22:55 UTC",
-      "headline": "US ATTACKS IRANIAN TANKER AFTER TRUMP’S ULTIMATUM",
-      "detail": "US President Donald Trump has threatened to resume bombing at much higher intensity unless Iran agrees to end the war on Washington’s terms Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 18:48 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN NEGOCIAN UNA PROPUESTA PARA TERMINAR LA GUERRA Y CONCRETAR",
-      "detail": "Trump amenaza a Teherán con bombardeos a “un nivel e intensidad mucho mayores” si no acepta el memorando, que plantea el desbloqueo de Ormuz",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.66 (+0.00%)",
-    "VIX: 17.18",
+    "BRENT: $101.77 (+0.00%)",
+    "VIX: 17.17",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
