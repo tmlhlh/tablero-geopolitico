@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T02:34:40.992538+00:00",
+  "updated_at": "2026-05-07T05:58:55.673968+00:00",
   "market": {
-    "brent_usd": 101.87,
+    "brent_usd": 101.75,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "07 MAY 2026 · 03:30 UTC",
+      "headline": "CAMIONES, TRENES Y OLEODUCTOS: LOS PAÍSES DEL GOLFO BUSCAN A LA DESESPERADA NUEV",
+      "detail": "Al margen de los parches de corto plazo, varios países de la región resucitan proyectos de conducciones para salvar el bloqueo de Ormuz",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "07 MAY 2026 · 01:00 UTC",
       "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
       "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
@@ -23,7 +29,7 @@
     {
       "timestamp": "06 MAY 2026 · 22:55 UTC",
       "headline": "US ATTACKS IRANIAN TANKER AFTER TRUMP’S ULTIMATUM",
-      "detail": "The US president has threatened to resume bombing at much higher “intensity” unless Tehran agrees to end the war on Washington’s terms Read Full Article at RT.com",
+      "detail": "US President Donald Trump has threatened to resume bombing at much higher intensity unless Iran agrees to end the war on Washington’s terms Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "TRUMP PAUSES HORMUZ PLAN 50 HOURS AFTER HE ANNOUNCED IT - WHAT HAPPENED?",
       "detail": "The US president pauses the military operation to get ships through the Strait of Hormuz two days after he announced it.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 11:51 UTC",
-      "headline": "IRÁN CREA UN ORGANISMO PARA CONTROLAR EL TRÁNSITO EN EL ESTRECHO DE ORMUZ: PEAJE",
-      "detail": "Teherán anuncia el establecimiento de la Autoridad del Estrecho del Golfo Pérsico después de que Trump suspendiera la misión para desbloquear Ormuz",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.87 (+0.00%)",
+    "BRENT: $101.75 (+0.00%)",
     "VIX: 17.39",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
