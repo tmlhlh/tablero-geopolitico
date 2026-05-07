@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-05-07T20:11:53.583486+00:00",
+  "updated_at": "2026-05-07T21:54:39.493912+00:00",
   "market": {
-    "brent_usd": 101.77,
+    "brent_usd": 103.11,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 17.17,
+    "ormuz_flow_pct": 7.9,
+    "vix": 17.08,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.9%"
   },
   "events": [
+    {
+      "timestamp": "07 MAY 2026 · 21:11 UTC",
+      "headline": "US LAUNCHES NEW STRIKES ON IRAN (VIDEOS)",
+      "detail": "The US military has reportedly launched a series of strikes on Iranian targets near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 21:11 UTC",
+      "headline": "IRAN SAYS IT ATTACKED US NAVY SHIPS AFTER THEY TARGETED IRANIAN TANKER",
+      "detail": "US military says it intercepted and responded to 'unprovoked' Iranian attack, stressing that it doesn't seek escalation.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "07 MAY 2026 · 19:32 UTC",
       "headline": "GULF STATES URGE UN ACTION TO ENSURE STRAIT OF HORMUZ SAFETY",
@@ -27,33 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "07 MAY 2026 · 19:15 UTC",
-      "headline": "POR QUÉ EE.UU. SUSPENDIÓ LA ESCOLTA DE LOS BUQUES EN EL ESTRECHO DE ORMUZ Y CÓMO",
-      "detail": "En diálogo con LN+, Andrés Repetto profundizó en el conflicto de Medio Oriente tras las declaraciones cruzadas sobre un posible acuerdo entre ambas partes",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 18:50 UTC",
-      "headline": "TRUMP BUSCA RELANZAR SU OPERATIVO NAVAL EN ORMUZ TRAS UN FUERTE DESACUERDO CON A",
-      "detail": "Según The Wall Street Journal, Riad y Kuwait bloquearon temporalmente el uso de bases y espacio aéreo por parte de Estados Unidos tras ataques iraníes en el Golfo; Washington ahora busca relanzar el “",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 15:58 UTC",
-      "headline": "IRAN’S PRESIDENT PEZESHKIAN SEEKS TO QUASH DIVIDED LEADERSHIP NARRATIVE",
-      "detail": "Tehran emphasises solidarity among top officials as Washington pressures Iran during Strait of Hormuz disputes.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "07 MAY 2026 · 08:00 UTC",
       "headline": "IRAN’S TOP NEGOTIATOR TROLLS TRUMP",
       "detail": "The Iranian parliament speaker has mocked Donald Trump over the decision to suspend US efforts to guide ships through the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 03:30 UTC",
+      "headline": "CAMIONES, TRENES Y OLEODUCTOS: LOS PAÍSES DEL GOLFO BUSCAN A LA DESESPERADA NUEV",
+      "detail": "Al margen de los parches de corto plazo, varios países de la región resucitan proyectos de conducciones para salvar el bloqueo de Ormuz",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.77 (+0.00%)",
-    "VIX: 17.17",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $103.11 (+0.00%)",
+    "VIX: 17.08",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.9%"
   ]
 }
