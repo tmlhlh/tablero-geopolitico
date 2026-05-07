@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-05-07T21:54:39.493912+00:00",
+  "updated_at": "2026-05-07T22:58:51.543465+00:00",
   "market": {
-    "brent_usd": 103.11,
+    "brent_usd": 102.73,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 7.9,
+    "ormuz_flow_pct": 8.5,
     "vix": 17.08,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 7.9%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "07 MAY 2026 · 21:33 UTC",
+      "headline": "DENUNCIAN ATAQUES EN UNA ESTRATÉGICA ISLA E IRÁN ESTUDIA LA ÚLTIMA PROPUESTA DE ",
+      "detail": "El gobierno iraní dijo que estaba estudiando el texto de un acuerdo presentado por Washington con tres puntos principales; fuego cruzado en el estrecho de Ormuz",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "07 MAY 2026 · 21:11 UTC",
-      "headline": "US LAUNCHES NEW STRIKES ON IRAN (VIDEOS)",
-      "detail": "The US military has reportedly launched a series of strikes on Iranian targets near the Strait of Hormuz Read Full Article at RT.com",
+      "headline": "TRUMP CALLS NEW US STRIKES ON IRAN A ‘LOVE TAP’ (VIDEOS)",
+      "detail": "The US has launched a wave of strikes on Iranian targets near the Strait of Hormuz, as Tehran retaliated against US military vessels Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRAN’S TOP NEGOTIATOR TROLLS TRUMP",
       "detail": "The Iranian parliament speaker has mocked Donald Trump over the decision to suspend US efforts to guide ships through the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 03:30 UTC",
-      "headline": "CAMIONES, TRENES Y OLEODUCTOS: LOS PAÍSES DEL GOLFO BUSCAN A LA DESESPERADA NUEV",
-      "detail": "Al margen de los parches de corto plazo, varios países de la región resucitan proyectos de conducciones para salvar el bloqueo de Ormuz",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.11 (+0.00%)",
+    "BRENT: $102.73 (+0.00%)",
     "VIX: 17.08",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 7.9%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
