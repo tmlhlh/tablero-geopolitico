@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-05-07T11:07:34.180592+00:00",
+  "updated_at": "2026-05-07T13:59:00.393321+00:00",
   "market": {
-    "brent_usd": 99.05,
+    "brent_usd": 98.02,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.52,
+    "vix": 17.24,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "07 MAY 2026 · 13:23 UTC",
+      "headline": "POR QUÉ EE.UU. SUSPENDIÓ LA ESCOLTA DE LOS BUQUES EN EL ESTRECHO DE ORMUZ Y CÓMO",
+      "detail": "En diálogo con LN+, Andrés Repetto profundizó en el conflicto de Medio Oriente tras las declaraciones cruzadas sobre un posible acuerdo entre ambas partes",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 13:05 UTC",
+      "headline": "WHY IS THE US SEEKING UN HELP TO OPEN HORMUZ AFTER UNDERMINING IT?",
+      "detail": "Marco Rubio has called on the UN for a Hormuz solution as talks for a peace deal in Iran continue.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "07 MAY 2026 · 09:21 UTC",
       "headline": "IRAN RELEASES VIDEO SAID TO SHOW US DRONE SHOT DOWN OVER HORMUZ",
@@ -21,21 +33,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "07 MAY 2026 · 08:36 UTC",
-      "headline": "FRENCH WARSHIP MOVES TOWARDS HORMUZ FOR POSSIBLE DEFENSIVE MISSION",
-      "detail": "Iran says it is reviewing a US proposal that Donald Trump says could bring the war to an end.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "07 MAY 2026 · 08:00 UTC",
       "headline": "IRAN’S TOP NEGOTIATOR TROLLS TRUMP",
       "detail": "The Iranian parliament speaker has mocked Donald Trump over the decision to suspend US efforts to guide ships through the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 07:00 UTC",
-      "headline": "POR QUÉ EE.UU. SUSPENDIÓ LA ESCOLTA DE LOS BUQUES EN EL ESTRECHO DE ORMUZ Y CÓMO",
-      "detail": "En diálogo con LN+, Andrés Repetto profundizó en el conflicto de Medio Oriente tras las declaraciones cruzadas sobre un posible acuerdo entre ambas partes",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $99.05 (+0.00%)",
-    "VIX: 17.52",
+    "BRENT: $98.02 (+0.00%)",
+    "VIX: 17.24",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
