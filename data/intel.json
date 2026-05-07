@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-05-07T05:58:55.673968+00:00",
+  "updated_at": "2026-05-07T08:42:17.045282+00:00",
   "market": {
-    "brent_usd": 101.75,
+    "brent_usd": 99.73,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.39,
+    "vix": 17.58,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "07 MAY 2026 · 03:30 UTC",
-      "headline": "CAMIONES, TRENES Y OLEODUCTOS: LOS PAÍSES DEL GOLFO BUSCAN A LA DESESPERADA NUEV",
-      "detail": "Al margen de los parches de corto plazo, varios países de la región resucitan proyectos de conducciones para salvar el bloqueo de Ormuz",
+      "timestamp": "07 MAY 2026 · 08:00 UTC",
+      "headline": "IRAN’S TOP NEGOTIATOR TROLLS TRUMP",
+      "detail": "The Iranian parliament speaker has mocked Donald Trump over the decision to suspend US efforts to guide ships through the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 MAY 2026 · 01:00 UTC",
-      "headline": "UN EXPERTO INTERNACIONAL EXPLICÓ EN DETALLE POR QUÉ ES RIESGOSO EL PLAN PARA ESC",
-      "detail": "En diálogo con LN+, Andrés Repetto analizó el movimiento militar estadounidenses en el estrecho luego de que EE.UU. “violara los protocolos de seguridad”, según el régimen",
+      "timestamp": "07 MAY 2026 · 07:00 UTC",
+      "headline": "POR QUÉ EE.UU. SUSPENDIÓ LA ESCOLTA DE LOS BUQUES EN EL ESTRECHO DE ORMUZ Y CÓMO",
+      "detail": "En diálogo con LN+, Andrés Repetto profundizó en el conflicto de Medio Oriente tras las declaraciones cruzadas sobre un posible acuerdo entre ambas partes",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 03:30 UTC",
+      "headline": "CAMIONES, TRENES Y OLEODUCTOS: LOS PAÍSES DEL GOLFO BUSCAN A LA DESESPERADA NUEV",
+      "detail": "Al margen de los parches de corto plazo, varios países de la región resucitan proyectos de conducciones para salvar el bloqueo de Ormuz",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "MAPPING HORMUZ: RT’S RICK SANCHEZ ON STRATEGIC EDGE (VIDEO)",
       "detail": "Iran retains a strategic advantage and control of the Strait of Hormuz despite US claims of restored shipping, RT’s Rick Sanchez has said Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 MAY 2026 · 13:39 UTC",
-      "headline": "TRUMP PAUSES HORMUZ PLAN 50 HOURS AFTER HE ANNOUNCED IT - WHAT HAPPENED?",
-      "detail": "The US president pauses the military operation to get ships through the Strait of Hormuz two days after he announced it.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.75 (+0.00%)",
-    "VIX: 17.39",
+    "BRENT: $99.73 (+0.00%)",
+    "VIX: 17.58",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
