@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-08T13:25:13.443011+00:00",
+  "updated_at": "2026-05-08T15:19:09.275527+00:00",
   "market": {
-    "brent_usd": 100.55,
+    "brent_usd": 101.39,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.12,
+    "vix": 17.27,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 MAY 2026 · 14:48 UTC",
+      "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
+      "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "08 MAY 2026 · 09:22 UTC",
       "headline": "US, IRAN CLASH IN HORMUZ AS WAR ESCALATES: WHAT HAPPENED, WHY IT MATTERS",
@@ -27,33 +33,27 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "08 MAY 2026 · 07:11 UTC",
-      "headline": "SOUTHEAST ASIA’S LEADERS CONFRONT FALLOUT FROM IRAN WAR AT ASEAN SUMMIT",
-      "detail": "Bloc is expected to call for deeper energy cooperation and reopening of the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 06:32 UTC",
-      "headline": "IRAN WAR DAY 70: US, IRAN TRADE FIRE IN HORMUZ AMID CEASEFIRE TENSIONS",
-      "detail": "Iran accuses US of breaching ceasefire near Hormuz as CENTCOM says forces responded to Iranian attacks.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 05:57 UTC",
-      "headline": "TRUMP SAYS US-IRAN CEASEFIRE STILL IN PLACE AFTER EXCHANGE OF FIRE IN STRAIT OF ",
-      "detail": "Iran accuses the US of violating the truce, alleging it targeted an oil tanker and carried out attacks on coastal areas.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "07 MAY 2026 · 22:23 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN INTERCAMBIAN FUEGO EN ORMUZ EN UNO DE LOS  INCIDENTES MÁS ",
       "detail": "Trump amenaza con golpear “mucho más duro” si Irán no firma “rápido” un acuerdo de paz, pero puntualiza que el alto el fuego sigue en pie",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 21:11 UTC",
+      "headline": "TRUMP PROMISES ‘ONE BIG GLOW’ IN IRAN IF CEASEFIRE COLLAPSES (VIDEOS)",
+      "detail": "The US has launched a wave of strikes on Iranian targets near the Strait of Hormuz, as Tehran retaliated against US military vessels Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 19:17 UTC",
+      "headline": "LA GUERRA SE ASOMA A UN NUEVO VENCIMIENTO PENDIENTE DEL ACUERDO ENTRE ESTADOS UN",
+      "detail": "Los dos países siguen enredados en la negociación para cerrar el conflicto, mientras el estrecho de Ormuz continúa bloqueado",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.55 (+0.00%)",
-    "VIX: 17.12",
+    "BRENT: $101.39 (+0.00%)",
+    "VIX: 17.27",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
