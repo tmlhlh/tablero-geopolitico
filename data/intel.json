@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T09:15:41.679545+00:00",
+  "updated_at": "2026-05-08T11:09:38.268561+00:00",
   "market": {
-    "brent_usd": 100.06,
+    "brent_usd": 100.19,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 MAY 2026 · 09:22 UTC",
+      "headline": "US, IRAN CLASH IN HORMUZ AS WAR ESCALATES: WHAT HAPPENED, WHY IT MATTERS",
+      "detail": "A ceasefire between the US and Iran has been in place since April 8. Both sides are yet to agree on a peace deal.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "08 MAY 2026 · 08:43 UTC",
       "headline": "OIL PRICES RISE AFTER US AND IRAN EXCHANGE FIRE IN HORMUZ STRAIT",
@@ -43,16 +49,10 @@
       "headline": "DONALD TRUMP AMENAZÓ A IRÁN CON MÁS ATAQUES SI EL ACUERDO DE PAZ NO SE FIRMA “RÁ",
       "detail": "El presidente de Estados Unidos aseguró que tres barcos americanos cruzaron el estrecho de Ormuz y sumó presión al régimen que evalúa el plan presentado por Washington",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 04:25 UTC",
-      "headline": "TRUMP SAYS CEASEFIRE STILL IN EFFECT, BUT IRAN ‘BETTER SIGN AGREEMENT FAST’",
-      "detail": "US President Donald Trump says the ceasefire with Iran is still in effect, despite clashes in the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.06 (+0.00%)",
+    "BRENT: $100.19 (+0.00%)",
     "VIX: 17.11",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
