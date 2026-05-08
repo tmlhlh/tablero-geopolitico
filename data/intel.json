@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-08T19:12:33.557072+00:00",
+  "updated_at": "2026-05-08T20:56:35.455407+00:00",
   "market": {
-    "brent_usd": 101.2,
+    "brent_usd": 100.33,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.46,
+    "vix": 17.19,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 MAY 2026 · 19:55 UTC",
+      "headline": "EL ALTO EL FUEGO EN ORMUZ CUMPLE UN MES EN SU MOMENTO MÁS FRÁGIL",
+      "detail": "Estados Unidos espera una respuesta inminente de Irán a su último memorando de paz a pesar del choque con",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "08 MAY 2026 · 17:53 UTC",
       "headline": "GREECE EXAMINES MYSTERY NAVAL DRONE FOUND IN IONIAN SEA",
@@ -43,17 +49,11 @@
       "headline": "ESTADOS UNIDOS E IRÁN INTERCAMBIAN FUEGO EN ORMUZ EN UNO DE LOS  INCIDENTES MÁS ",
       "detail": "Trump amenaza con golpear “mucho más duro” si Irán no firma “rápido” un acuerdo de paz, pero puntualiza que el alto el fuego sigue en pie",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 21:11 UTC",
-      "headline": "TRUMP PROMISES ‘ONE BIG GLOW’ IN IRAN IF CEASEFIRE COLLAPSES (VIDEOS)",
-      "detail": "The US has launched a wave of strikes on Iranian targets near the Strait of Hormuz, as Tehran retaliated against US military vessels Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.2 (+0.00%)",
-    "VIX: 17.46",
+    "BRENT: $100.33 (+0.00%)",
+    "VIX: 17.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
