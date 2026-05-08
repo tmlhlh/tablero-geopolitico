@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T05:54:08.843430+00:00",
+  "updated_at": "2026-05-08T07:25:17.480589+00:00",
   "market": {
-    "brent_usd": 101.15,
+    "brent_usd": 100.78,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "08 MAY 2026 · 05:22 UTC",
-      "headline": "DONALD TRUMP AMENAZÓ A IRÁN CON MÁS ATAQUES SI EL ACUERDO DE PAZ NO SE FIRMA “RÁ",
-      "detail": "El presidente de Estados Unidos aseguró que tres barcos americanos cruzaron el estrecho de Ormuz y sumó presión al régimen que evalúa el plan presentado por Washington",
+      "timestamp": "08 MAY 2026 · 07:04 UTC",
+      "headline": "OIL PRICES RISE AFTER US AND IRAN EXCHANGE FIRE IN HORMUZ STRAIT",
+      "detail": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 MAY 2026 · 06:32 UTC",
+      "headline": "IRAN WAR DAY 70: US, IRAN TRADE FIRE IN HORMUZ AMID CEASEFIRE TENSIONS",
+      "detail": "Iran accuses US of breaching ceasefire near Hormuz as CENTCOM says forces responded to Iranian attacks.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "08 MAY 2026 · 04:28 UTC",
+      "timestamp": "08 MAY 2026 · 05:57 UTC",
       "headline": "TRUMP SAYS US-IRAN CEASEFIRE STILL IN PLACE AFTER EXCHANGE OF FIRE IN STRAIT OF ",
       "detail": "Iran accuses the US of violating the truce, alleging it targeted an oil tanker and carried out attacks on coastal areas.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 MAY 2026 · 05:22 UTC",
+      "headline": "DONALD TRUMP AMENAZÓ A IRÁN CON MÁS ATAQUES SI EL ACUERDO DE PAZ NO SE FIRMA “RÁ",
+      "detail": "El presidente de Estados Unidos aseguró que tres barcos americanos cruzaron el estrecho de Ormuz y sumó presión al régimen que evalúa el plan presentado por Washington",
       "severity": "CRÍTICO"
     },
     {
@@ -37,22 +49,10 @@
       "headline": "OIL PRICES JUMP AS US, IRAN TRADE FIRE IN STRAIT OF HORMUZ",
       "detail": "Brent crude rises amid clashes in critical waterway.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 01:45 UTC",
-      "headline": "SEAFARERS TRAPPED IN LIMBO AS US AND IRAN CLASH IN STRAIT OF HORMUZ",
-      "detail": "Some 20,000 seafarers are stranded in the Gulf amid the closure of the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: UAE SAYS INTERCEPTED ATTACKS AFTER IRAN, US TRADE BLOWS",
-      "detail": "Iran says US violated ceasefire by targeting vessels, ports, but Trump insists ceasefire still in effect.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.15 (+0.00%)",
+    "BRENT: $100.78 (+0.00%)",
     "VIX: 17.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
