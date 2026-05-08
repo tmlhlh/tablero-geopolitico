@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-08T17:12:36.574380+00:00",
+  "updated_at": "2026-05-08T19:12:33.557072+00:00",
   "market": {
-    "brent_usd": 101.37,
+    "brent_usd": 101.2,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.28,
+    "vix": 17.46,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 MAY 2026 · 17:53 UTC",
+      "headline": "GREECE EXAMINES MYSTERY NAVAL DRONE FOUND IN IONIAN SEA",
+      "detail": "Greek media say the drone, which reportedly had explosives, could be either Ukrainian or linked to the Russia-Ukraine war.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "08 MAY 2026 · 15:33 UTC",
       "headline": "RUBIO SAYS IRANIAN BOATS FIRING AT AMERICANS WILL BE ‘BLOWN UP’",
@@ -24,12 +30,6 @@
       "timestamp": "08 MAY 2026 · 14:48 UTC",
       "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
       "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 12:22 UTC",
-      "headline": "IRAN SAYS SEIZED TANKER IN GULF OF OMAN, AS US ‘DISABLES’ TWO SHIPS",
-      "detail": "Latest claims come hours after US and Iran exchanged fire in Strait of Hormuz, threatening ongoing push for ceasefire.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.37 (+0.00%)",
-    "VIX: 17.28",
+    "BRENT: $101.2 (+0.00%)",
+    "VIX: 17.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
