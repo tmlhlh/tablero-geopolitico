@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-08T11:09:38.268561+00:00",
+  "updated_at": "2026-05-08T13:25:13.443011+00:00",
   "market": {
-    "brent_usd": 100.19,
+    "brent_usd": 100.55,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.11,
+    "vix": 17.12,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
@@ -45,15 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "08 MAY 2026 · 05:22 UTC",
-      "headline": "DONALD TRUMP AMENAZÓ A IRÁN CON MÁS ATAQUES SI EL ACUERDO DE PAZ NO SE FIRMA “RÁ",
-      "detail": "El presidente de Estados Unidos aseguró que tres barcos americanos cruzaron el estrecho de Ormuz y sumó presión al régimen que evalúa el plan presentado por Washington",
-      "severity": "CRÍTICO"
+      "timestamp": "07 MAY 2026 · 22:23 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN INTERCAMBIAN FUEGO EN ORMUZ EN UNO DE LOS  INCIDENTES MÁS ",
+      "detail": "Trump amenaza con golpear “mucho más duro” si Irán no firma “rápido” un acuerdo de paz, pero puntualiza que el alto el fuego sigue en pie",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.19 (+0.00%)",
-    "VIX: 17.11",
+    "BRENT: $100.55 (+0.00%)",
+    "VIX: 17.12",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
