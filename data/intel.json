@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T23:58:28.229972+00:00",
+  "updated_at": "2026-05-08T03:31:38.927490+00:00",
   "market": {
-    "brent_usd": 102.37,
+    "brent_usd": 101.27,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,14 +15,32 @@
   },
   "events": [
     {
-      "timestamp": "07 MAY 2026 · 23:50 UTC",
-      "headline": "TRUMP AMENAZA A IRÁN CON MÁS ATAQUES SI EL ACUERDO NO SE FIRMA “RÁPIDO”",
-      "detail": "El presidente de Estados Unidos aseguró que tres barcos americanos cruzaron el estrecho de Ormuz y sumó presión al régimen que evalúa el plan presentado por Washington",
+      "timestamp": "08 MAY 2026 · 03:03 UTC",
+      "headline": "OIL PRICES JUMP AS US, IRAN TRADE FIRE IN STRAIT OF HORMUZ",
+      "detail": "Brent crude rises amid clashes in critical waterway.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 MAY 2026 · 02:07 UTC",
+      "headline": "TRUMP SAYS US-IRAN CEASEFIRE STILL IN PLACE AFTER EXCHANGE OF FIRE IN STRAIT OF ",
+      "detail": "Iran accuses the US of violating the truce, alleging it targeted an oil tanker and carried out attacks on coastal areas.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 MAY 2026 · 01:45 UTC",
+      "headline": "AS US AND IRAN WEIGH PEACE DEAL, STRANDED SEAFARERS WAIT IN LIMBO",
+      "detail": "Some 20,000 seafarers are stranded in the Gulf amid the closure of the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 MAY 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS CEASEFIRE STILL ‘IN EFFECT’ AS IRAN, US CLASH",
+      "detail": "Iran accuses the US of violating the ceasefire by targeting Iranian vessels and carrying out strikes on coastal areas.",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "07 MAY 2026 · 21:11 UTC",
-      "headline": "TRUMP CALLS NEW US STRIKES ON IRAN A ‘LOVE TAP’ (VIDEOS)",
+      "headline": "TRUMP PROMISES ‘ONE BIG GLOW’ IN IRAN IF CEASEFIRE COLLAPSES (VIDEOS)",
       "detail": "The US has launched a wave of strikes on Iranian targets near the Strait of Hormuz, as Tehran retaliated against US military vessels Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
@@ -31,28 +49,10 @@
       "headline": "IRAN SAYS IT ATTACKED US NAVY SHIPS AFTER THEY TARGETED IRANIAN TANKER",
       "detail": "US military says it intercepted and responded to 'unprovoked' Iranian attack, stressing that it doesn't seek escalation.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 19:32 UTC",
-      "headline": "GULF STATES URGE UN ACTION TO ENSURE STRAIT OF HORMUZ SAFETY",
-      "detail": "Draft resolution demands Iran halt attacks, pin-point mines and ensure passage of humanitarian aid through strait.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 19:17 UTC",
-      "headline": "LA GUERRA SE ASOMA A UN NUEVO VENCIMIENTO PENDIENTE DEL ACUERDO ENTRE ESTADOS UN",
-      "detail": "Los dos países siguen enredados en la negociación para cerrar el conflicto, mientras el estrecho de Ormuz continúa bloqueado",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 08:00 UTC",
-      "headline": "IRAN’S TOP NEGOTIATOR TROLLS TRUMP",
-      "detail": "The Iranian parliament speaker has mocked Donald Trump over the decision to suspend US efforts to guide ships through the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.37 (+0.00%)",
+    "BRENT: $101.27 (+0.00%)",
     "VIX: 17.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
