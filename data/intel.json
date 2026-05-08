@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T20:56:35.455407+00:00",
+  "updated_at": "2026-05-08T21:58:44.116241+00:00",
   "market": {
-    "brent_usd": 100.33,
+    "brent_usd": 100.49,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -16,8 +16,8 @@
   "events": [
     {
       "timestamp": "08 MAY 2026 · 19:55 UTC",
-      "headline": "EL ALTO EL FUEGO EN ORMUZ CUMPLE UN MES EN SU MOMENTO MÁS FRÁGIL",
-      "detail": "Estados Unidos espera una respuesta inminente de Irán a su último memorando de paz a pesar del choque con",
+      "headline": "EL ALTO EL FUEGO EN EL GOLFO PÉRSICO CUMPLE UN MES EN SU MOMENTO MÁS FRÁGIL",
+      "detail": "Estados Unidos espera una respuesta inminente de Irán a su último memorando de paz a pesar del choque militar en el estrecho de Ormuz",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.33 (+0.00%)",
+    "BRENT: $100.49 (+0.00%)",
     "VIX: 17.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
