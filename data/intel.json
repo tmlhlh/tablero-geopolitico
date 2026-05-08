@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T21:58:44.116241+00:00",
+  "updated_at": "2026-05-08T23:00:21.078225+00:00",
   "market": {
     "brent_usd": 100.49,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 MAY 2026 · 22:31 UTC",
+      "headline": "PENTAGON RELEASES VIDEO OF STRIKES ON IRANIAN OIL TANKERS",
+      "detail": "Footage released by the Pentagon shows US strikes on two Iranian oil tankers in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "08 MAY 2026 · 19:55 UTC",
       "headline": "EL ALTO EL FUEGO EN EL GOLFO PÉRSICO CUMPLE UN MES EN SU MOMENTO MÁS FRÁGIL",
@@ -42,12 +48,6 @@
       "timestamp": "08 MAY 2026 · 08:43 UTC",
       "headline": "OIL PRICES RISE AFTER US AND IRAN EXCHANGE FIRE IN HORMUZ STRAIT",
       "detail": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 22:23 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN INTERCAMBIAN FUEGO EN ORMUZ EN UNO DE LOS  INCIDENTES MÁS ",
-      "detail": "Trump amenaza con golpear “mucho más duro” si Irán no firma “rápido” un acuerdo de paz, pero puntualiza que el alto el fuego sigue en pie",
       "severity": "INFO"
     }
   ],
