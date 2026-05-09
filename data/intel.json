@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T11:48:30.653049+00:00",
+  "updated_at": "2026-05-09T13:09:58.281109+00:00",
   "market": {
     "brent_usd": 101.29,
     "brent_chg": 0.0
@@ -15,21 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "09 MAY 2026 · 05:50 UTC",
-      "headline": "IRÁN DESAFÍA LA PRESIÓN DE TRUMP MIENTRAS WASHINGTON ESPERA UNA RESPUESTA A SU O",
-      "detail": "El régimen islámico rechazó un informe de la CIA respecto de su potencial misilístico; la Armada de EE.UU. dejó fuera de servicio dos buques petroleros iraníes tras otros operativos en la zona del est",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "09 MAY 2026 · 01:18 UTC",
       "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
       "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 MAY 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US EXPECTS TEHRAN’S REPLY TO PEACE DEAL; ‘CLASHES’ IN HORMUZ",
-      "detail": "Israel killed 31 people in southern Lebanon on Friday, including a rescue worker, Lebanon's National News Agency said.",
       "severity": "INFO"
     },
     {
@@ -48,6 +36,18 @@
       "timestamp": "08 MAY 2026 · 14:48 UTC",
       "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
       "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "08 MAY 2026 · 08:43 UTC",
+      "headline": "OIL PRICES RISE AFTER US AND IRAN EXCHANGE FIRE IN HORMUZ STRAIT",
+      "detail": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 22:23 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN INTERCAMBIAN FUEGO EN ORMUZ EN UNO DE LOS  INCIDENTES MÁS ",
+      "detail": "Trump amenaza con golpear “mucho más duro” si Irán no firma “rápido” un acuerdo de paz, pero puntualiza que el alto el fuego sigue en pie",
       "severity": "INFO"
     }
   ],
