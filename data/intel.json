@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T18:55:36.556321+00:00",
+  "updated_at": "2026-05-09T19:56:09.443696+00:00",
   "market": {
     "brent_usd": 101.29,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 MAY 2026 · 19:12 UTC",
+      "headline": "REINO UNIDO ENVÍA UN DESTRUCTOR A MEDIO ORIENTE Y ADVIERTE SOBRE UNA FUTURA MISI",
+      "detail": "El HMS Dragon de la Marina Real apoyaría las labores de desminado y protegería a los buques como parte de un plan estrictamente defensivo",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "09 MAY 2026 · 18:00 UTC",
       "headline": "GREECE CONDUCTS CONTROLLED BLAST OF MYSTERY NAVAL DRONE EXPLOSIVES",
@@ -43,12 +49,6 @@
       "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
       "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 17:53 UTC",
-      "headline": "GREECE EXAMINES MYSTERY NAVAL DRONE FOUND IN IONIAN SEA",
-      "detail": "Greek media say the drone, which reportedly had explosives, could be either Ukrainian or linked to the Russia-Ukraine war.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
