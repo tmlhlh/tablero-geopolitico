@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T20:41:19.717496+00:00",
+  "updated_at": "2026-05-09T21:39:31.741462+00:00",
   "market": {
     "brent_usd": 101.29,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "09 MAY 2026 · 14:05 UTC",
-      "headline": "MÁXIMA TENSIÓN EN ORMUZ MIENTRAS EE.UU. E IRÁN SIGUEN SIN ACERCAR POSICIONES PAR",
-      "detail": "Desde el régimen aseguran que no prestan atención a los “plazos” y continúan revisando la propuesta de la Casa Blanca relacionada con las negociaciones en curso",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "09 MAY 2026 · 14:03 UTC",
       "headline": "UK WARSHIP HMS DRAGON HEADS TO MIDDLE EAST FOR POTENTIAL STRAIT OF HORMUZ MISSIO",
       "detail": "The Ministry of Defence says the ship will prepare to join an international mission to safeguard shipping, but only when fighting in the region ends.",
@@ -49,6 +43,12 @@
       "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
       "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "08 MAY 2026 · 17:53 UTC",
+      "headline": "GREECE EXAMINES MYSTERY NAVAL DRONE FOUND IN IONIAN SEA",
+      "detail": "Greek media say the drone, which reportedly had explosives, could be either Ukrainian or linked to the Russia-Ukraine war.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
