@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T23:00:21.078225+00:00",
+  "updated_at": "2026-05-09T00:04:21.053100+00:00",
   "market": {
     "brent_usd": 100.49,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 MAY 2026 · 22:58 UTC",
+      "headline": "IRÁN DESAFÍA LA PRESIÓN DE TRUMP MIENTRAS WASHINGTON ESPERA UNA RESPUESTA A SU O",
+      "detail": "El régimen islámico rechazó un informe de la CIA respecto de su potencial misilístico; la Armada de EE.UU. dejó fuera de servicio dos buques petroleros iraníes tras otros operativos en la zona del est",
+      "severity": "INFO"
+    },
     {
       "timestamp": "08 MAY 2026 · 22:31 UTC",
       "headline": "PENTAGON RELEASES VIDEO OF STRIKES ON IRANIAN OIL TANKERS",
@@ -42,12 +48,6 @@
       "timestamp": "08 MAY 2026 · 14:48 UTC",
       "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
       "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 08:43 UTC",
-      "headline": "OIL PRICES RISE AFTER US AND IRAN EXCHANGE FIRE IN HORMUZ STRAIT",
-      "detail": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
       "severity": "INFO"
     }
   ],
