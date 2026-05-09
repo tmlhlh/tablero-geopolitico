@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T04:20:51.575330+00:00",
+  "updated_at": "2026-05-09T07:04:19.318511+00:00",
   "market": {
-    "brent_usd": 100.49,
+    "brent_usd": 101.29,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 MAY 2026 · 05:50 UTC",
+      "headline": "IRÁN DESAFÍA LA PRESIÓN DE TRUMP MIENTRAS WASHINGTON ESPERA UNA RESPUESTA A SU O",
+      "detail": "El régimen islámico rechazó un informe de la CIA respecto de su potencial misilístico; la Armada de EE.UU. dejó fuera de servicio dos buques petroleros iraníes tras otros operativos en la zona del est",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 MAY 2026 · 02:56 UTC",
       "headline": "EL SECRETARIO GENERAL DE LA ONU INSTÓ A TODAS LAS PARTES A RESPETAR EL ALTO EL F",
@@ -33,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "08 MAY 2026 · 22:58 UTC",
-      "headline": "IRÁN DESAFÍA LA PRESIÓN DE TRUMP MIENTRAS WASHINGTON ESPERA UNA RESPUESTA A SU O",
-      "detail": "El régimen islámico rechazó un informe de la CIA respecto de su potencial misilístico; la Armada de EE.UU. dejó fuera de servicio dos buques petroleros iraníes tras otros operativos en la zona del est",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "08 MAY 2026 · 22:31 UTC",
       "headline": "PENTAGON RELEASES VIDEO OF STRIKES ON IRANIAN OIL TANKERS",
       "detail": "Footage released by the Pentagon shows US strikes on two Iranian oil tankers in the Strait of Hormuz.",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.49 (+0.00%)",
+    "BRENT: $101.29 (+0.00%)",
     "VIX: 17.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
