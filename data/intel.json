@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T00:04:21.053100+00:00",
+  "updated_at": "2026-05-09T04:20:51.575330+00:00",
   "market": {
     "brent_usd": 100.49,
     "brent_chg": 0.0
@@ -15,6 +15,24 @@
   },
   "events": [
     {
+      "timestamp": "09 MAY 2026 · 02:56 UTC",
+      "headline": "EL SECRETARIO GENERAL DE LA ONU INSTÓ A TODAS LAS PARTES A RESPETAR EL ALTO EL F",
+      "detail": "António Guterres expresó su preocupación por el intercambio de disparos entre Irán y Estados Unidos en el Estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 MAY 2026 · 01:18 UTC",
+      "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
+      "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 MAY 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US EXPECTS TEHRAN’S REPLY TO PEACE DEAL; ‘CLASHES’ IN HORMUZ",
+      "detail": "Israel killed 31 people in southern Lebanon on Friday, including a rescue worker, Lebanon's National News Agency said.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "08 MAY 2026 · 22:58 UTC",
       "headline": "IRÁN DESAFÍA LA PRESIÓN DE TRUMP MIENTRAS WASHINGTON ESPERA UNA RESPUESTA A SU O",
       "detail": "El régimen islámico rechazó un informe de la CIA respecto de su potencial misilístico; la Armada de EE.UU. dejó fuera de servicio dos buques petroleros iraníes tras otros operativos en la zona del est",
@@ -27,28 +45,10 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "08 MAY 2026 · 19:55 UTC",
-      "headline": "EL ALTO EL FUEGO EN EL GOLFO PÉRSICO CUMPLE UN MES EN SU MOMENTO MÁS FRÁGIL",
-      "detail": "Estados Unidos espera una respuesta inminente de Irán a su último memorando de paz a pesar del choque militar en el estrecho de Ormuz",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "08 MAY 2026 · 17:53 UTC",
       "headline": "GREECE EXAMINES MYSTERY NAVAL DRONE FOUND IN IONIAN SEA",
       "detail": "Greek media say the drone, which reportedly had explosives, could be either Ukrainian or linked to the Russia-Ukraine war.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 15:33 UTC",
-      "headline": "RUBIO SAYS IRANIAN BOATS FIRING AT AMERICANS WILL BE ‘BLOWN UP’",
-      "detail": "US Secretary of State Marco Rubio defended the US military’s actions in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 14:48 UTC",
-      "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
-      "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
