@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T14:47:24.714709+00:00",
+  "updated_at": "2026-05-09T15:47:49.960824+00:00",
   "market": {
     "brent_usd": 101.29,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "08 MAY 2026 · 22:31 UTC",
-      "headline": "PENTAGON RELEASES VIDEO OF STRIKES ON IRANIAN OIL TANKERS",
-      "detail": "Footage released by the Pentagon shows US strikes on two Iranian oil tankers in the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "08 MAY 2026 · 17:53 UTC",
       "headline": "GREECE EXAMINES MYSTERY NAVAL DRONE FOUND IN IONIAN SEA",
       "detail": "Greek media say the drone, which reportedly had explosives, could be either Ukrainian or linked to the Russia-Ukraine war.",
@@ -49,6 +43,12 @@
       "headline": "OIL PRICES RISE AFTER US AND IRAN EXCHANGE FIRE IN HORMUZ STRAIT",
       "detail": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 21:11 UTC",
+      "headline": "TRUMP PROMISES ‘ONE BIG GLOW’ IN IRAN IF CEASEFIRE COLLAPSES (VIDEOS)",
+      "detail": "The US has launched a wave of strikes on Iranian targets near the Strait of Hormuz, as Tehran retaliated against US military vessels Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
