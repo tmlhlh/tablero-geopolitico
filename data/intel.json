@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T10:11:01.032345+00:00",
+  "updated_at": "2026-05-10T11:48:40.166852+00:00",
   "market": {
     "brent_usd": 101.29,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 MAY 2026 · 11:27 UTC",
+      "headline": "WORLD OIL RESERVES DRAIN AT RECORD PACE – BLOOMBERG",
+      "detail": "Global oil inventories are shrinking at the fastest pace on record amid disruptions in the Strait of Hormuz, Bloomberg has reported Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 MAY 2026 · 10:56 UTC",
+      "headline": "WHY IS IRAN TAKING TIME TO RESPOND TO THE US PROPOSAL TO END THE WAR?",
+      "detail": "Iran continues to review the proposal as Tehran's nuclear programme and Strait of Hormuz remain main sticking points.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 MAY 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: IRGC WARNS US AGAINST ATTACKS ON SHIPS; ISRAEL BOMBS LEBANON",
@@ -37,18 +49,6 @@
       "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
       "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 14:48 UTC",
-      "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
-      "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 21:11 UTC",
-      "headline": "TRUMP PROMISES ‘ONE BIG GLOW’ IN IRAN IF CEASEFIRE COLLAPSES (VIDEOS)",
-      "detail": "The US has launched a wave of strikes on Iranian targets near the Strait of Hormuz, as Tehran retaliated against US military vessels Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
