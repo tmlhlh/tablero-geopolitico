@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T23:43:24.084502+00:00",
+  "updated_at": "2026-05-10T02:38:29.392652+00:00",
   "market": {
     "brent_usd": 101.29,
     "brent_chg": 0.0
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "09 MAY 2026 · 19:12 UTC",
-      "headline": "REINO UNIDO ENVÍA UN DESTRUCTOR A MEDIO ORIENTE Y ADVIERTE SOBRE UNA FUTURA MISI",
-      "detail": "El HMS Dragon de la Marina Real apoyaría las labores de desminado y protegería a los buques como parte de un plan estrictamente defensivo",
+      "timestamp": "10 MAY 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: IRGC WARNS US AGAINST ATTACKS ON SHIPS; ISRAEL BOMBS LEBANON",
+      "detail": "US-Iran ceasefire holds as Tehran warns Washington against attacks on tankers and Israel kills 24 people in Lebanon.",
       "severity": "CRÍTICO"
     },
     {
