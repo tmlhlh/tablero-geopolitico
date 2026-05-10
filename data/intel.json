@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T21:50:03.890888+00:00",
+  "updated_at": "2026-05-10T22:42:27.783957+00:00",
   "market": {
-    "brent_usd": 101.29,
+    "brent_usd": 103.9,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 MAY 2026 · 21:55 UTC",
+      "headline": "TRUMP CONSIDERA “TOTALMENTE INACEPTABLE” LA RESPUESTA DE IRÁN A SU PROPUESTA DE ",
+      "detail": "Teherán reclama que, para poner fin a la guerra, Washington debe levantar las sanciones económicas, así como el bloqueo del estrecho de Ormuz, según informa la agencia iraní Tasnim",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 MAY 2026 · 19:12 UTC",
       "headline": "SOUTH KOREA SAYS SHIP WAS STRUCK BY ‘UNIDENTIFIED FLYING OBJECTS’ IN HORMUZ",
@@ -43,16 +49,10 @@
       "headline": "UK WARSHIP HMS DRAGON HEADS TO MIDDLE EAST FOR POTENTIAL STRAIT OF HORMUZ MISSIO",
       "detail": "The Ministry of Defence says the ship will prepare to join an international mission to safeguard shipping, but only when fighting in the region ends.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 MAY 2026 · 01:18 UTC",
-      "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
-      "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.29 (+0.00%)",
+    "BRENT: $103.9 (+0.00%)",
     "VIX: 17.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
