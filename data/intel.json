@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T16:51:06.226550+00:00",
+  "updated_at": "2026-05-10T17:48:39.096733+00:00",
   "market": {
     "brent_usd": 101.29,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 MAY 2026 · 16:37 UTC",
+      "headline": "FOOD INFLATION HAMMERS HOUSEHOLDS IN WAR-HIT IRAN",
+      "detail": "Iranians faced with skyrocketing food prices as inflation soars, currency plunges amid US-enforced naval blockade.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 MAY 2026 · 12:16 UTC",
       "headline": "US-IRAN CEASEFIRE UNDER STRAIN AS GULF STATES REPORT DRONE ATTACKS",
@@ -42,12 +48,6 @@
       "timestamp": "09 MAY 2026 · 18:00 UTC",
       "headline": "GREECE CONDUCTS CONTROLLED BLAST OF MYSTERY NAVAL DRONE EXPLOSIVES",
       "detail": "The unmanned vessel, suspected to be of Ukrainian origin, was found by fishermen in a cave on Thursday.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 MAY 2026 · 14:03 UTC",
-      "headline": "UK WARSHIP HMS DRAGON HEADS TO MIDDLE EAST FOR POTENTIAL STRAIT OF HORMUZ MISSIO",
-      "detail": "The Ministry of Defence says the ship will prepare to join an international mission to safeguard shipping, but only when fighting in the region ends.",
       "severity": "INFO"
     }
   ],
