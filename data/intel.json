@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T02:38:29.392652+00:00",
+  "updated_at": "2026-05-10T06:08:06.603423+00:00",
   "market": {
     "brent_usd": 101.29,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "09 MAY 2026 · 16:35 UTC",
-      "headline": "‘ON LEVEL OF ATOMIC BOMB’: IRAN HIGHLIGHTS HORMUZ IMPORTANCE AMID US TALKS",
-      "detail": "The strait represents 'a capability that can affect the entire global economy with a single decision', politician says.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "09 MAY 2026 · 14:03 UTC",
       "headline": "UK WARSHIP HMS DRAGON HEADS TO MIDDLE EAST FOR POTENTIAL STRAIT OF HORMUZ MISSIO",
       "detail": "The Ministry of Defence says the ship will prepare to join an international mission to safeguard shipping, but only when fighting in the region ends.",
@@ -45,9 +39,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "08 MAY 2026 · 17:53 UTC",
-      "headline": "GREECE EXAMINES MYSTERY NAVAL DRONE FOUND IN IONIAN SEA",
-      "detail": "Greek media say the drone, which reportedly had explosives, could be either Ukrainian or linked to the Russia-Ukraine war.",
+      "timestamp": "08 MAY 2026 · 14:48 UTC",
+      "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
+      "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 MAY 2026 · 21:11 UTC",
+      "headline": "TRUMP PROMISES ‘ONE BIG GLOW’ IN IRAN IF CEASEFIRE COLLAPSES (VIDEOS)",
+      "detail": "The US has launched a wave of strikes on Iranian targets near the Strait of Hormuz, as Tehran retaliated against US military vessels Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
