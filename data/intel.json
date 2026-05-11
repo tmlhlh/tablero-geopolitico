@@ -1,29 +1,23 @@
 {
-  "updated_at": "2026-05-11T16:30:14.771414+00:00",
+  "updated_at": "2026-05-11T18:55:26.221045+00:00",
   "market": {
-    "brent_usd": 104.6,
+    "brent_usd": 104.29,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.95,
+    "vix": 18.2,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "11 MAY 2026 · 14:53 UTC",
-      "headline": "IRÁN EXIGE EL FIN DE LA GUERRA Y EL BLOQUEO MIENTRAS TRUMP RECHAZA LA OFERTA Y C",
-      "detail": "El estancamiento de las negociaciones complica la reapertura del estrecho de Ormuz y empuja al alza el precio del petróleo, mientras aumentan las amenazas y los incidentes en la región",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 MAY 2026 · 14:27 UTC",
-      "headline": "OIL PRICES JUMP AFTER TRUMP DISMISSES IRAN PROPOSAL TO END WAR",
-      "detail": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
+      "timestamp": "11 MAY 2026 · 16:57 UTC",
+      "headline": "OIL PRICE PREDICTED TO REMAIN ABOVE $100 FOR REST OF YEAR",
+      "detail": "Investment bank JP Morgan expects oil to remain in the \"low $100s\" even if the Strait of Hormuz were to reopen next month.",
       "severity": "INFO"
     },
     {
@@ -33,27 +27,33 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAY 2026 · 10:37 UTC",
-      "headline": "FORMER QATAR PM: NETANYAHU USING IRAN WAR TO RESHAPE MIDDLE EAST",
-      "detail": "Sheikh Hamad bin Jassim warns Strait of Hormuz crisis is most dangerous fallout of war on Iran, calls for 'Gulf NATO'.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 MAY 2026 · 10:20 UTC",
-      "headline": "IRAN SAYS US MAKING ‘UNREASONABLE’ DEMANDS IN NEGOTIATIONS TO END WAR",
-      "detail": "Foreign ministry spokesman Esmaeil Baghaei says Iran's proposal to end conflict, unblock Strait of Hormuz is generous.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "11 MAY 2026 · 01:55 UTC",
       "headline": "TRUMP CALLS IRAN RESPONSE TO US PROPOSAL TO END WAR 'TOTALLY UNACCEPTABLE' ",
       "detail": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "10 MAY 2026 · 21:55 UTC",
+      "headline": "TRUMP CONSIDERA “TOTALMENTE INACEPTABLE” LA RESPUESTA DE IRÁN A SU PROPUESTA DE ",
+      "detail": "Teherán reclama que, para poner fin a la guerra, Washington debe levantar las sanciones económicas, así como el bloqueo del estrecho de Ormuz, según informa la agencia iraní Tasnim",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 MAY 2026 · 11:27 UTC",
+      "headline": "WORLD OIL RESERVES DRAIN AT RECORD PACE – BLOOMBERG",
+      "detail": "Global oil inventories are shrinking at the fastest pace on record amid disruptions in the Strait of Hormuz, Bloomberg has reported Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 MAY 2026 · 01:18 UTC",
+      "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
+      "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.6 (+0.00%)",
-    "VIX: 17.95",
+    "BRENT: $104.29 (+0.00%)",
+    "VIX: 18.2",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
