@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-11T10:35:30.440613+00:00",
+  "updated_at": "2026-05-11T13:45:38.563633+00:00",
   "market": {
-    "brent_usd": 103.4,
+    "brent_usd": 103.41,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.14,
+    "vix": 18.23,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.9
   },
@@ -15,9 +15,21 @@
   },
   "events": [
     {
+      "timestamp": "11 MAY 2026 · 11:35 UTC",
+      "headline": "CLAVES DE LA NEGOCIACIÓN ENTRE ESTADOS UNIDOS E IRÁN: UNA TREGUA EN PUNTO MUERTO",
+      "detail": "Un mes después de anunciarse el alto el fuego, las conversaciones siguen estancadas en torno al programa nuclear iraní y el control de Ormuz. Teherán acusa a Trump de dejarse manejar por Israel",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 MAY 2026 · 10:37 UTC",
+      "headline": "FORMER QATAR PM: NETANYAHU USING IRAN WAR TO RESHAPE MIDDLE EAST",
+      "detail": "Sheikh Hamad bin Jassim warns Strait of Hormuz crisis is most dangerous fallout of war on Iran, calls for 'Gulf NATO'.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "11 MAY 2026 · 10:20 UTC",
       "headline": "IRAN SAYS US MAKING ‘UNREASONABLE’ DEMANDS IN NEGOTIATIONS TO END WAR",
-      "detail": "Foreign ministry spokesman Esmaeil Baghaei says Iran's proposal to end the conflict, unblock Hormuz Strait is generous.",
+      "detail": "Foreign ministry spokesman Esmaeil Baghaei says Iran's proposal to end conflict, unblock Strait of Hormuz is generous.",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "TRUMP CONSIDERA “TOTALMENTE INACEPTABLE” LA RESPUESTA DE IRÁN A SU PROPUESTA DE ",
       "detail": "Teherán reclama que, para poner fin a la guerra, Washington debe levantar las sanciones económicas, así como el bloqueo del estrecho de Ormuz, según informa la agencia iraní Tasnim",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 MAY 2026 · 11:27 UTC",
-      "headline": "WORLD OIL RESERVES DRAIN AT RECORD PACE – BLOOMBERG",
-      "detail": "Global oil inventories are shrinking at the fastest pace on record amid disruptions in the Strait of Hormuz, Bloomberg has reported Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 MAY 2026 · 01:18 UTC",
-      "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
-      "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.4 (+0.00%)",
-    "VIX: 18.14",
+    "BRENT: $103.41 (+0.00%)",
+    "VIX: 18.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
