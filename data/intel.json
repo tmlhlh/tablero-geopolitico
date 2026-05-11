@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T23:49:27.389929+00:00",
+  "updated_at": "2026-05-11T02:48:29.278625+00:00",
   "market": {
-    "brent_usd": 104.4,
+    "brent_usd": 104.81,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 MAY 2026 · 01:12 UTC",
+      "headline": "OIL PRICES JUMP AFTER TRUMP DISMISSES IRAN PROPOSAL TO END WAR",
+      "detail": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 MAY 2026 · 21:55 UTC",
       "headline": "TRUMP CONSIDERA “TOTALMENTE INACEPTABLE” LA RESPUESTA DE IRÁN A SU PROPUESTA DE ",
@@ -39,20 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "09 MAY 2026 · 18:00 UTC",
-      "headline": "GREECE CONDUCTS CONTROLLED BLAST OF MYSTERY NAVAL DRONE EXPLOSIVES",
-      "detail": "The unmanned vessel, suspected to be of Ukrainian origin, was found by fishermen in a cave on Thursday.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 MAY 2026 · 14:03 UTC",
-      "headline": "UK WARSHIP HMS DRAGON HEADS TO MIDDLE EAST FOR POTENTIAL STRAIT OF HORMUZ MISSIO",
-      "detail": "The Ministry of Defence says the ship will prepare to join an international mission to safeguard shipping, but only when fighting in the region ends.",
+      "timestamp": "09 MAY 2026 · 01:18 UTC",
+      "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
+      "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.4 (+0.00%)",
+    "BRENT: $104.81 (+0.00%)",
     "VIX: 17.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
