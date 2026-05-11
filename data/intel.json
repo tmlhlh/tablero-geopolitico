@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-05-11T13:45:38.563633+00:00",
+  "updated_at": "2026-05-11T16:30:14.771414+00:00",
   "market": {
-    "brent_usd": 103.41,
+    "brent_usd": 104.6,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.23,
+    "vix": 17.95,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 MAY 2026 · 14:53 UTC",
+      "headline": "IRÁN EXIGE EL FIN DE LA GUERRA Y EL BLOQUEO MIENTRAS TRUMP RECHAZA LA OFERTA Y C",
+      "detail": "El estancamiento de las negociaciones complica la reapertura del estrecho de Ormuz y empuja al alza el precio del petróleo, mientras aumentan las amenazas y los incidentes en la región",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 MAY 2026 · 14:27 UTC",
+      "headline": "OIL PRICES JUMP AFTER TRUMP DISMISSES IRAN PROPOSAL TO END WAR",
+      "detail": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 MAY 2026 · 11:35 UTC",
       "headline": "CLAVES DE LA NEGOCIACIÓN ENTRE ESTADOS UNIDOS E IRÁN: UNA TREGUA EN PUNTO MUERTO",
@@ -33,27 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "11 MAY 2026 · 09:01 UTC",
-      "headline": "OIL PRICES JUMP AFTER TRUMP DISMISSES IRAN PROPOSAL TO END WAR",
-      "detail": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "11 MAY 2026 · 01:55 UTC",
       "headline": "TRUMP CALLS IRAN RESPONSE TO US PROPOSAL TO END WAR 'TOTALLY UNACCEPTABLE' ",
       "detail": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 MAY 2026 · 21:55 UTC",
-      "headline": "TRUMP CONSIDERA “TOTALMENTE INACEPTABLE” LA RESPUESTA DE IRÁN A SU PROPUESTA DE ",
-      "detail": "Teherán reclama que, para poner fin a la guerra, Washington debe levantar las sanciones económicas, así como el bloqueo del estrecho de Ormuz, según informa la agencia iraní Tasnim",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.41 (+0.00%)",
-    "VIX: 18.23",
+    "BRENT: $104.6 (+0.00%)",
+    "VIX: 17.95",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
