@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-12T21:16:19.102832+00:00",
+  "updated_at": "2026-05-12T22:57:19.584572+00:00",
   "market": {
-    "brent_usd": 107.42,
+    "brent_usd": 107.3,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 MAY 2026 · 22:35 UTC",
+      "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
+      "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 MAY 2026 · 20:30 UTC",
       "headline": "EL CARGUERO RUSO QUE SE HUNDIÓ CERCA DE MURCIA EN 2024 TRANSPORTABA REACTORES NU",
@@ -43,16 +49,10 @@
       "headline": "SNACK GIANT SWITCHES TO BLACK AND WHITE PACKAGING AS IRAN WAR HITS INK SUPPLIES",
       "detail": "The effective closure of the Strait of Hormuz has severely disrupted global supplies of energy and petrochemicals.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 MAY 2026 · 21:55 UTC",
-      "headline": "TRUMP CONSIDERA “TOTALMENTE INACEPTABLE” LA RESPUESTA DE IRÁN A SU PROPUESTA DE ",
-      "detail": "Teherán reclama que, para poner fin a la guerra, Washington debe levantar las sanciones económicas, así como el bloqueo del estrecho de Ormuz, según informa la agencia iraní Tasnim",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.42 (+0.00%)",
+    "BRENT: $107.3 (+0.00%)",
     "VIX: 17.99",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
