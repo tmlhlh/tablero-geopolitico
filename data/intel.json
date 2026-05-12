@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-05-12T09:34:18.893773+00:00",
+  "updated_at": "2026-05-12T11:51:08.840203+00:00",
   "market": {
-    "brent_usd": 107.44,
+    "brent_usd": 107.42,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.9,
+    "vix": 18.79,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "11 MAY 2026 · 16:57 UTC",
-      "headline": "OIL PRICE PREDICTED TO REMAIN ABOVE $100 FOR REST OF YEAR",
-      "detail": "Investment bank JP Morgan expects oil to remain in the \"low $100s\" even if the Strait of Hormuz were to reopen next month.",
+      "timestamp": "12 MAY 2026 · 07:46 UTC",
+      "headline": "SNACK GIANT SWITCHES TO BLACK AND WHITE PACKAGING AS IRAN WAR HITS INK SUPPLIES",
+      "detail": "The effective closure of the Strait of Hormuz has severely disrupted global supplies of energy and petrochemicals.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.44 (+0.00%)",
-    "VIX: 18.9",
+    "BRENT: $107.42 (+0.00%)",
+    "VIX: 18.79",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
