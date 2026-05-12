@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-12T14:13:50.061835+00:00",
+  "updated_at": "2026-05-12T17:07:48.004814+00:00",
   "market": {
-    "brent_usd": 107.88,
+    "brent_usd": 107.45,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.84,
+    "vix": 18.64,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 MAY 2026 · 14:42 UTC",
+      "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
+      "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 MAY 2026 · 07:46 UTC",
       "headline": "SNACK GIANT SWITCHES TO BLACK AND WHITE PACKAGING AS IRAN WAR HITS INK SUPPLIES",
@@ -43,17 +49,11 @@
       "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
       "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "07 MAY 2026 · 21:11 UTC",
-      "headline": "TRUMP PROMISES ‘ONE BIG GLOW’ IN IRAN IF CEASEFIRE COLLAPSES (VIDEOS)",
-      "detail": "The US has launched a wave of strikes on Iranian targets near the Strait of Hormuz, as Tehran retaliated against US military vessels Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.88 (+0.00%)",
-    "VIX: 18.84",
+    "BRENT: $107.45 (+0.00%)",
+    "VIX: 18.64",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
