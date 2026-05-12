@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-12T17:07:48.004814+00:00",
+  "updated_at": "2026-05-12T19:45:32.136927+00:00",
   "market": {
-    "brent_usd": 107.45,
+    "brent_usd": 107.65,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.64,
+    "vix": 18.03,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 MAY 2026 · 17:49 UTC",
+      "headline": "ISRAEL SENT IRON DOME ANTI-MISSILE BATTERIES AND PERSONNEL TO UAE: US ENVOY",
+      "detail": "Mike Huckabee calls on Gulf states to 'pick a side' in the war between Israel and Iran as he heaps praise on Abu Dhabi.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 MAY 2026 · 14:42 UTC",
       "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
@@ -43,17 +49,11 @@
       "headline": "HORMUZ AKIN TO ‘ATOMIC BOMB’ – IRANIAN SUPREME LEADER’S ADVISER",
       "detail": "Tehran and Washington continue “sporadic” exchanges of fire as they vie for control of the strategic waterway Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 MAY 2026 · 14:48 UTC",
-      "headline": "IRAN BYPASSES TRUMP’S ‘WALL OF STEEL’ – MEDIA",
-      "detail": "Iranian tankers reportedly reached ports bypassing the US naval blockade, as a leaked intel report said Tehran could manage for months Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.45 (+0.00%)",
-    "VIX: 18.64",
+    "BRENT: $107.65 (+0.00%)",
+    "VIX: 18.03",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
