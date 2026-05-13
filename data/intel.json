@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-13T18:54:25.074549+00:00",
+  "updated_at": "2026-05-13T20:29:15.760471+00:00",
   "market": {
-    "brent_usd": 105.61,
+    "brent_usd": 105.81,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.82,
+    "vix": 17.87,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
@@ -29,7 +29,7 @@
     {
       "timestamp": "13 MAY 2026 · 17:27 UTC",
       "headline": "TRUMP-XI SUMMIT: CHINA’S HELP IN IRAN MAY REQUIRE US CONCESSIONS",
-      "detail": "Analysts say China is likely to ask for change in US policy towards Taiwan if it were to pressure Iran reopen Hormuz.",
+      "detail": "Analysts say China may seek changes in US policy towards Taiwan if it were to pressure Iran to reopen Hormuz.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.61 (+0.00%)",
-    "VIX: 17.82",
+    "BRENT: $105.81 (+0.00%)",
+    "VIX: 17.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
