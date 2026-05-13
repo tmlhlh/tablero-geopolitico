@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-13T07:46:44.593182+00:00",
+  "updated_at": "2026-05-13T10:22:28.796685+00:00",
   "market": {
-    "brent_usd": 106.39,
+    "brent_usd": 107.28,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.98,
+    "vix": 17.92,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 MAY 2026 · 09:33 UTC",
+      "headline": "UN RESOLUTION CALLS FOR FREEDOM OF NAVIGATION IN THE STRAIT OF HORMUZ",
+      "detail": "UN resolution calls for freedom of navigation in the Strait of Hormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "13 MAY 2026 · 06:02 UTC",
       "headline": "BAHRAIN-LED UN RESOLUTION ON STRAIT OF HORMUZ GAINS SUPPORT OF 112 NATIONS",
@@ -43,17 +49,11 @@
       "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
       "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAY 2026 · 07:46 UTC",
-      "headline": "SNACK GIANT SWITCHES TO BLACK AND WHITE PACKAGING AS IRAN WAR HITS INK SUPPLIES",
-      "detail": "The effective closure of the Strait of Hormuz has severely disrupted global supplies of energy and petrochemicals.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.39 (+0.00%)",
-    "VIX: 17.98",
+    "BRENT: $107.28 (+0.00%)",
+    "VIX: 17.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
