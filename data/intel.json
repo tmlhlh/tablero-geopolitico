@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-13T10:22:28.796685+00:00",
+  "updated_at": "2026-05-13T13:08:33.049819+00:00",
   "market": {
-    "brent_usd": 107.28,
+    "brent_usd": 107.64,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.92,
+    "vix": 18.13,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -19,12 +19,6 @@
       "headline": "UN RESOLUTION CALLS FOR FREEDOM OF NAVIGATION IN THE STRAIT OF HORMUZ",
       "detail": "UN resolution calls for freedom of navigation in the Strait of Hormuz",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAY 2026 · 06:02 UTC",
-      "headline": "BAHRAIN-LED UN RESOLUTION ON STRAIT OF HORMUZ GAINS SUPPORT OF 112 NATIONS",
-      "detail": "The resolution calls for free navigation through the strait and an end to Iranian attacks on its Gulf neighbours.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "13 MAY 2026 · 00:13 UTC",
@@ -49,11 +43,17 @@
       "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
       "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAY 2026 · 07:46 UTC",
+      "headline": "SNACK GIANT SWITCHES TO BLACK AND WHITE PACKAGING AS IRAN WAR HITS INK SUPPLIES",
+      "detail": "The effective closure of the Strait of Hormuz has severely disrupted global supplies of energy and petrochemicals.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.28 (+0.00%)",
-    "VIX: 17.92",
+    "BRENT: $107.64 (+0.00%)",
+    "VIX: 18.13",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
