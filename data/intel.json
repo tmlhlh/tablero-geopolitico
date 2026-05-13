@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-05-13T16:15:54.917973+00:00",
+  "updated_at": "2026-05-13T18:54:25.074549+00:00",
   "market": {
-    "brent_usd": 106.6,
+    "brent_usd": 105.61,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.11,
+    "vix": 17.82,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "13 MAY 2026 · 15:45 UTC",
-      "headline": "UN NUEVO NOMBRE CHINO, LA MANIOBRA DIPLOMÁTICA DE PEKÍN PARA RECIBIR A MARCO RUB",
-      "detail": "En medio de las tensiones entre Estados Unidos y China por Irán y el estrecho de Ormuz, Pekín utilizó una versión mandarín del nombre del secretario de Estado estadounidense, sancionado años atrás por",
+      "timestamp": "13 MAY 2026 · 18:37 UTC",
+      "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
+      "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 MAY 2026 · 18:00 UTC",
+      "headline": "TRUMP APARCA LA GUERRA EN ORIENTE PRÓXIMO EN BUSCA DE UN ÉXITO DIFÍCIL EN CHINA",
+      "detail": "El estrecho de Ormuz suma ya dos meses y medio cerrado, con las primeras señales de daño económico a la vista",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 MAY 2026 · 17:27 UTC",
+      "headline": "TRUMP-XI SUMMIT: CHINA’S HELP IN IRAN MAY REQUIRE US CONCESSIONS",
+      "detail": "Analysts say China is likely to ask for change in US policy towards Taiwan if it were to pressure Iran reopen Hormuz.",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "EL CARGUERO RUSO QUE SE HUNDIÓ CERCA DE MURCIA EN 2024 TRANSPORTABA REACTORES NU",
       "detail": "Las explosiones que sufrió el barco ‘Ursa Major’ entre España y Argelia pudieron ser provocadas, según la CNN",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAY 2026 · 14:42 UTC",
-      "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
-      "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 MAY 2026 · 11:27 UTC",
-      "headline": "WORLD OIL RESERVES DRAIN AT RECORD PACE – BLOOMBERG",
-      "detail": "Global oil inventories are shrinking at the fastest pace on record amid disruptions in the Strait of Hormuz, Bloomberg has reported Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.6 (+0.00%)",
-    "VIX: 18.11",
+    "BRENT: $105.61 (+0.00%)",
+    "VIX: 17.82",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
