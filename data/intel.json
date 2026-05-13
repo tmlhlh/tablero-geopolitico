@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-13T04:07:15.104343+00:00",
+  "updated_at": "2026-05-13T07:46:44.593182+00:00",
   "market": {
-    "brent_usd": 106.53,
+    "brent_usd": 106.39,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.99,
+    "vix": 17.98,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 MAY 2026 · 06:02 UTC",
+      "headline": "BAHRAIN-LED UN RESOLUTION ON STRAIT OF HORMUZ GAINS SUPPORT OF 112 NATIONS",
+      "detail": "The resolution calls for free navigation through the strait and an end to Iranian attacks on its Gulf neighbours.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "13 MAY 2026 · 00:13 UTC",
       "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
@@ -43,17 +49,11 @@
       "headline": "SNACK GIANT SWITCHES TO BLACK AND WHITE PACKAGING AS IRAN WAR HITS INK SUPPLIES",
       "detail": "The effective closure of the Strait of Hormuz has severely disrupted global supplies of energy and petrochemicals.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 MAY 2026 · 11:27 UTC",
-      "headline": "WORLD OIL RESERVES DRAIN AT RECORD PACE – BLOOMBERG",
-      "detail": "Global oil inventories are shrinking at the fastest pace on record amid disruptions in the Strait of Hormuz, Bloomberg has reported Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.53 (+0.00%)",
-    "VIX: 17.99",
+    "BRENT: $106.39 (+0.00%)",
+    "VIX: 17.98",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
