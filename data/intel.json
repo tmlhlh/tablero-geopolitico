@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-13T22:07:11.679056+00:00",
+  "updated_at": "2026-05-13T23:53:53.529499+00:00",
   "market": {
-    "brent_usd": 105.55,
+    "brent_usd": 105.59,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "13 MAY 2026 · 17:27 UTC",
-      "headline": "TRUMP-XI SUMMIT: CHINA’S HELP IN IRAN MAY REQUIRE US CONCESSIONS",
-      "detail": "Analysts say China may seek changes in US policy towards Taiwan if it were to pressure Iran to reopen Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "13 MAY 2026 · 00:13 UTC",
       "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
       "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
@@ -49,10 +43,16 @@
       "headline": "EL CARGUERO RUSO QUE SE HUNDIÓ CERCA DE MURCIA EN 2024 TRANSPORTABA REACTORES NU",
       "detail": "Las explosiones que sufrió el barco ‘Ursa Major’ entre España y Argelia pudieron ser provocadas, según la CNN",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAY 2026 · 14:42 UTC",
+      "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
+      "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.55 (+0.00%)",
+    "BRENT: $105.59 (+0.00%)",
     "VIX: 17.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
