@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-14T16:58:08.947884+00:00",
+  "updated_at": "2026-05-14T18:55:17.515520+00:00",
   "market": {
-    "brent_usd": 105.24,
+    "brent_usd": 106.08,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.7,
+    "vix": 17.52,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "14 MAY 2026 · 14:23 UTC",
-      "headline": "TRUMP, XI DISCUSS STRAIT OF HORMUZ AS CHINESE VESSELS TRANSIT KEY WATERWAY",
-      "detail": "White House says the two leaders agree that the strait 'must remain open to support the free flow of energy'.",
+      "timestamp": "14 MAY 2026 · 18:31 UTC",
+      "headline": "IRÁN ABRE LA MANO EN ORMUZ A LOS PETROLEROS ASIÁTICOS COINCIDIENDO CON LA VISITA",
+      "detail": "Teherán considera que esta medida no pone fin al bloqueo, que afecta a buques de países adversarios",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 MAY 2026 · 14:15 UTC",
-      "headline": "IRÁN ABRE LA MANO EN ORMUZ A LOS PETROLEROS ASIÁTICOS COINCIDIENDO CON LA VISITA",
-      "detail": "Teherán considera que esta medida no pone fin al bloqueo, que afecta a buques de países adversarios",
+      "timestamp": "14 MAY 2026 · 14:23 UTC",
+      "headline": "TRUMP, XI DISCUSS STRAIT OF HORMUZ AS CHINESE VESSELS TRANSIT KEY WATERWAY",
+      "detail": "White House says the two leaders agree that the strait 'must remain open to support the free flow of energy'.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.24 (+0.00%)",
-    "VIX: 17.7",
+    "BRENT: $106.08 (+0.00%)",
+    "VIX: 17.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
