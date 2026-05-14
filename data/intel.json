@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-13T23:53:53.529499+00:00",
+  "updated_at": "2026-05-14T02:47:58.060262+00:00",
   "market": {
-    "brent_usd": 105.59,
+    "brent_usd": 105.86,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 MAY 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN SLAMS ‘COLLUSION’ AS NETANYAHU ‘SECRETLY’ VISITS UAE",
+      "detail": "Iranian first vice president said Tehran's 'right' to the Strait of Hormuz is 'established and the matter is closed'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "13 MAY 2026 · 18:37 UTC",
       "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
@@ -43,16 +49,10 @@
       "headline": "EL CARGUERO RUSO QUE SE HUNDIÓ CERCA DE MURCIA EN 2024 TRANSPORTABA REACTORES NU",
       "detail": "Las explosiones que sufrió el barco ‘Ursa Major’ entre España y Argelia pudieron ser provocadas, según la CNN",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAY 2026 · 14:42 UTC",
-      "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
-      "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.59 (+0.00%)",
+    "BRENT: $105.86 (+0.00%)",
     "VIX: 17.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
