@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-14T20:26:23.906372+00:00",
+  "updated_at": "2026-05-14T22:07:06.278483+00:00",
   "market": {
-    "brent_usd": 106.67,
+    "brent_usd": 106.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 7.5,
-    "vix": 17.29,
+    "ormuz_flow_pct": 8.5,
+    "vix": 17.26,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 7.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 MAY 2026 · 21:00 UTC",
+      "headline": "COULD IRAN WAR TRIGGER A HUNGER CRISIS?",
+      "detail": "The UN warns disruptions in the Strait of Hormuz could drive up food and fertiliser costs, and worsen global hunger.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 MAY 2026 · 19:54 UTC",
       "headline": "ITALIA EN LA CRISIS DE ORMUZ: DIPLOMACIA, MISIONES NAVALES Y SEGURIDAD ALIMENTAR",
@@ -43,17 +49,11 @@
       "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
       "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAY 2026 · 00:13 UTC",
-      "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
-      "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.67 (+0.00%)",
-    "VIX: 17.29",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 7.5%"
+    "BRENT: $106.55 (+0.00%)",
+    "VIX: 17.26",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
