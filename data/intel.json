@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-14T09:31:38.017245+00:00",
+  "updated_at": "2026-05-14T11:48:49.839494+00:00",
   "market": {
-    "brent_usd": 106.45,
+    "brent_usd": 105.51,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.82,
+    "vix": 17.88,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 MAY 2026 · 11:12 UTC",
+      "headline": "GULF STATES ATTACKED IRAQ AMID WANING FAITH IN US – REUTERS",
+      "detail": "Saudi and Kuwaiti forces struck militia targets in Iraq during the Middle East war in retaliation for attacks, Reuters reports Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 MAY 2026 · 09:28 UTC",
+      "headline": "COULD IRAN WAR TRIGGER A HUNGER CRISIS?",
+      "detail": "The UN warns disruptions in the Strait of Hormuz could drive up food and fertiliser costs, and worsen global hunger.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 MAY 2026 · 06:29 UTC",
+      "headline": "XI JINPING ADVIERTE A DONALD TRUMP QUE LAS RELACIONES ENTRE CHINA Y EE UU DEPEND",
+      "detail": "Los dos líderes sostienen durante su encuentro en Pekín que Irán no puede tener arma nuclear y que Ormuz debe permanecer abierto. El mandatario republicano afirma que la relación entre ambos países “v",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 MAY 2026 · 03:40 UTC",
       "headline": "¿QUIÉN ACABÓ CON EL ‘URSA MAJOR’? INCÓGNITAS DEL BARCO RUSO HUNDIDO FRENTE A LA ",
@@ -31,29 +49,11 @@
       "headline": "TRUMP APARCA LA GUERRA EN ORIENTE PRÓXIMO EN BUSCA DE UN ÉXITO DIFÍCIL EN CHINA",
       "detail": "El estrecho de Ormuz suma ya dos meses y medio cerrado, con las primeras señales de daño económico a la vista",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAY 2026 · 00:13 UTC",
-      "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
-      "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAY 2026 · 22:35 UTC",
-      "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
-      "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAY 2026 · 14:42 UTC",
-      "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
-      "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.45 (+0.00%)",
-    "VIX: 17.82",
+    "BRENT: $105.51 (+0.00%)",
+    "VIX: 17.88",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
