@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-14T02:47:58.060262+00:00",
+  "updated_at": "2026-05-14T06:22:22.099839+00:00",
   "market": {
-    "brent_usd": 105.86,
+    "brent_usd": 105.88,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 MAY 2026 · 03:40 UTC",
+      "headline": "¿QUIÉN ACABÓ CON EL ‘URSA MAJOR’? INCÓGNITAS DEL BARCO RUSO HUNDIDO FRENTE A LA ",
+      "detail": "La tripulación del carguero escuchó varias explosiones antes de que el carguero se fuera a pique, el 23 de diciembre de 2024, en presencia de un buque de guerra enviado por Rusia",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 MAY 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TEHRAN SLAMS ‘COLLUSION’ AS NETANYAHU ‘SECRETLY’ VISITS UAE",
@@ -43,16 +49,10 @@
       "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
       "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAY 2026 · 20:30 UTC",
-      "headline": "EL CARGUERO RUSO QUE SE HUNDIÓ CERCA DE MURCIA EN 2024 TRANSPORTABA REACTORES NU",
-      "detail": "Las explosiones que sufrió el barco ‘Ursa Major’ entre España y Argelia pudieron ser provocadas, según la CNN",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.86 (+0.00%)",
+    "BRENT: $105.88 (+0.00%)",
     "VIX: 17.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
