@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-15T09:44:57.209359+00:00",
+  "updated_at": "2026-05-15T11:52:37.358348+00:00",
   "market": {
-    "brent_usd": 109.21,
+    "brent_usd": 108.39,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.77,
+    "vix": 18.78,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "14 MAY 2026 · 21:00 UTC",
-      "headline": "COULD IRAN WAR TRIGGER A HUNGER CRISIS?",
-      "detail": "The UN warns disruptions in the Strait of Hormuz could drive up food and fertiliser costs, and worsen global hunger.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "14 MAY 2026 · 18:31 UTC",
       "headline": "IRÁN ABRE LA MANO EN ORMUZ A LOS PETROLEROS ASIÁTICOS COINCIDIENDO CON LA VISITA",
       "detail": "Teherán considera que esta medida no pone fin al bloqueo, que afecta a buques de países adversarios",
@@ -49,11 +43,17 @@
       "headline": "¿QUIÉN ACABÓ CON EL ‘URSA MAJOR’? INCÓGNITAS DEL BARCO RUSO HUNDIDO FRENTE A LA ",
       "detail": "La tripulación escuchó varias explosiones antes de que el carguero se fuera a pique, el 23 de diciembre de 2024, en presencia de un buque de guerra enviado por Rusia",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAY 2026 · 18:37 UTC",
+      "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
+      "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.21 (+0.00%)",
-    "VIX: 18.77",
+    "BRENT: $108.39 (+0.00%)",
+    "VIX: 18.78",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
