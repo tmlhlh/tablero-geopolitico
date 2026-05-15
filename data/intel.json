@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-15T13:58:54.261153+00:00",
+  "updated_at": "2026-05-15T16:05:53.521742+00:00",
   "market": {
-    "brent_usd": 108.52,
+    "brent_usd": 109.7,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.7,
+    "vix": 18.52,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -18,12 +18,6 @@
       "timestamp": "15 MAY 2026 · 13:49 UTC",
       "headline": "EMIRATOS ÁRABES DUPLICA LA CAPACIDAD DE SU ÚNICA ALTERNATIVA A ORMUZ ANTE LA PRO",
       "detail": "Las autoridades emiratíes aceleran las obras en el oleoducto que esquiva el estrecho",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 MAY 2026 · 09:01 UTC",
-      "headline": "HOW XI-TRUMP SUMMIT FAILED TO YIELD IRAN WAR BREAKTHROUGH",
-      "detail": "US officials have nudged China to do more on the blocked Hormuz strait. President Xi doesn't appear to have budged.",
       "severity": "INFO"
     },
     {
@@ -39,21 +33,27 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 MAY 2026 · 03:40 UTC",
-      "headline": "¿QUIÉN ACABÓ CON EL ‘URSA MAJOR’? INCÓGNITAS DEL BARCO RUSO HUNDIDO FRENTE A LA ",
-      "detail": "La tripulación escuchó varias explosiones antes de que el carguero se fuera a pique, el 23 de diciembre de 2024, en presencia de un buque de guerra enviado por Rusia",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "13 MAY 2026 · 18:37 UTC",
       "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
       "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "13 MAY 2026 · 00:13 UTC",
+      "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
+      "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAY 2026 · 22:35 UTC",
+      "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
+      "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.52 (+0.00%)",
-    "VIX: 18.7",
+    "BRENT: $109.7 (+0.00%)",
+    "VIX: 18.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
