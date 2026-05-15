@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-15T11:52:37.358348+00:00",
+  "updated_at": "2026-05-15T13:58:54.261153+00:00",
   "market": {
-    "brent_usd": 108.39,
+    "brent_usd": 108.52,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.78,
+    "vix": 18.7,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "15 MAY 2026 · 09:01 UTC",
-      "headline": "HOW XI-TRUMP SUMMIT FAILED TO YIELD IRAN WAR BREAKTHROUGH",
-      "detail": "US officials have nudged China to do more on the blocked Hormuz strait. President Xi doesn't appear to have budged.",
+      "timestamp": "15 MAY 2026 · 13:49 UTC",
+      "headline": "EMIRATOS ÁRABES DUPLICA LA CAPACIDAD DE SU ÚNICA ALTERNATIVA A ORMUZ ANTE LA PRO",
+      "detail": "Las autoridades emiratíes aceleran las obras en el oleoducto que esquiva el estrecho",
       "severity": "INFO"
     },
     {
-      "timestamp": "15 MAY 2026 · 06:18 UTC",
-      "headline": "IRAN WAR DAY 77: TRUMP, XI DISCUSS HORMUZ AS TEHRAN RALLIES BRICS",
-      "detail": "The US and Chinese leaders agreed during talks that the Strait of Hormuz should remain open to ensure global supplies.",
+      "timestamp": "15 MAY 2026 · 09:01 UTC",
+      "headline": "HOW XI-TRUMP SUMMIT FAILED TO YIELD IRAN WAR BREAKTHROUGH",
+      "detail": "US officials have nudged China to do more on the blocked Hormuz strait. President Xi doesn't appear to have budged.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $108.39 (+0.00%)",
-    "VIX: 18.78",
+    "BRENT: $108.52 (+0.00%)",
+    "VIX: 18.7",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
