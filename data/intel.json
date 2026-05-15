@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-05-15T16:05:53.521742+00:00",
+  "updated_at": "2026-05-15T18:20:23.763425+00:00",
   "market": {
-    "brent_usd": 109.7,
+    "brent_usd": 109.34,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 18.52,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "ormuz_flow_pct": 90.6,
+    "vix": 17.95,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "15 MAY 2026 · 16:48 UTC",
+      "headline": "UAE TO ACCELERATE OIL PIPELINE PROJECT TO BYPASS STRAIT OF HORMUZ",
+      "detail": "The crown prince of the UAE says the project would help 'meet global demands'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 MAY 2026 · 13:49 UTC",
       "headline": "EMIRATOS ÁRABES DUPLICA LA CAPACIDAD DE SU ÚNICA ALTERNATIVA A ORMUZ ANTE LA PRO",
       "detail": "Las autoridades emiratíes aceleran las obras en el oleoducto que esquiva el estrecho",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 MAY 2026 · 18:31 UTC",
-      "headline": "IRÁN ABRE LA MANO EN ORMUZ A LOS PETROLEROS ASIÁTICOS COINCIDIENDO CON LA VISITA",
-      "detail": "Teherán considera que esta medida no pone fin al bloqueo, que afecta a buques de países adversarios",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.7 (+0.00%)",
-    "VIX: 18.52",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $109.34 (+0.00%)",
+    "VIX: 17.95",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
