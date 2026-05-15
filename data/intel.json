@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-05-15T06:31:48.580028+00:00",
+  "updated_at": "2026-05-15T09:44:57.209359+00:00",
   "market": {
-    "brent_usd": 107.46,
+    "brent_usd": 109.21,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.26,
+    "vix": 18.77,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 MAY 2026 · 09:01 UTC",
+      "headline": "HOW XI-TRUMP SUMMIT FAILED TO YIELD IRAN WAR BREAKTHROUGH",
+      "detail": "US officials have nudged China to do more on the blocked Hormuz strait. President Xi doesn't appear to have budged.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 MAY 2026 · 06:18 UTC",
+      "headline": "IRAN WAR DAY 77: TRUMP, XI DISCUSS HORMUZ AS TEHRAN RALLIES BRICS",
+      "detail": "The US and Chinese leaders agreed during talks that the Strait of Hormuz should remain open to ensure global supplies.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 MAY 2026 · 21:00 UTC",
       "headline": "COULD IRAN WAR TRIGGER A HUNGER CRISIS?",
@@ -37,23 +49,11 @@
       "headline": "¿QUIÉN ACABÓ CON EL ‘URSA MAJOR’? INCÓGNITAS DEL BARCO RUSO HUNDIDO FRENTE A LA ",
       "detail": "La tripulación escuchó varias explosiones antes de que el carguero se fuera a pique, el 23 de diciembre de 2024, en presencia de un buque de guerra enviado por Rusia",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAY 2026 · 18:37 UTC",
-      "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
-      "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAY 2026 · 00:13 UTC",
-      "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
-      "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.46 (+0.00%)",
-    "VIX: 17.26",
+    "BRENT: $109.21 (+0.00%)",
+    "VIX: 18.77",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
