@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-16T02:37:24.487771+00:00",
+  "updated_at": "2026-05-16T05:51:20.637672+00:00",
   "market": {
-    "brent_usd": 109.24,
+    "brent_usd": 109.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 92.9,
+    "ormuz_flow_pct": 93.9,
     "vix": 18.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.0
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAY 2026 · 03:40 UTC",
+      "headline": "EL SECTOR PETROLERO DE IRÁN RESISTE LA PRESIÓN POR EL CIERRE ESTADOUNIDENSE DE O",
+      "detail": "La capacidad de refinado, el tipo de yacimiento y la experiencia en ese ámbito ofrecen a Teherán un margen de meses antes de sufrir daños graves, afirman expertos",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAY 2026 · 01:45 UTC",
       "headline": "ESTADOS UNIDOS PERMITIÓ LA SALIDA DE TRES PETROLEROS CHINOS DEL ESTRECHO DE ORMU",
@@ -43,16 +49,10 @@
       "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
       "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 MAY 2026 · 00:13 UTC",
-      "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
-      "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.24 (+0.00%)",
+    "BRENT: $109.26 (+0.00%)",
     "VIX: 18.43",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
