@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-16T16:56:02.787684+00:00",
+  "updated_at": "2026-05-16T17:54:25.330959+00:00",
   "market": {
     "brent_usd": 109.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 96.2,
+    "ormuz_flow_pct": 96.3,
     "vix": 18.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.0
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "16 MAY 2026 · 16:59 UTC",
+      "headline": "AL JAZEERA’S EXCLUSIVE REPORT FROM THE STRAIT OF HORMUZ",
+      "detail": "Heavy ship traffic and rising regional tensions over one of the world’s most critical energy routes.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 MAY 2026 · 03:40 UTC",
       "headline": "EL SECTOR PETROLERO DE IRÁN RESISTE LA PRESIÓN POR EL CIERRE ESTADOUNIDENSE DE O",
@@ -42,12 +48,6 @@
       "timestamp": "12 MAY 2026 · 22:35 UTC",
       "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
       "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAY 2026 · 14:42 UTC",
-      "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
-      "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
