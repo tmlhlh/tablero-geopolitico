@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-16T07:59:05.084022+00:00",
+  "updated_at": "2026-05-16T09:47:20.613128+00:00",
   "market": {
     "brent_usd": 109.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 94.4,
+    "ormuz_flow_pct": 94.9,
     "vix": 18.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.0
@@ -18,12 +18,6 @@
       "timestamp": "16 MAY 2026 · 03:40 UTC",
       "headline": "EL SECTOR PETROLERO DE IRÁN RESISTE LA PRESIÓN POR EL CIERRE ESTADOUNIDENSE DE O",
       "detail": "La capacidad de refinado, el tipo de yacimiento y la experiencia en ese ámbito ofrecen a Teherán un margen de meses antes de sufrir daños graves, afirman expertos",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 MAY 2026 · 01:45 UTC",
-      "headline": "ESTADOS UNIDOS PERMITIÓ LA SALIDA DE TRES PETROLEROS CHINOS DEL ESTRECHO DE ORMU",
-      "detail": "Las embarcaciones pudieron transitar por la vía marítima “porque lo autorizamos”, dijo el presidente norteamericano en una entrevista con Fox News",
       "severity": "INFO"
     },
     {
@@ -48,6 +42,12 @@
       "timestamp": "13 MAY 2026 · 00:13 UTC",
       "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
       "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAY 2026 · 22:35 UTC",
+      "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
+      "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
