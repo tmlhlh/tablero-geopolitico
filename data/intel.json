@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-16T05:51:20.637672+00:00",
+  "updated_at": "2026-05-16T07:59:05.084022+00:00",
   "market": {
     "brent_usd": 109.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 93.9,
+    "ormuz_flow_pct": 94.4,
     "vix": 18.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.0
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "15 MAY 2026 · 16:48 UTC",
-      "headline": "UAE TO ACCELERATE OIL PIPELINE PROJECT TO BYPASS STRAIT OF HORMUZ",
-      "detail": "The crown prince of the UAE says the project would help 'meet global demands'.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "15 MAY 2026 · 13:49 UTC",
       "headline": "EMIRATOS ÁRABES DUPLICA LA CAPACIDAD DE SU ÚNICA ALTERNATIVA A ORMUZ ANTE LA PRO",
       "detail": "Las autoridades emiratíes aceleran las obras en el oleoducto que esquiva el estrecho",
@@ -48,6 +42,12 @@
       "timestamp": "13 MAY 2026 · 18:37 UTC",
       "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
       "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 MAY 2026 · 00:13 UTC",
+      "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
+      "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
