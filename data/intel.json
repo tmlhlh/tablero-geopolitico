@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-17T09:02:30.850347+00:00",
+  "updated_at": "2026-05-17T11:02:10.057798+00:00",
   "market": {
     "brent_usd": 109.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 97.8,
+    "ormuz_flow_pct": 97.9,
     "vix": 18.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.0
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "17 MAY 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN PLANS TOLLS IN HORMUZ; TRUMP WARNS OF ‘VERY BAD TIME’",
-      "detail": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "14 MAY 2026 · 11:12 UTC",
       "headline": "GULF STATES ATTACKED IRAQ AMID WANING FAITH IN US – REUTERS",
       "detail": "Saudi and Kuwaiti forces struck militia targets in Iraq during the Middle East war in retaliation for attacks, Reuters reports Read Full Article at RT.com",
@@ -48,6 +42,12 @@
       "timestamp": "13 MAY 2026 · 00:13 UTC",
       "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
       "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAY 2026 · 22:35 UTC",
+      "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
+      "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
