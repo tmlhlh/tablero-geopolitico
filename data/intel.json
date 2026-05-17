@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-17T13:13:21.082665+00:00",
+  "updated_at": "2026-05-17T14:53:22.862248+00:00",
   "market": {
     "brent_usd": 109.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 98.0,
+    "ormuz_flow_pct": 98.1,
     "vix": 18.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.0
@@ -18,12 +18,6 @@
       "timestamp": "17 MAY 2026 · 08:56 UTC",
       "headline": "AL JAZEERA REPORTS FROM STRAIT OF HORMUZ ON IRAN’S PLAN TO MANAGE SHIPPING",
       "detail": "Al Jazeera’s Tohid Asadi reports from the strait and explains Tehran’s newest plan to manage shipping.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 MAY 2026 · 07:19 UTC",
-      "headline": "IRAN WAR DAY 79: TEHRAN TO UNVEIL HORMUZ TOLL PLAN; ISRAEL BOMBS LEBANON",
-      "detail": "Iran says it will soon reveal the plan as Trump warns Tehran it will have a 'very bad time' if deal not reached soon.",
       "severity": "INFO"
     },
     {
@@ -48,6 +42,12 @@
       "timestamp": "12 MAY 2026 · 22:35 UTC",
       "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
       "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 MAY 2026 · 14:42 UTC",
+      "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
+      "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
