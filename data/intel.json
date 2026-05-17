@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T19:10:48.501150+00:00",
+  "updated_at": "2026-05-17T20:44:32.377925+00:00",
   "market": {
     "brent_usd": 109.26,
     "brent_chg": 0.0
@@ -45,7 +45,7 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "17 MAY 2026 · 19:10 UTC",
+      "timestamp": "17 MAY 2026 · 20:44 UTC",
       "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
       "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
