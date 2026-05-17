@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-16T23:49:54.653692+00:00",
+  "updated_at": "2026-05-17T02:45:50.804690+00:00",
   "market": {
     "brent_usd": 109.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 97.0,
+    "ormuz_flow_pct": 97.3,
     "vix": 18.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.0
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "17 MAY 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN PLANS TOLLS IN HORMUZ; TRUMP WARNS OF ‘VERY BAD TIME’",
+      "detail": "Iran to reveal its plan for Strait of Hormuz soon as Israel attacks Lebanon and Gaza, killing and wounding dozens.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "16 MAY 2026 · 16:59 UTC",
       "headline": "AL JAZEERA’S EXCLUSIVE REPORT FROM THE STRAIT OF HORMUZ",
@@ -42,12 +48,6 @@
       "timestamp": "13 MAY 2026 · 00:13 UTC",
       "headline": "INTELLIGENCE REPORTS CONTRADICT TRUMP’S CLAIMS ABOUT IRAN – NYT",
       "detail": "Iran still maintains operational access to most of its missile sites along the Strait of Hormuz, according to the New York Times Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 MAY 2026 · 22:35 UTC",
-      "headline": "THE WAR ON IRAN MAY BECOME A TURNING POINT IN THE POST-COLD WAR ORDER",
-      "detail": "The Strait of Hormuz crisis has changed the calculations of every major power Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
