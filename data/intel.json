@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-17T15:56:17.556721+00:00",
+  "updated_at": "2026-05-17T16:56:15.607728+00:00",
   "market": {
     "brent_usd": 109.26,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 98.1,
+    "ormuz_flow_pct": 98.2,
     "vix": 18.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.0
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "17 MAY 2026 · 08:56 UTC",
-      "headline": "AL JAZEERA REPORTS FROM STRAIT OF HORMUZ ON IRAN’S PLAN TO MANAGE SHIPPING",
-      "detail": "Al Jazeera’s Tohid Asadi reports from the strait and explains Tehran’s newest plan to manage shipping.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "14 MAY 2026 · 11:12 UTC",
       "headline": "GULF STATES ATTACKED IRAQ AMID WANING FAITH IN US – REUTERS",
@@ -48,6 +42,12 @@
       "timestamp": "12 MAY 2026 · 14:42 UTC",
       "headline": "STRAIT OF HORMUZ CRISIS CRIPPLES INDONESIAN FISHING INDUSTRY – RT (VIDEO)",
       "detail": "Indonesian fishermen say soaring diesel costs linked to the US-Israeli war on Iran have left fleets stranded and crews without income Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 MAY 2026 · 16:56 UTC",
+      "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
+      "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
     }
   ],
