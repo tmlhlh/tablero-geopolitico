@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-05-18T21:08:13.696683+00:00",
+  "updated_at": "2026-05-18T22:57:40.330659+00:00",
   "market": {
-    "brent_usd": 109.14,
+    "brent_usd": 109.25,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.3,
+    "ormuz_flow_pct": 7.1,
     "vix": 17.82,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.1%"
   },
   "events": [
     {
-      "timestamp": "18 MAY 2026 · 20:25 UTC",
+      "timestamp": "18 MAY 2026 · 22:30 UTC",
       "headline": "TRUMP SAYS HE CALLED OFF NEW IRAN ATTACK AT REQUEST OF GULF STATES",
       "detail": "The US president says he is holding off on a US attack planned for Tuesday as \"serious negotiations are now taking place\".",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 21:11 UTC",
+      "headline": "TRUMP PAUSES POSSIBLE IRAN STRIKE AFTER GULF INTERVENTION",
+      "detail": "US President Donald Trump has announced that he is delaying a planned attack on Iran.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRAN CONFLICT COST GLOBAL BUSINESSES $25 BN – REUTERS",
       "detail": "Firms have been hit by soaring energy prices and supply chain disruptions linked to the Strait of Hormuz blockade, the outlet has said Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 11:13 UTC",
-      "headline": "EMIRATOS ÁRABES RECIBE EL APOYO DE SUS ALIADOS TRAS EL ATAQUE JUNTO A UNA CENTRA",
-      "detail": "La ofensiva con drones agrava la inquietud financiera en una región instalada en la convulsión desde el inicio de la guerra y el cierre del estrecho de Ormuz",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.14 (+0.00%)",
+    "BRENT: $109.25 (+0.00%)",
     "VIX: 17.82",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.3%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.1%"
   ]
 }
