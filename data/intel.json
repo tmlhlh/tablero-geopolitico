@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-18T17:57:43.844248+00:00",
+  "updated_at": "2026-05-18T19:47:28.369735+00:00",
   "market": {
-    "brent_usd": 110.84,
+    "brent_usd": 109.49,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.31,
+    "vix": 18.37,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.0
   },
@@ -27,18 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "18 MAY 2026 · 12:44 UTC",
-      "headline": "IRAN SENDS RESPONSE TO US PROPOSAL TO END WAR VIA MEDIATOR PAKISTAN",
-      "detail": "Iran demands the release of assets frozen abroad, the lifting of sanctions and control over the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 11:57 UTC",
-      "headline": "IRAN PLANS TO OFFER INSURANCE FOR HORMUZ TRANSIT: WILL IT WORK?",
-      "detail": "Iran proposes Bitcoin-based ship insurance for the Strait of Hormuz, a move likely to raise global maritime concerns.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "18 MAY 2026 · 11:13 UTC",
       "headline": "EMIRATOS ÁRABES RECIBE EL APOYO DE SUS ALIADOS TRAS EL ATAQUE JUNTO A UNA CENTRA",
       "detail": "La ofensiva con drones agrava la inquietud financiera en una región instalada en la convulsión desde el inicio de la guerra y el cierre del estrecho de Ormuz",
@@ -49,11 +37,23 @@
       "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
       "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "14 MAY 2026 · 11:12 UTC",
+      "headline": "GULF STATES ATTACKED IRAQ AMID WANING FAITH IN US – REUTERS",
+      "detail": "Saudi and Kuwaiti forces struck militia targets in Iraq during the Middle East war in retaliation for attacks, Reuters reports Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAY 2026 · 18:37 UTC",
+      "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
+      "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.84 (+0.00%)",
-    "VIX: 18.31",
+    "BRENT: $109.49 (+0.00%)",
+    "VIX: 18.37",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
