@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-05-18T11:06:17.870568+00:00",
+  "updated_at": "2026-05-18T15:22:27.039977+00:00",
   "market": {
-    "brent_usd": 110.45,
+    "brent_usd": 110.87,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.9,
-    "vix": 19.08,
+    "ormuz_flow_pct": 3.6,
+    "vix": 18.61,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.9%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.6%"
   },
   "events": [
     {
-      "timestamp": "18 MAY 2026 · 10:34 UTC",
+      "timestamp": "18 MAY 2026 · 15:16 UTC",
+      "headline": "IRAN CONFLICT COST GLOBAL BUSINESSES $25BN – REUTERS",
+      "detail": "Firms have been hit by soaring energy prices and supply chain disruptions linked to the Strait of Hormuz blockade, the outlet has said Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 12:44 UTC",
+      "headline": "IRAN SENDS RESPONSE TO US PROPOSAL TO END WAR VIA MEDIATOR PAKISTAN",
+      "detail": "Iran demands the release of assets frozen abroad, the lifting of sanctions and control over the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 12:27 UTC",
+      "headline": "ISRAELI FORCES BOARD GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
+      "detail": "Live broadcasts from the Global Sumud flotilla show commandos boarding several boats trying to breach the Gaza maritime blockade.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 11:57 UTC",
+      "headline": "IRAN PLANS TO OFFER INSURANCE FOR HORMUZ TRANSIT: WILL IT WORK?",
+      "detail": "Iran proposes Bitcoin-based ship insurance for the Strait of Hormuz, a move likely to raise global maritime concerns.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 11:13 UTC",
       "headline": "EMIRATOS ÁRABES RECIBE EL APOYO DE SUS ALIADOS TRAS EL ATAQUE JUNTO A UNA CENTRA",
       "detail": "La ofensiva con drones agrava la inquietud financiera en una región instalada en la convulsión desde el inicio de la guerra y el cierre del estrecho de Ormuz",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 10:00 UTC",
-      "headline": "ISRAELI FORCES BOARDING GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
-      "detail": "Live broadcasts from the Global Sumud flotilla show commandos boarding several boats trying to breach the Gaza maritime blockade.",
-      "severity": "INFO"
     },
     {
       "timestamp": "18 MAY 2026 · 09:50 UTC",
       "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
       "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 09:45 UTC",
-      "headline": "ISRAEL INICIA LA INTERCEPTACIÓN DE LOS BARCOS DE LA FLOTILLA CUANDO SE ACERCABAN",
-      "detail": "El ejército israelí detiene en primer lugar a la nave nodriza, ‘Furleto’. Las embarcaciones, que navegaban cerca de Chipre, se dirigían al romper el bloqueo de la Franja",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 08:28 UTC",
-      "headline": "AL JAZEERA REPORTS FROM HORMUZ ISLAND AS IRAN SAYS IT CONTROLS THE STRAIT",
-      "detail": "Al Jazeera has been given exclusive access to Iran’s Hormuz Island.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 07:42 UTC",
-      "headline": "EL PETRÓLEO SUBE TRAS UNA ADVERTENCIA DE TRUMP Y UN ATAQUE CONTRA EMIRATOS ÁRABE",
-      "detail": "Ambos contratos de referencia finalizaron la semana previa con un fuerte saldo alcista; la incertidumbre respecto al estrecho de Ormuz suma cautela entre los inversionistas",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.45 (+0.00%)",
-    "VIX: 19.08",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.9%"
+    "BRENT: $110.87 (+0.00%)",
+    "VIX: 18.61",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.6%"
   ]
 }
