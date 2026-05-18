@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-05-18T19:47:28.369735+00:00",
+  "updated_at": "2026-05-18T21:08:13.696683+00:00",
   "market": {
-    "brent_usd": 109.49,
+    "brent_usd": 109.14,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 18.37,
+    "ormuz_flow_pct": 5.3,
+    "vix": 17.82,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.3%"
   },
   "events": [
+    {
+      "timestamp": "18 MAY 2026 · 20:25 UTC",
+      "headline": "TRUMP SAYS HE CALLED OFF NEW IRAN ATTACK AT REQUEST OF GULF STATES",
+      "detail": "The US president says he is holding off on a US attack planned for Tuesday as \"serious negotiations are now taking place\".",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 20:12 UTC",
+      "headline": "TRUMP DELAYS ‘SCHEDULED ATTACK’ ON IRAN, CREDITING ‘SERIOUS NEGOTIATIONS’",
+      "detail": "Gulf states push Donald Trump to avoid any escalation in the US-Israel war on Iran, which prompted regional attacks.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 20:06 UTC",
+      "headline": "EL BUQUE RUSO HUNDIDO EN 2024 FRENTE A CARTAGENA LLEVABA COMPONENTES PARA UN ROM",
+      "detail": "“Ninguna autoridad ha atribuido el hundimiento a un sabotaje o ataque deliberado”, alega Robles",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "18 MAY 2026 · 15:30 UTC",
       "headline": "ISRAELI FORCES BOARD GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
@@ -31,29 +49,11 @@
       "headline": "EMIRATOS ÁRABES RECIBE EL APOYO DE SUS ALIADOS TRAS EL ATAQUE JUNTO A UNA CENTRA",
       "detail": "La ofensiva con drones agrava la inquietud financiera en una región instalada en la convulsión desde el inicio de la guerra y el cierre del estrecho de Ormuz",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 09:50 UTC",
-      "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
-      "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 MAY 2026 · 11:12 UTC",
-      "headline": "GULF STATES ATTACKED IRAQ AMID WANING FAITH IN US – REUTERS",
-      "detail": "Saudi and Kuwaiti forces struck militia targets in Iraq during the Middle East war in retaliation for attacks, Reuters reports Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 MAY 2026 · 18:37 UTC",
-      "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
-      "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.49 (+0.00%)",
-    "VIX: 18.37",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $109.14 (+0.00%)",
+    "VIX: 17.82",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.3%"
   ]
 }
