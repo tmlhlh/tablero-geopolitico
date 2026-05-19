@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-19T00:10:20.469938+00:00",
+  "updated_at": "2026-05-19T04:57:25.802831+00:00",
   "market": {
-    "brent_usd": 109.11,
+    "brent_usd": 109.98,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.4,
+    "ormuz_flow_pct": 8.5,
     "vix": 17.82,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "19 MAY 2026 · 02:40 UTC",
+      "headline": "ISRAELI FORCES BOARD GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
+      "detail": "Live broadcasts from the Global Sumud flotilla show commandos boarding several boats trying to breach the Gaza maritime blockade.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "19 MAY 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP SAYS IRAN ATTACK POSTPONED AT REQUEST OF GULF ALLIES",
@@ -33,27 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "18 MAY 2026 · 20:12 UTC",
-      "headline": "TRUMP DELAYS ‘SCHEDULED ATTACK’ ON IRAN, CREDITING ‘SERIOUS NEGOTIATIONS’",
-      "detail": "Gulf states push Donald Trump to avoid any escalation in the US-Israel war on Iran, which prompted regional attacks.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "18 MAY 2026 · 20:06 UTC",
       "headline": "EL BUQUE RUSO HUNDIDO EN 2024 FRENTE A CARTAGENA LLEVABA COMPONENTES PARA UN ROM",
       "detail": "“Ninguna autoridad ha atribuido el hundimiento a un sabotaje o ataque deliberado”, alega Robles",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "18 MAY 2026 · 15:30 UTC",
-      "headline": "ISRAELI FORCES BOARD GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
-      "detail": "Live broadcasts from the Global Sumud flotilla show commandos boarding several boats trying to breach the Gaza maritime blockade.",
+      "timestamp": "18 MAY 2026 · 15:16 UTC",
+      "headline": "IRAN CONFLICT COST GLOBAL BUSINESSES $25 BN – REUTERS",
+      "detail": "Firms have been hit by soaring energy prices and supply chain disruptions linked to the Strait of Hormuz blockade, the outlet has said Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.11 (+0.00%)",
+    "BRENT: $109.98 (+0.00%)",
     "VIX: 17.82",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.4%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
