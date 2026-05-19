@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-19T12:01:38.883255+00:00",
+  "updated_at": "2026-05-19T16:16:03.852389+00:00",
   "market": {
-    "brent_usd": 110.88,
+    "brent_usd": 111.02,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.01,
+    "vix": 18.06,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.9
   },
@@ -14,24 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "19 MAY 2026 · 09:38 UTC",
-      "headline": "ISRAELI FORCES BOARD GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
-      "detail": "The Global Sumud Flotilla says commandos have intercepted more than 40 boats trying to breach the Gaza maritime blockade since Tuesday.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 MAY 2026 · 07:28 UTC",
-      "headline": "RUSSIAN STRIKE DAMAGES UKRAINE DANUBE PORT AS MOSCOW INTERCEPTS DRONES",
-      "detail": "Russia also plans military exercises as Putin prepares for Beijing visit.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "19 MAY 2026 · 07:26 UTC",
-      "headline": "IRAN WAR DAY 81: TRUMP DELAYS ATTACK; TEHRAN SAYS WON’T ‘SURRENDER’",
-      "detail": "US president says he held off a scheduled attack on Iran after pressure from Gulf allies as renewed talks gain momentum.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "18 MAY 2026 · 22:30 UTC",
       "headline": "TRUMP SAYS HE CALLED OFF NEW IRAN ATTACK AT REQUEST OF GULF STATES",
@@ -49,11 +31,29 @@
       "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
       "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "14 MAY 2026 · 11:12 UTC",
+      "headline": "GULF STATES ATTACKED IRAQ AMID WANING FAITH IN US – REUTERS",
+      "detail": "Saudi and Kuwaiti forces struck militia targets in Iraq during the Middle East war in retaliation for attacks, Reuters reports Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 MAY 2026 · 18:37 UTC",
+      "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
+      "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "19 MAY 2026 · 16:16 UTC",
+      "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
+      "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.88 (+0.00%)",
-    "VIX: 18.01",
+    "BRENT: $111.02 (+0.00%)",
+    "VIX: 18.06",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
