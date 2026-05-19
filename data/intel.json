@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-19T08:28:48.199369+00:00",
+  "updated_at": "2026-05-19T12:01:38.883255+00:00",
   "market": {
-    "brent_usd": 110.48,
+    "brent_usd": 110.88,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.02,
+    "vix": 18.01,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.9
   },
@@ -15,9 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "19 MAY 2026 · 09:38 UTC",
+      "headline": "ISRAELI FORCES BOARD GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
+      "detail": "The Global Sumud Flotilla says commandos have intercepted more than 40 boats trying to breach the Gaza maritime blockade since Tuesday.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "19 MAY 2026 · 07:28 UTC",
       "headline": "RUSSIAN STRIKE DAMAGES UKRAINE DANUBE PORT AS MOSCOW INTERCEPTS DRONES",
-      "detail": "Port infrastructure hit in southern Ukraine as drones intercepted over Russian capital.",
+      "detail": "Russia also plans military exercises as Putin prepares for Beijing visit.",
       "severity": "CRÍTICO"
     },
     {
@@ -27,33 +33,27 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "19 MAY 2026 · 02:40 UTC",
-      "headline": "ISRAELI FORCES BOARD GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
-      "detail": "Live broadcasts from the Global Sumud flotilla show commandos boarding several boats trying to breach the Gaza maritime blockade.",
+      "timestamp": "18 MAY 2026 · 22:30 UTC",
+      "headline": "TRUMP SAYS HE CALLED OFF NEW IRAN ATTACK AT REQUEST OF GULF STATES",
+      "detail": "The US president says he is holding off on an attack planned for Tuesday as \"serious negotiations are now taking place\".",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 15:16 UTC",
+      "headline": "IRAN CONFLICT COST GLOBAL BUSINESSES $25 BN – REUTERS",
+      "detail": "Firms have been hit by soaring energy prices and supply chain disruptions linked to the Strait of Hormuz blockade, the outlet has said Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
-      "timestamp": "19 MAY 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS IRAN ATTACK POSTPONED AT REQUEST OF GULF ALLIES",
-      "detail": "Al Jazeera's correspondent in Tehran says Iran's leaders are 'projecting defiance' and rejecting 'pressure' from the US.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 22:30 UTC",
-      "headline": "TRUMP SAYS HE CALLED OFF NEW IRAN ATTACK AT REQUEST OF GULF STATES",
-      "detail": "The US president says he is holding off on a US attack planned for Tuesday as \"serious negotiations are now taking place\".",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 21:11 UTC",
-      "headline": "TRUMP PAUSES POSSIBLE IRAN STRIKE AFTER GULF INTERVENTION",
-      "detail": "US President Donald Trump has announced that he is delaying a planned attack on Iran.",
-      "severity": "CRÍTICO"
+      "timestamp": "18 MAY 2026 · 09:50 UTC",
+      "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
+      "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $110.48 (+0.00%)",
-    "VIX: 18.02",
+    "BRENT: $110.88 (+0.00%)",
+    "VIX: 18.01",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
