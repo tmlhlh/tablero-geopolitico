@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-05-19T04:57:25.802831+00:00",
+  "updated_at": "2026-05-19T08:28:48.199369+00:00",
   "market": {
-    "brent_usd": 109.98,
+    "brent_usd": 110.48,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.82,
+    "vix": 18.02,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "19 MAY 2026 · 07:28 UTC",
+      "headline": "RUSSIAN STRIKE DAMAGES UKRAINE DANUBE PORT AS MOSCOW INTERCEPTS DRONES",
+      "detail": "Port infrastructure hit in southern Ukraine as drones intercepted over Russian capital.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "19 MAY 2026 · 07:26 UTC",
+      "headline": "IRAN WAR DAY 81: TRUMP DELAYS ATTACK; TEHRAN SAYS WON’T ‘SURRENDER’",
+      "detail": "US president says he held off a scheduled attack on Iran after pressure from Gulf allies as renewed talks gain momentum.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "19 MAY 2026 · 02:40 UTC",
       "headline": "ISRAELI FORCES BOARD GAZA-BOUND FLOTILLA NEAR CYPRUS, ACTIVISTS SAY",
@@ -37,23 +49,11 @@
       "headline": "TRUMP PAUSES POSSIBLE IRAN STRIKE AFTER GULF INTERVENTION",
       "detail": "US President Donald Trump has announced that he is delaying a planned attack on Iran.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 20:06 UTC",
-      "headline": "EL BUQUE RUSO HUNDIDO EN 2024 FRENTE A CARTAGENA LLEVABA COMPONENTES PARA UN ROM",
-      "detail": "“Ninguna autoridad ha atribuido el hundimiento a un sabotaje o ataque deliberado”, alega Robles",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 15:16 UTC",
-      "headline": "IRAN CONFLICT COST GLOBAL BUSINESSES $25 BN – REUTERS",
-      "detail": "Firms have been hit by soaring energy prices and supply chain disruptions linked to the Strait of Hormuz blockade, the outlet has said Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $109.98 (+0.00%)",
-    "VIX: 17.82",
+    "BRENT: $110.48 (+0.00%)",
+    "VIX: 18.02",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
