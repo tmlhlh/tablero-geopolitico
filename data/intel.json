@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-20T12:20:45.564703+00:00",
+  "updated_at": "2026-05-20T16:22:32.131258+00:00",
   "market": {
-    "brent_usd": 108.77,
+    "brent_usd": 105.11,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.98,
+    "vix": 17.7,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -19,18 +19,6 @@
       "headline": "XI Y PUTIN ULTIMAN UN GRAN ACUERDO ENERGÉTICO EN PLENA CRISIS DE ORMUZ",
       "detail": "El líder chino insta a su homólogo ruso a construir un mundo “más justo y equitativo” frente a la hegemonía estadounidense",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAY 2026 · 08:36 UTC",
-      "headline": "AT LEAST 87 GAZA AID FLOTILLA ACTIVISTS ABDUCTED BY ISRAEL ON HUNGER STRIKE",
-      "detail": "The protest comes after Israeli forces intercepted the last remaining vessel sailing towards the besieged Gaza Strip.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 MAY 2026 · 07:47 UTC",
-      "headline": "CHINESE SUPERTANKERS EXIT HORMUZ AS TRUMP AND VANCE TALK UP IRAN DEAL",
-      "detail": "Oil prices eased after the White House remarks as Iran warned it would expand the war in response to any new attacks.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "18 MAY 2026 · 15:16 UTC",
@@ -49,11 +37,23 @@
       "headline": "GULF STATES ATTACKED IRAQ AMID WANING FAITH IN US – REUTERS",
       "detail": "Saudi and Kuwaiti forces struck militia targets in Iraq during the Middle East war in retaliation for attacks, Reuters reports Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "20 MAY 2026 · 16:22 UTC",
+      "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
+      "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAY 2026 · 16:22 UTC",
+      "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
+      "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.77 (+0.00%)",
-    "VIX: 17.98",
+    "BRENT: $105.11 (+0.00%)",
+    "VIX: 17.7",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
