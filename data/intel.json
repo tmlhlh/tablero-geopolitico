@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-19T22:12:45.258512+00:00",
+  "updated_at": "2026-05-20T00:00:54.373984+00:00",
   "market": {
-    "brent_usd": 111.0,
+    "brent_usd": 110.81,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -39,20 +39,20 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 MAY 2026 · 18:37 UTC",
-      "headline": "BRITAIN EXPANDS HORMUZ MISSION AS STARMER FACES CALLS TO QUIT",
-      "detail": "The UK has pledged drones, fighter jets and a destroyer for a potential multinational mission in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "19 MAY 2026 · 22:12 UTC",
+      "timestamp": "20 MAY 2026 · 00:00 UTC",
       "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
       "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "20 MAY 2026 · 00:00 UTC",
+      "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
+      "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.0 (+0.00%)",
+    "BRENT: $110.81 (+0.00%)",
     "VIX: 18.06",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
