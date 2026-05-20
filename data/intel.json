@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-20T09:24:20.697562+00:00",
+  "updated_at": "2026-05-20T12:20:45.564703+00:00",
   "market": {
-    "brent_usd": 109.24,
+    "brent_usd": 108.77,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.01,
+    "vix": 17.98,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "20 MAY 2026 · 11:59 UTC",
+      "headline": "XI Y PUTIN ULTIMAN UN GRAN ACUERDO ENERGÉTICO EN PLENA CRISIS DE ORMUZ",
+      "detail": "El líder chino insta a su homólogo ruso a construir un mundo “más justo y equitativo” frente a la hegemonía estadounidense",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 MAY 2026 · 08:36 UTC",
       "headline": "AT LEAST 87 GAZA AID FLOTILLA ACTIVISTS ABDUCTED BY ISRAEL ON HUNGER STRIKE",
@@ -22,14 +28,8 @@
     },
     {
       "timestamp": "20 MAY 2026 · 07:47 UTC",
-      "headline": "CHINESE SUPERTANKERS EXIT HORMUZ AS TRUMP, VANCE TALK UP IRAN DEAL",
-      "detail": "Oil prices ease amid the latest comments from the White House, but experts warn they will stay high even after any deal.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 22:30 UTC",
-      "headline": "TRUMP SAYS HE CALLED OFF NEW IRAN ATTACK AT REQUEST OF GULF STATES",
-      "detail": "The US president says he is holding off on an attack planned for Tuesday as \"serious negotiations are now taking place\".",
+      "headline": "CHINESE SUPERTANKERS EXIT HORMUZ AS TRUMP AND VANCE TALK UP IRAN DEAL",
+      "detail": "Oil prices eased after the White House remarks as Iran warned it would expand the war in response to any new attacks.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.24 (+0.00%)",
-    "VIX: 18.01",
+    "BRENT: $108.77 (+0.00%)",
+    "VIX: 17.98",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
