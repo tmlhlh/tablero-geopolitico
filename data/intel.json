@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-20T16:22:32.131258+00:00",
+  "updated_at": "2026-05-20T19:22:10.134714+00:00",
   "market": {
-    "brent_usd": 105.11,
+    "brent_usd": 104.75,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.7,
+    "vix": 17.45,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "20 MAY 2026 · 16:29 UTC",
+      "headline": "IRAN CLAIMS IT COORDINATED PASSAGE OF 26 VESSELS OUT OF HORMUZ IN 24 HOURS",
+      "detail": "The IRGC claims to maintain control over the Strait of Hormuz despite the US blockade on Iran's ports.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 MAY 2026 · 11:59 UTC",
       "headline": "XI Y PUTIN ULTIMAN UN GRAN ACUERDO ENERGÉTICO EN PLENA CRISIS DE ORMUZ",
@@ -33,27 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "14 MAY 2026 · 11:12 UTC",
-      "headline": "GULF STATES ATTACKED IRAQ AMID WANING FAITH IN US – REUTERS",
-      "detail": "Saudi and Kuwaiti forces struck militia targets in Iraq during the Middle East war in retaliation for attacks, Reuters reports Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 MAY 2026 · 16:22 UTC",
+      "timestamp": "20 MAY 2026 · 19:22 UTC",
       "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
       "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 MAY 2026 · 16:22 UTC",
+      "timestamp": "20 MAY 2026 · 19:22 UTC",
       "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
       "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.11 (+0.00%)",
-    "VIX: 17.7",
+    "BRENT: $104.75 (+0.00%)",
+    "VIX: 17.45",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
