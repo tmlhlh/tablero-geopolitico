@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-21T02:56:21.180198+00:00",
+  "updated_at": "2026-05-21T06:53:20.767992+00:00",
   "market": {
-    "brent_usd": 105.67,
+    "brent_usd": 106.37,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "20 MAY 2026 · 16:29 UTC",
-      "headline": "IRAN CLAIMS IT COORDINATED PASSAGE OF 26 VESSELS OUT OF HORMUZ IN 24 HOURS",
-      "detail": "The IRGC claims to maintain control over the Strait of Hormuz despite the US blockade on Iran's ports.",
+      "timestamp": "21 MAY 2026 · 06:03 UTC",
+      "headline": "IRAN’S INSURANCE, NATO INTERVENTION, AND CABLES UNDER THREAT: WHAT’S GOING ON IN",
+      "detail": "Traffic through the Strait of Hormuz slightly increased as Iran offers an insurance scheme and NATO is reportedly considering intervening Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 MAY 2026 · 03:45 UTC",
+      "headline": "ASÍ CAPEA EL MUNDO LA MAYOR CRISIS PETROLERA EN MEDIO SIGLO",
+      "detail": "El cierre de Ormuz deja estampas no vistas desde los años setenta, con Asia y Europa obligadas a hacer malabares para sobrevivir",
       "severity": "INFO"
     },
     {
@@ -39,20 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "21 MAY 2026 · 02:56 UTC",
+      "timestamp": "21 MAY 2026 · 06:53 UTC",
       "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
       "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAY 2026 · 02:56 UTC",
-      "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
-      "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.67 (+0.00%)",
+    "BRENT: $106.37 (+0.00%)",
     "VIX: 17.44",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
