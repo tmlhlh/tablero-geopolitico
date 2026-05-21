@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-20T23:09:20.143514+00:00",
+  "updated_at": "2026-05-21T02:56:21.180198+00:00",
   "market": {
-    "brent_usd": 105.33,
+    "brent_usd": 105.67,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "20 MAY 2026 · 21:57 UTC",
-      "headline": "EE.UU. TOMA UN BUQUE PETROLERO CON BANDERA IRANÍ SOSPECHOSO DE INTENTAR VIOLAR E",
-      "detail": "Se trata del quinto barco de la república islámica que las fuerzas estadounidenses abordan como medida de presión al régimen para reabrir el estrecho de Ormuz",
-      "severity": "INFO"
-    },
     {
       "timestamp": "20 MAY 2026 · 16:29 UTC",
       "headline": "IRAN CLAIMS IT COORDINATED PASSAGE OF 26 VESSELS OUT OF HORMUZ IN 24 HOURS",
@@ -45,14 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "20 MAY 2026 · 23:09 UTC",
+      "timestamp": "21 MAY 2026 · 02:56 UTC",
       "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
       "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "21 MAY 2026 · 02:56 UTC",
+      "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
+      "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.33 (+0.00%)",
+    "BRENT: $105.67 (+0.00%)",
     "VIX: 17.44",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
