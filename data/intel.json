@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-21T17:29:20.992505+00:00",
+  "updated_at": "2026-05-21T19:49:21.703816+00:00",
   "market": {
-    "brent_usd": 104.69,
+    "brent_usd": 103.82,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.01,
+    "vix": 16.75,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -27,21 +27,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "21 MAY 2026 · 13:31 UTC",
-      "headline": "MATHS BEHIND HORMUZ TOLL: IS PAYING IRAN FOR TRANSIT CHEAPER THAN BLOCKADE?",
-      "detail": "Economics of Hormuz closure are skewed towards Iran, so why won't the vessels just pay Tehran and sail away?",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "21 MAY 2026 · 06:03 UTC",
       "headline": "IRAN’S INSURANCE, NATO INTERVENTION, AND CABLES UNDER THREAT: WHAT’S GOING ON IN",
       "detail": "Traffic through the Strait of Hormuz slightly increased as Iran offers an insurance scheme and NATO is reportedly considering intervening Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAY 2026 · 03:45 UTC",
-      "headline": "ASÍ CAPEA EL MUNDO LA MAYOR CRISIS PETROLERA EN MEDIO SIGLO",
-      "detail": "El cierre de Ormuz deja estampas no vistas desde los años setenta, con Asia y Europa obligadas a hacer malabares para sobrevivir",
       "severity": "INFO"
     },
     {
@@ -49,11 +37,23 @@
       "headline": "IRAN CONFLICT COST GLOBAL BUSINESSES $25 BN – REUTERS",
       "detail": "Firms have been hit by soaring energy prices and supply chain disruptions linked to the Strait of Hormuz blockade, the outlet has said Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "18 MAY 2026 · 09:50 UTC",
+      "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
+      "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 MAY 2026 · 19:49 UTC",
+      "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
+      "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.69 (+0.00%)",
-    "VIX: 17.01",
+    "BRENT: $103.82 (+0.00%)",
+    "VIX: 16.75",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
