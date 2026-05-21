@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-05-21T10:37:46.807613+00:00",
+  "updated_at": "2026-05-21T14:12:32.427649+00:00",
   "market": {
-    "brent_usd": 105.75,
+    "brent_usd": 106.76,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.19,
+    "vix": 17.43,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "21 MAY 2026 · 06:59 UTC",
-      "headline": "IRAN WAR DAY 83: TEHRAN ‘REVIEWING’ LATEST US RESPONSE TO END CONFLICT",
-      "detail": "Iran says diplomacy with the US remains open as Hormuz tensions deepen and outrage grows over Israel’s flotilla arrests.",
+      "timestamp": "21 MAY 2026 · 13:38 UTC",
+      "headline": "IRAN STEPS UP CLAIM TO CONTROL STRAIT OF HORMUZ",
+      "detail": "Iran publishes a map claiming \"armed forces oversight\" across more than 22,000 sq km of the waterway.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 MAY 2026 · 13:31 UTC",
+      "headline": "MATHS BEHIND HORMUZ TOLL: IS PAYING IRAN FOR TRANSIT CHEAPER THAN BLOCKADE?",
+      "detail": "Economics of Hormuz closure are skewed towards Iran, so why won't the vessels just pay Tehran and sail away?",
       "severity": "INFO"
     },
     {
@@ -30,12 +36,6 @@
       "timestamp": "21 MAY 2026 · 03:45 UTC",
       "headline": "ASÍ CAPEA EL MUNDO LA MAYOR CRISIS PETROLERA EN MEDIO SIGLO",
       "detail": "El cierre de Ormuz deja estampas no vistas desde los años setenta, con Asia y Europa obligadas a hacer malabares para sobrevivir",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 MAY 2026 · 11:59 UTC",
-      "headline": "XI Y PUTIN ULTIMAN UN GRAN ACUERDO ENERGÉTICO EN PLENA CRISIS DE ORMUZ",
-      "detail": "El líder chino insta a su homólogo ruso a construir un mundo “más justo y equitativo” frente a la hegemonía estadounidense",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.75 (+0.00%)",
-    "VIX: 17.19",
+    "BRENT: $106.76 (+0.00%)",
+    "VIX: 17.43",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
