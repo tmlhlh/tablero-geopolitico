@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-21T23:00:18.548673+00:00",
+  "updated_at": "2026-05-22T00:11:41.276047+00:00",
   "market": {
-    "brent_usd": 104.6,
+    "brent_usd": 104.8,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -45,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "21 MAY 2026 · 23:00 UTC",
+      "timestamp": "22 MAY 2026 · 00:11 UTC",
       "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
       "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.6 (+0.00%)",
+    "BRENT: $104.8 (+0.00%)",
     "VIX: 16.76",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
