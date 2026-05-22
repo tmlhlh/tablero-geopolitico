@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-22T08:23:20.196893+00:00",
+  "updated_at": "2026-05-22T11:43:39.871600+00:00",
   "market": {
-    "brent_usd": 105.47,
+    "brent_usd": 105.52,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.77,
+    "vix": 17.01,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 MAY 2026 · 11:11 UTC",
+      "headline": "CAN VENEZUELAN OIL SAVE INDIA AMID THE HORMUZ ENERGY CRISIS?",
+      "detail": "Venezuelan Acting President Delcy Rodriguez is expected to travel to India next week to discuss oil sales.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "21 MAY 2026 · 15:44 UTC",
       "headline": "INSIDE HORMUZ: RT GETS RARE LOOK AT GRIDLOCK IN VITAL SHIPPING LANE (VIDEO)",
@@ -43,17 +49,11 @@
       "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
       "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "22 MAY 2026 · 08:23 UTC",
-      "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
-      "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.47 (+0.00%)",
-    "VIX: 16.77",
+    "BRENT: $105.52 (+0.00%)",
+    "VIX: 17.01",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
