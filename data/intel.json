@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-23T04:36:51.459249+00:00",
+  "updated_at": "2026-05-23T09:48:37.527798+00:00",
   "market": {
-    "brent_usd": 103.54,
+    "brent_usd": 100.21,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "22 MAY 2026 · 19:11 UTC",
-      "headline": "PAKISTAN’S ARMY CHIEF IN IRAN AS US’S RUBIO SAYS ‘SLIGHT PROGRESS’ IN TALKS",
-      "detail": "Pakistan’s Asim Munir is in Tehran as part of mediation efforts, as EU moves to sanction Iran over the Hormuz blockade.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "21 MAY 2026 · 15:44 UTC",
       "headline": "INSIDE HORMUZ: RT GETS RARE LOOK AT GRIDLOCK IN VITAL SHIPPING LANE (VIDEO)",
@@ -49,10 +43,16 @@
       "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
       "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAY 2026 · 09:48 UTC",
+      "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
+      "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.54 (+0.00%)",
+    "BRENT: $100.21 (+0.00%)",
     "VIX: 16.7",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
