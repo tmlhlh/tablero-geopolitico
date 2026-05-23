@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T22:54:44.118887+00:00",
+  "updated_at": "2026-05-23T00:03:33.264350+00:00",
   "market": {
     "brent_usd": 103.94,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 MAY 2026 · 23:20 UTC",
+      "headline": "NUEVAS GESTIONES INTERNACIONALES BUSCAN SALVAR EL ALTO EL FUEGO ENTRE IRÁN Y EE.",
+      "detail": "Pakistán y Qatar enviaron delegaciones a Teherán para intentar evitar una nueva escalada; Rubio dijo que Washington registró señales positivas en las gestiones para frenar la guerra y reabrir Ormuz, a",
+      "severity": "INFO"
+    },
     {
       "timestamp": "22 MAY 2026 · 19:11 UTC",
       "headline": "PAKISTAN’S ARMY CHIEF IN IRAN AS US’S RUBIO SAYS ‘SLIGHT PROGRESS’ IN TALKS",
@@ -42,12 +48,6 @@
       "timestamp": "18 MAY 2026 · 15:16 UTC",
       "headline": "IRAN CONFLICT COST GLOBAL BUSINESSES $25 BN – REUTERS",
       "detail": "Firms have been hit by soaring energy prices and supply chain disruptions linked to the Strait of Hormuz blockade, the outlet has said Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 MAY 2026 · 09:50 UTC",
-      "headline": "GULF OF OMAN COULD BECOME ‘GRAVEYARD’ FOR US FLEET – IRAN",
-      "detail": "Senior Iranian official Mohsen Rezaei has warned that US warships enforcing a blockade of Iran could face military retaliation Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
