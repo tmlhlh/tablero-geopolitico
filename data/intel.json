@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T22:49:39.369158+00:00",
+  "updated_at": "2026-05-23T23:54:12.048459+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 MAY 2026 · 23:06 UTC",
+      "headline": "TRUMP ANUNCIÓ QUE EL ACUERDO CON IRÁN ESTÁ “EN GRAN MEDIDA NEGOCIADO” E INCLUYE ",
+      "detail": "El mandatario estadounidense dijo que los detalles “se anunciarán en breve”, sin dar más detalles; los dos países habían reportado avances",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 MAY 2026 · 22:10 UTC",
       "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
@@ -42,12 +48,6 @@
       "timestamp": "21 MAY 2026 · 14:37 UTC",
       "headline": "IRAN STEPS UP CLAIM TO CONTROL STRAIT OF HORMUZ",
       "detail": "Iran publishes a map claiming \"armed forces oversight\" across more than 22,000 sq km of the waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAY 2026 · 06:03 UTC",
-      "headline": "IRAN’S INSURANCE, NATO INTERVENTION, AND CABLES UNDER THREAT: WHAT’S GOING ON IN",
-      "detail": "Traffic through the Strait of Hormuz slightly increased as Iran offers an insurance scheme and NATO is reportedly considering intervening Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
