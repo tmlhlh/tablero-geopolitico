@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T17:57:06.747789+00:00",
+  "updated_at": "2026-05-24T19:19:08.446137+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -45,9 +45,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "24 MAY 2026 · 09:37 UTC",
-      "headline": "US, IRAN INCH CLOSER TO DEAL TO END THE WAR: WHAT TO KNOW",
-      "detail": "The proposed US-Iran peace deal seeks to reopen the strategically vital Strait of Hormuz amid lingering disagreements.",
+      "timestamp": "24 MAY 2026 · 01:18 UTC",
+      "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
+      "detail": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
       "severity": "INFO"
     }
   ],
