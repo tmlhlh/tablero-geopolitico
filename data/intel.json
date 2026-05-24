@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T16:09:26.675575+00:00",
+  "updated_at": "2026-05-24T17:57:06.747789+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 MAY 2026 · 16:55 UTC",
+      "headline": "ESTADOS UNIDOS VE AL ALCANCE DE LA MANO UN ACUERDO CON IRÁN PARA REABRIR EL ESTR",
+      "detail": "Trump rebaja las expectativas sobre un anuncio inminente, pero su Administración cree que se producirá en los próximos días",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "24 MAY 2026 · 14:22 UTC",
       "headline": "IRAN WIPED OUT FIFTH OF US REAPER DRONE FLEET – BLOOMBERG",
@@ -36,12 +42,6 @@
       "timestamp": "24 MAY 2026 · 10:25 UTC",
       "headline": "IRAN WAR DAY 86: TRUMP ANNOUNCES POTENTIAL DEAL AMID ‘CLOUD OF MISTRUST’",
       "detail": "Trump announces progress on Iran peace deal, signalling the Strait of Hormuz, vital for global trade, could reopen soon.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 10:01 UTC",
-      "headline": "TRUMP SAYS NO RUSH ON IRAN DEAL AS TEHRAN ASSERTS HORMUZ ‘LEGAL RIGHT’",
-      "detail": "US blockade remains until final deal; Iran says Washington leaking false memorandum details.",
       "severity": "INFO"
     },
     {
