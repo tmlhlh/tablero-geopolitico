@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T06:35:21.367111+00:00",
+  "updated_at": "2026-05-24T09:19:34.591857+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "24 MAY 2026 · 07:58 UTC",
+      "headline": "TRUMP VE CERCA UN ALTO EL FUEGO CON IRÁN PERO EL DESTINO DEL ESTRECHO DE ORMUZ S",
+      "detail": "El presidente de Estados Unidos dice que el pacto incluye la reapertura del estratégico paso. Teherán lo desmiente, pero admite que trabaja en un borrador de acuerdo",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "24 MAY 2026 · 01:18 UTC",
       "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
       "detail": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
@@ -25,12 +31,6 @@
       "headline": "I SURVIVED A MISSILE STRIKE IN THE STRAIT OF HORMUZ, BUT MY FRIEND HAS NOT BEEN ",
       "detail": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 MAY 2026 · 21:48 UTC",
-      "headline": "TRUMP VE CERCA UN ALTO EL FUEGO CON IRÁN PERO EL DESTINO DEL ESTRECHO DE ORMUZ S",
-      "detail": "El presidente de Estados Unidos dice que el pacto incluye la reapertura del estratégico paso y Teherán lo desmiente a los pocos minutos",
-      "severity": "INFO"
     },
     {
       "timestamp": "23 MAY 2026 · 21:09 UTC",
