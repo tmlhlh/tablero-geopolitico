@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T19:19:08.446137+00:00",
+  "updated_at": "2026-05-24T20:51:13.924099+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 MAY 2026 · 20:26 UTC",
+      "headline": "TRUMP TELLS US NEGOTIATORS 'NOT TO RUSH' INTO DEAL WITH IRAN",
+      "detail": "The deal under discussion would involve a 60-day ceasefire extension during which the Strait of Hormuz would be reopened, according to US media.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 MAY 2026 · 19:50 UTC",
+      "headline": "TRUMP ENFRÍA LAS EXPECTATIVAS SOBRE IRÁN Y MANTIENE EL BLOQUEO DE ORMUZ HASTA FI",
+      "detail": "El presidente ordenó a sus enviados no precipitar las conversaciones con Teherán; el posible pacto incluiría la reapertura del estrecho, límites al programa nuclear iraní y un eventual alivio de las s",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 MAY 2026 · 16:55 UTC",
       "headline": "ESTADOS UNIDOS VE AL ALCANCE DE LA MANO UN ACUERDO CON IRÁN PARA REABRIR EL ESTR",
@@ -30,18 +42,6 @@
       "timestamp": "24 MAY 2026 · 14:10 UTC",
       "headline": "US OFFICIALS DETAIL POSSIBLE IRAN DEAL – AXIOS",
       "detail": "A US-Iran agreement will see the reopening of the Strait of Hormuz and the lifting of oil trade curbs against Tehran, Axios has reported Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 11:07 UTC",
-      "headline": "THE GCC SHOULD INSURE ITSELF AGAINST THE NEXT STRAIT OF HORMUZ CRISIS",
-      "detail": "For that, collective action will be needed now.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 10:25 UTC",
-      "headline": "IRAN WAR DAY 86: TRUMP ANNOUNCES POTENTIAL DEAL AMID ‘CLOUD OF MISTRUST’",
-      "detail": "Trump announces progress on Iran peace deal, signalling the Strait of Hormuz, vital for global trade, could reopen soon.",
       "severity": "INFO"
     },
     {
