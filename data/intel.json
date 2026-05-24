@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T15:00:14.661631+00:00",
+  "updated_at": "2026-05-24T16:09:26.675575+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -40,8 +40,8 @@
     },
     {
       "timestamp": "24 MAY 2026 · 10:01 UTC",
-      "headline": "MARCO RUBIO SAYS ‘SIGNIFICANT PROGRESS’ MADE IN US-IRAN TALKS TO END WAR",
-      "detail": "Iranian news agency says deal could see shipping levels through Strait of Hormuz return to pre-war levels within weeks.",
+      "headline": "TRUMP SAYS NO RUSH ON IRAN DEAL AS TEHRAN ASSERTS HORMUZ ‘LEGAL RIGHT’",
+      "detail": "US blockade remains until final deal; Iran says Washington leaking false memorandum details.",
       "severity": "INFO"
     },
     {
