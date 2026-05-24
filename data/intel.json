@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T02:53:23.279458+00:00",
+  "updated_at": "2026-05-24T06:35:21.367111+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 MAY 2026 · 23:06 UTC",
-      "headline": "TRUMP ANUNCIÓ QUE EL ACUERDO CON IRÁN ESTÁ “EN GRAN MEDIDA NEGOCIADO” E INCLUYE ",
-      "detail": "El mandatario estadounidense dijo que los detalles “se anunciarán en breve”, sin dar más detalles; los dos países habían reportado avances",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "23 MAY 2026 · 21:48 UTC",
       "headline": "TRUMP VE CERCA UN ALTO EL FUEGO CON IRÁN PERO EL DESTINO DEL ESTRECHO DE ORMUZ S",
       "detail": "El presidente de Estados Unidos dice que el pacto incluye la reapertura del estratégico paso y Teherán lo desmiente a los pocos minutos",
@@ -48,6 +42,12 @@
       "timestamp": "21 MAY 2026 · 15:44 UTC",
       "headline": "INSIDE HORMUZ: RT GETS RARE LOOK AT GRIDLOCK IN VITAL SHIPPING LANE (VIDEO)",
       "detail": "Hundreds of vessels remain stranded in the Strait of Hormuz as Iran tightens transit controls amid tensions with US Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 MAY 2026 · 14:37 UTC",
+      "headline": "IRAN STEPS UP CLAIM TO CONTROL STRAIT OF HORMUZ",
+      "detail": "Iran publishes a map claiming \"armed forces oversight\" across more than 22,000 sq km of the waterway.",
       "severity": "INFO"
     }
   ],
