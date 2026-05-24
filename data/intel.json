@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T13:18:29.522515+00:00",
+  "updated_at": "2026-05-24T15:00:14.661631+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 MAY 2026 · 14:22 UTC",
+      "headline": "IRAN WIPED OUT FIFTH OF US REAPER DRONE FLEET – BLOOMBERG",
+      "detail": "The US military has lost up to 30 MQ-9 Reaper drones worth around $1 billion since the start of the war with Iran, Bloomberg has reported Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 MAY 2026 · 14:10 UTC",
+      "headline": "US OFFICIALS DETAIL POSSIBLE IRAN DEAL – AXIOS",
+      "detail": "A US-Iran agreement will see the reopening of the Strait of Hormuz and the lifting of oil trade curbs against Tehran, Axios has reported Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 MAY 2026 · 11:07 UTC",
       "headline": "THE GCC SHOULD INSURE ITSELF AGAINST THE NEXT STRAIT OF HORMUZ CRISIS",
@@ -36,18 +48,6 @@
       "timestamp": "24 MAY 2026 · 09:37 UTC",
       "headline": "US, IRAN INCH CLOSER TO DEAL TO END THE WAR: WHAT TO KNOW",
       "detail": "The proposed US-Iran peace deal seeks to reopen the strategically vital Strait of Hormuz amid lingering disagreements.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 07:58 UTC",
-      "headline": "TRUMP VE CERCA UN ALTO EL FUEGO CON IRÁN PERO EL DESTINO DEL ESTRECHO DE ORMUZ S",
-      "detail": "El presidente de Estados Unidos dice que el pacto incluye la reapertura del estratégico paso. Teherán lo desmiente, pero admite que trabaja en un borrador de acuerdo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 01:18 UTC",
-      "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
-      "detail": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
       "severity": "INFO"
     }
   ],
