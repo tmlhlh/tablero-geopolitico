@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T11:13:15.926835+00:00",
+  "updated_at": "2026-05-24T13:18:29.522515+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 MAY 2026 · 11:07 UTC",
+      "headline": "THE GCC SHOULD INSURE ITSELF AGAINST THE NEXT STRAIT OF HORMUZ CRISIS",
+      "detail": "For that, collective action will be needed now.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 MAY 2026 · 10:25 UTC",
       "headline": "IRAN WAR DAY 86: TRUMP ANNOUNCES POTENTIAL DEAL AMID ‘CLOUD OF MISTRUST’",
@@ -43,12 +49,6 @@
       "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
       "detail": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAY 2026 · 23:24 UTC",
-      "headline": "I SURVIVED A MISSILE STRIKE IN THE STRAIT OF HORMUZ, BUT MY FRIEND HAS NOT BEEN ",
-      "detail": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
