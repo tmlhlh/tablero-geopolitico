@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T23:54:12.048459+00:00",
+  "updated_at": "2026-05-24T02:53:23.279458+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "23 MAY 2026 · 23:06 UTC",
-      "headline": "TRUMP ANUNCIÓ QUE EL ACUERDO CON IRÁN ESTÁ “EN GRAN MEDIDA NEGOCIADO” E INCLUYE ",
-      "detail": "El mandatario estadounidense dijo que los detalles “se anunciarán en breve”, sin dar más detalles; los dos países habían reportado avances",
+      "timestamp": "24 MAY 2026 · 01:18 UTC",
+      "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
+      "detail": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
       "severity": "INFO"
     },
     {
-      "timestamp": "23 MAY 2026 · 22:10 UTC",
-      "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
-      "detail": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
+      "timestamp": "23 MAY 2026 · 23:24 UTC",
+      "headline": "I SURVIVED A MISSILE STRIKE IN THE STRAIT OF HORMUZ, BUT MY FRIEND HAS NOT BEEN ",
+      "detail": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 MAY 2026 · 23:06 UTC",
+      "headline": "TRUMP ANUNCIÓ QUE EL ACUERDO CON IRÁN ESTÁ “EN GRAN MEDIDA NEGOCIADO” E INCLUYE ",
+      "detail": "El mandatario estadounidense dijo que los detalles “se anunciarán en breve”, sin dar más detalles; los dos países habían reportado avances",
       "severity": "INFO"
     },
     {
@@ -42,12 +48,6 @@
       "timestamp": "21 MAY 2026 · 15:44 UTC",
       "headline": "INSIDE HORMUZ: RT GETS RARE LOOK AT GRIDLOCK IN VITAL SHIPPING LANE (VIDEO)",
       "detail": "Hundreds of vessels remain stranded in the Strait of Hormuz as Iran tightens transit controls amid tensions with US Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAY 2026 · 14:37 UTC",
-      "headline": "IRAN STEPS UP CLAIM TO CONTROL STRAIT OF HORMUZ",
-      "detail": "Iran publishes a map claiming \"armed forces oversight\" across more than 22,000 sq km of the waterway.",
       "severity": "INFO"
     }
   ],
