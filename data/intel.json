@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-25T12:26:27.247535+00:00",
+  "updated_at": "2026-05-25T15:47:56.488701+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.0,
-    "vix": 16.65,
+    "ormuz_flow_pct": 87.4,
+    "vix": 16.59,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.4
   },
@@ -15,27 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "25 MAY 2026 · 11:28 UTC",
-      "headline": "THE WORLD URGENTLY NEEDS A US-IRAN DEAL NOW",
-      "detail": "Without a deal between Washington and Tehran, the fallout from Strait of Hormuz closure could deepen global crises.",
-      "severity": "INFO"
+      "timestamp": "25 MAY 2026 · 13:40 UTC",
+      "headline": "TRUMP AMENAZA CON VOLVER AL “FRENTE DE BATALLA” SI FRACASA EL ACUERDO CON IRÁN",
+      "detail": "Washington y Teherán negocian un marco de 60 días para sostener la tregua, reabrir el estrecho de Ormuz y encaminar una discusión nuclear, aunque el entendimiento aún no fue firmado y persisten fuerte",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "25 MAY 2026 · 10:39 UTC",
+      "timestamp": "25 MAY 2026 · 13:05 UTC",
       "headline": "OIL PRICES SLIDE ON HOPES OF US-IRAN PEACE DEAL",
       "detail": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
       "severity": "INFO"
     },
     {
-      "timestamp": "25 MAY 2026 · 07:33 UTC",
-      "headline": "RUBIO SAYS US WILL FIND ‘ANOTHER WAY’ IF IRAN TALKS FAIL",
-      "detail": "US secretary of state says a 'pretty solid' deal is on the table in terms of opening up the Strait of Hormuz.",
+      "timestamp": "25 MAY 2026 · 13:00 UTC",
+      "headline": "COULD BRAZILIAN OIL EMERGE AS ONE OF THE BIG WINNERS OF THE IRAN WAR?",
+      "detail": "China and India are among those ramping up imports of Brazilian crude amid Strait of Hormuz disruptions.",
       "severity": "INFO"
     },
     {
-      "timestamp": "25 MAY 2026 · 04:15 UTC",
-      "headline": "RUBIO DIJO QUE ESTADOS UNIDOS ESTÁ PREPARADO PARA POSTERIORES CONVERSACIONES NUC",
-      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
+      "timestamp": "25 MAY 2026 · 11:28 UTC",
+      "headline": "THE WORLD URGENTLY NEEDS A US-IRAN DEAL NOW",
+      "detail": "Without a deal between Washington and Tehran, the fallout from Strait of Hormuz closure could deepen global crises.",
       "severity": "INFO"
     },
     {
@@ -53,7 +53,7 @@
   ],
   "ticker_items": [
     "BRENT: $100.21 (+0.00%)",
-    "VIX: 16.65",
+    "VIX: 16.59",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
