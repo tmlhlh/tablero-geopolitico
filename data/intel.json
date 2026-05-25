@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-05-25T08:25:56.068399+00:00",
+  "updated_at": "2026-05-25T12:26:27.247535+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 16.73,
-    "risk_level": "CRÍTICO",
+    "ormuz_flow_pct": 85.0,
+    "vix": 16.65,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "25 MAY 2026 · 07:33 UTC",
-      "headline": "RUBIO SAYS US WILL FIND ‘ANOTHER WAY’ IF IRAN TALKS FAIL",
-      "detail": "US secretary of state says a 'pretty solid' deal is on the table in terms of opening up the Strait of Hormuz.",
+      "timestamp": "25 MAY 2026 · 11:28 UTC",
+      "headline": "THE WORLD URGENTLY NEEDS A US-IRAN DEAL NOW",
+      "detail": "Without a deal between Washington and Tehran, the fallout from Strait of Hormuz closure could deepen global crises.",
       "severity": "INFO"
     },
     {
-      "timestamp": "25 MAY 2026 · 07:16 UTC",
+      "timestamp": "25 MAY 2026 · 10:39 UTC",
       "headline": "OIL PRICES SLIDE ON HOPES OF US-IRAN PEACE DEAL",
       "detail": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
       "severity": "INFO"
     },
     {
-      "timestamp": "25 MAY 2026 · 06:41 UTC",
-      "headline": "RUBIO SAYS 'SOLID' IRAN DEAL MAY COME ON MONDAY",
-      "detail": "The deal under discussion would involve a 60-day ceasefire extension during which the Strait of Hormuz would be reopened, US media reports.",
+      "timestamp": "25 MAY 2026 · 07:33 UTC",
+      "headline": "RUBIO SAYS US WILL FIND ‘ANOTHER WAY’ IF IRAN TALKS FAIL",
+      "detail": "US secretary of state says a 'pretty solid' deal is on the table in terms of opening up the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -53,7 +53,7 @@
   ],
   "ticker_items": [
     "BRENT: $100.21 (+0.00%)",
-    "VIX: 16.73",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "VIX: 16.65",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
