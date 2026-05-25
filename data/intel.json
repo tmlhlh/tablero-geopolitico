@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-25T17:40:33.096084+00:00",
+  "updated_at": "2026-05-25T19:24:36.429654+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 88.5,
+    "ormuz_flow_pct": 89.5,
     "vix": 16.59,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.4
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 MAY 2026 · 11:28 UTC",
-      "headline": "THE WORLD URGENTLY NEEDS A US-IRAN DEAL NOW",
-      "detail": "Without a deal between Washington and Tehran, the fallout from Strait of Hormuz closure could deepen global crises.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "24 MAY 2026 · 16:55 UTC",
       "headline": "ESTADOS UNIDOS VE AL ALCANCE DE LA MANO UN ACUERDO CON IRÁN PARA REABRIR EL ESTR",
       "detail": "Trump rebaja las expectativas sobre un anuncio inminente, pero su Administración cree que se producirá en los próximos días",
@@ -48,6 +42,12 @@
       "timestamp": "24 MAY 2026 · 14:10 UTC",
       "headline": "US OFFICIALS DETAIL POSSIBLE IRAN DEAL – AXIOS",
       "detail": "A US-Iran agreement will see the reopening of the Strait of Hormuz and the lifting of oil trade curbs against Tehran, Axios has reported Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 MAY 2026 · 15:44 UTC",
+      "headline": "INSIDE HORMUZ: RT GETS RARE LOOK AT GRIDLOCK IN VITAL SHIPPING LANE (VIDEO)",
+      "detail": "Hundreds of vessels remain stranded in the Strait of Hormuz as Iran tightens transit controls amid tensions with US Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
