@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-25T21:02:22.676648+00:00",
+  "updated_at": "2026-05-25T22:58:02.355095+00:00",
   "market": {
-    "brent_usd": 100.21,
+    "brent_usd": 94.06,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 90.4,
+    "ormuz_flow_pct": 54.0,
     "vix": 16.59,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.4
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "25 MAY 2026 · 22:00 UTC",
+      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS – MEDIA",
+      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz, Iranian media report Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "25 MAY 2026 · 13:05 UTC",
       "headline": "OIL PRICES SLIDE ON HOPES OF US-IRAN PEACE DEAL",
@@ -43,16 +49,10 @@
       "headline": "INSIDE HORMUZ: RT GETS RARE LOOK AT GRIDLOCK IN VITAL SHIPPING LANE (VIDEO)",
       "detail": "Hundreds of vessels remain stranded in the Strait of Hormuz as Iran tightens transit controls amid tensions with US Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAY 2026 · 06:03 UTC",
-      "headline": "IRAN’S INSURANCE, NATO INTERVENTION, AND CABLES UNDER THREAT: WHAT’S GOING ON IN",
-      "detail": "Traffic through the Strait of Hormuz slightly increased as Iran offers an insurance scheme and NATO is reportedly considering intervening Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.21 (+0.00%)",
+    "BRENT: $94.06 (+0.00%)",
     "VIX: 16.59",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
