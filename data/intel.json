@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-25T19:24:36.429654+00:00",
+  "updated_at": "2026-05-25T21:02:22.676648+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 89.5,
+    "ormuz_flow_pct": 90.4,
     "vix": 16.59,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.4
@@ -18,12 +18,6 @@
       "timestamp": "25 MAY 2026 · 13:05 UTC",
       "headline": "OIL PRICES SLIDE ON HOPES OF US-IRAN PEACE DEAL",
       "detail": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 MAY 2026 · 13:00 UTC",
-      "headline": "COULD BRAZILIAN OIL EMERGE AS ONE OF THE BIG WINNERS OF THE IRAN WAR?",
-      "detail": "China and India are among those ramping up imports of Brazilian crude amid Strait of Hormuz disruptions.",
       "severity": "INFO"
     },
     {
@@ -48,6 +42,12 @@
       "timestamp": "21 MAY 2026 · 15:44 UTC",
       "headline": "INSIDE HORMUZ: RT GETS RARE LOOK AT GRIDLOCK IN VITAL SHIPPING LANE (VIDEO)",
       "detail": "Hundreds of vessels remain stranded in the Strait of Hormuz as Iran tightens transit controls amid tensions with US Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 MAY 2026 · 06:03 UTC",
+      "headline": "IRAN’S INSURANCE, NATO INTERVENTION, AND CABLES UNDER THREAT: WHAT’S GOING ON IN",
+      "detail": "Traffic through the Strait of Hormuz slightly increased as Iran offers an insurance scheme and NATO is reportedly considering intervening Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
