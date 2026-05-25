@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-25T03:59:13.269544+00:00",
+  "updated_at": "2026-05-25T08:25:56.068399+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.7,
+    "vix": 16.73,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.4
   },
@@ -15,9 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "25 MAY 2026 · 03:15 UTC",
-      "headline": "TRUMP TELLS US NEGOTIATORS 'NOT TO RUSH' INTO DEAL WITH IRAN",
-      "detail": "The deal under discussion would involve a 60-day ceasefire extension during which the Strait of Hormuz would be reopened, according to US media.",
+      "timestamp": "25 MAY 2026 · 07:33 UTC",
+      "headline": "RUBIO SAYS US WILL FIND ‘ANOTHER WAY’ IF IRAN TALKS FAIL",
+      "detail": "US secretary of state says a 'pretty solid' deal is on the table in terms of opening up the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAY 2026 · 07:16 UTC",
+      "headline": "OIL PRICES SLIDE ON HOPES OF US-IRAN PEACE DEAL",
+      "detail": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAY 2026 · 06:41 UTC",
+      "headline": "RUBIO SAYS 'SOLID' IRAN DEAL MAY COME ON MONDAY",
+      "detail": "The deal under discussion would involve a 60-day ceasefire extension during which the Strait of Hormuz would be reopened, US media reports.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAY 2026 · 04:15 UTC",
+      "headline": "RUBIO DIJO QUE ESTADOS UNIDOS ESTÁ PREPARADO PARA POSTERIORES CONVERSACIONES NUC",
+      "detail": "Cobertura en tiempo real con las novedades más importantes del conflicto y las acciones del mandatario estadounidense, Donald Trump",
       "severity": "INFO"
     },
     {
@@ -31,29 +49,11 @@
       "headline": "IRAN WIPED OUT FIFTH OF US REAPER DRONE FLEET – BLOOMBERG",
       "detail": "The US military has lost up to 30 MQ-9 Reaper drones worth around $1 billion since the start of the war with Iran, Bloomberg has reported Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 14:10 UTC",
-      "headline": "US OFFICIALS DETAIL POSSIBLE IRAN DEAL – AXIOS",
-      "detail": "A US-Iran agreement will see the reopening of the Strait of Hormuz and the lifting of oil trade curbs against Tehran, Axios has reported Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 01:18 UTC",
-      "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
-      "detail": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 MAY 2026 · 23:24 UTC",
-      "headline": "I SURVIVED A MISSILE STRIKE IN THE STRAIT OF HORMUZ, BUT MY FRIEND HAS NOT BEEN ",
-      "detail": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $100.21 (+0.00%)",
-    "VIX: 16.7",
+    "VIX: 16.73",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
