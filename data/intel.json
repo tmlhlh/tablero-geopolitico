@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T23:57:19.332967+00:00",
+  "updated_at": "2026-05-25T03:59:13.269544+00:00",
   "market": {
     "brent_usd": 100.21,
     "brent_chg": 0.0
@@ -15,15 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "24 MAY 2026 · 20:26 UTC",
+      "timestamp": "25 MAY 2026 · 03:15 UTC",
       "headline": "TRUMP TELLS US NEGOTIATORS 'NOT TO RUSH' INTO DEAL WITH IRAN",
       "detail": "The deal under discussion would involve a 60-day ceasefire extension during which the Strait of Hormuz would be reopened, according to US media.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 19:50 UTC",
-      "headline": "TRUMP ENFRÍA LAS EXPECTATIVAS SOBRE IRÁN Y MANTIENE EL BLOQUEO DE ORMUZ HASTA FI",
-      "detail": "El presidente ordenó a sus enviados no precipitar las conversaciones con Teherán; el posible pacto incluiría la reapertura del estrecho, límites al programa nuclear iraní y un eventual alivio de las s",
       "severity": "INFO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "TRUMP SAYS IRAN DEAL 'LARGELY NEGOTIATED' INCLUDING REOPENING STRAIT OF HORMUZ",
       "detail": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 MAY 2026 · 23:24 UTC",
+      "headline": "I SURVIVED A MISSILE STRIKE IN THE STRAIT OF HORMUZ, BUT MY FRIEND HAS NOT BEEN ",
+      "detail": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
