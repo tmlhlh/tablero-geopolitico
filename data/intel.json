@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-25T22:58:02.355095+00:00",
+  "updated_at": "2026-05-26T00:08:46.758780+00:00",
   "market": {
-    "brent_usd": 94.06,
+    "brent_usd": 94.4,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 54.0,
+    "ormuz_flow_pct": 56.1,
     "vix": 16.59,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.4
@@ -16,8 +16,8 @@
   "events": [
     {
       "timestamp": "25 MAY 2026 · 22:00 UTC",
-      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS – MEDIA",
-      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz, Iranian media report Read Full Article at RT.com",
+      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
+      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.06 (+0.00%)",
+    "BRENT: $94.4 (+0.00%)",
     "VIX: 16.59",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
