@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-26T05:00:16.828536+00:00",
+  "updated_at": "2026-05-26T08:39:28.324932+00:00",
   "market": {
-    "brent_usd": 95.47,
+    "brent_usd": 96.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.59,
+    "vix": 16.79,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.4
   },
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 MAY 2026 · 07:39 UTC",
+      "headline": "RUBIO SAYS STRAIT OF HORMUZ WILL OPEN ‘ONE WAY OR THE OTHER’",
+      "detail": "Rubio says Strait of Hormuz will open 'one way or the other'",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAY 2026 · 06:16 UTC",
+      "headline": "IRAN WAR DAY 88: US ATTACKS NEAR STRAIT OF HORMUZ; TALKS UNDER WAY IN QATAR",
+      "detail": "US forces carry out series of attacks in the country's south as Iranian delegation holds talks in Qatar.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "26 MAY 2026 · 04:02 UTC",
       "headline": "ESTADOS UNIDOS LANZÓ “ATAQUES DE AUTODEFENSA” EN EL SUR DE IRÁN MIENTRAS CONTINÚ",
@@ -24,18 +36,6 @@
       "timestamp": "25 MAY 2026 · 22:00 UTC",
       "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
       "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 MAY 2026 · 13:05 UTC",
-      "headline": "OIL PRICES SLIDE ON HOPES OF US-IRAN PEACE DEAL",
-      "detail": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 16:55 UTC",
-      "headline": "ESTADOS UNIDOS VE AL ALCANCE DE LA MANO UN ACUERDO CON IRÁN PARA REABRIR EL ESTR",
-      "detail": "Trump rebaja las expectativas sobre un anuncio inminente, pero su Administración cree que se producirá en los próximos días",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.47 (+0.00%)",
-    "VIX: 16.59",
+    "BRENT: $96.1 (+0.00%)",
+    "VIX: 16.79",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
