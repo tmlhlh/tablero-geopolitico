@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-26T00:08:46.758780+00:00",
+  "updated_at": "2026-05-26T05:00:16.828536+00:00",
   "market": {
-    "brent_usd": 94.4,
+    "brent_usd": 95.47,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 56.1,
+    "ormuz_flow_pct": 8.5,
     "vix": 16.59,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 MAY 2026 · 04:02 UTC",
+      "headline": "ESTADOS UNIDOS LANZÓ “ATAQUES DE AUTODEFENSA” EN EL SUR DE IRÁN MIENTRAS CONTINÚ",
+      "detail": "El Comando Central estadounidense aseguró que embarcaciones iraníes intentaron colocar minas en el estrecho de Ormuz",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "25 MAY 2026 · 22:00 UTC",
       "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
@@ -43,17 +49,11 @@
       "headline": "US OFFICIALS DETAIL POSSIBLE IRAN DEAL – AXIOS",
       "detail": "A US-Iran agreement will see the reopening of the Strait of Hormuz and the lifting of oil trade curbs against Tehran, Axios has reported Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 MAY 2026 · 15:44 UTC",
-      "headline": "INSIDE HORMUZ: RT GETS RARE LOOK AT GRIDLOCK IN VITAL SHIPPING LANE (VIDEO)",
-      "detail": "Hundreds of vessels remain stranded in the Strait of Hormuz as Iran tightens transit controls amid tensions with US Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.4 (+0.00%)",
+    "BRENT: $95.47 (+0.00%)",
     "VIX: 16.59",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
