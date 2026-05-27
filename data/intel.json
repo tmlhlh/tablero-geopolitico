@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-27T18:23:50.194235+00:00",
+  "updated_at": "2026-05-27T21:00:20.462480+00:00",
   "market": {
-    "brent_usd": 92.81,
+    "brent_usd": 92.93,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 94.6,
-    "vix": 16.66,
+    "ormuz_flow_pct": 95.3,
+    "vix": 16.29,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "27 MAY 2026 · 20:38 UTC",
+      "headline": "TRUMP APPEARS TO THREATEN OMAN WITH BOMBING OVER STRAIT OF HORMUZ IMPASSE",
+      "detail": "The US president warns that Oman, a US ally, 'will behave just like everybody else, or we will have to blow them up'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 MAY 2026 · 05:22 UTC",
       "headline": "LA TREGUA QUE CONFIRMA LA VENTAJA DE IRÁN",
@@ -43,17 +49,11 @@
       "headline": "IRAN WIPED OUT FIFTH OF US REAPER DRONE FLEET – BLOOMBERG",
       "detail": "The US military has lost up to 30 MQ-9 Reaper drones worth around $1 billion since the start of the war with Iran, Bloomberg has reported Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 14:10 UTC",
-      "headline": "US OFFICIALS DETAIL POSSIBLE IRAN DEAL – AXIOS",
-      "detail": "A US-Iran agreement will see the reopening of the Strait of Hormuz and the lifting of oil trade curbs against Tehran, Axios has reported Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.81 (+0.00%)",
-    "VIX: 16.66",
+    "BRENT: $92.93 (+0.00%)",
+    "VIX: 16.29",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
