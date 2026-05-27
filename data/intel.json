@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-05-27T07:59:20.810615+00:00",
+  "updated_at": "2026-05-27T15:31:10.768162+00:00",
   "market": {
-    "brent_usd": 94.64,
+    "brent_usd": 94.18,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 90.6,
-    "vix": 17.0,
-    "risk_level": "MEDIO",
+    "ormuz_flow_pct": 8.5,
+    "vix": 16.97,
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "27 MAY 2026 · 06:52 UTC",
-      "headline": "HOW BADLY IS EUROPE AFFECTED BY FERTILISER SHORTAGES DUE TO THE IRAN WAR?",
-      "detail": "EU launches fertiliser plan as Strait of Hormuz disruption fuels food security fears.",
-      "severity": "INFO"
+      "timestamp": "27 MAY 2026 · 13:43 UTC",
+      "headline": "IRÁN REVELA UN BORRADOR CON EE.UU. QUE INCLUIRÍA LA APERTURA DEL ESTRECHO DE ORM",
+      "detail": "El informe citaba un supuesto memorando preliminar que, según afirmaba, incluía un compromiso de la administración de Trump a levantar el bloqueo naval contra Teherán y retirar sus fuerzas de la regió",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "27 MAY 2026 · 05:22 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.64 (+0.00%)",
-    "VIX: 17.0",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $94.18 (+0.00%)",
+    "VIX: 16.97",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
