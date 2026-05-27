@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-05-27T15:31:10.768162+00:00",
+  "updated_at": "2026-05-27T18:23:50.194235+00:00",
   "market": {
-    "brent_usd": 94.18,
+    "brent_usd": 92.81,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 16.97,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "ormuz_flow_pct": 94.6,
+    "vix": 16.66,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "27 MAY 2026 · 13:43 UTC",
-      "headline": "IRÁN REVELA UN BORRADOR CON EE.UU. QUE INCLUIRÍA LA APERTURA DEL ESTRECHO DE ORM",
-      "detail": "El informe citaba un supuesto memorando preliminar que, según afirmaba, incluía un compromiso de la administración de Trump a levantar el bloqueo naval contra Teherán y retirar sus fuerzas de la regió",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "27 MAY 2026 · 05:22 UTC",
       "headline": "LA TREGUA QUE CONFIRMA LA VENTAJA DE IRÁN",
@@ -49,11 +43,17 @@
       "headline": "IRAN WIPED OUT FIFTH OF US REAPER DRONE FLEET – BLOOMBERG",
       "detail": "The US military has lost up to 30 MQ-9 Reaper drones worth around $1 billion since the start of the war with Iran, Bloomberg has reported Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "24 MAY 2026 · 14:10 UTC",
+      "headline": "US OFFICIALS DETAIL POSSIBLE IRAN DEAL – AXIOS",
+      "detail": "A US-Iran agreement will see the reopening of the Strait of Hormuz and the lifting of oil trade curbs against Tehran, Axios has reported Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.18 (+0.00%)",
-    "VIX: 16.97",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $92.81 (+0.00%)",
+    "VIX: 16.66",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
