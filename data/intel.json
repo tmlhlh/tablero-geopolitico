@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-05-27T03:27:27.953558+00:00",
+  "updated_at": "2026-05-27T07:59:20.810615+00:00",
   "market": {
-    "brent_usd": 95.04,
+    "brent_usd": 94.64,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 17.01,
-    "risk_level": "CRÍTICO",
+    "ormuz_flow_pct": 90.6,
+    "vix": 17.0,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "27 MAY 2026 · 06:52 UTC",
+      "headline": "HOW BADLY IS EUROPE AFFECTED BY FERTILISER SHORTAGES DUE TO THE IRAN WAR?",
+      "detail": "EU launches fertiliser plan as Strait of Hormuz disruption fuels food security fears.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAY 2026 · 05:22 UTC",
+      "headline": "LA TREGUA QUE CONFIRMA LA VENTAJA DE IRÁN",
+      "detail": "Aunque Estados Unidos conserva una superioridad militar incontestable, las negociaciones muestran que Teherán ha convertido Ormuz en parte del precio político de la guerra",
+      "severity": "INFO"
+    },
     {
       "timestamp": "26 MAY 2026 · 19:38 UTC",
       "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
@@ -27,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAY 2026 · 16:13 UTC",
-      "headline": "IRANIAN FISHERMEN STRUGGLE TO SURVIVE AMID HORMUZ BLOCKADE",
-      "detail": "The livelihoods of Iranian fishermen have taken a hit amid the US blockade on Iran’s ports in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "25 MAY 2026 · 22:00 UTC",
       "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
       "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
@@ -43,17 +49,11 @@
       "headline": "IRAN WIPED OUT FIFTH OF US REAPER DRONE FLEET – BLOOMBERG",
       "detail": "The US military has lost up to 30 MQ-9 Reaper drones worth around $1 billion since the start of the war with Iran, Bloomberg has reported Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 14:10 UTC",
-      "headline": "US OFFICIALS DETAIL POSSIBLE IRAN DEAL – AXIOS",
-      "detail": "A US-Iran agreement will see the reopening of the Strait of Hormuz and the lifting of oil trade curbs against Tehran, Axios has reported Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.04 (+0.00%)",
-    "VIX: 17.01",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $94.64 (+0.00%)",
+    "VIX: 17.0",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
