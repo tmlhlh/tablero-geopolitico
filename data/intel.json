@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-27T21:00:20.462480+00:00",
+  "updated_at": "2026-05-27T22:46:38.614813+00:00",
   "market": {
-    "brent_usd": 92.93,
+    "brent_usd": 93.25,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 95.3,
+    "ormuz_flow_pct": 95.8,
     "vix": 16.29,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.3
@@ -15,8 +15,20 @@
   },
   "events": [
     {
+      "timestamp": "27 MAY 2026 · 21:14 UTC",
+      "headline": "MARKETS RALLY AMID HOPES OF US-IRAN DEAL",
+      "detail": "Markets betting a deal will reopen the Strait of Hormuz and soothe the deep global economic uncertainty.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAY 2026 · 20:56 UTC",
+      "headline": "TRUMP SAYS NO ONE WILL CONTROL STRAIT OF HORMUZ",
+      "detail": "Donald Trump says he won’t allow Iran to control ⁠the Strait of ⁠Hormuz under the terms of any deal reached with Tehran.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "27 MAY 2026 · 20:38 UTC",
-      "headline": "TRUMP APPEARS TO THREATEN OMAN WITH BOMBING OVER STRAIT OF HORMUZ IMPASSE",
+      "headline": "TRUMP APPEARS TO THREATEN OMAN OVER STRAIT OF HORMUZ IMPASSE",
       "detail": "The US president warns that Oman, a US ally, 'will behave just like everybody else, or we will have to blow them up'.",
       "severity": "INFO"
     },
@@ -37,22 +49,10 @@
       "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
       "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 MAY 2026 · 22:00 UTC",
-      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
-      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "24 MAY 2026 · 14:22 UTC",
-      "headline": "IRAN WIPED OUT FIFTH OF US REAPER DRONE FLEET – BLOOMBERG",
-      "detail": "The US military has lost up to 30 MQ-9 Reaper drones worth around $1 billion since the start of the war with Iran, Bloomberg has reported Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.93 (+0.00%)",
+    "BRENT: $93.25 (+0.00%)",
     "VIX: 16.29",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
