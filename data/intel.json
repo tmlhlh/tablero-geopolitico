@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-28T19:34:24.527570+00:00",
+  "updated_at": "2026-05-28T21:53:11.404570+00:00",
   "market": {
-    "brent_usd": 92.97,
+    "brent_usd": 92.48,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 64.5,
-    "vix": 15.64,
+    "ormuz_flow_pct": 98.8,
+    "vix": 15.74,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.0
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
@@ -19,12 +19,6 @@
       "headline": "US TREASURY THREATENS OMAN WITH SANCTIONS OVER HORMUZ STRAIT",
       "detail": "US official says Oman should know that Washington 'will aggressively target' actors that facilitate tolls in waterway.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "28 MAY 2026 · 14:45 UTC",
-      "headline": "US ATTACKS BANDAR ABBAS AGAIN: WHY IS THE PORT SO IMPORTANT FOR IRAN?",
-      "detail": "Bandar Abbas, which the US has targeted multiple times, occupies a strategically sensitive position in Strait of Hormuz.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "28 MAY 2026 · 00:49 UTC",
@@ -49,11 +43,17 @@
       "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
       "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAY 2026 · 22:00 UTC",
+      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
+      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.97 (+0.00%)",
-    "VIX: 15.64",
+    "BRENT: $92.48 (+0.00%)",
+    "VIX: 15.74",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
