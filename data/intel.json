@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-28T08:40:12.675912+00:00",
+  "updated_at": "2026-05-28T12:23:30.714945+00:00",
   "market": {
-    "brent_usd": 94.58,
+    "brent_usd": 94.64,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 34.6,
-    "vix": 16.66,
+    "ormuz_flow_pct": 42.2,
+    "vix": 16.71,
     "risk_level": "ALTO",
     "insurance_spread_pct": 1.4
   },
@@ -28,32 +28,32 @@
     },
     {
       "timestamp": "28 MAY 2026 · 00:49 UTC",
-      "headline": "TRUMP THREATENS TO ‘BLOW UP’ REGIONAL ALLY OMAN",
+      "headline": "TRUMP THREATENS TO ‘BLOW UP’ GULF ALLY",
       "detail": "US President Donald Trump threatened to “blow up” Oman if it attempts to seize control of the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAY 2026 · 21:14 UTC",
-      "headline": "MARKETS RALLY AMID HOPES OF US-IRAN DEAL",
-      "detail": "Markets betting a deal will reopen the Strait of Hormuz and soothe the deep global economic uncertainty.",
+      "timestamp": "27 MAY 2026 · 05:22 UTC",
+      "headline": "LA TREGUA QUE CONFIRMA LA VENTAJA DE IRÁN",
+      "detail": "Aunque Estados Unidos conserva una superioridad militar incontestable, las negociaciones muestran que Teherán ha convertido Ormuz en parte del precio político de la guerra",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAY 2026 · 20:56 UTC",
-      "headline": "TRUMP SAYS NO ONE WILL CONTROL STRAIT OF HORMUZ",
-      "detail": "Donald Trump says he won’t allow Iran to control ⁠the Strait of ⁠Hormuz under the terms of any deal reached with Tehran.",
+      "timestamp": "26 MAY 2026 · 19:38 UTC",
+      "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
+      "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 MAY 2026 · 20:38 UTC",
-      "headline": "TRUMP APPEARS TO THREATEN OMAN OVER STRAIT OF HORMUZ IMPASSE",
-      "detail": "The US president warns that Oman, a US ally, 'will behave just like everybody else, or we will have to blow them up'.",
+      "timestamp": "26 MAY 2026 · 16:24 UTC",
+      "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
+      "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.58 (+0.00%)",
-    "VIX: 16.66",
+    "BRENT: $94.64 (+0.00%)",
+    "VIX: 16.71",
     "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
