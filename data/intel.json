@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-05-28T04:06:48.392060+00:00",
+  "updated_at": "2026-05-28T08:40:12.675912+00:00",
   "market": {
-    "brent_usd": 95.65,
+    "brent_usd": 94.58,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 96.8,
-    "vix": 16.29,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.3
+    "ormuz_flow_pct": 34.6,
+    "vix": 16.66,
+    "risk_level": "ALTO",
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
+      "timestamp": "28 MAY 2026 · 07:32 UTC",
+      "headline": "IRAN AND US TRADE ATTACKS AFTER TRUMP REJECTS REPORT OF HORMUZ AGREEMENT",
+      "detail": "IRGC says it targeted a base used by US forces after US attacks on site near Bandar Abbas.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "28 MAY 2026 · 07:20 UTC",
+      "headline": "WHAT’S HAPPENING ON IRAN WAR DAY 90 AS US LAUNCHES NEW STRIKES",
+      "detail": "The US strikes near Bandar Abbas as tensions rise in the Strait of Hormuz; Iran reports no casualties or damage.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "28 MAY 2026 · 00:49 UTC",
       "headline": "TRUMP THREATENS TO ‘BLOW UP’ REGIONAL ALLY OMAN",
-      "detail": "US President Donald Trump has threatened to “blow up” Oman should the Gulf monarchy attempt to seize control of the Strait of Hormuz Read Full Article at RT.com",
+      "detail": "US President Donald Trump threatened to “blow up” Oman if it attempts to seize control of the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "TRUMP APPEARS TO THREATEN OMAN OVER STRAIT OF HORMUZ IMPASSE",
       "detail": "The US president warns that Oman, a US ally, 'will behave just like everybody else, or we will have to blow them up'.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "27 MAY 2026 · 05:22 UTC",
-      "headline": "LA TREGUA QUE CONFIRMA LA VENTAJA DE IRÁN",
-      "detail": "Aunque Estados Unidos conserva una superioridad militar incontestable, las negociaciones muestran que Teherán ha convertido Ormuz en parte del precio político de la guerra",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAY 2026 · 19:38 UTC",
-      "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
-      "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.65 (+0.00%)",
-    "VIX: 16.29",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $94.58 (+0.00%)",
+    "VIX: 16.66",
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
