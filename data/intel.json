@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-28T16:52:22.348641+00:00",
+  "updated_at": "2026-05-28T19:34:24.527570+00:00",
   "market": {
-    "brent_usd": 92.29,
+    "brent_usd": 92.97,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 60.1,
-    "vix": 15.86,
+    "ormuz_flow_pct": 64.5,
+    "vix": 15.64,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "28 MAY 2026 · 12:54 UTC",
-      "headline": "WHY HAS TRUMP THREATENED TO BOMB OMAN, AMID IRAN WAR ESCALATION?",
-      "detail": "The US president has issued a stark warning to a US ally, in a sign of rising tensions over Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "28 MAY 2026 · 00:49 UTC",
       "headline": "TRUMP THREATENS TO ‘BLOW UP’ GULF ALLY",
       "detail": "US President Donald Trump threatened to “blow up” Oman if it attempts to seize control of the Strait of Hormuz Read Full Article at RT.com",
@@ -49,11 +43,17 @@
       "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
       "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAY 2026 · 16:24 UTC",
+      "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
+      "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.29 (+0.00%)",
-    "VIX: 15.86",
+    "BRENT: $92.97 (+0.00%)",
+    "VIX: 15.64",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
