@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-05-29T13:57:06.869040+00:00",
+  "updated_at": "2026-05-29T17:33:55.475697+00:00",
   "market": {
-    "brent_usd": 91.01,
+    "brent_usd": 91.04,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.5,
-    "vix": 15.67,
+    "ormuz_flow_pct": 99.6,
+    "vix": 15.27,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.0
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "29 MAY 2026 · 10:23 UTC",
-      "headline": "US-IRAN 60-DAY PROPOSAL: WHAT WE KNOW",
-      "detail": "US-Iran memorandum of understanding reportedly covers Strait of Hormuz, sanctions relief and enriched uranium limits.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "29 MAY 2026 · 07:04 UTC",
-      "headline": "WHAT’S HAPPENING ON IRAN WAR DAY 91 AS US, IRAN NEAR 60-DAY DEAL",
-      "detail": "US and Iran near a 60-day MoU aimed at reopening the Hormuz strait with talks slated on nuclear and other differences.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "28 MAY 2026 · 19:28 UTC",
       "headline": "ESTADOS UNIDOS AFIRMA QUE HA ACORDADO CON IRÁN UNA PRÓRROGA DEL ALTO EL FUEGO, P",
@@ -49,11 +37,23 @@
       "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
       "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAY 2026 · 16:24 UTC",
+      "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
+      "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAY 2026 · 22:00 UTC",
+      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
+      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.01 (+0.00%)",
-    "VIX: 15.67",
+    "BRENT: $91.04 (+0.00%)",
+    "VIX: 15.27",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
