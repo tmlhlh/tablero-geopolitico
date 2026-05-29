@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-29T17:33:55.475697+00:00",
+  "updated_at": "2026-05-29T20:18:39.779621+00:00",
   "market": {
-    "brent_usd": 91.04,
+    "brent_usd": 91.73,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.6,
-    "vix": 15.27,
+    "ormuz_flow_pct": 99.7,
+    "vix": 15.35,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "29 MAY 2026 · 19:29 UTC",
+      "headline": "TRUMP EXPONE SUS EXIGENCIAS SOBRE EL ACUERDO CON IRÁN Y AFIRMA QUE ESTÁ A PUNTO ",
+      "detail": "El presidente mantuvo este viernes una reunión en la Sala de Situación, en medio de una alta expectativa luego de tres meses de conflicto; qué exige el mandatario sobre el estrecho de Ormuz y el mater",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 MAY 2026 · 19:28 UTC",
       "headline": "ESTADOS UNIDOS AFIRMA QUE HA ACORDADO CON IRÁN UNA PRÓRROGA DEL ALTO EL FUEGO, P",
@@ -43,17 +49,11 @@
       "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
       "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 MAY 2026 · 22:00 UTC",
-      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
-      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.04 (+0.00%)",
-    "VIX: 15.27",
+    "BRENT: $91.73 (+0.00%)",
+    "VIX: 15.35",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
