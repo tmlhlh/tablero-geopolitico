@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-05-29T10:43:05.308430+00:00",
+  "updated_at": "2026-05-29T13:57:06.869040+00:00",
   "market": {
-    "brent_usd": 91.36,
+    "brent_usd": 91.01,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.4,
-    "vix": 15.84,
+    "ormuz_flow_pct": 99.5,
+    "vix": 15.67,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "29 MAY 2026 · 10:23 UTC",
+      "headline": "US-IRAN 60-DAY PROPOSAL: WHAT WE KNOW",
+      "detail": "US-Iran memorandum of understanding reportedly covers Strait of Hormuz, sanctions relief and enriched uranium limits.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "29 MAY 2026 · 07:04 UTC",
       "headline": "WHAT’S HAPPENING ON IRAN WAR DAY 91 AS US, IRAN NEAR 60-DAY DEAL",
@@ -43,17 +49,11 @@
       "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
       "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAY 2026 · 16:24 UTC",
-      "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
-      "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.36 (+0.00%)",
-    "VIX: 15.84",
+    "BRENT: $91.01 (+0.00%)",
+    "VIX: 15.67",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
