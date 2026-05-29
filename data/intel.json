@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-29T20:18:39.779621+00:00",
+  "updated_at": "2026-05-29T22:26:59.033612+00:00",
   "market": {
-    "brent_usd": 91.73,
+    "brent_usd": 91.7,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 99.7,
-    "vix": 15.35,
+    "vix": 15.32,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "29 MAY 2026 · 19:29 UTC",
+      "timestamp": "29 MAY 2026 · 21:49 UTC",
       "headline": "TRUMP EXPONE SUS EXIGENCIAS SOBRE EL ACUERDO CON IRÁN Y AFIRMA QUE ESTÁ A PUNTO ",
       "detail": "El presidente mantuvo este viernes una reunión en la Sala de Situación, en medio de una alta expectativa luego de tres meses de conflicto; qué exige el mandatario sobre el estrecho de Ormuz y el mater",
       "severity": "INFO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $91.73 (+0.00%)",
-    "VIX: 15.35",
+    "BRENT: $91.7 (+0.00%)",
+    "VIX: 15.32",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
