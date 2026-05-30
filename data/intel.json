@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T18:05:21.491345+00:00",
+  "updated_at": "2026-05-30T20:06:40.548057+00:00",
   "market": {
     "brent_usd": 91.12,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "30 MAY 2026 · 18:42 UTC",
+      "headline": "QATAR SAYS TEMPORARY CHARGES ‘NEGOTIABLE’",
+      "detail": "Qatar rejects a set Strait of Hormuz toll, says temporary charges 'negotiable'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 MAY 2026 · 16:35 UTC",
       "headline": "EE.UU. INTERCEPTA OTRO BUQUE EN ORMUZ Y LANZA UNA DURA AMENAZA A IRÁN MIENTRAS C",
@@ -42,12 +48,6 @@
       "timestamp": "27 MAY 2026 · 05:22 UTC",
       "headline": "LA TREGUA QUE CONFIRMA LA VENTAJA DE IRÁN",
       "detail": "Aunque Estados Unidos conserva una superioridad militar incontestable, las negociaciones muestran que Teherán ha convertido Ormuz en parte del precio político de la guerra",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 MAY 2026 · 19:38 UTC",
-      "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
-      "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
