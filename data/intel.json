@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-30T00:06:18.739765+00:00",
+  "updated_at": "2026-05-30T04:50:26.584304+00:00",
   "market": {
-    "brent_usd": 91.7,
+    "brent_usd": 91.12,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.7,
+    "ormuz_flow_pct": 99.8,
     "vix": 15.32,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "29 MAY 2026 · 21:49 UTC",
-      "headline": "TRUMP EXPONE SUS EXIGENCIAS SOBRE EL ACUERDO CON IRÁN Y AFIRMA QUE ESTÁ A PUNTO ",
-      "detail": "El presidente mantuvo este viernes una reunión en la Sala de Situación, en medio de una alta expectativa luego de tres meses de conflicto; qué exige el mandatario sobre el estrecho de Ormuz y el mater",
+      "timestamp": "30 MAY 2026 · 03:30 UTC",
+      "headline": "TRES MESES DE CIERRE DE ORMUZ: CIENTOS DE BUQUES VARADOS EN EL GOLFO PÉRSICO MIE",
+      "detail": "La guerra desatada por EE UU e Israel aboca a las navieras que quieren liberar sus barcos a negociar con Irán, si bien en el sector hay cierto optimismo por una pronta reapertura del paso",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $91.7 (+0.00%)",
+    "BRENT: $91.12 (+0.00%)",
     "VIX: 15.32",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
