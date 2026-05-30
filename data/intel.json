@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-30T09:56:32.586762+00:00",
+  "updated_at": "2026-05-30T11:20:02.377748+00:00",
   "market": {
     "brent_usd": 91.12,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.8,
+    "ormuz_flow_pct": 99.9,
     "vix": 15.32,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
