@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T16:59:01.048214+00:00",
+  "updated_at": "2026-05-30T18:05:21.491345+00:00",
   "market": {
     "brent_usd": 91.12,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "28 MAY 2026 · 19:28 UTC",
-      "headline": "ESTADOS UNIDOS AFIRMA QUE HA ACORDADO CON IRÁN UNA PRÓRROGA DEL ALTO EL FUEGO, P",
-      "detail": "Fuentes de la Casa Blanca aseguran que el borrador de memorando, aún pendiente del visto bueno de Trump, extendería la tregua 60 días y supondría la reapertura de Ormuz",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "28 MAY 2026 · 00:49 UTC",
       "headline": "TRUMP THREATENS TO ‘BLOW UP’ GULF ALLY",
       "detail": "US President Donald Trump threatened to “blow up” Oman if it attempts to seize control of the Strait of Hormuz Read Full Article at RT.com",
@@ -48,6 +42,12 @@
       "timestamp": "27 MAY 2026 · 05:22 UTC",
       "headline": "LA TREGUA QUE CONFIRMA LA VENTAJA DE IRÁN",
       "detail": "Aunque Estados Unidos conserva una superioridad militar incontestable, las negociaciones muestran que Teherán ha convertido Ormuz en parte del precio político de la guerra",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAY 2026 · 19:38 UTC",
+      "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
+      "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
