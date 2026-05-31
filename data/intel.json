@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T23:01:38.117222+00:00",
+  "updated_at": "2026-05-31T03:27:22.280149+00:00",
   "market": {
     "brent_usd": 91.12,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "30 MAY 2026 · 16:35 UTC",
-      "headline": "EE.UU. INTERCEPTA OTRO BUQUE EN ORMUZ Y LANZA UNA DURA AMENAZA A IRÁN MIENTRAS C",
-      "detail": "El buque granelero Lian Star, con bandera de Gambia, fue inmovilizado por aeronaves estadounidenses en el Golfo de Omán y permanece a la deriva en la zona",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "30 MAY 2026 · 12:16 UTC",
       "headline": "US, UK AND AUSTRALIA TO DEVELOP UNDERWATER DRONE TECHNOLOGY",
       "detail": "The technology, developed under the Aukus military pact, is aimed at protecting undersea cables and boosting naval defence.",
@@ -48,6 +42,12 @@
       "timestamp": "28 MAY 2026 · 00:49 UTC",
       "headline": "TRUMP THREATENS TO ‘BLOW UP’ GULF ALLY",
       "detail": "US President Donald Trump threatened to “blow up” Oman if it attempts to seize control of the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 MAY 2026 · 05:22 UTC",
+      "headline": "LA TREGUA QUE CONFIRMA LA VENTAJA DE IRÁN",
+      "detail": "Aunque Estados Unidos conserva una superioridad militar incontestable, las negociaciones muestran que Teherán ha convertido Ormuz en parte del precio político de la guerra",
       "severity": "INFO"
     }
   ],
