@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T16:04:03.627160+00:00",
+  "updated_at": "2026-05-31T17:58:33.685053+00:00",
   "market": {
     "brent_usd": 91.12,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "31 MAY 2026 · 08:30 UTC",
-      "headline": "THE STRAIT MAY REOPEN, BUT GLOBAL CONFIDENCE MAY NOT RETURN",
-      "detail": "The next phase of the Strait of Hormuz crisis may be defined less by its closure than by conditional access.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "30 MAY 2026 · 12:16 UTC",
       "headline": "US, UK AND AUSTRALIA TO DEVELOP UNDERWATER DRONE TECHNOLOGY",
@@ -49,6 +43,12 @@
       "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
       "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "25 MAY 2026 · 22:00 UTC",
+      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
+      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
