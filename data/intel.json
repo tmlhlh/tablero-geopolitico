@@ -1,29 +1,23 @@
 {
-  "updated_at": "2026-06-01T11:48:36.825882+00:00",
+  "updated_at": "2026-06-01T17:31:39.706222+00:00",
   "market": {
-    "brent_usd": 93.73,
+    "brent_usd": 95.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 68.0,
-    "vix": 15.77,
+    "ormuz_flow_pct": 100.0,
+    "vix": 16.01,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "01 JUN 2026 · 09:32 UTC",
-      "headline": "US SAYS IT STRUCK IRANIAN RADAR SITES AS KUWAIT REPORTS MISSILE AND DRONE ATTACK",
+      "timestamp": "01 JUN 2026 · 13:12 UTC",
+      "headline": "US SAYS IT STRUCK IRANIAN RADAR SITES AS IRAN TARGETS AMERICAN FORCES IN KUWAIT",
       "detail": "Iran and the US say they have carried out fresh strikes around the Strait of Hormuz, with Kuwait condemning \"repeated\" Iranian attacks.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 JUN 2026 · 05:16 UTC",
-      "headline": "ISRAEL AIRSTRIKE KILLS AT LEAST TWO PALESTINIANS AT GAZA PORT",
-      "detail": "At least two Palestinians were killed and around a dozen wounded when an Israeli air strike hit a crowded cafe.",
       "severity": "CRÍTICO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
       "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "26 MAY 2026 · 16:24 UTC",
+      "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
+      "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.73 (+0.00%)",
-    "VIX: 15.77",
+    "BRENT: $95.95 (+0.00%)",
+    "VIX: 16.01",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
