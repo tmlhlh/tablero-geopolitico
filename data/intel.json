@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-31T23:00:04.647862+00:00",
+  "updated_at": "2026-06-01T00:12:45.622048+00:00",
   "market": {
-    "brent_usd": 92.99,
+    "brent_usd": 93.0,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "31 MAY 2026 · 22:54 UTC",
+      "headline": "TRUMP SEEKING EDITS TO US-IRAN DEAL, US MEDIA REPORT",
+      "detail": "The requested changes are related to the Strait of Hormuz and the removal of highly enriched uranium, according to US media.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 MAY 2026 · 12:16 UTC",
       "headline": "US, UK AND AUSTRALIA TO DEVELOP UNDERWATER DRONE TECHNOLOGY",
@@ -43,16 +49,10 @@
       "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
       "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 MAY 2026 · 22:00 UTC",
-      "headline": "US JETS ATTACK IRANIAN NAVAL VESSELS",
-      "detail": "US fighter jets have attacked Iranian naval vessels in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.99 (+0.00%)",
+    "BRENT: $93.0 (+0.00%)",
     "VIX: 15.32",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
