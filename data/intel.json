@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-06-01T05:59:13.676573+00:00",
+  "updated_at": "2026-06-01T11:48:36.825882+00:00",
   "market": {
-    "brent_usd": 93.28,
+    "brent_usd": 93.73,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 58.7,
-    "vix": 15.32,
+    "ormuz_flow_pct": 68.0,
+    "vix": 15.77,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "01 JUN 2026 · 05:16 UTC",
-      "headline": "ISRAEL AIRSTRIKE KILLS AT LEAST TWO PALESTINIANS AT GAZA PORT",
-      "detail": "At least two Palestinians were killed and around a dozen wounded when an Israeli air strike hit a crowded cafe.",
+      "timestamp": "01 JUN 2026 · 09:32 UTC",
+      "headline": "US SAYS IT STRUCK IRANIAN RADAR SITES AS KUWAIT REPORTS MISSILE AND DRONE ATTACK",
+      "detail": "Iran and the US say they have carried out fresh strikes around the Strait of Hormuz, with Kuwait condemning \"repeated\" Iranian attacks.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "01 JUN 2026 · 05:11 UTC",
-      "headline": "IRAN AND US REPORT NEW WAVE OF AIR STRIKES IN GULF",
-      "detail": "Washington and Tehran targeted each other's military facilities around the Strait of Hormuz.",
+      "timestamp": "01 JUN 2026 · 05:16 UTC",
+      "headline": "ISRAEL AIRSTRIKE KILLS AT LEAST TWO PALESTINIANS AT GAZA PORT",
+      "detail": "At least two Palestinians were killed and around a dozen wounded when an Israeli air strike hit a crowded cafe.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.28 (+0.00%)",
-    "VIX: 15.32",
+    "BRENT: $93.73 (+0.00%)",
+    "VIX: 15.77",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
