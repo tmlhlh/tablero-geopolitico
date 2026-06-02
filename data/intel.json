@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-01T23:25:05.380456+00:00",
+  "updated_at": "2026-06-02T03:36:42.347497+00:00",
   "market": {
-    "brent_usd": 95.16,
+    "brent_usd": 94.42,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -39,20 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAY 2026 · 16:24 UTC",
-      "headline": "COULD IRAN CUT OFF THE WORLD’S INTERNET ACCESS? ",
-      "detail": "Iran’s push to tax Strait of Hormuz undersea cables shows how internet routes are becoming a new front in pressure tactics and tech risk Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 JUN 2026 · 23:25 UTC",
+      "timestamp": "02 JUN 2026 · 03:36 UTC",
       "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
       "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "02 JUN 2026 · 03:36 UTC",
+      "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
+      "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.16 (+0.00%)",
+    "BRENT: $94.42 (+0.00%)",
     "VIX: 16.05",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
