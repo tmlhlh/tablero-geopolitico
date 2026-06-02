@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-02T08:25:43.366876+00:00",
+  "updated_at": "2026-06-02T12:38:40.200442+00:00",
   "market": {
-    "brent_usd": 93.48,
+    "brent_usd": 93.76,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 16.2,
+    "vix": 16.15,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.2
   },
@@ -27,33 +27,33 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 MAY 2026 · 19:38 UTC",
-      "headline": "US HAS NO AUTHORITY TO MEDDLE IN HORMUZ – IRANIAN PROFESSOR",
-      "detail": "The US has “no responsibility” in the management of the Strait of Hormuz, University of Tehran professor Foad Izadi told RT Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 JUN 2026 · 08:25 UTC",
+      "timestamp": "02 JUN 2026 · 12:38 UTC",
       "headline": "INTERNATIONAL LNG PRICES RISE AMID STRAIT OF HORMUZ CLOSURE",
       "detail": "Prices for natural gas in Europe and Asia have diverged from those in the United States since the February 28 closure of the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "02 JUN 2026 · 08:25 UTC",
+      "timestamp": "02 JUN 2026 · 12:38 UTC",
       "headline": "THE 10TH U.S. LIQUEFIED NATURAL GAS EXPORT TERMINAL, GOLDEN PASS, SHIPS FIRST CA",
       "detail": "On April 22, 2026, Golden Pass LNG-the 10th liquefied natural gas (LNG) terminal in the United States-shipped its first cargo from Train 1, according to the project developer. The shipment left port 2",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "02 JUN 2026 · 08:25 UTC",
+      "timestamp": "02 JUN 2026 · 12:38 UTC",
       "headline": "CHINA, THE UNITED STATES, AND JAPAN HOLD MOST STRATEGIC OIL INVENTORIES IN 2025",
       "detail": "In the 1970s, the United States and other OECD countries established strategic oil stocks aimed at mitigating the impact of supply disruptions. In March 2026, the United States, along with other membe",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 JUN 2026 · 12:38 UTC",
+      "headline": "CRUDE OIL AND PETROLEUM PRODUCT PRICES INCREASED SHARPLY IN THE FIRST QUARTER OF",
+      "detail": "Crude oil and petroleum product prices increased significantly in the first quarter of 2026 (1Q26), particularly following military action in the Middle East on February 28 and the subsequent de facto",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.48 (+0.00%)",
-    "VIX: 16.2",
+    "BRENT: $93.76 (+0.00%)",
+    "VIX: 16.15",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
