@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-02T20:43:39.206393+00:00",
+  "updated_at": "2026-06-02T22:59:59.597568+00:00",
   "market": {
-    "brent_usd": 95.78,
+    "brent_usd": 96.23,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
+    "ormuz_flow_pct": 59.5,
     "vix": 15.77,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "02 JUN 2026 · 21:49 UTC",
+      "headline": "US SAYS IT FIRED MISSILE AT IRAN-BOUND OIL TANKER",
+      "detail": "The US military says the vessel's engine room was hit after the crew \"ignored repeated warnings\".",
+      "severity": "INFO"
+    },
     {
       "timestamp": "01 JUN 2026 · 01:41 UTC",
       "headline": "US MILITARY SECRETLY GUIDING SHIPS THROUGH STRAIT OF HORMUZ – NYT",
@@ -28,7 +34,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.78 (+0.00%)",
+    "BRENT: $96.23 (+0.00%)",
     "VIX: 15.77",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
