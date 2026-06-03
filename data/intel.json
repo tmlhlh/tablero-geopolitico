@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-06-02T22:59:59.597568+00:00",
+  "updated_at": "2026-06-03T01:44:30.019128+00:00",
   "market": {
-    "brent_usd": 96.23,
+    "brent_usd": 97.03,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 59.5,
+    "ormuz_flow_pct": 8.5,
     "vix": 15.77,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "02 JUN 2026 · 21:49 UTC",
-      "headline": "US SAYS IT FIRED MISSILE AT IRAN-BOUND OIL TANKER",
-      "detail": "The US military says the vessel's engine room was hit after the crew \"ignored repeated warnings\".",
+      "timestamp": "03 JUN 2026 · 01:18 UTC",
+      "headline": "US LAUNCHES 'SELF-DEFENSE' STRIKES ON IRANIAN ISLAND AND TARGETS COMMERCIAL OIL ",
+      "detail": "The US military said strikes on Qeshm Island, in the Strait of Hormuz, were \"in response to attempted attacks by Iran across the Middle East\".",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 JUN 2026 · 23:40 UTC",
+      "headline": "SAILORS STRESSED AND EXHAUSTED AFTER MONTHS TRAPPED BY STRAIT OF HORMUZ BLOCKADE",
+      "detail": "The uncertainty has weighed heavily on the 20,000 seafarers trapped in the Iran war zone.",
       "severity": "INFO"
     },
     {
@@ -34,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.23 (+0.00%)",
+    "BRENT: $97.03 (+0.00%)",
     "VIX: 15.77",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
