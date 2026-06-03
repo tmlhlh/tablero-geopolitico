@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-03T20:16:59.062264+00:00",
+  "updated_at": "2026-06-03T23:03:44.976255+00:00",
   "market": {
-    "brent_usd": 98.04,
+    "brent_usd": 97.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 24.8,
+    "ormuz_flow_pct": 30.2,
     "vix": 16.06,
     "risk_level": "ALTO",
     "insurance_spread_pct": 1.2
@@ -14,6 +14,12 @@
     "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "03 JUN 2026 · 21:15 UTC",
+      "headline": "UKRAINE ATTACKS ST PETERSBURG AS RUSSIA HOSTS ITS OWN ‘DAVOS’",
+      "detail": "Ukraine launched a series of air strikes targeting an oil facility and a naval air base near St Petersburg late Tuesday.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "03 JUN 2026 · 20:05 UTC",
       "headline": "ONE KILLED AND DOZENS INJURED IN IRANIAN DRONE STRIKES ON KUWAIT AIRPORT",
@@ -46,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.04 (+0.00%)",
+    "BRENT: $97.38 (+0.00%)",
     "VIX: 16.06",
     "ORMUZ: DISRUPCIÓN SEVERA"
   ]
