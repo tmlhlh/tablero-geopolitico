@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-06-03T16:41:16.773169+00:00",
+  "updated_at": "2026-06-03T20:16:59.062264+00:00",
   "market": {
-    "brent_usd": 98.01,
+    "brent_usd": 98.04,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 46.8,
-    "vix": 16.47,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.3
+    "ormuz_flow_pct": 24.8,
+    "vix": 16.06,
+    "risk_level": "ALTO",
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
-      "timestamp": "03 JUN 2026 · 14:02 UTC",
+      "timestamp": "03 JUN 2026 · 20:05 UTC",
       "headline": "ONE KILLED AND DOZENS INJURED IN IRANIAN DRONE STRIKES ON KUWAIT AIRPORT",
       "detail": "Iran says the attack on Kuwait was in retaliation for earlier US strikes on an Iranian oil tanker and island.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "03 JUN 2026 · 11:42 UTC",
-      "headline": "IRAN, KUWAIT, BAHRAIN HIT: IS THE WAR IN THE GULF ESCALATING AGAIN?",
-      "detail": "Secretary of State Rubio tells US lawmakers the war on Iran is over, amid recent attacks on Iran and Gulf countries.",
-      "severity": "CRÍTICO"
+      "timestamp": "03 JUN 2026 · 19:18 UTC",
+      "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRAN (VIDEO)",
+      "detail": "Iran struck an international airport and other facilities in Kuwait as part of missile exchange with the US, the Gulf nation has said Read Full Article at RT.com",
+      "severity": "INFO"
     },
     {
       "timestamp": "03 JUN 2026 · 03:30 UTC",
@@ -46,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.01 (+0.00%)",
-    "VIX: 16.47",
+    "BRENT: $98.04 (+0.00%)",
+    "VIX: 16.06",
     "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
