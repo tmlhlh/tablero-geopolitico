@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-03T01:44:30.019128+00:00",
+  "updated_at": "2026-06-03T06:49:52.423184+00:00",
   "market": {
-    "brent_usd": 97.03,
+    "brent_usd": 97.58,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,22 @@
   },
   "events": [
     {
-      "timestamp": "03 JUN 2026 · 01:18 UTC",
-      "headline": "US LAUNCHES 'SELF-DEFENSE' STRIKES ON IRANIAN ISLAND AND TARGETS COMMERCIAL OIL ",
-      "detail": "The US military said strikes on Qeshm Island, in the Strait of Hormuz, were \"in response to attempted attacks by Iran across the Middle East\".",
+      "timestamp": "03 JUN 2026 · 05:26 UTC",
+      "headline": "WHAT’S HAPPENING ON DAY 96 OF IRAN WAR AS US, IRAN ENGAGE IN NEW ATTACKS",
+      "detail": "Rubio says the US will lift sanctions on Iran only if it gives up enriched uranium, rejecting a Hormuz-linked deal.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "03 JUN 2026 · 03:40 UTC",
+      "headline": "US AND IRAN LAUNCH NEW STRIKES AS CEASEFIRE NEGOTIATIONS STALLED",
+      "detail": "US launches fresh strikes on Iran and an oil tanker as Tehran says it attacked US bases in the Gulf.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "03 JUN 2026 · 03:30 UTC",
+      "headline": "LAS PRISAS CAMBIAN DE BANDO EN IRÁN: TRUMP BUSCA UNA SALIDA A LA GUERRA CON EL T",
+      "detail": "Tres meses después de los primeros bombardeos de Estados Unidos e Israel, Washington necesita más que nunca alcanzar un acuerdo que reabra Ormuz",
+      "severity": "INFO"
     },
     {
       "timestamp": "02 JUN 2026 · 23:40 UTC",
@@ -40,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.03 (+0.00%)",
+    "BRENT: $97.58 (+0.00%)",
     "VIX: 15.77",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
