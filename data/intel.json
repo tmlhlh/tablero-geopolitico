@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-06-04T11:49:33.879310+00:00",
+  "updated_at": "2026-06-04T14:51:33.526089+00:00",
   "market": {
-    "brent_usd": 95.41,
+    "brent_usd": 95.3,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 55.5,
-    "vix": 16.59,
+    "ormuz_flow_pct": 60.8,
+    "vix": 15.78,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "04 JUN 2026 · 07:01 UTC",
-      "headline": "IRAN WAR DAY 97: TEHRAN SAYS NO PROGRESS IN TALKS; ISRAEL ATTACKS LEBANON",
-      "detail": "Israel carries out drone attacks on Lebanon after agreeing to renew ceasefire as Tehran defends attacks on Gulf nations.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "04 JUN 2026 · 03:30 UTC",
       "headline": "IRÁN Y EE UU ABREN LA MANO EN ORMUZ PESE A LOS BOMBARDEOS Y LOS VAIVENES EN LA N",
@@ -46,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.41 (+0.00%)",
-    "VIX: 16.59",
+    "BRENT: $95.3 (+0.00%)",
+    "VIX: 15.78",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
