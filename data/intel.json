@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-06-04T14:51:33.526089+00:00",
+  "updated_at": "2026-06-04T17:43:16.870473+00:00",
   "market": {
-    "brent_usd": 95.3,
+    "brent_usd": 94.4,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 60.8,
-    "vix": 15.78,
+    "ormuz_flow_pct": 65.4,
+    "vix": 15.4,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "04 JUN 2026 · 17:37 UTC",
+      "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
+      "detail": "The EU is reportedly considering a naval mission in the Strait of Hormuz as tensions between Washington and Tehran remain elevated Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "04 JUN 2026 · 03:30 UTC",
       "headline": "IRÁN Y EE UU ABREN LA MANO EN ORMUZ PESE A LOS BOMBARDEOS Y LOS VAIVENES EN LA N",
@@ -40,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.3 (+0.00%)",
-    "VIX: 15.78",
+    "BRENT: $94.4 (+0.00%)",
+    "VIX: 15.4",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
