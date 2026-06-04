@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-06-04T08:17:11.660854+00:00",
+  "updated_at": "2026-06-04T11:49:33.879310+00:00",
   "market": {
-    "brent_usd": 96.91,
+    "brent_usd": 95.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 48.9,
-    "vix": 16.31,
+    "ormuz_flow_pct": 55.5,
+    "vix": 16.59,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.3
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
@@ -39,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "03 JUN 2026 · 03:30 UTC",
-      "headline": "LAS PRISAS CAMBIAN DE BANDO EN IRÁN: TRUMP BUSCA UNA SALIDA A LA GUERRA CON EL T",
-      "detail": "Tres meses después de los primeros bombardeos de Estados Unidos e Israel, Washington necesita más que nunca alcanzar un acuerdo que reabra Ormuz",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "01 JUN 2026 · 01:41 UTC",
       "headline": "US MILITARY SECRETLY GUIDING SHIPS THROUGH STRAIT OF HORMUZ – NYT",
       "detail": "The US military has covertly guided 70 cargo ships through the Strait of Hormuz, most with their transponders turned off, a report says Read Full Article at RT.com",
@@ -52,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.91 (+0.00%)",
-    "VIX: 16.31",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "BRENT: $95.41 (+0.00%)",
+    "VIX: 16.59",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
