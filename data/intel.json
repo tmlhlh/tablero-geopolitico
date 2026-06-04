@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-03T23:03:44.976255+00:00",
+  "updated_at": "2026-06-04T03:39:04.758401+00:00",
   "market": {
-    "brent_usd": 97.38,
+    "brent_usd": 96.58,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 30.2,
+    "ormuz_flow_pct": 39.6,
     "vix": 16.06,
     "risk_level": "ALTO",
     "insurance_spread_pct": 1.2
@@ -14,6 +14,12 @@
     "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "04 JUN 2026 · 03:30 UTC",
+      "headline": "IRÁN Y EE UU ABREN LA MANO EN ORMUZ PESE A LOS BOMBARDEOS Y LOS VAIVENES EN LA N",
+      "detail": "El número de barcos que logran cruzar el estrecho repunta en las dos últimas semanas, pese a seguir aún muy lejos de los niveles preguerra",
+      "severity": "INFO"
+    },
     {
       "timestamp": "03 JUN 2026 · 21:15 UTC",
       "headline": "UKRAINE ATTACKS ST PETERSBURG AS RUSSIA HOSTS ITS OWN ‘DAVOS’",
@@ -28,7 +34,7 @@
     },
     {
       "timestamp": "03 JUN 2026 · 19:18 UTC",
-      "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRAN (VIDEO)",
+      "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRGC",
       "detail": "Iran struck an international airport and other facilities in Kuwait as part of missile exchange with the US, the Gulf nation has said Read Full Article at RT.com",
       "severity": "INFO"
     },
@@ -43,16 +49,10 @@
       "headline": "US MILITARY SECRETLY GUIDING SHIPS THROUGH STRAIT OF HORMUZ – NYT",
       "detail": "The US military has covertly guided 70 cargo ships through the Strait of Hormuz, most with their transponders turned off, a report says Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "28 MAY 2026 · 00:49 UTC",
-      "headline": "TRUMP THREATENS TO ‘BLOW UP’ GULF ALLY",
-      "detail": "US President Donald Trump threatened to “blow up” Oman if it attempts to seize control of the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.38 (+0.00%)",
+    "BRENT: $96.58 (+0.00%)",
     "VIX: 16.06",
     "ORMUZ: DISRUPCIÓN SEVERA"
   ]
