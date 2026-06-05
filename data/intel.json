@@ -1,29 +1,47 @@
 {
-  "updated_at": "2026-06-05T12:33:53.232403+00:00",
+  "updated_at": "2026-06-05T15:50:23.992493+00:00",
   "market": {
-    "brent_usd": 94.69,
+    "brent_usd": 93.43,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 23.7,
-    "vix": 15.74,
-    "risk_level": "ALTO",
-    "insurance_spread_pct": 1.1
+    "ormuz_flow_pct": 3.6,
+    "vix": 16.73,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "CIERRE FACTICIO: Flujo al 3.6%"
   },
   "events": [
     {
-      "timestamp": "05 JUN 2026 · 12:27 UTC",
+      "timestamp": "05 JUN 2026 · 13:22 UTC",
+      "headline": "UKRAINIAN MARINE DRONE EXPLODES AT ROMANIAN PORT",
+      "detail": "A malfunctioning Ukrainian naval drone has caused an explosion at a key Black Sea port in Romania.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 JUN 2026 · 13:18 UTC",
+      "headline": "HOW THE US NAVAL BLOCKADE HAS BLED IRAN OF NEARLY $6BN IN OIL REVENUES",
+      "detail": "Iran is exporting less than one-sixth of the oil it was shipping before the war began.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 JUN 2026 · 13:09 UTC",
+      "headline": "DRONE EXPLOSION IN ROMANIAN PORT SPURS UKRAINE WAR SPILLOVER FEARS",
+      "detail": "European Commission president warns that the maritime drone attack was a 'direct consequence' of the Russia-Ukraine war.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 JUN 2026 · 12:33 UTC",
       "headline": "UN DRON MARINO CAUSA UNA GRAN EXPLOSIÓN EN EL MAYOR PUERTO DE RUMANIA",
-      "detail": "El Ministerio de Defensa rumano identifica el aparato como uno de los utilizados en la guerra de Ucrania. Kiev acusa a Rusia del suceso",
+      "detail": "El Ministerio de Defensa rumano identifica el aparato como uno de los utilizados en la guerra de Ucrania. Kiev acusa a la guerra electrónica rusa de estar detrás del suceso",
       "severity": "INFO"
     },
     {
       "timestamp": "05 JUN 2026 · 11:38 UTC",
-      "headline": "SUSPECTED UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT",
-      "detail": "A suspected Ukrainian maritime drone has exploded in the Romanian port of Constanta, prompting evacuations Read Full Article at RT.com",
+      "headline": "UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT",
+      "detail": "A Ukrainian maritime drone has exploded in the Romanian port of Constanta, prompting evacuations Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -31,29 +49,11 @@
       "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
       "detail": "The EU is reportedly considering a naval mission in the Strait of Hormuz as tensions between Washington and Tehran remain elevated Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "04 JUN 2026 · 03:30 UTC",
-      "headline": "IRÁN Y EE UU ABREN LA MANO EN ORMUZ PESE A LOS BOMBARDEOS Y LOS VAIVENES EN LA N",
-      "detail": "El número de barcos que logran cruzar el estrecho repunta en las dos últimas semanas, pese a seguir aún muy lejos de los niveles preguerra",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 JUN 2026 · 19:18 UTC",
-      "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRGC",
-      "detail": "Iran struck an international airport and other facilities in Kuwait as part of missile exchange with the US, the Gulf nation has said Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 JUN 2026 · 01:41 UTC",
-      "headline": "US MILITARY SECRETLY GUIDING SHIPS THROUGH STRAIT OF HORMUZ – NYT",
-      "detail": "The US military has covertly guided 70 cargo ships through the Strait of Hormuz, most with their transponders turned off, a report says Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.69 (+0.00%)",
-    "VIX: 15.74",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "BRENT: $93.43 (+0.00%)",
+    "VIX: 16.73",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.6%"
   ]
 }
