@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-06-05T15:50:23.992493+00:00",
+  "updated_at": "2026-06-05T17:50:44.992272+00:00",
   "market": {
-    "brent_usd": 93.43,
+    "brent_usd": 93.01,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.6,
-    "vix": 16.73,
+    "ormuz_flow_pct": 4.5,
+    "vix": 18.22,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.6%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.5%"
   },
   "events": [
+    {
+      "timestamp": "05 JUN 2026 · 17:43 UTC",
+      "headline": "UN DRON MARINO CAUSA UNA GRAN EXPLOSIÓN EN EL MAYOR PUERTO DE RUMANIA",
+      "detail": "El Ministerio de Defensa rumano identifica el aparato como uno de los utilizados en la guerra de Ucrania. Kiev afirma que era suyo, pero acusa a la guerra electrónica rusa de estar detrás del suceso",
+      "severity": "INFO"
+    },
     {
       "timestamp": "05 JUN 2026 · 13:22 UTC",
       "headline": "UKRAINIAN MARINE DRONE EXPLODES AT ROMANIAN PORT",
@@ -33,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "05 JUN 2026 · 12:33 UTC",
-      "headline": "UN DRON MARINO CAUSA UNA GRAN EXPLOSIÓN EN EL MAYOR PUERTO DE RUMANIA",
-      "detail": "El Ministerio de Defensa rumano identifica el aparato como uno de los utilizados en la guerra de Ucrania. Kiev acusa a la guerra electrónica rusa de estar detrás del suceso",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "05 JUN 2026 · 11:38 UTC",
       "headline": "UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT",
       "detail": "A Ukrainian maritime drone has exploded in the Romanian port of Constanta, prompting evacuations Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.43 (+0.00%)",
-    "VIX: 16.73",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.6%"
+    "BRENT: $93.01 (+0.00%)",
+    "VIX: 18.22",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.5%"
   ]
 }
