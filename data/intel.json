@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-06-05T17:50:44.992272+00:00",
+  "updated_at": "2026-06-05T19:49:28.221018+00:00",
   "market": {
-    "brent_usd": 93.01,
+    "brent_usd": 92.94,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.5,
-    "vix": 18.22,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "ormuz_flow_pct": 31.5,
+    "vix": 20.62,
+    "risk_level": "ALTO",
+    "insurance_spread_pct": 2.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.5%"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
@@ -19,24 +19,6 @@
       "headline": "UN DRON MARINO CAUSA UNA GRAN EXPLOSIÓN EN EL MAYOR PUERTO DE RUMANIA",
       "detail": "El Ministerio de Defensa rumano identifica el aparato como uno de los utilizados en la guerra de Ucrania. Kiev afirma que era suyo, pero acusa a la guerra electrónica rusa de estar detrás del suceso",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 JUN 2026 · 13:22 UTC",
-      "headline": "UKRAINIAN MARINE DRONE EXPLODES AT ROMANIAN PORT",
-      "detail": "A malfunctioning Ukrainian naval drone has caused an explosion at a key Black Sea port in Romania.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 JUN 2026 · 13:18 UTC",
-      "headline": "HOW THE US NAVAL BLOCKADE HAS BLED IRAN OF NEARLY $6BN IN OIL REVENUES",
-      "detail": "Iran is exporting less than one-sixth of the oil it was shipping before the war began.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 JUN 2026 · 13:09 UTC",
-      "headline": "DRONE EXPLOSION IN ROMANIAN PORT SPURS UKRAINE WAR SPILLOVER FEARS",
-      "detail": "European Commission president warns that the maritime drone attack was a 'direct consequence' of the Russia-Ukraine war.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "05 JUN 2026 · 11:38 UTC",
@@ -49,11 +31,23 @@
       "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
       "detail": "The EU is reportedly considering a naval mission in the Strait of Hormuz as tensions between Washington and Tehran remain elevated Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "03 JUN 2026 · 19:18 UTC",
+      "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRGC",
+      "detail": "Iran struck an international airport and other facilities in Kuwait as part of missile exchange with the US, the Gulf nation has said Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 JUN 2026 · 01:41 UTC",
+      "headline": "US MILITARY SECRETLY GUIDING SHIPS THROUGH STRAIT OF HORMUZ – NYT",
+      "detail": "The US military has covertly guided 70 cargo ships through the Strait of Hormuz, most with their transponders turned off, a report says Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.01 (+0.00%)",
-    "VIX: 18.22",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.5%"
+    "BRENT: $92.94 (+0.00%)",
+    "VIX: 20.62",
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
