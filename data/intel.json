@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-06-05T09:39:40.089056+00:00",
+  "updated_at": "2026-06-05T12:33:53.232403+00:00",
   "market": {
-    "brent_usd": 94.53,
+    "brent_usd": 94.69,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 93.6,
-    "vix": 15.67,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.0
+    "ormuz_flow_pct": 23.7,
+    "vix": 15.74,
+    "risk_level": "ALTO",
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "05 JUN 2026 · 12:27 UTC",
+      "headline": "UN DRON MARINO CAUSA UNA GRAN EXPLOSIÓN EN EL MAYOR PUERTO DE RUMANIA",
+      "detail": "El Ministerio de Defensa rumano identifica el aparato como uno de los utilizados en la guerra de Ucrania. Kiev acusa a Rusia del suceso",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 JUN 2026 · 11:38 UTC",
+      "headline": "SUSPECTED UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT",
+      "detail": "A suspected Ukrainian maritime drone has exploded in the Romanian port of Constanta, prompting evacuations Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "04 JUN 2026 · 17:37 UTC",
       "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
@@ -40,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.53 (+0.00%)",
-    "VIX: 15.67",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $94.69 (+0.00%)",
+    "VIX: 15.74",
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
