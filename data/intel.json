@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-04T22:18:11.635607+00:00",
+  "updated_at": "2026-06-05T00:03:16.847584+00:00",
   "market": {
-    "brent_usd": 95.21,
+    "brent_usd": 95.2,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 72.0,
+    "ormuz_flow_pct": 89.4,
     "vix": 15.4,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "03 JUN 2026 · 20:05 UTC",
-      "headline": "ONE KILLED AND DOZENS INJURED IN IRANIAN DRONE STRIKES ON KUWAIT AIRPORT",
-      "detail": "Iran says the attack on Kuwait was in retaliation for earlier US strikes on an Iranian oil tanker and island.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "03 JUN 2026 · 19:18 UTC",
       "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRGC",
       "detail": "Iran struck an international airport and other facilities in Kuwait as part of missile exchange with the US, the Gulf nation has said Read Full Article at RT.com",
@@ -46,7 +40,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.21 (+0.00%)",
+    "BRENT: $95.2 (+0.00%)",
     "VIX: 15.4",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
