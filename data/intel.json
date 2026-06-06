@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-06T17:08:19.458516+00:00",
+  "updated_at": "2026-06-06T19:16:32.731844+00:00",
   "market": {
     "brent_usd": 93.09,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 69.7,
+    "ormuz_flow_pct": 71.9,
     "vix": 21.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.1
@@ -15,16 +15,16 @@
   },
   "events": [
     {
+      "timestamp": "06 JUN 2026 · 18:17 UTC",
+      "headline": "IRÁN ATACA KUWAIT Y BARÉIN CON MISILES DESPUÉS DE QUE ESTADOS UNIDOS GOLPEARA SU",
+      "detail": "La Guardia Revolucionaria iraní asegura que ha dañado bases de la Quinta Flota de Estados Unidos, pero el mando militar norteamericano lo desmiente",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "06 JUN 2026 · 14:46 UTC",
       "headline": "US AND IRAN EXCHANGE STRIKES IN GULF IN LATEST TEST OF CEASEFIRE",
       "detail": "The US military strikes Iranian drones and radar sites and Tehran says it has targeted US bases in Kuwait and Bahrain.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 JUN 2026 · 09:30 UTC",
-      "headline": "IRÁN ATACA KUWAIT Y BARÉIN CON MISILES DESPUÉS DE QUE ESTADOS UNIDOS GOLPEARA SU",
-      "detail": "La Guardia Revolucionaria iraní asegura que ha dañado bases de la Quinta Flota de Estados Unidos, pero el mando militar norteamericano lo desmiente",
-      "severity": "INFO"
     },
     {
       "timestamp": "06 JUN 2026 · 00:05 UTC",
