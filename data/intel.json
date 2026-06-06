@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-06T02:48:11.376114+00:00",
+  "updated_at": "2026-06-06T06:27:41.158338+00:00",
   "market": {
-    "brent_usd": 92.87,
+    "brent_usd": 93.09,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 50.2,
+    "ormuz_flow_pct": 56.0,
     "vix": 21.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.1
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "06 JUN 2026 · 06:16 UTC",
+      "headline": "US AND IRAN EXCHANGE STRIKES IN GULF IN LATEST TEST OF CEASEFIRE",
+      "detail": "The US military says it struck Iranian drones and radar sites. Tehran responds by targeting US bases in Kuwait and Bahrain.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 JUN 2026 · 03:00 UTC",
+      "headline": "DESPUÉS DE ORMUZ: DEL PETROESTADO AL ELECTROESTADO",
+      "detail": "A diferencia de lo ocurrido en 1973, la actual crisis podría reconfigurar el paradigma energético que viene dominando el sistema internacional",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "06 JUN 2026 · 00:05 UTC",
       "headline": "TEHRAN RETALIATES FOR ‘DEFENSIVE’ US STRIKE ON IRANIAN ISLAND (VIDEOS)",
@@ -37,22 +49,10 @@
       "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
       "detail": "The EU is reportedly considering a naval mission in the Strait of Hormuz as tensions between Washington and Tehran remain elevated Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "03 JUN 2026 · 19:18 UTC",
-      "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRGC",
-      "detail": "Iran struck an international airport and other facilities in Kuwait as part of missile exchange with the US, the Gulf nation has said Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 JUN 2026 · 01:41 UTC",
-      "headline": "US MILITARY SECRETLY GUIDING SHIPS THROUGH STRAIT OF HORMUZ – NYT",
-      "detail": "The US military has covertly guided 70 cargo ships through the Strait of Hormuz, most with their transponders turned off, a report says Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.87 (+0.00%)",
+    "BRENT: $93.09 (+0.00%)",
     "VIX: 21.51",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
