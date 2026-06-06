@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-06T09:23:02.949581+00:00",
+  "updated_at": "2026-06-06T11:22:48.312447+00:00",
   "market": {
     "brent_usd": 93.09,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 60.3,
+    "ormuz_flow_pct": 63.0,
     "vix": 21.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.1
@@ -15,15 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "06 JUN 2026 · 09:30 UTC",
+      "headline": "IRÁN ATACA KUWAIT Y BARÉIN CON MISILES DESPUÉS DE QUE ESTADOS UNIDOS GOLPEARA SU",
+      "detail": "La Guardia Revolucionaria iraní asegura que ha dañado bases de la Quinta Flota de Estados Unidos, pero el mando militar norteamericano lo desmiente",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "06 JUN 2026 · 06:16 UTC",
       "headline": "US AND IRAN EXCHANGE STRIKES IN GULF IN LATEST TEST OF CEASEFIRE",
       "detail": "The US military says it struck Iranian drones and radar sites. Tehran responds by targeting US bases in Kuwait and Bahrain.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 JUN 2026 · 03:00 UTC",
-      "headline": "DESPUÉS DE ORMUZ: DEL PETROESTADO AL ELECTROESTADO",
-      "detail": "A diferencia de lo ocurrido en 1973, la actual crisis podría reconfigurar el paradigma energético que viene dominando el sistema internacional",
       "severity": "CRÍTICO"
     },
     {
