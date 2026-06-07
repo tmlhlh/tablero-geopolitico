@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-07T05:19:24.794986+00:00",
+  "updated_at": "2026-06-07T08:51:20.271476+00:00",
   "market": {
     "brent_usd": 93.09,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 79.6,
+    "ormuz_flow_pct": 81.6,
     "vix": 21.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 3.1
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "07 JUN 2026 · 07:33 UTC",
+      "headline": "IRAN WAR DAY 100: US, IRAN TRADE ATTACKS AGAIN, RAISING TENSIONS",
+      "detail": "Tensions rise as US shoots down Iranian drones over Strait of Hormuz, vital for international maritime traffic.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 JUN 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US FORCES SHOOT DOWN IRANIAN DRONES IN STRAIT OF HORMUZ",
+      "detail": "Israeli forces kill three high-ranking Lebanese soldiers as Arab nations condemn Iran's attacks on Bahrain and Kuwait.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "06 JUN 2026 · 18:17 UTC",
       "headline": "IRÁN ATACA KUWAIT Y BARÉIN CON MISILES DESPUÉS DE QUE ESTADOS UNIDOS GOLPEARA SU",
@@ -36,18 +48,6 @@
       "timestamp": "05 JUN 2026 · 17:43 UTC",
       "headline": "UN DRON MARINO CAUSA UNA GRAN EXPLOSIÓN EN EL MAYOR PUERTO DE RUMANIA",
       "detail": "El Ministerio de Defensa rumano identifica el aparato como uno de los utilizados en la guerra de Ucrania. Kiev afirma que era suyo, pero acusa a la guerra electrónica rusa de estar detrás del suceso",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 JUN 2026 · 11:38 UTC",
-      "headline": "UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT (VIDEOS)",
-      "detail": "The uncrewed naval vessel detonated near Constanta’s oil terminal, with more drones exploding offshore Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 JUN 2026 · 17:37 UTC",
-      "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
-      "detail": "The EU is reportedly considering a naval mission in the Strait of Hormuz as tensions between Washington and Tehran remain elevated Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
