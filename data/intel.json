@@ -1,36 +1,30 @@
 {
-  "updated_at": "2026-06-08T03:37:33.686318+00:00",
+  "updated_at": "2026-06-08T08:50:57.768649+00:00",
   "market": {
-    "brent_usd": 96.38,
+    "brent_usd": 97.36,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 87.8,
-    "vix": 21.51,
+    "ormuz_flow_pct": 94.0,
+    "vix": 19.89,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 3.1
+    "insurance_spread_pct": 2.5
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "06 JUN 2026 · 18:17 UTC",
-      "headline": "IRÁN ATACA KUWAIT Y BARÉIN CON MISILES DESPUÉS DE QUE ESTADOS UNIDOS GOLPEARA SU",
-      "detail": "La Guardia Revolucionaria iraní asegura que ha dañado bases de la Quinta Flota de Estados Unidos, pero el mando militar norteamericano lo desmiente",
-      "severity": "INFO"
+      "timestamp": "08 JUN 2026 · 04:47 UTC",
+      "headline": "SATELLITE IMAGES SHOW DESTRUCTION OF THE US-ISRAEL WAR ON IRAN",
+      "detail": "From Iranian naval ports to US military bases across the Gulf, Al Jazeera shows 15 sites before and after the attacks.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "06 JUN 2026 · 00:05 UTC",
       "headline": "TEHRAN RETALIATES FOR ‘DEFENSIVE’ US STRIKE ON IRANIAN ISLAND (VIDEOS)",
       "detail": "US forces have struck Iranian coastal radar sites after intercepting four drones over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 JUN 2026 · 17:43 UTC",
-      "headline": "UN DRON MARINO CAUSA UNA GRAN EXPLOSIÓN EN EL MAYOR PUERTO DE RUMANIA",
-      "detail": "El Ministerio de Defensa rumano identifica el aparato como uno de los utilizados en la guerra de Ucrania. Kiev afirma que era suyo, pero acusa a la guerra electrónica rusa de estar detrás del suceso",
-      "severity": "INFO"
     },
     {
       "timestamp": "05 JUN 2026 · 11:38 UTC",
@@ -52,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.38 (+0.00%)",
-    "VIX: 21.51",
+    "BRENT: $97.36 (+0.00%)",
+    "VIX: 19.89",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
