@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-06-08T08:50:57.768649+00:00",
+  "updated_at": "2026-06-08T13:03:31.462232+00:00",
   "market": {
-    "brent_usd": 97.36,
+    "brent_usd": 94.68,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 94.0,
-    "vix": 19.89,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 2.5
+    "ormuz_flow_pct": 8.5,
+    "vix": 18.83,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "08 JUN 2026 · 04:47 UTC",
-      "headline": "SATELLITE IMAGES SHOW DESTRUCTION OF THE US-ISRAEL WAR ON IRAN",
-      "detail": "From Iranian naval ports to US military bases across the Gulf, Al Jazeera shows 15 sites before and after the attacks.",
+      "timestamp": "08 JUN 2026 · 11:46 UTC",
+      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
+      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -43,11 +43,17 @@
       "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRGC",
       "detail": "Iran struck an international airport and other facilities in Kuwait as part of missile exchange with the US, the Gulf nation has said Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "08 JUN 2026 · 13:03 UTC",
+      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
+      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.36 (+0.00%)",
-    "VIX: 19.89",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $94.68 (+0.00%)",
+    "VIX: 18.83",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
