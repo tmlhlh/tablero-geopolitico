@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-09T20:15:09.612270+00:00",
+  "updated_at": "2026-06-09T22:21:22.763730+00:00",
   "market": {
-    "brent_usd": 91.6,
+    "brent_usd": 92.46,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.77,
+    "vix": 19.87,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.5
   },
@@ -15,16 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "09 JUN 2026 · 19:50 UTC",
-      "headline": "TRUMP ANUNCIÓ QUE IRÁN DERRIBÓ EL HELICÓPTERO MILITAR Y DIJO QUE EE.UU. “DEBERÁ ",
-      "detail": "El episodio en el estrecho de Ormuz golpea las conversaciones que Washington dice tener en su “fase final” y vuelve a encender el temor a una escalada mayor en Medio Oriente",
+      "timestamp": "09 JUN 2026 · 21:43 UTC",
+      "headline": "US STRIKING IRAN IN RESPONSE TO DOWNING OF HELICOPTER, MILITARY SAYS",
+      "detail": "President Donald Trump earlier accused Iran of shooting down the US helicopter over the Strait of Hormuz and vowed to respond.",
       "severity": "INFO"
     },
     {
-      "timestamp": "09 JUN 2026 · 16:54 UTC",
-      "headline": "TRUMP SAYS IRAN SHOT DOWN US HELICOPTER OVER HORMUZ, VOWS TO RESPOND",
-      "detail": "US president says although the pilots were rescued, Washington 'must, of necessity, respond to this attack'.",
-      "severity": "CRÍTICO"
+      "timestamp": "09 JUN 2026 · 21:17 UTC",
+      "headline": "TRUMP VOWS RETALIATION AFTER CLAIMING IRAN SHOT DOWN APACHE HELICOPTER",
+      "detail": "President Trump accused Iran of shooting down a US Apache helicopter over the Strait of Hormuz",
+      "severity": "INFO"
     },
     {
       "timestamp": "09 JUN 2026 · 13:42 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $91.6 (+0.00%)",
-    "VIX: 19.77",
+    "BRENT: $92.46 (+0.00%)",
+    "VIX: 19.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
