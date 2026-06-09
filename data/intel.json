@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-06-09T17:59:19.845574+00:00",
+  "updated_at": "2026-06-09T20:15:09.612270+00:00",
   "market": {
-    "brent_usd": 91.73,
+    "brent_usd": 91.6,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.2,
+    "vix": 19.77,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.6
+    "insurance_spread_pct": 2.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "09 JUN 2026 · 17:51 UTC",
+      "timestamp": "09 JUN 2026 · 19:50 UTC",
       "headline": "TRUMP ANUNCIÓ QUE IRÁN DERRIBÓ EL HELICÓPTERO MILITAR Y DIJO QUE EE.UU. “DEBERÁ ",
       "detail": "El episodio en el estrecho de Ormuz golpea las conversaciones que Washington dice tener en su “fase final” y vuelve a encender el temor a una escalada mayor en Medio Oriente",
       "severity": "INFO"
@@ -25,12 +25,6 @@
       "headline": "TRUMP SAYS IRAN SHOT DOWN US HELICOPTER OVER HORMUZ, VOWS TO RESPOND",
       "detail": "US president says although the pilots were rescued, Washington 'must, of necessity, respond to this attack'.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 JUN 2026 · 16:02 UTC",
-      "headline": "UN DRON NAVAL RESCATÓ A DOS AVIADORES NORTEAMERICANOS DESPUÉS DE QUE SU APACHE S",
-      "detail": "El presidente Trump dijo que los soldados se encuentran en buen estado; no se reveló la causa del accidente",
-      "severity": "INFO"
     },
     {
       "timestamp": "09 JUN 2026 · 13:42 UTC",
@@ -49,11 +43,17 @@
       "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
       "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 JUN 2026 · 11:46 UTC",
+      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
+      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.73 (+0.00%)",
-    "VIX: 20.2",
+    "BRENT: $91.6 (+0.00%)",
+    "VIX: 19.77",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
