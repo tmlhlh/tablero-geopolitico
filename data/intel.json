@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-06-09T05:01:47.037651+00:00",
+  "updated_at": "2026-06-09T09:36:01.774470+00:00",
   "market": {
-    "brent_usd": 93.4,
+    "brent_usd": 92.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.92,
+    "vix": 18.06,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 JUN 2026 · 08:37 UTC",
+      "headline": "INDIAN CREW RESCUED AFTER ATTACK ON OIL TANKER OFF OMAN",
+      "detail": "Indian crew rescued after attack on oil tanker off Oman",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 JUN 2026 · 06:43 UTC",
+      "headline": "UN HELICÓPTERO MILITAR DE ESTADOS UNIDOS SE ESTRELLÓ CERCA DEL ESTRECHO DE ORMUZ",
+      "detail": "El presidente Donald Trump aseguró que los dos tripulantes a bordo fueron rescatados por el ejército estadounidense y que se encuentran “bien”",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 JUN 2026 · 06:15 UTC",
+      "headline": "ALL 24 INDIAN CREW RESCUED FROM TANKER SET ABLAZE OFF OMAN AFTER US STRIKE",
+      "detail": "Crew members of the unladen tanker had sent distress messages saying the vessel was on fire and sinking.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "08 JUN 2026 · 11:46 UTC",
       "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
@@ -31,29 +49,11 @@
       "headline": "UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT (VIDEOS)",
       "detail": "The uncrewed naval vessel detonated near Constanta’s oil terminal, with more drones exploding offshore Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 JUN 2026 · 17:37 UTC",
-      "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
-      "detail": "The EU is reportedly considering a naval mission in the Strait of Hormuz as tensions between Washington and Tehran remain elevated Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 JUN 2026 · 19:18 UTC",
-      "headline": "US PATRIOT MISSILE DEVASTATED GULF STATE AIRPORT – IRGC",
-      "detail": "Iran struck an international airport and other facilities in Kuwait as part of missile exchange with the US, the Gulf nation has said Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUN 2026 · 05:01 UTC",
-      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
-      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.4 (+0.00%)",
-    "VIX: 18.92",
+    "BRENT: $92.1 (+0.00%)",
+    "VIX: 18.06",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
