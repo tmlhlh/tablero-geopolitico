@@ -1,19 +1,43 @@
 {
-  "updated_at": "2026-06-09T12:33:37.441550+00:00",
+  "updated_at": "2026-06-09T15:51:49.701046+00:00",
   "market": {
-    "brent_usd": 92.68,
+    "brent_usd": 90.97,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.16,
+    "vix": 20.46,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 JUN 2026 · 15:11 UTC",
+      "headline": "ASÍ FUE EL OPERATIVO MILITAR CERCA DEL ESTRECHO DE ORMUZ PARA LOCALIZAR Y RESCAT",
+      "detail": "Conoce cómo fue el rescate de los dos tripulantes del Apache que cayó cerca del Estrecho de Ormuz y qué se sabe sobre el accidente.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 JUN 2026 · 13:42 UTC",
+      "headline": "'PLEASE SEND HELP': CREW'S DISTRESS CALL AFTER SHIP HIT BY US MISSILE",
+      "detail": "The crew of a sanctioned oil tanker were rescued off Oman after it was struck by a missile fired from a US fighter jet.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 JUN 2026 · 13:15 UTC",
+      "headline": "SEA DRONE RESCUES US ARMY HELICOPTER CREW NEAR STRAIT OF HORMUZ",
+      "detail": "An uncrewed vessel picked up two crew members of an Apache helicopter that went down on Monday, US officials tells CBS News.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 JUN 2026 · 12:34 UTC",
+      "headline": "UN DRON RESCATA CON VIDA A LOS PILOTOS DE UN HELICÓPTERO ESTADOUNIDENSE ESTRELLA",
+      "detail": "El vehículo no tripulado localizó y asistió a los dos militares en el agua. Las causas del siniestro siguen siendo una incógnita",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 JUN 2026 · 12:17 UTC",
       "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
@@ -25,35 +49,11 @@
       "headline": "INDIAN CREW RESCUED AFTER ATTACK ON OIL TANKER OFF OMAN",
       "detail": "Indian crew rescued after attack on oil tanker off Oman",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 JUN 2026 · 06:15 UTC",
-      "headline": "ALL 24 INDIAN CREW RESCUED FROM TANKER SET ABLAZE OFF OMAN AFTER US STRIKE",
-      "detail": "Crew members of the unladen tanker had sent distress messages saying the vessel was on fire and sinking.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 JUN 2026 · 11:46 UTC",
-      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
-      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 JUN 2026 · 00:05 UTC",
-      "headline": "TEHRAN RETALIATES FOR ‘DEFENSIVE’ US STRIKE ON IRANIAN ISLAND (VIDEOS)",
-      "detail": "US forces have struck Iranian coastal radar sites after intercepting four drones over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 JUN 2026 · 11:38 UTC",
-      "headline": "UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT (VIDEOS)",
-      "detail": "The uncrewed naval vessel detonated near Constanta’s oil terminal, with more drones exploding offshore Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.68 (+0.00%)",
-    "VIX: 18.16",
+    "BRENT: $90.97 (+0.00%)",
+    "VIX: 20.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
