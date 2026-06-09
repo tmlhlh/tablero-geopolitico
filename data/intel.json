@@ -1,35 +1,41 @@
 {
-  "updated_at": "2026-06-09T15:51:49.701046+00:00",
+  "updated_at": "2026-06-09T17:59:19.845574+00:00",
   "market": {
-    "brent_usd": 90.97,
+    "brent_usd": 91.73,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.46,
+    "vix": 20.2,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.7
+    "insurance_spread_pct": 2.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "09 JUN 2026 · 15:11 UTC",
-      "headline": "ASÍ FUE EL OPERATIVO MILITAR CERCA DEL ESTRECHO DE ORMUZ PARA LOCALIZAR Y RESCAT",
-      "detail": "Conoce cómo fue el rescate de los dos tripulantes del Apache que cayó cerca del Estrecho de Ormuz y qué se sabe sobre el accidente.",
+      "timestamp": "09 JUN 2026 · 17:51 UTC",
+      "headline": "TRUMP ANUNCIÓ QUE IRÁN DERRIBÓ EL HELICÓPTERO MILITAR Y DIJO QUE EE.UU. “DEBERÁ ",
+      "detail": "El episodio en el estrecho de Ormuz golpea las conversaciones que Washington dice tener en su “fase final” y vuelve a encender el temor a una escalada mayor en Medio Oriente",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 JUN 2026 · 16:54 UTC",
+      "headline": "TRUMP SAYS IRAN SHOT DOWN US HELICOPTER OVER HORMUZ, VOWS TO RESPOND",
+      "detail": "US president says although the pilots were rescued, Washington 'must, of necessity, respond to this attack'.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 JUN 2026 · 16:02 UTC",
+      "headline": "UN DRON NAVAL RESCATÓ A DOS AVIADORES NORTEAMERICANOS DESPUÉS DE QUE SU APACHE S",
+      "detail": "El presidente Trump dijo que los soldados se encuentran en buen estado; no se reveló la causa del accidente",
       "severity": "INFO"
     },
     {
       "timestamp": "09 JUN 2026 · 13:42 UTC",
       "headline": "'PLEASE SEND HELP': CREW'S DISTRESS CALL AFTER SHIP HIT BY US MISSILE",
       "detail": "The crew of a sanctioned oil tanker were rescued off Oman after it was struck by a missile fired from a US fighter jet.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUN 2026 · 13:15 UTC",
-      "headline": "SEA DRONE RESCUES US ARMY HELICOPTER CREW NEAR STRAIT OF HORMUZ",
-      "detail": "An uncrewed vessel picked up two crew members of an Apache helicopter that went down on Monday, US officials tells CBS News.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
       "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 JUN 2026 · 08:37 UTC",
-      "headline": "INDIAN CREW RESCUED AFTER ATTACK ON OIL TANKER OFF OMAN",
-      "detail": "Indian crew rescued after attack on oil tanker off Oman",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.97 (+0.00%)",
-    "VIX: 20.46",
+    "BRENT: $91.73 (+0.00%)",
+    "VIX: 20.2",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
