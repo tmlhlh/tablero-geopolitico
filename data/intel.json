@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-06-10T12:53:38.411266+00:00",
+  "updated_at": "2026-06-10T16:33:01.378145+00:00",
   "market": {
-    "brent_usd": 92.27,
+    "brent_usd": 93.85,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 21.0,
+    "vix": 22.05,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.9
+    "insurance_spread_pct": 3.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "10 JUN 2026 · 12:39 UTC",
-      "headline": "TRUMP AMENAZA A IRÁN TRAS EL FUEGO CRUZADO: “HA TARDADO DEMASIADO EN NEGOCIAR UN",
-      "detail": "Teherán ataca bases estadounidenses en países árabes en represalia por la ofensiva en Ormuz y acusa a Washington e Israel de poner en peligro las negociaciones de paz con sus “continuas vulneraciones ",
-      "severity": "INFO"
+      "timestamp": "10 JUN 2026 · 15:45 UTC",
+      "headline": "UN MISIL IMPACTA CONTRA UN PETROLERO FRENTE A LAS COSTAS DE OMÁN: AL MENOS UN FA",
+      "detail": "Fuentes de seguridad marítima sospechan de un ataque estadounidense para bloquear los puertos iraníes",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "10 JUN 2026 · 12:02 UTC",
-      "headline": "IRÁN ATACÓ CON MISILES Y DRONES BASES DE EE.UU. EN MEDIO ORIENTE TRAS LOS BOMBAR",
-      "detail": "Luego de la ofensiva estadounidense sobre territorio iraní en respuesta al derribo de un helicóptero militar en el estrecho de Ormuz, Teherán arremetió contra instalaciones militares en Kuwait, Baréin",
+      "timestamp": "10 JUN 2026 · 13:57 UTC",
+      "headline": "TRUMP AMENAZA A IRÁN TRAS EL FUEGO CRUZADO: “HA TARDADO DEMASIADO EN NEGOCIAR UN",
+      "detail": "Teherán ataca bases de EE UU en países árabes en represalia por la ofensiva en Ormuz y acusa a Washington e Israel de poner en peligro las negociaciones con sus ”vulneraciones de la tregua”, mientras ",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "10 JUN 2026 · 13:27 UTC",
+      "headline": "US BOMBS IRAN’S WATER FACILITIES: WHY THAT’S SO SIGNIFICANT",
+      "detail": "The US struck several sites in Iran, saying it retaliated against the downing of a US helicopter in the Strait of Hormuz",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
       "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 JUN 2026 · 11:46 UTC",
-      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
-      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.27 (+0.00%)",
-    "VIX: 21.0",
+    "BRENT: $93.85 (+0.00%)",
+    "VIX: 22.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
