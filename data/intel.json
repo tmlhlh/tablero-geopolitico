@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T21:57:13.737885+00:00",
+  "updated_at": "2026-06-10T23:26:09.635450+00:00",
   "market": {
-    "brent_usd": 94.71,
+    "brent_usd": 96.27,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "10 JUN 2026 · 13:57 UTC",
-      "headline": "TRUMP AMENAZA A IRÁN TRAS EL FUEGO CRUZADO: “HA TARDADO DEMASIADO EN NEGOCIAR UN",
-      "detail": "Teherán ataca bases de EE UU en países árabes en represalia por la ofensiva en Ormuz y acusa a Washington e Israel de poner en peligro las negociaciones con sus “vulneraciones de la tregua”, mientras ",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "10 JUN 2026 · 11:43 UTC",
       "headline": "UKRAINE SAYS MISSILES HIT MILITARY PLANT DEEP INSIDE RUSSIA",
@@ -49,10 +43,16 @@
       "headline": "UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT (VIDEOS)",
       "detail": "The uncrewed naval vessel detonated near Constanta’s oil terminal, with more drones exploding offshore Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "04 JUN 2026 · 17:37 UTC",
+      "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
+      "detail": "The EU is reportedly considering a naval mission in the Strait of Hormuz as tensions between Washington and Tehran remain elevated Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.71 (+0.00%)",
+    "BRENT: $96.27 (+0.00%)",
     "VIX: 22.22",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
