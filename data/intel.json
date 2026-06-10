@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T00:09:35.600833+00:00",
+  "updated_at": "2026-06-10T05:14:22.426991+00:00",
   "market": {
-    "brent_usd": 92.47,
+    "brent_usd": 91.97,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,22 @@
   },
   "events": [
     {
-      "timestamp": "09 JUN 2026 · 21:43 UTC",
-      "headline": "US STRIKING IRAN IN RESPONSE TO DOWNING OF HELICOPTER, MILITARY SAYS",
+      "timestamp": "10 JUN 2026 · 04:58 UTC",
+      "headline": "IRÁN ATACÓ CON MISILES Y DRONES BASES DE EE.UU. EN MEDIO ORIENTE TRAS LOS BOMBAR",
+      "detail": "Luego de la ofensiva estadounidense sobre territorio iraní en respuesta al derribo de un helicóptero militar en el estrecho de Ormuz, Teherán arremetió contra instalaciones militares en Kuwait, Baréin",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 JUN 2026 · 04:28 UTC",
+      "headline": "US AND IRAN EXCHANGE FIRE AFTER AMERICAN PATROL HELICOPTER DOWNED IN HORMUZ",
       "detail": "President Donald Trump earlier accused Iran of shooting down the US helicopter over the Strait of Hormuz and vowed to respond.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "10 JUN 2026 · 02:58 UTC",
+      "headline": "IRAN ATTACKS BAHRAIN, KUWAIT, JORDAN IN RETALIATION FOR US STRIKES",
+      "detail": "Strikes come after US attacked Iranian ports and islands in the Strait of Hormuz over the downing of a helicopter.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "09 JUN 2026 · 21:17 UTC",
@@ -37,22 +49,10 @@
       "headline": "UN DRON RESCATA CON VIDA A LOS PILOTOS DE UN HELICÓPTERO ESTADOUNIDENSE ESTRELLA",
       "detail": "El vehículo no tripulado localizó y asistió a los dos militares en el agua. Las causas del siniestro siguen siendo una incógnita",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUN 2026 · 12:17 UTC",
-      "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
-      "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 JUN 2026 · 11:46 UTC",
-      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
-      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.47 (+0.00%)",
+    "BRENT: $91.97 (+0.00%)",
     "VIX: 19.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
