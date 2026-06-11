@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T23:26:09.635450+00:00",
+  "updated_at": "2026-06-11T03:35:31.089293+00:00",
   "market": {
-    "brent_usd": 96.27,
+    "brent_usd": 94.75,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,44 +15,44 @@
   },
   "events": [
     {
+      "timestamp": "11 JUN 2026 · 01:46 UTC",
+      "headline": "TEHRAN TARGETS US GULF BASES AFTER AMERICAN FORCES LAUNCH NEW STRIKES ON IRAN",
+      "detail": "US Central Command says its latest round of strikes were in response to \"unwarranted and continued aggression\" from Iran.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUN 2026 · 01:18 UTC",
+      "headline": "IRAN ANNOUNCES CLOSURE OF STRAIT OF HORMUZ FOLLOWING US STRIKES",
+      "detail": "Iranian officials say the Strait of Hormuz has been closed in response to US strikes.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUN 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN TARGETS BAHRAIN, KUWAITI BASES AFTER NEW US STRIKES",
+      "detail": "Iran remains defiant amid US attacks, orders complete closure of Strait of Hormuz to all vessels.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "10 JUN 2026 · 23:57 UTC",
+      "headline": "IRAN ATTACKS BAHRAIN, KUWAIT AND SHIPS IN HORMUZ AFTER NEW US STRIKES",
+      "detail": "Tehran claims drone strikes on bases in Bahrain and Kuwait, as US strikes Qeshm Island and ports along Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "10 JUN 2026 · 23:55 UTC",
+      "headline": "TRUMP’S CLAIM OF ESCORTING OIL THROUGH HORMUZ WON’T EASE CRISIS",
+      "detail": "Trump’s claim of escorting oil through Hormuz won’t ease crisis",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "10 JUN 2026 · 11:43 UTC",
       "headline": "UKRAINE SAYS MISSILES HIT MILITARY PLANT DEEP INSIDE RUSSIA",
       "detail": "Ukraine's military also says it has struck a Russian oil refinery and a \"shadow fleet\" oil tanker in the Black Sea.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUN 2026 · 12:17 UTC",
-      "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
-      "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 JUN 2026 · 11:46 UTC",
-      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
-      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 JUN 2026 · 00:05 UTC",
-      "headline": "TEHRAN RETALIATES FOR ‘DEFENSIVE’ US STRIKE ON IRANIAN ISLAND (VIDEOS)",
-      "detail": "US forces have struck Iranian coastal radar sites after intercepting four drones over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 JUN 2026 · 11:38 UTC",
-      "headline": "UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT (VIDEOS)",
-      "detail": "The uncrewed naval vessel detonated near Constanta’s oil terminal, with more drones exploding offshore Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 JUN 2026 · 17:37 UTC",
-      "headline": "KALLAS PROPOSES EU NAVAL MISSION FOR HORMUZ",
-      "detail": "The EU is reportedly considering a naval mission in the Strait of Hormuz as tensions between Washington and Tehran remain elevated Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.27 (+0.00%)",
+    "BRENT: $94.75 (+0.00%)",
     "VIX: 22.22",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
