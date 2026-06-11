@@ -1,42 +1,36 @@
 {
-  "updated_at": "2026-06-11T12:42:01.547889+00:00",
+  "updated_at": "2026-06-11T16:51:19.833491+00:00",
   "market": {
-    "brent_usd": 93.51,
+    "brent_usd": 93.91,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 21.52,
+    "vix": 21.21,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.1
+    "insurance_spread_pct": 3.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "11 JUN 2026 · 12:57 UTC",
+      "headline": "IRAN SHUTS HORMUZ STRAIT: BUT WASN’T IT ALREADY CLOSED?",
+      "detail": "The strait is a crucial maritime route, through which 20 percent of global oil and natural gas is shipped in peacetime.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 JUN 2026 · 12:25 UTC",
+      "headline": "DID US SNEAK 100 MILLION BARRELS OF OIL OUT OF HORMUZ, AS TRUMP CLAIMS?",
+      "detail": "The maths doesn't appear to hold up, even though the US has likely managed to get some oil out of the strait.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "11 JUN 2026 · 11:58 UTC",
       "headline": "INDIA SAYS US HIT ANOTHER SHIP OFF OMAN, CONFIRMS 3 DEAD IN SEPARATE ATTACK",
       "detail": "All 20 Indians aboard vessel involved in the latest incident are safe, said an Indian shipping ministry official.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 JUN 2026 · 11:02 UTC",
-      "headline": "IRAN SAYS 18 TARGETS HIT ACROSS US BASES, STRAIT OF HORMUZ CLOSED",
-      "detail": "Iran’s Revolutionary Guard Corps says it hit 18 targets at US bases in Kuwait, Bahrain and Jordan.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUN 2026 · 10:02 UTC",
-      "headline": "THREE INDIAN SAILORS KILLED IN US STRIKE ON OIL TANKER",
-      "detail": "A US strike on an oil tanker accused of transporting Iranian oil has killed three Indian sailors.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 JUN 2026 · 11:43 UTC",
-      "headline": "UKRAINE SAYS MISSILES HIT MILITARY PLANT DEEP INSIDE RUSSIA",
-      "detail": "Ukraine's military also says it has struck a Russian oil refinery and a \"shadow fleet\" oil tanker in the Black Sea.",
-      "severity": "INFO"
     },
     {
       "timestamp": "09 JUN 2026 · 12:17 UTC",
@@ -49,11 +43,17 @@
       "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
       "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 JUN 2026 · 00:05 UTC",
+      "headline": "TEHRAN RETALIATES FOR ‘DEFENSIVE’ US STRIKE ON IRANIAN ISLAND (VIDEOS)",
+      "detail": "US forces have struck Iranian coastal radar sites after intercepting four drones over the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.51 (+0.00%)",
-    "VIX: 21.52",
+    "BRENT: $93.91 (+0.00%)",
+    "VIX: 21.21",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
