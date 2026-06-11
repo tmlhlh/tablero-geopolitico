@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-06-11T08:42:08.061443+00:00",
+  "updated_at": "2026-06-11T12:42:01.547889+00:00",
   "market": {
-    "brent_usd": 92.27,
+    "brent_usd": 93.51,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.57,
+    "vix": 21.52,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.7
+    "insurance_spread_pct": 3.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "11 JUN 2026 · 05:52 UTC",
-      "headline": "IRAN WAR DAY 104: IRAN ATTACKS US BASES, CLOSES STRAIT AFTER TRUMP STRIKES",
-      "detail": "Iran closes Strait of Hormuz, launches retaliatory strikes on US bases in Kuwait, Bahrain and Jordan after US attacks.",
+      "timestamp": "11 JUN 2026 · 11:58 UTC",
+      "headline": "INDIA SAYS US HIT ANOTHER SHIP OFF OMAN, CONFIRMS 3 DEAD IN SEPARATE ATTACK",
+      "detail": "All 20 Indians aboard vessel involved in the latest incident are safe, said an Indian shipping ministry official.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUN 2026 · 11:02 UTC",
+      "headline": "IRAN SAYS 18 TARGETS HIT ACROSS US BASES, STRAIT OF HORMUZ CLOSED",
+      "detail": "Iran’s Revolutionary Guard Corps says it hit 18 targets at US bases in Kuwait, Bahrain and Jordan.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 JUN 2026 · 10:02 UTC",
+      "headline": "THREE INDIAN SAILORS KILLED IN US STRIKE ON OIL TANKER",
+      "detail": "A US strike on an oil tanker accused of transporting Iranian oil has killed three Indian sailors.",
       "severity": "CRÍTICO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
       "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 JUN 2026 · 00:05 UTC",
-      "headline": "TEHRAN RETALIATES FOR ‘DEFENSIVE’ US STRIKE ON IRANIAN ISLAND (VIDEOS)",
-      "detail": "US forces have struck Iranian coastal radar sites after intercepting four drones over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 JUN 2026 · 11:38 UTC",
-      "headline": "UKRAINIAN DRONE EXPLODES IN ROMANIAN PORT (VIDEOS)",
-      "detail": "The uncrewed naval vessel detonated near Constanta’s oil terminal, with more drones exploding offshore Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.27 (+0.00%)",
-    "VIX: 20.57",
+    "BRENT: $93.51 (+0.00%)",
+    "VIX: 21.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
