@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-11T16:51:19.833491+00:00",
+  "updated_at": "2026-06-11T19:33:13.990928+00:00",
   "market": {
-    "brent_usd": 93.91,
+    "brent_usd": 89.45,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 21.21,
+    "vix": 19.7,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.0
+    "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -19,18 +19,6 @@
       "headline": "IRAN SHUTS HORMUZ STRAIT: BUT WASN’T IT ALREADY CLOSED?",
       "detail": "The strait is a crucial maritime route, through which 20 percent of global oil and natural gas is shipped in peacetime.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUN 2026 · 12:25 UTC",
-      "headline": "DID US SNEAK 100 MILLION BARRELS OF OIL OUT OF HORMUZ, AS TRUMP CLAIMS?",
-      "detail": "The maths doesn't appear to hold up, even though the US has likely managed to get some oil out of the strait.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUN 2026 · 11:58 UTC",
-      "headline": "INDIA SAYS US HIT ANOTHER SHIP OFF OMAN, CONFIRMS 3 DEAD IN SEPARATE ATTACK",
-      "detail": "All 20 Indians aboard vessel involved in the latest incident are safe, said an Indian shipping ministry official.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "09 JUN 2026 · 12:17 UTC",
@@ -49,11 +37,17 @@
       "headline": "TEHRAN RETALIATES FOR ‘DEFENSIVE’ US STRIKE ON IRANIAN ISLAND (VIDEOS)",
       "detail": "US forces have struck Iranian coastal radar sites after intercepting four drones over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUN 2026 · 19:33 UTC",
+      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
+      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.91 (+0.00%)",
-    "VIX: 21.21",
+    "BRENT: $89.45 (+0.00%)",
+    "VIX: 19.7",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
