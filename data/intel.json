@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-06-12T03:35:25.623063+00:00",
+  "updated_at": "2026-06-12T08:21:48.227504+00:00",
   "market": {
-    "brent_usd": 89.45,
+    "brent_usd": 86.9,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.44,
+    "vix": 18.93,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 JUN 2026 · 07:49 UTC",
+      "headline": "US-IRAN CEASEFIRE? NOT FOR INDIAN SAILORS BEING KILLED IN HORMUZ",
+      "detail": "The United States military has struck three vessels in the Strait of Hormuz this week, killing three Indian sailors.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 JUN 2026 · 04:04 UTC",
+      "headline": "NATO MEMBER ASKS UKRAINE TO ADD SELF-DESTRUCT FUNCTION TO STRAY DRONES",
+      "detail": "Romania’s defense chief has asked Ukraine to program its naval drones to self-destruct if they veer into Romanian territorial waters Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 JUN 2026 · 12:17 UTC",
       "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
@@ -33,15 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 JUN 2026 · 03:35 UTC",
+      "timestamp": "12 JUN 2026 · 08:21 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.45 (+0.00%)",
-    "VIX: 19.44",
+    "BRENT: $86.9 (+0.00%)",
+    "VIX: 18.93",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
