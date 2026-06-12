@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-06-12T16:15:01.541313+00:00",
+  "updated_at": "2026-06-12T19:02:14.314721+00:00",
   "market": {
-    "brent_usd": 86.94,
+    "brent_usd": 86.98,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.48,
+    "vix": 18.18,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "12 JUN 2026 · 12:33 UTC",
-      "headline": "NAVEGAR POR EL ESTRECHO DE ORMUZ, UN JUEGO DEL RATÓN Y EL GATO QUE PUEDE ACABAR ",
-      "detail": "La Armada estadounidense refuerza sus ataques con misiles contra buques de la ‘flota fantasma’ iraní. La muerte de tres tripulantes indios eleva a 14 la cifra de marineros que han perdido la vida en a",
+      "timestamp": "12 JUN 2026 · 17:51 UTC",
+      "headline": "EL PROGRAMA NUCLEAR, ORMUZ Y EL ROL DE VANCE: QUÉ SE SABE DEL POSIBLE ACUERDO EN",
+      "detail": "Trump anticipó una firma inminente en Europa, pero Teherán aún no dio su aval definitivo y exige incluir alivio económico, fondos congelados, sanciones y el frente libanés en la negociación",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 JUN 2026 · 09:51 UTC",
-      "headline": "FAMILY MOURN INDIAN SAILOR KILLED IN US STRIKE ON OIL TANKER",
-      "detail": "The wife and family of an Indian sailor killed in a US strike on a tanker off Oman this week have gathered in mourning.",
+      "timestamp": "12 JUN 2026 · 17:35 UTC",
+      "headline": "NAVEGAR POR EL ESTRECHO DE ORMUZ, UN JUEGO DEL RATÓN Y EL GATO QUE PUEDE ACABAR ",
+      "detail": "La Armada estadounidense refuerza sus ataques con misiles contra buques de la ‘flota fantasma’ iraní. La muerte de tres tripulantes indios eleva a 14 la cifra de marineros que han perdido la vida en a",
       "severity": "CRÍTICO"
     },
     {
@@ -45,15 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 JUN 2026 · 16:15 UTC",
+      "timestamp": "12 JUN 2026 · 19:02 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.94 (+0.00%)",
-    "VIX: 19.48",
+    "BRENT: $86.98 (+0.00%)",
+    "VIX: 18.18",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
