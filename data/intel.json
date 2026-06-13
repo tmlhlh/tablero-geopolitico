@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T12:22:47.670123+00:00",
+  "updated_at": "2026-06-13T14:57:20.970578+00:00",
   "market": {
     "brent_usd": 87.33,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 JUN 2026 · 12:30 UTC",
+      "headline": "IRANIAN DRONES DOWNED IN HORMUZ – US",
+      "detail": "The Strait of Hormuz that has largely remained closed since the US and Israel attacked Iran, is open for transit, CENTCOM claims Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "13 JUN 2026 · 03:50 UTC",
       "headline": "NO RETURN TO PRE-WAR STATUS FOR STRAIT OF HORMUZ – IRAN’S TOP DIPLOMAT",
@@ -43,12 +49,6 @@
       "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
       "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUN 2026 · 12:22 UTC",
-      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
-      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
