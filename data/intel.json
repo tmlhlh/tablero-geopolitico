@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T16:14:28.368769+00:00",
+  "updated_at": "2026-06-13T18:04:53.677193+00:00",
   "market": {
     "brent_usd": 87.33,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 JUN 2026 · 17:56 UTC",
+      "headline": "TRUMP DIJO QUE EL ACUERDO PARA FRENAR LA GUERRA SE FIRMARÁ MAÑANA, PERO IRÁN DIJ",
+      "detail": "El borrador contempla la reapertura del estrecho de Ormuz, el levantamiento de sanciones y una futura negociación sobre el programa nuclear iraní",
+      "severity": "INFO"
+    },
     {
       "timestamp": "13 JUN 2026 · 12:30 UTC",
       "headline": "IRANIAN DRONES DOWNED IN HORMUZ – US",
@@ -42,12 +48,6 @@
       "timestamp": "09 JUN 2026 · 12:17 UTC",
       "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
       "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 JUN 2026 · 11:46 UTC",
-      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
-      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
