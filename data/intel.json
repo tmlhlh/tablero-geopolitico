@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T20:13:07.666931+00:00",
+  "updated_at": "2026-06-13T21:59:55.407267+00:00",
   "market": {
     "brent_usd": 87.33,
     "brent_chg": 0.0
@@ -18,12 +18,6 @@
       "timestamp": "13 JUN 2026 · 18:18 UTC",
       "headline": "TRUMP PREVÉ QUE LA TREGUA CON IRÁN SE FIRME ESTE DOMINGO Y QUE ORMUZ QUEDE ABIER",
       "detail": "En otra jornada de mensajes contradictorios, Teherán descarta que el pacto esté tan cerca. El presidente de Estados Unidos se reunirá con líderes árabes en el G-7",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUN 2026 · 18:03 UTC",
-      "headline": "TRUMP ANUNCIÓ QUE EL ACUERDO PARA FRENAR LA GUERRA SE FIRMARÁ MAÑANA, PERO IRÁN ",
-      "detail": "El borrador contempla la reapertura del estrecho de Ormuz, el levantamiento de sanciones y una futura negociación sobre el programa nuclear iraní",
       "severity": "INFO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "NATO MEMBER ASKS UKRAINE TO ADD SELF-DESTRUCT FUNCTION TO STRAY DRONES",
       "detail": "Romania’s defense chief has asked Ukraine to program its naval drones to self-destruct if they veer into Romanian territorial waters Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "09 JUN 2026 · 12:17 UTC",
+      "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
+      "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
