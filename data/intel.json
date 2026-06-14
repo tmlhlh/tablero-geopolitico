@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-14T21:07:23.596481+00:00",
+  "updated_at": "2026-06-14T23:05:21.898143+00:00",
   "market": {
-    "brent_usd": 87.33,
+    "brent_usd": 84.26,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,30 @@
   },
   "events": [
     {
+      "timestamp": "14 JUN 2026 · 22:55 UTC",
+      "headline": "US AND IRAN AGREE ON PEACE DEAL, SIGNAL REOPENING OF STRAIT OF HORMUZ: LIVE UPDA",
+      "detail": "The US and Iran are set to sign a peace agreement later this week in Switzerland Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUN 2026 · 22:43 UTC",
+      "headline": "US-IRAN CEASEFIRE DEAL ANNOUNCED, TRUMP SAYS STRAIT OF HORMUZ REOPENING",
+      "detail": "Trump has announced a ceasefire deal with Iran has been agreed, and that the Strait of Hormuz will reopen for shipping.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUN 2026 · 22:40 UTC",
+      "headline": "DONALD TRUMP: “AUTORIZO PLENAMENTE LA APERTURA SIN PEAJE DEL ESTRECHO DE ORMUZ” ",
+      "detail": "“El acuerdo con la República Islámica de Irán ya está completo. ¡Felicitaciones a todos!”, añadió el mandatario casi al mismo momento que el mediador paquistaní anunciaba el acuerdo entre las partes",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUN 2026 · 22:36 UTC",
+      "headline": "TRUMP ANUNCIÓ QUE ESTADOS UNIDOS E IRÁN ALCANZARON UN ACUERDO PARA PONER FIN A L",
+      "detail": "El presidente norteamericano afirmó que se firmará el próximo viernes y ordenó levantar el bloqueo en el estrecho de Ormuz; “que fluya el petróleo”, señaló; cae el precio del petróleo",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "13 JUN 2026 · 18:18 UTC",
       "headline": "TRUMP PREVÉ QUE LA TREGUA CON IRÁN SE FIRME ESTE DOMINGO Y QUE ORMUZ QUEDE ABIER",
       "detail": "En otra jornada de mensajes contradictorios, Teherán descarta que el pacto esté tan cerca. El presidente de Estados Unidos se reunirá con líderes árabes en el G-7",
@@ -25,34 +49,10 @@
       "headline": "IRANIAN DRONES DOWNED IN HORMUZ – US",
       "detail": "The Strait of Hormuz that has largely remained closed since the US and Israel attacked Iran, is open for transit, CENTCOM claims Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUN 2026 · 03:50 UTC",
-      "headline": "NO RETURN TO PRE-WAR STATUS FOR STRAIT OF HORMUZ – IRAN’S TOP DIPLOMAT",
-      "detail": "Iran’s foreign minister has said control of the Strait of Hormuz will not return to its pre-war status following the US-Israeli attacks Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUN 2026 · 04:04 UTC",
-      "headline": "NATO MEMBER ASKS UKRAINE TO ADD SELF-DESTRUCT FUNCTION TO STRAY DRONES",
-      "detail": "Romania’s defense chief has asked Ukraine to program its naval drones to self-destruct if they veer into Romanian territorial waters Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUN 2026 · 12:17 UTC",
-      "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
-      "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUN 2026 · 21:07 UTC",
-      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
-      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.33 (+0.00%)",
+    "BRENT: $84.26 (+0.00%)",
     "VIX: 17.68",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
