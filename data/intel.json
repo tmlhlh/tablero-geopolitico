@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T23:14:39.297147+00:00",
+  "updated_at": "2026-06-14T03:38:44.133503+00:00",
   "market": {
     "brent_usd": 87.33,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 JUN 2026 · 17:35 UTC",
-      "headline": "NAVEGAR POR EL ESTRECHO DE ORMUZ, UN JUEGO DEL RATÓN Y EL GATO QUE PUEDE ACABAR ",
-      "detail": "La Armada estadounidense refuerza sus ataques con misiles contra buques de la ‘flota fantasma’ iraní. La muerte de tres tripulantes indios eleva a 14 la cifra de marineros que han perdido la vida en a",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 JUN 2026 · 04:04 UTC",
       "headline": "NATO MEMBER ASKS UKRAINE TO ADD SELF-DESTRUCT FUNCTION TO STRAY DRONES",
       "detail": "Romania’s defense chief has asked Ukraine to program its naval drones to self-destruct if they veer into Romanian territorial waters Read Full Article at RT.com",
@@ -48,6 +42,12 @@
       "timestamp": "09 JUN 2026 · 12:17 UTC",
       "headline": "US CHOPPER CRASHES NEAR STRAIT OF HORMUZ",
       "detail": "A US Apache attack helicopter has crashed near the Strait of Hormuz, President Donald Trump has confirmed Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 JUN 2026 · 11:46 UTC",
+      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
+      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
