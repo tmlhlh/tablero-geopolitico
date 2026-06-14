@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T03:38:44.133503+00:00",
+  "updated_at": "2026-06-14T08:12:51.713774+00:00",
   "market": {
     "brent_usd": 87.33,
     "brent_chg": 0.0
@@ -45,10 +45,10 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "08 JUN 2026 · 11:46 UTC",
-      "headline": "ENTIRE UK ATTACK SUBMARINE FLEET UNFIT FOR SERVICE – MEDIA",
-      "detail": "All five of Britain’s operational nuclear attack submarines are stuck in port awaiting repairs, UK media have reported Read Full Article at RT.com",
-      "severity": "CRÍTICO"
+      "timestamp": "14 JUN 2026 · 08:12 UTC",
+      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
+      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
