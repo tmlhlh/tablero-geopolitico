@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T15:47:20.193658+00:00",
+  "updated_at": "2026-06-14T17:17:17.493784+00:00",
   "market": {
     "brent_usd": 87.33,
     "brent_chg": 0.0
@@ -45,7 +45,7 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 JUN 2026 · 15:47 UTC",
+      "timestamp": "14 JUN 2026 · 17:17 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
