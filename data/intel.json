@@ -1,41 +1,29 @@
 {
-  "updated_at": "2026-06-15T16:14:13.514501+00:00",
+  "updated_at": "2026-06-15T20:26:00.814487+00:00",
   "market": {
-    "brent_usd": 82.64,
+    "brent_usd": 83.74,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.31,
+    "vix": 16.18,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.3
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "15 JUN 2026 · 15:33 UTC",
-      "headline": "TRUMP ANUNCIA QUE LOS BUQUES “EMPIEZAN A SALIR” DE ORMUZ CARGADOS DE PETRÓLEO ",
-      "detail": "El mandatario celebró la reapertura de la vía clave para el comercio energético mundial, pero el sector marítimo advirtió que la normalización puede llevar semanas",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 JUN 2026 · 15:12 UTC",
-      "headline": "TRUMP LLEGA A FRANCIA PARA UNA CUMBRE DEL G7 MARCADA POR EL ACUERDO CON IRÁN, EL",
-      "detail": "El mandatario norteamericano aterrizó en Ginebra para dirigirse a los Alpes franceses luego de haber anunciado un pacto con Teherán que podría poner fin a los casi cuatro meses de conflicto",
+      "timestamp": "15 JUN 2026 · 18:15 UTC",
+      "headline": "PESE A LAS DUDAS SOBRE EL ACUERDO CON IRÁN, TRUMP AFIRMÓ QUE “YA ESTÁ FIRMADO” Y",
+      "detail": "Washington y Teherán avanzaron con un memorándum de entendimiento para poner fin a la guerra y reabrir el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
       "timestamp": "15 JUN 2026 · 14:43 UTC",
       "headline": "THE US TORE UP THE IRAN DEAL. NOW IT MAY SETTLE FOR A WEAKER ONE",
       "detail": "The emerging US-Iran deal could reopen the Strait of Hormuz and ease sanctions pressure, but Tehran appears set to gain the most Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 JUN 2026 · 14:28 UTC",
-      "headline": "TRUMP SAYS SHIPS ‘STARTING TO MOVE’ THROUGH STRAIT OF HORMUZ",
-      "detail": "US military advisory says naval blockade of Iran ports to remain until US-Iran initial deal signing on Friday.",
       "severity": "INFO"
     },
     {
@@ -49,11 +37,23 @@
       "headline": "ORMUZ, EL GRAN INTERROGANTE DEL ACUERDO DE PAZ",
       "detail": "La aparente reapertura del estrecho hunde el precio del petróleo e invita a pensar en una normalización de los suministros energéticos en todo el mundo",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUN 2026 · 09:36 UTC",
+      "headline": "LAS CLAVES DEL ACUERDO ENTRE IRÁN Y ESTADOS UNIDOS: 60 DÍAS PARA SELLAR LA PAZ E",
+      "detail": "El estrecho de Ormuz, el programa nuclear iraní, el levantamiento de las sanciones contra Teherán y el conflicto en Líbano serán los temas sobre la mesa de las negociaciones tras la firma del pacto el",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUN 2026 · 09:06 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN ANUNCIAN UN ACUERDO PARA ABRIR EL ESTRECHO DE ORMUZ Y PONE",
+      "detail": "Tras casi cuatro meses de conflicto los dos países pactan una extensión de la tregua que firmarán el viernes en Suiza. Pakistán asegura que las partes se comprometen al cese inmediato de las hostilida",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $82.64 (+0.00%)",
-    "VIX: 16.31",
+    "BRENT: $83.74 (+0.00%)",
+    "VIX: 16.18",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
