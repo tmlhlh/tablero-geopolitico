@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-14T23:05:21.898143+00:00",
+  "updated_at": "2026-06-15T03:53:16.261246+00:00",
   "market": {
-    "brent_usd": 84.26,
+    "brent_usd": 83.22,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,44 +15,44 @@
   },
   "events": [
     {
+      "timestamp": "15 JUN 2026 · 03:22 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN ANUNCIAN UN ACUERDO PARA ABRIR EL ESTRECHO DE ORMUZ Y PONE",
+      "detail": "Tras casi cuatro meses de conflicto los dos países pactan una extensión de la tregua que firmarán el viernes en Suiza. Pakistán asegura que las partes se comprometen al cese inmediato de las hostilida",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUN 2026 · 03:17 UTC",
+      "headline": "OIL PRICES SLIDE AFTER PAKISTAN ANNOUNCES DEAL BETWEEN US AND IRAN ",
+      "detail": "Under the agreement, the key Strait of Hormuz waterway will be reopened, US President Donald Trump said.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUN 2026 · 00:37 UTC",
+      "headline": "STOCK MARKETS SOAR, OIL FALLS AS US, IRAN CONFIRM DEAL TO END WAR",
+      "detail": "Asian stock markets surge as Washington and Tehran announce agreement to end hostilities and reopen Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUN 2026 · 23:49 UTC",
+      "headline": "LOS LÍDERES MUNDIALES CELEBRAN EL ACUERDO CON IRÁN Y PIDEN AVANZAR SIN DEMORAS E",
+      "detail": "El entendimiento, que podría firmarse en Ginebra, prevé la desescalada del conflicto, avances sobre el programa nuclear iraní y la reapertura del estrecho de Ormuz, en un contexto de fuerte respaldo i",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "14 JUN 2026 · 22:55 UTC",
-      "headline": "US AND IRAN AGREE ON PEACE DEAL, SIGNAL REOPENING OF STRAIT OF HORMUZ: LIVE UPDA",
+      "headline": "US AND IRAN AGREE ON PEACE ROADMAP, SIGNAL REOPENING OF STRAIT OF HORMUZ: LIVE U",
       "detail": "The US and Iran are set to sign a peace agreement later this week in Switzerland Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
       "timestamp": "14 JUN 2026 · 22:43 UTC",
-      "headline": "US-IRAN CEASEFIRE DEAL ANNOUNCED, TRUMP SAYS STRAIT OF HORMUZ REOPENING",
-      "detail": "Trump has announced a ceasefire deal with Iran has been agreed, and that the Strait of Hormuz will reopen for shipping.",
+      "headline": "US-IRAN ‘PEACE DEAL’ ANNOUNCED; TRUMP SAYS STRAIT OF HORMUZ REOPENING",
+      "detail": "Trump announces that a ceasefire deal with Iran has been agreed, and that the Strait of Hormuz will reopen for shipping.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUN 2026 · 22:40 UTC",
-      "headline": "DONALD TRUMP: “AUTORIZO PLENAMENTE LA APERTURA SIN PEAJE DEL ESTRECHO DE ORMUZ” ",
-      "detail": "“El acuerdo con la República Islámica de Irán ya está completo. ¡Felicitaciones a todos!”, añadió el mandatario casi al mismo momento que el mediador paquistaní anunciaba el acuerdo entre las partes",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUN 2026 · 22:36 UTC",
-      "headline": "TRUMP ANUNCIÓ QUE ESTADOS UNIDOS E IRÁN ALCANZARON UN ACUERDO PARA PONER FIN A L",
-      "detail": "El presidente norteamericano afirmó que se firmará el próximo viernes y ordenó levantar el bloqueo en el estrecho de Ormuz; “que fluya el petróleo”, señaló; cae el precio del petróleo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUN 2026 · 18:18 UTC",
-      "headline": "TRUMP PREVÉ QUE LA TREGUA CON IRÁN SE FIRME ESTE DOMINGO Y QUE ORMUZ QUEDE ABIER",
-      "detail": "En otra jornada de mensajes contradictorios, Teherán descarta que el pacto esté tan cerca. El presidente de Estados Unidos se reunirá con líderes árabes en el G-7",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUN 2026 · 12:30 UTC",
-      "headline": "IRANIAN DRONES DOWNED IN HORMUZ – US",
-      "detail": "The Strait of Hormuz that has largely remained closed since the US and Israel attacked Iran, is open for transit, CENTCOM claims Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.26 (+0.00%)",
+    "BRENT: $83.22 (+0.00%)",
     "VIX: 17.68",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
