@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-06-16T12:49:57.129400+00:00",
+  "updated_at": "2026-06-16T18:02:44.761669+00:00",
   "market": {
-    "brent_usd": 79.65,
+    "brent_usd": 78.85,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.11,
+    "vix": 15.88,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "16 JUN 2026 · 09:13 UTC",
-      "headline": "G7 LEADERS MEET IN FRANCE WITH IRAN AND UKRAINE HIGH ON AGENDA",
-      "detail": "French President Emmanuel Macron said Tuesday’s lunch summit would focus on reopening the Strait of Hormuz.",
+      "timestamp": "16 JUN 2026 · 14:11 UTC",
+      "headline": "THREE REASONS SHIPS ARE NOT GOING THROUGH THE STRAIT OF HORMUZ YET",
+      "detail": "Experts say that there are significant obstacles preventing traffic from returning to the levels seen before the conflict began – security, mines and tolls.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 JUN 2026 · 13:38 UTC",
+      "headline": "THE CALM IN HORMUZ COULD BE DANGEROUSLY BRIEF",
+      "detail": "The US-Iran deal may reopen the Strait of Hormuz, but unresolved nuclear questions and Israel’s stance leave the wider region on edge Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -25,12 +31,6 @@
       "headline": "THE US TORE UP THE IRAN DEAL. NOW IT MAY SETTLE FOR A WEAKER ONE",
       "detail": "The emerging US-Iran deal could reopen the Strait of Hormuz and ease sanctions pressure, but Tehran appears set to gain the most Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 JUN 2026 · 14:26 UTC",
-      "headline": "BOWEN: IRAN DEAL ENDS TRUMP'S WAR THAT REVEALED LIMIT OF US DOMINANCE",
-      "detail": "The deal to end fighting and re-open the Strait of Hormuz leaves the sides where they were 24 hours before the war - only with thousands now dead.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "15 JUN 2026 · 09:06 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $79.65 (+0.00%)",
-    "VIX: 16.11",
+    "BRENT: $78.85 (+0.00%)",
+    "VIX: 15.88",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
