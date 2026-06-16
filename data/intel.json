@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-15T23:00:03.410634+00:00",
+  "updated_at": "2026-06-16T01:44:43.002664+00:00",
   "market": {
-    "brent_usd": 83.64,
+    "brent_usd": 83.39,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "15 JUN 2026 · 20:43 UTC",
-      "headline": "PESE A LAS DUDAS SOBRE EL ACUERDO CON IRÁN, TRUMP AFIRMÓ QUE “YA ESTÁ FIRMADO” Y",
-      "detail": "Washington y Teherán avanzaron con un memorándum de entendimiento para poner fin a la guerra y reabrir el estrecho de Ormuz; la firma final está prevista para el viernes, en Ginebra",
+      "timestamp": "16 JUN 2026 · 00:03 UTC",
+      "headline": "TRUMP SAYS DEAL TO END WAR WITH IRAN ALREADY SIGNED AND DETAILS TO BE RELEASED '",
+      "detail": "Trump says Strait of Hormuz will be open from Friday but there is still confusion about the exact contents of the agreement.",
       "severity": "INFO"
     },
     {
-      "timestamp": "15 JUN 2026 · 20:33 UTC",
-      "headline": "TRUMP SAYS DEAL TO END WAR WITH IRAN ALREADY SIGNED AND DETAILS TO BE RELEASED '",
-      "detail": "Trump says Strait of Hormuz will be open from Friday but there is still confusion about the exact contents of the agreement.",
+      "timestamp": "16 JUN 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS MOU WITH TEHRAN SIGNED ELECTRONICALLY",
+      "detail": "Backlash to US-Iran deal grows in Israel as Iranian vessels pass through Strait of Hormuz after US lifts naval blockade.",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $83.64 (+0.00%)",
+    "BRENT: $83.39 (+0.00%)",
     "VIX: 16.2",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
