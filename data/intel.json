@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-16T01:44:43.002664+00:00",
+  "updated_at": "2026-06-16T07:23:28.598312+00:00",
   "market": {
-    "brent_usd": 83.39,
+    "brent_usd": 82.45,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,14 +15,8 @@
   },
   "events": [
     {
-      "timestamp": "16 JUN 2026 · 00:03 UTC",
-      "headline": "TRUMP SAYS DEAL TO END WAR WITH IRAN ALREADY SIGNED AND DETAILS TO BE RELEASED '",
-      "detail": "Trump says Strait of Hormuz will be open from Friday but there is still confusion about the exact contents of the agreement.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "16 JUN 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS MOU WITH TEHRAN SIGNED ELECTRONICALLY",
+      "headline": "IRAN WAR LIVE: VANCE SAYS IAEA TO RETURN TO IRAN, NO TOLLS IN HORMUZ STRAIT",
       "detail": "Backlash to US-Iran deal grows in Israel as Iranian vessels pass through Strait of Hormuz after US lifts naval blockade.",
       "severity": "INFO"
     },
@@ -49,10 +43,16 @@
       "headline": "LAS CLAVES DEL ACUERDO ENTRE IRÁN Y ESTADOS UNIDOS: 60 DÍAS PARA SELLAR LA PAZ E",
       "detail": "El estrecho de Ormuz, el programa nuclear iraní, el levantamiento de las sanciones contra Teherán y el conflicto en Líbano serán los temas sobre la mesa de las negociaciones tras la firma del pacto el",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUN 2026 · 09:06 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN ANUNCIAN UN ACUERDO PARA ABRIR EL ESTRECHO DE ORMUZ Y PONE",
+      "detail": "Tras casi cuatro meses de conflicto los dos países pactan una extensión de la tregua que firmarán el viernes en Suiza. Pakistán asegura que las partes se comprometen al cese inmediato de las hostilida",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $83.39 (+0.00%)",
+    "BRENT: $82.45 (+0.00%)",
     "VIX: 16.2",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
