@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-16T07:23:28.598312+00:00",
+  "updated_at": "2026-06-16T12:49:57.129400+00:00",
   "market": {
-    "brent_usd": 82.45,
+    "brent_usd": 79.65,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.2,
+    "vix": 16.11,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.2
   },
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "16 JUN 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: VANCE SAYS IAEA TO RETURN TO IRAN, NO TOLLS IN HORMUZ STRAIT",
-      "detail": "Backlash to US-Iran deal grows in Israel as Iranian vessels pass through Strait of Hormuz after US lifts naval blockade.",
+      "timestamp": "16 JUN 2026 · 09:13 UTC",
+      "headline": "G7 LEADERS MEET IN FRANCE WITH IRAN AND UKRAINE HIGH ON AGENDA",
+      "detail": "French President Emmanuel Macron said Tuesday’s lunch summit would focus on reopening the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -33,27 +33,27 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "15 JUN 2026 · 11:07 UTC",
-      "headline": "ORMUZ, EL GRAN INTERROGANTE DEL ACUERDO DE PAZ",
-      "detail": "La aparente reapertura del estrecho hunde el precio del petróleo e invita a pensar en una normalización de los suministros energéticos en todo el mundo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 JUN 2026 · 09:36 UTC",
-      "headline": "LAS CLAVES DEL ACUERDO ENTRE IRÁN Y ESTADOS UNIDOS: 60 DÍAS PARA SELLAR LA PAZ E",
-      "detail": "El estrecho de Ormuz, el programa nuclear iraní, el levantamiento de las sanciones contra Teherán y el conflicto en Líbano serán los temas sobre la mesa de las negociaciones tras la firma del pacto el",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "15 JUN 2026 · 09:06 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN ANUNCIAN UN ACUERDO PARA ABRIR EL ESTRECHO DE ORMUZ Y PONE",
       "detail": "Tras casi cuatro meses de conflicto los dos países pactan una extensión de la tregua que firmarán el viernes en Suiza. Pakistán asegura que las partes se comprometen al cese inmediato de las hostilida",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "13 JUN 2026 · 12:30 UTC",
+      "headline": "IRANIAN DRONES DOWNED IN HORMUZ – US",
+      "detail": "The Strait of Hormuz that has largely remained closed since the US and Israel attacked Iran, is open for transit, CENTCOM claims Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUN 2026 · 03:50 UTC",
+      "headline": "NO RETURN TO PRE-WAR STATUS FOR STRAIT OF HORMUZ – IRAN’S TOP DIPLOMAT",
+      "detail": "Iran’s foreign minister has said control of the Strait of Hormuz will not return to its pre-war status following the US-Israeli attacks Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $82.45 (+0.00%)",
-    "VIX: 16.2",
+    "BRENT: $79.65 (+0.00%)",
+    "VIX: 16.11",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
