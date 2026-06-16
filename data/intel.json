@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-16T21:40:35.155011+00:00",
+  "updated_at": "2026-06-16T23:21:32.067603+00:00",
   "market": {
-    "brent_usd": 79.46,
+    "brent_usd": 79.51,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "16 JUN 2026 · 23:19 UTC",
+      "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
+      "detail": "The Strait of Hormuz, Lebanon, and Iran’s nuclear program show why the ceasefire may only be a pause in a wider global power struggle ahead Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 JUN 2026 · 14:11 UTC",
       "headline": "THREE REASONS SHIPS ARE NOT GOING THROUGH THE STRAIT OF HORMUZ YET",
@@ -43,16 +49,10 @@
       "headline": "IRANIAN DRONES DOWNED IN HORMUZ – US",
       "detail": "The Strait of Hormuz that has largely remained closed since the US and Israel attacked Iran, is open for transit, CENTCOM claims Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUN 2026 · 03:50 UTC",
-      "headline": "NO RETURN TO PRE-WAR STATUS FOR STRAIT OF HORMUZ – IRAN’S TOP DIPLOMAT",
-      "detail": "Iran’s foreign minister has said control of the Strait of Hormuz will not return to its pre-war status following the US-Israeli attacks Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.46 (+0.00%)",
+    "BRENT: $79.51 (+0.00%)",
     "VIX: 16.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
