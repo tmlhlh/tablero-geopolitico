@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-17T21:57:45.058819+00:00",
+  "updated_at": "2026-06-17T23:27:30.875406+00:00",
   "market": {
-    "brent_usd": 78.69,
+    "brent_usd": 78.84,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "17 JUN 2026 · 20:07 UTC",
+      "timestamp": "17 JUN 2026 · 23:20 UTC",
       "headline": "EL ACUERDO QUE PUEDE CAMBIAR MEDIO ORIENTE: TRUMP DEFIENDE SU PACTO CON IRÁN Y L",
-      "detail": "El memorándum contempla un cese permanente de las hostilidades, la reapertura del estrecho de Ormuz y una negociación sobre el programa nuclear",
+      "detail": "Funcionarios norteamericanos señalaron que los presidentes de EE.UU. y de Irán ya firmaron el pacto electrónicamente y que entra en vigor; el memorándum contempla un cese permanente de las hostilidade",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $78.69 (+0.00%)",
+    "BRENT: $78.84 (+0.00%)",
     "VIX: 18.44",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
