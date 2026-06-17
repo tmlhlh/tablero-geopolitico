@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-16T23:21:32.067603+00:00",
+  "updated_at": "2026-06-17T03:42:18.414791+00:00",
   "market": {
-    "brent_usd": 79.51,
+    "brent_usd": 78.82,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 JUN 2026 · 03:30 UTC",
+      "headline": "LA INDUSTRIA MARÍTIMA AGUARDA CON CAUTELA ANTES DE AVENTURARSE A CRUZAR EL ESTRE",
+      "detail": "Escarmentadas por fiascos previos, las navieras esperan a la firma del acuerdo entre EE UU e Irán y exigen seguridad jurídica para empezar a sacar sus buques del golfo Pérsico",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 JUN 2026 · 23:19 UTC",
       "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "15 JUN 2026 · 09:06 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN ANUNCIAN UN ACUERDO PARA ABRIR EL ESTRECHO DE ORMUZ Y PONE",
-      "detail": "Tras casi cuatro meses de conflicto los dos países pactan una extensión de la tregua que firmarán el viernes en Suiza. Pakistán asegura que las partes se comprometen al cese inmediato de las hostilida",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "13 JUN 2026 · 12:30 UTC",
       "headline": "IRANIAN DRONES DOWNED IN HORMUZ – US",
       "detail": "The Strait of Hormuz that has largely remained closed since the US and Israel attacked Iran, is open for transit, CENTCOM claims Read Full Article at RT.com",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $79.51 (+0.00%)",
+    "BRENT: $78.82 (+0.00%)",
     "VIX: 16.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
