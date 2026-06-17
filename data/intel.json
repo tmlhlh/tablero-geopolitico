@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-17T03:42:18.414791+00:00",
+  "updated_at": "2026-06-17T09:00:12.730628+00:00",
   "market": {
-    "brent_usd": 78.82,
+    "brent_usd": 79.42,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.41,
+    "vix": 16.43,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.3
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 JUN 2026 · 07:44 UTC",
+      "headline": "OIL PRICES CONTINUE SLIDE AMID HOPES FOR PEACE, OPENING OF STRAIT OF HORMUZ",
+      "detail": "Brent crude drops to lowest price since early March, before signing of framework deal to end US-Israel war on Iran.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "17 JUN 2026 · 03:30 UTC",
       "headline": "LA INDUSTRIA MARÍTIMA AGUARDA CON CAUTELA ANTES DE AVENTURARSE A CRUZAR EL ESTRE",
@@ -43,17 +49,11 @@
       "headline": "THE US TORE UP THE IRAN DEAL. NOW IT MAY SETTLE FOR A WEAKER ONE",
       "detail": "The emerging US-Iran deal could reopen the Strait of Hormuz and ease sanctions pressure, but Tehran appears set to gain the most Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUN 2026 · 12:30 UTC",
-      "headline": "IRANIAN DRONES DOWNED IN HORMUZ – US",
-      "detail": "The Strait of Hormuz that has largely remained closed since the US and Israel attacked Iran, is open for transit, CENTCOM claims Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $78.82 (+0.00%)",
-    "VIX: 16.41",
+    "BRENT: $79.42 (+0.00%)",
+    "VIX: 16.43",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
