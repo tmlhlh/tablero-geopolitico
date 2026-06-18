@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-06-18T03:34:18.042037+00:00",
+  "updated_at": "2026-06-18T08:42:15.531212+00:00",
   "market": {
-    "brent_usd": 78.29,
+    "brent_usd": 78.13,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.44,
+    "vix": 17.07,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "18 JUN 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: PAKISTAN SAYS MOU IN EFFECT AFTER TRUMP, PEZESHKIAN SIGNING",
-      "detail": "Both sides say the deal is in effect and includes an end to war in Lebanon and the reopening of the Strait of Hormuz.",
+      "timestamp": "18 JUN 2026 · 07:22 UTC",
+      "headline": "EL ACUERDO QUE PUEDE CAMBIAR MEDIO ORIENTE: TRUMP Y EL PRESIDENTE DE IRÁN FIRMAR",
+      "detail": "El magnate lo rubricó en el Palacio de Versalles, durante una cena con Macron; el memorándum contempla un cese permanente de las hostilidades, la reapertura del estrecho de Ormuz y una negociación sob",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 JUN 2026 · 23:55 UTC",
-      "headline": "EL ACUERDO QUE PUEDE CAMBIAR MEDIO ORIENTE: TRUMP Y EL PRESIDENTE DE IRÁN FIRMAR",
-      "detail": "El magnate lo rubricó en el Palacio de Versalles, durante una cena con Macron; el memorándum contempla un cese permanente de las hostilidades, la reapertura del estrecho de Ormuz y una negociación sob",
+      "timestamp": "18 JUN 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: ISRAEL CONTINUES LEBANON ATTACKS AFTER US AND IRAN SIGN DEAL",
+      "detail": "US officials had said the deal would include an end to war in Lebanon and the reopening of the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 JUN 2026 · 23:02 UTC",
+      "headline": "IRAN, US PRESIDENTS SIGN DEAL TO EXTEND CEASEFIRE, REOPEN STRAIT OF HORMUZ",
+      "detail": "Both sides confirm signing a memorandum of understanding that extends their ceasefire by 60 days.",
       "severity": "INFO"
     },
     {
       "timestamp": "17 JUN 2026 · 13:27 UTC",
       "headline": "IRAN SENDS TANKERS LOADED WITH OIL PAST US MILITARY BLOCKADE",
       "detail": "Three Iranian tankers loaded with crude oil have passed the US blockade line in the Gulf of Oman, ship-tracking data shows.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 JUN 2026 · 03:30 UTC",
-      "headline": "LA INDUSTRIA MARÍTIMA AGUARDA CON CAUTELA ANTES DE AVENTURARSE A CRUZAR EL ESTRE",
-      "detail": "Escarmentadas por fiascos previos, las navieras esperan a la firma del acuerdo entre EE UU e Irán y exigen seguridad jurídica para empezar a sacar sus buques del golfo Pérsico",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $78.29 (+0.00%)",
-    "VIX: 18.44",
+    "BRENT: $78.13 (+0.00%)",
+    "VIX: 17.07",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
