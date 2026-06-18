@@ -1,23 +1,41 @@
 {
-  "updated_at": "2026-06-18T19:24:44.478320+00:00",
+  "updated_at": "2026-06-18T22:03:27.678311+00:00",
   "market": {
-    "brent_usd": 79.56,
+    "brent_usd": 79.44,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.86,
+    "vix": 16.4,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "18 JUN 2026 · 19:03 UTC",
-      "headline": "KHAMENEI AVALÓ CON RESERVAS EL PACTO CON TRUMP Y EE.UU. LEVANTÓ EL BLOQUEO NAVAL",
-      "detail": "Washington suspendió las restricciones marítimas sobre los puertos iraníes, mientras Teherán presentó el entendimiento como una concesión arrancada al presidente norteamericano",
+      "timestamp": "18 JUN 2026 · 21:34 UTC",
+      "headline": "US LIFTS NAVAL BLOCKADE AS IRAN'S SUPREME LEADER SAYS TRUMP MADE DEAL 'OUT OF DE",
+      "detail": "Iran's supreme leader says he disagrees with the deal and Donald Trump signed it \"out of desperation\".",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 JUN 2026 · 21:04 UTC",
+      "headline": "IRAN STOOD ITS GROUND, AND WASHINGTON GOT NOTHING",
+      "detail": "The US-Iran war ended with Hormuz reopened, but with no decisive political gain, exposing the limits of US power against a resilient Iran Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 JUN 2026 · 20:19 UTC",
+      "headline": "IRAN’S SUPREME LEADER SAYS APPROVED US DEAL DESPITE HAVING ‘DIFFERENT’ VIEW",
+      "detail": "Iran says it has suspended Strait of Hormuz transit charges for commercial vessels for 60 days.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 JUN 2026 · 19:43 UTC",
+      "headline": "US MILITARY SAYS IT HAS LIFTED NAVAL BLOCKADE OF IRANIAN PORTS",
+      "detail": "CENTCOM says that all blockade enforcement efforts 'have ceased' but that US forces will remain in the area.",
       "severity": "INFO"
     },
     {
@@ -31,29 +49,11 @@
       "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
       "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUN 2026 · 23:19 UTC",
-      "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
-      "detail": "The Strait of Hormuz, Lebanon, and Iran’s nuclear program show why the ceasefire may only be a pause in a wider global power struggle ahead Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUN 2026 · 13:38 UTC",
-      "headline": "THE CALM IN HORMUZ COULD BE DANGEROUSLY BRIEF",
-      "detail": "The US-Iran deal may reopen the Strait of Hormuz, but unresolved nuclear questions and Israel’s stance leave the wider region on edge Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 JUN 2026 · 14:43 UTC",
-      "headline": "THE US TORE UP THE IRAN DEAL. NOW IT MAY SETTLE FOR A WEAKER ONE",
-      "detail": "The emerging US-Iran deal could reopen the Strait of Hormuz and ease sanctions pressure, but Tehran appears set to gain the most Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.56 (+0.00%)",
-    "VIX: 16.86",
+    "BRENT: $79.44 (+0.00%)",
+    "VIX: 16.4",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
