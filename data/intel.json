@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-06-18T12:21:38.434002+00:00",
+  "updated_at": "2026-06-18T16:26:56.321760+00:00",
   "market": {
-    "brent_usd": 78.33,
+    "brent_usd": 77.83,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.42,
+    "vix": 16.95,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "18 JUN 2026 · 13:39 UTC",
+      "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
+      "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 JUN 2026 · 12:23 UTC",
+      "headline": "IRAN SAYS IT WILL CHARGE A ‘PAYMENT FOR SERVICES’ IN THE STRAIT OF HORMUZ",
+      "detail": "Iran says it will charge a ‘payment for services’ in the Strait of Hormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 JUN 2026 · 11:50 UTC",
       "headline": "WHAT THE TRUMP-IRAN AGREEMENT SAYS ABOUT LEBANON, HORMUZ AND URANIUM",
@@ -21,15 +33,9 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "18 JUN 2026 · 11:45 UTC",
-      "headline": "EL ACUERDO QUE PUEDE CAMBIAR MEDIO ORIENTE: TRUMP Y EL PRESIDENTE DE IRÁN FIRMAR",
-      "detail": "El magnate lo rubricó en el Palacio de Versalles, durante una cena con Macron; Pezeshkian lo calificó como “un mensaje de un Irán poderoso”; el memorándum contempla un cese permanente de las hostilida",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "18 JUN 2026 · 11:12 UTC",
       "headline": "EL TRASIEGO DE BARCOS EN ORMUZ APUNTA A UNA RÁPIDA REAPERTURA TRAS EL ACUERDO",
-      "detail": "La mayoría de los buques que salen del estrecho están ligados a intereses chinos y siguen la ruta designada por Irán",
+      "detail": "Los buques que salen del Golfo siguen la ruta designada por Irán, mientras las grandes navieras occidentales aún se muestran cautas",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
       "detail": "The Strait of Hormuz, Lebanon, and Iran’s nuclear program show why the ceasefire may only be a pause in a wider global power struggle ahead Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUN 2026 · 13:38 UTC",
-      "headline": "THE CALM IN HORMUZ COULD BE DANGEROUSLY BRIEF",
-      "detail": "The US-Iran deal may reopen the Strait of Hormuz, but unresolved nuclear questions and Israel’s stance leave the wider region on edge Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $78.33 (+0.00%)",
-    "VIX: 17.42",
+    "BRENT: $77.83 (+0.00%)",
+    "VIX: 16.95",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
