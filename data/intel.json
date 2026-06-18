@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-18T16:26:56.321760+00:00",
+  "updated_at": "2026-06-18T19:24:44.478320+00:00",
   "market": {
-    "brent_usd": 77.83,
+    "brent_usd": 79.56,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.95,
+    "vix": 16.86,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
@@ -15,33 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "18 JUN 2026 · 13:39 UTC",
-      "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
-      "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
+      "timestamp": "18 JUN 2026 · 19:03 UTC",
+      "headline": "KHAMENEI AVALÓ CON RESERVAS EL PACTO CON TRUMP Y EE.UU. LEVANTÓ EL BLOQUEO NAVAL",
+      "detail": "Washington suspendió las restricciones marítimas sobre los puertos iraníes, mientras Teherán presentó el entendimiento como una concesión arrancada al presidente norteamericano",
       "severity": "INFO"
     },
     {
-      "timestamp": "18 JUN 2026 · 12:23 UTC",
-      "headline": "IRAN SAYS IT WILL CHARGE A ‘PAYMENT FOR SERVICES’ IN THE STRAIT OF HORMUZ",
-      "detail": "Iran says it will charge a ‘payment for services’ in the Strait of Hormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 JUN 2026 · 11:50 UTC",
-      "headline": "WHAT THE TRUMP-IRAN AGREEMENT SAYS ABOUT LEBANON, HORMUZ AND URANIUM",
-      "detail": "The memorandum of understanding covers 14 points but leaves many crucial questions unanswered.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 JUN 2026 · 11:12 UTC",
+      "timestamp": "18 JUN 2026 · 17:47 UTC",
       "headline": "EL TRASIEGO DE BARCOS EN ORMUZ APUNTA A UNA RÁPIDA REAPERTURA TRAS EL ACUERDO",
       "detail": "Los buques que salen del Golfo siguen la ruta designada por Irán, mientras las grandes navieras occidentales aún se muestran cautas",
       "severity": "INFO"
     },
     {
-      "timestamp": "18 JUN 2026 · 11:06 UTC",
-      "headline": "WORLD REACTS TO US-IRAN DEAL TO EXTEND CEASEFIRE, REOPEN STRAIT OF HORMUZ",
-      "detail": "Several countries welcome deal, as IAEA chief says 'now the technical work starts' on Iran's nuclear programme.",
+      "timestamp": "18 JUN 2026 · 13:39 UTC",
+      "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
+      "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -49,11 +37,23 @@
       "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
       "detail": "The Strait of Hormuz, Lebanon, and Iran’s nuclear program show why the ceasefire may only be a pause in a wider global power struggle ahead Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "16 JUN 2026 · 13:38 UTC",
+      "headline": "THE CALM IN HORMUZ COULD BE DANGEROUSLY BRIEF",
+      "detail": "The US-Iran deal may reopen the Strait of Hormuz, but unresolved nuclear questions and Israel’s stance leave the wider region on edge Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUN 2026 · 14:43 UTC",
+      "headline": "THE US TORE UP THE IRAN DEAL. NOW IT MAY SETTLE FOR A WEAKER ONE",
+      "detail": "The emerging US-Iran deal could reopen the Strait of Hormuz and ease sanctions pressure, but Tehran appears set to gain the most Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $77.83 (+0.00%)",
-    "VIX: 16.95",
+    "BRENT: $79.56 (+0.00%)",
+    "VIX: 16.86",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
