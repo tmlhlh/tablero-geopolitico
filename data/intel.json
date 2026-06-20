@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T13:53:52.392725+00:00",
+  "updated_at": "2026-06-20T15:44:09.201877+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -15,6 +15,18 @@
   },
   "events": [
     {
+      "timestamp": "20 JUN 2026 · 15:36 UTC",
+      "headline": "IRÁN DICE QUE CIERRA EL ESTRECHO DE ORMUZ PORQUE ISRAEL VIOLÓ LA TREGUA Y BOMBAR",
+      "detail": "El mando militar de la república islámica citó el “incumplimiento” del recién firmado acuerdo de paz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 JUN 2026 · 15:16 UTC",
+      "headline": "IRÁN VUELVE A CERRAR EL ESTRECHO DE ORMUZ POR LOS BOMBARDEOS ISRAELÍES EN LÍBANO",
+      "detail": "El ejército de Israel mata a 25 personas en el país vecino, pese al reciente anuncio de alto el fuego. Teherán mandará una delegación a Suiza, donde ya están Witkoff y Kushner",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "20 JUN 2026 · 13:06 UTC",
       "headline": "EL TRÁFICO MARÍTIMO LENTAMENTE SE REINICIA EN EL ESTRECHO DE ORMUZ, PERO TODAVÍA",
       "detail": "En los últimos días se incrementó el número de buques que transita el paso, pero hay dudas de que puede suceder cuando se firme el acuerdo definitivo",
@@ -27,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "18 JUN 2026 · 17:47 UTC",
-      "headline": "EL TRASIEGO DE BARCOS EN ORMUZ APUNTA A UNA RÁPIDA REAPERTURA TRAS EL ACUERDO",
-      "detail": "Los buques que salen del Golfo siguen la ruta designada por Irán, mientras las grandes navieras occidentales aún se muestran cautas",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "18 JUN 2026 · 13:39 UTC",
       "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
       "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
@@ -42,12 +48,6 @@
       "timestamp": "16 JUN 2026 · 23:19 UTC",
       "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
       "detail": "The Strait of Hormuz, Lebanon, and Iran’s nuclear program show why the ceasefire may only be a pause in a wider global power struggle ahead Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUN 2026 · 13:38 UTC",
-      "headline": "THE CALM IN HORMUZ COULD BE DANGEROUSLY BRIEF",
-      "detail": "The US-Iran deal may reopen the Strait of Hormuz, but unresolved nuclear questions and Israel’s stance leave the wider region on edge Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
