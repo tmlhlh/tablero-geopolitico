@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T19:19:52.438367+00:00",
+  "updated_at": "2026-06-20T21:13:27.595392+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -15,10 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "20 JUN 2026 · 18:39 UTC",
-      "headline": "IRAN SAYS STRAIT OF HORMUZ WILL BE CLOSED OVER ISRAEL ATTACKS ON LEBANON",
+      "timestamp": "20 JUN 2026 · 21:11 UTC",
+      "headline": "IRAN SAYS IT HAS CLOSED STRAIT OF HORMUZ OVER ISRAEL ATTACKS ON LEBANON",
       "detail": "Iran said Israel's continued attacks in Lebanon are a breach of Tehran's agreement with the US to end the war.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "20 JUN 2026 · 19:43 UTC",
+      "headline": "OVERPLAYING STRAIT OF HORMUZ CARD WILL TURN IRAN INTO A PARIAH STATE",
+      "detail": "Overplaying Strait of Hormuz card will turn Iran into a pariah state.",
+      "severity": "INFO"
     },
     {
       "timestamp": "20 JUN 2026 · 18:17 UTC",
@@ -43,12 +49,6 @@
       "headline": "IRAN SHUTS STRAIT OF HORMUZ AS ISRAEL TESTS MOU WITH LEBANON STRIKES",
       "detail": "Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 JUN 2026 · 15:36 UTC",
-      "headline": "IRÁN DICE QUE CIERRA EL ESTRECHO DE ORMUZ PORQUE ISRAEL VIOLÓ LA TREGUA Y BOMBAR",
-      "detail": "El mando militar de la república islámica citó el “incumplimiento” del recién firmado acuerdo de paz",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
