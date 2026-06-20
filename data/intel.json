@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T15:44:09.201877+00:00",
+  "updated_at": "2026-06-20T17:22:46.814887+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "20 JUN 2026 · 15:36 UTC",
-      "headline": "IRÁN DICE QUE CIERRA EL ESTRECHO DE ORMUZ PORQUE ISRAEL VIOLÓ LA TREGUA Y BOMBAR",
-      "detail": "El mando militar de la república islámica citó el “incumplimiento” del recién firmado acuerdo de paz",
+      "timestamp": "20 JUN 2026 · 16:41 UTC",
+      "headline": "IRÁN VUELVE A CERRAR EL ESTRECHO DE ORMUZ POR LOS BOMBARDEOS ISRAELÍES EN LÍBANO",
+      "detail": "El ejército de Israel mata a 25 personas en el país vecino, pese al reciente anuncio de alto el fuego. Teherán mandará una delegación a Suiza, donde ya están Witkoff y Kushner",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 JUN 2026 · 15:16 UTC",
-      "headline": "IRÁN VUELVE A CERRAR EL ESTRECHO DE ORMUZ POR LOS BOMBARDEOS ISRAELÍES EN LÍBANO",
-      "detail": "El ejército de Israel mata a 25 personas en el país vecino, pese al reciente anuncio de alto el fuego. Teherán mandará una delegación a Suiza, donde ya están Witkoff y Kushner",
+      "timestamp": "20 JUN 2026 · 16:07 UTC",
+      "headline": "IRAN SAYS STRAIT OF HORMUZ WILL BE CLOSED OVER ISRAEL ATTACKS ON LEBANON",
+      "detail": "Iran said Israel's continued attacks in Lebanon are a breach of Tehran's agreement with the US to end the war.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "20 JUN 2026 · 15:36 UTC",
+      "headline": "IRÁN DICE QUE CIERRA EL ESTRECHO DE ORMUZ PORQUE ISRAEL VIOLÓ LA TREGUA Y BOMBAR",
+      "detail": "El mando militar de la república islámica citó el “incumplimiento” del recién firmado acuerdo de paz",
       "severity": "INFO"
     },
     {
@@ -42,12 +48,6 @@
       "timestamp": "18 JUN 2026 · 13:39 UTC",
       "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
       "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUN 2026 · 23:19 UTC",
-      "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
-      "detail": "The Strait of Hormuz, Lebanon, and Iran’s nuclear program show why the ceasefire may only be a pause in a wider global power struggle ahead Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
