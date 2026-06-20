@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T17:22:46.814887+00:00",
+  "updated_at": "2026-06-20T19:19:52.438367+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -15,39 +15,39 @@
   },
   "events": [
     {
-      "timestamp": "20 JUN 2026 · 16:41 UTC",
-      "headline": "IRÁN VUELVE A CERRAR EL ESTRECHO DE ORMUZ POR LOS BOMBARDEOS ISRAELÍES EN LÍBANO",
-      "detail": "El ejército de Israel mata a 25 personas en el país vecino, pese al reciente anuncio de alto el fuego. Teherán mandará una delegación a Suiza, donde ya están Witkoff y Kushner",
+      "timestamp": "20 JUN 2026 · 18:39 UTC",
+      "headline": "IRAN SAYS STRAIT OF HORMUZ WILL BE CLOSED OVER ISRAEL ATTACKS ON LEBANON",
+      "detail": "Iran said Israel's continued attacks in Lebanon are a breach of Tehran's agreement with the US to end the war.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "20 JUN 2026 · 18:17 UTC",
+      "headline": "LOS DESAFÍOS QUE PERSISTEN PARA QUE EL VITAL ESTRECHO DE ORMUZ VUELVA A ABRIRSE ",
+      "detail": "En los últimos días se había incrementado el número de buques que transita el paso, pero hay dudas de que puede suceder cuando se firme el acuerdo definitivo",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 JUN 2026 · 16:07 UTC",
-      "headline": "IRAN SAYS STRAIT OF HORMUZ WILL BE CLOSED OVER ISRAEL ATTACKS ON LEBANON",
-      "detail": "Iran said Israel's continued attacks in Lebanon are a breach of Tehran's agreement with the US to end the war.",
+      "timestamp": "20 JUN 2026 · 17:39 UTC",
+      "headline": "US-IRAN TALKS TO KICK OFF SUNDAY IN SWITZERLAND, SAYS PAKISTAN",
+      "detail": "Planned negotiations come amid tensions over Israeli attacks in Lebanon and Iran’s announced closure of Hormuz again.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "20 JUN 2026 · 17:25 UTC",
+      "headline": "IRÁN DECLARA CERRADO EL ESTRECHO DE ORMUZ POR LOS BOMBARDEOS ISRAELÍES EN LÍBANO",
+      "detail": "Estados Unidos niega que el paso marítimo esté cerrado. El ejército de Israel mata a 25 personas en el país vecino, pese al anuncio de alto el fuego. Teherán mandará una delegación a Suiza para la neg",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 JUN 2026 · 17:05 UTC",
+      "headline": "IRAN SHUTS STRAIT OF HORMUZ AS ISRAEL TESTS MOU WITH LEBANON STRIKES",
+      "detail": "Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes.",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "20 JUN 2026 · 15:36 UTC",
       "headline": "IRÁN DICE QUE CIERRA EL ESTRECHO DE ORMUZ PORQUE ISRAEL VIOLÓ LA TREGUA Y BOMBAR",
       "detail": "El mando militar de la república islámica citó el “incumplimiento” del recién firmado acuerdo de paz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 JUN 2026 · 13:06 UTC",
-      "headline": "EL TRÁFICO MARÍTIMO LENTAMENTE SE REINICIA EN EL ESTRECHO DE ORMUZ, PERO TODAVÍA",
-      "detail": "En los últimos días se incrementó el número de buques que transita el paso, pero hay dudas de que puede suceder cuando se firme el acuerdo definitivo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 JUN 2026 · 21:04 UTC",
-      "headline": "IRAN STOOD ITS GROUND, AND WASHINGTON GOT NOTHING",
-      "detail": "The US-Iran war ended with Hormuz reopened, but with no decisive political gain, exposing the limits of US power against a resilient Iran Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 JUN 2026 · 13:39 UTC",
-      "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
-      "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
