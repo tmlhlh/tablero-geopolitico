@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T11:14:03.270231+00:00",
+  "updated_at": "2026-06-20T13:53:52.392725+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "20 JUN 2026 · 13:06 UTC",
+      "headline": "EL TRÁFICO MARÍTIMO LENTAMENTE SE REINICIA EN EL ESTRECHO DE ORMUZ, PERO TODAVÍA",
+      "detail": "En los últimos días se incrementó el número de buques que transita el paso, pero hay dudas de que puede suceder cuando se firme el acuerdo definitivo",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 JUN 2026 · 21:04 UTC",
       "headline": "IRAN STOOD ITS GROUND, AND WASHINGTON GOT NOTHING",
@@ -42,12 +48,6 @@
       "timestamp": "16 JUN 2026 · 13:38 UTC",
       "headline": "THE CALM IN HORMUZ COULD BE DANGEROUSLY BRIEF",
       "detail": "The US-Iran deal may reopen the Strait of Hormuz, but unresolved nuclear questions and Israel’s stance leave the wider region on edge Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 JUN 2026 · 14:43 UTC",
-      "headline": "THE US TORE UP THE IRAN DEAL. NOW IT MAY SETTLE FOR A WEAKER ONE",
-      "detail": "The emerging US-Iran deal could reopen the Strait of Hormuz and ease sanctions pressure, but Tehran appears set to gain the most Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
