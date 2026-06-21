@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T14:01:53.026983+00:00",
+  "updated_at": "2026-06-21T16:27:49.215440+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -15,16 +15,16 @@
   },
   "events": [
     {
+      "timestamp": "21 JUN 2026 · 14:41 UTC",
+      "headline": "US AND IRAN BEGIN TALKS ON INITIAL PEACE DEAL IN SWITZERLAND",
+      "detail": "The face-to-face meeting follows ongoing fighting in Lebanon and Iran's claim to have shut the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "21 JUN 2026 · 10:40 UTC",
       "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
       "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 JUN 2026 · 04:34 UTC",
-      "headline": "US-IRAN TALKS BEGIN IN SWITZERLAND AS TEHRAN SAYS IT CLOSED STRAIT OF HORMUZ",
-      "detail": "The US disputed Iran's claim the waterway is shut, a move Tehran says was a response to Israeli attacks in Lebanon.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "21 JUN 2026 · 03:30 UTC",
