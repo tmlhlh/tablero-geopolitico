@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T08:26:31.121630+00:00",
+  "updated_at": "2026-06-21T11:43:03.371770+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "21 JUN 2026 · 10:40 UTC",
+      "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
+      "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "21 JUN 2026 · 04:34 UTC",
       "headline": "US-IRAN TALKS TO BEGIN IN SWITZERLAND AS TEHRAN SAYS IT CLOSED STRAIT OF HORMUZ",
@@ -33,21 +39,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "21 JUN 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US, TEHRAN SET TO HOLD HIGH-LEVEL TALKS IN SWITZERLAND",
-      "detail": "Talks come as Iran says it is closing the Strait of Hormuz over Israel's deadly attacks on Lebanon.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 JUN 2026 · 21:54 UTC",
-      "headline": "TRUMP VOWS IRAN WILL NOT CHARGE STRAIT OF HORMUZ TOLLS, BUT SAYS US MIGHT",
-      "detail": "The US-Iran memorandum of understanding does not rule out future tolls in the strait after an initial 60-day period.",
+      "timestamp": "20 JUN 2026 · 17:25 UTC",
+      "headline": "IRÁN DECLARA CERRADO EL ESTRECHO DE ORMUZ POR LOS BOMBARDEOS ISRAELÍES EN LÍBANO",
+      "detail": "Estados Unidos niega que el paso marítimo esté cerrado. El ejército de Israel mata a 25 personas en el país vecino, pese al anuncio de alto el fuego. Teherán mandará una delegación a Suiza para la neg",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 JUN 2026 · 19:43 UTC",
-      "headline": "OVERPLAYING STRAIT OF HORMUZ CARD WILL TURN IRAN INTO A PARIAH STATE",
-      "detail": "Overplaying Strait of Hormuz card will turn Iran into a pariah state.",
+      "timestamp": "18 JUN 2026 · 21:04 UTC",
+      "headline": "IRAN STOOD ITS GROUND, AND WASHINGTON GOT NOTHING",
+      "detail": "The US-Iran war ended with Hormuz reopened, but with no decisive political gain, exposing the limits of US power against a resilient Iran Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
