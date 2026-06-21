@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T16:27:49.215440+00:00",
+  "updated_at": "2026-06-21T18:16:47.759324+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "21 JUN 2026 · 17:36 UTC",
+      "headline": "WHAT’S NEXT IN THE STRAIT OF HORMUZ CRISIS?",
+      "detail": "Iranian armed forces say they've closed the vital waterway after Israeli attacks on Lebanon.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "21 JUN 2026 · 14:41 UTC",
       "headline": "US AND IRAN BEGIN TALKS ON INITIAL PEACE DEAL IN SWITZERLAND",
@@ -42,12 +48,6 @@
       "timestamp": "20 JUN 2026 · 17:25 UTC",
       "headline": "IRÁN DECLARA CERRADO EL ESTRECHO DE ORMUZ POR LOS BOMBARDEOS ISRAELÍES EN LÍBANO",
       "detail": "Estados Unidos niega que el paso marítimo esté cerrado. El ejército de Israel mata a 25 personas en el país vecino, pese al anuncio de alto el fuego. Teherán mandará una delegación a Suiza para la neg",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 JUN 2026 · 21:04 UTC",
-      "headline": "IRAN STOOD ITS GROUND, AND WASHINGTON GOT NOTHING",
-      "detail": "The US-Iran war ended with Hormuz reopened, but with no decisive political gain, exposing the limits of US power against a resilient Iran Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
