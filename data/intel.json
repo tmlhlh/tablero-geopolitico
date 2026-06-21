@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T18:16:47.759324+00:00",
+  "updated_at": "2026-06-21T20:22:09.000087+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -21,12 +21,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "21 JUN 2026 · 14:41 UTC",
-      "headline": "US AND IRAN BEGIN TALKS ON INITIAL PEACE DEAL IN SWITZERLAND",
-      "detail": "The face-to-face meeting follows ongoing fighting in Lebanon and Iran's claim to have shut the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "21 JUN 2026 · 10:40 UTC",
       "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
       "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
@@ -40,7 +34,7 @@
     },
     {
       "timestamp": "21 JUN 2026 · 00:35 UTC",
-      "headline": "WHAT’S GOING ON WITH US-IRAN TALKS AND THE STRAIT OF HORMUZ?",
+      "headline": "WHAT IS THE STATUS OF US-IRAN TALKS AND THE STRAIT OF HORMUZ?",
       "detail": "Iran says it closed the Strait of Hormuz in response to Israeli attacks in Lebanon, while the US maintains that the waterway remains open Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
@@ -48,6 +42,12 @@
       "timestamp": "20 JUN 2026 · 17:25 UTC",
       "headline": "IRÁN DECLARA CERRADO EL ESTRECHO DE ORMUZ POR LOS BOMBARDEOS ISRAELÍES EN LÍBANO",
       "detail": "Estados Unidos niega que el paso marítimo esté cerrado. El ejército de Israel mata a 25 personas en el país vecino, pese al anuncio de alto el fuego. Teherán mandará una delegación a Suiza para la neg",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "18 JUN 2026 · 21:04 UTC",
+      "headline": "IRAN STOOD ITS GROUND, AND WASHINGTON GOT NOTHING",
+      "detail": "The US-Iran war ended with Hormuz reopened, but with no decisive political gain, exposing the limits of US power against a resilient Iran Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
