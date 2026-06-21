@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T23:03:56.419510+00:00",
+  "updated_at": "2026-06-21T03:45:37.398540+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -15,40 +15,40 @@
   },
   "events": [
     {
+      "timestamp": "21 JUN 2026 · 03:30 UTC",
+      "headline": "LA GUERRA AGRIETA LA RELACIÓN ESTRATÉGICA DE LOS PAÍSES DEL GOLFO CON ESTADOS UN",
+      "detail": "Las bases militares han pasado de ser un elemento de protección a convertirles en blanco de los ataques iraníes y el cierre de Ormuz les empuja a buscar alternativas para vender su petróleo",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 JUN 2026 · 01:46 UTC",
+      "headline": "US-IRAN TALKS TO BEGIN IN SWITZERLAND AS TEHRAN SAYS IT CLOSED STRAIT OF HORMUZ",
+      "detail": "The US disputed Iran's claim the waterway is shut, a move Tehran says was a response to Israeli attacks in Lebanon.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 JUN 2026 · 00:35 UTC",
+      "headline": "WHAT’S GOING ON WITH US-IRAN TALKS AND THE STRAIT OF HORMUZ?",
+      "detail": "Iran has claimed to have closed Hormuz in response to Israeli attacks in Lebanon, while the US maintains that the waterway remains open Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 JUN 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: VANCE HEADS TO SWITZERLAND; ISRAEL KILLS 16 IN LEBANON",
+      "detail": "Talks come as Iran says it is closing the Strait of Hormuz over Israel's deadly attacks on Lebanon.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "20 JUN 2026 · 21:54 UTC",
       "headline": "TRUMP VOWS IRAN WILL NOT CHARGE STRAIT OF HORMUZ TOLLS, BUT SAYS US MIGHT",
       "detail": "The US-Iran memorandum of understanding does not rule out future tolls in the strait after an initial 60-day period.",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 JUN 2026 · 21:27 UTC",
-      "headline": "IRÁN VUELVE A CERRAR EL ESTRECHO DE ORMUZ POR LOS ATAQUES EN EL LÍBANO, PERO SE ",
-      "detail": "El mando militar iraní repudió los bombardeos israelíes señalando que la tregua en ese frente forma parte del entendimiento con Washington",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 JUN 2026 · 21:11 UTC",
-      "headline": "IRAN SAYS IT HAS CLOSED STRAIT OF HORMUZ OVER ISRAELI ATTACKS IN LEBANON",
-      "detail": "The US military has disputed Tehran's claim, which comes ahead of US-Iran talks in Switzerland on Sunday.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "20 JUN 2026 · 19:43 UTC",
       "headline": "OVERPLAYING STRAIT OF HORMUZ CARD WILL TURN IRAN INTO A PARIAH STATE",
       "detail": "Overplaying Strait of Hormuz card will turn Iran into a pariah state.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 JUN 2026 · 18:17 UTC",
-      "headline": "LOS DESAFÍOS QUE PERSISTEN PARA QUE EL VITAL ESTRECHO DE ORMUZ VUELVA A ABRIRSE ",
-      "detail": "En los últimos días se había incrementado el número de buques que transita el paso, pero hay dudas de que puede suceder cuando se firme el acuerdo definitivo",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 JUN 2026 · 17:39 UTC",
-      "headline": "US-IRAN TALKS TO KICK OFF SUNDAY IN SWITZERLAND, SAYS PAKISTAN",
-      "detail": "Planned negotiations come amid tensions over Israeli attacks in Lebanon and Iran’s announced closure of Hormuz again.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
