@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T03:45:37.398540+00:00",
+  "updated_at": "2026-06-21T08:26:31.121630+00:00",
   "market": {
     "brent_usd": 80.59,
     "brent_chg": 0.0
@@ -15,26 +15,26 @@
   },
   "events": [
     {
+      "timestamp": "21 JUN 2026 · 04:34 UTC",
+      "headline": "US-IRAN TALKS TO BEGIN IN SWITZERLAND AS TEHRAN SAYS IT CLOSED STRAIT OF HORMUZ",
+      "detail": "The US disputed Iran's claim the waterway is shut, a move Tehran says was a response to Israeli attacks in Lebanon.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "21 JUN 2026 · 03:30 UTC",
       "headline": "LA GUERRA AGRIETA LA RELACIÓN ESTRATÉGICA DE LOS PAÍSES DEL GOLFO CON ESTADOS UN",
       "detail": "Las bases militares han pasado de ser un elemento de protección a convertirles en blanco de los ataques iraníes y el cierre de Ormuz les empuja a buscar alternativas para vender su petróleo",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "21 JUN 2026 · 01:46 UTC",
-      "headline": "US-IRAN TALKS TO BEGIN IN SWITZERLAND AS TEHRAN SAYS IT CLOSED STRAIT OF HORMUZ",
-      "detail": "The US disputed Iran's claim the waterway is shut, a move Tehran says was a response to Israeli attacks in Lebanon.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "21 JUN 2026 · 00:35 UTC",
       "headline": "WHAT’S GOING ON WITH US-IRAN TALKS AND THE STRAIT OF HORMUZ?",
-      "detail": "Iran has claimed to have closed Hormuz in response to Israeli attacks in Lebanon, while the US maintains that the waterway remains open Read Full Article at RT.com",
+      "detail": "Iran says it closed the Strait of Hormuz in response to Israeli attacks in Lebanon, while the US maintains that the waterway remains open Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "21 JUN 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: VANCE HEADS TO SWITZERLAND; ISRAEL KILLS 16 IN LEBANON",
+      "headline": "IRAN WAR LIVE: US, TEHRAN SET TO HOLD HIGH-LEVEL TALKS IN SWITZERLAND",
       "detail": "Talks come as Iran says it is closing the Strait of Hormuz over Israel's deadly attacks on Lebanon.",
       "severity": "CRÍTICO"
     },
