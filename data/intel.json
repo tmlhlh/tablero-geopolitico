@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-22T17:28:24.457940+00:00",
+  "updated_at": "2026-06-22T20:41:02.443836+00:00",
   "market": {
-    "brent_usd": 77.7,
+    "brent_usd": 80.59,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.3,
+    "vix": 17.28,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
@@ -15,16 +15,16 @@
   },
   "events": [
     {
+      "timestamp": "22 JUN 2026 · 17:04 UTC",
+      "headline": "MARCO RUBIO HEADS TO MIDDLE EAST TO ADDRESS IRAN MOU, HORMUZ",
+      "detail": "Rubio to visit UAE, Kuwait and Bahrain for talks on Iran and Hormuz priorities from June 23 to June 25.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "21 JUN 2026 · 10:40 UTC",
       "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
       "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 JUN 2026 · 03:30 UTC",
-      "headline": "LA GUERRA AGRIETA LA RELACIÓN ESTRATÉGICA DE LOS PAÍSES DEL GOLFO CON ESTADOS UN",
-      "detail": "Las bases militares han pasado de ser un elemento de protección a convertirles en blanco de los ataques iraníes y el cierre de Ormuz les empuja a buscar alternativas para vender su petróleo",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "21 JUN 2026 · 00:35 UTC",
@@ -45,15 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "16 JUN 2026 · 23:19 UTC",
-      "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
-      "detail": "The Strait of Hormuz, Lebanon, and Iran’s nuclear program show why the ceasefire may only be a pause in a wider global power struggle ahead Read Full Article at RT.com",
+      "timestamp": "22 JUN 2026 · 20:41 UTC",
+      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
+      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $77.7 (+0.00%)",
-    "VIX: 17.3",
+    "BRENT: $80.59 (+0.00%)",
+    "VIX: 17.28",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
