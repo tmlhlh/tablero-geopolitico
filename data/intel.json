@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-06-22T06:25:29.614493+00:00",
+  "updated_at": "2026-06-22T12:46:39.427526+00:00",
   "market": {
-    "brent_usd": 78.93,
+    "brent_usd": 78.54,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.78,
+    "vix": 17.11,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "22 JUN 2026 · 02:03 UTC",
-      "headline": "SHIPPING STALLS IN STRAIT OF HORMUZ AFTER IRAN DECLARES KEY WATERWAY SHUT",
-      "detail": "Ship tracking data shows sharp fall in transits as US and Iranian officials hold talks to save fragile peace framework.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "21 JUN 2026 · 10:40 UTC",
       "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
@@ -49,11 +43,17 @@
       "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
       "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "16 JUN 2026 · 23:19 UTC",
+      "headline": "TRUMP’S IRAN TRUCE MARKS A DEFEAT FOR AMERICAN POWER",
+      "detail": "The Strait of Hormuz, Lebanon, and Iran’s nuclear program show why the ceasefire may only be a pause in a wider global power struggle ahead Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $78.93 (+0.00%)",
-    "VIX: 16.78",
+    "BRENT: $78.54 (+0.00%)",
+    "VIX: 17.11",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
