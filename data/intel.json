@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-23T19:56:59.852257+00:00",
+  "updated_at": "2026-06-23T21:43:00.644310+00:00",
   "market": {
-    "brent_usd": 77.15,
+    "brent_usd": 76.88,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.52,
+    "vix": 19.49,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.4
   },
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 JUN 2026 · 21:04 UTC",
+      "headline": "UN SAYS IT WILL EVACUATE SAILORS STRANDED IN STRAIT OF HORMUZ, AS RUBIO WARNS AG",
+      "detail": "US Secretary of State Marco Rubio warned Iran that no country can charge fees for ships to travel through the strait.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUN 2026 · 21:00 UTC",
+      "headline": "UN STARTS EVACUATING 11,000 STRANDED SAILORS FROM STRAIT OF HORMUZ",
+      "detail": "Following the start of the US-Israel war on Iran on February 28, Tehran had effectively closed off the vital waterway.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 JUN 2026 · 14:55 UTC",
       "headline": "DOZENS OF SHIPS HEAD THROUGH STRAIT OF HORMUZ AFTER US-IRAN DEAL",
@@ -37,23 +49,11 @@
       "headline": "WHAT IS THE STATUS OF US-IRAN TALKS AND THE STRAIT OF HORMUZ?",
       "detail": "Iran says it closed the Strait of Hormuz in response to Israeli attacks in Lebanon, while the US maintains that the waterway remains open Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 JUN 2026 · 21:04 UTC",
-      "headline": "IRAN STOOD ITS GROUND, AND WASHINGTON GOT NOTHING",
-      "detail": "The US-Iran war ended with Hormuz reopened, but with no decisive political gain, exposing the limits of US power against a resilient Iran Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 JUN 2026 · 13:39 UTC",
-      "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
-      "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $77.15 (+0.00%)",
-    "VIX: 19.52",
+    "BRENT: $76.88 (+0.00%)",
+    "VIX: 19.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
