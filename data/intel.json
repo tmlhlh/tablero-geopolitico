@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-23T14:52:35.719488+00:00",
+  "updated_at": "2026-06-23T17:14:30.839317+00:00",
   "market": {
-    "brent_usd": 76.94,
+    "brent_usd": 77.15,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.1,
+    "vix": 18.88,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.2
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 JUN 2026 · 14:55 UTC",
+      "headline": "DOZENS OF SHIPS HEAD THROUGH STRAIT OF HORMUZ AFTER US-IRAN DEAL",
+      "detail": "Traffic in the waterway has risen since the US and Iran signed a deal aimed at ending the war, including 42 ships on Saturday alone.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 JUN 2026 · 10:55 UTC",
       "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
@@ -43,17 +49,11 @@
       "headline": "SCOTT RITTER: AMERICA LOST THE IRAN WAR, BUT AMERICANS ARE BEING SOLD A VICTORY",
       "detail": "This is the ‘Hormuz Effect’ – the ultimate symbol of the decline of the American dream Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUN 2026 · 14:52 UTC",
-      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
-      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $76.94 (+0.00%)",
-    "VIX: 19.1",
+    "BRENT: $77.15 (+0.00%)",
+    "VIX: 18.88",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
