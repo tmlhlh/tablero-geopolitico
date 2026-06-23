@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T00:02:12.771349+00:00",
+  "updated_at": "2026-06-23T04:56:51.540783+00:00",
   "market": {
-    "brent_usd": 78.17,
+    "brent_usd": 77.61,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "23 JUN 2026 · 01:45 UTC",
+      "headline": "GHALIBAF: US AND IRAN CAN WORK TOGETHER TO REOPEN STRAIT OF HORMUZ",
+      "detail": "Iran’s chief negotiator said the Strait will never return to the way it was before the war.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "21 JUN 2026 · 10:40 UTC",
       "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
@@ -39,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "23 JUN 2026 · 00:02 UTC",
+      "timestamp": "23 JUN 2026 · 04:56 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $78.17 (+0.00%)",
+    "BRENT: $77.61 (+0.00%)",
     "VIX: 17.28",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
