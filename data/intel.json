@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-06-24T10:19:59.913369+00:00",
+  "updated_at": "2026-06-24T13:18:46.672404+00:00",
   "market": {
-    "brent_usd": 75.85,
+    "brent_usd": 73.92,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.27,
+    "vix": 19.01,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 JUN 2026 · 12:31 UTC",
+      "headline": "JAPAN WEIGHS DEPLOYING FORCES TO DEMINE THE STRAIT OF HORMUZ",
+      "detail": "Japan is considering sending its navy to help clear mines in the Strait of Hormuz following the US-Iran ceasefire.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "24 JUN 2026 · 11:11 UTC",
+      "headline": "IRÁN DICE QUE EL ACUERDO PARA PONER FIN A LA GUERRA ES LA “DECLARACIÓN DE DERROT",
+      "detail": "El jefe del equipo mediador de Medio Oriente se refirió al memorándum de entendimiento de Islamabad que firmaron ambas naciones; entre las condiciones también está la apertura del estrecho de Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 JUN 2026 · 07:04 UTC",
       "headline": "IRAN WAR DAY 117: NUCLEAR INSPECTIONS DISPUTE AS US SENATE CURBS WAR POWERS",
@@ -37,23 +49,11 @@
       "headline": "DOZENS OF SHIPS HEAD THROUGH STRAIT OF HORMUZ AFTER US-IRAN DEAL",
       "detail": "Traffic in the waterway has risen since the US and Iran signed a deal aimed at ending the war, including 42 ships on Saturday alone.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUN 2026 · 10:55 UTC",
-      "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
-      "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 JUN 2026 · 10:40 UTC",
-      "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
-      "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $75.85 (+0.00%)",
-    "VIX: 19.27",
+    "BRENT: $73.92 (+0.00%)",
+    "VIX: 19.01",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
