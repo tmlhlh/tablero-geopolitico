@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-06-24T16:15:41.529029+00:00",
+  "updated_at": "2026-06-24T18:49:02.751460+00:00",
   "market": {
-    "brent_usd": 73.92,
+    "brent_usd": 73.49,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.31,
+    "vix": 19.25,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 JUN 2026 · 16:50 UTC",
+      "headline": "HAS THE WORST OF THE HORMUZ CRISIS PASSED?",
+      "detail": "Ships are moving again through the Strait of Hormuz, with oil prices falling. But relief for consumers may take longer.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 JUN 2026 · 16:15 UTC",
+      "headline": "LOS MARINEROS ATRAPADOS EMPIEZAN A ABANDONAR ORMUZ BAJO EL PARAGUAS DE LA ONU",
+      "detail": "Decenas de cargueros aguardan su turno para salir del estrecho tras meses bloqueados por la guerra de Trump y Netanyahu contra la República Islámica",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 JUN 2026 · 14:27 UTC",
       "headline": "RUBIO SAYS IRAN CANNOT CHARGE TOLLS IN HORMUZ: WHAT WE KNOW",
@@ -27,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "24 JUN 2026 · 12:31 UTC",
-      "headline": "JAPAN WEIGHS DEPLOYING FORCES TO DEMINE THE STRAIT OF HORMUZ",
-      "detail": "Japan is considering sending its navy to help clear mines in the Strait of Hormuz following the US-Iran ceasefire.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "24 JUN 2026 · 03:45 UTC",
       "headline": "LOS MARINEROS VISLUMBRAN EL FIN DE SU AGONÍA EN ORMUZ PERO AÚN NO SE FÍAN: “NOS ",
       "detail": "Con cerca de 70 víctimas, la guerra de EE UU e Israel contra Irán ha sido uno de los conflictos más letales para la marina mercante. Más de 20.000 marineros han llegado a estar atrapados en el golfo P",
@@ -43,17 +49,11 @@
       "headline": "DOZENS OF SHIPS HEAD THROUGH STRAIT OF HORMUZ AFTER US-IRAN DEAL",
       "detail": "Traffic in the waterway has risen since the US and Iran signed a deal aimed at ending the war, including 42 ships on Saturday alone.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUN 2026 · 10:55 UTC",
-      "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
-      "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.92 (+0.00%)",
-    "VIX: 18.31",
+    "BRENT: $73.49 (+0.00%)",
+    "VIX: 19.25",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
