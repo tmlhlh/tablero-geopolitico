@@ -1,35 +1,29 @@
 {
-  "updated_at": "2026-06-24T06:45:15.707937+00:00",
+  "updated_at": "2026-06-24T10:19:59.913369+00:00",
   "market": {
-    "brent_usd": 76.33,
+    "brent_usd": 75.85,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.49,
+    "vix": 19.27,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "24 JUN 2026 · 07:04 UTC",
+      "headline": "IRAN WAR DAY 117: NUCLEAR INSPECTIONS DISPUTE AS US SENATE CURBS WAR POWERS",
+      "detail": "Iran and the US clash over nuclear inspections and Hormuz as negotiators push for a final deal within 60 days.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "24 JUN 2026 · 03:45 UTC",
       "headline": "LOS MARINEROS VISLUMBRAN EL FIN DE SU AGONÍA EN ORMUZ PERO AÚN NO SE FÍAN: “NOS ",
       "detail": "Con cerca de 70 víctimas, la guerra de EE UU e Israel contra Irán ha sido uno de los conflictos más letales para la marina mercante. Más de 20.000 marineros han llegado a estar atrapados en el golfo P",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP, TEHRAN DISAGREE OVER NUCLEAR INSPECTIONS, HORMUZ",
-      "detail": "US and Iran offer conflicting statements as negotiators push towards reaching a final, comprehensive deal.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUN 2026 · 23:49 UTC",
-      "headline": "UN BEGINS EVACUATION OF 11,000 SAILORS STRANDED IN STRAIT OF HORMUZ",
-      "detail": "The UN's maritime agency launched an operation to evacuate more than 11,000 sailors stranded in the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
       "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "21 JUN 2026 · 10:40 UTC",
+      "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
+      "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $76.33 (+0.00%)",
-    "VIX: 19.49",
+    "BRENT: $75.85 (+0.00%)",
+    "VIX: 19.27",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
