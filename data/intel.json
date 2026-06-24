@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-24T18:49:02.751460+00:00",
+  "updated_at": "2026-06-24T20:45:18.290387+00:00",
   "market": {
-    "brent_usd": 73.49,
+    "brent_usd": 73.13,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.25,
+    "vix": 18.63,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -24,12 +24,6 @@
       "timestamp": "24 JUN 2026 · 16:15 UTC",
       "headline": "LOS MARINEROS ATRAPADOS EMPIEZAN A ABANDONAR ORMUZ BAJO EL PARAGUAS DE LA ONU",
       "detail": "Decenas de cargueros aguardan su turno para salir del estrecho tras meses bloqueados por la guerra de Trump y Netanyahu contra la República Islámica",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 14:27 UTC",
-      "headline": "RUBIO SAYS IRAN CANNOT CHARGE TOLLS IN HORMUZ: WHAT WE KNOW",
-      "detail": "Tehran says the strait 'will never return' to its prewar conditions and claims it can charge fees for services.",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "DOZENS OF SHIPS HEAD THROUGH STRAIT OF HORMUZ AFTER US-IRAN DEAL",
       "detail": "Traffic in the waterway has risen since the US and Iran signed a deal aimed at ending the war, including 42 ships on Saturday alone.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUN 2026 · 10:55 UTC",
+      "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
+      "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.49 (+0.00%)",
-    "VIX: 19.25",
+    "BRENT: $73.13 (+0.00%)",
+    "VIX: 18.63",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
