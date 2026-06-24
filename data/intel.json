@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-24T20:45:18.290387+00:00",
+  "updated_at": "2026-06-24T22:14:10.542639+00:00",
   "market": {
-    "brent_usd": 73.13,
+    "brent_usd": 73.18,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "24 JUN 2026 · 16:50 UTC",
-      "headline": "HAS THE WORST OF THE HORMUZ CRISIS PASSED?",
-      "detail": "Ships are moving again through the Strait of Hormuz, with oil prices falling. But relief for consumers may take longer.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "24 JUN 2026 · 16:15 UTC",
       "headline": "LOS MARINEROS ATRAPADOS EMPIEZAN A ABANDONAR ORMUZ BAJO EL PARAGUAS DE LA ONU",
@@ -49,10 +43,16 @@
       "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
       "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "21 JUN 2026 · 10:40 UTC",
+      "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
+      "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.13 (+0.00%)",
+    "BRENT: $73.18 (+0.00%)",
     "VIX: 18.63",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
