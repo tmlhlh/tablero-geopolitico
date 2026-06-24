@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-24T02:52:46.337282+00:00",
+  "updated_at": "2026-06-24T06:45:15.707937+00:00",
   "market": {
-    "brent_usd": 76.35,
+    "brent_usd": 76.33,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,8 +15,14 @@
   },
   "events": [
     {
+      "timestamp": "24 JUN 2026 · 03:45 UTC",
+      "headline": "LOS MARINEROS VISLUMBRAN EL FIN DE SU AGONÍA EN ORMUZ PERO AÚN NO SE FÍAN: “NOS ",
+      "detail": "Con cerca de 70 víctimas, la guerra de EE UU e Israel contra Irán ha sido uno de los conflictos más letales para la marina mercante. Más de 20.000 marineros han llegado a estar atrapados en el golfo P",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "24 JUN 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP, TEHRAN AT ODDS OVER NUCLEAR INSPECTIONS, HORMUZ",
+      "headline": "IRAN WAR LIVE: TRUMP, TEHRAN DISAGREE OVER NUCLEAR INSPECTIONS, HORMUZ",
       "detail": "US and Iran offer conflicting statements as negotiators push towards reaching a final, comprehensive deal.",
       "severity": "INFO"
     },
@@ -33,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "23 JUN 2026 · 21:00 UTC",
-      "headline": "UN STARTS EVACUATING 11,000 STRANDED SAILORS FROM STRAIT OF HORMUZ",
-      "detail": "Following the start of the US-Israel war on Iran on February 28, Tehran had effectively closed off the vital waterway.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "23 JUN 2026 · 14:55 UTC",
       "headline": "DOZENS OF SHIPS HEAD THROUGH STRAIT OF HORMUZ AFTER US-IRAN DEAL",
       "detail": "Traffic in the waterway has risen since the US and Iran signed a deal aimed at ending the war, including 42 ships on Saturday alone.",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $76.35 (+0.00%)",
+    "BRENT: $76.33 (+0.00%)",
     "VIX: 19.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
