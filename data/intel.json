@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T23:05:51.228570+00:00",
+  "updated_at": "2026-06-24T02:52:46.337282+00:00",
   "market": {
-    "brent_usd": 76.78,
+    "brent_usd": 76.35,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 JUN 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP, TEHRAN AT ODDS OVER NUCLEAR INSPECTIONS, HORMUZ",
+      "detail": "US and Iran offer conflicting statements as negotiators push towards reaching a final, comprehensive deal.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUN 2026 · 23:49 UTC",
+      "headline": "UN BEGINS EVACUATION OF 11,000 SAILORS STRANDED IN STRAIT OF HORMUZ",
+      "detail": "The UN's maritime agency launched an operation to evacuate more than 11,000 sailors stranded in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 JUN 2026 · 21:04 UTC",
       "headline": "UN SAYS IT WILL EVACUATE SAILORS STRANDED IN STRAIT OF HORMUZ, AS RUBIO WARNS AG",
@@ -37,22 +49,10 @@
       "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
       "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 JUN 2026 · 10:40 UTC",
-      "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
-      "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 JUN 2026 · 00:35 UTC",
-      "headline": "WHAT IS THE STATUS OF US-IRAN TALKS AND THE STRAIT OF HORMUZ?",
-      "detail": "Iran says it closed the Strait of Hormuz in response to Israeli attacks in Lebanon, while the US maintains that the waterway remains open Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $76.78 (+0.00%)",
+    "BRENT: $76.35 (+0.00%)",
     "VIX: 19.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
