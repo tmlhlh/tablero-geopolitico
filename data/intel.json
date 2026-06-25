@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-25T00:06:59.358592+00:00",
+  "updated_at": "2026-06-25T05:01:57.905104+00:00",
   "market": {
-    "brent_usd": 73.22,
+    "brent_usd": 72.64,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -27,18 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "24 JUN 2026 · 03:45 UTC",
-      "headline": "LOS MARINEROS VISLUMBRAN EL FIN DE SU AGONÍA EN ORMUZ PERO AÚN NO SE FÍAN: “NOS ",
-      "detail": "Con cerca de 70 víctimas, la guerra de EE UU e Israel contra Irán ha sido uno de los conflictos más letales para la marina mercante. Más de 20.000 marineros han llegado a estar atrapados en el golfo P",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUN 2026 · 14:55 UTC",
-      "headline": "DOZENS OF SHIPS HEAD THROUGH STRAIT OF HORMUZ AFTER US-IRAN DEAL",
-      "detail": "Traffic in the waterway has risen since the US and Iran signed a deal aimed at ending the war, including 42 ships on Saturday alone.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "23 JUN 2026 · 10:55 UTC",
       "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
       "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
@@ -49,10 +37,22 @@
       "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
       "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "21 JUN 2026 · 00:35 UTC",
+      "headline": "WHAT IS THE STATUS OF US-IRAN TALKS AND THE STRAIT OF HORMUZ?",
+      "detail": "Iran says it closed the Strait of Hormuz in response to Israeli attacks in Lebanon, while the US maintains that the waterway remains open Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 05:01 UTC",
+      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
+      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.22 (+0.00%)",
+    "BRENT: $72.64 (+0.00%)",
     "VIX: 18.63",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
