@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-25T17:09:29.846125+00:00",
+  "updated_at": "2026-06-25T19:54:22.701149+00:00",
   "market": {
-    "brent_usd": 74.99,
+    "brent_usd": 75.74,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.19,
+    "vix": 19.18,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "25 JUN 2026 · 19:19 UTC",
+      "headline": "UN PAUSES STRAIT OF HORMUZ EVACUATION PLAN AFTER CARGO SHIP ATTACKED",
+      "detail": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 18:24 UTC",
+      "headline": "KRIEG: FOR IRAN CONTROL OF THE STRAIT OF HORMUZ IS ABOUT THE SPOILS OF WAR",
+      "detail": "Andreas Krieg said Iran possesses sufficient geographic and military leverage in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "25 JUN 2026 · 16:32 UTC",
       "headline": "RUBIO: GULF COUNTRIES DON’T SUPPORT STRAIT OF HORMUZ TOLLS",
@@ -37,23 +49,11 @@
       "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
       "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 11:08 UTC",
-      "headline": "HOW MINESWEEPING IN THE STRAIT OF HORMUZ WORKS: A VISUAL GUIDE",
-      "detail": "Clearing mines is a slow, high-risk operation that involves finding and destroying them using specialised techniques.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 13:34 UTC",
-      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
-      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $74.99 (+0.00%)",
-    "VIX: 19.19",
+    "BRENT: $75.74 (+0.00%)",
+    "VIX: 19.18",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
