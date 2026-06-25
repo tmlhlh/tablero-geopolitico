@@ -1,24 +1,42 @@
 {
-  "updated_at": "2026-06-25T11:38:16.817510+00:00",
+  "updated_at": "2026-06-25T14:23:51.469938+00:00",
   "market": {
-    "brent_usd": 73.13,
+    "brent_usd": 74.23,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.11,
+    "vix": 18.98,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "25 JUN 2026 · 13:57 UTC",
+      "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
+      "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 11:39 UTC",
+      "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
+      "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "25 JUN 2026 · 11:08 UTC",
       "headline": "HOW MINESWEEPING IN THE STRAIT OF HORMUZ WORKS: A VISUAL GUIDE",
       "detail": "Clearing mines is a slow, high-risk operation that involves finding and destroying them using specialised techniques.",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 10:59 UTC",
+      "headline": "RUBIO ISSUES HORMUZ TOLL WARNING AS HE WRAPS UP GULF VISIT",
+      "detail": "Rubio's Gulf tour is the first high-level diplomatic mission since the US-Iran framework agreement last week.",
+      "severity": "INFO"
     },
     {
       "timestamp": "25 JUN 2026 · 08:49 UTC",
@@ -27,33 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 JUN 2026 · 08:28 UTC",
-      "headline": "IRAN WAR DAY 118: IRGC REJECTS NEW HORMUZ ROUTE; RUBIO TO MEET GCC LEADERS",
-      "detail": "Iran's Revolutionary Guard warns against alternative route in Strait of Hormuz as top US diplomat to meet Gulf leaders.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 07:34 UTC",
-      "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
-      "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "24 JUN 2026 · 16:15 UTC",
       "headline": "LOS MARINEROS ATRAPADOS EMPIEZAN A ABANDONAR ORMUZ BAJO EL PARAGUAS DE LA ONU",
       "detail": "Decenas de cargueros aguardan su turno para salir del estrecho tras meses bloqueados por la guerra de Trump y Netanyahu contra la República Islámica",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 13:34 UTC",
-      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
-      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.13 (+0.00%)",
-    "VIX: 18.11",
+    "BRENT: $74.23 (+0.00%)",
+    "VIX: 18.98",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
