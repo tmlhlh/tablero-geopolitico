@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-06-25T08:55:25.978124+00:00",
+  "updated_at": "2026-06-25T11:38:16.817510+00:00",
   "market": {
-    "brent_usd": 72.77,
+    "brent_usd": 73.13,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.98,
+    "vix": 18.11,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "25 JUN 2026 · 11:08 UTC",
+      "headline": "HOW MINESWEEPING IN THE STRAIT OF HORMUZ WORKS: A VISUAL GUIDE",
+      "detail": "Clearing mines is a slow, high-risk operation that involves finding and destroying them using specialised techniques.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 08:49 UTC",
+      "headline": "IRAN WARNS AGAINST HORMUZ CROSSINGS WITHOUT AUTHORISATION",
+      "detail": "An oil tanker navigates the strait, reportedly hugging the western coast, despite threats from Revolutionary Guards.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "25 JUN 2026 · 08:28 UTC",
       "headline": "IRAN WAR DAY 118: IRGC REJECTS NEW HORMUZ ROUTE; RUBIO TO MEET GCC LEADERS",
@@ -22,9 +34,9 @@
     },
     {
       "timestamp": "25 JUN 2026 · 07:34 UTC",
-      "headline": "OIL PRICE FALLS TO LEVELS NOT SEEN SINCE BEFORE IRAN WAR",
-      "detail": "Energy prices have been on a wild ride since Iran responded to US and Israeli attacks by effectively closing the Strait of Hormuz.",
-      "severity": "CRÍTICO"
+      "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
+      "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
+      "severity": "INFO"
     },
     {
       "timestamp": "24 JUN 2026 · 16:15 UTC",
@@ -37,23 +49,11 @@
       "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
       "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUN 2026 · 10:55 UTC",
-      "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
-      "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 JUN 2026 · 10:40 UTC",
-      "headline": "ONLY US COULD IMPOSE HORMUZ TOLLS – TRUMP",
-      "detail": "Trump says only the US could impose future tolls in the Strait of Hormuz as American and Iranian negotiators meet in Switzerland for talks Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.77 (+0.00%)",
-    "VIX: 17.98",
+    "BRENT: $73.13 (+0.00%)",
+    "VIX: 18.11",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
