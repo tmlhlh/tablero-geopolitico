@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-06-25T14:23:51.469938+00:00",
+  "updated_at": "2026-06-25T17:09:29.846125+00:00",
   "market": {
-    "brent_usd": 74.23,
+    "brent_usd": 74.99,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.98,
+    "vix": 19.19,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "25 JUN 2026 · 13:57 UTC",
+      "timestamp": "25 JUN 2026 · 16:32 UTC",
+      "headline": "RUBIO: GULF COUNTRIES DON’T SUPPORT STRAIT OF HORMUZ TOLLS",
+      "detail": "US Secretary of State Marco Rubio said all Gulf countries oppose a toll in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 15:32 UTC",
       "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
       "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 14:33 UTC",
+      "headline": "IRGC WARNS AGAINST NEW HORMUZ ROUTE FOR SHIPS: WHAT WE KNOW",
+      "detail": "Experts say disagreements over shipping routes and transit fees could complicate efforts to reach a permanent agreement.",
       "severity": "INFO"
     },
     {
@@ -33,27 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "25 JUN 2026 · 10:59 UTC",
-      "headline": "RUBIO ISSUES HORMUZ TOLL WARNING AS HE WRAPS UP GULF VISIT",
-      "detail": "Rubio's Gulf tour is the first high-level diplomatic mission since the US-Iran framework agreement last week.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 08:49 UTC",
-      "headline": "IRAN WARNS AGAINST HORMUZ CROSSINGS WITHOUT AUTHORISATION",
-      "detail": "An oil tanker navigates the strait, reportedly hugging the western coast, despite threats from Revolutionary Guards.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 16:15 UTC",
-      "headline": "LOS MARINEROS ATRAPADOS EMPIEZAN A ABANDONAR ORMUZ BAJO EL PARAGUAS DE LA ONU",
-      "detail": "Decenas de cargueros aguardan su turno para salir del estrecho tras meses bloqueados por la guerra de Trump y Netanyahu contra la República Islámica",
+      "timestamp": "24 JUN 2026 · 13:34 UTC",
+      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
+      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $74.23 (+0.00%)",
-    "VIX: 18.98",
+    "BRENT: $74.99 (+0.00%)",
+    "VIX: 19.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
