@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-06-25T21:28:54.632988+00:00",
+  "updated_at": "2026-06-25T23:14:22.535767+00:00",
   "market": {
-    "brent_usd": 75.0,
+    "brent_usd": 75.04,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.89,
+    "vix": 18.63,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "25 JUN 2026 · 20:55 UTC",
-      "headline": "UN AGENCY PAUSES HORMUZ SHIP EVACUATION INITIATIVE AFTER VESSEL ATTACKED",
-      "detail": "Iran warns vessels to use only Tehran-approved routes as IMO halts Hormuz evacuation after ship struck.",
+      "timestamp": "25 JUN 2026 · 21:34 UTC",
+      "headline": "NACIONES UNIDAS SUSPENDE SU PLAN PARA EVACUAR MARINEROS DE ORMUZ TRAS UN ATAQUE",
+      "detail": "El barco, que no formaba parte del plan internacional de evacuación, ha sido alcanzado por un proyectil en aguas de Omán",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "25 JUN 2026 · 19:46 UTC",
-      "headline": "NACIONES UNIDAS SUSPENDE SU PLAN PARA EVACUAR MARINEROS DE ORMUZ TRAS UN ATAQUE",
-      "detail": "El barco, que no formaba parte del plan internacional de evacuación, ha sido alcanzado por un proyectil en aguas de Omán",
+      "timestamp": "25 JUN 2026 · 20:55 UTC",
+      "headline": "UN AGENCY PAUSES HORMUZ SHIP EVACUATION INITIATIVE AFTER VESSEL ATTACKED",
+      "detail": "Iran warns vessels to use only Tehran-approved routes as IMO halts Hormuz evacuation after ship struck.",
       "severity": "CRÍTICO"
     },
     {
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 JUN 2026 · 16:32 UTC",
-      "headline": "RUBIO: GULF COUNTRIES DON’T SUPPORT STRAIT OF HORMUZ TOLLS",
-      "detail": "US Secretary of State Marco Rubio said all Gulf countries oppose a toll in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "25 JUN 2026 · 15:32 UTC",
       "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
       "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 11:39 UTC",
+      "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
+      "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $75.0 (+0.00%)",
-    "VIX: 18.89",
+    "BRENT: $75.04 (+0.00%)",
+    "VIX: 18.63",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
