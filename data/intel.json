@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-06-26T13:08:28.886966+00:00",
+  "updated_at": "2026-06-26T16:12:48.188373+00:00",
   "market": {
-    "brent_usd": 72.8,
+    "brent_usd": 72.47,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.17,
+    "vix": 18.75,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.6
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 JUN 2026 · 14:59 UTC",
+      "headline": "WHY HAS THE UN PAUSED PLANS TO EVACUATE SAILORS FROM THE STRAIT OF HORMUZ?",
+      "detail": "A cargo vessel had been struck by a projectile near Oman, as Iran says all ships must pass with its permission.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 JUN 2026 · 14:04 UTC",
+      "headline": "IRAN SLAMS THE GCC AND THE US FOR ‘INTERVENTIONIST’ STATEMENT: WHAT WE KNOW",
+      "detail": "Tehran rejects US-GCC pressure over missiles, the Strait of Hormuz and regional armed groups.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "26 JUN 2026 · 11:27 UTC",
       "headline": "UN PAUSES STRAIT OF HORMUZ EVACUATION PLAN AFTER CARGO SHIP ATTACKED",
@@ -37,23 +49,11 @@
       "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
       "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 13:34 UTC",
-      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
-      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUN 2026 · 10:55 UTC",
-      "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
-      "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.8 (+0.00%)",
-    "VIX: 20.17",
+    "BRENT: $72.47 (+0.00%)",
+    "VIX: 18.75",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
