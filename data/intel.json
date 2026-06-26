@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-06-26T18:28:41.248079+00:00",
+  "updated_at": "2026-06-26T20:44:13.802510+00:00",
   "market": {
-    "brent_usd": 72.52,
+    "brent_usd": 73.47,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.71,
+    "vix": 18.41,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 JUN 2026 · 20:20 UTC",
+      "headline": "ISRAEL Y EL LÍBANO FIRMAN UN ACUERDO CLAVE, PERO ORMUZ VUELVE A ENCENDER LA TENS",
+      "detail": "Washington celebró en la Casa Blanca un entendimiento trilateral para avanzar hacia la paz, mientras Trump acusó a Teherán de atacar embarcaciones comerciales",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 JUN 2026 · 19:26 UTC",
+      "headline": "TRUMP BLAMES IRAN FOR ‘FOOLISH’ STRIKE ON CARGO SHIP IN STRAIT OF HORMUZ",
+      "detail": "Fragile US-Iran ceasefire tested as drone strike off Oman draws stern warning from the US president.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 JUN 2026 · 18:57 UTC",
+      "headline": "IRÁN TRATA DE MANTENER EL CONTROL SOBRE ORMUZ MIENTRAS TRUMP LE ACUSA DE VIOLAR ",
+      "detail": "La Organización Marítima Internacional negocia garantías con Irán, que está amenazando a los buques que utilicen la ruta de Omán, para retomar su plan de evacuación tras el ataque del jueves a un carg",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "26 JUN 2026 · 18:03 UTC",
       "headline": "TRUMP ACCUSES IRAN OF CEASEFIRE BREACH AFTER STRAIT OF HORMUZ ATTACK",
@@ -27,33 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 JUN 2026 · 14:04 UTC",
-      "headline": "IRAN SLAMS THE GCC AND THE US FOR ‘INTERVENTIONIST’ STATEMENT: WHAT WE KNOW",
-      "detail": "Tehran rejects US-GCC pressure over missiles, the Strait of Hormuz and regional armed groups.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "25 JUN 2026 · 15:32 UTC",
       "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
       "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 11:39 UTC",
-      "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
-      "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 13:34 UTC",
-      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
-      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.52 (+0.00%)",
-    "VIX: 18.71",
+    "BRENT: $73.47 (+0.00%)",
+    "VIX: 18.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
