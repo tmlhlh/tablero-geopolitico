@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-26T10:22:50.246601+00:00",
+  "updated_at": "2026-06-26T13:08:28.886966+00:00",
   "market": {
-    "brent_usd": 72.73,
+    "brent_usd": 72.8,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.24,
+    "vix": 20.17,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.6
   },
@@ -15,15 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "26 JUN 2026 · 06:49 UTC",
+      "timestamp": "26 JUN 2026 · 11:27 UTC",
       "headline": "UN PAUSES STRAIT OF HORMUZ EVACUATION PLAN AFTER CARGO SHIP ATTACKED",
       "detail": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "26 JUN 2026 · 02:35 UTC",
-      "headline": "OIL PRICES EASE AFTER SPIKING OVER HALT TO STRAIT OF HORMUZ EVACUATION PLAN",
-      "detail": "Brent crude subsides after attack in waterway prompted jump in prices.",
       "severity": "CRÍTICO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
       "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUN 2026 · 10:55 UTC",
+      "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
+      "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.73 (+0.00%)",
-    "VIX: 20.24",
+    "BRENT: $72.8 (+0.00%)",
+    "VIX: 20.17",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
