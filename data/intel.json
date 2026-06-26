@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T02:57:36.770723+00:00",
+  "updated_at": "2026-06-26T06:56:47.352910+00:00",
   "market": {
-    "brent_usd": 74.64,
+    "brent_usd": 74.19,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,21 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "26 JUN 2026 · 00:28 UTC",
+      "timestamp": "26 JUN 2026 · 06:49 UTC",
       "headline": "UN PAUSES STRAIT OF HORMUZ EVACUATION PLAN AFTER CARGO SHIP ATTACKED",
       "detail": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 JUN 2026 · 02:35 UTC",
+      "headline": "OIL PRICES EASE AFTER SPIKING OVER HALT TO STRAIT OF HORMUZ EVACUATION PLAN",
+      "detail": "Brent crude subsides after attack in waterway prompted jump in prices.",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "25 JUN 2026 · 21:34 UTC",
       "headline": "NACIONES UNIDAS SUSPENDE SU PLAN PARA EVACUAR MARINEROS DE ORMUZ TRAS UN ATAQUE",
       "detail": "El barco, que no formaba parte del plan internacional de evacuación, ha sido alcanzado por un proyectil en aguas de Omán",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 20:55 UTC",
-      "headline": "UN AGENCY PAUSES HORMUZ SHIP EVACUATION INITIATIVE AFTER VESSEL ATTACKED",
-      "detail": "Iran warns vessels to use only Tehran-approved routes as IMO halts Hormuz evacuation after ship struck.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $74.64 (+0.00%)",
+    "BRENT: $74.19 (+0.00%)",
     "VIX: 18.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
