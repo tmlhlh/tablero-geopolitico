@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-06-25T23:14:22.535767+00:00",
+  "updated_at": "2026-06-26T02:57:36.770723+00:00",
   "market": {
-    "brent_usd": 75.04,
+    "brent_usd": 74.64,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.63,
+    "vix": 18.89,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 JUN 2026 · 00:28 UTC",
+      "headline": "UN PAUSES STRAIT OF HORMUZ EVACUATION PLAN AFTER CARGO SHIP ATTACKED",
+      "detail": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "25 JUN 2026 · 21:34 UTC",
       "headline": "NACIONES UNIDAS SUSPENDE SU PLAN PARA EVACUAR MARINEROS DE ORMUZ TRAS UN ATAQUE",
@@ -27,18 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "25 JUN 2026 · 19:19 UTC",
-      "headline": "UN PAUSES STRAIT OF HORMUZ EVACUATION PLAN AFTER CARGO SHIP ATTACKED",
-      "detail": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 18:24 UTC",
-      "headline": "KRIEG: FOR IRAN CONTROL OF THE STRAIT OF HORMUZ IS ABOUT THE SPOILS OF WAR",
-      "detail": "Andreas Krieg said Iran possesses sufficient geographic and military leverage in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "25 JUN 2026 · 15:32 UTC",
       "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
       "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
@@ -49,11 +43,17 @@
       "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
       "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "24 JUN 2026 · 13:34 UTC",
+      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
+      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $75.04 (+0.00%)",
-    "VIX: 18.63",
+    "BRENT: $74.64 (+0.00%)",
+    "VIX: 18.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
