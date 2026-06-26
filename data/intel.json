@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-26T16:12:48.188373+00:00",
+  "updated_at": "2026-06-26T18:28:41.248079+00:00",
   "market": {
-    "brent_usd": 72.47,
+    "brent_usd": 72.52,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.75,
+    "vix": 18.71,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 JUN 2026 · 18:03 UTC",
+      "headline": "TRUMP ACCUSES IRAN OF CEASEFIRE BREACH AFTER STRAIT OF HORMUZ ATTACK",
+      "detail": "A Singapore-flagged ship was struck crossing the waterway on Thursday, prompting a large-scale evacuation to be paused.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "26 JUN 2026 · 14:59 UTC",
       "headline": "WHY HAS THE UN PAUSED PLANS TO EVACUATE SAILORS FROM THE STRAIT OF HORMUZ?",
@@ -27,18 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "26 JUN 2026 · 11:27 UTC",
-      "headline": "UN PAUSES STRAIT OF HORMUZ EVACUATION PLAN AFTER CARGO SHIP ATTACKED",
-      "detail": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 21:34 UTC",
-      "headline": "NACIONES UNIDAS SUSPENDE SU PLAN PARA EVACUAR MARINEROS DE ORMUZ TRAS UN ATAQUE",
-      "detail": "El barco, que no formaba parte del plan internacional de evacuación, ha sido alcanzado por un proyectil en aguas de Omán",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "25 JUN 2026 · 15:32 UTC",
       "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
       "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
@@ -49,11 +43,17 @@
       "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
       "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "24 JUN 2026 · 13:34 UTC",
+      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
+      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.47 (+0.00%)",
-    "VIX: 18.75",
+    "BRENT: $72.52 (+0.00%)",
+    "VIX: 18.71",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
