@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T12:06:59.502577+00:00",
+  "updated_at": "2026-06-27T14:26:30.955654+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -15,9 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "27 JUN 2026 · 13:26 UTC",
+      "headline": "‘PICK UP THE PHONE’: IRGC APPEARS TO REBUFF US STRAIT OF HORMUZ ‘HOTLINE’",
+      "detail": "Iran's IRGC appears to have rejected US claims of a military hotline will operate between the two countries.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "27 JUN 2026 · 11:35 UTC",
       "headline": "IRÁN ATACA INTERESES DE WASHINGTON EN BARÉIN EN RESPUESTA AL ÚLTIMO BOMBARDEO ES",
-      "detail": "La presión sobre el frágil alto el fuego se eleva de nuevo. Otro buque que utilizaba la ruta sur del estrecho de Ormuz es alcanzado por un proyectil",
+      "detail": "La presión sobre el frágil alto el fuego crece de nuevo. Otro buque que utilizaba la ruta sur de Ormuz es alcanzado por un proyectil",
       "severity": "INFO"
     },
     {
@@ -42,12 +48,6 @@
       "timestamp": "25 JUN 2026 · 11:39 UTC",
       "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
       "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 13:34 UTC",
-      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
-      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
