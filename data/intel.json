@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-27T00:02:51.983149+00:00",
+  "updated_at": "2026-06-27T04:50:27.978869+00:00",
   "market": {
-    "brent_usd": 73.57,
+    "brent_usd": 72.6,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "27 JUN 2026 · 00:16 UTC",
+      "headline": "TRUMP JUSTIFIES STRIKES ON IRAN AMID CEASEFIRE",
+      "detail": "The US has struck Iran in retaliation for what it says was an Iranian attack on a ship in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "27 JUN 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US STRIKES IRAN AFTER ATTACK ON VESSEL IN STRAIT OF HORMUZ",
+      "detail": "Iran's IRGC says it targeted US military in region after Trump administration launched attack on the country.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "26 JUN 2026 · 21:15 UTC",
       "headline": "ESTADOS UNIDOS LANZA NUEVOS ATAQUES CONTRA IRÁN TRAS EL GOLPE A UN CARGUERO",
@@ -33,26 +45,14 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "26 JUN 2026 · 19:26 UTC",
-      "headline": "TRUMP BLAMES IRAN FOR ‘FOOLISH’ STRIKE ON CARGO SHIP IN STRAIT OF HORMUZ",
-      "detail": "US Central Command forces conduct strikes against Iran in 'response' to attack on commercial ship, Ever Lovely.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "25 JUN 2026 · 15:32 UTC",
       "headline": "OIL PRICE FALLS BACK TO PRE-IRAN WAR LEVELS",
       "detail": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 11:39 UTC",
-      "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
-      "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.57 (+0.00%)",
+    "BRENT: $72.6 (+0.00%)",
     "VIX: 18.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
