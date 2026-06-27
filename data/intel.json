@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T16:01:58.634990+00:00",
+  "updated_at": "2026-06-27T17:58:54.234791+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "27 JUN 2026 · 15:08 UTC",
+      "timestamp": "27 JUN 2026 · 17:17 UTC",
       "headline": "IRÁN ATACA INTERESES DE WASHINGTON EN BARÉIN EN RESPUESTA AL ÚLTIMO BOMBARDEO ES",
-      "detail": "La presión sobre el frágil alto el fuego crece de nuevo. Otro buque que utilizaba la ruta sur de Ormuz es alcanzado por un proyectil",
+      "detail": "La presión sobre el frágil alto el fuego crece. Otro buque es alcanzado por un proyectil en la ruta sur de Ormuz. “La violencia se responderá con violencia”, avisa el vicepresidente Vance",
       "severity": "INFO"
     },
     {
