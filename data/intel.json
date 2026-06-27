@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T14:26:30.955654+00:00",
+  "updated_at": "2026-06-27T16:01:58.634990+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "27 JUN 2026 · 13:26 UTC",
-      "headline": "‘PICK UP THE PHONE’: IRGC APPEARS TO REBUFF US STRAIT OF HORMUZ ‘HOTLINE’",
-      "detail": "Iran's IRGC appears to have rejected US claims of a military hotline will operate between the two countries.",
+      "timestamp": "27 JUN 2026 · 15:08 UTC",
+      "headline": "IRÁN ATACA INTERESES DE WASHINGTON EN BARÉIN EN RESPUESTA AL ÚLTIMO BOMBARDEO ES",
+      "detail": "La presión sobre el frágil alto el fuego crece de nuevo. Otro buque que utilizaba la ruta sur de Ormuz es alcanzado por un proyectil",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 JUN 2026 · 11:35 UTC",
-      "headline": "IRÁN ATACA INTERESES DE WASHINGTON EN BARÉIN EN RESPUESTA AL ÚLTIMO BOMBARDEO ES",
-      "detail": "La presión sobre el frágil alto el fuego crece de nuevo. Otro buque que utilizaba la ruta sur de Ormuz es alcanzado por un proyectil",
+      "timestamp": "27 JUN 2026 · 13:26 UTC",
+      "headline": "‘PICK UP THE PHONE’: IRGC APPEARS TO REBUFF US STRAIT OF HORMUZ ‘HOTLINE’",
+      "detail": "Iran's IRGC appears to have rejected US claims of a military hotline will operate between the two countries.",
       "severity": "INFO"
     },
     {
