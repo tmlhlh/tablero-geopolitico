@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T22:08:58.160664+00:00",
+  "updated_at": "2026-06-27T00:02:51.983149+00:00",
   "market": {
     "brent_usd": 73.57,
     "brent_chg": 0.0
@@ -28,7 +28,7 @@
     },
     {
       "timestamp": "26 JUN 2026 · 20:44 UTC",
-      "headline": "US MILITARY CONDUCTS STRIKES AGAINST IRAN",
+      "headline": "US CONDUCTS STRIKES ON IRAN",
       "detail": "The US military has struck Iranian missile, drone and radar sites after an attack on a commercial vessel near the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
