@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T19:36:50.918835+00:00",
+  "updated_at": "2026-06-27T20:58:21.684574+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -18,12 +18,6 @@
       "timestamp": "27 JUN 2026 · 17:17 UTC",
       "headline": "IRÁN ATACA INTERESES DE WASHINGTON EN BARÉIN EN RESPUESTA AL ÚLTIMO BOMBARDEO ES",
       "detail": "La presión sobre el frágil alto el fuego crece. Otro buque es alcanzado por un proyectil en la ruta sur de Ormuz. “La violencia se responderá con violencia”, avisa el vicepresidente Vance",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 JUN 2026 · 13:26 UTC",
-      "headline": "‘PICK UP THE PHONE’: IRGC APPEARS TO REBUFF US STRAIT OF HORMUZ ‘HOTLINE’",
-      "detail": "Iran's IRGC appears to have rejected US claims of a military hotline will operate between the two countries.",
       "severity": "INFO"
     },
     {
@@ -48,6 +42,12 @@
       "timestamp": "24 JUN 2026 · 13:34 UTC",
       "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
       "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUN 2026 · 10:55 UTC",
+      "headline": "IRAN TO SET UP HORMUZ HOTLINE WITH US",
+      "detail": "Iran has agreed to set up a hotline with the US to prevent misunderstandings involving ships transiting the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
