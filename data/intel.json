@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T23:58:36.957581+00:00",
+  "updated_at": "2026-06-28T04:17:13.546235+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -15,8 +15,14 @@
   },
   "events": [
     {
+      "timestamp": "28 JUN 2026 · 03:40 UTC",
+      "headline": "GULF COUNTRIES ATTACKED AFTER US LAUNCHES SECOND ROUND OF STRIKES ON IRAN",
+      "detail": "Gulf countries attacked after US launches second round of strikes on Iran.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "27 JUN 2026 · 23:32 UTC",
-      "headline": "TRUMP THREATENS TO DESTROY IRAN AS US CONDUCTS NEW STRIKES",
+      "headline": "TRUMP THREATENS TO DESTROY IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
       "detail": "The US has conducted strikes in Iran for a second consecutive day in response to attacks on shipping in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
@@ -30,12 +36,6 @@
       "timestamp": "27 JUN 2026 · 17:17 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A ENZARZARSE EN ATAQUES QUE PONEN EN PELIGRO EL FR",
       "detail": "Washington responde con operaciones militares en suelo iraní al golpe de Teherán a intereses occidentales en Baréin. Otro buque es alcanzado por un proyectil en la ruta sur de Ormuz",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "27 JUN 2026 · 08:42 UTC",
-      "headline": "ESTADOS UNIDOS LANZA NUEVOS ATAQUES CONTRA IRÁN TRAS EL GOLPE A UN CARGUERO",
-      "detail": "La Organización Marítima Internacional negocia garantías con Irán, que está amenazando a los buques que utilicen la ruta de Omán, para retomar su plan de evacuación tras el ataque del jueves a un carg",
       "severity": "CRÍTICO"
     },
     {
