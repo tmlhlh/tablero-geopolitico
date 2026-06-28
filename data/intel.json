@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T11:04:11.534687+00:00",
+  "updated_at": "2026-06-28T13:28:40.444397+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "28 JUN 2026 · 06:14 UTC",
-      "headline": "IRAN WAR DAY 121: IRAN ATTACKS BAHRAIN, KUWAIT AS US STRIKES NEAR HORMUZ",
-      "detail": "US strikes Iran for a second day near Strait of Hormuz as Bahrain sounds sirens and Kuwait activates air defences.",
+      "timestamp": "28 JUN 2026 · 12:38 UTC",
+      "headline": "ARAGHCHI: STRAIT OF HORMUZ REMAINS UNDER IRANIAN CONTROL FOR 30 DAYS",
+      "detail": "Iran’s foreign minister has urged ‘all parties not to interfere’ in the management of the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "28 JUN 2026 · 11:24 UTC",
+      "headline": "IRÁN BOMBARDEA BASES ESTADOUNIDENSES EN KUWAIT Y BARÉIN Y AMENAZA CON SALIRSE DE",
+      "detail": "El ministro de Exteriores bareiní conversa con el mediador paquistaní y exige una reunión del Consejo de Seguridad de la ONU para detener la escalada en el golfo Pérsico",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "28 JUN 2026 · 03:40 UTC",
-      "headline": "GULF COUNTRIES ATTACKED AFTER US LAUNCHES SECOND ROUND OF STRIKES ON IRAN",
-      "detail": "Gulf countries attacked after US launches second round of strikes on Iran.",
+      "timestamp": "28 JUN 2026 · 06:14 UTC",
+      "headline": "IRAN WAR DAY 121: IRAN ATTACKS BAHRAIN, KUWAIT AS US STRIKES NEAR HORMUZ",
+      "detail": "US strikes Iran for a second day near Strait of Hormuz as Bahrain sounds sirens and Kuwait activates air defences.",
       "severity": "CRÍTICO"
     },
     {
@@ -33,21 +39,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "27 JUN 2026 · 22:07 UTC",
-      "headline": "US LAUNCHES SECOND NIGHT OF STRIKES ON IRAN AFTER SHIP HIT BY DRONE",
-      "detail": "The attacks come after an alleged Iranian drone struck another commercial vessel in the Strait of Hormuz on Saturday.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "27 JUN 2026 · 17:17 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A ENZARZARSE EN ATAQUES QUE PONEN EN PELIGRO EL FR",
       "detail": "Washington responde con operaciones militares en suelo iraní al golpe de Teherán a intereses occidentales en Baréin. Otro buque es alcanzado por un proyectil en la ruta sur de Ormuz",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "26 JUN 2026 · 20:44 UTC",
-      "headline": "US CONDUCTS STRIKES ON IRAN",
-      "detail": "The US military has struck Iranian missile, drone and radar sites after an attack on a commercial vessel near the Strait of Hormuz Read Full Article at RT.com",
+      "timestamp": "27 JUN 2026 · 11:47 UTC",
+      "headline": "US AND IRAN EXCHANGE STRIKES FOR SECOND DAY",
+      "detail": "The US and Iran have continued exchanging strikes as disagreements over traffic in the Strait of Hormuz risk derailing peace effor Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
