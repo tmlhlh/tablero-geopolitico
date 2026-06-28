@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T15:15:20.922049+00:00",
+  "updated_at": "2026-06-28T17:04:54.223909+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "28 JUN 2026 · 08:39 UTC",
-      "headline": "IRAN AND US TRADE ATTACKS AS STRAIT OF HORMUZ CEASEFIRE FALTERS",
-      "detail": "Iran says it launched missiles and drones at US bases in Bahrain and Kuwait after fresh US strikes on its southern coast",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "27 JUN 2026 · 23:32 UTC",
       "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
       "detail": "The US has conducted strikes in Iran for a second consecutive day in response to attacks on shipping in the Strait of Hormuz Read Full Article at RT.com",
@@ -48,6 +42,12 @@
       "timestamp": "27 JUN 2026 · 17:17 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A ENZARZARSE EN ATAQUES QUE PONEN EN PELIGRO EL FR",
       "detail": "Washington responde con operaciones militares en suelo iraní al golpe de Teherán a intereses occidentales en Baréin. Otro buque es alcanzado por un proyectil en la ruta sur de Ormuz",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "27 JUN 2026 · 11:47 UTC",
+      "headline": "US AND IRAN EXCHANGE STRIKES FOR SECOND DAY",
+      "detail": "The US and Iran have continued exchanging strikes as disagreements over traffic in the Strait of Hormuz risk derailing peace effor Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
