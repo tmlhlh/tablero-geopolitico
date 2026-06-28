@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T04:17:13.546235+00:00",
+  "updated_at": "2026-06-28T08:18:31.877272+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "28 JUN 2026 · 06:14 UTC",
+      "headline": "IRAN WAR DAY 121: IRAN ATTACKS BAHRAIN, KUWAIT AS US STRIKES NEAR HORMUZ",
+      "detail": "US strikes Iran for a second day near Strait of Hormuz as Bahrain sounds sirens and Kuwait activates air defences.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "28 JUN 2026 · 03:40 UTC",
       "headline": "GULF COUNTRIES ATTACKED AFTER US LAUNCHES SECOND ROUND OF STRIKES ON IRAN",
       "detail": "Gulf countries attacked after US launches second round of strikes on Iran.",
@@ -22,7 +28,7 @@
     },
     {
       "timestamp": "27 JUN 2026 · 23:32 UTC",
-      "headline": "TRUMP THREATENS TO DESTROY IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
+      "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
       "detail": "The US has conducted strikes in Iran for a second consecutive day in response to attacks on shipping in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
@@ -43,12 +49,6 @@
       "headline": "US CONDUCTS STRIKES ON IRAN",
       "detail": "The US military has struck Iranian missile, drone and radar sites after an attack on a commercial vessel near the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 JUN 2026 · 11:39 UTC",
-      "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
-      "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
