@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T17:04:54.223909+00:00",
+  "updated_at": "2026-06-28T19:13:10.773035+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -21,18 +21,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "28 JUN 2026 · 13:17 UTC",
-      "headline": "WHAT IS ARTICLE 5 OF IRAN-US MOU, AND WHY IS IT BLAMED FOR HORMUZ STRIKES?",
-      "detail": "Iran and the US trade attacks over navigation through the Strait of Hormuz, which has emerged as a major sticking point.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 JUN 2026 · 12:38 UTC",
-      "headline": "ARAGHCHI: STRAIT OF HORMUZ REMAINS UNDER IRANIAN CONTROL FOR 30 DAYS",
-      "detail": "Iran’s foreign minister has urged ‘all parties not to interfere’ in the management of the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "27 JUN 2026 · 23:32 UTC",
       "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
       "detail": "The US has conducted strikes in Iran for a second consecutive day in response to attacks on shipping in the Strait of Hormuz Read Full Article at RT.com",
@@ -49,6 +37,18 @@
       "headline": "US AND IRAN EXCHANGE STRIKES FOR SECOND DAY",
       "detail": "The US and Iran have continued exchanging strikes as disagreements over traffic in the Strait of Hormuz risk derailing peace effor Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 JUN 2026 · 20:44 UTC",
+      "headline": "US CONDUCTS STRIKES ON IRAN",
+      "detail": "The US military has struck Iranian missile, drone and radar sites after an attack on a commercial vessel near the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 JUN 2026 · 11:39 UTC",
+      "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
+      "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
