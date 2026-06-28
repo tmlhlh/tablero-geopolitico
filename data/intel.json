@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T19:13:10.773035+00:00",
+  "updated_at": "2026-06-28T20:57:27.356635+00:00",
   "market": {
     "brent_usd": 72.6,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "28 JUN 2026 · 14:01 UTC",
-      "headline": "IRGC DOUBLES DOWN AS IRAN-US MOU JEOPARDISED BY HORMUZ STRIKES",
-      "detail": "Markets in Iran react poorly after two nights of military confrontations over transit through the critical strait.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "27 JUN 2026 · 23:32 UTC",
       "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
@@ -48,6 +42,12 @@
       "timestamp": "25 JUN 2026 · 11:39 UTC",
       "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
       "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "24 JUN 2026 · 13:34 UTC",
+      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
+      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
