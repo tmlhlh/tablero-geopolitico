@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T00:04:55.887752+00:00",
+  "updated_at": "2026-06-29T05:27:33.973502+00:00",
   "market": {
-    "brent_usd": 72.97,
+    "brent_usd": 73.0,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "27 JUN 2026 · 23:32 UTC",
-      "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
-      "detail": "The US has conducted strikes in Iran for a second consecutive day in response to attacks on shipping in the Strait of Hormuz Read Full Article at RT.com",
+      "timestamp": "29 JUN 2026 · 03:55 UTC",
+      "headline": "OIL PRICES RISE AS US, IRANIAN STRIKES THREATEN STRAIT OF HORMUZ REOPENING",
+      "detail": "Brent crude edges up as tit-for-tat strikes imperial return to normality in key waterway.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "27 JUN 2026 · 17:17 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A ENZARZARSE EN ATAQUES QUE PONEN EN PELIGRO EL FR",
-      "detail": "Washington responde con operaciones militares en suelo iraní al golpe de Teherán a intereses occidentales en Baréin. Otro buque es alcanzado por un proyectil en la ruta sur de Ormuz",
+      "timestamp": "29 JUN 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN INSISTS ON CONTROL OF HORMUZ AMID REPORTS OF US TALKS",
+      "detail": "Washington and Tehran have agreed to stop attacks and renew talks in the Qatari capital, Doha, Axios reports.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "27 JUN 2026 · 23:32 UTC",
+      "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
+      "detail": "The US has conducted strikes in Iran for a second consecutive day in response to attacks on shipping in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "US AND IRAN CLASH OVER HORMUZ TRANSIT TOLL",
       "detail": "The US says Iran cannot impose fees on ships transiting the Strait of Hormuz despite Tehran’s plans for future charges Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 JUN 2026 · 13:34 UTC",
-      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
-      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.97 (+0.00%)",
+    "BRENT: $73.0 (+0.00%)",
     "VIX: 18.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
