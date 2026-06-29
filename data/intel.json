@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T21:22:31.117937+00:00",
+  "updated_at": "2026-06-29T22:53:00.207961+00:00",
   "market": {
-    "brent_usd": 73.64,
+    "brent_usd": 73.56,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -45,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "24 JUN 2026 · 13:34 UTC",
-      "headline": "NO WAR, NO PEACE – JUST HORMUZ HOLDING THE WORLD HOSTAGE",
-      "detail": "US-Iran talks remain alive but the Strait of Hormuz is still unstable as Tehran buys time and Washington tries to show control of the crisis Read Full Article at RT.com",
+      "timestamp": "29 JUN 2026 · 22:53 UTC",
+      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
+      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.64 (+0.00%)",
+    "BRENT: $73.56 (+0.00%)",
     "VIX: 17.65",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
