@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-06-29T17:32:58.638914+00:00",
+  "updated_at": "2026-06-29T19:51:29.544468+00:00",
   "market": {
-    "brent_usd": 74.22,
+    "brent_usd": 73.67,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.8,
+    "vix": 17.6,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "29 JUN 2026 · 17:24 UTC",
+      "timestamp": "29 JUN 2026 · 18:03 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN INTERRUMPEN LOS ATAQUES CRUZADOS EN ORMUZ PERO DISCREPAN S",
       "detail": "La República Islámica insiste en que todos los buques que atraviesen el estrecho deben coordinarse con Teherán hasta que se pacte cómo se gobernará la zona",
       "severity": "CRÍTICO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $74.22 (+0.00%)",
-    "VIX: 17.8",
+    "BRENT: $73.67 (+0.00%)",
+    "VIX: 17.6",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
