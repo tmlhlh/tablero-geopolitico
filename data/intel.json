@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T22:53:00.207961+00:00",
+  "updated_at": "2026-06-30T00:00:27.687773+00:00",
   "market": {
-    "brent_usd": 73.56,
+    "brent_usd": 73.52,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -45,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "29 JUN 2026 · 22:53 UTC",
+      "timestamp": "30 JUN 2026 · 00:00 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.56 (+0.00%)",
+    "BRENT: $73.52 (+0.00%)",
     "VIX: 17.65",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
