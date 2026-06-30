@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-30T04:59:19.075361+00:00",
+  "updated_at": "2026-06-30T08:33:15.511827+00:00",
   "market": {
-    "brent_usd": 73.52,
+    "brent_usd": 73.77,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.65,
+    "vix": 17.62,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "30 JUN 2026 · 06:33 UTC",
+      "headline": "WHAT IS IRAN LOOKING FOR IN ANY UPCOMING TALKS WITH THE US?",
+      "detail": "Strait of Hormuz, frozen funds, Lebanon at forefront of the minds of Iran's negotiators ahead of potential talks.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 JUN 2026 · 23:32 UTC",
       "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
@@ -39,15 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "30 JUN 2026 · 04:59 UTC",
+      "timestamp": "30 JUN 2026 · 08:33 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.52 (+0.00%)",
-    "VIX: 17.65",
+    "BRENT: $73.77 (+0.00%)",
+    "VIX: 17.62",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
