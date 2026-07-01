@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-01T11:57:38.177133+00:00",
+  "updated_at": "2026-07-01T14:41:25.052469+00:00",
   "market": {
-    "brent_usd": 72.23,
+    "brent_usd": 71.8,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.71,
+    "vix": 16.35,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -18,12 +18,6 @@
       "timestamp": "01 JUL 2026 · 03:40 UTC",
       "headline": "LA GUERRA DE ORMUZ",
       "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 JUL 2026 · 02:45 UTC",
-      "headline": "IRAN SAYS IT COULDN’T EXPORT A ‘SINGLE BARREL OF OIL’ DURING US BLOCKADE",
-      "detail": "Iran was unable to export any oil during the US blockade of its ports, the country's chief negotiator has said.",
       "severity": "INFO"
     },
     {
@@ -45,15 +39,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "01 JUL 2026 · 11:57 UTC",
+      "timestamp": "01 JUL 2026 · 14:41 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.23 (+0.00%)",
-    "VIX: 16.71",
+    "BRENT: $71.8 (+0.00%)",
+    "VIX: 16.35",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
