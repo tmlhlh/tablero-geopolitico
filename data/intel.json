@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-30T23:07:29.940998+00:00",
+  "updated_at": "2026-07-01T03:28:07.137493+00:00",
   "market": {
-    "brent_usd": 73.35,
+    "brent_usd": 73.26,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "01 JUL 2026 · 02:45 UTC",
+      "headline": "IRAN SAYS IT COULDN’T EXPORT A ‘SINGLE BARREL OF OIL’ DURING US BLOCKADE",
+      "detail": "Iran was unable to export any oil during the US blockade of its ports, the country's chief negotiator has said.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 JUN 2026 · 23:32 UTC",
       "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
@@ -33,14 +39,14 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "30 JUN 2026 · 23:07 UTC",
+      "timestamp": "01 JUL 2026 · 03:28 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $73.35 (+0.00%)",
+    "BRENT: $73.26 (+0.00%)",
     "VIX: 16.45",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
