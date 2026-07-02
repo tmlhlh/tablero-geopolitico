@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-07-02T12:13:15.131699+00:00",
+  "updated_at": "2026-07-02T15:11:57.684340+00:00",
   "market": {
-    "brent_usd": 70.44,
+    "brent_usd": 70.89,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.59,
+    "vix": 16.26,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "02 JUL 2026 · 11:41 UTC",
-      "headline": "RUSIA ESPIÓ CON DRONES INSTALACIONES NUCLEARES DE LA OTAN, SEGÚN UN INFORME DE S",
-      "detail": "La campaña se llevó a cabo durante año y medio. Muchos de los aparatos fueron lanzados desde barcos de la ‘flota fantasma’ de petroleros de Moscú",
+      "timestamp": "02 JUL 2026 · 14:15 UTC",
+      "headline": "WHO IS IRANIAN OIL TYCOON SHAMKHANI WHOSE SHIP IS STRANDED IN HORMUZ?",
+      "detail": "Iranian oil shipping magnate Mohammad Hossein Shamkhani has been sanctioned by the West over his shadow fleet.",
       "severity": "INFO"
     },
     {
-      "timestamp": "02 JUL 2026 · 08:19 UTC",
-      "headline": "TRUMP SAYS RECORD BOATS LEAVING HORMUZ, CALLS COMMUNISM ‘BIGGEST THREAT’",
-      "detail": "US President Donald Trump arrived in North Dakota aboard a train for the Roosevelt Presidential Library dedication.",
+      "timestamp": "02 JUL 2026 · 13:48 UTC",
+      "headline": "WITH HORMUZ REOPENED, HAS THE OIL SHORTAGE TURNED INTO A GLUT?",
+      "detail": "As flow resumes through the strait, an oil surplus may yet again destabilise global energy markets.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 JUL 2026 · 11:41 UTC",
+      "headline": "RUSIA ESPIÓ CON DRONES INSTALACIONES NUCLEARES DE LA OTAN, SEGÚN UN INFORME DE S",
+      "detail": "La campaña se llevó a cabo durante año y medio. Muchos de los aparatos fueron lanzados desde barcos de la ‘flota fantasma’ de petroleros de Moscú",
       "severity": "INFO"
     },
     {
@@ -39,21 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "27 JUN 2026 · 11:47 UTC",
-      "headline": "US AND IRAN EXCHANGE STRIKES FOR SECOND DAY",
-      "detail": "The US and Iran have continued exchanging strikes as disagreements over traffic in the Strait of Hormuz risk derailing peace effor Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 JUL 2026 · 12:13 UTC",
+      "timestamp": "02 JUL 2026 · 15:11 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $70.44 (+0.00%)",
-    "VIX: 16.59",
+    "BRENT: $70.89 (+0.00%)",
+    "VIX: 16.26",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
