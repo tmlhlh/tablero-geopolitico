@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-02T06:38:24.709608+00:00",
+  "updated_at": "2026-07-02T09:59:11.529844+00:00",
   "market": {
-    "brent_usd": 70.97,
+    "brent_usd": 70.61,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.59,
+    "vix": 16.65,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.4
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "02 JUL 2026 · 08:19 UTC",
+      "headline": "TRUMP SAYS RECORD BOATS LEAVING HORMUZ, CALLS COMMUNISM ‘BIGGEST THREAT’",
+      "detail": "US President Donald Trump arrived in North Dakota aboard a train for the Roosevelt Presidential Library dedication.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "01 JUL 2026 · 03:40 UTC",
       "headline": "LA GUERRA DE ORMUZ",
@@ -33,15 +39,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "02 JUL 2026 · 06:38 UTC",
+      "timestamp": "02 JUL 2026 · 09:59 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $70.97 (+0.00%)",
-    "VIX: 16.59",
+    "BRENT: $70.61 (+0.00%)",
+    "VIX: 16.65",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
