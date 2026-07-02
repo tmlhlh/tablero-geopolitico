@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-02T19:18:51.716444+00:00",
+  "updated_at": "2026-07-02T21:00:44.475230+00:00",
   "market": {
-    "brent_usd": 71.58,
+    "brent_usd": 71.6,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.66,
+    "vix": 16.15,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -19,18 +19,6 @@
       "headline": "HOW US-IRAN WAR MAY PUSH GULF COUNTRIES TO ‘DIVERSIFY’ SECURITY ALLIANCES",
       "detail": "Despite Iranian attacks, several GCC states continue to speak with Tehran in effort to mend ties and forge cooperation.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 JUL 2026 · 14:15 UTC",
-      "headline": "WHO IS IRANIAN OIL TYCOON SHAMKHANI WHOSE SHIP IS STRANDED IN HORMUZ?",
-      "detail": "Iranian oil shipping magnate Mohammad Hossein Shamkhani has been sanctioned by the West over his shadow fleet.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 JUL 2026 · 13:48 UTC",
-      "headline": "WITH HORMUZ REOPENED, HAS THE OIL SHORTAGE TURNED INTO A GLUT?",
-      "detail": "As flow resumes through the strait, an oil surplus may yet again destabilise global energy markets.",
-      "severity": "INFO"
     },
     {
       "timestamp": "02 JUL 2026 · 11:41 UTC",
@@ -49,11 +37,17 @@
       "headline": "TRUMP THREATENS IRAN AS US CONDUCTS NEW STRIKES (VIDEO)",
       "detail": "The US has conducted strikes in Iran for a second consecutive day in response to attacks on shipping in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 JUL 2026 · 21:00 UTC",
+      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
+      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $71.58 (+0.00%)",
-    "VIX: 16.66",
+    "BRENT: $71.6 (+0.00%)",
+    "VIX: 16.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
