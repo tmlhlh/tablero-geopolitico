@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T19:05:07.947661+00:00",
+  "updated_at": "2026-07-04T20:52:29.178931+00:00",
   "market": {
     "brent_usd": 72.13,
     "brent_chg": 0.0
@@ -15,13 +15,19 @@
   },
   "events": [
     {
+      "timestamp": "04 JUL 2026 · 18:46 UTC",
+      "headline": "RUSSIA’S MEDVEDEV SAYS STRAIT OF HORMUZ IS IRAN’S ‘NUCLEAR WEAPON’",
+      "detail": "Dmitry Medvedev says Iran’s ability to disrupt traffic in the Strait of Hormuz is equivalent to possession of a nuclear.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "01 JUL 2026 · 03:40 UTC",
       "headline": "LA GUERRA DE ORMUZ",
       "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
       "severity": "INFO"
     },
     {
-      "timestamp": "04 JUL 2026 · 19:05 UTC",
+      "timestamp": "04 JUL 2026 · 20:52 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
