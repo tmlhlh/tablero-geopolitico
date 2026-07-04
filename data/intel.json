@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T22:55:32.966047+00:00",
+  "updated_at": "2026-07-04T23:59:18.428247+00:00",
   "market": {
     "brent_usd": 72.13,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "04 JUL 2026 · 23:14 UTC",
+      "headline": "UCRANIA GOLPEA SAN PETERSBURGO CON DRONES Y PUTIN HABLA CON TRUMP EN MEDIO DE LA",
+      "detail": "Kiev afirmó haber alcanzado una terminal petrolera y la base naval de Kronstadt, mientras negó que Moscú haya tomado Kostiantinivka, un enclave estratégico del Donbass cuya captura el Kremlin presentó",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "04 JUL 2026 · 18:46 UTC",
       "headline": "RUSSIA’S MEDVEDEV SAYS STRAIT OF HORMUZ IS IRAN’S ‘NUCLEAR WEAPON’",
       "detail": "Dmitry Medvedev says Iran’s ability to disrupt traffic in the Strait of Hormuz is equivalent to possession of a nuclear.",
@@ -27,7 +33,7 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "04 JUL 2026 · 22:55 UTC",
+      "timestamp": "04 JUL 2026 · 23:59 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
