@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T20:50:22.202812+00:00",
+  "updated_at": "2026-07-06T22:10:43.284676+00:00",
   "market": {
-    "brent_usd": 72.11,
+    "brent_usd": 72.13,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "06 JUL 2026 · 19:57 UTC",
+      "timestamp": "06 JUL 2026 · 21:06 UTC",
       "headline": "DESPUÉS DE CUATRO MESES DE TRABAJO: UN BARCO ROMANO DE HACE 17 SIGLOS FUE RECUPE",
-      "detail": "Por primera vez, España logra rescatar los restos de un navío que fue hundido durante un viaje comercial; gracias a esta hazaña se podrá estudiar la estructura y materiales de construcción",
+      "detail": "Por primera vez, España logró rescatar los restos de un navío que fue hundido durante un viaje comercial; gracias a esta hazaña se podrá estudiar la estructura y materiales de construcción",
       "severity": "CRÍTICO"
     },
     {
@@ -27,14 +27,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "06 JUL 2026 · 20:50 UTC",
+      "timestamp": "06 JUL 2026 · 22:10 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.11 (+0.00%)",
+    "BRENT: $72.13 (+0.00%)",
     "VIX: 15.57",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
