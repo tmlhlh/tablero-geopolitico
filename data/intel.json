@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-07T11:44:36.420756+00:00",
+  "updated_at": "2026-07-07T14:23:16.618659+00:00",
   "market": {
-    "brent_usd": 72.57,
+    "brent_usd": 73.94,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.91,
+    "vix": 16.09,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "07 JUL 2026 · 12:19 UTC",
+      "headline": "SHIPS ATTACKED IN THE STRAIT OF HORMUZ: WHAT THAT MEANS FOR ONGOING TALKS",
+      "detail": "While marine traffic in Hormuz has steadily risen, vague provisions on the strait remain contentious in peace talks.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "07 JUL 2026 · 10:41 UTC",
       "headline": "UKRAINIAN DRONES HIT RUSSIAN FUEL TANKERS",
@@ -27,15 +33,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "07 JUL 2026 · 11:44 UTC",
+      "timestamp": "07 JUL 2026 · 14:23 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.57 (+0.00%)",
-    "VIX: 15.91",
+    "BRENT: $73.94 (+0.00%)",
+    "VIX: 16.09",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
