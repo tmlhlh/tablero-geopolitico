@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T21:20:22.990668+00:00",
+  "updated_at": "2026-07-07T22:57:21.614216+00:00",
   "market": {
-    "brent_usd": 75.86,
+    "brent_usd": 76.22,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,33 @@
   },
   "events": [
     {
-      "timestamp": "07 JUL 2026 · 20:59 UTC",
-      "headline": "ESTADOS UNIDOS VUELVE A PROHIBIR LA EXPORTACIÓN DE PETRÓLEO DE IRÁN",
-      "detail": "La Administración de Trump ha declarado “totalmente inaceptables” los ataques contra petroleros en el estrecho de Ormuz",
+      "timestamp": "07 JUL 2026 · 22:48 UTC",
+      "headline": "US LAUNCHES STRIKES ON IRAN AFTER TANKERS HIT IN STRAIT OF HORMUZ",
+      "detail": "The US says the strikes are intended to impose \"heavy costs\", while Iran warns it will \"take decisive measures\" in response.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 JUL 2026 · 22:23 UTC",
+      "headline": "EE.UU. VOLVIÓ A ATACAR IRÁN EN REPRESALIA POR EL BOMBARDEO DE BUQUES COMERCIALES",
+      "detail": "Las fuerzas iraníes bombardearon tres barcos petroleros que transitaban por el estrecho; Washington también endureció las sanciones contra Teherán",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "07 JUL 2026 · 21:48 UTC",
+      "headline": "ESTADOS UNIDOS LANZA NUEVOS GOLPES CONTRA IRÁN COMO REPRESALIA POR LOS ATAQUES C",
+      "detail": "La Administración de Trump también ha revocado el permiso de exportar petróleo a Teherán",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 JUL 2026 · 21:42 UTC",
+      "headline": "US RESUMES ‘POWERFUL STRIKES’ ON IRAN AFTER TANKER ATTACKS (VIDEOS)",
+      "detail": "The US has resumed strikes on Iran in response to attacks on tankers transiting the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 JUL 2026 · 21:21 UTC",
+      "headline": "US SAYS STRIKES LAUNCHED AS EXPLOSIONS HEARD IN SOUTHERN IRAN",
+      "detail": "US strikes in Iran come a day after Qatari, Saudi tankers hit in attacks in Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
     {
@@ -25,22 +49,10 @@
       "headline": "QATAR ACUSA A IRÁN DE ATACAR A UNO DE SUS PETROLEROS EN EL ESTRECHO DE ORMUZ",
       "detail": "Un segundo buque con bandera saudí también ha sufrido daños cerca de la costa de Omán aunque se desconocen las causas de este incidente",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "01 JUL 2026 · 03:40 UTC",
-      "headline": "LA GUERRA DE ORMUZ",
-      "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "07 JUL 2026 · 21:20 UTC",
-      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
-      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $75.86 (+0.00%)",
+    "BRENT: $76.22 (+0.00%)",
     "VIX: 16.13",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
