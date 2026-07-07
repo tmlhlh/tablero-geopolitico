@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-07T04:47:36.584599+00:00",
+  "updated_at": "2026-07-07T08:19:29.639842+00:00",
   "market": {
-    "brent_usd": 72.48,
+    "brent_usd": 72.78,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.57,
+    "vix": 15.95,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.0
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -16,14 +16,8 @@
   "events": [
     {
       "timestamp": "07 JUL 2026 · 04:06 UTC",
-      "headline": "TANKER ON FIRE OFF COAST OF OMAN AFTER BEING HIT BY PROJECTILE",
-      "detail": "Iran's TV claims the tanker ignored warnings, but no direct responsibility for the attack has been declared.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: KHAMENEI’S FUNERAL UNDER WAY IN QOM; SHIP ATTACKED IN HORMUZ",
-      "detail": "The UK's maritime agency says an 'unknown projectile' has hit a tanker off the coast of Oman, causing a fire.",
+      "headline": "TANKER ON FIRE IN STRAIT OF HORMUZ AFTER BEING HIT BY PROJECTILE OFF OMAN",
+      "detail": "Iranian television said the liquefied natural gas tanker came under attack after ignoring warnings.",
       "severity": "CRÍTICO"
     },
     {
@@ -33,15 +27,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "07 JUL 2026 · 04:47 UTC",
+      "timestamp": "07 JUL 2026 · 08:19 UTC",
       "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
       "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $72.48 (+0.00%)",
-    "VIX: 15.57",
+    "BRENT: $72.78 (+0.00%)",
+    "VIX: 15.95",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
