@@ -1,28 +1,22 @@
 {
-  "updated_at": "2026-07-08T06:24:36.454588+00:00",
+  "updated_at": "2026-07-08T09:23:16.308509+00:00",
   "market": {
-    "brent_usd": 76.7,
+    "brent_usd": 78.81,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.13,
+    "vix": 18.54,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "08 JUL 2026 · 04:43 UTC",
-      "headline": "US AND IRAN TRADE STRIKES AFTER TANKERS HIT IN STRAIT OF HORMUZ",
-      "detail": "The US military says it hit missile sites and command centres while Iran says it attacked US bases.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "08 JUL 2026 · 04:02 UTC",
-      "headline": "OIL PRICES SURGE AS US STRIKES IRAN, REVERSING SLIDE TO PRE-WAR LEVELS",
+      "headline": "OIL SURGES AS US STRIKES IRAN, REVERSING RETURN TO PRE-WAR PRICES",
       "detail": "Brent crude rises above $76 a barrel for the first time in two weeks amid renewed violence in Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
@@ -49,11 +43,17 @@
       "headline": "LA GUERRA DE ORMUZ",
       "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "08 JUL 2026 · 09:23 UTC",
+      "headline": "U.S. JET FUEL PRODUCTION RISES AFTER PRICES DOUBLED IN MARCH",
+      "detail": "Weekly estimates suggest U.S. jet fuel production has increased to record highs in response to elevated jet fuel prices after the Strait of Hormuz closed on February 28. Higher crude oil prices and su",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $76.7 (+0.00%)",
-    "VIX: 16.13",
+    "BRENT: $78.81 (+0.00%)",
+    "VIX: 18.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
