@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T21:03:23.279101+00:00",
+  "updated_at": "2026-07-08T23:02:07.439349+00:00",
   "market": {
-    "brent_usd": 79.14,
+    "brent_usd": 78.95,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,22 +15,22 @@
   },
   "events": [
     {
-      "timestamp": "08 JUL 2026 · 20:41 UTC",
+      "timestamp": "08 JUL 2026 · 22:49 UTC",
+      "headline": "LOS VIDEOS QUE MUESTRAN EL MOMENTO DE LOS ATAQUES DE EE.UU. CONTRA IRÁN",
+      "detail": "El presidente estadounidense publicó videos del ataque y exigió a Teherán el libre tránsito por el estrecho de Ormuz",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 JUL 2026 · 21:51 UTC",
       "headline": "EL EJÉRCITO DE EE.UU. LANZA NUEVOS ATAQUES CONTRA IRÁN Y SE DESMORONA EL ACUERDO",
       "detail": "Washington bombardeó objetivos del país persa en respuesta a los ataques contra buques en el estrecho de Ormuz",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "08 JUL 2026 · 20:28 UTC",
-      "headline": "US RESUMES STRIKES ON IRAN",
-      "detail": "US CENTCOM has announced new strikes on Iran to degrade its ability to project force in the Strait of Hormuz Read Full Article at RT.com",
+      "headline": "US STRIKES IRAN FOR SECOND NIGHT AS TRUMP SAYS CEASEFIRE IS ‘OVER’",
+      "detail": "US strikes Iran for second night after tanker attacks in Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 JUL 2026 · 16:48 UTC",
-      "headline": "THE STRAIT OF HORMUZ IS NOW AT THE CENTRE OF IRANIAN AND US CALCULUS",
-      "detail": "The fate of the strait is directly linked to what happens next to the world economy.",
-      "severity": "INFO"
     },
     {
       "timestamp": "08 JUL 2026 · 11:30 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $79.14 (+0.00%)",
+    "BRENT: $78.95 (+0.00%)",
     "VIX: 16.9",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
