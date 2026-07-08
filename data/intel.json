@@ -1,30 +1,36 @@
 {
-  "updated_at": "2026-07-08T19:19:25.112911+00:00",
+  "updated_at": "2026-07-08T21:03:23.279101+00:00",
   "market": {
-    "brent_usd": 78.15,
+    "brent_usd": 79.14,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.81,
+    "vix": 16.9,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "08 JUL 2026 · 20:41 UTC",
+      "headline": "EL EJÉRCITO DE EE.UU. LANZA NUEVOS ATAQUES CONTRA IRÁN Y SE DESMORONA EL ACUERDO",
+      "detail": "Washington bombardeó objetivos del país persa en respuesta a los ataques contra buques en el estrecho de Ormuz",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 JUL 2026 · 20:28 UTC",
+      "headline": "US RESUMES STRIKES ON IRAN",
+      "detail": "US CENTCOM has announced new strikes on Iran to degrade its ability to project force in the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "08 JUL 2026 · 16:48 UTC",
       "headline": "THE STRAIT OF HORMUZ IS NOW AT THE CENTRE OF IRANIAN AND US CALCULUS",
       "detail": "The fate of the strait is directly linked to what happens next to the world economy.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 JUL 2026 · 15:57 UTC",
-      "headline": "GERMANY URGES US-IRAN NEGOTIATIONS, OFFERS TO MINESWEEP HORMUZ",
-      "detail": "German Foreign Minister Johann Wadephul urged the US and Iran to resume negotiations.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "08 JUL 2026 · 11:30 UTC",
@@ -39,12 +45,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "07 JUL 2026 · 21:48 UTC",
-      "headline": "ESTADOS UNIDOS LANZA NUEVOS GOLPES CONTRA IRÁN COMO REPRESALIA POR LOS ATAQUES C",
-      "detail": "La Administración de Trump también ha revocado el permiso de exportar petróleo a Teherán",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "07 JUL 2026 · 21:42 UTC",
       "headline": "US RESUMES ‘POWERFUL STRIKES’ ON IRAN AFTER TANKER ATTACKS (VIDEOS)",
       "detail": "The US has resumed strikes on Iran in response to attacks on tankers transiting the Strait of Hormuz Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $78.15 (+0.00%)",
-    "VIX: 16.81",
+    "BRENT: $79.14 (+0.00%)",
+    "VIX: 16.9",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
