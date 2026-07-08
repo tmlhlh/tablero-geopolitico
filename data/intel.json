@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T23:58:31.559927+00:00",
+  "updated_at": "2026-07-08T03:19:21.637662+00:00",
   "market": {
-    "brent_usd": 76.16,
+    "brent_usd": 76.11,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,16 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "07 JUL 2026 · 23:53 UTC",
+      "timestamp": "08 JUL 2026 · 02:19 UTC",
       "headline": "US LAUNCHES STRIKES ON IRAN AFTER TANKERS HIT IN STRAIT OF HORMUZ",
       "detail": "The US says the strikes are intended to impose \"heavy costs\", while Iran warns it will \"take decisive measures\" in response.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "07 JUL 2026 · 22:55 UTC",
-      "headline": "EE.UU. VOLVIÓ A ATACAR IRÁN EN REPRESALIA POR EL BOMBARDEO DE BUQUES COMERCIALES",
-      "detail": "Las fuerzas iraníes bombardearon tres barcos petroleros que transitaban por el estrecho; Washington también endureció las sanciones contra Teherán",
-      "severity": "INFO"
+      "timestamp": "08 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US BOMBS SIRIK, QESHM, BANDAR ABBAS OVER HORMUZ ATTACKS",
+      "detail": "Explosions in Iran's Sirik, Bandar Abbas and Qeshm as US launches attacks after revoking waiver on Iranian oil exports.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "07 JUL 2026 · 21:48 UTC",
@@ -40,7 +40,7 @@
     },
     {
       "timestamp": "07 JUL 2026 · 21:21 UTC",
-      "headline": "US SAYS STRIKES LAUNCHED AS EXPLOSIONS HEARD IN SOUTHERN IRAN",
+      "headline": "US LAUNCHES STRIKES ON SOUTHERN IRAN, TEHRAN VOWS ‘CRUSHING RESPONSE’",
       "detail": "US strikes in Iran come a day after Qatari, Saudi tankers hit in attacks in Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $76.16 (+0.00%)",
+    "BRENT: $76.11 (+0.00%)",
     "VIX: 16.13",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
