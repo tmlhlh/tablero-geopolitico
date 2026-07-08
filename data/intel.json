@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-08T13:54:26.800170+00:00",
+  "updated_at": "2026-07-08T16:00:11.197381+00:00",
   "market": {
-    "brent_usd": 77.83,
+    "brent_usd": 80.43,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.33,
+    "vix": 18.23,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 JUL 2026 · 15:57 UTC",
+      "headline": "GERMANY URGES US-IRAN NEGOTIATIONS, OFFERS TO MINESWEEP HORMUZ",
+      "detail": "German Foreign Minister Johann Wadephul urged the US and Iran to resume negotiations.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 JUL 2026 · 14:29 UTC",
+      "headline": "¿VUELVE LA GUERRA EN IRÁN? LA NUEVA ESCALADA QUE PUSO FIN A LA TREGUA, LA DISPAR",
+      "detail": "Ataques en el estrecho de Ormuz, una fuerte respuesta militar de Estados Unidos y la reimposición de sanciones petroleras precipitaron la caída de un acuerdo que ya era débil",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "08 JUL 2026 · 13:09 UTC",
       "headline": "IRAN SIGNALS DEFIANCE AS TRUMP FUMES OVER STRAIT OF HORMUZ STRIKES",
@@ -27,33 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
+      "timestamp": "08 JUL 2026 · 10:06 UTC",
+      "headline": "TRUMP SAYS CEASEFIRE ‘OVER’, RE-UPS THREATS AFTER US AND IRAN TRADE ATTACKS",
+      "detail": "Speaking at NATO summit, Trump says US may resume naval blockade, launch more strikes, and 'take over' Kharg island.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "08 JUL 2026 · 05:42 UTC",
       "headline": "US STRIKES TARGET IRANIAN MILITARY BOATS",
       "detail": "The US has launched the strikes on Iran in response to attacks on three oil tankers in the Strait of Hormuz.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 JUL 2026 · 21:48 UTC",
-      "headline": "ESTADOS UNIDOS LANZA NUEVOS GOLPES CONTRA IRÁN COMO REPRESALIA POR LOS ATAQUES C",
-      "detail": "La Administración de Trump también ha revocado el permiso de exportar petróleo a Teherán",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 JUL 2026 · 21:42 UTC",
-      "headline": "US RESUMES ‘POWERFUL STRIKES’ ON IRAN AFTER TANKER ATTACKS (VIDEOS)",
-      "detail": "The US has resumed strikes on Iran in response to attacks on tankers transiting the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 JUL 2026 · 15:52 UTC",
-      "headline": "QATAR ACUSA A IRÁN DE ATACAR A UNO DE SUS PETROLEROS EN EL ESTRECHO DE ORMUZ",
-      "detail": "Un segundo buque con bandera saudí también ha sufrido daños cerca de la costa de Omán aunque se desconocen las causas de este incidente",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $77.83 (+0.00%)",
-    "VIX: 17.33",
+    "BRENT: $80.43 (+0.00%)",
+    "VIX: 18.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
