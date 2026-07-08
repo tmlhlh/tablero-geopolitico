@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-08T11:44:11.227059+00:00",
+  "updated_at": "2026-07-08T13:54:26.800170+00:00",
   "market": {
-    "brent_usd": 78.45,
+    "brent_usd": 77.83,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.33,
+    "vix": 17.33,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 JUL 2026 · 13:09 UTC",
+      "headline": "IRAN SIGNALS DEFIANCE AS TRUMP FUMES OVER STRAIT OF HORMUZ STRIKES",
+      "detail": "Iranian officials insist that Tehran will not give up control over the waterway as US attacks threaten fragile truce.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "08 JUL 2026 · 11:30 UTC",
       "headline": "OIL PRICES SURGE AS US AND IRAN RETURN TO HOSTILITIES",
@@ -43,17 +49,11 @@
       "headline": "QATAR ACUSA A IRÁN DE ATACAR A UNO DE SUS PETROLEROS EN EL ESTRECHO DE ORMUZ",
       "detail": "Un segundo buque con bandera saudí también ha sufrido daños cerca de la costa de Omán aunque se desconocen las causas de este incidente",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "01 JUL 2026 · 03:40 UTC",
-      "headline": "LA GUERRA DE ORMUZ",
-      "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $78.45 (+0.00%)",
-    "VIX: 18.33",
+    "BRENT: $77.83 (+0.00%)",
+    "VIX: 17.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
