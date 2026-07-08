@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T03:19:21.637662+00:00",
+  "updated_at": "2026-07-08T06:24:36.454588+00:00",
   "market": {
-    "brent_usd": 76.11,
+    "brent_usd": 76.7,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "08 JUL 2026 · 02:19 UTC",
-      "headline": "US LAUNCHES STRIKES ON IRAN AFTER TANKERS HIT IN STRAIT OF HORMUZ",
-      "detail": "The US says the strikes are intended to impose \"heavy costs\", while Iran warns it will \"take decisive measures\" in response.",
+      "timestamp": "08 JUL 2026 · 04:43 UTC",
+      "headline": "US AND IRAN TRADE STRIKES AFTER TANKERS HIT IN STRAIT OF HORMUZ",
+      "detail": "The US military says it hit missile sites and command centres while Iran says it attacked US bases.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "08 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US BOMBS SIRIK, QESHM, BANDAR ABBAS OVER HORMUZ ATTACKS",
-      "detail": "Explosions in Iran's Sirik, Bandar Abbas and Qeshm as US launches attacks after revoking waiver on Iranian oil exports.",
+      "timestamp": "08 JUL 2026 · 04:02 UTC",
+      "headline": "OIL PRICES SURGE AS US STRIKES IRAN, REVERSING SLIDE TO PRE-WAR LEVELS",
+      "detail": "Brent crude rises above $76 a barrel for the first time in two weeks amid renewed violence in Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
     {
@@ -39,20 +39,20 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "07 JUL 2026 · 21:21 UTC",
-      "headline": "US LAUNCHES STRIKES ON SOUTHERN IRAN, TEHRAN VOWS ‘CRUSHING RESPONSE’",
-      "detail": "US strikes in Iran come a day after Qatari, Saudi tankers hit in attacks in Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "07 JUL 2026 · 15:52 UTC",
       "headline": "QATAR ACUSA A IRÁN DE ATACAR A UNO DE SUS PETROLEROS EN EL ESTRECHO DE ORMUZ",
       "detail": "Un segundo buque con bandera saudí también ha sufrido daños cerca de la costa de Omán aunque se desconocen las causas de este incidente",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "01 JUL 2026 · 03:40 UTC",
+      "headline": "LA GUERRA DE ORMUZ",
+      "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $76.11 (+0.00%)",
+    "BRENT: $76.7 (+0.00%)",
     "VIX: 16.13",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
