@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T20:44:37.725316+00:00",
+  "updated_at": "2026-07-09T22:18:58.929986+00:00",
   "market": {
-    "brent_usd": 76.12,
+    "brent_usd": 76.05,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "09 JUL 2026 · 16:52 UTC",
-      "headline": "WILL NATO GET INVOLVED IN SECURING STRAIT OF HORMUZ?",
-      "detail": "Iran war overshadows defence alliance's summit in Turkiye.",
+      "timestamp": "09 JUL 2026 · 21:38 UTC",
+      "headline": "HOW STRAIT OF HORMUZ DISPUTE LED TO LATEST US-IRAN CYCLE OF FIGHTING",
+      "detail": "Clashing interpretations of vague memorandum of understanding language on Hormuz at heart of escalation, analysts say.",
       "severity": "INFO"
     },
     {
-      "timestamp": "09 JUL 2026 · 15:34 UTC",
-      "headline": "STRAIT OF HORMUZ: WHAT HAS HAPPENED SINCE THE US-IRAN MOU ON JUNE 17?",
-      "detail": "More than 500 ships have passed through the strait since June 17, but many remain stuck.",
+      "timestamp": "09 JUL 2026 · 16:52 UTC",
+      "headline": "WILL NATO GET INVOLVED IN SECURING STRAIT OF HORMUZ?",
+      "detail": "Iran war overshadows defence alliance's summit in Turkiye.",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $76.12 (+0.00%)",
+    "BRENT: $76.05 (+0.00%)",
     "VIX: 15.84",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
