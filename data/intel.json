@@ -1,19 +1,43 @@
 {
-  "updated_at": "2026-07-09T13:46:11.100929+00:00",
+  "updated_at": "2026-07-09T16:24:54.285644+00:00",
   "market": {
-    "brent_usd": 77.82,
+    "brent_usd": 76.57,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.71,
+    "vix": 16.04,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 JUL 2026 · 15:36 UTC",
+      "headline": "ATAQUE DE EE.UU. A IRÁN: DÓNDE FUERON LOS NUEVOS BOMBARDEOS Y POR QUÉ ESCALÓ EL ",
+      "detail": "Washington intensificó sus ataques sobre instalaciones estratégicas en la costa iraní tras incidentes en el estrecho de Ormuz; persisten los intentos diplomáticos por evitar un conflicto mayor",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 JUL 2026 · 15:34 UTC",
+      "headline": "STRAIT OF HORMUZ: WHAT HAS HAPPENED SINCE THE US-IRAN MOU ON JUNE 17?",
+      "detail": "More than 500 ships have passed through the strait since June 17, but many remain stuck.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 JUL 2026 · 14:41 UTC",
+      "headline": "BIG FALL IN OIL, GAS AND CARGO SHIPS TAKING US-BACKED HORMUZ ROUTE AFTER NEW STR",
+      "detail": "Data shows a decline in the number of ships - many carrying oil and gas - going through the waterway after attacks this week.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 JUL 2026 · 14:21 UTC",
+      "headline": "IRÁN RESPONDE A LOS ATAQUES DE EE.UU. Y PONE EN DUDA LA REAPERTURA DEL ESTRECHO ",
+      "detail": "La república islámica apuntó contra Bahrein, Kuwait, Qatar y Jordania después de que el Ejército norteamericano bombardeara diferentes puntos del país; el fuego cruzado amenaza la tregua",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "09 JUL 2026 · 12:24 UTC",
       "headline": "UKRAINE TARGETS RUSSIAN OIL DEPOTS AND TANKERS IN DRONE ATTACKS",
@@ -21,39 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "09 JUL 2026 · 11:33 UTC",
-      "headline": "EL EJÉRCITO DE EE.UU. LANZA NUEVOS ATAQUES CONTRA IRÁN Y SE DESMORONA EL ACUERDO",
-      "detail": "Washington bombardeó cerca de 90 objetivos militares del país persa en respuesta a los ataques contra buques en el estrecho de Ormuz",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "09 JUL 2026 · 11:23 UTC",
       "headline": "DEADLY US STRIKES TRIGGER IRANIAN ATTACKS ON GULF STATES",
       "detail": "The US military says it has struck 90 targets in Iran. Iran says it sent drone strikes on US-linked sites in the Gulf.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 JUL 2026 · 10:06 UTC",
-      "headline": "AIR RAID SIRENS IN BAHRAIN AFTER UNEASY NIGHT OF US-IRAN STRIKES",
-      "detail": "After a tense night of overnight US-led strikes on Iran, air raid alerts sounded across Gulf states.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 JUL 2026 · 09:47 UTC",
-      "headline": "TRUMP DECLARES HIMSELF IRAN’S ‘NUMBER ONE TARGET’",
-      "detail": "Trump says he’s Iran’s “number one target” as the US-Iran conflict resumes over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 JUL 2026 · 20:28 UTC",
-      "headline": "US STRIKES IRAN FOR SECOND NIGHT AS TRUMP SAYS CEASEFIRE IS ‘OVER’ (VIDEOS)",
-      "detail": "US strikes Iran for second night after tanker attacks in Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $77.82 (+0.00%)",
-    "VIX: 16.71",
+    "BRENT: $76.57 (+0.00%)",
+    "VIX: 16.04",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
