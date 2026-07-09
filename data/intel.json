@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-09T06:39:58.094552+00:00",
+  "updated_at": "2026-07-09T10:21:32.728483+00:00",
   "market": {
-    "brent_usd": 77.92,
+    "brent_usd": 78.08,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.9,
+    "vix": 16.86,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 JUL 2026 · 09:53 UTC",
+      "headline": "US AND IRAN TRADE STRIKES FOR SECOND NIGHT IN A ROW AFTER TRUMP DECLARES CEASEFI",
+      "detail": "Traffic through the Strait of Hormuz has dropped 'dramatically' since the lastest attacks began.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 JUL 2026 · 09:47 UTC",
+      "headline": "TRUMP DECLARES HIMSELF IRAN’S ‘NUMBER ONE TARGET’",
+      "detail": "Trump says he’s Iran’s “number one target” as the US-Iran conflict resumes over the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 JUL 2026 · 06:49 UTC",
+      "headline": "LOS VIDEOS QUE MUESTRAN EL MOMENTO DE LOS ATAQUES DE EE.UU. CONTRA IRÁN",
+      "detail": "El presidente estadounidense publicó videos del ataque y exigió a Teherán el libre tránsito por el estrecho de Ormuz",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "09 JUL 2026 · 02:24 UTC",
       "headline": "EL EJÉRCITO DE EE.UU. LANZA NUEVOS ATAQUES CONTRA IRÁN Y SE DESMORONA EL ACUERDO",
@@ -31,29 +49,11 @@
       "headline": "OIL PRICES SURGE AS US AND IRAN RETURN TO HOSTILITIES",
       "detail": "Oil prices surged after the US banned Iranian exports and renewed strikes following reports of attacks on tankers in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 JUL 2026 · 21:42 UTC",
-      "headline": "US RESUMES ‘POWERFUL STRIKES’ ON IRAN AFTER TANKER ATTACKS (VIDEOS)",
-      "detail": "The US has resumed strikes on Iran in response to attacks on tankers transiting the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 JUL 2026 · 03:40 UTC",
-      "headline": "LA GUERRA DE ORMUZ",
-      "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUL 2026 · 06:39 UTC",
-      "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
-      "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $77.92 (+0.00%)",
-    "VIX: 16.9",
+    "BRENT: $78.08 (+0.00%)",
+    "VIX: 16.86",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
