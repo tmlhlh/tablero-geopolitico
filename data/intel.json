@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-07-10T08:18:41.013084+00:00",
+  "updated_at": "2026-07-10T11:47:45.499459+00:00",
   "market": {
-    "brent_usd": 75.5,
+    "brent_usd": 76.92,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.16,
+    "vix": 15.92,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "10 JUL 2026 · 02:55 UTC",
-      "headline": "STRAIT OF HORMUZ TRAFFIC PLUNGES AS US, IRAN RESUME FIGHTING",
-      "detail": "Brent crude holds steady despite a plunge in traffic in the critical waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUL 2026 · 14:41 UTC",
-      "headline": "BIG FALL IN OIL, GAS AND CARGO SHIPS TAKING US-BACKED HORMUZ ROUTE AFTER NEW STR",
-      "detail": "Data shows a decline in the number of ships - many carrying oil and gas - going through the waterway after attacks this week.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "09 JUL 2026 · 09:47 UTC",
       "headline": "TRUMP DECLARES HIMSELF IRAN’S ‘NUMBER ONE TARGET’",
@@ -49,11 +37,23 @@
       "headline": "US RESUMES ‘POWERFUL STRIKES’ ON IRAN AFTER TANKER ATTACKS (VIDEOS)",
       "detail": "The US has resumed strikes on Iran in response to attacks on tankers transiting the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "01 JUL 2026 · 03:40 UTC",
+      "headline": "LA GUERRA DE ORMUZ",
+      "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 JUL 2026 · 11:47 UTC",
+      "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
+      "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $75.5 (+0.00%)",
-    "VIX: 16.16",
+    "BRENT: $76.92 (+0.00%)",
+    "VIX: 15.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
