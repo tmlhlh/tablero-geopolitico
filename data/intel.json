@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T21:57:58.543630+00:00",
+  "updated_at": "2026-07-10T23:00:38.071961+00:00",
   "market": {
     "brent_usd": 76.0,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "10 JUL 2026 · 16:30 UTC",
-      "headline": "TRUMP HINTS AT FURTHER IRAN NEGOTIATIONS AFTER EXCHANGE OF FIRE OVER HORMUZ",
-      "detail": "Iran denies it requested new talks with US as new attacks threaten the full resumption of war.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "09 JUL 2026 · 09:47 UTC",
       "headline": "TRUMP DECLARES HIMSELF IRAN’S ‘NUMBER ONE TARGET’",
@@ -48,6 +42,12 @@
       "timestamp": "01 JUL 2026 · 03:40 UTC",
       "headline": "LA GUERRA DE ORMUZ",
       "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 JUL 2026 · 23:00 UTC",
+      "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
+      "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
