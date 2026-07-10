@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-10T11:47:45.499459+00:00",
+  "updated_at": "2026-07-10T14:13:48.836157+00:00",
   "market": {
-    "brent_usd": 76.92,
+    "brent_usd": 76.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.92,
+    "vix": 15.49,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -45,15 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "10 JUL 2026 · 11:47 UTC",
+      "timestamp": "10 JUL 2026 · 14:13 UTC",
       "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
       "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $76.92 (+0.00%)",
-    "VIX: 15.92",
+    "BRENT: $76.1 (+0.00%)",
+    "VIX: 15.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
