@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-10T04:47:19.912555+00:00",
+  "updated_at": "2026-07-10T08:18:41.013084+00:00",
   "market": {
-    "brent_usd": 76.66,
+    "brent_usd": 75.5,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.84,
+    "vix": 16.16,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -18,12 +18,6 @@
       "timestamp": "10 JUL 2026 · 02:55 UTC",
       "headline": "STRAIT OF HORMUZ TRAFFIC PLUNGES AS US, IRAN RESUME FIGHTING",
       "detail": "Brent crude holds steady despite a plunge in traffic in the critical waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUL 2026 · 21:38 UTC",
-      "headline": "HOW STRAIT OF HORMUZ DISPUTE LED TO LATEST US-IRAN CYCLE OF FIGHTING",
-      "detail": "Clashing interpretations of vague memorandum of understanding language on Hormuz at heart of escalation, analysts say.",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "OIL PRICES SURGE AS US AND IRAN RETURN TO HOSTILITIES",
       "detail": "Oil prices surged after the US banned Iranian exports and renewed strikes following reports of attacks on tankers in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 JUL 2026 · 21:42 UTC",
+      "headline": "US RESUMES ‘POWERFUL STRIKES’ ON IRAN AFTER TANKER ATTACKS (VIDEOS)",
+      "detail": "The US has resumed strikes on Iran in response to attacks on tankers transiting the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $76.66 (+0.00%)",
-    "VIX: 15.84",
+    "BRENT: $75.5 (+0.00%)",
+    "VIX: 16.16",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
