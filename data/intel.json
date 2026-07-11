@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T23:00:38.071961+00:00",
+  "updated_at": "2026-07-11T02:13:52.673774+00:00",
   "market": {
     "brent_usd": 76.0,
     "brent_chg": 0.0
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 JUL 2026 · 01:36 UTC",
+      "headline": "US GIVES IRAN DEADLINE TO DECLARE STRAIT OF HORMUZ FULLY OPEN – AXIOS",
+      "detail": "The US is reportedly pressuring Iran to declare the Strait of Hormuz fully open to commercial shipping following talks in Oman Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 01:24 UTC",
+      "headline": "US WANTS IRAN TO PLEDGE TO STOP SHOOTING AT SHIPS IN STRAIT OF HORMUZ",
+      "detail": "Vice-President JD Vance is among US officials expected to take part in negotiations resuming on Saturday in Oman.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US DEMANDS IRAN PUBLICLY STATE STRAIT OF HORMUZ OPEN FOR ALL",
+      "detail": "US said to be pushing for public statement that Iran will not fire at commercial ships passing through Strait of Hormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 JUL 2026 · 09:47 UTC",
       "headline": "TRUMP DECLARES HIMSELF IRAN’S ‘NUMBER ONE TARGET’",
@@ -31,24 +49,6 @@
       "headline": "OIL PRICES SURGE AS US AND IRAN RETURN TO HOSTILITIES",
       "detail": "Oil prices surged after the US banned Iranian exports and renewed strikes following reports of attacks on tankers in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 JUL 2026 · 21:42 UTC",
-      "headline": "US RESUMES ‘POWERFUL STRIKES’ ON IRAN AFTER TANKER ATTACKS (VIDEOS)",
-      "detail": "The US has resumed strikes on Iran in response to attacks on tankers transiting the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 JUL 2026 · 03:40 UTC",
-      "headline": "LA GUERRA DE ORMUZ",
-      "detail": "De nuevo, la geografía y el comercio marcan la guerra en Oriente Próximo. Como si los últimos 70 años hubieran sido un sueño bienintencionado",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 JUL 2026 · 23:00 UTC",
-      "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
-      "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
