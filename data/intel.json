@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T20:04:40.627084+00:00",
+  "updated_at": "2026-07-11T21:43:59.530312+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "11 JUL 2026 · 18:51 UTC",
-      "headline": "EE.UU. RECLAMA A IRÁN QUE LIBERE EL ESTRECHO DE ORMUZ MIENTRAS LOS DOS PAÍSES IN",
-      "detail": "Washington reclama una promesa pública de tránsito libre y seguro del paso marítimo mientras que Teherán exige su control exclusivo por medio del cobro de tasas a los buques",
+      "timestamp": "11 JUL 2026 · 21:15 UTC",
+      "headline": "EE.UU. RECLAMA A IRÁN QUE LIBERE EL ESTRECHO DE ORMUZ MIENTRAS LOS LÍDERES DE LO",
+      "detail": "Washington quiere una promesa de tránsito libre y seguro del paso mientras Teherán exige su control exclusivo con el cobro de tasas a los buques",
       "severity": "INFO"
     },
     {
