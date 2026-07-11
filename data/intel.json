@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T14:49:03.197036+00:00",
+  "updated_at": "2026-07-11T15:52:00.236635+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "11 JUL 2026 · 14:08 UTC",
+      "timestamp": "11 JUL 2026 · 15:45 UTC",
       "headline": "US WANTS IRAN TO PLEDGE TO STOP SHOOTING AT SHIPS IN STRAIT OF HORMUZ",
       "detail": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
       "severity": "CRÍTICO"
@@ -28,7 +28,7 @@
     },
     {
       "timestamp": "11 JUL 2026 · 01:36 UTC",
-      "headline": "US GIVES IRAN DEADLINE TO DECLARE STRAIT OF HORMUZ FULLY OPEN – AXIOS",
+      "headline": "US ISSUES HORMUZ DEADLINE TO IRAN – AXIOS",
       "detail": "The US is reportedly pressuring Iran to declare the Strait of Hormuz fully open to commercial shipping following talks in Oman Read Full Article at RT.com",
       "severity": "INFO"
     },
