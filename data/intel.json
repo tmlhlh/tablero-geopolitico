@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T16:53:08.627900+00:00",
+  "updated_at": "2026-07-11T17:52:53.050058+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "11 JUL 2026 · 16:55 UTC",
+      "headline": "IRAN MUST PLEDGE TO STOP SHOOTING AT SHIPS IN STRAIT OF HORMUZ, US OFFICIALS SAY",
+      "detail": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "11 JUL 2026 · 16:05 UTC",
       "headline": "HORMUZ SHIPPING IN FOCUS AS IRAN-US RHETORIC HEATS UP",
       "detail": "Analysts say door to diplomacy still open despite exchange of attacks and threats.",
@@ -25,12 +31,6 @@
       "headline": "EE.UU. RECLAMA A IRÁN QUE LIBERE EL ESTRECHO DE ORMUZ MIENTRAS LOS DOS PAÍSES IN",
       "detail": "Washington reclama una promesa pública de tránsito libre y seguro del paso marítimo mientras que Teherán exige su control exclusivo por medio del cobro de tasas a los buques",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 15:45 UTC",
-      "headline": "US WANTS IRAN TO PLEDGE TO STOP SHOOTING AT SHIPS IN STRAIT OF HORMUZ",
-      "detail": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "11 JUL 2026 · 13:11 UTC",
