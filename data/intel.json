@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T02:13:52.673774+00:00",
+  "updated_at": "2026-07-11T05:36:22.602227+00:00",
   "market": {
     "brent_usd": 76.0,
     "brent_chg": 0.0
@@ -15,21 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "11 JUL 2026 · 01:36 UTC",
-      "headline": "US GIVES IRAN DEADLINE TO DECLARE STRAIT OF HORMUZ FULLY OPEN – AXIOS",
-      "detail": "The US is reportedly pressuring Iran to declare the Strait of Hormuz fully open to commercial shipping following talks in Oman Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 01:24 UTC",
+      "timestamp": "11 JUL 2026 · 04:56 UTC",
       "headline": "US WANTS IRAN TO PLEDGE TO STOP SHOOTING AT SHIPS IN STRAIT OF HORMUZ",
       "detail": "Vice-President JD Vance is among US officials expected to take part in negotiations resuming on Saturday in Oman.",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US DEMANDS IRAN PUBLICLY STATE STRAIT OF HORMUZ OPEN FOR ALL",
-      "detail": "US said to be pushing for public statement that Iran will not fire at commercial ships passing through Strait of Hormuz",
+      "timestamp": "11 JUL 2026 · 03:30 UTC",
+      "headline": "IRÁN SE HACE FUERTE EN EL ESTRECHO DE ORMUZ, SU GRAN BOTÍN DE GUERRA ",
+      "detail": "La República Islámica demuestra al mundo que es capaz de cerrar un estrecho clave, del que trata de sacar rédito en una negociación empantanada",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 01:36 UTC",
+      "headline": "US GIVES IRAN DEADLINE TO DECLARE STRAIT OF HORMUZ FULLY OPEN – AXIOS",
+      "detail": "The US is reportedly pressuring Iran to declare the Strait of Hormuz fully open to commercial shipping following talks in Oman Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
