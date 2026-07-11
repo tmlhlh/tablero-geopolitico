@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T22:42:47.997044+00:00",
+  "updated_at": "2026-07-11T23:51:33.047911+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 JUL 2026 · 23:14 UTC",
+      "headline": "IRAN SAYS STRAIT OF HORMUZ CLOSED 'UNTIL FURTHER NOTICE'",
+      "detail": "The IRGC says it fired a warning shot at a vessel in the strait and is warning the US not to respond with \"aggression\".",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 23:06 UTC",
+      "headline": "IRAN DECLARES STRAIT OF HORMUZ CLOSED UNTIL US ENDS ‘ILLEGAL’ INTERVENTIONS",
+      "detail": "Iran has declared the Strait of Hormuz closed to all shipping until the US ends what Tehran called its “illegal” interventions in the region Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 JUL 2026 · 21:15 UTC",
       "headline": "EE.UU. RECLAMA A IRÁN QUE LIBERE EL ESTRECHO DE ORMUZ MIENTRAS LOS LÍDERES DE LO",
@@ -36,18 +48,6 @@
       "timestamp": "11 JUL 2026 · 03:30 UTC",
       "headline": "IRÁN SE HACE FUERTE EN EL ESTRECHO DE ORMUZ, SU GRAN BOTÍN DE GUERRA ",
       "detail": "La República Islámica demuestra al mundo que es capaz de cerrar un estrecho clave, del que trata de sacar rédito en una negociación empantanada",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 01:36 UTC",
-      "headline": "US ISSUES HORMUZ DEADLINE TO IRAN – AXIOS",
-      "detail": "The US is reportedly pressuring Iran to declare the Strait of Hormuz fully open to commercial shipping following talks in Oman Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUL 2026 · 09:47 UTC",
-      "headline": "TRUMP DECLARES HIMSELF IRAN’S ‘NUMBER ONE TARGET’",
-      "detail": "Trump says he’s Iran’s “number one target” as the US-Iran conflict resumes over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
