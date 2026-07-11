@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T15:52:00.236635+00:00",
+  "updated_at": "2026-07-11T16:53:08.627900+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,10 +15,28 @@
   },
   "events": [
     {
+      "timestamp": "11 JUL 2026 · 16:05 UTC",
+      "headline": "HORMUZ SHIPPING IN FOCUS AS IRAN-US RHETORIC HEATS UP",
+      "detail": "Analysts say door to diplomacy still open despite exchange of attacks and threats.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 15:51 UTC",
+      "headline": "EE.UU. RECLAMA A IRÁN QUE LIBERE EL ESTRECHO DE ORMUZ MIENTRAS LOS DOS PAÍSES IN",
+      "detail": "Washington reclama una promesa pública de tránsito libre y seguro del paso marítimo mientras que Teherán exige su control exclusivo por medio del cobro de tasas a los buques",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "11 JUL 2026 · 15:45 UTC",
       "headline": "US WANTS IRAN TO PLEDGE TO STOP SHOOTING AT SHIPS IN STRAIT OF HORMUZ",
       "detail": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 13:11 UTC",
+      "headline": "ESTADOS UNIDOS EXIGE A IRÁN QUE SE COMPROMETA PÚBLICAMENTE A NO ATACAR BARCOS EN",
+      "detail": "El ministro de Exteriores iraní viaja a Omán para retomar las negociaciones sobre el estrecho, mientras las partes cruzan amenazas de aniquilación y acusaciones sobre la ruptura de la tregua",
+      "severity": "INFO"
     },
     {
       "timestamp": "11 JUL 2026 · 03:30 UTC",
@@ -31,24 +49,6 @@
       "headline": "US ISSUES HORMUZ DEADLINE TO IRAN – AXIOS",
       "detail": "The US is reportedly pressuring Iran to declare the Strait of Hormuz fully open to commercial shipping following talks in Oman Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUL 2026 · 09:47 UTC",
-      "headline": "TRUMP DECLARES HIMSELF IRAN’S ‘NUMBER ONE TARGET’",
-      "detail": "Trump says he’s Iran’s “number one target” as the US-Iran conflict resumes over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 JUL 2026 · 20:28 UTC",
-      "headline": "US STRIKES IRAN FOR SECOND NIGHT AS TRUMP SAYS CEASEFIRE IS ‘OVER’ (VIDEOS)",
-      "detail": "US strikes Iran for second night after tanker attacks in Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 JUL 2026 · 11:30 UTC",
-      "headline": "OIL PRICES SURGE AS US AND IRAN RETURN TO HOSTILITIES",
-      "detail": "Oil prices surged after the US banned Iranian exports and renewed strikes following reports of attacks on tankers in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
