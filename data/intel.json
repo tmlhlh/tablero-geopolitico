@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T13:40:40.340588+00:00",
+  "updated_at": "2026-07-11T14:49:03.197036+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "11 JUL 2026 · 13:14 UTC",
+      "timestamp": "11 JUL 2026 · 14:08 UTC",
       "headline": "US WANTS IRAN TO PLEDGE TO STOP SHOOTING AT SHIPS IN STRAIT OF HORMUZ",
-      "detail": "Vice-President JD Vance is among US officials expected to take part in negotiations resuming on Saturday in Oman.",
-      "severity": "INFO"
+      "detail": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "11 JUL 2026 · 03:30 UTC",
