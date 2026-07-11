@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T11:00:23.540639+00:00",
+  "updated_at": "2026-07-11T11:59:06.069757+00:00",
   "market": {
     "brent_usd": 76.0,
     "brent_chg": 0.0
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "11 JUL 2026 · 04:56 UTC",
+      "timestamp": "11 JUL 2026 · 11:42 UTC",
       "headline": "US WANTS IRAN TO PLEDGE TO STOP SHOOTING AT SHIPS IN STRAIT OF HORMUZ",
       "detail": "Vice-President JD Vance is among US officials expected to take part in negotiations resuming on Saturday in Oman.",
       "severity": "INFO"
