@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T23:51:33.047911+00:00",
+  "updated_at": "2026-07-12T02:24:55.112131+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,10 +15,28 @@
   },
   "events": [
     {
-      "timestamp": "11 JUL 2026 · 23:14 UTC",
-      "headline": "IRAN SAYS STRAIT OF HORMUZ CLOSED 'UNTIL FURTHER NOTICE'",
-      "detail": "The IRGC says it fired a warning shot at a vessel in the strait and is warning the US not to respond with \"aggression\".",
-      "severity": "INFO"
+      "timestamp": "12 JUL 2026 · 01:55 UTC",
+      "headline": "US LAUNCHES FRESH STRIKES AS IRAN CLOSES STRAIT OF HORMUZ",
+      "detail": "The strikes follow an attack on a Cyrpus-flagged vessel travelling through the critical waterway.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 JUL 2026 · 00:48 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN SE ENZARZAN EN UNA NUEVA ESPIRAL DE ATAQUES",
+      "detail": "Las fuerzas estadounidenses han bombardeado Irán de nuevo después de que la Guardia Revolucionaria abriera fuego contra un carguero chipriota en el estrecho de Ormuz y declarase cerrada esa vía maríti",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US BOMBS IRANIAN PORT CITIES AS IRGC CLOSES STRAIT OF HORMUZ",
+      "detail": "Explosions heard in the port cities of Bandar Abbas, Sirik, Chabahar, Bandar-e Deyr and Asaluyeh as US attacks continue.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 23:57 UTC",
+      "headline": "US LAUNCHES THIRD WAVE OF STRIKES AGAINST IRAN",
+      "detail": "The US has launched a third wave of strikes against Iran this week in response to renewed attacks on ships transiting the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "11 JUL 2026 · 23:06 UTC",
@@ -27,28 +45,10 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "11 JUL 2026 · 21:15 UTC",
-      "headline": "EE.UU. RECLAMA A IRÁN QUE LIBERE EL ESTRECHO DE ORMUZ MIENTRAS LOS LÍDERES DE LO",
-      "detail": "Washington quiere una promesa de tránsito libre y seguro del paso mientras Teherán exige su control exclusivo con el cobro de tasas a los buques",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "11 JUL 2026 · 16:05 UTC",
       "headline": "HORMUZ SHIPPING IN FOCUS AS IRAN-US RHETORIC HEATS UP",
       "detail": "Analysts say door to diplomacy still open despite exchange of attacks and threats.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 13:11 UTC",
-      "headline": "ESTADOS UNIDOS EXIGE A IRÁN QUE SE COMPROMETA PÚBLICAMENTE A NO ATACAR BARCOS EN",
-      "detail": "El ministro de Exteriores iraní viaja a Omán para retomar las negociaciones sobre el estrecho, mientras las partes cruzan amenazas de aniquilación y acusaciones sobre la ruptura de la tregua",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 03:30 UTC",
-      "headline": "IRÁN SE HACE FUERTE EN EL ESTRECHO DE ORMUZ, SU GRAN BOTÍN DE GUERRA ",
-      "detail": "La República Islámica demuestra al mundo que es capaz de cerrar un estrecho clave, del que trata de sacar rédito en una negociación empantanada",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
