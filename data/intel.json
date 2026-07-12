@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T14:52:31.418933+00:00",
+  "updated_at": "2026-07-12T15:56:10.352421+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,21 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "12 JUL 2026 · 15:35 UTC",
+      "headline": "US INSISTS STRAIT OF HORMUZ IS OPEN AS IT EXCHANGES STRIKES WITH IRAN",
+      "detail": "The strikes follow an attack on a Cyprus-flagged vessel travelling through the critical waterway.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "12 JUL 2026 · 09:13 UTC",
       "headline": "IRAN ATTACKS FIVE GULF NATIONS, SHUTS HORMUZ AFTER US BOMBING: ALL TO KNOW",
       "detail": "Tehran hits back at several GCC countries, following the most intense US bombing since an MoU was signed last month.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 07:53 UTC",
-      "headline": "MISSILES AND DRONES FIRED AT GULF STATES AFTER NIGHT OF US STRIKES ON IRAN",
-      "detail": "Three people injured by falling shrapnel in Qatar as attacks also reported in UAE, Kuwait, Bahrain, Oman and Jordan.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 06:49 UTC",
-      "headline": "US LAUNCHES FRESH STRIKES AS IRAN CLOSES STRAIT OF HORMUZ",
-      "detail": "The strikes follow an attack on a Cyprus -flagged vessel travelling through the critical waterway.",
       "severity": "CRÍTICO"
     },
     {
@@ -48,6 +42,12 @@
       "timestamp": "11 JUL 2026 · 23:06 UTC",
       "headline": "IRAN DECLARES STRAIT OF HORMUZ CLOSED UNTIL US ENDS ‘ILLEGAL’ INTERVENTIONS",
       "detail": "Iran has declared the Strait of Hormuz closed to all shipping until the US ends what Tehran called its “illegal” interventions in the region Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 01:36 UTC",
+      "headline": "US ISSUES HORMUZ DEADLINE TO IRAN – AXIOS",
+      "detail": "The US is reportedly pressuring Iran to declare the Strait of Hormuz fully open to commercial shipping following talks in Oman Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
