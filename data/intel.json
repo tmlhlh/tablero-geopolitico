@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-12T22:42:39.605351+00:00",
+  "updated_at": "2026-07-12T23:49:55.422695+00:00",
   "market": {
-    "brent_usd": 78.37,
+    "brent_usd": 78.54,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "12 JUL 2026 · 22:31 UTC",
+      "timestamp": "12 JUL 2026 · 22:55 UTC",
       "headline": "ESTADOS UNIDOS AFIRMA QUE SUS FUERZAS ESTÁN “PREPARADAS Y POSICIONADAS” PARA DEF",
-      "detail": "Trump asegura que el paso marítimo está abierto y Teherán insiste en que lo ha bloqueado, mientras ambas partes reanudan los intercambios de fuego por cuarta vez en una semana",
+      "detail": "Trump asegura que el paso marítimo está abierto y Teherán insiste en que lo ha bloqueado, mientras ambas partes reanudan los intercambios de fuego por cuarto día en una semana",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $78.37 (+0.00%)",
+    "BRENT: $78.54 (+0.00%)",
     "VIX: 15.03",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
