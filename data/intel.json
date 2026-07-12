@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T02:24:55.112131+00:00",
+  "updated_at": "2026-07-12T05:53:26.791660+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,7 +15,19 @@
   },
   "events": [
     {
-      "timestamp": "12 JUL 2026 · 01:55 UTC",
+      "timestamp": "12 JUL 2026 · 05:07 UTC",
+      "headline": "US FORCES LAUNCH NEW STRIKES ON IRAN; TEHRAN CLOSES STRAIT OF HORMUZ",
+      "detail": "US forces have launched a third round of strikes on Iran in a week.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 JUL 2026 · 04:59 UTC",
+      "headline": "IRAN LAUNCHES ATTACKS ACROSS THE GULF AFTER MORE US STRIKES",
+      "detail": "Iran says it launched missile attacks on US military sites in Bahrain, Kuwait, Jordan and Qatar.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 JUL 2026 · 04:39 UTC",
       "headline": "US LAUNCHES FRESH STRIKES AS IRAN CLOSES STRAIT OF HORMUZ",
       "detail": "The strikes follow an attack on a Cyrpus-flagged vessel travelling through the critical waterway.",
       "severity": "CRÍTICO"
@@ -28,26 +40,14 @@
     },
     {
       "timestamp": "12 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US BOMBS IRANIAN PORT CITIES AS IRGC CLOSES STRAIT OF HORMUZ",
-      "detail": "Explosions heard in the port cities of Bandar Abbas, Sirik, Chabahar, Bandar-e Deyr and Asaluyeh as US attacks continue.",
+      "headline": "IRAN WAR LIVE: TEHRAN ATTACKS JORDAN, GULF STATES AFTER US BOMBARDMENT",
+      "detail": "Iran targets Jordan and Gulf states after US bombs Iranian cities including Bandar Abbas, Sirik and Chabahar",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "11 JUL 2026 · 23:57 UTC",
       "headline": "US LAUNCHES THIRD WAVE OF STRIKES AGAINST IRAN",
       "detail": "The US has launched a third wave of strikes against Iran this week in response to renewed attacks on ships transiting the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 23:06 UTC",
-      "headline": "IRAN DECLARES STRAIT OF HORMUZ CLOSED UNTIL US ENDS ‘ILLEGAL’ INTERVENTIONS",
-      "detail": "Iran has declared the Strait of Hormuz closed to all shipping until the US ends what Tehran called its “illegal” interventions in the region Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 16:05 UTC",
-      "headline": "HORMUZ SHIPPING IN FOCUS AS IRAN-US RHETORIC HEATS UP",
-      "detail": "Analysts say door to diplomacy still open despite exchange of attacks and threats.",
       "severity": "CRÍTICO"
     }
   ],
