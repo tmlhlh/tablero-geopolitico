@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T13:15:28.152307+00:00",
+  "updated_at": "2026-07-12T14:52:31.418933+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -33,22 +33,22 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 JUL 2026 · 05:07 UTC",
-      "headline": "US FORCES LAUNCH NEW STRIKES ON IRAN; TEHRAN CLOSES STRAIT OF HORMUZ",
-      "detail": "US forces have launched a third round of strikes on Iran in a week.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 04:59 UTC",
-      "headline": "IRAN LAUNCHES ATTACKS ACROSS THE GULF AFTER MORE US STRIKES",
-      "detail": "Iran says it launched missile attacks on US military sites in Bahrain, Kuwait, Jordan and Qatar.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 JUL 2026 · 00:48 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN SE ENZARZAN EN UNA NUEVA ESPIRAL DE ATAQUES",
       "detail": "Las fuerzas estadounidenses han bombardeado Irán de nuevo después de que la Guardia Revolucionaria abriera fuego contra un carguero chipriota en el estrecho de Ormuz y declarase cerrada esa vía maríti",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 23:57 UTC",
+      "headline": "US LAUNCHES THIRD WAVE OF STRIKES AGAINST IRAN",
+      "detail": "The US has launched a third wave of strikes against Iran this week in response to renewed attacks on ships transiting the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 JUL 2026 · 23:06 UTC",
+      "headline": "IRAN DECLARES STRAIT OF HORMUZ CLOSED UNTIL US ENDS ‘ILLEGAL’ INTERVENTIONS",
+      "detail": "Iran has declared the Strait of Hormuz closed to all shipping until the US ends what Tehran called its “illegal” interventions in the region Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
