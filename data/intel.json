@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T08:10:28.185362+00:00",
+  "updated_at": "2026-07-12T10:23:35.723009+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 JUL 2026 · 09:13 UTC",
+      "headline": "IRAN ATTACKS FIVE GULF NATIONS, SHUTS HORMUZ AFTER US BOMBING: ALL TO KNOW",
+      "detail": "Tehran hits back at several GCC countries, following the most intense US bombing since an MoU was signed last month.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 JUL 2026 · 07:53 UTC",
+      "headline": "MISSILES AND DRONES FIRED AT GULF STATES AFTER NIGHT OF US STRIKES ON IRAN",
+      "detail": "Three people injured by falling shrapnel in Qatar as attacks also reported in UAE, Kuwait, Bahrain, Oman and Jordan.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 JUL 2026 · 06:49 UTC",
       "headline": "US LAUNCHES FRESH STRIKES AS IRAN CLOSES STRAIT OF HORMUZ",
@@ -36,18 +48,6 @@
       "timestamp": "12 JUL 2026 · 00:48 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN SE ENZARZAN EN UNA NUEVA ESPIRAL DE ATAQUES",
       "detail": "Las fuerzas estadounidenses han bombardeado Irán de nuevo después de que la Guardia Revolucionaria abriera fuego contra un carguero chipriota en el estrecho de Ormuz y declarase cerrada esa vía maríti",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN ATTACKS JORDAN, GULF STATES AFTER US BOMBARDMENT",
-      "detail": "Fears grow of further US-Iran escalation after largest tit-for-tat attacks yet during the ceasefire.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 23:57 UTC",
-      "headline": "US LAUNCHES THIRD WAVE OF STRIKES AGAINST IRAN",
-      "detail": "The US has launched a third wave of strikes against Iran this week in response to renewed attacks on ships transiting the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
