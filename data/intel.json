@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-12T21:44:17.447986+00:00",
+  "updated_at": "2026-07-12T22:42:39.605351+00:00",
   "market": {
-    "brent_usd": 76.01,
+    "brent_usd": 78.37,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,21 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "12 JUL 2026 · 18:50 UTC",
+      "timestamp": "12 JUL 2026 · 22:31 UTC",
       "headline": "ESTADOS UNIDOS AFIRMA QUE SUS FUERZAS ESTÁN “PREPARADAS Y POSICIONADAS” PARA DEF",
-      "detail": "Trump asegura que el paso marítimo está abierto y Teherán insiste en que lo ha bloqueado, mientras se reanudan los ataques contra territorio iraní",
+      "detail": "Trump asegura que el paso marítimo está abierto y Teherán insiste en que lo ha bloqueado, mientras ambas partes reanudan los intercambios de fuego por cuarta vez en una semana",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 JUL 2026 · 22:17 UTC",
+      "headline": "US INSISTS STRAIT OF HORMUZ IS OPEN AS IT EXCHANGES STRIKES WITH IRAN",
+      "detail": "Iranian forces earlier said the Strait was closed and launched wide-ranging attacks at US allies and bases in the region.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 JUL 2026 · 21:31 UTC",
+      "headline": "US RESUMES STRIKES AGAINST IRAN AFTER LATEST HORMUZ ATTACKS",
+      "detail": "US Central Command has announced a fourth night of strikes against Iran Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "12 JUL 2026 · 17:50 UTC",
       "headline": "CONCERN FOR RENEWED WAR IN IRAN AS US ATTACKS MILITARY, CIVILIAN TARGETS",
       "detail": "US military has significantly increased the scale of attacks on Iran in recent days as the Strait of Hormuz standoff boils over.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 16:46 UTC",
-      "headline": "US INSISTS STRAIT OF HORMUZ IS OPEN AS IT EXCHANGES STRIKES WITH IRAN",
-      "detail": "Iranian forces earlier said the Strait was closed and launched wide-ranging attacks at US allies and bases in the region.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "US LAUNCHES THIRD WAVE OF STRIKES AGAINST IRAN",
       "detail": "The US has launched a third wave of strikes against Iran this week in response to renewed attacks on ships transiting the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 23:06 UTC",
-      "headline": "IRAN DECLARES STRAIT OF HORMUZ CLOSED UNTIL US ENDS ‘ILLEGAL’ INTERVENTIONS",
-      "detail": "Iran has declared the Strait of Hormuz closed to all shipping until the US ends what Tehran called its “illegal” interventions in the region Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $76.01 (+0.00%)",
+    "BRENT: $78.37 (+0.00%)",
     "VIX: 15.03",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
