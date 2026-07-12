@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T05:53:26.791660+00:00",
+  "updated_at": "2026-07-12T08:10:28.185362+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "12 JUL 2026 · 06:49 UTC",
+      "headline": "US LAUNCHES FRESH STRIKES AS IRAN CLOSES STRAIT OF HORMUZ",
+      "detail": "The strikes follow an attack on a Cyprus -flagged vessel travelling through the critical waterway.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "12 JUL 2026 · 05:07 UTC",
       "headline": "US FORCES LAUNCH NEW STRIKES ON IRAN; TEHRAN CLOSES STRAIT OF HORMUZ",
       "detail": "US forces have launched a third round of strikes on Iran in a week.",
@@ -27,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 JUL 2026 · 04:39 UTC",
-      "headline": "US LAUNCHES FRESH STRIKES AS IRAN CLOSES STRAIT OF HORMUZ",
-      "detail": "The strikes follow an attack on a Cyrpus-flagged vessel travelling through the critical waterway.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 JUL 2026 · 00:48 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN SE ENZARZAN EN UNA NUEVA ESPIRAL DE ATAQUES",
       "detail": "Las fuerzas estadounidenses han bombardeado Irán de nuevo después de que la Guardia Revolucionaria abriera fuego contra un carguero chipriota en el estrecho de Ormuz y declarase cerrada esa vía maríti",
@@ -41,7 +41,7 @@
     {
       "timestamp": "12 JUL 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TEHRAN ATTACKS JORDAN, GULF STATES AFTER US BOMBARDMENT",
-      "detail": "Iran targets Jordan and Gulf states after US bombs Iranian cities including Bandar Abbas, Sirik and Chabahar",
+      "detail": "Fears grow of further US-Iran escalation after largest tit-for-tat attacks yet during the ceasefire.",
       "severity": "CRÍTICO"
     },
     {
