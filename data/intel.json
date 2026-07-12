@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T17:58:34.746282+00:00",
+  "updated_at": "2026-07-12T19:11:45.997222+00:00",
   "market": {
     "brent_usd": 76.01,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 JUL 2026 · 18:50 UTC",
+      "headline": "ESTADOS UNIDOS AFIRMA QUE SUS FUERZAS ESTÁN “PREPARADAS Y POSICIONADAS” PARA DEF",
+      "detail": "Trump asegura que el paso marítimo está abierto y Teherán insiste en que lo ha bloqueado, mientras se reanudan los ataques contra territorio iraní",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 JUL 2026 · 17:50 UTC",
+      "headline": "CONCERN FOR RENEWED WAR IN IRAN AS US ATTACKS MILITARY, CIVILIAN TARGETS",
+      "detail": "US military has significantly increased the scale of attacks on Iran in recent days as the Strait of Hormuz standoff boils over.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 JUL 2026 · 16:46 UTC",
       "headline": "US INSISTS STRAIT OF HORMUZ IS OPEN AS IT EXCHANGES STRIKES WITH IRAN",
@@ -36,18 +48,6 @@
       "timestamp": "11 JUL 2026 · 23:06 UTC",
       "headline": "IRAN DECLARES STRAIT OF HORMUZ CLOSED UNTIL US ENDS ‘ILLEGAL’ INTERVENTIONS",
       "detail": "Iran has declared the Strait of Hormuz closed to all shipping until the US ends what Tehran called its “illegal” interventions in the region Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 01:36 UTC",
-      "headline": "US ISSUES HORMUZ DEADLINE TO IRAN – AXIOS",
-      "detail": "The US is reportedly pressuring Iran to declare the Strait of Hormuz fully open to commercial shipping following talks in Oman Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 JUL 2026 · 09:47 UTC",
-      "headline": "TRUMP DECLARES HIMSELF IRAN’S ‘NUMBER ONE TARGET’",
-      "detail": "Trump says he’s Iran’s “number one target” as the US-Iran conflict resumes over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
