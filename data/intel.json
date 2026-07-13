@@ -1,21 +1,27 @@
 {
-  "updated_at": "2026-07-13T18:41:04.856687+00:00",
+  "updated_at": "2026-07-13T20:11:16.263748+00:00",
   "market": {
-    "brent_usd": 83.47,
+    "brent_usd": 82.98,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.19,
+    "vix": 17.1,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "13 JUL 2026 · 18:25 UTC",
+      "timestamp": "13 JUL 2026 · 20:06 UTC",
+      "headline": "TRUMP REINSTATES IRAN PORT BLOCKADE AND IMPOSES 20% CHARGE ON CARGO PASSING THRO",
+      "detail": "The US president also says Washington will impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 19:53 UTC",
       "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
       "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
       "severity": "CRÍTICO"
@@ -43,17 +49,11 @@
       "headline": "US ‘TAKING OVER’ STRAIT OF HORMUZ – TRUMP",
       "detail": "US President Donald Trump has said the US is “taking over” the Strait of Hormuz from Iran, as the conflict over the waterway has escalated Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 00:23 UTC",
-      "headline": "IRAN TELLS GULF STATES NOT TO SERVE AS ‘ARENAS’ FOR US ATTACKS",
-      "detail": "Iran has warned neighboring countries not to allow the US to use their territory for “illegal” strikes Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $83.47 (+0.00%)",
-    "VIX: 17.19",
+    "BRENT: $82.98 (+0.00%)",
+    "VIX: 17.1",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
