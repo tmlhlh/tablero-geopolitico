@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-07-13T16:28:35.425846+00:00",
+  "updated_at": "2026-07-13T18:41:04.856687+00:00",
   "market": {
-    "brent_usd": 79.93,
+    "brent_usd": 83.47,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.26,
+    "vix": 17.19,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "13 JUL 2026 · 18:25 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
+      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "13 JUL 2026 · 15:41 UTC",
       "headline": "TRUMP: US WILL ‘TAKE OVER’ STRAIT OF HORMUZ",
       "detail": "President Donald Trump has said the US will ‘take over’ the Strait of Hormuz, accusing Iran of breaking the deal.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 14:52 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
-      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "13 JUL 2026 · 14:46 UTC",
@@ -39,21 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 JUL 2026 · 14:42 UTC",
-      "headline": "TRUMP RESTABLECE EL BLOQUEO CONTRA IRÁN Y SE PROCLAMA GUARDIÁN DEL ESTRECHO DE O",
-      "detail": "Washington busca asegurar la libre navegación por la estratégica vía marítima y cobrar un 20% sobre las cargas, mientras Teherán responde con nuevos ataques y el petróleo vuelve a subir",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "13 JUL 2026 · 13:34 UTC",
       "headline": "US ‘TAKING OVER’ STRAIT OF HORMUZ – TRUMP",
       "detail": "US President Donald Trump has said the US is “taking over” the Strait of Hormuz from Iran, as the conflict over the waterway has escalated Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 00:23 UTC",
+      "headline": "IRAN TELLS GULF STATES NOT TO SERVE AS ‘ARENAS’ FOR US ATTACKS",
+      "detail": "Iran has warned neighboring countries not to allow the US to use their territory for “illegal” strikes Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.93 (+0.00%)",
-    "VIX: 16.26",
+    "BRENT: $83.47 (+0.00%)",
+    "VIX: 17.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
