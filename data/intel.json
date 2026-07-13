@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T02:26:18.143577+00:00",
+  "updated_at": "2026-07-13T06:12:17.964265+00:00",
   "market": {
-    "brent_usd": 79.16,
+    "brent_usd": 79.38,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 JUL 2026 · 05:15 UTC",
+      "headline": "IRAN ATTACKS US MILITARY BASES IN BAHRAIN, KUWAIT, AND JORDAN",
+      "detail": "Iran launches attacks on Gulf states, targeting US military assets in Bahrain, Kuwait, and Jordan.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 05:00 UTC",
+      "headline": "US AND IRAN TRADE FIRE AS TENSIONS RISE OVER STRAIT OF HORMUZ",
+      "detail": "Within hours of fresh US attacks, Iran said it had struck US military bases in Kuwait, Jordan and Bahrain.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 02:58 UTC",
+      "headline": "OIL PRICES JUMP AS US AND IRAN TRADE ATTACKS OVER STRAIT OF HORMUZ",
+      "detail": "Brent crude climbs more than 4 percent as Washington and Tehran clash over control of critical waterway.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "13 JUL 2026 · 00:23 UTC",
       "headline": "IRAN TELLS GULF STATES NOT TO SERVE AS ‘ARENAS’ FOR US ATTACKS",
@@ -28,31 +46,13 @@
     },
     {
       "timestamp": "13 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US BOMBS IRANIAN CITIES AGAIN AS HORMUZ STANDOFF INTENSIFIES",
+      "headline": "IRAN WAR LIVE: TEHRAN ATTACKS BAHRAIN, KUWAIT, JORDAN AFTER US BOMBINGS",
       "detail": "Iranian state media report explosions in port cities of Bandar Abbas, Sirik and Jask, as well as Qeshm Island.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 22:55 UTC",
-      "headline": "ESTADOS UNIDOS AFIRMA QUE SUS FUERZAS ESTÁN “PREPARADAS Y POSICIONADAS” PARA DEF",
-      "detail": "Trump asegura que el paso marítimo está abierto y Teherán insiste en que lo ha bloqueado, mientras ambas partes reanudan los intercambios de fuego por cuarto día en una semana",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 22:17 UTC",
-      "headline": "US INSISTS STRAIT OF HORMUZ IS OPEN AS IT EXCHANGES STRIKES WITH IRAN",
-      "detail": "Iranian forces earlier said the Strait was closed and launched wide-ranging attacks at US allies and bases in the region.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 21:31 UTC",
-      "headline": "US RESUMES STRIKES ON IRAN AMID LATEST HORMUZ ESCALATION",
-      "detail": "US Central Command has announced a fourth night of strikes against Iran Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.16 (+0.00%)",
+    "BRENT: $79.38 (+0.00%)",
     "VIX: 15.03",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
