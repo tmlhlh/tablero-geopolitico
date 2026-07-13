@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T22:52:50.498736+00:00",
+  "updated_at": "2026-07-13T23:51:11.665589+00:00",
   "market": {
-    "brent_usd": 83.34,
+    "brent_usd": 84.31,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "13 JUL 2026 · 22:47 UTC",
-      "headline": "TRUMP REINSTATES IRAN PORT BLOCKADE AND VOWS 20% CHARGE ON CARGO PASSING THROUGH",
-      "detail": "The US military later said it had started the third consecutive night of strikes on Iran.",
+      "timestamp": "13 JUL 2026 · 23:42 UTC",
+      "headline": "UAE CONDEMNS IRAN'S 'BRAZEN' ATTACK ON TANKERS AS US LAUNCHES FRESH STRIKES",
+      "detail": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the strait.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 22:53 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
+      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "13 JUL 2026 · 21:19 UTC",
       "headline": "US, IRAN EXCHANGE ATTACKS AROUND STRAIT OF HORMUZ",
-      "detail": "This is a breaking news story.",
+      "detail": "Washington and Tehran both claim to be in control of the strategic waterway as fighting escalates.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "US KEEPING THE STRAIT OF HORMUZ OPEN IS ‘A MASSIVE FORCE PROBLEM’",
       "detail": "Former NATO analyst says Trump's push for a naval blockade in the Strait of Hormuz would mean a huge military operation.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 20:10 UTC",
-      "headline": "TRUMP RESTABLECE EL BLOQUEO CONTRA IRÁN Y SE PROCLAMA GUARDIÁN DEL ESTRECHO DE O",
-      "detail": "Washington busca asegurar la libre navegación por la estratégica vía marítima y cobrar un 20% sobre las cargas, mientras Teherán responde con nuevos ataques y el petróleo vuelve a subir",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $83.34 (+0.00%)",
+    "BRENT: $84.31 (+0.00%)",
     "VIX: 17.16",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
