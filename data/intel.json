@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T21:52:41.101958+00:00",
+  "updated_at": "2026-07-13T22:52:50.498736+00:00",
   "market": {
-    "brent_usd": 83.18,
+    "brent_usd": 83.34,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "13 JUL 2026 · 21:46 UTC",
+      "timestamp": "13 JUL 2026 · 22:47 UTC",
       "headline": "TRUMP REINSTATES IRAN PORT BLOCKADE AND VOWS 20% CHARGE ON CARGO PASSING THROUGH",
-      "detail": "The US president also says Washington will impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
-      "severity": "INFO"
+      "detail": "The US military later said it had started the third consecutive night of strikes on Iran.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "13 JUL 2026 · 21:19 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $83.18 (+0.00%)",
+    "BRENT: $83.34 (+0.00%)",
     "VIX: 17.16",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
