@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-07-13T20:11:16.263748+00:00",
+  "updated_at": "2026-07-13T21:52:41.101958+00:00",
   "market": {
-    "brent_usd": 82.98,
+    "brent_usd": 83.18,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 17.1,
+    "ormuz_flow_pct": 3.0,
+    "vix": 17.16,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "13 JUL 2026 · 20:06 UTC",
-      "headline": "TRUMP REINSTATES IRAN PORT BLOCKADE AND IMPOSES 20% CHARGE ON CARGO PASSING THRO",
+      "timestamp": "13 JUL 2026 · 21:46 UTC",
+      "headline": "TRUMP REINSTATES IRAN PORT BLOCKADE AND VOWS 20% CHARGE ON CARGO PASSING THROUGH",
       "detail": "The US president also says Washington will impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 JUL 2026 · 19:53 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
-      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
+      "timestamp": "13 JUL 2026 · 21:19 UTC",
+      "headline": "US, IRAN EXCHANGE ATTACKS AROUND STRAIT OF HORMUZ",
+      "detail": "This is a breaking news story.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 JUL 2026 · 15:41 UTC",
-      "headline": "TRUMP: US WILL ‘TAKE OVER’ STRAIT OF HORMUZ",
-      "detail": "President Donald Trump has said the US will ‘take over’ the Strait of Hormuz, accusing Iran of breaking the deal.",
+      "timestamp": "13 JUL 2026 · 20:48 UTC",
+      "headline": "US STRIKES IRANIAN SHIP WITH DRONE BOATS IN FIRST-OF-ITS-KIND ATTACK",
+      "detail": "US CENTCOM has published a video it says shows three Corsair unmanned surface vessels striking an Iranian ship facility",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 20:40 UTC",
+      "headline": "IRAN MILITARY WARNS US AGAINST STRAIT OF HORMUZ ‘INTERFERENCE’",
+      "detail": "Iran's military has warned it will not allow the United States to ‘interfere’ in the management of the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 JUL 2026 · 14:46 UTC",
-      "headline": "TRUMP IMPONE DE NUEVO EL BLOQUEO A BARCOS IRANÍES EN ORMUZ Y UN COBRO “DEL 20% D",
-      "detail": "Tras un fin de semana de ataques cruzados, el presidente asegura en una entrevista en Fox News que Estados Unidos debería controlar el estrecho",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 14:43 UTC",
-      "headline": "TRUMP SAYS US WILL BECOME ‘GUARDIAN’ OF STRAIT OF HORMUZ AND COLLECT TOLLS",
-      "detail": "Iran rejects any US control over strait as both sides trade attacks in major threat to negotiations to end their war.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 13:34 UTC",
-      "headline": "US ‘TAKING OVER’ STRAIT OF HORMUZ – TRUMP",
-      "detail": "US President Donald Trump has said the US is “taking over” the Strait of Hormuz from Iran, as the conflict over the waterway has escalated Read Full Article at RT.com",
+      "timestamp": "13 JUL 2026 · 20:23 UTC",
+      "headline": "US KEEPING THE STRAIT OF HORMUZ OPEN IS ‘A MASSIVE FORCE PROBLEM’",
+      "detail": "Former NATO analyst says Trump's push for a naval blockade in the Strait of Hormuz would mean a huge military operation.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 20:10 UTC",
+      "headline": "TRUMP RESTABLECE EL BLOQUEO CONTRA IRÁN Y SE PROCLAMA GUARDIÁN DEL ESTRECHO DE O",
+      "detail": "Washington busca asegurar la libre navegación por la estratégica vía marítima y cobrar un 20% sobre las cargas, mientras Teherán responde con nuevos ataques y el petróleo vuelve a subir",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $82.98 (+0.00%)",
-    "VIX: 17.1",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $83.18 (+0.00%)",
+    "VIX: 17.16",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
