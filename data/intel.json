@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-07-13T06:12:17.964265+00:00",
+  "updated_at": "2026-07-13T10:21:27.585797+00:00",
   "market": {
-    "brent_usd": 79.38,
+    "brent_usd": 78.03,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.03,
+    "vix": 16.2,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.8
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "13 JUL 2026 · 05:15 UTC",
-      "headline": "IRAN ATTACKS US MILITARY BASES IN BAHRAIN, KUWAIT, AND JORDAN",
-      "detail": "Iran launches attacks on Gulf states, targeting US military assets in Bahrain, Kuwait, and Jordan.",
+      "timestamp": "13 JUL 2026 · 09:16 UTC",
+      "headline": "NEW IRAN STRIKES ON GULF AS US ATTACKS ESCALATE: WHAT WE KNOW",
+      "detail": "Iran targets its Gulf neighbours in third round of tit-for-tat attacks with US in a week.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 JUL 2026 · 05:00 UTC",
-      "headline": "US AND IRAN TRADE FIRE AS TENSIONS RISE OVER STRAIT OF HORMUZ",
-      "detail": "Within hours of fresh US attacks, Iran said it had struck US military bases in Kuwait, Jordan and Bahrain.",
+      "timestamp": "13 JUL 2026 · 07:41 UTC",
+      "headline": "KIMMIT: RENEWED US-IRAN FIGHTING COULD REIGNITE WIDER REGIONAL CONFLICT",
+      "detail": "Retired US General Mark Kimmitt warns renewed attacks in the Strait of Hormuz could push the US and Iran",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 05:15 UTC",
+      "headline": "IRAN ATTACKS US MILITARY BASES IN BAHRAIN, KUWAIT, AND JORDAN",
+      "detail": "Iran launches attacks on Gulf states, targeting US military assets in Bahrain, Kuwait, and Jordan.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "US LAUNCHES MORE STRIKES ON IRAN AS STRAIT OF HORMUZ STANDOFF DEEPENS",
       "detail": "The US has launched a new wave of strikes on Iran targeting Tehran's ability to threaten shipping in the strait.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN ATTACKS BAHRAIN, KUWAIT, JORDAN AFTER US BOMBINGS",
-      "detail": "Iranian state media report explosions in port cities of Bandar Abbas, Sirik and Jask, as well as Qeshm Island.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.38 (+0.00%)",
-    "VIX: 15.03",
+    "BRENT: $78.03 (+0.00%)",
+    "VIX: 16.2",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
