@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-12T23:49:55.422695+00:00",
+  "updated_at": "2026-07-13T02:26:18.143577+00:00",
   "market": {
-    "brent_usd": 78.54,
+    "brent_usd": 79.16,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 JUL 2026 · 00:23 UTC",
+      "headline": "IRAN TELLS GULF STATES NOT TO SERVE AS ‘ARENAS’ FOR US ATTACKS",
+      "detail": "Iran has warned neighboring countries not to allow the US to use their territory for “illegal” strikes Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 00:22 UTC",
+      "headline": "US LAUNCHES MORE STRIKES ON IRAN AS STRAIT OF HORMUZ STANDOFF DEEPENS",
+      "detail": "The US has launched a new wave of strikes on Iran targeting Tehran's ability to threaten shipping in the strait.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US BOMBS IRANIAN CITIES AGAIN AS HORMUZ STANDOFF INTENSIFIES",
+      "detail": "Iranian state media report explosions in port cities of Bandar Abbas, Sirik and Jask, as well as Qeshm Island.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 JUL 2026 · 22:55 UTC",
       "headline": "ESTADOS UNIDOS AFIRMA QUE SUS FUERZAS ESTÁN “PREPARADAS Y POSICIONADAS” PARA DEF",
@@ -28,31 +46,13 @@
     },
     {
       "timestamp": "12 JUL 2026 · 21:31 UTC",
-      "headline": "US RESUMES STRIKES AGAINST IRAN AFTER LATEST HORMUZ ATTACKS",
+      "headline": "US RESUMES STRIKES ON IRAN AMID LATEST HORMUZ ESCALATION",
       "detail": "US Central Command has announced a fourth night of strikes against Iran Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 17:50 UTC",
-      "headline": "CONCERN FOR RENEWED WAR IN IRAN AS US ATTACKS MILITARY, CIVILIAN TARGETS",
-      "detail": "US military has significantly increased the scale of attacks on Iran in recent days as the Strait of Hormuz standoff boils over.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 JUL 2026 · 00:48 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN SE ENZARZAN EN UNA NUEVA ESPIRAL DE ATAQUES",
-      "detail": "Las fuerzas estadounidenses han bombardeado Irán de nuevo después de que la Guardia Revolucionaria abriera fuego contra un carguero chipriota en el estrecho de Ormuz y declarase cerrada esa vía maríti",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 JUL 2026 · 23:57 UTC",
-      "headline": "US LAUNCHES THIRD WAVE OF STRIKES AGAINST IRAN",
-      "detail": "The US has launched a third wave of strikes against Iran this week in response to renewed attacks on ships transiting the Strait of Hormuz Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $78.54 (+0.00%)",
+    "BRENT: $79.16 (+0.00%)",
     "VIX: 15.03",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
