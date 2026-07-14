@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-14T21:56:18.533141+00:00",
+  "updated_at": "2026-07-14T22:55:39.320453+00:00",
   "market": {
-    "brent_usd": 85.34,
+    "brent_usd": 85.44,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "14 JUL 2026 · 22:42 UTC",
+      "headline": "TENSIÓN EN MEDIO ORIENTE: EE.UU. LANZÓ UNA NUEVA OLA DE ATAQUES AÉREOS CONTRA IR",
+      "detail": "La ofensiva fue ordenada por el presidente Donald Trump en medio de la escalada en el estrecho de Ormuz",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 JUL 2026 · 21:13 UTC",
       "headline": "WATCH: THE CLASH BETWEEN US AND IRAN FOR CONTROL OF THE STRAIT OF HORMUZ",
@@ -43,16 +49,10 @@
       "headline": "STRAIT OF HORMUZ 'FAULTLINE' EXPOSES WEAKNESS OF THE US-IRAN DEAL",
       "detail": "Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 19:05 UTC",
-      "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
-      "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.34 (+0.00%)",
+    "BRENT: $85.44 (+0.00%)",
     "VIX: 16.5",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
