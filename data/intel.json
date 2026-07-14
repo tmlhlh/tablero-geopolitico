@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-07-14T13:25:22.712163+00:00",
+  "updated_at": "2026-07-14T15:21:04.918158+00:00",
   "market": {
-    "brent_usd": 86.46,
+    "brent_usd": 83.75,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 7.9,
-    "vix": 16.77,
+    "ormuz_flow_pct": 8.5,
+    "vix": 16.24,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 7.9%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "14 JUL 2026 · 12:49 UTC",
+      "timestamp": "14 JUL 2026 · 15:20 UTC",
       "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
       "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 JUL 2026 · 12:14 UTC",
-      "headline": "RUSSIA READIES TO REROUTE EXPORTS FROM SEA OF AZOV AFTER UKRAINIAN ATTACKS",
-      "detail": "Ukraine says drones hit 11 Russian vessels in the Azov Sea, targeting tankers, dry cargo ships, and a tugboat overnight.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 10:59 UTC",
-      "headline": "CAN GULF COUNTRIES DEFEND THEMSELVES AGAINST RENEWED IRANIAN ATTACKS?",
-      "detail": "Expensive interceptor missiles are facing mounting pressure from Iran's cheaply produced drones.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 10:33 UTC",
-      "headline": "IRÁN ATACÓ UNA BASE MILITAR DE EE.UU. EN BAHRÉIN Y LANZÓ MISILES CONTRA DOS BUQU",
-      "detail": "La ofensiva iraní se dio luego de una ola de bombardeos ordenados por Washington; Trump dijo que se está “restableciendo” un bloqueo en el estrecho de Ormuz",
+      "timestamp": "14 JUL 2026 · 14:32 UTC",
+      "headline": "INDIA SUMMONS IRANIAN DIPLOMAT OVER MISSILE KILLING OF SEAFARER",
+      "detail": "India summoned Iran's deputy ambassador after an Indian crew member was killed in the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 JUL 2026 · 08:52 UTC",
-      "headline": "US BOMBS IRAN AGAIN, TEHRAN STRIKES GULF, TANKERS: WHAT’S THE LATEST?",
-      "detail": "While Trump has threatened to hit targets in Iran including Pickaxe Mountain, he has said a deal is possible.",
+      "timestamp": "14 JUL 2026 · 14:31 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
+      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 14:27 UTC",
+      "headline": "POR QUÉ ES TAN DIFÍCIL PARA ESTADOS UNIDOS REABRIR POR COMPLETO EL ESTRECHO DE O",
+      "detail": "Ataques, amenazas asimétricas y un frágil equilibrio geopolítico complican garantizar la seguridad en la principal ruta del petróleo mundial",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 JUL 2026 · 07:24 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
-      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. El conflicto amenaza con extenderse de nuevo al mar Rojo y a Irak",
+      "timestamp": "14 JUL 2026 · 14:08 UTC",
+      "headline": "‘PIRACY’: WILL TRUMP’S 20 PERCENT HORMUZ TOLL FIND TAKERS?",
+      "detail": "Trump says the US will start charging a cargo fee for ships passing through the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 13:30 UTC",
+      "headline": "IRAN LAWMAKERS PRESENT HORMUZ MANAGEMENT BILL AS US WAR HEATS UP",
+      "detail": "Hardline MPs table plan that aims to formalise control over the strait and undermine any negotiations.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.46 (+0.00%)",
-    "VIX: 16.77",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 7.9%"
+    "BRENT: $83.75 (+0.00%)",
+    "VIX: 16.24",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
