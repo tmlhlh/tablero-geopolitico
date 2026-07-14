@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-14T09:57:00.185689+00:00",
+  "updated_at": "2026-07-14T11:25:21.824970+00:00",
   "market": {
-    "brent_usd": 86.58,
+    "brent_usd": 86.84,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.3,
+    "vix": 17.52,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 JUL 2026 · 10:59 UTC",
+      "headline": "CAN GULF COUNTRIES DEFEND THEMSELVES AGAINST RENEWED IRANIAN ATTACKS?",
+      "detail": "Expensive interceptor missiles are facing mounting pressure from Iran's cheaply produced drones.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 10:33 UTC",
+      "headline": "IRÁN ATACÓ UNA BASE MILITAR DE EE.UU. EN BAHRÉIN Y LANZÓ MISILES CONTRA DOS BUQU",
+      "detail": "La ofensiva iraní se dio luego de una ola de bombardeos ordenados por Washington; Trump dijo que se está “restableciendo” un bloqueo en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 JUL 2026 · 08:52 UTC",
       "headline": "US BOMBS IRAN AGAIN, TEHRAN STRIKES GULF, TANKERS: WHAT’S THE LATEST?",
@@ -27,21 +39,9 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 JUL 2026 · 06:29 UTC",
-      "headline": "IRÁN ATACÓ UNA BASE MILITAR DE EE.UU. EN BAHRÉIN Y LANZÓ MISILES CONTRA DOS BUQU",
-      "detail": "La ofensiva iraní se dio luego de una ola de bombardeos ordenados por Washington; Trump dijo que se está “restableciendo” un bloqueo en el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 03:38 UTC",
-      "headline": "OIL PRICES HIT 1-MONTH HIGH AS US-IRAN ATTACKS DIM STRAIT OF HORMUZ OUTLOOK",
-      "detail": "Brent crude nears $85 a barrel amid renewed hostilities between Washington and Tehran.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 01:37 UTC",
-      "headline": "TRUMP DEMANDS PAYMENT TO PROTECT GULF NATIONS FROM IRANIAN ATTACKS",
-      "detail": "US President Donald Trump says the US should be paid by ‘rich’ oil-producing Gulf nations to secure the Strait of Hormuz",
+      "timestamp": "13 JUL 2026 · 22:11 UTC",
+      "headline": "IRAN VOWS TO FIGHT FOR STRAIT OF HORMUZ UNTIL ‘LAST BREATH’ AS IT RETALIATES FOR",
+      "detail": "The full-scale exchange of strikes has entered its third night after Trump called the memorandum of understanding with Tehran a failed test Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $86.58 (+0.00%)",
-    "VIX: 17.3",
+    "BRENT: $86.84 (+0.00%)",
+    "VIX: 17.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
