@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-14T20:56:26.492444+00:00",
+  "updated_at": "2026-07-14T21:56:18.533141+00:00",
   "market": {
-    "brent_usd": 85.55,
+    "brent_usd": 85.34,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 3.0,
     "vix": 16.5,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "14 JUL 2026 · 21:13 UTC",
+      "headline": "WATCH: THE CLASH BETWEEN US AND IRAN FOR CONTROL OF THE STRAIT OF HORMUZ",
+      "detail": "The BBC's Barbara Plett Usher examines the latest tensions over the key international shipping channel.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 21:05 UTC",
+      "headline": "SIRENS BLARE IN BAHRAIN AS IRAN LAUNCHES BARRAGE OF MISSILES, DRONES",
+      "detail": "Iranian state media is reporting that Tehran has targeted a US naval support base in Bahrain’s capital.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 JUL 2026 · 20:10 UTC",
       "headline": "TRUMP SCRAPS THREAT OF 20% FEE ON HORMUZ CARGO AS US RESUMES BLOCKADE OF IRAN PO",
@@ -22,8 +34,8 @@
     },
     {
       "timestamp": "14 JUL 2026 · 19:47 UTC",
-      "headline": "US STRIKES NEW TARGETS IN IRAN AS TEHRAN HITS GULF STATES, HORMUZ SHIPPING",
-      "detail": "Iran's deputy foreign minister accuses US of destroying the interim peace deal.",
+      "headline": "US REIMPOSES BLOCKADE ON IRANIAN PORTS, LAUNCHES MORE STRIKES",
+      "detail": "Iran's deputy FM accuses US of destroying the interim peace deal and says Tehran now has no commitments under MoU.",
       "severity": "CRÍTICO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
       "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 18:50 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
-      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 18:50 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
-      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.55 (+0.00%)",
+    "BRENT: $85.34 (+0.00%)",
     "VIX: 16.5",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
