@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T23:51:11.665589+00:00",
+  "updated_at": "2026-07-14T02:05:30.990934+00:00",
   "market": {
-    "brent_usd": 84.31,
+    "brent_usd": 84.25,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,24 @@
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "14 JUL 2026 · 01:58 UTC",
+      "headline": "IRÁN ATACÓ UNA BASE MILITAR DE EE.UU. EN BAHRÉIN Y LANZÓ MISILES CONTRA DOS BUQU",
+      "detail": "La ofensiva iraní se dio luego de una ola de nuevos asaltos comandados por Washington; Trump dijo que se está “restableciendo” un bloqueo en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 01:37 UTC",
+      "headline": "TRUMP DEMANDS PAYMENT TO PROTECT GULF NATIONS FROM IRANIAN ATTACKS",
+      "detail": "US President Donald Trump says the US should be paid by ‘rich’ oil-producing Gulf nations to secure the Strait of Hormuz",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US LAUNCHES MORE ATTACKS; UAE SAYS 1 KILLED IN TANKER STRIKE",
+      "detail": "US has carried out more attacks on Iran, with Iranian media reporting explosions in Kish, Qeshm and Bandar Abbas.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "13 JUL 2026 · 23:42 UTC",
       "headline": "UAE CONDEMNS IRAN'S 'BRAZEN' ATTACK ON TANKERS AS US LAUNCHES FRESH STRIKES",
@@ -31,28 +49,10 @@
       "headline": "US, IRAN EXCHANGE ATTACKS AROUND STRAIT OF HORMUZ",
       "detail": "Washington and Tehran both claim to be in control of the strategic waterway as fighting escalates.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 20:48 UTC",
-      "headline": "US STRIKES IRANIAN SHIP WITH DRONE BOATS IN FIRST-OF-ITS-KIND ATTACK",
-      "detail": "US CENTCOM has published a video it says shows three Corsair unmanned surface vessels striking an Iranian ship facility",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 20:40 UTC",
-      "headline": "IRAN MILITARY WARNS US AGAINST STRAIT OF HORMUZ ‘INTERFERENCE’",
-      "detail": "Iran's military has warned it will not allow the United States to ‘interfere’ in the management of the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 20:23 UTC",
-      "headline": "US KEEPING THE STRAIT OF HORMUZ OPEN IS ‘A MASSIVE FORCE PROBLEM’",
-      "detail": "Former NATO analyst says Trump's push for a naval blockade in the Strait of Hormuz would mean a huge military operation.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.31 (+0.00%)",
+    "BRENT: $84.25 (+0.00%)",
     "VIX: 17.16",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
