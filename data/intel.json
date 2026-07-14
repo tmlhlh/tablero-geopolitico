@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-14T02:05:30.990934+00:00",
+  "updated_at": "2026-07-14T05:25:29.799251+00:00",
   "market": {
-    "brent_usd": 84.25,
+    "brent_usd": 84.8,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,22 @@
   },
   "events": [
     {
-      "timestamp": "14 JUL 2026 · 01:58 UTC",
+      "timestamp": "14 JUL 2026 · 04:50 UTC",
+      "headline": "UAE CONDEMNS IRAN'S 'BRAZEN' ATTACK ON TANKERS AS US LAUNCHES FRESH STRIKES",
+      "detail": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 03:47 UTC",
       "headline": "IRÁN ATACÓ UNA BASE MILITAR DE EE.UU. EN BAHRÉIN Y LANZÓ MISILES CONTRA DOS BUQU",
-      "detail": "La ofensiva iraní se dio luego de una ola de nuevos asaltos comandados por Washington; Trump dijo que se está “restableciendo” un bloqueo en el estrecho de Ormuz",
+      "detail": "La ofensiva iraní se dio luego de una ola de bombardeos ordenados por Washington; Trump dijo que se está “restableciendo” un bloqueo en el estrecho de Ormuz",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 03:38 UTC",
+      "headline": "OIL PRICES HIT 1-MONTH HIGH AS US-IRAN ATTACKS DIM STRAIT OF HORMUZ OUTLOOK",
+      "detail": "Brent crude nears $85 a barrel amid renewed hostiles between Washington and Tehran.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "14 JUL 2026 · 01:37 UTC",
@@ -33,26 +45,14 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 JUL 2026 · 23:42 UTC",
-      "headline": "UAE CONDEMNS IRAN'S 'BRAZEN' ATTACK ON TANKERS AS US LAUNCHES FRESH STRIKES",
-      "detail": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the strait.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "13 JUL 2026 · 22:53 UTC",
       "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
       "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 21:19 UTC",
-      "headline": "US, IRAN EXCHANGE ATTACKS AROUND STRAIT OF HORMUZ",
-      "detail": "Washington and Tehran both claim to be in control of the strategic waterway as fighting escalates.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.25 (+0.00%)",
+    "BRENT: $84.8 (+0.00%)",
     "VIX: 17.16",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
