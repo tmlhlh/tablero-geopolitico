@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-14T11:25:21.824970+00:00",
+  "updated_at": "2026-07-14T13:25:22.712163+00:00",
   "market": {
-    "brent_usd": 86.84,
+    "brent_usd": 86.46,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 17.52,
+    "ormuz_flow_pct": 7.9,
+    "vix": 16.77,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.9%"
   },
   "events": [
+    {
+      "timestamp": "14 JUL 2026 · 12:49 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
+      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 12:14 UTC",
+      "headline": "RUSSIA READIES TO REROUTE EXPORTS FROM SEA OF AZOV AFTER UKRAINIAN ATTACKS",
+      "detail": "Ukraine says drones hit 11 Russian vessels in the Azov Sea, targeting tankers, dry cargo ships, and a tugboat overnight.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 JUL 2026 · 10:59 UTC",
       "headline": "CAN GULF COUNTRIES DEFEND THEMSELVES AGAINST RENEWED IRANIAN ATTACKS?",
@@ -37,23 +49,11 @@
       "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
       "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. El conflicto amenaza con extenderse de nuevo al mar Rojo y a Irak",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 22:11 UTC",
-      "headline": "IRAN VOWS TO FIGHT FOR STRAIT OF HORMUZ UNTIL ‘LAST BREATH’ AS IT RETALIATES FOR",
-      "detail": "The full-scale exchange of strikes has entered its third night after Trump called the memorandum of understanding with Tehran a failed test Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 14:46 UTC",
-      "headline": "TRUMP IMPONE DE NUEVO EL BLOQUEO A BARCOS IRANÍES EN ORMUZ Y UN COBRO “DEL 20% D",
-      "detail": "Tras un fin de semana de ataques cruzados, el presidente asegura en una entrevista en Fox News que Estados Unidos debería controlar el estrecho",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.84 (+0.00%)",
-    "VIX: 17.52",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $86.46 (+0.00%)",
+    "VIX: 16.77",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.9%"
   ]
 }
