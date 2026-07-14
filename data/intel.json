@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-14T17:10:51.100214+00:00",
+  "updated_at": "2026-07-14T19:13:25.131155+00:00",
   "market": {
-    "brent_usd": 84.82,
+    "brent_usd": 85.27,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.48,
+    "vix": 16.41,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.3
   },
@@ -15,45 +15,45 @@
   },
   "events": [
     {
-      "timestamp": "14 JUL 2026 · 16:27 UTC",
+      "timestamp": "14 JUL 2026 · 19:05 UTC",
+      "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
+      "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 18:50 UTC",
       "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
       "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 JUL 2026 · 16:25 UTC",
+      "timestamp": "14 JUL 2026 · 18:50 UTC",
       "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
       "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 JUL 2026 · 16:17 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
-      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros",
+      "timestamp": "14 JUL 2026 · 18:44 UTC",
+      "headline": "RUSIA ACUSÓ A UCRANIA DE “TERRORISMO” POR LOS ATAQUES CONTRA BUQUES EN EL MAR DE",
+      "detail": "Moscú aseguró que Kiev busca “causar daños e intimidar” tras una nueva ofensiva contra 11 embarcaciones. Ucrania respondió que solo ataca objetivos que contribuyen al esfuerzo militar ruso",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 JUL 2026 · 15:58 UTC",
-      "headline": "IRÁN ATACÓ UNA BASE MILITAR DE EE.UU. EN BAHRÉIN Y LANZÓ MISILES CONTRA DOS BUQU",
-      "detail": "El mensaje de Trump llegó tras una nueva ofensiva iraní contra aliados norteamericanos en la región",
+      "timestamp": "14 JUL 2026 · 18:26 UTC",
+      "headline": "TRUMP PIVOTS FROM 20 PERCENT STRAIT OF HORMUZ FEE AMID IRAN WAR ESCALATION",
+      "detail": "Donald Trump backs away from fee, says regional countries will instead invest in US in return for transit protection.",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 JUL 2026 · 14:32 UTC",
-      "headline": "INDIA SUMMONS IRANIAN DIPLOMAT OVER MISSILE KILLING OF SEAFARER",
-      "detail": "India summoned Iran's deputy ambassador after an Indian crew member was killed in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 14:08 UTC",
-      "headline": "‘PIRACY’: WILL TRUMP’S 20 PERCENT HORMUZ TOLL FIND TAKERS?",
-      "detail": "Trump says the US will start charging a cargo fee for ships passing through the Strait of Hormuz.",
+      "timestamp": "14 JUL 2026 · 18:05 UTC",
+      "headline": "US PRESIDENT TRUMP DROPS 20% STRAIT OF HORMUZ FEE PLAN",
+      "detail": "US President Donald Trump says he has abandoned his proposed 20% fee on cargo transiting the Strait of Hormuz.",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.82 (+0.00%)",
-    "VIX: 16.48",
+    "BRENT: $85.27 (+0.00%)",
+    "VIX: 16.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
