@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-07-14T05:25:29.799251+00:00",
+  "updated_at": "2026-07-14T07:56:29.369514+00:00",
   "market": {
-    "brent_usd": 84.8,
+    "brent_usd": 86.4,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 17.16,
+    "ormuz_flow_pct": 8.4,
+    "vix": 17.34,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.4%"
   },
   "events": [
     {
-      "timestamp": "14 JUL 2026 · 04:50 UTC",
-      "headline": "UAE CONDEMNS IRAN'S 'BRAZEN' ATTACK ON TANKERS AS US LAUNCHES FRESH STRIKES",
-      "detail": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the Strait of Hormuz.",
+      "timestamp": "14 JUL 2026 · 07:24 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
+      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. El conflicto amenaza con extenderse de nuevo al mar Rojo y a Irak",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 JUL 2026 · 03:47 UTC",
+      "timestamp": "14 JUL 2026 · 06:29 UTC",
       "headline": "IRÁN ATACÓ UNA BASE MILITAR DE EE.UU. EN BAHRÉIN Y LANZÓ MISILES CONTRA DOS BUQU",
       "detail": "La ofensiva iraní se dio luego de una ola de bombardeos ordenados por Washington; Trump dijo que se está “restableciendo” un bloqueo en el estrecho de Ormuz",
       "severity": "INFO"
@@ -29,7 +29,7 @@
     {
       "timestamp": "14 JUL 2026 · 03:38 UTC",
       "headline": "OIL PRICES HIT 1-MONTH HIGH AS US-IRAN ATTACKS DIM STRAIT OF HORMUZ OUTLOOK",
-      "detail": "Brent crude nears $85 a barrel amid renewed hostiles between Washington and Tehran.",
+      "detail": "Brent crude nears $85 a barrel amid renewed hostilities between Washington and Tehran.",
       "severity": "CRÍTICO"
     },
     {
@@ -40,8 +40,8 @@
     },
     {
       "timestamp": "14 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US LAUNCHES MORE ATTACKS; UAE SAYS 1 KILLED IN TANKER STRIKE",
-      "detail": "US has carried out more attacks on Iran, with Iranian media reporting explosions in Kish, Qeshm and Bandar Abbas.",
+      "headline": "IRAN WAR LIVE: US LAUNCHES MORE ATTACKS; 1 KILLED IN IRANIAN STRIKE ON SHIP",
+      "detail": "Tehran claims retaliatory strikes on Kuwait, Bahrain and Jordan, as well as two oil tankers in the Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $84.8 (+0.00%)",
-    "VIX: 17.16",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $86.4 (+0.00%)",
+    "VIX: 17.34",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.4%"
   ]
 }
