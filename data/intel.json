@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-14T07:56:29.369514+00:00",
+  "updated_at": "2026-07-14T09:57:00.185689+00:00",
   "market": {
-    "brent_usd": 86.4,
+    "brent_usd": 86.58,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.4,
-    "vix": 17.34,
+    "ormuz_flow_pct": 8.5,
+    "vix": 17.3,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 JUL 2026 · 08:52 UTC",
+      "headline": "US BOMBS IRAN AGAIN, TEHRAN STRIKES GULF, TANKERS: WHAT’S THE LATEST?",
+      "detail": "While Trump has threatened to hit targets in Iran including Pickaxe Mountain, he has said a deal is possible.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 JUL 2026 · 07:24 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
@@ -39,21 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US LAUNCHES MORE ATTACKS; 1 KILLED IN IRANIAN STRIKE ON SHIP",
-      "detail": "Tehran claims retaliatory strikes on Kuwait, Bahrain and Jordan, as well as two oil tankers in the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 22:53 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL EXPLICÓ EN DETALLE QUÉ PUEDE PASAR CON LOS NUEVOS ATAQ",
-      "detail": "En diálogo con LN+, Andrés Repetto profundizó en la intensificación de los ataques en el estrecho de Ormuz, mientras que el liderazgo iraní exige represalias tras la muerte de su máxima figura militar",
+      "timestamp": "13 JUL 2026 · 14:46 UTC",
+      "headline": "TRUMP IMPONE DE NUEVO EL BLOQUEO A BARCOS IRANÍES EN ORMUZ Y UN COBRO “DEL 20% D",
+      "detail": "Tras un fin de semana de ataques cruzados, el presidente asegura en una entrevista en Fox News que Estados Unidos debería controlar el estrecho",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.4 (+0.00%)",
-    "VIX: 17.34",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.4%"
+    "BRENT: $86.58 (+0.00%)",
+    "VIX: 17.3",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
