@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-15T20:05:03.537928+00:00",
+  "updated_at": "2026-07-15T21:55:57.648589+00:00",
   "market": {
-    "brent_usd": 0,
-    "brent_chg": 0
+    "brent_usd": 85.63,
+    "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.73,
+    "vix": 15.67,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 JUL 2026 · 21:21 UTC",
+      "headline": "RUSSIAN ATTACKS KILL 14 AS UKRAINE HITS BLACK SEA OIL TANKERS",
+      "detail": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 19:58 UTC",
+      "headline": "UKRAINE STRIKES 20 RUSSIAN VESSELS",
+      "detail": "Ukraine released video of strikes on 20 Russian vessels in the Black Sea, including 17 oil tankers.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 JUL 2026 · 19:27 UTC",
       "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
@@ -27,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "15 JUL 2026 · 13:32 UTC",
-      "headline": "RUSSIAN ATTACKS KILL EIGHT AS UKRAINE HITS BLACK SEA OIL TANKERS",
-      "detail": "Civilian casualties are reported in four Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "15 JUL 2026 · 05:48 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
       "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
@@ -43,17 +49,11 @@
       "headline": "IMPONER PEAJES EN EL ESTRECHO DE ORMUZ, LA ÚLTIMA OCURRENCIA Y MARCHA ATRÁS DE T",
       "detail": "Estados Unidos e Irán avivan la batalla por un estrecho clave para la economía mundial y las navieras temen un gran sobrecoste en el transporte. La idea del republicano da carta de naturaleza al cobro",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 23:17 UTC",
-      "headline": "TRUMP RETREAT OVER HORMUZ TOLLS SUGGESTS HE IS STRUGGLING TO END IRAN WAR",
-      "detail": "The abrupt about-face from the US president was the latest twist in a conflict that has now lasted more than four months.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $0 (+0.00%)",
-    "VIX: 15.73",
+    "BRENT: $85.63 (+0.00%)",
+    "VIX: 15.67",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
