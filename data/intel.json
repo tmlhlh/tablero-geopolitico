@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-15T22:56:28.963040+00:00",
+  "updated_at": "2026-07-15T23:56:49.949769+00:00",
   "market": {
-    "brent_usd": 85.54,
+    "brent_usd": 85.49,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 6.2,
     "vix": 15.67,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 6.2%"
   },
   "events": [
+    {
+      "timestamp": "15 JUL 2026 · 23:30 UTC",
+      "headline": "EE.UU. INTENSIFICA SU CAMPAÑA AÉREA SOBRE IRÁN Y REACTIVA EL BLOQUEO NAVAL ",
+      "detail": "Las fuerzas estadounidenses lanzaron tres oleadas de ataques sobre objetivos iraníes; “más les vale comportarse”, dijo Trump en otra amenaza al régimen",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 JUL 2026 · 22:37 UTC",
       "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
@@ -43,17 +49,11 @@
       "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
       "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 03:45 UTC",
-      "headline": "IMPONER PEAJES EN EL ESTRECHO DE ORMUZ, LA ÚLTIMA OCURRENCIA Y MARCHA ATRÁS DE T",
-      "detail": "Estados Unidos e Irán avivan la batalla por un estrecho clave para la economía mundial y las navieras temen un gran sobrecoste en el transporte. La idea del republicano da carta de naturaleza al cobro",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.54 (+0.00%)",
+    "BRENT: $85.49 (+0.00%)",
     "VIX: 15.67",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 6.2%"
   ]
 }
