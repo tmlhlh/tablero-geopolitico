@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-14T23:50:44.480855+00:00",
+  "updated_at": "2026-07-15T02:03:22.592025+00:00",
   "market": {
-    "brent_usd": 85.34,
+    "brent_usd": 85.71,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.4,
+    "ormuz_flow_pct": 6.3,
     "vix": 16.5,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 6.3%"
   },
   "events": [
+    {
+      "timestamp": "14 JUL 2026 · 23:17 UTC",
+      "headline": "TRUMP RETREAT OVER HORMUZ TOLLS SUGGESTS HE IS STRUGGLING TO END IRAN WAR",
+      "detail": "The abrupt about-face from the US president was the latest twist in a conflict that has now lasted more than four months.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 JUL 2026 · 22:42 UTC",
       "headline": "TENSIÓN EN MEDIO ORIENTE: EE.UU. LANZÓ UNA NUEVA OLA DE ATAQUES AÉREOS CONTRA IR",
@@ -43,17 +49,11 @@
       "headline": "US REIMPOSES BLOCKADE ON IRANIAN PORTS, LAUNCHES MORE STRIKES",
       "detail": "Iran's deputy FM accuses US of destroying the interim peace deal and says Tehran now has no commitments under MoU.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 19:13 UTC",
-      "headline": "STRAIT OF HORMUZ 'FAULTLINE' EXPOSES WEAKNESS OF THE US-IRAN DEAL",
-      "detail": "Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.34 (+0.00%)",
+    "BRENT: $85.71 (+0.00%)",
     "VIX: 16.5",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.4%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 6.3%"
   ]
 }
