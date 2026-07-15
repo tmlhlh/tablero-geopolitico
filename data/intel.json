@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-15T21:55:57.648589+00:00",
+  "updated_at": "2026-07-15T22:56:28.963040+00:00",
   "market": {
-    "brent_usd": 85.63,
+    "brent_usd": 85.54,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "15 JUL 2026 · 22:37 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
+      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "15 JUL 2026 · 21:21 UTC",
       "headline": "RUSSIAN ATTACKS KILL 14 AS UKRAINE HITS BLACK SEA OIL TANKERS",
       "detail": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
@@ -25,12 +31,6 @@
       "headline": "UKRAINE STRIKES 20 RUSSIAN VESSELS",
       "detail": "Ukraine released video of strikes on 20 Russian vessels in the Black Sea, including 17 oil tankers.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 19:27 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
-      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
-      "severity": "INFO"
     },
     {
       "timestamp": "15 JUL 2026 · 17:33 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $85.63 (+0.00%)",
+    "BRENT: $85.54 (+0.00%)",
     "VIX: 15.67",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
