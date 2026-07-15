@@ -1,24 +1,36 @@
 {
-  "updated_at": "2026-07-15T12:11:56.474115+00:00",
+  "updated_at": "2026-07-15T14:45:33.506032+00:00",
   "market": {
-    "brent_usd": 85.07,
+    "brent_usd": 84.14,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.0,
-    "vix": 16.33,
+    "ormuz_flow_pct": 8.5,
+    "vix": 16.02,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.3
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "15 JUL 2026 · 11:40 UTC",
+      "timestamp": "15 JUL 2026 · 13:46 UTC",
       "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
       "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 13:41 UTC",
+      "headline": "EL PETRÓLEO RETOMA LA SUBA Y ALEJA LA BAJA DE LOS COMBUSTIBLES",
+      "detail": "El Brent cotiza en torno a los US$85 tras acumular una suba de más del 11% en dos sesiones, luego de que Estados Unidos atacara instalaciones militares cerca del estrecho de Ormuz; el litro de nafta s",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 13:32 UTC",
+      "headline": "RUSSIAN ATTACKS KILL EIGHT AS UKRAINE HITS BLACK SEA OIL TANKERS",
+      "detail": "Civilian casualties are reported in four Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "15 JUL 2026 · 11:00 UTC",
@@ -27,33 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "15 JUL 2026 · 10:17 UTC",
-      "headline": "THREE KILLED AS RUSSIAN BOMBING OF ODESA CONTINUES",
-      "detail": "In recent days, Russia and Ukraine have launched attacks on each others' infrastructure for shipping goods.",
+      "timestamp": "15 JUL 2026 · 05:48 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
+      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "15 JUL 2026 · 09:15 UTC",
-      "headline": "IRAN LAUNCHES ATTACKS ACROSS REGION AS US STRIKES CONTINUE",
-      "detail": "Iran attacked Kuwait, Bahrain, and Jordan on Tuesday night, claiming to destroy the US Fifth Fleet’s command centre.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 08:55 UTC",
-      "headline": "RUSSIAN ATTACK ON ODESA KILLS THREE AS UKRAINE TARGETS VESSELS IN BLACK SEA",
-      "detail": "At least three people killed and three others wounded in Russian strikes on Odesa, city's military administrator says.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 08:44 UTC",
-      "headline": "US RESUMES IRAN PORTS BLOCKADE AS GULF ATTACKS CONTINUE: WHAT’S THE LATEST?",
-      "detail": "Less than a month after signing an MoU as a step towards peace, the US reinstates a naval blockade on Iranian ports.",
-      "severity": "CRÍTICO"
+      "timestamp": "15 JUL 2026 · 03:45 UTC",
+      "headline": "IMPONER PEAJES EN EL ESTRECHO DE ORMUZ, LA ÚLTIMA OCURRENCIA Y MARCHA ATRÁS DE T",
+      "detail": "Estados Unidos e Irán avivan la batalla por un estrecho clave para la economía mundial y las navieras temen un gran sobrecoste en el transporte. La idea del republicano da carta de naturaleza al cobro",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.07 (+0.00%)",
-    "VIX: 16.33",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.0%"
+    "BRENT: $84.14 (+0.00%)",
+    "VIX: 16.02",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
