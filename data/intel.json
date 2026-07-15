@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-15T14:45:33.506032+00:00",
+  "updated_at": "2026-07-15T16:17:41.278390+00:00",
   "market": {
-    "brent_usd": 84.14,
+    "brent_usd": 84.31,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.02,
+    "vix": 16.19,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.2
   },
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "15 JUL 2026 · 13:46 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
-      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
+      "timestamp": "15 JUL 2026 · 15:35 UTC",
+      "headline": "WHO IS CALLING THE SHOTS IN IRAN AMID THE DEADLY WAR WITH THE US?",
+      "detail": "The IRGC has taken the lead in Iran, particularly over Hormuz - and the government says it's on the same page.",
       "severity": "INFO"
     },
     {
-      "timestamp": "15 JUL 2026 · 13:41 UTC",
-      "headline": "EL PETRÓLEO RETOMA LA SUBA Y ALEJA LA BAJA DE LOS COMBUSTIBLES",
-      "detail": "El Brent cotiza en torno a los US$85 tras acumular una suba de más del 11% en dos sesiones, luego de que Estados Unidos atacara instalaciones militares cerca del estrecho de Ormuz; el litro de nafta s",
+      "timestamp": "15 JUL 2026 · 15:24 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
+      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $84.14 (+0.00%)",
-    "VIX: 16.02",
+    "BRENT: $84.31 (+0.00%)",
+    "VIX: 16.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
