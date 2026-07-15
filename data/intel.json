@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-15T02:03:22.592025+00:00",
+  "updated_at": "2026-07-15T05:26:30.415272+00:00",
   "market": {
-    "brent_usd": 85.71,
+    "brent_usd": 85.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 6.3,
+    "ormuz_flow_pct": 8.5,
     "vix": 16.5,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 6.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 JUL 2026 · 03:45 UTC",
+      "headline": "IMPONER PEAJES EN EL ESTRECHO DE ORMUZ, LA ÚLTIMA OCURRENCIA Y MARCHA ATRÁS DE T",
+      "detail": "Estados Unidos e Irán avivan la batalla por un estrecho clave para la economía mundial y las navieras temen un gran sobrecoste en el transporte. La idea del republicano da carta de naturaleza al cobro",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US CARRIES OUT STRIKES, IRGC CLAIMS DAMAGE ON US GULF BASES",
+      "detail": "Iran's bridges, power plants possible targets, Trump says, adding that strikes on Iran will continue until he says.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 JUL 2026 · 23:17 UTC",
       "headline": "TRUMP RETREAT OVER HORMUZ TOLLS SUGGESTS HE IS STRUGGLING TO END IRAN WAR",
@@ -37,23 +49,11 @@
       "headline": "SIRENS BLARE IN BAHRAIN AS IRAN LAUNCHES BARRAGE OF MISSILES, DRONES",
       "detail": "Iranian state media is reporting that Tehran has targeted a US naval support base in Bahrain’s capital.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 20:10 UTC",
-      "headline": "TRUMP SCRAPS THREAT OF 20% FEE ON HORMUZ CARGO AS US RESUMES BLOCKADE OF IRAN PO",
-      "detail": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 19:47 UTC",
-      "headline": "US REIMPOSES BLOCKADE ON IRANIAN PORTS, LAUNCHES MORE STRIKES",
-      "detail": "Iran's deputy FM accuses US of destroying the interim peace deal and says Tehran now has no commitments under MoU.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.71 (+0.00%)",
+    "BRENT: $85.41 (+0.00%)",
     "VIX: 16.5",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 6.3%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
