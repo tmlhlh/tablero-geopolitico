@@ -1,29 +1,41 @@
 {
-  "updated_at": "2026-07-15T16:17:41.278390+00:00",
+  "updated_at": "2026-07-15T18:02:49.660223+00:00",
   "market": {
     "brent_usd": 84.31,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.19,
+    "vix": 15.76,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "15 JUL 2026 · 15:35 UTC",
-      "headline": "WHO IS CALLING THE SHOTS IN IRAN AMID THE DEADLY WAR WITH THE US?",
-      "detail": "The IRGC has taken the lead in Iran, particularly over Hormuz - and the government says it's on the same page.",
+      "timestamp": "15 JUL 2026 · 17:33 UTC",
+      "headline": "ESTADOS UNIDOS LANZA UNA NUEVA OLEADA DE BOMBARDEOS CONTRA IRÁN ",
+      "detail": "El Mando Central estadounidense afirma que su ofensiva busca “debilitar” al régimen para que renuncie a su control sobre el estrecho de Ormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "15 JUL 2026 · 15:24 UTC",
+      "timestamp": "15 JUL 2026 · 16:50 UTC",
+      "headline": "IRÁN AMENAZA CON CERRAR UN SEGUNDO PASO MARÍTIMO CLAVE Y LLEVAR LA GUERRA AL MAR",
+      "detail": "Teherán evalúa activar a sus aliados hutíes en Yemen para bloquear Bab el-Mandeb, una maniobra que podría paralizar otra arteria del comercio global y disparar el precio del petróleo hasta los 200 dól",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 16:20 UTC",
       "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
       "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 15:35 UTC",
+      "headline": "WHO IS CALLING THE SHOTS IN IRAN AMID THE DEADLY WAR WITH THE US?",
+      "detail": "The IRGC has taken the lead in Iran, particularly over Hormuz - and the government says it's on the same page.",
       "severity": "INFO"
     },
     {
@@ -33,27 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "15 JUL 2026 · 11:00 UTC",
-      "headline": "ESTADOS UNIDOS LANZA UNA NUEVA OLEADA DE BOMBARDEOS CONTRA IRÁN ",
-      "detail": "El Mando Central estadounidense afirma que su ofensiva busca “debilitar” al régimen para que renuncie a su control sobre el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "15 JUL 2026 · 05:48 UTC",
       "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
       "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 03:45 UTC",
-      "headline": "IMPONER PEAJES EN EL ESTRECHO DE ORMUZ, LA ÚLTIMA OCURRENCIA Y MARCHA ATRÁS DE T",
-      "detail": "Estados Unidos e Irán avivan la batalla por un estrecho clave para la economía mundial y las navieras temen un gran sobrecoste en el transporte. La idea del republicano da carta de naturaleza al cobro",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $84.31 (+0.00%)",
-    "VIX: 16.19",
+    "VIX: 15.76",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
