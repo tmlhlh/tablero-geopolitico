@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-15T10:45:32.094426+00:00",
+  "updated_at": "2026-07-15T12:11:56.474115+00:00",
   "market": {
-    "brent_usd": 85.63,
+    "brent_usd": 85.07,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 16.41,
+    "ormuz_flow_pct": 4.0,
+    "vix": 16.33,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.0%"
   },
   "events": [
+    {
+      "timestamp": "15 JUL 2026 · 11:40 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
+      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 11:00 UTC",
+      "headline": "ESTADOS UNIDOS LANZA UNA NUEVA OLEADA DE BOMBARDEOS CONTRA IRÁN ",
+      "detail": "El Mando Central estadounidense afirma que su ofensiva busca “debilitar” al régimen para que renuncie a su control sobre el estrecho de Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 JUL 2026 · 10:17 UTC",
       "headline": "THREE KILLED AS RUSSIAN BOMBING OF ODESA CONTINUES",
@@ -37,23 +49,11 @@
       "headline": "US RESUMES IRAN PORTS BLOCKADE AS GULF ATTACKS CONTINUE: WHAT’S THE LATEST?",
       "detail": "Less than a month after signing an MoU as a step towards peace, the US reinstates a naval blockade on Iranian ports.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 07:58 UTC",
-      "headline": "US ATTACKS IRAN AS IRGC CLAIMS STRIKES ON US MILITARY SITES IN GULF",
-      "detail": "Oil prices rise as the US renews a blockade on Iranian ports and carries out a wave of air strikes.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 05:48 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
-      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.63 (+0.00%)",
-    "VIX: 16.41",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $85.07 (+0.00%)",
+    "VIX: 16.33",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.0%"
   ]
 }
