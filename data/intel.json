@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-07-16T05:36:37.587039+00:00",
+  "updated_at": "2026-07-16T08:06:16.454590+00:00",
   "market": {
-    "brent_usd": 84.57,
+    "brent_usd": 84.54,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.67,
+    "vix": 15.87,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.0
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "16 JUL 2026 · 02:10 UTC",
-      "headline": "IRAN LAUNCHES STRIKES ON GULF, EVEN AS FM VISITS QATAR",
-      "detail": "Iranian FM Araghchi visits Qatar to pay respects following the death of the Father Emir, Sheikh Hamad bin al Thani",
+      "timestamp": "16 JUL 2026 · 07:44 UTC",
+      "headline": "IRAN TARGETS MILITARY BASES AS US LAUNCHES WAVE OF STRIKES",
+      "detail": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "16 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US HITS IRANIAN OIL TANKER; TEHRAN ATTACKS KUWAIT, JORDAN",
-      "detail": "Iranian media report explosions on Qeshm Island, Bandar Abbas and Chabahar, as Bahrain and Kuwait sound air raid sirens.",
+      "timestamp": "16 JUL 2026 · 02:10 UTC",
+      "headline": "IRAN LAUNCHES STRIKES ON GULF, EVEN AS FM VISITS QATAR",
+      "detail": "Iranian FM Araghchi visits Qatar to pay respects following the death of the Father Emir, Sheikh Hamad bin al Thani",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $84.57 (+0.00%)",
-    "VIX: 15.67",
+    "BRENT: $84.54 (+0.00%)",
+    "VIX: 15.87",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
