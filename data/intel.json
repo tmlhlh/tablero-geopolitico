@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-16T10:55:14.537285+00:00",
+  "updated_at": "2026-07-16T12:18:22.522647+00:00",
   "market": {
-    "brent_usd": 84.79,
+    "brent_usd": 85.17,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.01,
+    "vix": 16.21,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.2
   },
@@ -15,16 +15,22 @@
   },
   "events": [
     {
+      "timestamp": "16 JUL 2026 · 11:48 UTC",
+      "headline": "IRAN TARGETS MILITARY BASES AS US LAUNCHES WAVE OF STRIKES",
+      "detail": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 JUL 2026 · 11:38 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
+      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "16 JUL 2026 · 10:27 UTC",
       "headline": "‘SAFE PASSAGE’: THE FATAL AMBIGUITY AT THE HEART OF THE HORMUZ MOU",
       "detail": "The vague language of the US-Iran MoU made the present escalation in the Strait of Hormuz all but inevitable.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 10:26 UTC",
-      "headline": "IRAN TARGETS MILITARY BASES AS US LAUNCHES WAVE OF STRIKES",
-      "detail": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "16 JUL 2026 · 09:33 UTC",
@@ -43,17 +49,11 @@
       "headline": "US LAUNCHES NEW ATTACKS ON IRAN AS TEHRAN TARGETS GULF SITES",
       "detail": "Iran's Health Ministry has said at least 35 people have been killed and more than 300 injured since fighting resumed.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 02:10 UTC",
-      "headline": "IRAN LAUNCHES STRIKES ON GULF, EVEN AS FM VISITS QATAR",
-      "detail": "Iranian FM Araghchi visits Qatar to pay respects following the death of the Father Emir, Sheikh Hamad bin al Thani",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.79 (+0.00%)",
-    "VIX: 16.01",
+    "BRENT: $85.17 (+0.00%)",
+    "VIX: 16.21",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
