@@ -1,35 +1,23 @@
 {
-  "updated_at": "2026-07-16T21:11:25.892538+00:00",
+  "updated_at": "2026-07-16T22:54:07.767346+00:00",
   "market": {
-    "brent_usd": 84.86,
+    "brent_usd": 84.93,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 7.6,
+    "ormuz_flow_pct": 8.5,
     "vix": 16.73,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 7.6%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "16 JUL 2026 · 19:56 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
-      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
-      "severity": "INFO"
-    },
     {
       "timestamp": "16 JUL 2026 · 19:44 UTC",
       "headline": "HOW SERIOUS IS IRAN’S THREAT TO DISRUPT SHIPPING IN THE RED SEA?",
       "detail": "After the Strait of Hormuz, Iran's IRGC warns it could next target Bab al-Mandeb.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 19:41 UTC",
-      "headline": "IRÁN PREPARA, EN CONJUNTO CON LOS HUTÍES, UN POSIBLE BLOQUEO DEL ACCESO AL MAR R",
-      "detail": "Teherán ya transmitió el pedido al grupo rebelde yemení, que habría desplegado misiles y drones cerca del estrecho",
       "severity": "INFO"
     },
     {
@@ -39,21 +27,33 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "16 JUL 2026 · 11:48 UTC",
-      "headline": "IRAN TARGETS MILITARY BASES AS US LAUNCHES WAVE OF STRIKES",
-      "detail": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "16 JUL 2026 · 09:33 UTC",
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 17:33 UTC",
+      "headline": "ESTADOS UNIDOS LANZA UNA NUEVA OLEADA DE BOMBARDEOS CONTRA IRÁN ",
+      "detail": "El Mando Central estadounidense afirma que su ofensiva busca “debilitar” al régimen para que renuncie a su control sobre el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 05:48 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
+      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 03:45 UTC",
+      "headline": "IMPONER PEAJES EN EL ESTRECHO DE ORMUZ, LA ÚLTIMA OCURRENCIA Y MARCHA ATRÁS DE T",
+      "detail": "Estados Unidos e Irán avivan la batalla por un estrecho clave para la economía mundial y las navieras temen un gran sobrecoste en el transporte. La idea del republicano da carta de naturaleza al cobro",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.86 (+0.00%)",
+    "BRENT: $84.93 (+0.00%)",
     "VIX: 16.73",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 7.6%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
