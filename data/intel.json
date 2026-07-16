@@ -1,23 +1,47 @@
 {
-  "updated_at": "2026-07-16T08:06:16.454590+00:00",
+  "updated_at": "2026-07-16T10:55:14.537285+00:00",
   "market": {
-    "brent_usd": 84.54,
+    "brent_usd": 84.79,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.87,
+    "vix": 16.01,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "16 JUL 2026 · 07:44 UTC",
+      "timestamp": "16 JUL 2026 · 10:27 UTC",
+      "headline": "‘SAFE PASSAGE’: THE FATAL AMBIGUITY AT THE HEART OF THE HORMUZ MOU",
+      "detail": "The vague language of the US-Iran MoU made the present escalation in the Strait of Hormuz all but inevitable.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 JUL 2026 · 10:26 UTC",
       "headline": "IRAN TARGETS MILITARY BASES AS US LAUNCHES WAVE OF STRIKES",
       "detail": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 JUL 2026 · 09:33 UTC",
+      "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
+      "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 JUL 2026 · 08:23 UTC",
+      "headline": "US STRIKES IRAN, TANKER, AS TEHRAN HITS KUWAIT, JORDAN: WHAT’S THE LATEST",
+      "detail": "Strikes have hit closer to Tehran for the first time since the latest wave of attacks started.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 JUL 2026 · 08:18 UTC",
+      "headline": "US LAUNCHES NEW ATTACKS ON IRAN AS TEHRAN TARGETS GULF SITES",
+      "detail": "Iran's Health Ministry has said at least 35 people have been killed and more than 300 injured since fighting resumed.",
       "severity": "CRÍTICO"
     },
     {
@@ -25,35 +49,11 @@
       "headline": "IRAN LAUNCHES STRIKES ON GULF, EVEN AS FM VISITS QATAR",
       "detail": "Iranian FM Araghchi visits Qatar to pay respects following the death of the Father Emir, Sheikh Hamad bin al Thani",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 23:30 UTC",
-      "headline": "EE.UU. INTENSIFICA SU CAMPAÑA AÉREA SOBRE IRÁN Y REACTIVA EL BLOQUEO NAVAL ",
-      "detail": "Las fuerzas estadounidenses lanzaron tres oleadas de ataques sobre objetivos iraníes; “más les vale comportarse”, dijo Trump en otra amenaza al régimen",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 21:21 UTC",
-      "headline": "RUSSIAN ATTACKS KILL 14 AS UKRAINE HITS BLACK SEA OIL TANKERS",
-      "detail": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 17:33 UTC",
-      "headline": "ESTADOS UNIDOS LANZA UNA NUEVA OLEADA DE BOMBARDEOS CONTRA IRÁN ",
-      "detail": "El Mando Central estadounidense afirma que su ofensiva busca “debilitar” al régimen para que renuncie a su control sobre el estrecho de Ormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 05:48 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
-      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.54 (+0.00%)",
-    "VIX: 15.87",
+    "BRENT: $84.79 (+0.00%)",
+    "VIX: 16.01",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
