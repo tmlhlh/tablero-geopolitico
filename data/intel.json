@@ -1,36 +1,36 @@
 {
-  "updated_at": "2026-07-16T12:18:22.522647+00:00",
+  "updated_at": "2026-07-16T14:57:48.115404+00:00",
   "market": {
-    "brent_usd": 85.17,
+    "brent_usd": 85.11,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 16.21,
+    "ormuz_flow_pct": 7.7,
+    "vix": 15.84,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.7%"
   },
   "events": [
     {
-      "timestamp": "16 JUL 2026 · 11:48 UTC",
-      "headline": "IRAN TARGETS MILITARY BASES AS US LAUNCHES WAVE OF STRIKES",
-      "detail": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 11:38 UTC",
+      "timestamp": "16 JUL 2026 · 14:34 UTC",
       "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
       "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
       "severity": "INFO"
     },
     {
-      "timestamp": "16 JUL 2026 · 10:27 UTC",
-      "headline": "‘SAFE PASSAGE’: THE FATAL AMBIGUITY AT THE HEART OF THE HORMUZ MOU",
-      "detail": "The vague language of the US-Iran MoU made the present escalation in the Strait of Hormuz all but inevitable.",
-      "severity": "INFO"
+      "timestamp": "16 JUL 2026 · 12:09 UTC",
+      "headline": "US STRIKES FIRST TANKER WITH MISSILES AS IT ENFORCES NEW BLOCKADE",
+      "detail": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 JUL 2026 · 11:48 UTC",
+      "headline": "IRAN TARGETS MILITARY BASES AS US LAUNCHES WAVE OF STRIKES",
+      "detail": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "16 JUL 2026 · 09:33 UTC",
@@ -39,21 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "16 JUL 2026 · 08:23 UTC",
-      "headline": "US STRIKES IRAN, TANKER, AS TEHRAN HITS KUWAIT, JORDAN: WHAT’S THE LATEST",
-      "detail": "Strikes have hit closer to Tehran for the first time since the latest wave of attacks started.",
+      "timestamp": "15 JUL 2026 · 21:21 UTC",
+      "headline": "RUSSIAN ATTACKS KILL 14 AS UKRAINE HITS BLACK SEA OIL TANKERS",
+      "detail": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "16 JUL 2026 · 08:18 UTC",
-      "headline": "US LAUNCHES NEW ATTACKS ON IRAN AS TEHRAN TARGETS GULF SITES",
-      "detail": "Iran's Health Ministry has said at least 35 people have been killed and more than 300 injured since fighting resumed.",
-      "severity": "CRÍTICO"
+      "timestamp": "15 JUL 2026 · 17:33 UTC",
+      "headline": "ESTADOS UNIDOS LANZA UNA NUEVA OLEADA DE BOMBARDEOS CONTRA IRÁN ",
+      "detail": "El Mando Central estadounidense afirma que su ofensiva busca “debilitar” al régimen para que renuncie a su control sobre el estrecho de Ormuz",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.17 (+0.00%)",
-    "VIX: 16.21",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $85.11 (+0.00%)",
+    "VIX: 15.84",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.7%"
   ]
 }
