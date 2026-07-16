@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-16T22:54:07.767346+00:00",
+  "updated_at": "2026-07-16T23:55:22.455051+00:00",
   "market": {
-    "brent_usd": 84.93,
+    "brent_usd": 84.92,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -39,20 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "15 JUL 2026 · 05:48 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
-      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "15 JUL 2026 · 03:45 UTC",
       "headline": "IMPONER PEAJES EN EL ESTRECHO DE ORMUZ, LA ÚLTIMA OCURRENCIA Y MARCHA ATRÁS DE T",
       "detail": "Estados Unidos e Irán avivan la batalla por un estrecho clave para la economía mundial y las navieras temen un gran sobrecoste en el transporte. La idea del republicano da carta de naturaleza al cobro",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 19:05 UTC",
+      "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
+      "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.93 (+0.00%)",
+    "BRENT: $84.92 (+0.00%)",
     "VIX: 16.73",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
