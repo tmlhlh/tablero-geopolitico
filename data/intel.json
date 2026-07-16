@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-16T20:00:14.296633+00:00",
+  "updated_at": "2026-07-16T21:11:25.892538+00:00",
   "market": {
-    "brent_usd": 84.32,
+    "brent_usd": 84.86,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 6.3,
-    "vix": 17.08,
+    "ormuz_flow_pct": 7.6,
+    "vix": 16.73,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 6.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.6%"
   },
   "events": [
+    {
+      "timestamp": "16 JUL 2026 · 19:56 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
+      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 JUL 2026 · 19:44 UTC",
       "headline": "HOW SERIOUS IS IRAN’S THREAT TO DISRUPT SHIPPING IN THE RED SEA?",
@@ -24,12 +30,6 @@
       "timestamp": "16 JUL 2026 · 19:41 UTC",
       "headline": "IRÁN PREPARA, EN CONJUNTO CON LOS HUTÍES, UN POSIBLE BLOQUEO DEL ACCESO AL MAR R",
       "detail": "Teherán ya transmitió el pedido al grupo rebelde yemení, que habría desplegado misiles y drones cerca del estrecho",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 18:23 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
-      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $84.32 (+0.00%)",
-    "VIX: 17.08",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 6.3%"
+    "BRENT: $84.86 (+0.00%)",
+    "VIX: 16.73",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.6%"
   ]
 }
