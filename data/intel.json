@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-16T02:35:42.806629+00:00",
+  "updated_at": "2026-07-16T05:36:37.587039+00:00",
   "market": {
-    "brent_usd": 85.27,
+    "brent_usd": 84.57,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -22,9 +22,9 @@
     },
     {
       "timestamp": "16 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: SIRENS IN BAHRAIN, KUWAIT; US ‘DISABLES’ IRANIAN OIL TANKER",
+      "headline": "IRAN WAR LIVE: US HITS IRANIAN OIL TANKER; TEHRAN ATTACKS KUWAIT, JORDAN",
       "detail": "Iranian media report explosions on Qeshm Island, Bandar Abbas and Chabahar, as Bahrain and Kuwait sound air raid sirens.",
-      "severity": "INFO"
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "15 JUL 2026 · 23:30 UTC",
@@ -33,26 +33,26 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "15 JUL 2026 · 22:37 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL DETALLÓ LA NUEVA ESTRATEGIA DE EE.UU. PARA ENFRENTAR A",
-      "detail": "La administración de Donald Trump utilizó drones marinos en el estrecho de Ormuz; la tensión escala tras las advertencias del Presidente",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "15 JUL 2026 · 21:21 UTC",
       "headline": "RUSSIAN ATTACKS KILL 14 AS UKRAINE HITS BLACK SEA OIL TANKERS",
       "detail": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "15 JUL 2026 · 19:58 UTC",
-      "headline": "UKRAINE STRIKES 20 RUSSIAN VESSELS",
-      "detail": "Ukraine released video of strikes on 20 Russian vessels in the Black Sea, including 17 oil tankers.",
+      "timestamp": "15 JUL 2026 · 17:33 UTC",
+      "headline": "ESTADOS UNIDOS LANZA UNA NUEVA OLEADA DE BOMBARDEOS CONTRA IRÁN ",
+      "detail": "El Mando Central estadounidense afirma que su ofensiva busca “debilitar” al régimen para que renuncie a su control sobre el estrecho de Ormuz",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 JUL 2026 · 05:48 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN VUELVEN A LA GUERRA ABIERTA TRAS UNA SEMANA DE ENFRENTAMIE",
+      "detail": "Los ataques a petroleros matan a un marinero y provocan ocho heridos. Trump da marcha atrás en su intención de cobrar por el uso del estrecho a los barcos extranjeros, pero amenaza ahora con atacar pu",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.27 (+0.00%)",
+    "BRENT: $84.57 (+0.00%)",
     "VIX: 15.67",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
