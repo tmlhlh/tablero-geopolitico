@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-07-17T08:03:06.879934+00:00",
+  "updated_at": "2026-07-17T10:43:18.957368+00:00",
   "market": {
-    "brent_usd": 84.45,
+    "brent_usd": 85.62,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.99,
+    "vix": 18.17,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "17 JUL 2026 · 07:00 UTC",
+      "timestamp": "17 JUL 2026 · 10:14 UTC",
       "headline": "US LAUNCHES NEW STRIKES AS IRAN SAYS CIVILIAN INFRASTRUCTURE HIT",
       "detail": "Tehran says the US strikes hit bridges, while the US boards a ship in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 JUL 2026 · 08:18 UTC",
+      "headline": "GULF STATES COME UNDER IRANIAN FIRE AS US STRIKES INTENSIFY",
+      "detail": "Tehran targets multiple countries across the region as the wave of US strikes on Iran steps up.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 JUL 2026 · 07:56 UTC",
+      "headline": "US ATTACKS SOUTHERN IRAN, AS TEHRAN HITS GULF COUNTRIES: WHAT’S THE LATEST?",
+      "detail": "Iran struck Bahrain, Qatar, Oman, Jordan and Syria in retaliation for US strikes.",
       "severity": "CRÍTICO"
     },
     {
@@ -25,12 +37,6 @@
       "headline": "IEA CHIEF WARNS STRAIT OF HORMUZ CRISIS THREATENS GLOBAL ENERGY SECURITY",
       "detail": "Fatih Birol says 'oil security is still a critical issue' and world should be 'worried' if situation does not improve.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 23:58 UTC",
-      "headline": "IRAN WAR LIVE: US KILLS 8 PEOPLE IN SIXTH CONSECUTIVE NIGHT OF STRIKES",
-      "detail": "Officials report power outages, attack on train station in Bandar, as Iran says Hormuz won't return to pre-war status.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "16 JUL 2026 · 12:09 UTC",
@@ -43,17 +49,11 @@
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 JUL 2026 · 17:33 UTC",
-      "headline": "ESTADOS UNIDOS LANZA UNA NUEVA OLEADA DE BOMBARDEOS CONTRA IRÁN ",
-      "detail": "El Mando Central estadounidense afirma que su ofensiva busca “debilitar” al régimen para que renuncie a su control sobre el estrecho de Ormuz",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.45 (+0.00%)",
-    "VIX: 17.99",
+    "BRENT: $85.62 (+0.00%)",
+    "VIX: 18.17",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
