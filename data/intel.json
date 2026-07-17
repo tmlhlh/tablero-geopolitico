@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-17T02:20:52.178698+00:00",
+  "updated_at": "2026-07-17T05:38:26.633305+00:00",
   "market": {
-    "brent_usd": 85.11,
+    "brent_usd": 84.93,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,22 +15,22 @@
   },
   "events": [
     {
+      "timestamp": "17 JUL 2026 · 04:42 UTC",
+      "headline": "US LAUNCHES NEW STRIKES AS IRAN SAYS CIVILIAN INFRASTRUCTURE HIT",
+      "detail": "Tehran says the US strikes hit bridges, while the US boards a ship in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 JUL 2026 · 02:25 UTC",
+      "headline": "IEA CHIEF WARNS STRAIT OF HORMUZ CRISIS THREATENS GLOBAL ENERGY SECURITY",
+      "detail": "Fatih Birol says 'oil security is still a critical issue' and world should be 'worried' if situation does not improve.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "16 JUL 2026 · 23:58 UTC",
       "headline": "IRAN WAR LIVE: US CARRIES OUT STRIKES ON CIVILIAN INFRASTRUCTURE IN SOUTH",
       "detail": "Officials report power outages, attack on train station in Bandar, as Iran says Hormuz won't return to pre-war status.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 23:57 UTC",
-      "headline": "BLASTS REPORTED IN IRAN AS US LAUNCHES NEW WAVE OF STRIKES",
-      "detail": "Iran says US strikes hit bridges in the country in an apparent escalation, while the US boards a ship in the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 19:44 UTC",
-      "headline": "HOW SERIOUS IS IRAN’S THREAT TO DISRUPT SHIPPING IN THE RED SEA?",
-      "detail": "After the Strait of Hormuz, Iran's IRGC warns it could next target Bab al-Mandeb.",
-      "severity": "INFO"
     },
     {
       "timestamp": "16 JUL 2026 · 12:09 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $85.11 (+0.00%)",
+    "BRENT: $84.93 (+0.00%)",
     "VIX: 16.73",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
