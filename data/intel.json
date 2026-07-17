@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-07-17T05:38:26.633305+00:00",
+  "updated_at": "2026-07-17T08:03:06.879934+00:00",
   "market": {
-    "brent_usd": 84.93,
+    "brent_usd": 84.45,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.73,
+    "vix": 17.99,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "17 JUL 2026 · 04:42 UTC",
+      "timestamp": "17 JUL 2026 · 07:00 UTC",
       "headline": "US LAUNCHES NEW STRIKES AS IRAN SAYS CIVILIAN INFRASTRUCTURE HIT",
       "detail": "Tehran says the US strikes hit bridges, while the US boards a ship in the Strait of Hormuz.",
       "severity": "CRÍTICO"
@@ -28,7 +28,7 @@
     },
     {
       "timestamp": "16 JUL 2026 · 23:58 UTC",
-      "headline": "IRAN WAR LIVE: US CARRIES OUT STRIKES ON CIVILIAN INFRASTRUCTURE IN SOUTH",
+      "headline": "IRAN WAR LIVE: US KILLS 8 PEOPLE IN SIXTH CONSECUTIVE NIGHT OF STRIKES",
       "detail": "Officials report power outages, attack on train station in Bandar, as Iran says Hormuz won't return to pre-war status.",
       "severity": "CRÍTICO"
     },
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $84.93 (+0.00%)",
-    "VIX: 16.73",
+    "BRENT: $84.45 (+0.00%)",
+    "VIX: 17.99",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
