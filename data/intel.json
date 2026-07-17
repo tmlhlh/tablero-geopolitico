@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T22:44:28.656870+00:00",
+  "updated_at": "2026-07-17T23:48:45.407557+00:00",
   "market": {
     "brent_usd": 88.09,
     "brent_chg": 0.0
@@ -15,6 +15,18 @@
   },
   "events": [
     {
+      "timestamp": "17 JUL 2026 · 23:21 UTC",
+      "headline": "IRÁN REPORTÓ QUE DOS BUQUES PETROLEROS EXPLOTARON EN ORMUZ AL CHOCARSE CONTRA MI",
+      "detail": "Según la agencia estatal iraní los barcos estallaron por seguir “engaños” de las agencias de inteligencia de EE.UU.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 JUL 2026 · 22:59 UTC",
+      "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
+      "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "17 JUL 2026 · 18:12 UTC",
       "headline": "MAGNITUDE 7.3 EARTHQUAKE QUAKE STRIKES OFF MEXICO COAST",
       "detail": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
@@ -27,12 +39,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "17 JUL 2026 · 16:54 UTC",
-      "headline": "IRANIAN FORCES: MISSILES AND DRONES FIRED AT US TARGETS IN GULF STATES",
-      "detail": "Iranian forces: missiles and drones fired at US targets in Gulf States.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "16 JUL 2026 · 12:09 UTC",
       "headline": "US STRIKES FIRST TANKER WITH MISSILES AS IT ENFORCES NEW BLOCKADE",
       "detail": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
@@ -43,12 +49,6 @@
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 19:05 UTC",
-      "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
-      "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
