@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-17T20:02:41.537070+00:00",
+  "updated_at": "2026-07-17T21:48:51.587888+00:00",
   "market": {
-    "brent_usd": 87.62,
+    "brent_usd": 88.09,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.49,
+    "vix": 18.77,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -17,7 +17,7 @@
     {
       "timestamp": "17 JUL 2026 · 18:12 UTC",
       "headline": "MAGNITUDE 7.3 EARTHQUAKE QUAKE STRIKES OFF MEXICO COAST",
-      "detail": "The US Tsunami Warning Center issued a warning and has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico.",
+      "detail": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $87.62 (+0.00%)",
-    "VIX: 18.49",
+    "BRENT: $88.09 (+0.00%)",
+    "VIX: 18.77",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
