@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-07-17T16:11:32.587905+00:00",
+  "updated_at": "2026-07-17T18:02:05.172808+00:00",
   "market": {
-    "brent_usd": 86.93,
+    "brent_usd": 88.0,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.82,
+    "vix": 18.05,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "17 JUL 2026 · 15:19 UTC",
-      "headline": "UKRAINE SUFFERS PORT ATTACKS AS PROTESTS PERSIST OVER DEFENCE SHAKE-UP",
-      "detail": "Russian attacks reportedly kill two Ukrainians aboard foreign vessel in Mykolaiv; two more killed in Kherson and Odesa.",
+      "timestamp": "17 JUL 2026 · 17:01 UTC",
+      "headline": "SECOND TANKER IN THREE MONTHS HIJACKED OFF YEMEN BY SUSPECTED SOMALI PIRATES",
+      "detail": "There have also been several unsuccessful attacks in a region where piracy appears to be making a comeback.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "17 JUL 2026 · 11:26 UTC",
-      "headline": "WHY IS THE US ATTACKING SOUTHERN IRAN’S CIVILIAN INFRASTRUCTURE?",
-      "detail": "Analysts say the goals range from targeting Iran's supply lines to curbing its influence in the Strait of Hormuz.",
+      "timestamp": "17 JUL 2026 · 16:54 UTC",
+      "headline": "IRANIAN FORCES: MISSILES AND DRONES FIRED AT US TARGETS IN GULF STATES",
+      "detail": "Iranian forces: missiles and drones fired at US targets in Gulf States.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 JUL 2026 · 15:19 UTC",
+      "headline": "UKRAINE SUFFERS PORT ATTACKS AS PROTESTS PERSIST OVER DEFENCE SHAKE-UP",
+      "detail": "Russian attacks reportedly kill two Ukrainians aboard foreign vessel in Mykolaiv; two more killed in Kherson and Odesa.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
       "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 22:11 UTC",
-      "headline": "TRUMP THREATENS STRIKES ON IRAN’S POWER PLANTS AND BRIDGES (PHOTOS, VIDEOS)",
-      "detail": "President Trump has scrapped 20% Hormuz “protection” fee demand, seeking “massive” regional investment instead Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.93 (+0.00%)",
-    "VIX: 17.82",
+    "BRENT: $88.0 (+0.00%)",
+    "VIX: 18.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
