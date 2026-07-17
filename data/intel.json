@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-17T18:02:05.172808+00:00",
+  "updated_at": "2026-07-17T20:02:41.537070+00:00",
   "market": {
-    "brent_usd": 88.0,
+    "brent_usd": 87.62,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.05,
+    "vix": 18.49,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 JUL 2026 · 18:12 UTC",
+      "headline": "MAGNITUDE 7.3 EARTHQUAKE QUAKE STRIKES OFF MEXICO COAST",
+      "detail": "The US Tsunami Warning Center issued a warning and has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "17 JUL 2026 · 17:01 UTC",
       "headline": "SECOND TANKER IN THREE MONTHS HIJACKED OFF YEMEN BY SUSPECTED SOMALI PIRATES",
@@ -25,12 +31,6 @@
       "headline": "IRANIAN FORCES: MISSILES AND DRONES FIRED AT US TARGETS IN GULF STATES",
       "detail": "Iranian forces: missiles and drones fired at US targets in Gulf States.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 JUL 2026 · 15:19 UTC",
-      "headline": "UKRAINE SUFFERS PORT ATTACKS AS PROTESTS PERSIST OVER DEFENCE SHAKE-UP",
-      "detail": "Russian attacks reportedly kill two Ukrainians aboard foreign vessel in Mykolaiv; two more killed in Kherson and Odesa.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "16 JUL 2026 · 12:09 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $88.0 (+0.00%)",
-    "VIX: 18.05",
+    "BRENT: $87.62 (+0.00%)",
+    "VIX: 18.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
