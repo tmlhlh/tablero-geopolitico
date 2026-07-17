@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-17T10:43:18.957368+00:00",
+  "updated_at": "2026-07-17T12:05:44.301143+00:00",
   "market": {
-    "brent_usd": 85.62,
+    "brent_usd": 86.0,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.17,
+    "vix": 18.09,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.9
   },
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "17 JUL 2026 · 10:14 UTC",
-      "headline": "US LAUNCHES NEW STRIKES AS IRAN SAYS CIVILIAN INFRASTRUCTURE HIT",
-      "detail": "Tehran says the US strikes hit bridges, while the US boards a ship in the Strait of Hormuz.",
+      "timestamp": "17 JUL 2026 · 11:26 UTC",
+      "headline": "WHY IS THE US ATTACKING SOUTHERN IRAN’S CIVILIAN INFRASTRUCTURE?",
+      "detail": "Analysts say the goals range from targeting Iran's supply lines to curbing its influence in the Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
     {
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "17 JUL 2026 · 02:25 UTC",
-      "headline": "IEA CHIEF WARNS STRAIT OF HORMUZ CRISIS THREATENS GLOBAL ENERGY SECURITY",
-      "detail": "Fatih Birol says 'oil security is still a critical issue' and world should be 'worried' if situation does not improve.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "16 JUL 2026 · 12:09 UTC",
       "headline": "US STRIKES FIRST TANKER WITH MISSILES AS IT ENFORCES NEW BLOCKADE",
       "detail": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
@@ -49,11 +43,17 @@
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 19:05 UTC",
+      "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
+      "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.62 (+0.00%)",
-    "VIX: 18.17",
+    "BRENT: $86.0 (+0.00%)",
+    "VIX: 18.09",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
