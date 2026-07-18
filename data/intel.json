@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-18T02:04:52.430527+00:00",
+  "updated_at": "2026-07-18T05:21:10.837005+00:00",
   "market": {
-    "brent_usd": 88.09,
+    "brent_usd": 88.1,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "18 JUL 2026 · 01:16 UTC",
+      "timestamp": "18 JUL 2026 · 04:40 UTC",
       "headline": "US STRIKES HIT IRAN FOR SEVENTH CONSECUTIVE NIGHT",
       "detail": "The US command says it is conducting more strikes to degrade Iran's armed forces, as Iran reports explosions near the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 JUL 2026 · 23:21 UTC",
-      "headline": "IRÁN REPORTÓ QUE DOS BUQUES PETROLEROS EXPLOTARON EN ORMUZ AL CHOCARSE CONTRA MI",
-      "detail": "Según la agencia estatal iraní los barcos estallaron por seguir “engaños” de las agencias de inteligencia de EE.UU.",
       "severity": "CRÍTICO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 JUL 2026 · 19:05 UTC",
+      "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
+      "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.09 (+0.00%)",
+    "BRENT: $88.1 (+0.00%)",
     "VIX: 18.77",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
