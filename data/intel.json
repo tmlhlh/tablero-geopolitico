@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T18:57:52.302789+00:00",
+  "updated_at": "2026-07-18T20:04:26.429898+00:00",
   "market": {
     "brent_usd": 88.1,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "18 JUL 2026 · 19:38 UTC",
+      "headline": "TWO US TROOPS KILLED AND ONE MISSING AFTER IRANIAN ATTACK IN JORDAN",
+      "detail": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "18 JUL 2026 · 16:47 UTC",
       "headline": "WHAT TO EXPECT AFTER THE US REIMPOSES NAVAL BLOCKADE ON IRAN’S PORTS?",
@@ -42,12 +48,6 @@
       "timestamp": "17 JUL 2026 · 17:01 UTC",
       "headline": "SECOND TANKER IN THREE MONTHS HIJACKED OFF YEMEN BY SUSPECTED SOMALI PIRATES",
       "detail": "There have also been several unsuccessful attacks in a region where piracy appears to be making a comeback.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 09:33 UTC",
-      "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
-      "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
