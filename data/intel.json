@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T13:17:29.958403+00:00",
+  "updated_at": "2026-07-18T14:47:45.343610+00:00",
   "market": {
     "brent_usd": 88.1,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "18 JUL 2026 · 14:23 UTC",
+      "headline": "IRAQ SIGNS 48 DEALS WITH US COMPANIES DURING PM’S VISIT TO WASHINGTON",
+      "detail": "The deals include rebuilding the long-defunct Iraq-Syria crude oil pipeline, which could bypass the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "17 JUL 2026 · 22:59 UTC",
       "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
@@ -43,12 +49,6 @@
       "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
       "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 22:11 UTC",
-      "headline": "TRUMP THREATENS STRIKES ON IRAN’S POWER PLANTS AND BRIDGES (PHOTOS, VIDEOS)",
-      "detail": "President Trump has scrapped 20% Hormuz “protection” fee demand, seeking “massive” regional investment instead Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
