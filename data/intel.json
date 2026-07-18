@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T20:04:26.429898+00:00",
+  "updated_at": "2026-07-18T21:46:05.084278+00:00",
   "market": {
     "brent_usd": 88.1,
     "brent_chg": 0.0
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "18 JUL 2026 · 19:38 UTC",
+      "timestamp": "18 JUL 2026 · 21:12 UTC",
       "headline": "TWO US TROOPS KILLED AND ONE MISSING AFTER IRANIAN ATTACK IN JORDAN",
       "detail": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
       "severity": "CRÍTICO"
