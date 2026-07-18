@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T23:48:45.407557+00:00",
+  "updated_at": "2026-07-18T02:04:52.430527+00:00",
   "market": {
     "brent_usd": 88.09,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "18 JUL 2026 · 01:16 UTC",
+      "headline": "US STRIKES HIT IRAN FOR SEVENTH CONSECUTIVE NIGHT",
+      "detail": "The US command says it is conducting more strikes to degrade Iran's armed forces, as Iran reports explosions near the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "17 JUL 2026 · 23:21 UTC",
       "headline": "IRÁN REPORTÓ QUE DOS BUQUES PETROLEROS EXPLOTARON EN ORMUZ AL CHOCARSE CONTRA MI",
@@ -36,12 +42,6 @@
       "timestamp": "17 JUL 2026 · 17:01 UTC",
       "headline": "SECOND TANKER IN THREE MONTHS HIJACKED OFF YEMEN BY SUSPECTED SOMALI PIRATES",
       "detail": "There have also been several unsuccessful attacks in a region where piracy appears to be making a comeback.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 12:09 UTC",
-      "headline": "US STRIKES FIRST TANKER WITH MISSILES AS IT ENFORCES NEW BLOCKADE",
-      "detail": "The US military targeted an unladen oil tanker which it said was heading for the key Iranian oil terminal on Kharg island.",
       "severity": "CRÍTICO"
     },
     {
