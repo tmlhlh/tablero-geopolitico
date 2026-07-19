@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T08:09:55.392168+00:00",
+  "updated_at": "2026-07-19T10:24:00.422293+00:00",
   "market": {
     "brent_usd": 88.1,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "17 JUL 2026 · 18:12 UTC",
-      "headline": "MAGNITUDE 7.3 EARTHQUAKE QUAKE STRIKES OFF MEXICO COAST",
-      "detail": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "16 JUL 2026 · 09:33 UTC",
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
@@ -49,6 +43,12 @@
       "headline": "TRUMP THREATENS STRIKES ON IRAN’S POWER PLANTS AND BRIDGES (PHOTOS, VIDEOS)",
       "detail": "President Trump has scrapped 20% Hormuz “protection” fee demand, seeking “massive” regional investment instead Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 13:34 UTC",
+      "headline": "US ‘TAKING OVER’ STRAIT OF HORMUZ – TRUMP",
+      "detail": "US President Donald Trump has said the US is “taking over” the Strait of Hormuz from Iran, as the conflict over the waterway has escalated Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
