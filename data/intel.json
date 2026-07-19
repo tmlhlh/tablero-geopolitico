@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T02:22:07.861967+00:00",
+  "updated_at": "2026-07-19T05:47:48.896384+00:00",
   "market": {
     "brent_usd": 88.1,
     "brent_chg": 0.0
@@ -15,15 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "19 JUL 2026 · 00:18 UTC",
-      "headline": "TWO US TROOPS KILLED AND ONE MISSING AFTER IRANIAN ATTACK IN JORDAN",
-      "detail": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 JUL 2026 · 16:47 UTC",
-      "headline": "WHAT TO EXPECT AFTER THE US REIMPOSES NAVAL BLOCKADE ON IRAN’S PORTS?",
-      "detail": "Pressure is expected to build on the Iranian public, as well as global energy markets due to the US blockade.",
+      "timestamp": "19 JUL 2026 · 05:23 UTC",
+      "headline": "ESTADOS UNIDOS BOMBARDEÓ BASES DE IRÁN Y CRECE LA TENSIÓN EN EL ESTRECHO DE ORMU",
+      "detail": "El Pentágono lanzó una ofensiva contra objetivos estratégicos de la Guardia Revolucionaria en represalia por la muerte de soldados",
       "severity": "INFO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
       "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "13 JUL 2026 · 22:11 UTC",
+      "headline": "TRUMP THREATENS STRIKES ON IRAN’S POWER PLANTS AND BRIDGES (PHOTOS, VIDEOS)",
+      "detail": "President Trump has scrapped 20% Hormuz “protection” fee demand, seeking “massive” regional investment instead Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
