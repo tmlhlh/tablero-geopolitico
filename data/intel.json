@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T13:08:54.544998+00:00",
+  "updated_at": "2026-07-19T14:51:35.235029+00:00",
   "market": {
     "brent_usd": 88.1,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "19 JUL 2026 · 14:27 UTC",
+      "headline": "IRAN ATTACKS US GULF ALLIES, CAUSING A FIRE AT KUWAIT POWER PLANT",
+      "detail": "Kuwait and Bahrain report several rounds of Iranian missile, drone attacks; sirens reportedly sound in Jordan.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "19 JUL 2026 · 05:23 UTC",
       "headline": "ESTADOS UNIDOS BOMBARDEÓ BASES DE IRÁN Y CRECE LA TENSIÓN EN EL ESTRECHO DE ORMU",
@@ -43,12 +49,6 @@
       "headline": "TRUMP THREATENS STRIKES ON IRAN’S POWER PLANTS AND BRIDGES (PHOTOS, VIDEOS)",
       "detail": "President Trump has scrapped 20% Hormuz “protection” fee demand, seeking “massive” regional investment instead Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 13:34 UTC",
-      "headline": "US ‘TAKING OVER’ STRAIT OF HORMUZ – TRUMP",
-      "detail": "US President Donald Trump has said the US is “taking over” the Strait of Hormuz from Iran, as the conflict over the waterway has escalated Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
