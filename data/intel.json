@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-20T17:57:14.109954+00:00",
+  "updated_at": "2026-07-20T19:44:12.824222+00:00",
   "market": {
-    "brent_usd": 88.89,
+    "brent_usd": 88.81,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.6,
-    "vix": 18.22,
+    "ormuz_flow_pct": 3.0,
+    "vix": 18.64,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.6%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "20 JUL 2026 · 18:32 UTC",
+      "headline": "HOUTHIS ANNOUNCE MARITIME BLOCKADE ON SAUDI ARABIA",
+      "detail": "Yemen’s Iran-backed Houthi rebels have announced a maritime blockade on Saudi Arabia after the two sides traded fire",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 JUL 2026 · 17:33 UTC",
       "headline": "YEMEN'S HOUTHIS ANNOUNCE 'MARITIME EMBARGO' ON SAUDI ARABIA",
@@ -43,17 +49,11 @@
       "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
       "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 09:33 UTC",
-      "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
-      "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.89 (+0.00%)",
-    "VIX: 18.22",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.6%"
+    "BRENT: $88.81 (+0.00%)",
+    "VIX: 18.64",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
