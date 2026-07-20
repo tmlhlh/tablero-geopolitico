@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-07-20T09:56:12.319652+00:00",
+  "updated_at": "2026-07-20T12:15:01.630171+00:00",
   "market": {
-    "brent_usd": 87.95,
+    "brent_usd": 88.35,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.43,
+    "vix": 17.95,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "20 JUL 2026 · 01:48 UTC",
-      "headline": "US BOMBS IRAN FOR NINTH CONSECUTIVE NIGHT AS HORMUZ TENSIONS ESCALATE",
-      "detail": "Iranian media report blasts in cities in the far north and far south, including Tabriz and Chabahar.",
-      "severity": "INFO"
+      "timestamp": "20 JUL 2026 · 11:18 UTC",
+      "headline": "TRUMP SAYS US STRIKES HIT IRAN IN 'HONOUR' OF AMERICAN SOLDIERS KILLED",
+      "detail": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "20 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: SHIP ABLAZE IN HORMUZ STRAIT AFTER ATTACK; CREW RESCUED",
-      "detail": "US forces attack Iran for ninth consecutive night as one US soldier killed in northern Iraq.",
+      "timestamp": "20 JUL 2026 · 10:08 UTC",
+      "headline": "WHAT DOES IRAN’S ATTACK ON KUWAIT INFRASTRUCTURE MEAN FOR GULF?",
+      "detail": "What does Iran’s attack on Kuwait infrastructure mean for Gulf?",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $87.95 (+0.00%)",
-    "VIX: 18.43",
+    "BRENT: $88.35 (+0.00%)",
+    "VIX: 17.95",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
