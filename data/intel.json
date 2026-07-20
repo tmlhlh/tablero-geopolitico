@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-20T06:13:43.986112+00:00",
+  "updated_at": "2026-07-20T09:56:12.319652+00:00",
   "market": {
-    "brent_usd": 90.71,
+    "brent_usd": 87.95,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.77,
+    "vix": 18.43,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -19,6 +19,12 @@
       "headline": "US BOMBS IRAN FOR NINTH CONSECUTIVE NIGHT AS HORMUZ TENSIONS ESCALATE",
       "detail": "Iranian media report blasts in cities in the far north and far south, including Tabriz and Chabahar.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "20 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: SHIP ABLAZE IN HORMUZ STRAIT AFTER ATTACK; CREW RESCUED",
+      "detail": "US forces attack Iran for ninth consecutive night as one US soldier killed in northern Iraq.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "17 JUL 2026 · 22:59 UTC",
@@ -43,17 +49,11 @@
       "headline": "TRUMP THREATENS STRIKES ON IRAN’S POWER PLANTS AND BRIDGES (PHOTOS, VIDEOS)",
       "detail": "President Trump has scrapped 20% Hormuz “protection” fee demand, seeking “massive” regional investment instead Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 13:34 UTC",
-      "headline": "US ‘TAKING OVER’ STRAIT OF HORMUZ – TRUMP",
-      "detail": "US President Donald Trump has said the US is “taking over” the Strait of Hormuz from Iran, as the conflict over the waterway has escalated Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.71 (+0.00%)",
-    "VIX: 18.77",
+    "BRENT: $87.95 (+0.00%)",
+    "VIX: 18.43",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
