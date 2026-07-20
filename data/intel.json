@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-20T12:15:01.630171+00:00",
+  "updated_at": "2026-07-20T15:08:19.504812+00:00",
   "market": {
     "brent_usd": 88.35,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.95,
+    "vix": 18.29,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "20 JUL 2026 · 14:19 UTC",
+      "headline": "ESTADOS UNIDOS E IRÁN EXPANDEN LOS BOMBARDEOS SOBRE INFRAESTRUCTURA CIVIL",
+      "detail": "Washington ataca ciudades iraníes por noveno día consecutivo, mientras se informa de explosiones en buques petroleros en Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 JUL 2026 · 11:18 UTC",
       "headline": "TRUMP SAYS US STRIKES HIT IRAN IN 'HONOUR' OF AMERICAN SOLDIERS KILLED",
@@ -43,17 +49,11 @@
       "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
       "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 JUL 2026 · 22:11 UTC",
-      "headline": "TRUMP THREATENS STRIKES ON IRAN’S POWER PLANTS AND BRIDGES (PHOTOS, VIDEOS)",
-      "detail": "President Trump has scrapped 20% Hormuz “protection” fee demand, seeking “massive” regional investment instead Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $88.35 (+0.00%)",
-    "VIX: 17.95",
+    "VIX: 18.29",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
