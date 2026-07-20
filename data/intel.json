@@ -1,36 +1,42 @@
 {
-  "updated_at": "2026-07-20T15:08:19.504812+00:00",
+  "updated_at": "2026-07-20T17:57:14.109954+00:00",
   "market": {
-    "brent_usd": 88.35,
+    "brent_usd": 88.89,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 18.29,
+    "ormuz_flow_pct": 5.6,
+    "vix": 18.22,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.6%"
   },
   "events": [
     {
-      "timestamp": "20 JUL 2026 · 14:19 UTC",
-      "headline": "ESTADOS UNIDOS E IRÁN EXPANDEN LOS BOMBARDEOS SOBRE INFRAESTRUCTURA CIVIL",
-      "detail": "Washington ataca ciudades iraníes por noveno día consecutivo, mientras se informa de explosiones en buques petroleros en Ormuz",
+      "timestamp": "20 JUL 2026 · 17:33 UTC",
+      "headline": "YEMEN'S HOUTHIS ANNOUNCE 'MARITIME EMBARGO' ON SAUDI ARABIA",
+      "detail": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
       "severity": "INFO"
     },
     {
-      "timestamp": "20 JUL 2026 · 11:18 UTC",
+      "timestamp": "20 JUL 2026 · 17:20 UTC",
       "headline": "TRUMP SAYS US STRIKES HIT IRAN IN 'HONOUR' OF AMERICAN SOLDIERS KILLED",
       "detail": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "20 JUL 2026 · 10:08 UTC",
-      "headline": "WHAT DOES IRAN’S ATTACK ON KUWAIT INFRASTRUCTURE MEAN FOR GULF?",
-      "detail": "What does Iran’s attack on Kuwait infrastructure mean for Gulf?",
-      "severity": "CRÍTICO"
+      "timestamp": "20 JUL 2026 · 15:39 UTC",
+      "headline": "YEMEN’S HOUTHIS DECLARE NAVAL BLOCKADE OF SAUDI ARABIA: WHAT TO KNOW",
+      "detail": "Yemeni group says the announcement is based on the principle of 'an eye for an eye'.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 JUL 2026 · 14:19 UTC",
+      "headline": "ESTADOS UNIDOS INTENSIFICA LOS BOMBARDEOS SOBRE INFRAESTRUCTURA CIVIL EN IRÁN",
+      "detail": "Washington ataca ciudades iraníes por noveno día consecutivo, mientras que Teherán daña aviones militares estadounidenses en Jordania e informa de explosiones en dos petroleros en Ormuz",
+      "severity": "INFO"
     },
     {
       "timestamp": "17 JUL 2026 · 22:59 UTC",
@@ -43,17 +49,11 @@
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 19:05 UTC",
-      "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
-      "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.35 (+0.00%)",
-    "VIX: 18.29",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $88.89 (+0.00%)",
+    "VIX: 18.22",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.6%"
   ]
 }
