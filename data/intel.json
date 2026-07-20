@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-07-20T21:07:52.570950+00:00",
+  "updated_at": "2026-07-20T22:55:55.149271+00:00",
   "market": {
-    "brent_usd": 88.97,
+    "brent_usd": 89.07,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 7.5,
     "vix": 18.65,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.5%"
   },
   "events": [
+    {
+      "timestamp": "20 JUL 2026 · 21:30 UTC",
+      "headline": "YEMEN'S HOUTHIS ANNOUNCE 'MARITIME EMBARGO' ON SAUDI ARABIA",
+      "detail": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "20 JUL 2026 · 21:09 UTC",
+      "headline": "US LAUNCHES FRESH STRIKES ON IRAN, AS TRUMP WARNS OF RETALIATION FOR DEATHS OF S",
+      "detail": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "20 JUL 2026 · 18:32 UTC",
       "headline": "HOUTHIS ANNOUNCE MARITIME BLOCKADE ON SAUDI ARABIA",
       "detail": "Yemen’s Iran-backed Houthi rebels have announced a maritime blockade on Saudi Arabia after the two sides traded fire",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 JUL 2026 · 17:33 UTC",
-      "headline": "YEMEN'S HOUTHIS ANNOUNCE 'MARITIME EMBARGO' ON SAUDI ARABIA",
-      "detail": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 JUL 2026 · 19:05 UTC",
-      "headline": "STRAIT OF HORMUZ CRISIS: WHAT IS THE CURRENT STATE OF THE WATERWAY?",
-      "detail": "Strait of Hormuz is at the center of renewed US-Iran conflict, with rising oil prices and competing claims over control of the route Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.97 (+0.00%)",
+    "BRENT: $89.07 (+0.00%)",
     "VIX: 18.65",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.5%"
   ]
 }
