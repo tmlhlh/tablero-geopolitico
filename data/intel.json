@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T23:54:43.739375+00:00",
+  "updated_at": "2026-07-21T02:21:03.789092+00:00",
   "market": {
-    "brent_usd": 89.0,
+    "brent_usd": 88.58,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,21 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "20 JUL 2026 · 21:30 UTC",
-      "headline": "YEMEN'S HOUTHIS ANNOUNCE 'MARITIME EMBARGO' ON SAUDI ARABIA",
-      "detail": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 JUL 2026 · 21:09 UTC",
+      "timestamp": "21 JUL 2026 · 01:51 UTC",
       "headline": "US LAUNCHES FRESH STRIKES ON IRAN, AS TRUMP WARNS OF RETALIATION FOR DEATHS OF S",
       "detail": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "20 JUL 2026 · 18:32 UTC",
-      "headline": "HOUTHIS ANNOUNCE MARITIME BLOCKADE ON SAUDI ARABIA",
-      "detail": "Yemen’s Iran-backed Houthi rebels have announced a maritime blockade on Saudi Arabia after the two sides traded fire",
+      "timestamp": "21 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN ATTACKS GULF STATES, SAYS 2 TANKERS IN HORMUZ ON FIRE",
+      "detail": "Explosions reported in Iran's Bandar Abbas, Qeshm Island, Chabahar and Konarak as US launches new wave of attacks.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "20 JUL 2026 · 21:30 UTC",
+      "headline": "YEMEN'S HOUTHIS ANNOUNCE 'MARITIME EMBARGO' ON SAUDI ARABIA",
+      "detail": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.0 (+0.00%)",
+    "BRENT: $88.58 (+0.00%)",
     "VIX: 18.65",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
