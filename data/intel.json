@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-07-21T13:39:05.361152+00:00",
+  "updated_at": "2026-07-21T15:39:54.306407+00:00",
   "market": {
-    "brent_usd": 91.1,
+    "brent_usd": 91.5,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.75,
+    "vix": 17.17,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "21 JUL 2026 · 14:37 UTC",
+      "headline": "SAUDI CONDEMNS HOUTHI BLOCKADE: HOW WILL THE REST OF THE WORLD BE IMPACTED?",
+      "detail": "Saudi Arabia has condemned the Houthi naval blockade that could impact oil flow to importers of Saudi oil.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 JUL 2026 · 13:43 UTC",
+      "headline": "ASEAN DIPLOMATS VOICE ‘SERIOUS CONCERN’ OVER IRAN WAR AND ENERGY CRISIS",
+      "detail": "Southeast Asian countries are highly affected by oil supply shortages caused by Iran war and Strait of Hormuz closure.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "21 JUL 2026 · 09:48 UTC",
       "headline": "US LAUNCHES FRESH STRIKES ON IRAN, AS TRUMP WARNS OF RETALIATION FOR DEATHS OF S",
       "detail": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 JUL 2026 · 09:04 UTC",
-      "headline": "HORMUZ TANKERS ON FIRE, AS US, IRAN CONTINUE ATTACKS: WHAT’S THE LATEST?",
-      "detail": "The White House told Al Jazeera that the US would continue its attacks unless Trump decides otherwise.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
       "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 09:33 UTC",
-      "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
-      "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.1 (+0.00%)",
-    "VIX: 17.75",
+    "BRENT: $91.5 (+0.00%)",
+    "VIX: 17.17",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
