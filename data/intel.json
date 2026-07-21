@@ -1,21 +1,27 @@
 {
-  "updated_at": "2026-07-21T02:21:03.789092+00:00",
+  "updated_at": "2026-07-21T05:46:33.792832+00:00",
   "market": {
-    "brent_usd": 88.58,
+    "brent_usd": 88.62,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 7.1,
     "vix": 18.65,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.1%"
   },
   "events": [
     {
-      "timestamp": "21 JUL 2026 · 01:51 UTC",
+      "timestamp": "21 JUL 2026 · 03:25 UTC",
+      "headline": "HOUTHIS DECLARE NAVAL BLOCKADE OF SAUDI ARABIA",
+      "detail": "Yemen’s Houthis have announced a maritime blockade of Saudi Arabia, marking a major escalation in the Middle East Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 JUL 2026 · 02:41 UTC",
       "headline": "US LAUNCHES FRESH STRIKES ON IRAN, AS TRUMP WARNS OF RETALIATION FOR DEATHS OF S",
       "detail": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
       "severity": "CRÍTICO"
@@ -43,17 +49,11 @@
       "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
       "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 09:33 UTC",
-      "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
-      "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.58 (+0.00%)",
+    "BRENT: $88.62 (+0.00%)",
     "VIX: 18.65",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.1%"
   ]
 }
