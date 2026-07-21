@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-21T08:21:10.749310+00:00",
+  "updated_at": "2026-07-21T11:04:08.141232+00:00",
   "market": {
-    "brent_usd": 87.97,
+    "brent_usd": 89.92,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.58,
+    "vix": 17.65,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
@@ -15,9 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "21 JUL 2026 · 06:16 UTC",
+      "timestamp": "21 JUL 2026 · 09:48 UTC",
       "headline": "US LAUNCHES FRESH STRIKES ON IRAN, AS TRUMP WARNS OF RETALIATION FOR DEATHS OF S",
       "detail": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 JUL 2026 · 09:04 UTC",
+      "headline": "HORMUZ TANKERS ON FIRE, AS US, IRAN CONTINUE ATTACKS: WHAT’S THE LATEST?",
+      "detail": "The White House told Al Jazeera that the US would continue its attacks unless Trump decides otherwise.",
       "severity": "CRÍTICO"
     },
     {
@@ -25,12 +31,6 @@
       "headline": "HOUTHIS DECLARE NAVAL BLOCKADE OF SAUDI ARABIA",
       "detail": "Yemen’s Houthis have announced a maritime blockade of Saudi Arabia, marking a major escalation in the Middle East Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN ATTACKS GULF STATES, JORDAN; 2 HORMUZ TANKERS ON FIRE",
-      "detail": "IRGC says it targeted US assets in Bahrain, Kuwait and Jordan after 10th consecutive night of US attacks.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "20 JUL 2026 · 21:30 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $87.97 (+0.00%)",
-    "VIX: 17.58",
+    "BRENT: $89.92 (+0.00%)",
+    "VIX: 17.65",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
