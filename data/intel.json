@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-21T15:39:54.306407+00:00",
+  "updated_at": "2026-07-21T17:13:31.377393+00:00",
   "market": {
-    "brent_usd": 91.5,
+    "brent_usd": 91.24,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.17,
+    "vix": 17.08,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "21 JUL 2026 · 16:10 UTC",
+      "headline": "US LAUNCHES FRESH STRIKES ON IRAN, AS TRUMP WARNS OF RETALIATION FOR DEATHS OF S",
+      "detail": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "21 JUL 2026 · 14:37 UTC",
       "headline": "SAUDI CONDEMNS HOUTHI BLOCKADE: HOW WILL THE REST OF THE WORLD BE IMPACTED?",
@@ -25,12 +31,6 @@
       "headline": "ASEAN DIPLOMATS VOICE ‘SERIOUS CONCERN’ OVER IRAN WAR AND ENERGY CRISIS",
       "detail": "Southeast Asian countries are highly affected by oil supply shortages caused by Iran war and Strait of Hormuz closure.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "21 JUL 2026 · 09:48 UTC",
-      "headline": "US LAUNCHES FRESH STRIKES ON IRAN, AS TRUMP WARNS OF RETALIATION FOR DEATHS OF S",
-      "detail": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "21 JUL 2026 · 03:25 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $91.5 (+0.00%)",
-    "VIX: 17.17",
+    "BRENT: $91.24 (+0.00%)",
+    "VIX: 17.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
