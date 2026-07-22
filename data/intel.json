@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-22T08:21:40.900285+00:00",
+  "updated_at": "2026-07-22T11:05:26.163426+00:00",
   "market": {
-    "brent_usd": 94.05,
+    "brent_usd": 84.46,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.49,
+    "vix": 17.35,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 JUL 2026 · 08:43 UTC",
+      "headline": "IRAN, GULF HIT AS HORMUZ, BAB AL-MANDEB CLOSE: WHAT’S THE LATEST?",
+      "detail": "Defense Secretary Pete Hegseth tells US senators that the war has cost the US $37.5bn so far.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "22 JUL 2026 · 07:35 UTC",
       "headline": "US ‘OPEN’ TO NEGOTIATIONS WITH IRAN BUT TEHRAN NOT ‘SERIOUS’, RUBIO SAYS",
@@ -43,17 +49,11 @@
       "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
       "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 09:33 UTC",
-      "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
-      "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $94.05 (+0.00%)",
-    "VIX: 17.49",
+    "BRENT: $84.46 (+0.00%)",
+    "VIX: 17.35",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
