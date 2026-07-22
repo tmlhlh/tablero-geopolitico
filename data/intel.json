@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-22T11:05:26.163426+00:00",
+  "updated_at": "2026-07-22T13:42:45.868214+00:00",
   "market": {
-    "brent_usd": 84.46,
+    "brent_usd": 93.57,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -21,18 +21,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "22 JUL 2026 · 07:35 UTC",
-      "headline": "US ‘OPEN’ TO NEGOTIATIONS WITH IRAN BUT TEHRAN NOT ‘SERIOUS’, RUBIO SAYS",
-      "detail": "US Secretary of State says Iranian control over Strait of Hormuz sets 'dangerous precedent', as attacks continue.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 JUL 2026 · 07:10 UTC",
-      "headline": "IRAN TOLL IN HORMUZ WOULD SET ‘DANGEROUS PRECEDENT’ SAYS RUBIO",
-      "detail": "Iran toll in Hormuz would set 'dangerous precedent' says Rubio",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "21 JUL 2026 · 14:36 UTC",
       "headline": "WHY IRAN IS RISKING SO MUCH OVER THE STRAIT OF HORMUZ",
       "detail": "None of the choices facing Iran’s leaders offer a clear path to victory, as the conflict with the US continues.",
@@ -49,10 +37,22 @@
       "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
       "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "16 JUL 2026 · 09:33 UTC",
+      "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
+      "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 JUL 2026 · 13:42 UTC",
+      "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
+      "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.46 (+0.00%)",
+    "BRENT: $93.57 (+0.00%)",
     "VIX: 17.35",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
