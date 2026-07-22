@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-22T02:13:18.908171+00:00",
+  "updated_at": "2026-07-22T05:45:32.463635+00:00",
   "market": {
-    "brent_usd": 92.42,
+    "brent_usd": 92.19,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "21 JUL 2026 · 16:10 UTC",
-      "headline": "US LAUNCHES FRESH STRIKES ON IRAN, AS TRUMP WARNS OF RETALIATION FOR DEATHS OF S",
-      "detail": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
-      "severity": "CRÍTICO"
+      "timestamp": "21 JUL 2026 · 14:36 UTC",
+      "headline": "WHY IRAN IS RISKING SO MUCH OVER THE STRAIT OF HORMUZ",
+      "detail": "None of the choices facing Iran’s leaders offer a clear path to victory, as the conflict with the US continues.",
+      "severity": "INFO"
     },
     {
       "timestamp": "21 JUL 2026 · 03:25 UTC",
@@ -45,14 +45,14 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 JUL 2026 · 02:13 UTC",
+      "timestamp": "22 JUL 2026 · 05:45 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.42 (+0.00%)",
+    "BRENT: $92.19 (+0.00%)",
     "VIX: 17.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
