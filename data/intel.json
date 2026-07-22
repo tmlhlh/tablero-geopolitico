@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-22T21:01:42.192368+00:00",
+  "updated_at": "2026-07-22T22:58:09.720904+00:00",
   "market": {
-    "brent_usd": 93.83,
+    "brent_usd": 95.58,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,7 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "22 JUL 2026 · 18:57 UTC",
+      "timestamp": "22 JUL 2026 · 22:26 UTC",
+      "headline": "YEMEN’S HOUTHIS CLAIM ATTACK ON TWO SAUDI OIL TANKERS",
+      "detail": "Claimed attacks come days after Houthis announced naval embargo on Saudi vessels",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 JUL 2026 · 22:17 UTC",
       "headline": "TRUMP THREATENS TO TARGET IRAN'S BRIDGES AND POWER PLANTS IF HORMUZ ATTACKS PERS",
       "detail": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
       "severity": "CRÍTICO"
@@ -25,12 +31,6 @@
       "headline": "TRUMP AMENAZA CON DESTRUIR PUENTES O CENTRALES ELÉCTRICAS CADA VEZ QUE IRÁN ATAQ",
       "detail": "Los hutíes, aliados de Teherán, advierten de que pueden cerrar el estrecho de Bab el Mandeb para impedir las exportaciones de petróleo saudí",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 JUL 2026 · 14:36 UTC",
-      "headline": "WHY IRAN IS RISKING SO MUCH OVER THE STRAIT OF HORMUZ",
-      "detail": "None of the choices facing Iran’s leaders offer a clear path to victory, as the conflict with the US continues.",
-      "severity": "INFO"
     },
     {
       "timestamp": "21 JUL 2026 · 03:25 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.83 (+0.00%)",
+    "BRENT: $95.58 (+0.00%)",
     "VIX: 16.64",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
