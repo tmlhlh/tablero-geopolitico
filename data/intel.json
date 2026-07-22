@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-07-22T17:12:55.966265+00:00",
+  "updated_at": "2026-07-22T19:09:17.725768+00:00",
   "market": {
-    "brent_usd": 93.65,
+    "brent_usd": 94.31,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.72,
+    "vix": 16.89,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "22 JUL 2026 · 15:46 UTC",
-      "headline": "EE.UU. ATACA UNA ISLA CLAVE EN ORMUZ Y TRUMP AMENAZA CON BOMBARDEAR INFRAESTRUCT",
-      "detail": "Washington golpeó un enclave estratégico del estrecho de Ormuz, mientras Teherán amplió su ofensiva sobre aliados regionales y el conflicto volvió a sacudir los mercados energéticos",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 JUL 2026 · 10:15 UTC",
+      "timestamp": "22 JUL 2026 · 18:57 UTC",
       "headline": "TRUMP THREATENS TO TARGET IRAN'S BRIDGES AND POWER PLANTS IF HORMUZ ATTACKS PERS",
       "detail": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 JUL 2026 · 18:31 UTC",
+      "headline": "TRUMP AMENAZA CON DESTRUIR PUENTES O CENTRALES ELÉCTRICAS CADA VEZ QUE IRÁN ATAQ",
+      "detail": "Los hutíes, aliados de Teherán, advierten de que pueden cerrar el estrecho de Bab el Mandeb para impedir las exportaciones de petróleo saudí",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.65 (+0.00%)",
-    "VIX: 16.72",
+    "BRENT: $94.31 (+0.00%)",
+    "VIX: 16.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
