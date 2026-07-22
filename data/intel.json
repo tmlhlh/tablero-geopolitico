@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-07-22T13:42:45.868214+00:00",
+  "updated_at": "2026-07-22T15:36:56.875219+00:00",
   "market": {
-    "brent_usd": 93.57,
+    "brent_usd": 93.89,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.35,
+    "vix": 16.88,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "22 JUL 2026 · 08:43 UTC",
-      "headline": "IRAN, GULF HIT AS HORMUZ, BAB AL-MANDEB CLOSE: WHAT’S THE LATEST?",
-      "detail": "Defense Secretary Pete Hegseth tells US senators that the war has cost the US $37.5bn so far.",
-      "severity": "INFO"
+      "timestamp": "22 JUL 2026 · 10:15 UTC",
+      "headline": "TRUMP THREATENS TO TARGET IRAN'S BRIDGES AND POWER PLANTS IF HORMUZ ATTACKS PERS",
+      "detail": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "21 JUL 2026 · 14:36 UTC",
@@ -45,15 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 JUL 2026 · 13:42 UTC",
+      "timestamp": "22 JUL 2026 · 15:36 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.57 (+0.00%)",
-    "VIX: 17.35",
+    "BRENT: $93.89 (+0.00%)",
+    "VIX: 16.88",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
