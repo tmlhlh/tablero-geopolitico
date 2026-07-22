@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-22T05:45:32.463635+00:00",
+  "updated_at": "2026-07-22T08:21:40.900285+00:00",
   "market": {
-    "brent_usd": 92.19,
+    "brent_usd": 94.05,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.05,
+    "vix": 17.49,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 JUL 2026 · 07:35 UTC",
+      "headline": "US ‘OPEN’ TO NEGOTIATIONS WITH IRAN BUT TEHRAN NOT ‘SERIOUS’, RUBIO SAYS",
+      "detail": "US Secretary of State says Iranian control over Strait of Hormuz sets 'dangerous precedent', as attacks continue.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 JUL 2026 · 07:10 UTC",
+      "headline": "IRAN TOLL IN HORMUZ WOULD SET ‘DANGEROUS PRECEDENT’ SAYS RUBIO",
+      "detail": "Iran toll in Hormuz would set 'dangerous precedent' says Rubio",
+      "severity": "INFO"
+    },
     {
       "timestamp": "21 JUL 2026 · 14:36 UTC",
       "headline": "WHY IRAN IS RISKING SO MUCH OVER THE STRAIT OF HORMUZ",
@@ -27,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "20 JUL 2026 · 21:30 UTC",
-      "headline": "YEMEN'S HOUTHIS ANNOUNCE 'MARITIME EMBARGO' ON SAUDI ARABIA",
-      "detail": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "17 JUL 2026 · 22:59 UTC",
       "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
       "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
@@ -43,17 +49,11 @@
       "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
       "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 JUL 2026 · 05:45 UTC",
-      "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
-      "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.19 (+0.00%)",
-    "VIX: 17.05",
+    "BRENT: $94.05 (+0.00%)",
+    "VIX: 17.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
