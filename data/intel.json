@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-07-23T19:09:15.278763+00:00",
+  "updated_at": "2026-07-23T20:58:45.931593+00:00",
   "market": {
-    "brent_usd": 100.61,
+    "brent_usd": 100.53,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.6,
-    "vix": 19.42,
+    "ormuz_flow_pct": 5.0,
+    "vix": 18.7,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.6%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.0%"
   },
   "events": [
     {
@@ -45,15 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 JUL 2026 · 14:19 UTC",
-      "headline": "HOW SHIPPING INSURANCE RATES ARE RISING, AS HORMUZ, BAB AL-MANDEB SHUT DOWN",
-      "detail": "Insurance rates through Hormuz are currently four times the five-year average.",
-      "severity": "INFO"
+      "timestamp": "23 JUL 2026 · 02:55 UTC",
+      "headline": "HOUTHIS CLAIM STRIKES ON SAUDI OIL TANKERS IN RED SEA (VIDEO)",
+      "detail": "Yemen’s Houthis report that they struck two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.61 (+0.00%)",
-    "VIX: 19.42",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.6%"
+    "BRENT: $100.53 (+0.00%)",
+    "VIX: 18.7",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.0%"
   ]
 }
