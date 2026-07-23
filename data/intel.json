@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-23T17:16:52.488313+00:00",
+  "updated_at": "2026-07-23T19:09:15.278763+00:00",
   "market": {
-    "brent_usd": 100.84,
+    "brent_usd": 100.61,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.8,
-    "vix": 19.4,
+    "ormuz_flow_pct": 3.6,
+    "vix": 19.42,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.8%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.6%"
   },
   "events": [
+    {
+      "timestamp": "23 JUL 2026 · 17:23 UTC",
+      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
+      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 17:18 UTC",
+      "headline": "LOS HUTÍES DE YEMEN CUMPLEN SU AMENAZA Y REIVINDICAN UN ATAQUE A PETROLEROS SAUD",
+      "detail": "Trump anticipa “un severo castigo” contra Irán si su milicia aliada mantiene el bloqueo naval sobre Arabia Saudí, en un nuevo pulso que recrudece el conflicto de Oriente Próximo",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 JUL 2026 · 17:06 UTC",
       "headline": "HOUTHI ATTACKS RAISE FEARS OF WIDER MIDDLE EAST CONFLICT AND MORE GLOBAL ECONOMI",
@@ -33,27 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 JUL 2026 · 15:23 UTC",
-      "headline": "LOS HUTÍES DE YEMEN CUMPLEN SU AMENAZA Y ATACAN A PETROLEROS SAUDÍES EN EL MAR R",
-      "detail": "Trump anticipa represalias si la milicia aliada de Irán mantiene el bloqueo naval sobre Arabia Saudí, en un nuevo pulso que recrudece el conflicto de Oriente Próximo",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "23 JUL 2026 · 14:19 UTC",
       "headline": "HOW SHIPPING INSURANCE RATES ARE RISING, AS HORMUZ, BAB AL-MANDEB SHUT DOWN",
       "detail": "Insurance rates through Hormuz are currently four times the five-year average.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 02:55 UTC",
-      "headline": "HOUTHIS CLAIM STRIKES ON SAUDI OIL TANKERS IN RED SEA (VIDEO)",
-      "detail": "Yemen’s Houthis report that they struck two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.84 (+0.00%)",
-    "VIX: 19.4",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.8%"
+    "BRENT: $100.61 (+0.00%)",
+    "VIX: 19.42",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.6%"
   ]
 }
