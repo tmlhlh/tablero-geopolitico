@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-07-23T15:05:24.348962+00:00",
+  "updated_at": "2026-07-23T17:16:52.488313+00:00",
   "market": {
-    "brent_usd": 87.04,
+    "brent_usd": 100.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.0,
-    "vix": 19.15,
+    "ormuz_flow_pct": 4.8,
+    "vix": 19.4,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.8%"
   },
   "events": [
     {
-      "timestamp": "23 JUL 2026 · 14:19 UTC",
-      "headline": "HOW SHIPPING INSURANCE RATES ARE RISING, AS HORMUZ, BAB AL-MANDEB SHUT DOWN",
-      "detail": "Insurance rates through Hormuz are currently four times the five-year average.",
-      "severity": "INFO"
+      "timestamp": "23 JUL 2026 · 17:06 UTC",
+      "headline": "HOUTHI ATTACKS RAISE FEARS OF WIDER MIDDLE EAST CONFLICT AND MORE GLOBAL ECONOMI",
+      "detail": "The Iran-backed group in Yemen has threatened to target Saudi vessels in a vital shipping route.",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 JUL 2026 · 14:18 UTC",
+      "timestamp": "23 JUL 2026 · 16:50 UTC",
       "headline": "YEMEN'S HOUTHIS ATTACK SAUDI TANKER AS US LAUNCHES MORE IRAN STRIKES",
       "detail": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 JUL 2026 · 09:45 UTC",
-      "headline": "THAI SAILORS SUE OWNERS OF CARGO SHIP HIT IN HORMUZ",
-      "detail": "Thai sailors sue owners of cargo ship hit in Hormuz",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 09:20 UTC",
-      "headline": "IRAN, HOUTHIS STRIKE TANKERS AS US BOMBING CONTINUES: WHAT’S THE LATEST?",
-      "detail": "With the Houthi naval blockade, shipping disruptions now impact the Bab al-Mandeb strait in addition to Hormuz.",
+      "timestamp": "23 JUL 2026 · 16:00 UTC",
+      "headline": "TURKISH SAILOR KILLED AMID FRESH UKRAINIAN STRIKES ON SHIPPING (VIDEO)",
+      "detail": "A drone strike has killed a Turkish sailor on a coal ship off Novorossiysk as Ukraine announced attacks on 13 vessels in Azov and Black Seas Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 JUL 2026 · 08:49 UTC",
-      "headline": "LOS HUTÍES DE YEMEN CUMPLEN SU AMENAZA Y  ATACAN A PETROLEROS SAUDÍES EN EL MAR ",
-      "detail": "Los bombardeos lanzados por la milicia aliada de Irán, que había anunciado el lunes un bloqueo naval, alimentan la escalada en el conflicto de Oriente Próximo",
+      "timestamp": "23 JUL 2026 · 15:23 UTC",
+      "headline": "LOS HUTÍES DE YEMEN CUMPLEN SU AMENAZA Y ATACAN A PETROLEROS SAUDÍES EN EL MAR R",
+      "detail": "Trump anticipa represalias si la milicia aliada de Irán mantiene el bloqueo naval sobre Arabia Saudí, en un nuevo pulso que recrudece el conflicto de Oriente Próximo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 14:19 UTC",
+      "headline": "HOW SHIPPING INSURANCE RATES ARE RISING, AS HORMUZ, BAB AL-MANDEB SHUT DOWN",
+      "detail": "Insurance rates through Hormuz are currently four times the five-year average.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $87.04 (+0.00%)",
-    "VIX: 19.15",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.0%"
+    "BRENT: $100.84 (+0.00%)",
+    "VIX: 19.4",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.8%"
   ]
 }
