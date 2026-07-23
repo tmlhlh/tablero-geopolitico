@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-23T04:12:00.283925+00:00",
+  "updated_at": "2026-07-23T07:29:31.693142+00:00",
   "market": {
-    "brent_usd": 96.13,
+    "brent_usd": 97.72,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "23 JUL 2026 · 06:08 UTC",
+      "headline": "BETWEEN HOPE AND FEAR: YEMENIS REACT TO HOUTHI BLOCKADE ON SAUDI ARABIA",
+      "detail": "Yemenis fear a maritime embargo on Saudi Arabia could reignite war, deepen shortages and worsen hunger.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "23 JUL 2026 · 03:48 UTC",
       "headline": "HOUTHIS CLAIM ATTACK ON OIL TANKERS AS US LAUNCHES MORE STRIKES ON IRAN ",
       "detail": "The Houthi attacks would be the first in the Red Sea since the Iran-backed group announced a \"maritime embargo\" against Saudi Arabia.",
@@ -23,12 +29,12 @@
     {
       "timestamp": "23 JUL 2026 · 02:55 UTC",
       "headline": "HOUTHIS CLAIM STRIKES ON SAUDI OIL TANKERS IN RED SEA (VIDEO)",
-      "detail": "Yemen’s Houthis have reported striking two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
+      "detail": "Yemen’s Houthis report that they struck two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "23 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US KILLS 2, WOUNDS 11; HOUTHIS ATTACK 2 SAUDI OIL TANKERS",
+      "headline": "IRAN WAR LIVE: US STRIKE KILLS 2 PEOPLE; HOUTHIS ATTACK 2 SAUDI OIL TANKERS",
       "detail": "US and Iran trade attacks as more explosions are reported in Iranian cities, including Sirik, Ahvaz and Bushehr.",
       "severity": "CRÍTICO"
     },
@@ -43,16 +49,10 @@
       "headline": "YEMEN’S HOUTHIS CLAIM ATTACK ON TWO SAUDI OIL TANKERS",
       "detail": "Claimed attacks come days after Houthis announced naval embargo on Saudi vessels",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 JUL 2026 · 18:31 UTC",
-      "headline": "TRUMP AMENAZA CON DESTRUIR PUENTES O CENTRALES ELÉCTRICAS CADA VEZ QUE IRÁN ATAQ",
-      "detail": "Los hutíes, aliados de Teherán, advierten de que pueden cerrar el estrecho de Bab el Mandeb para impedir las exportaciones de petróleo saudí",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.13 (+0.00%)",
+    "BRENT: $97.72 (+0.00%)",
     "VIX: 16.64",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
