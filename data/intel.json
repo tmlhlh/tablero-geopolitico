@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-07-23T00:02:22.925938+00:00",
+  "updated_at": "2026-07-23T04:12:00.283925+00:00",
   "market": {
-    "brent_usd": 95.37,
+    "brent_usd": 96.13,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 3.0,
     "vix": 16.64,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "23 JUL 2026 · 03:48 UTC",
+      "headline": "HOUTHIS CLAIM ATTACK ON OIL TANKERS AS US LAUNCHES MORE STRIKES ON IRAN ",
+      "detail": "The Houthi attacks would be the first in the Red Sea since the Iran-backed group announced a \"maritime embargo\" against Saudi Arabia.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 02:55 UTC",
+      "headline": "HOUTHIS CLAIM STRIKES ON SAUDI OIL TANKERS IN RED SEA (VIDEO)",
+      "detail": "Yemen’s Houthis have reported striking two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US KILLS 2, WOUNDS 11; HOUTHIS ATTACK 2 SAUDI OIL TANKERS",
+      "detail": "US and Iran trade attacks as more explosions are reported in Iranian cities, including Sirik, Ahvaz and Bushehr.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "22 JUL 2026 · 23:56 UTC",
       "headline": "LOS HUTÍES REIVINDICARON UN ATAQUE CONTRA DOS BUQUES DE ARABIA SAUDITA Y CRECE L",
@@ -27,33 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 JUL 2026 · 22:17 UTC",
-      "headline": "TRUMP THREATENS TO TARGET IRAN'S BRIDGES AND POWER PLANTS IF HORMUZ ATTACKS PERS",
-      "detail": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "22 JUL 2026 · 18:31 UTC",
       "headline": "TRUMP AMENAZA CON DESTRUIR PUENTES O CENTRALES ELÉCTRICAS CADA VEZ QUE IRÁN ATAQ",
       "detail": "Los hutíes, aliados de Teherán, advierten de que pueden cerrar el estrecho de Bab el Mandeb para impedir las exportaciones de petróleo saudí",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 JUL 2026 · 03:25 UTC",
-      "headline": "HOUTHIS DECLARE NAVAL BLOCKADE OF SAUDI ARABIA",
-      "detail": "Yemen’s Houthis have announced a maritime blockade of Saudi Arabia, marking a major escalation in the Middle East Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "17 JUL 2026 · 22:59 UTC",
-      "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
-      "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.37 (+0.00%)",
+    "BRENT: $96.13 (+0.00%)",
     "VIX: 16.64",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
