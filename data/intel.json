@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-22T22:58:09.720904+00:00",
+  "updated_at": "2026-07-23T00:02:22.925938+00:00",
   "market": {
-    "brent_usd": 95.58,
+    "brent_usd": 95.37,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "22 JUL 2026 · 23:56 UTC",
+      "headline": "LOS HUTÍES REIVINDICARON UN ATAQUE CONTRA DOS BUQUES DE ARABIA SAUDITA Y CRECE L",
+      "detail": "El grupo rebelde yemení que responde a Irán informó que llevó a cabo una “operación militar cualitativa” con drones y misiles",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "22 JUL 2026 · 22:26 UTC",
       "headline": "YEMEN’S HOUTHIS CLAIM ATTACK ON TWO SAUDI OIL TANKERS",
@@ -43,16 +49,10 @@
       "headline": "IRGC CLAIMS STRIKES ON US DRONE DEPOT AND AI HUB IN BAHRAIN",
       "detail": "Tehran has warned that the Strait of Hormuz remains “extremely unsafe and completely closed” amid ongoing US aggression Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 JUL 2026 · 09:33 UTC",
-      "headline": "RUSSIA STRIKES UKRAINIAN DRONE INDUSTRY AND BLACK SEA PORTS – MOD",
-      "detail": "Russian forces struck Ukrainian drone production and storage sites in Kiev and port infrastructure in Odessa and Yuzhny, the MOD said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.58 (+0.00%)",
+    "BRENT: $95.37 (+0.00%)",
     "VIX: 16.64",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
