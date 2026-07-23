@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-23T12:21:21.647610+00:00",
+  "updated_at": "2026-07-23T15:05:24.348962+00:00",
   "market": {
-    "brent_usd": 93.02,
+    "brent_usd": 87.04,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 18.21,
+    "ormuz_flow_pct": 4.0,
+    "vix": 19.15,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.0%"
   },
   "events": [
+    {
+      "timestamp": "23 JUL 2026 · 14:19 UTC",
+      "headline": "HOW SHIPPING INSURANCE RATES ARE RISING, AS HORMUZ, BAB AL-MANDEB SHUT DOWN",
+      "detail": "Insurance rates through Hormuz are currently four times the five-year average.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 14:18 UTC",
+      "headline": "YEMEN'S HOUTHIS ATTACK SAUDI TANKER AS US LAUNCHES MORE IRAN STRIKES",
+      "detail": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 JUL 2026 · 09:45 UTC",
       "headline": "THAI SAILORS SUE OWNERS OF CARGO SHIP HIT IN HORMUZ",
@@ -33,18 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "23 JUL 2026 · 06:08 UTC",
-      "headline": "BETWEEN HOPE AND FEAR: YEMENIS REACT TO HOUTHI BLOCKADE ON SAUDI ARABIA",
-      "detail": "Yemenis fear a maritime embargo on Saudi Arabia could reignite war, deepen shortages and worsen hunger.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 03:48 UTC",
-      "headline": "HOUTHIS CLAIM ATTACK ON OIL TANKERS AS US LAUNCHES MORE STRIKES ON IRAN ",
-      "detail": "The Houthi attacks would be the first in the Red Sea since the Iran-backed group announced a \"maritime embargo\" against Saudi Arabia.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "23 JUL 2026 · 02:55 UTC",
       "headline": "HOUTHIS CLAIM STRIKES ON SAUDI OIL TANKERS IN RED SEA (VIDEO)",
       "detail": "Yemen’s Houthis report that they struck two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.02 (+0.00%)",
-    "VIX: 18.21",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $87.04 (+0.00%)",
+    "VIX: 19.15",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.0%"
   ]
 }
