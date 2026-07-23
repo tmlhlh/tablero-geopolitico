@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-07-23T07:29:31.693142+00:00",
+  "updated_at": "2026-07-23T10:17:20.312902+00:00",
   "market": {
-    "brent_usd": 97.72,
+    "brent_usd": 92.67,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 3.0,
-    "vix": 16.64,
+    "vix": 17.67,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "23 JUL 2026 · 09:20 UTC",
+      "headline": "IRAN, HOUTHIS STRIKE TANKERS AS US BOMBING CONTINUES: WHAT’S THE LATEST?",
+      "detail": "With the Houthi naval blockade, shipping disruptions now impact the Bab al-Mandeb strait in addition to Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 08:49 UTC",
+      "headline": "LOS HUTÍES DE YEMEN CUMPLEN SU AMENAZA Y  ATACAN A PETROLEROS SAUDÍES EN EL MAR ",
+      "detail": "Los bombardeos lanzados por la milicia aliada de Irán, que había anunciado el lunes un bloqueo naval, alimentan la escalada en el conflicto de Oriente Próximo",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 JUL 2026 · 06:08 UTC",
       "headline": "BETWEEN HOPE AND FEAR: YEMENIS REACT TO HOUTHI BLOCKADE ON SAUDI ARABIA",
@@ -27,33 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 JUL 2026 · 02:55 UTC",
-      "headline": "HOUTHIS CLAIM STRIKES ON SAUDI OIL TANKERS IN RED SEA (VIDEO)",
-      "detail": "Yemen’s Houthis report that they struck two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
+      "timestamp": "22 JUL 2026 · 18:31 UTC",
+      "headline": "TRUMP AMENAZA CON DESTRUIR PUENTES O CENTRALES ELÉCTRICAS CADA VEZ QUE IRÁN ATAQ",
+      "detail": "Los hutíes, aliados de Teherán, advierten de que pueden cerrar el estrecho de Bab el Mandeb para impedir las exportaciones de petróleo saudí",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US STRIKE KILLS 2 PEOPLE; HOUTHIS ATTACK 2 SAUDI OIL TANKERS",
-      "detail": "US and Iran trade attacks as more explosions are reported in Iranian cities, including Sirik, Ahvaz and Bushehr.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 JUL 2026 · 23:56 UTC",
-      "headline": "LOS HUTÍES REIVINDICARON UN ATAQUE CONTRA DOS BUQUES DE ARABIA SAUDITA Y CRECE L",
-      "detail": "El grupo rebelde yemení que responde a Irán informó que llevó a cabo una “operación militar cualitativa” con drones y misiles",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 JUL 2026 · 22:26 UTC",
-      "headline": "YEMEN’S HOUTHIS CLAIM ATTACK ON TWO SAUDI OIL TANKERS",
-      "detail": "Claimed attacks come days after Houthis announced naval embargo on Saudi vessels",
-      "severity": "CRÍTICO"
+      "timestamp": "23 JUL 2026 · 10:17 UTC",
+      "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
+      "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.72 (+0.00%)",
-    "VIX: 16.64",
+    "BRENT: $92.67 (+0.00%)",
+    "VIX: 17.67",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
