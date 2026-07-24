@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-24T08:20:47.559090+00:00",
+  "updated_at": "2026-07-24T11:00:15.912715+00:00",
   "market": {
-    "brent_usd": 92.62,
+    "brent_usd": 92.05,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.3,
-    "vix": 18.99,
+    "ormuz_flow_pct": 7.4,
+    "vix": 18.86,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.4%"
   },
   "events": [
+    {
+      "timestamp": "24 JUL 2026 · 09:20 UTC",
+      "headline": "US AND IRAN TRADE MORE STRIKES IN GULF AS FEARS OF ESCALATION MOUNT",
+      "detail": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "24 JUL 2026 · 07:59 UTC",
       "headline": "US ATTACKS IRAN AS HOUTHIS ALLOW CHINESE SHIPS TO PASS: WHAT’S THE LATEST?",
@@ -24,12 +30,6 @@
       "timestamp": "24 JUL 2026 · 03:34 UTC",
       "headline": "AS OIL SOARS, EXPERTS WATCH RED SEA TANKERS FOR CLARITY ON HOUTHI BLOCKADE",
       "detail": "Houthi attacks for now are shaping who moves Saudi crude, not whether it moves, analysts say, even as oil prices soar.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "24 JUL 2026 · 02:25 UTC",
-      "headline": "US LAUNCHES 13TH NIGHT OF STRIKES AS IRAN WARNS OF ESCALATION IN THE GULF",
-      "detail": "Al Jazeera’s Tohid Asadi reports from Tehran as the US launches strikes for the 13th consecutive night.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $92.62 (+0.00%)",
-    "VIX: 18.99",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.3%"
+    "BRENT: $92.05 (+0.00%)",
+    "VIX: 18.86",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.4%"
   ]
 }
