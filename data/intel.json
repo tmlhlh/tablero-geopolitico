@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-07-24T16:32:22.364994+00:00",
+  "updated_at": "2026-07-24T18:15:46.778332+00:00",
   "market": {
-    "brent_usd": 96.12,
+    "brent_usd": 96.17,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.56,
+    "vix": 18.04,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "24 JUL 2026 · 15:22 UTC",
+      "timestamp": "24 JUL 2026 · 18:13 UTC",
       "headline": "US AND IRAN TRADE MORE STRIKES IN GULF AS FEARS OF ESCALATION MOUNT",
       "detail": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages.",
       "severity": "CRÍTICO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.12 (+0.00%)",
-    "VIX: 17.56",
+    "BRENT: $96.17 (+0.00%)",
+    "VIX: 18.04",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
