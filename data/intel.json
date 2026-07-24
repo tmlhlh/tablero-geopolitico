@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-24T18:15:46.778332+00:00",
+  "updated_at": "2026-07-24T20:17:22.135059+00:00",
   "market": {
-    "brent_usd": 96.17,
+    "brent_usd": 97.75,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.04,
+    "vix": 18.52,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 JUL 2026 · 18:15 UTC",
+      "headline": "OMAN TALKING WITH TEHRAN ON HORMUZ AS US AND IRAN CONTINUE STRIKES",
+      "detail": "Omani delegation in Iran to discuss managing traffic in the strait, which has become the main focus of the US conflict.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "24 JUL 2026 · 18:13 UTC",
       "headline": "US AND IRAN TRADE MORE STRIKES IN GULF AS FEARS OF ESCALATION MOUNT",
@@ -43,17 +49,11 @@
       "headline": "TURKISH SAILOR KILLED AMID FRESH UKRAINIAN STRIKES ON SHIPPING (VIDEO)",
       "detail": "A drone strike has killed a Turkish sailor on a coal ship off Novorossiysk as Ukraine announced attacks on 13 vessels in Azov and Black Seas Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 02:55 UTC",
-      "headline": "HOUTHIS CLAIM STRIKES ON SAUDI OIL TANKERS IN RED SEA (VIDEO)",
-      "detail": "Yemen’s Houthis report that they struck two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.17 (+0.00%)",
-    "VIX: 18.04",
+    "BRENT: $97.75 (+0.00%)",
+    "VIX: 18.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
