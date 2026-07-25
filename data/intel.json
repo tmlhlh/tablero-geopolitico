@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-25T03:29:38.985289+00:00",
+  "updated_at": "2026-07-25T06:13:27.838293+00:00",
   "market": {
-    "brent_usd": 98.38,
+    "brent_usd": 96.78,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "25 JUL 2026 · 01:38 UTC",
-      "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
-      "detail": "The Saudi-led coalition has carried out strikes on Yemen’s Hodeidah following Houthi attacks on shipping Read Full Article at RT.com",
+      "timestamp": "25 JUL 2026 · 04:48 UTC",
+      "headline": "SAUDI ARABIA AND HOUTHIS EXCHANGE FIRE AS US ATTACKS TANKER IN HORMUZ STRAIT",
+      "detail": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "24 JUL 2026 · 18:13 UTC",
-      "headline": "US AND IRAN TRADE MORE STRIKES IN GULF AS FEARS OF ESCALATION MOUNT",
-      "detail": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages.",
+      "timestamp": "25 JUL 2026 · 01:38 UTC",
+      "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
+      "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.38 (+0.00%)",
+    "BRENT: $96.78 (+0.00%)",
     "VIX: 18.58",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
