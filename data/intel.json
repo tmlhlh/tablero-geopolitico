@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T21:51:27.250453+00:00",
+  "updated_at": "2026-07-25T22:51:27.779738+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
@@ -39,16 +39,16 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "24 JUL 2026 · 01:59 UTC",
-      "headline": "HOUTHI ATTACKS RAISE FEARS OF WIDER MIDDLE EAST CONFLICT AND MORE GLOBAL ECONOMI",
-      "detail": "The Iran-backed group in Yemen has threatened to target Saudi vessels in a vital shipping route.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "24 JUL 2026 · 00:34 UTC",
       "headline": "LOS HUTÍES DE YEMEN CUMPLEN SU AMENAZA Y REIVINDICAN UN ATAQUE A PETROLEROS SAUD",
       "detail": "Trump anticipa “un severo castigo” contra Irán si su milicia aliada mantiene el bloqueo naval sobre Arabia Saudí, en un nuevo pulso que recrudece el conflicto de Oriente Próximo",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 17:23 UTC",
+      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
+      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
