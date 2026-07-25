@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T06:13:27.838293+00:00",
+  "updated_at": "2026-07-25T08:58:04.817995+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
@@ -15,8 +15,8 @@
   },
   "events": [
     {
-      "timestamp": "25 JUL 2026 · 04:48 UTC",
-      "headline": "SAUDI ARABIA AND HOUTHIS EXCHANGE FIRE AS US ATTACKS TANKER IN HORMUZ STRAIT",
+      "timestamp": "25 JUL 2026 · 06:34 UTC",
+      "headline": "IRAN-BACKED HOUTHIS CLAIM MISSILE ATTACK ON SAUDI ARABIA",
       "detail": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
       "severity": "CRÍTICO"
     },
