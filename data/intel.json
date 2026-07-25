@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T22:51:27.779738+00:00",
+  "updated_at": "2026-07-25T23:57:03.441950+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "25 JUL 2026 · 19:48 UTC",
-      "headline": "UKRAINE ATTACKS IRANIAN SHIP, KILLS SAILOR – TEHRAN",
-      "detail": "Tehran has threatened Kiev with retaliation after a Ukrainian drone struck an Iranian cargo vessel in the Caspian Sea Read Full Article at RT.com",
+      "timestamp": "25 JUL 2026 · 23:16 UTC",
+      "headline": "IRAN ACCUSES UKRAINE OF DEADLY ATTACK ON CASPIAN COMMERCIAL VESSEL",
+      "detail": "Iran accuses Ukraine of attacking a Caspian vessel, killing one sailor and injuring another, calling it a criminal act.",
       "severity": "CRÍTICO"
     },
     {
