@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T23:59:39.039001+00:00",
+  "updated_at": "2026-07-25T03:29:38.985289+00:00",
   "market": {
     "brent_usd": 98.38,
     "brent_chg": 0.0
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "24 JUL 2026 · 18:15 UTC",
-      "headline": "OMAN TALKING WITH TEHRAN ON HORMUZ AS US AND IRAN CONTINUE STRIKES",
-      "detail": "Omani delegation in Iran to discuss managing traffic in the strait, which has become the main focus of the US conflict.",
+      "timestamp": "25 JUL 2026 · 01:38 UTC",
+      "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
+      "detail": "The Saudi-led coalition has carried out strikes on Yemen’s Hodeidah following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
