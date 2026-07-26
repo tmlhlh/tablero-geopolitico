@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T19:19:46.380596+00:00",
+  "updated_at": "2026-07-26T20:53:48.758844+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 JUL 2026 · 20:00 UTC",
+      "headline": "IRÁN PLANTEA UN “ATAQUE POR ATAQUE” Y PONE EN MANOS DE EE.UU. LA CONTINUIDAD DE ",
+      "detail": "Teherán aseguró que detendrá sus operaciones si Washington no retoma los bombardeos, en una pausa frágil que abre una ventana para la diplomacia pero mantiene la tensión en el Golfo y la incertidumbre",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 JUL 2026 · 19:31 UTC",
+      "headline": "WHAT LIES AHEAD FOR IRAN’S ECONOMY AS SCOPE OF US WAR GROWS BEYOND HORMUZ?",
+      "detail": "Mediation efforts continue but uncertainty remains as risks of further disruptions in international waterways grow.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "26 JUL 2026 · 03:40 UTC",
       "headline": "IRÁN ASUME EL PRECIO DE LA GUERRA PARA PRESERVAR EL ESTRATÉGICO CONTROL DE ORMUZ",
@@ -36,18 +48,6 @@
       "timestamp": "25 JUL 2026 · 01:38 UTC",
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 17:23 UTC",
-      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
-      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 16:00 UTC",
-      "headline": "TURKISH SAILOR KILLED AMID FRESH UKRAINIAN STRIKES ON SHIPPING (VIDEO)",
-      "detail": "A drone strike has killed a Turkish sailor on a coal ship off Novorossiysk as Ukraine announced attacks on 13 vessels in Azov and Black Seas Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
