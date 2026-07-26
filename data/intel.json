@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T11:59:43.381414+00:00",
+  "updated_at": "2026-07-26T13:45:50.041866+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
@@ -15,27 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "26 JUL 2026 · 11:56 UTC",
+      "headline": "IRAN’S ARMY ISSUES WARNING AHEAD OF NETANYAHU’S US VISIT",
+      "detail": "Iran says it has stopped retaliatory operations in the Gulf, but warns the war could expand if US strikes continue.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "26 JUL 2026 · 10:45 UTC",
       "headline": "AFTER STRAIT OF HORMUZ AND RED SEA, HAS IRAN WAR NOW REACHED CASPIAN SEA?",
       "detail": "Iran condemns what it calls a 'hostile and criminal' Ukrainian attack on commercial vessel. How will it affect the war?",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "26 JUL 2026 · 04:40 UTC",
-      "headline": "NEW FRONT IN US-IRAN WAR ESCALATES AS HOUTHIS FIRE AT SAUDI OIL FACILITIES",
-      "detail": "Conflict also spreads to Caspian Sea as Tehran accuses Ukraine of a deadly attack on an Iranian vessel.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "26 JUL 2026 · 04:33 UTC",
-      "headline": "US MILITARY DISABLES TANKER ACCUSED OF BREAKING THE IRAN BLOCKADE",
-      "detail": "The US military has released footage it says shows forces boarding one tanker.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 JUL 2026 · 03:49 UTC",
-      "headline": "TEHRAN SUMMONS UKRAINIAN DIPLOMAT AFTER KYIV BOMBS AN IRANIAN SHIP",
-      "detail": "Iran has condemned a Ukrainian attack on one of its commercial vessels.",
       "severity": "CRÍTICO"
     },
     {
@@ -49,6 +37,18 @@
       "headline": "JEAN MONNET EN ORMUZ ",
       "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "25 JUL 2026 · 06:34 UTC",
+      "headline": "IRAN-BACKED HOUTHIS CLAIM MISSILE ATTACK ON SAUDI ARABIA",
+      "detail": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "25 JUL 2026 · 01:38 UTC",
+      "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
+      "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
