@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-07-26T08:27:43.673886+00:00",
+  "updated_at": "2026-07-26T10:41:20.883769+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.5,
+    "ormuz_flow_pct": 8.5,
     "vix": 18.58,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
@@ -46,14 +46,14 @@
     },
     {
       "timestamp": "26 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: OMAN ENVOYS IN TEHRAN AS UKRAINE DRONE HITS CASPIAN VESSEL",
-      "detail": "Tehran says the Ukranian attack killed at least one sailor and wounded another.",
+      "headline": "IRAN WAR LIVE: BAGHAEI SAYS PROGRESS MADE IN OMAN TALKS ON STRAIT OF HORMUZ",
+      "detail": "Tehran says the Ukrainian attack killed at least one sailor and wounded another.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $96.78 (+0.00%)",
     "VIX: 18.58",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
