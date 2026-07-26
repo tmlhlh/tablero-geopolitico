@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-07-26T05:57:27.374683+00:00",
+  "updated_at": "2026-07-26T08:27:43.673886+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.4,
+    "ormuz_flow_pct": 5.5,
     "vix": 18.58,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.5%"
   },
   "events": [
     {
@@ -45,15 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 JUL 2026 · 23:16 UTC",
-      "headline": "IRAN ACCUSES UKRAINE OF DEADLY ATTACK ON CASPIAN COMMERCIAL VESSEL",
-      "detail": "Iran accuses Ukraine of attacking a Caspian vessel, killing one sailor and injuring another, calling it a criminal act.",
+      "timestamp": "26 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: OMAN ENVOYS IN TEHRAN AS UKRAINE DRONE HITS CASPIAN VESSEL",
+      "detail": "Tehran says the Ukranian attack killed at least one sailor and wounded another.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $96.78 (+0.00%)",
     "VIX: 18.58",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.4%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.5%"
   ]
 }
