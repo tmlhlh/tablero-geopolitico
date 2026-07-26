@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T16:54:54.871458+00:00",
+  "updated_at": "2026-07-26T17:59:02.719933+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "26 JUL 2026 · 11:56 UTC",
-      "headline": "IRAN’S ARMY ISSUES WARNING AHEAD OF NETANYAHU’S US VISIT",
-      "detail": "Iran says it has stopped retaliatory operations in the Gulf, but warns the war could expand if US strikes continue.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "26 JUL 2026 · 03:40 UTC",
       "headline": "IRÁN ASUME EL PRECIO DE LA GUERRA PARA PRESERVAR EL ESTRATÉGICO CONTROL DE ORMUZ",
@@ -49,6 +43,12 @@
       "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
       "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 16:00 UTC",
+      "headline": "TURKISH SAILOR KILLED AMID FRESH UKRAINIAN STRIKES ON SHIPPING (VIDEO)",
+      "detail": "A drone strike has killed a Turkish sailor on a coal ship off Novorossiysk as Ukraine announced attacks on 13 vessels in Azov and Black Seas Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
