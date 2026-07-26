@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T10:41:20.883769+00:00",
+  "updated_at": "2026-07-26T11:59:43.381414+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 JUL 2026 · 10:45 UTC",
+      "headline": "AFTER STRAIT OF HORMUZ AND RED SEA, HAS IRAN WAR NOW REACHED CASPIAN SEA?",
+      "detail": "Iran condemns what it calls a 'hostile and criminal' Ukrainian attack on commercial vessel. How will it affect the war?",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "26 JUL 2026 · 04:40 UTC",
       "headline": "NEW FRONT IN US-IRAN WAR ESCALATES AS HOUTHIS FIRE AT SAUDI OIL FACILITIES",
@@ -43,12 +49,6 @@
       "headline": "JEAN MONNET EN ORMUZ ",
       "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "26 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: BAGHAEI SAYS PROGRESS MADE IN OMAN TALKS ON STRAIT OF HORMUZ",
-      "detail": "Tehran says the Ukrainian attack killed at least one sailor and wounded another.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
