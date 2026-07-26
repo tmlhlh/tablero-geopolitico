@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-07-26T02:48:57.344150+00:00",
+  "updated_at": "2026-07-26T05:57:27.374683+00:00",
   "market": {
     "brent_usd": 96.78,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 5.4,
     "vix": 18.58,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.4%"
   },
   "events": [
+    {
+      "timestamp": "26 JUL 2026 · 04:40 UTC",
+      "headline": "NEW FRONT IN US-IRAN WAR ESCALATES AS HOUTHIS FIRE AT SAUDI OIL FACILITIES",
+      "detail": "Conflict also spreads to Caspian Sea as Tehran accuses Ukraine of a deadly attack on an Iranian vessel.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 JUL 2026 · 04:33 UTC",
+      "headline": "US MILITARY DISABLES TANKER ACCUSED OF BREAKING THE IRAN BLOCKADE",
+      "detail": "The US military has released footage it says shows forces boarding one tanker.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 JUL 2026 · 03:49 UTC",
+      "headline": "TEHRAN SUMMONS UKRAINIAN DIPLOMAT AFTER KYIV BOMBS AN IRANIAN SHIP",
+      "detail": "Iran has condemned a Ukrainian attack on one of its commercial vessels.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 JUL 2026 · 03:40 UTC",
+      "headline": "IRÁN ASUME EL PRECIO DE LA GUERRA PARA PRESERVAR EL ESTRATÉGICO CONTROL DE ORMUZ",
+      "detail": "Teherán considera que la renuncia a la baza del paso marítimo amenazaría la supervivencia de la República Islámica",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 JUL 2026 · 03:30 UTC",
+      "headline": "JEAN MONNET EN ORMUZ ",
+      "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
+      "severity": "INFO"
+    },
     {
       "timestamp": "25 JUL 2026 · 23:16 UTC",
       "headline": "IRAN ACCUSES UKRAINE OF DEADLY ATTACK ON CASPIAN COMMERCIAL VESSEL",
       "detail": "Iran accuses Ukraine of attacking a Caspian vessel, killing one sailor and injuring another, calling it a criminal act.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 JUL 2026 · 06:34 UTC",
-      "headline": "IRAN-BACKED HOUTHIS CLAIM MISSILE ATTACK ON SAUDI ARABIA",
-      "detail": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "25 JUL 2026 · 01:38 UTC",
-      "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
-      "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "24 JUL 2026 · 00:34 UTC",
-      "headline": "LOS HUTÍES DE YEMEN CUMPLEN SU AMENAZA Y REIVINDICAN UN ATAQUE A PETROLEROS SAUD",
-      "detail": "Trump anticipa “un severo castigo” contra Irán si su milicia aliada mantiene el bloqueo naval sobre Arabia Saudí, en un nuevo pulso que recrudece el conflicto de Oriente Próximo",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 17:23 UTC",
-      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
-      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 16:00 UTC",
-      "headline": "TURKISH SAILOR KILLED AMID FRESH UKRAINIAN STRIKES ON SHIPPING (VIDEO)",
-      "detail": "A drone strike has killed a Turkish sailor on a coal ship off Novorossiysk as Ukraine announced attacks on 13 vessels in Azov and Black Seas Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $96.78 (+0.00%)",
     "VIX: 18.58",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.4%"
   ]
 }
