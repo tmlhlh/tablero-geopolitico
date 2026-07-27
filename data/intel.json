@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-27T11:15:49.093528+00:00",
+  "updated_at": "2026-07-27T14:24:01.158269+00:00",
   "market": {
-    "brent_usd": 89.32,
+    "brent_usd": 90.11,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.61,
+    "vix": 18.62,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "27 JUL 2026 · 06:15 UTC",
-      "headline": "IRAN WARNS UKRAINE OF RETALIATION AFTER DEADLY CASPIAN SEA STRIKE",
-      "detail": "Abbas Araghchi says the Ukrainian attack on the Iranian vessel in the Caspian Sea 'cannot go unanswered'.",
+      "timestamp": "27 JUL 2026 · 13:38 UTC",
+      "headline": "IRÁN AFIRMA QUE CONTROLA EL ESTRECHO ORMUZ Y DESAFÍA LA TREGUA IMPULSADA POR TRU",
+      "detail": "El régimen islámico se mostró desafiante a pesar de haber afirmado que interrumpiría sus ataques mientras dure la pausa norteamericana; fuentes regionales dijeron que avanzan las negociaciones",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.32 (+0.00%)",
-    "VIX: 17.61",
+    "BRENT: $90.11 (+0.00%)",
+    "VIX: 18.62",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
