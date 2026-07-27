@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T23:58:29.143372+00:00",
+  "updated_at": "2026-07-27T03:34:08.454135+00:00",
   "market": {
-    "brent_usd": 91.91,
+    "brent_usd": 92.79,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "26 JUL 2026 · 20:00 UTC",
-      "headline": "IRÁN PLANTEA UN “ATAQUE POR ATAQUE” Y PONE EN MANOS DE EE.UU. LA CONTINUIDAD DE ",
-      "detail": "Teherán aseguró que detendrá sus operaciones si Washington no retoma los bombardeos, en una pausa frágil que abre una ventana para la diplomacia pero mantiene la tensión en el Golfo y la incertidumbre",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "26 JUL 2026 · 19:31 UTC",
       "headline": "WHAT LIES AHEAD FOR IRAN’S ECONOMY AS SCOPE OF US WAR GROWS BEYOND HORMUZ?",
@@ -49,10 +43,16 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 17:23 UTC",
+      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
+      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.91 (+0.00%)",
+    "BRENT: $92.79 (+0.00%)",
     "VIX: 18.58",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
