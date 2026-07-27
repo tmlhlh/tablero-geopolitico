@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-27T16:54:50.735610+00:00",
+  "updated_at": "2026-07-27T18:22:08.805030+00:00",
   "market": {
-    "brent_usd": 88.91,
+    "brent_usd": 88.41,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.07,
+    "vix": 19.25,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -19,12 +19,6 @@
       "headline": "UKRAINE DISMISSES IRANIAN THREATS AS CASPIAN SEA STRIKE DIRECTLY LINKS WARS",
       "detail": "Iran has reacted with fury to the assault on the vessel, with Tehran's foreign minister saying it \"cannot go unanswered\".",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "27 JUL 2026 · 14:22 UTC",
-      "headline": "EL PRECIO DEL PETRÓLEO SE DESPLOMA TRAS LA TREGUA ANUNCIADA POR TRUMP",
-      "detail": "Los precios del crudo retroceden a mínimos de una semana por expectativas de distensión y reapertura del estrecho de Ormuz; persisten dudas por la falta de negociaciones",
-      "severity": "INFO"
     },
     {
       "timestamp": "27 JUL 2026 · 03:38 UTC",
@@ -49,11 +43,17 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 17:23 UTC",
+      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
+      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.91 (+0.00%)",
-    "VIX: 19.07",
+    "BRENT: $88.41 (+0.00%)",
+    "VIX: 19.25",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
