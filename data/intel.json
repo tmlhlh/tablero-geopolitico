@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-27T07:25:17.281319+00:00",
+  "updated_at": "2026-07-27T11:15:49.093528+00:00",
   "market": {
-    "brent_usd": 90.15,
+    "brent_usd": 89.32,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.58,
+    "vix": 17.61,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 JUL 2026 · 06:34 UTC",
-      "headline": "IRAN-BACKED HOUTHIS CLAIM MISSILE ATTACK ON SAUDI ARABIA",
-      "detail": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "25 JUL 2026 · 01:38 UTC",
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 17:23 UTC",
+      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
+      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.15 (+0.00%)",
-    "VIX: 18.58",
+    "BRENT: $89.32 (+0.00%)",
+    "VIX: 17.61",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
