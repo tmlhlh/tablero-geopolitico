@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-27T03:34:08.454135+00:00",
+  "updated_at": "2026-07-27T07:25:17.281319+00:00",
   "market": {
-    "brent_usd": 92.79,
+    "brent_usd": 90.15,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "26 JUL 2026 · 19:31 UTC",
-      "headline": "WHAT LIES AHEAD FOR IRAN’S ECONOMY AS SCOPE OF US WAR GROWS BEYOND HORMUZ?",
-      "detail": "Mediation efforts continue but uncertainty remains as risks of further disruptions in international waterways grow.",
-      "severity": "INFO"
+      "timestamp": "27 JUL 2026 · 06:15 UTC",
+      "headline": "IRAN WARNS UKRAINE OF RETALIATION AFTER DEADLY CASPIAN SEA STRIKE",
+      "detail": "Abbas Araghchi says the Ukrainian attack on the Iranian vessel in the Caspian Sea 'cannot go unanswered'.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "27 JUL 2026 · 03:38 UTC",
+      "headline": "CENTCOM CHIEF BELIEVES US STRIKES AROUND HORMUZ NO LONGER EFFECTIVE – AXIOS",
+      "detail": "CENTCOM chief reportedly advised President Donald Trump to halt strikes around the Strait of Hormuz, saying they were no longer effective Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "26 JUL 2026 · 03:40 UTC",
@@ -43,16 +49,10 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 17:23 UTC",
-      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
-      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.79 (+0.00%)",
+    "BRENT: $90.15 (+0.00%)",
     "VIX: 18.58",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
