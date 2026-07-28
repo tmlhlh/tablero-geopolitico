@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-28T18:10:59.267867+00:00",
+  "updated_at": "2026-07-28T20:13:34.017456+00:00",
   "market": {
-    "brent_usd": 84.07,
+    "brent_usd": 83.9,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.38,
+    "vix": 18.19,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -18,12 +18,6 @@
       "timestamp": "28 JUL 2026 · 15:28 UTC",
       "headline": "IRAN REJECTS TRUMP FROZEN FUNDS PLAN, WARNS SHIPS OF HORMUZ TRANSIT BAN",
       "detail": "Iran rejected Trump’s claim that ships damaged by Iran in the Gulf would be compensated from frozen Iranian funds.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "28 JUL 2026 · 13:06 UTC",
-      "headline": "TRUMP SAYS ‘GOOD CHANCE’ OF PROGRESS IN IRAN TALKS. WHAT WE KNOW",
-      "detail": "Negotiators are trying to break the deadlock over transit fees and management of the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
       "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 16:00 UTC",
+      "headline": "TURKISH SAILOR KILLED AMID FRESH UKRAINIAN STRIKES ON SHIPPING (VIDEO)",
+      "detail": "A drone strike has killed a Turkish sailor on a coal ship off Novorossiysk as Ukraine announced attacks on 13 vessels in Azov and Black Seas Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.07 (+0.00%)",
-    "VIX: 18.38",
+    "BRENT: $83.9 (+0.00%)",
+    "VIX: 18.19",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
