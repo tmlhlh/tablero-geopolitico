@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-28T13:56:16.463570+00:00",
+  "updated_at": "2026-07-28T16:03:56.480778+00:00",
   "market": {
-    "brent_usd": 86.4,
+    "brent_usd": 84.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.09,
+    "vix": 17.91,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "28 JUL 2026 · 15:28 UTC",
+      "headline": "IRAN REJECTS TRUMP FROZEN FUNDS PLAN, WARNS SHIPS OF HORMUZ TRANSIT BAN",
+      "detail": "Iran rejected Trump’s claim that ships damaged by Iran in the Gulf would be compensated from frozen Iranian funds.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 JUL 2026 · 13:06 UTC",
       "headline": "TRUMP SAYS ‘GOOD CHANCE’ OF PROGRESS IN IRAN TALKS. WHAT WE KNOW",
@@ -25,12 +31,6 @@
       "headline": "CENTCOM CHIEF BELIEVES US STRIKES AROUND HORMUZ NO LONGER EFFECTIVE – AXIOS",
       "detail": "CENTCOM chief reportedly advised President Donald Trump to halt strikes around the Strait of Hormuz, saying they were no longer effective Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "26 JUL 2026 · 03:40 UTC",
-      "headline": "IRÁN ASUME EL PRECIO DE LA GUERRA PARA PRESERVAR EL ESTRATÉGICO CONTROL DE ORMUZ",
-      "detail": "Teherán considera que la renuncia a la baza del paso marítimo amenazaría la supervivencia de la República Islámica",
-      "severity": "INFO"
     },
     {
       "timestamp": "26 JUL 2026 · 03:30 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $86.4 (+0.00%)",
-    "VIX: 19.09",
+    "BRENT: $84.1 (+0.00%)",
+    "VIX: 17.91",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
