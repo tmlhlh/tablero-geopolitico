@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-07-28T09:33:25.026644+00:00",
+  "updated_at": "2026-07-28T11:54:06.964989+00:00",
   "market": {
-    "brent_usd": 86.02,
+    "brent_usd": 87.12,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.84,
+    "vix": 18.92,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "28 JUL 2026 · 00:51 UTC",
-      "headline": "HOUTHIS WANT TO COPY IRAN’S HORMUZ CONTROL IN THE RED SEA: YEMENI FM",
-      "detail": "Speaking in Riyadh, Yemen's internationally recognised government warns global complacency has emboldened the Houthis.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "28 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: OMAN SENDS HORMUZ PLAN WITH GULF NATIONS REPORTEDLY ONBOARD",
-      "detail": "Under the Omani proposal, which reportedly has regional backing, Tehran won't have sole control ⁠of the vital waterway.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "27 JUL 2026 · 16:33 UTC",
       "headline": "UKRAINE DISMISSES IRANIAN THREATS AS CASPIAN SEA STRIKE DIRECTLY LINKS WARS",
@@ -49,11 +37,23 @@
       "headline": "JEAN MONNET EN ORMUZ ",
       "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "25 JUL 2026 · 01:38 UTC",
+      "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
+      "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 17:23 UTC",
+      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
+      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.02 (+0.00%)",
-    "VIX: 18.84",
+    "BRENT: $87.12 (+0.00%)",
+    "VIX: 18.92",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
