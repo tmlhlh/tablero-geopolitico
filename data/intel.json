@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-28T20:13:34.017456+00:00",
+  "updated_at": "2026-07-28T22:00:36.464489+00:00",
   "market": {
-    "brent_usd": 83.9,
+    "brent_usd": 83.76,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.19,
+    "vix": 18.21,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.9
   },
@@ -15,10 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "28 JUL 2026 · 15:28 UTC",
-      "headline": "IRAN REJECTS TRUMP FROZEN FUNDS PLAN, WARNS SHIPS OF HORMUZ TRANSIT BAN",
-      "detail": "Iran rejected Trump’s claim that ships damaged by Iran in the Gulf would be compensated from frozen Iranian funds.",
+      "timestamp": "28 JUL 2026 · 21:01 UTC",
+      "headline": "IRAN AND OMAN EXCHANGE PROPOSALS TO MANAGE STRAIT OF HORMUZ",
+      "detail": "Omani proposal is based on the Strait of Malacca model, where ships that use the strait provide voluntary fees.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "28 JUL 2026 · 20:29 UTC",
+      "headline": "KYIV WARNS IRAN AGAINST ESCALATION AFTER UKRAINE’S CASPIAN SEA ATTACK",
+      "detail": "Kyiv claims its Caspian Sea strike targeted Russian warships, denying intent to harm civilian vessels or individuals.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "27 JUL 2026 · 03:38 UTC",
@@ -43,17 +49,11 @@
       "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
       "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 16:00 UTC",
-      "headline": "TURKISH SAILOR KILLED AMID FRESH UKRAINIAN STRIKES ON SHIPPING (VIDEO)",
-      "detail": "A drone strike has killed a Turkish sailor on a coal ship off Novorossiysk as Ukraine announced attacks on 13 vessels in Azov and Black Seas Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $83.9 (+0.00%)",
-    "VIX: 18.19",
+    "BRENT: $83.76 (+0.00%)",
+    "VIX: 18.21",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
