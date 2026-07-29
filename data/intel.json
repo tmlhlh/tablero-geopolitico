@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T23:54:58.258224+00:00",
+  "updated_at": "2026-07-29T02:12:12.278376+00:00",
   "market": {
-    "brent_usd": 87.28,
+    "brent_usd": 87.87,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "29 JUL 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US, SAUDI FORCES ATTACK TEHRAN-ALIGNED GROUPS IN IRAQ",
+      "detail": "Attacks come as Saudi Arabia intercepts drones and Iran warns of 'any action' to maintain its control of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "28 JUL 2026 · 23:16 UTC",
       "headline": "YEMEN’S HOUTHIS CLAIM MISSILE ATTACK ON SAUDI ARABIA OIL TANKER",
@@ -43,16 +49,10 @@
       "headline": "JEAN MONNET EN ORMUZ ",
       "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "25 JUL 2026 · 01:38 UTC",
-      "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
-      "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.28 (+0.00%)",
+    "BRENT: $87.87 (+0.00%)",
     "VIX: 18.21",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
