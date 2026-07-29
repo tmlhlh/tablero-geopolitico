@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-29T11:22:05.052534+00:00",
+  "updated_at": "2026-07-29T14:01:05.549134+00:00",
   "market": {
-    "brent_usd": 88.34,
+    "brent_usd": 89.9,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.39,
+    "vix": 18.7,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "29 JUL 2026 · 05:22 UTC",
-      "headline": "CHINA PUTS THE ‘SQUEEZE’ ON TAIWAN WITH NEW MARITIME PATROLS",
-      "detail": "New law enforcement operations could quickly escalate into a blockade of Taiwan, say analysts.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "27 JUL 2026 · 03:38 UTC",
       "headline": "CENTCOM CHIEF BELIEVES US STRIKES AROUND HORMUZ NO LONGER EFFECTIVE – AXIOS",
       "detail": "CENTCOM chief reportedly advised President Donald Trump to halt strikes around the Strait of Hormuz, saying they were no longer effective Read Full Article at RT.com",
@@ -49,11 +43,17 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 17:23 UTC",
+      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
+      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.34 (+0.00%)",
-    "VIX: 18.39",
+    "BRENT: $89.9 (+0.00%)",
+    "VIX: 18.7",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
