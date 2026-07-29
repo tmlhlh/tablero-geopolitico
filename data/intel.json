@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T02:12:12.278376+00:00",
+  "updated_at": "2026-07-29T05:47:40.546954+00:00",
   "market": {
-    "brent_usd": 87.87,
+    "brent_usd": 87.17,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "29 JUL 2026 · 05:22 UTC",
+      "headline": "CHINA PUTS THE ‘SQUEEZE’ ON TAIWAN WITH NEW MARITIME PATROLS",
+      "detail": "New law enforcement operations could quickly escalate into a blockade of Taiwan, say analysts.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "29 JUL 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: US, SAUDI FORCES ATTACK TEHRAN-ALIGNED GROUPS IN IRAQ",
@@ -43,16 +49,10 @@
       "headline": "CENTCOM CHIEF BELIEVES US STRIKES AROUND HORMUZ NO LONGER EFFECTIVE – AXIOS",
       "detail": "CENTCOM chief reportedly advised President Donald Trump to halt strikes around the Strait of Hormuz, saying they were no longer effective Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "26 JUL 2026 · 03:30 UTC",
-      "headline": "JEAN MONNET EN ORMUZ ",
-      "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.87 (+0.00%)",
+    "BRENT: $87.17 (+0.00%)",
     "VIX: 18.21",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
