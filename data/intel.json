@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-07-29T14:01:05.549134+00:00",
+  "updated_at": "2026-07-29T16:18:01.433880+00:00",
   "market": {
-    "brent_usd": 89.9,
+    "brent_usd": 90.7,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.7,
+    "vix": 20.05,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 2.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "29 JUL 2026 · 08:16 UTC",
-      "headline": "IRAN AND OMAN SWAP PROPOSALS TO MANAGE STRAIT OF HORMUZ: WHAT WE KNOW",
-      "detail": "Iran is proposing a deal that would see it have significantly more control than Oman.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "29 JUL 2026 · 05:43 UTC",
-      "headline": "IRAN ATTACKS US BASES IN MIDDLE EAST AS TRUMP MEETS NETANYAHU",
-      "detail": "Iran has also struck three ships in the Strait of Hormuz and rejected Oman’s proposal on managing the waterway.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "27 JUL 2026 · 03:38 UTC",
       "headline": "CENTCOM CHIEF BELIEVES US STRIKES AROUND HORMUZ NO LONGER EFFECTIVE – AXIOS",
@@ -49,11 +37,23 @@
       "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
       "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 16:00 UTC",
+      "headline": "TURKISH SAILOR KILLED AMID FRESH UKRAINIAN STRIKES ON SHIPPING (VIDEO)",
+      "detail": "A drone strike has killed a Turkish sailor on a coal ship off Novorossiysk as Ukraine announced attacks on 13 vessels in Azov and Black Seas Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 02:55 UTC",
+      "headline": "HOUTHIS CLAIM STRIKES ON SAUDI OIL TANKERS IN RED SEA (VIDEO)",
+      "detail": "Yemen’s Houthis report that they struck two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.9 (+0.00%)",
-    "VIX: 18.7",
+    "BRENT: $90.7 (+0.00%)",
+    "VIX: 20.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
