@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T21:56:44.130459+00:00",
+  "updated_at": "2026-07-29T22:58:58.172935+00:00",
   "market": {
-    "brent_usd": 90.54,
+    "brent_usd": 90.4,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,16 +15,16 @@
   },
   "events": [
     {
+      "timestamp": "29 JUL 2026 · 22:52 UTC",
+      "headline": "TRUMP WARNS ‘IT’S OUR TURN’ TO HIT IRAN AFTER STRIKES ON US BASES, GAS TANKER",
+      "detail": "The president also reportedly promised to “beat the f***ing s**t out of” Tehran over the “surprise” missile attack on US forces Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "29 JUL 2026 · 17:45 UTC",
       "headline": "IRAN PUSHES BACK AGAINST US AS REGIONAL ATTACKS HEAT UP",
       "detail": "New round of strikes raises fears of further escalation as Iran rejects Omani proposal for joint Hormuz oversight.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 JUL 2026 · 16:43 UTC",
-      "headline": "IS THE WORLD AT RISK OF ANOTHER ENERGY SHOCK?",
-      "detail": "Disruptions across Strait of Hormuz, Bab al-Mandeb and the Black Sea threaten supplies and raise costs for consumers.",
-      "severity": "INFO"
     },
     {
       "timestamp": "27 JUL 2026 · 03:38 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $90.54 (+0.00%)",
+    "BRENT: $90.4 (+0.00%)",
     "VIX: 20.66",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
