@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-29T05:47:40.546954+00:00",
+  "updated_at": "2026-07-29T08:33:23.240380+00:00",
   "market": {
-    "brent_usd": 87.17,
+    "brent_usd": 87.19,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.21,
+    "vix": 18.3,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.9
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "29 JUL 2026 · 05:43 UTC",
+      "headline": "IRAN ATTACKS US BASES IN MIDDLE EAST AS TRUMP MEETS NETANYAHU",
+      "detail": "Iran has also struck three ships in the Strait of Hormuz and rejected Oman’s proposal on managing the waterway.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "29 JUL 2026 · 05:22 UTC",
       "headline": "CHINA PUTS THE ‘SQUEEZE’ ON TAIWAN WITH NEW MARITIME PATROLS",
@@ -22,8 +28,8 @@
     },
     {
       "timestamp": "29 JUL 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US, SAUDI FORCES ATTACK TEHRAN-ALIGNED GROUPS IN IRAQ",
-      "detail": "Attacks come as Saudi Arabia intercepts drones and Iran warns of 'any action' to maintain its control of Hormuz.",
+      "headline": "IRAN WAR LIVE: 20 KILLED IN US-SAUDI ATTACK ON IRAQ; IRGC TARGETS JORDAN",
+      "detail": "Attacks come as Saudi Arabia intercepts drones and Iran warns of 'any action' to maintain its control of Hormuz Strait.",
       "severity": "CRÍTICO"
     },
     {
@@ -33,27 +39,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "28 JUL 2026 · 21:01 UTC",
-      "headline": "IRAN AND OMAN EXCHANGE PROPOSALS TO MANAGE STRAIT OF HORMUZ",
-      "detail": "Omani proposal is based on the Strait of Malacca model, where ships that use the strait provide voluntary fees.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "28 JUL 2026 · 20:29 UTC",
-      "headline": "KYIV WARNS IRAN AGAINST ESCALATION AFTER UKRAINE’S CASPIAN SEA ATTACK",
-      "detail": "Kyiv claims its Caspian Sea strike targeted Russian warships, denying intent to harm civilian vessels or individuals.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "27 JUL 2026 · 03:38 UTC",
       "headline": "CENTCOM CHIEF BELIEVES US STRIKES AROUND HORMUZ NO LONGER EFFECTIVE – AXIOS",
       "detail": "CENTCOM chief reportedly advised President Donald Trump to halt strikes around the Strait of Hormuz, saying they were no longer effective Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 JUL 2026 · 03:30 UTC",
+      "headline": "JEAN MONNET EN ORMUZ ",
+      "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.17 (+0.00%)",
-    "VIX: 18.21",
+    "BRENT: $87.19 (+0.00%)",
+    "VIX: 18.3",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
