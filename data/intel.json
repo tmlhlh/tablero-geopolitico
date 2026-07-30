@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-07-30T09:27:21.592503+00:00",
+  "updated_at": "2026-07-30T11:48:43.125494+00:00",
   "market": {
-    "brent_usd": 91.09,
+    "brent_usd": 89.74,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.67,
+    "vix": 19.23,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.4
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "30 JUL 2026 · 01:42 UTC",
-      "headline": "JAPAN TURNS TO CANADIAN CRUDE AS ASIA FEELS HORMUZ SUPPLY PINCH",
-      "detail": "Uncertainty over crude oil supplies via the Strait of Hormuz is pushing Asian states towards Canada's TMX crude oil.",
-      "severity": "INFO"
+      "timestamp": "30 JUL 2026 · 10:18 UTC",
+      "headline": "WHY IS SAUDI ARABIA FORMING A COALITION TO PROTECT THE RED SEA?",
+      "detail": "The alliance aims to defend shipping from attacks by Iran-backed Houthis in Yemen.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "29 JUL 2026 · 22:52 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $91.09 (+0.00%)",
-    "VIX: 19.67",
+    "BRENT: $89.74 (+0.00%)",
+    "VIX: 19.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
