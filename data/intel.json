@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-07-30T15:49:14.068638+00:00",
+  "updated_at": "2026-07-30T17:22:10.201454+00:00",
   "market": {
-    "brent_usd": 89.77,
+    "brent_usd": 89.68,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.11,
+    "vix": 17.93,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "30 JUL 2026 · 10:18 UTC",
-      "headline": "WHY IS SAUDI ARABIA FORMING A COALITION TO PROTECT THE RED SEA?",
-      "detail": "The alliance aims to defend shipping from attacks by Iran-backed Houthis in Yemen.",
+      "timestamp": "30 JUL 2026 · 16:32 UTC",
+      "headline": "EGIPTO CONFIRMA QUE UN DRON PROVOCÓ EL INCENDIO DE DOS BUQUES DE GAS EN SU COSTA",
+      "detail": "El ataque en una ruta clave para el transporte de petróleo saudí hacia los mercados internacionales eleva la preocupación por una posible ampliación del conflicto en Oriente Próximo",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "30 JUL 2026 · 16:06 UTC",
+      "headline": "IRGC VIDEO OF RETALIATORY STRIKES ON US TARGETS IN JORDAN",
+      "detail": "The IRGC released a video of what they say were missiles launched by their naval forces targeting US aircraft in Jordan.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 17:23 UTC",
-      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
-      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.77 (+0.00%)",
-    "VIX: 19.11",
+    "BRENT: $89.68 (+0.00%)",
+    "VIX: 17.93",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
