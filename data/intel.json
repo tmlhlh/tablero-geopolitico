@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T21:04:17.492934+00:00",
+  "updated_at": "2026-07-30T23:01:32.048745+00:00",
   "market": {
     "brent_usd": 89.45,
     "brent_chg": 0.0
@@ -18,12 +18,6 @@
       "timestamp": "30 JUL 2026 · 18:46 UTC",
       "headline": "EGIPTO SUFRE EL PRIMER ATAQUE DE LA GUERRA EN ORIENTE PRÓXIMO AL IMPACTAR UN DRO",
       "detail": "El lanzamiento del aparato, que no ha sido reivindicado, aumenta la preocupación por la posible extensión del conflicto a una ruta clave para el transporte de petróleo saudí",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "30 JUL 2026 · 16:06 UTC",
-      "headline": "IRGC VIDEO OF RETALIATORY STRIKES ON US TARGETS IN JORDAN",
-      "detail": "The IRGC released a video of what they say were missiles launched by their naval forces targeting US aircraft in Jordan.",
       "severity": "CRÍTICO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 JUL 2026 · 17:23 UTC",
+      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
+      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
