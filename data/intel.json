@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-30T17:22:10.201454+00:00",
+  "updated_at": "2026-07-30T19:19:26.804111+00:00",
   "market": {
-    "brent_usd": 89.68,
+    "brent_usd": 88.99,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.93,
+    "vix": 17.6,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "30 JUL 2026 · 16:32 UTC",
-      "headline": "EGIPTO CONFIRMA QUE UN DRON PROVOCÓ EL INCENDIO DE DOS BUQUES DE GAS EN SU COSTA",
-      "detail": "El ataque en una ruta clave para el transporte de petróleo saudí hacia los mercados internacionales eleva la preocupación por una posible ampliación del conflicto en Oriente Próximo",
+      "timestamp": "30 JUL 2026 · 18:46 UTC",
+      "headline": "EGIPTO SUFRE EL PRIMER ATAQUE DE LA GUERRA EN ORIENTE PRÓXIMO AL IMPACTAR UN DRO",
+      "detail": "El lanzamiento del aparato, que no ha sido reivindicado, aumenta la preocupación por la posible extensión del conflicto a una ruta clave para el transporte de petróleo saudí",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.68 (+0.00%)",
-    "VIX: 17.93",
+    "BRENT: $88.99 (+0.00%)",
+    "VIX: 17.6",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
