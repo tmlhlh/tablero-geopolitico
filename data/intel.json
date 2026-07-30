@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T22:58:58.172935+00:00",
+  "updated_at": "2026-07-30T00:03:50.648098+00:00",
   "market": {
-    "brent_usd": 90.4,
+    "brent_usd": 90.29,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "29 JUL 2026 · 22:52 UTC",
-      "headline": "TRUMP WARNS ‘IT’S OUR TURN’ TO HIT IRAN AFTER STRIKES ON US BASES, GAS TANKER",
-      "detail": "The president also reportedly promised to “beat the f***ing s**t out of” Tehran over the “surprise” missile attack on US forces Read Full Article at RT.com",
+      "timestamp": "29 JUL 2026 · 23:34 UTC",
+      "headline": "SAUDI ARABIA SEEKS INTERNATIONAL COALITION AGAINST HOUTHIS IN RED SEA",
+      "detail": "Riyadh seeks partners to safeguard shipping in Red Sea as strikes on energy tankers expand, pushing oil prices higher.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "29 JUL 2026 · 17:45 UTC",
-      "headline": "IRAN PUSHES BACK AGAINST US AS REGIONAL ATTACKS HEAT UP",
-      "detail": "New round of strikes raises fears of further escalation as Iran rejects Omani proposal for joint Hormuz oversight.",
+      "timestamp": "29 JUL 2026 · 22:52 UTC",
+      "headline": "SUSPECTED DRONE HITS US-OWNED GAS TANKER IN EGYPT (VIDEOS)",
+      "detail": "The president also reportedly promised to “beat the f***ing s**t out of” Tehran over the “surprise” missile attack on US forces Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $90.4 (+0.00%)",
+    "BRENT: $90.29 (+0.00%)",
     "VIX: 20.66",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
