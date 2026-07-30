@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T00:03:50.648098+00:00",
+  "updated_at": "2026-07-30T03:53:36.922872+00:00",
   "market": {
-    "brent_usd": 90.29,
+    "brent_usd": 89.5,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "30 JUL 2026 · 01:42 UTC",
+      "headline": "JAPAN TURNS TO CANADIAN CRUDE AS ASIA FEELS HORMUZ SUPPLY PINCH",
+      "detail": "Uncertainty over crude oil supplies via the Strait of Hormuz is pushing Asian states towards Canada's TMX crude oil.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "29 JUL 2026 · 23:34 UTC",
       "headline": "SAUDI ARABIA SEEKS INTERNATIONAL COALITION AGAINST HOUTHIS IN RED SEA",
@@ -43,16 +49,10 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 JUL 2026 · 17:23 UTC",
-      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
-      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.29 (+0.00%)",
+    "BRENT: $89.5 (+0.00%)",
     "VIX: 20.66",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
