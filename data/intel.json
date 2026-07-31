@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-31T16:01:48.970763+00:00",
+  "updated_at": "2026-07-31T18:16:37.438120+00:00",
   "market": {
-    "brent_usd": 89.93,
+    "brent_usd": 90.01,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.41,
+    "vix": 16.58,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "31 JUL 2026 · 16:01 UTC",
+      "headline": "IRÁN Y UCRANIA SE ENZARZAN EN EL CASPIO ",
+      "detail": "En el primer choque directo entre ambos países, Zelenski celebró un ataque de sus tropas sobre barcos iraníes en una ruta esencial para la ayuda a Moscú. Teherán y Kiev tratan de contener la escalada",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "31 JUL 2026 · 14:22 UTC",
       "headline": "RUSSIA AND UKRAINE REPORT CASUALTIES AS THEY CONTINUE TO TRADE ATTACKS",
@@ -43,17 +49,11 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "31 JUL 2026 · 16:01 UTC",
-      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
-      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.93 (+0.00%)",
-    "VIX: 17.41",
+    "BRENT: $90.01 (+0.00%)",
+    "VIX: 16.58",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
