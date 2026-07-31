@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T23:01:32.048745+00:00",
+  "updated_at": "2026-07-31T02:27:07.384985+00:00",
   "market": {
-    "brent_usd": 89.45,
+    "brent_usd": 87.76,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -45,14 +45,14 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 JUL 2026 · 17:23 UTC",
-      "headline": "THE WEST WANTS A NEW ORDER, BUT HAS NO PLAN FOR ONE",
-      "detail": "As the Montreux Convention comes under pressure and Hormuz grows more unstable, military power alone is proving unable to sustain order Read Full Article at RT.com",
+      "timestamp": "31 JUL 2026 · 02:27 UTC",
+      "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
+      "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.45 (+0.00%)",
+    "BRENT: $87.76 (+0.00%)",
     "VIX: 17.09",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
