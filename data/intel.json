@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-31T06:08:14.375947+00:00",
+  "updated_at": "2026-07-31T09:40:09.630890+00:00",
   "market": {
-    "brent_usd": 87.0,
+    "brent_usd": 88.65,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.09,
+    "vix": 16.69,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "31 JUL 2026 · 06:49 UTC",
+      "headline": "IRAN WAR LIVE: IRGC CLAIMS ‘RETALIATORY ATTACK’ ON KUWAIT",
+      "detail": "Iran has continued its attacks on Gulf states, in what it calls retaliation for US strikes on Thursday.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "30 JUL 2026 · 18:46 UTC",
       "headline": "EGIPTO SUFRE EL PRIMER ATAQUE DE LA GUERRA EN ORIENTE PRÓXIMO AL IMPACTAR UN DRO",
@@ -43,17 +49,11 @@
       "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
       "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "31 JUL 2026 · 06:08 UTC",
-      "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
-      "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.0 (+0.00%)",
-    "VIX: 17.09",
+    "BRENT: $88.65 (+0.00%)",
+    "VIX: 16.69",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
