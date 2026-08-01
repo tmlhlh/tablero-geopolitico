@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T13:10:25.758647+00:00",
+  "updated_at": "2026-08-01T14:56:40.724327+00:00",
   "market": {
     "brent_usd": 90.12,
     "brent_chg": 0.0
@@ -39,15 +39,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 JUL 2026 · 01:38 UTC",
-      "headline": "SAUDI-LED COALITION BOMBS YEMENI PORT (VIDEOS)",
-      "detail": "The Saudi-led coalition has carried out strikes on Hodeidah, Yemen following Houthi attacks on shipping Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 AUG 2026 · 13:10 UTC",
+      "timestamp": "01 AUG 2026 · 14:56 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 AUG 2026 · 14:56 UTC",
+      "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
+      "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     }
   ],
