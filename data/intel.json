@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T20:46:03.314898+00:00",
+  "updated_at": "2026-08-01T21:51:08.584337+00:00",
   "market": {
     "brent_usd": 90.12,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "31 JUL 2026 · 16:01 UTC",
-      "headline": "IRÁN Y UCRANIA SE ENZARZAN EN EL CASPIO ",
-      "detail": "En el primer choque directo entre ambos países, Zelenski celebró un ataque de sus tropas sobre barcos iraníes en una ruta esencial para la ayuda a Moscú. Teherán y Kiev tratan de contener la escalada",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "29 JUL 2026 · 22:52 UTC",
       "headline": "SUSPECTED DRONE HITS US-OWNED GAS TANKER IN EGYPT (VIDEOS)",
@@ -39,15 +33,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "01 AUG 2026 · 20:46 UTC",
+      "timestamp": "01 AUG 2026 · 21:51 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "01 AUG 2026 · 20:46 UTC",
+      "timestamp": "01 AUG 2026 · 21:51 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "01 AUG 2026 · 21:51 UTC",
+      "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
+      "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
