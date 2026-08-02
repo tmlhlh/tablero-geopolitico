@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T10:37:27.100394+00:00",
+  "updated_at": "2026-08-02T11:59:14.566661+00:00",
   "market": {
     "brent_usd": 90.12,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "02 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP CANCELS ATTACK, CALLS FOR A ‘RAPID’ DEAL ON HORMUZ",
-      "detail": "Move comes after Iran's top diplomat warned of a 'decisive response' to any US-Israeli 'aggression'.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "29 JUL 2026 · 22:52 UTC",
       "headline": "SUSPECTED DRONE HITS US-OWNED GAS TANKER IN EGYPT (VIDEOS)",
       "detail": "The president also reportedly promised to “beat the f***ing s**t out of” Tehran over the “surprise” missile attack on US forces Read Full Article at RT.com",
@@ -48,6 +42,12 @@
       "timestamp": "26 JUL 2026 · 03:30 UTC",
       "headline": "JEAN MONNET EN ORMUZ ",
       "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 AUG 2026 · 11:59 UTC",
+      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
+      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     }
   ],
