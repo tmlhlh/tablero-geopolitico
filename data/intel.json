@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T19:14:32.312966+00:00",
+  "updated_at": "2026-08-02T20:50:21.135625+00:00",
   "market": {
     "brent_usd": 90.12,
     "brent_chg": 0.0
@@ -15,21 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "02 AUG 2026 · 15:33 UTC",
-      "headline": "HOW TO END THE ‘HORMUZ WAR’",
-      "detail": "The least bad option for the US is to let the MoU Article 5 play out.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 AUG 2026 · 14:11 UTC",
-      "headline": "NO BREAKTHROUGH ON STRAIT OF HORMUZ AS TRUMP HALTS ATTACK ON IRAN",
-      "detail": "Iran says Trump's comment on pullback from threatened strikes made 'within the context of psychological operations'.",
+      "timestamp": "02 AUG 2026 · 19:21 UTC",
+      "headline": "TRUMP SUSPENDE UN ATAQUE CONTRA IRÁN Y AFIRMA QUE HAY BASES PARA UN ACUERDO QUE ",
+      "detail": "El presidente canceló una nueva ofensiva tras un principio de entendimiento con Teherán, que contempla la reapertura del estrecho de Ormuz y negociaciones sobre el programa nuclear iraní",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "02 AUG 2026 · 13:59 UTC",
-      "headline": "RUBIO’S BYPASS PLAN: CAN THE WORLD ESCAPE THE STRAIT OF HORMUZ CHOKEPOINT?",
-      "detail": "Experts warn that Marco Rubio's Hormuz bypass plan is hindered by pipeline limits and severe Red Sea threats.",
+      "timestamp": "02 AUG 2026 · 19:08 UTC",
+      "headline": "IRAN SAYS NEGOTIATIONS WITH OMAN OVER STRAIT OF HORMUZ IN FINAL STAGES",
+      "detail": "Tehran's announcement comes after Trump said US would hold off on new Iran attack in hope of quick deal.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 AUG 2026 · 15:33 UTC",
+      "headline": "HOW TO END THE ‘HORMUZ WAR’",
+      "detail": "The least bad option for the US is to let the MoU Article 5 play out.",
       "severity": "INFO"
     },
     {
