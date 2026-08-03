@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-08-03T13:37:42.925176+00:00",
+  "updated_at": "2026-08-03T16:20:08.921986+00:00",
   "market": {
-    "brent_usd": 83.59,
+    "brent_usd": 83.67,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 16.0,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "ormuz_flow_pct": 58.0,
+    "vix": 15.6,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "03 AUG 2026 · 12:44 UTC",
-      "headline": "IRAN DENIES TRUMP'S CLAIM THAT NEW TALKS WILL BEGIN ON MONDAY",
-      "detail": "While Iran denies that talks with the US are taking place, it is currently in negotiations with Oman over Strait of Hormuz access.",
+      "timestamp": "03 AUG 2026 · 15:57 UTC",
+      "headline": "THREAT TO OIL TANKERS IN MIDDLE EAST  WORST SINCE START OF IRAN WAR, ANALYSTS SA",
+      "detail": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "03 AUG 2026 · 14:58 UTC",
+      "headline": "IRÁN NIEGA NUEVAS CONVERSACIONES CON ESTADOS UNIDOS Y DESATA LA FURIA DE TRUMP ",
+      "detail": "El presidente estadounidense aseguró que retomarán el diálogo sobre el programa nuclear y el estrecho de Ormuz; los iraníes descartan contactos con Washington y negocian con Omán un corredor temporal ",
       "severity": "INFO"
     },
     {
-      "timestamp": "03 AUG 2026 · 09:44 UTC",
-      "headline": "TRUMP SAYS NEW IRAN NEGOTIATIONS STARTING: WHAT WE KNOW",
-      "detail": "Analysts say deal on Hormuz might be achievable but lasting peace agreement still far off.",
+      "timestamp": "03 AUG 2026 · 11:29 UTC",
+      "headline": "TRUMP ASEGURA QUE LAS CONVERSACIONES CON IRÁN SE REANUDARÁN ESTE LUNES Y TEHERÁN",
+      "detail": "El presidente de EE UU trata de rebajar el enfrentamiento de los últimos días mientras la República Islámica negocia sobre Ormuz con Omán",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "JEAN MONNET EN ORMUZ ",
       "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "03 AUG 2026 · 13:37 UTC",
-      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
-      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $83.59 (+0.00%)",
-    "VIX: 16.0",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $83.67 (+0.00%)",
+    "VIX: 15.6",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
