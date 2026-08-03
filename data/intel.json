@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T23:55:08.847060+00:00",
+  "updated_at": "2026-08-03T02:27:27.224817+00:00",
   "market": {
     "brent_usd": 90.12,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "02 AUG 2026 · 23:48 UTC",
+      "headline": "TRUMP SAYS NEW ROUND OF IRAN TALKS WILL BEGIN MONDAY",
+      "detail": "The US president says Gulf allies and Tehran urged him to delay planned strikes.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "02 AUG 2026 · 19:21 UTC",
       "headline": "TRUMP SUSPENDE UN ATAQUE CONTRA IRÁN Y AFIRMA QUE HAY BASES PARA UN ACUERDO QUE ",
       "detail": "El presidente canceló una nueva ofensiva tras un principio de entendimiento con Teherán, que contempla la reapertura del estrecho de Ormuz y negociaciones sobre el programa nuclear iraní",
@@ -25,12 +31,6 @@
       "headline": "IRAN SAYS NEGOTIATIONS WITH OMAN OVER STRAIT OF HORMUZ IN FINAL STAGES",
       "detail": "Tehran's announcement comes after Trump said US would hold off on new Iran attack in hope of quick deal.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 AUG 2026 · 15:33 UTC",
-      "headline": "HOW TO END THE ‘HORMUZ WAR’",
-      "detail": "The least bad option for the US is to let the MoU Article 5 play out.",
-      "severity": "INFO"
     },
     {
       "timestamp": "02 AUG 2026 · 10:37 UTC",
