@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-08-03T16:20:08.921986+00:00",
+  "updated_at": "2026-08-03T18:47:54.966680+00:00",
   "market": {
-    "brent_usd": 83.67,
+    "brent_usd": 83.78,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 58.0,
-    "vix": 15.6,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.0
+    "ormuz_flow_pct": 8.5,
+    "vix": 15.76,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "03 AUG 2026 · 17:38 UTC",
+      "headline": "TRUMP BLASTS ‘DUPLICITOUS’ IRAN AFTER TEHRAN DENIES IT IS IN TALKS WITH THE US",
+      "detail": "US president demands 'Total Surrender' amid escalating naval blockade in the crucial Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "03 AUG 2026 · 15:57 UTC",
       "headline": "THREAT TO OIL TANKERS IN MIDDLE EAST  WORST SINCE START OF IRAN WAR, ANALYSTS SA",
       "detail": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "03 AUG 2026 · 14:58 UTC",
-      "headline": "IRÁN NIEGA NUEVAS CONVERSACIONES CON ESTADOS UNIDOS Y DESATA LA FURIA DE TRUMP ",
-      "detail": "El presidente estadounidense aseguró que retomarán el diálogo sobre el programa nuclear y el estrecho de Ormuz; los iraníes descartan contactos con Washington y negocian con Omán un corredor temporal ",
-      "severity": "INFO"
     },
     {
       "timestamp": "03 AUG 2026 · 11:29 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $83.67 (+0.00%)",
-    "VIX: 15.6",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $83.78 (+0.00%)",
+    "VIX: 15.76",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
