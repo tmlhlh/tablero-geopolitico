@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T02:27:27.224817+00:00",
+  "updated_at": "2026-08-03T06:18:03.235023+00:00",
   "market": {
     "brent_usd": 90.12,
     "brent_chg": 0.0
@@ -17,13 +17,7 @@
     {
       "timestamp": "02 AUG 2026 · 23:48 UTC",
       "headline": "TRUMP SAYS NEW ROUND OF IRAN TALKS WILL BEGIN MONDAY",
-      "detail": "The US president says Gulf allies and Tehran urged him to delay planned strikes.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 AUG 2026 · 19:21 UTC",
-      "headline": "TRUMP SUSPENDE UN ATAQUE CONTRA IRÁN Y AFIRMA QUE HAY BASES PARA UN ACUERDO QUE ",
-      "detail": "El presidente canceló una nueva ofensiva tras un principio de entendimiento con Teherán, que contempla la reapertura del estrecho de Ormuz y negociaciones sobre el programa nuclear iraní",
+      "detail": "The US president says Gulf allies and Tehran urged him to delay planned strikes, as oil prices dropped in response.",
       "severity": "CRÍTICO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "CENTCOM CHIEF BELIEVES US STRIKES AROUND HORMUZ NO LONGER EFFECTIVE – AXIOS",
       "detail": "CENTCOM chief reportedly advised President Donald Trump to halt strikes around the Strait of Hormuz, saying they were no longer effective Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "26 JUL 2026 · 03:30 UTC",
+      "headline": "JEAN MONNET EN ORMUZ ",
+      "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
