@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-03T20:23:58.859295+00:00",
+  "updated_at": "2026-08-03T22:04:55.622983+00:00",
   "market": {
-    "brent_usd": 83.79,
+    "brent_usd": 83.51,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.8,
+    "vix": 15.86,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.1
   },
@@ -22,7 +22,7 @@
     },
     {
       "timestamp": "03 AUG 2026 · 17:38 UTC",
-      "headline": "TRUMP BLASTS ‘DUPLICITOUS’ IRAN AFTER TEHRAN DENIES IT IS IN TALKS WITH THE US",
+      "headline": "TRUMP SAYS ONGOING TALKS ARE IRAN’S ‘LAST CHANCE’",
       "detail": "US president demands 'Total Surrender' amid escalating naval blockade in the crucial Strait of Hormuz.",
       "severity": "INFO"
     },
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $83.79 (+0.00%)",
-    "VIX: 15.8",
+    "BRENT: $83.51 (+0.00%)",
+    "VIX: 15.86",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
