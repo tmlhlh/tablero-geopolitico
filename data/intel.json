@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-03T10:38:38.908388+00:00",
+  "updated_at": "2026-08-03T13:37:42.925176+00:00",
   "market": {
-    "brent_usd": 83.82,
+    "brent_usd": 83.59,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.98,
+    "vix": 16.0,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.1
   },
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "03 AUG 2026 · 10:23 UTC",
+      "timestamp": "03 AUG 2026 · 12:44 UTC",
       "headline": "IRAN DENIES TRUMP'S CLAIM THAT NEW TALKS WILL BEGIN ON MONDAY",
       "detail": "While Iran denies that talks with the US are taking place, it is currently in negotiations with Oman over Strait of Hormuz access.",
       "severity": "INFO"
@@ -25,12 +25,6 @@
       "headline": "TRUMP SAYS NEW IRAN NEGOTIATIONS STARTING: WHAT WE KNOW",
       "detail": "Analysts say deal on Hormuz might be achievable but lasting peace agreement still far off.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "02 AUG 2026 · 23:48 UTC",
-      "headline": "TRUMP SAYS NEW ROUND OF IRAN TALKS WILL BEGIN MONDAY",
-      "detail": "The US president says Gulf allies and Tehran urged him to delay planned strikes, as oil prices dropped in response.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "02 AUG 2026 · 10:37 UTC",
@@ -49,11 +43,17 @@
       "headline": "JEAN MONNET EN ORMUZ ",
       "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "03 AUG 2026 · 13:37 UTC",
+      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
+      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $83.82 (+0.00%)",
-    "VIX: 15.98",
+    "BRENT: $83.59 (+0.00%)",
+    "VIX: 16.0",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
