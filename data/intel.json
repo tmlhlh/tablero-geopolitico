@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-08-04T12:58:26.064791+00:00",
+  "updated_at": "2026-08-04T15:25:20.326382+00:00",
   "market": {
-    "brent_usd": 81.66,
+    "brent_usd": 80.59,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 54.6,
-    "vix": 15.62,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.0
+    "ormuz_flow_pct": 8.5,
+    "vix": 16.09,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "04 AUG 2026 · 14:58 UTC",
+      "headline": "OIL PRICES FALL ON HOPES STRAIT OF HORMUZ COULD REOPEN",
+      "detail": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 AUG 2026 · 14:23 UTC",
+      "headline": "BEIRUT PORT BLAST ANNIVERSARY OVERSHADOWED BY NEW WAVE OF DESTRUCTION",
+      "detail": "As much of southern Lebanon lies in ruins due to Israeli attacks, residents struggle once again to rebuild their lives.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "04 AUG 2026 · 14:04 UTC",
+      "headline": "WHY ARE OIL COMPANIES POSTING RECORD PROFITS AMID IRAN WAR DISRUPTION?",
+      "detail": "Big Oil companies have bagged astronomical profits as the critical Strait of Hormuz remains closed.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "04 AUG 2026 · 11:05 UTC",
       "headline": "MISREAD AS PASSIVE, THE GULF IS QUIETLY ENDING FIFTY YEARS OF DEPENDENCE",
@@ -31,29 +49,11 @@
       "headline": "TURKISH CARGO SHIP HIT IN SUSPECTED UKRAINIAN ATTACK NEAR RUSSIAN PORT (VIDEOS)",
       "detail": "A Turkish cargo ship was struck by suspected Ukrainian drones near a Russian Black Sea port Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "03 AUG 2026 · 15:57 UTC",
-      "headline": "THREAT TO OIL TANKERS IN MIDDLE EAST  WORST SINCE START OF IRAN WAR, ANALYSTS SA",
-      "detail": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 AUG 2026 · 10:37 UTC",
-      "headline": "TRUMP CANCELS PLANNED ATTACK ON IRAN",
-      "detail": "Trump has canceled a planned attack on Iran after saying the outlines of a deal had been agreed to reopen the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 JUL 2026 · 22:52 UTC",
-      "headline": "SUSPECTED DRONE HITS US-OWNED GAS TANKER IN EGYPT (VIDEOS)",
-      "detail": "The president also reportedly promised to “beat the f***ing s**t out of” Tehran over the “surprise” missile attack on US forces Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $81.66 (+0.00%)",
-    "VIX: 15.62",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $80.59 (+0.00%)",
+    "VIX: 16.09",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
