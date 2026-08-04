@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-08-04T00:05:17.026615+00:00",
+  "updated_at": "2026-08-04T04:09:27.857831+00:00",
   "market": {
-    "brent_usd": 83.92,
+    "brent_usd": 85.04,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 37.2,
     "vix": 15.86,
-    "risk_level": "CRÍTICO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
-      "timestamp": "03 AUG 2026 · 17:38 UTC",
-      "headline": "TRUMP SAYS ONGOING TALKS ARE IRAN’S ‘LAST CHANCE’",
-      "detail": "US president demands 'Total Surrender' amid escalating naval blockade in the crucial Strait of Hormuz.",
-      "severity": "INFO"
+      "timestamp": "04 AUG 2026 · 00:12 UTC",
+      "headline": "TURKISH CARGO SHIP HIT IN SUSPECTED UKRAINIAN ATTACK NEAR RUSSIAN PORT (VIDEOS)",
+      "detail": "A Turkish cargo ship was struck by suspected Ukrainian drones near a Russian Black Sea port Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "03 AUG 2026 · 15:57 UTC",
@@ -45,15 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "04 AUG 2026 · 00:05 UTC",
+      "timestamp": "04 AUG 2026 · 04:09 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $83.92 (+0.00%)",
+    "BRENT: $85.04 (+0.00%)",
     "VIX: 15.86",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
