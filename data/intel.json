@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-03T22:04:55.622983+00:00",
+  "updated_at": "2026-08-04T00:05:17.026615+00:00",
   "market": {
-    "brent_usd": 83.51,
+    "brent_usd": 83.92,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "03 AUG 2026 · 19:31 UTC",
-      "headline": "TRUMP LANZA UN NUEVO ÚLTIMATUM A IRÁN Y VUELVE A AMENAZAR CON “EL MAYOR ATAQUE D",
-      "detail": "El presidente estadounidense había asegurado que retomarían el diálogo sobre el programa nuclear y el estrecho de Ormuz; los iraníes descartaron los contactos con Washington y negocian con Omán un cor",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "03 AUG 2026 · 17:38 UTC",
       "headline": "TRUMP SAYS ONGOING TALKS ARE IRAN’S ‘LAST CHANCE’",
@@ -49,10 +43,16 @@
       "headline": "JEAN MONNET EN ORMUZ ",
       "detail": "Nada avanzará con Trump desatado al mando y Netanyahu al frente del Gobierno más extremista de la historia de Israel. Pero todo puede cambiar con las elecciones de mitad de mandato en Estados Unidos y",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "04 AUG 2026 · 00:05 UTC",
+      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
+      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $83.51 (+0.00%)",
+    "BRENT: $83.92 (+0.00%)",
     "VIX: 15.86",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
