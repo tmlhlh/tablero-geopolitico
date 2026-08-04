@@ -1,41 +1,35 @@
 {
-  "updated_at": "2026-08-04T17:42:45.378820+00:00",
+  "updated_at": "2026-08-04T19:25:59.884004+00:00",
   "market": {
-    "brent_usd": 79.26,
+    "brent_usd": 79.37,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 16.52,
-    "risk_level": "CRÍTICO",
+    "ormuz_flow_pct": 65.5,
+    "vix": 16.43,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "04 AUG 2026 · 17:06 UTC",
+      "timestamp": "04 AUG 2026 · 19:00 UTC",
       "headline": "OIL PRICES FALL ON HOPES STRAIT OF HORMUZ COULD REOPEN",
       "detail": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "04 AUG 2026 · 18:27 UTC",
+      "headline": "RUBIO: PROGRESS MADE TO REOPEN STRAIT OF HORMUZ",
+      "detail": "Marco Rubio, US Secretary of State, said there has been progress in negotiations to reopen the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
       "timestamp": "04 AUG 2026 · 15:34 UTC",
       "headline": "QATAR SAYS INDIRECT TALKS CONTINUE TO REOPEN STRAIT OF HORMUZ",
       "detail": "Qatar FM spokesman Dr. Majed al-Ansari says indirect talks are continuing to avoid further regional escalation.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 AUG 2026 · 14:23 UTC",
-      "headline": "BEIRUT PORT BLAST ANNIVERSARY OVERSHADOWED BY NEW WAVE OF DESTRUCTION",
-      "detail": "As much of southern Lebanon lies in ruins due to Israeli attacks, residents struggle once again to rebuild their lives.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 AUG 2026 · 14:04 UTC",
-      "headline": "WHY ARE OIL COMPANIES POSTING RECORD PROFITS AMID IRAN WAR DISRUPTION?",
-      "detail": "Big Oil companies have bagged astronomical profits as the critical Strait of Hormuz remains closed.",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "TURKISH CARGO SHIP HIT IN SUSPECTED UKRAINIAN ATTACK NEAR RUSSIAN PORT (VIDEOS)",
       "detail": "A Turkish cargo ship was struck by suspected Ukrainian drones near a Russian Black Sea port Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "03 AUG 2026 · 15:57 UTC",
+      "headline": "THREAT TO OIL TANKERS IN MIDDLE EAST  WORST SINCE START OF IRAN WAR, ANALYSTS SA",
+      "detail": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.26 (+0.00%)",
-    "VIX: 16.52",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $79.37 (+0.00%)",
+    "VIX: 16.43",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
