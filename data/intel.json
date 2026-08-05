@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-05T20:23:07.026325+00:00",
+  "updated_at": "2026-08-05T22:08:41.176015+00:00",
   "market": {
-    "brent_usd": 79.2,
+    "brent_usd": 79.4,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 64.6,
-    "vix": 15.82,
+    "ormuz_flow_pct": 67.3,
+    "vix": 15.81,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
   },
@@ -15,9 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "05 AUG 2026 · 18:49 UTC",
-      "headline": "IRÁN AFIRMA HABER ALCANZADO UN PACTO CON OMÁN SOBRE ORMUZ Y TRUMP DICE QUE PUEDE",
-      "detail": "Teherán y Mascate definieron una ruta de navegación y ultiman una declaración conjunta, aunque advierten que la vía seguirá siendo insegura por la presencia militar de Estados Unidos",
+      "timestamp": "05 AUG 2026 · 21:21 UTC",
+      "headline": "IRAN SAYS IT HAS AGREED STRAIT OF HORMUZ SHIPPING ROUTE WITH OMAN",
+      "detail": "A foreign ministry spokesman did not give details but said an agreement with the Gulf nation was \"in the final stages\".",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 AUG 2026 · 20:55 UTC",
+      "headline": "IRAN SAYS HORMUZ TALKS WITH OMAN IN ‘FINAL’ STAGES AS ROUTE APPROVED",
+      "detail": "The geographical coordinates of the route in the waterway have been agreed upon with Oman, according to Tehran.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "СARGO SHIP STRUCK IN HORMUZ AFTER TRUMP’S ‘DECAPITATION’ THREAT",
       "detail": "Suspected Iranian attacks in the Strait of Hormuz and Kuwait followed US President Donald Trump’s “decapitation” threat against Tehran Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 AUG 2026 · 00:12 UTC",
-      "headline": "TURKISH CARGO SHIP HIT IN SUSPECTED UKRAINIAN ATTACK NEAR RUSSIAN PORT (VIDEOS)",
-      "detail": "A Turkish cargo ship was struck by suspected Ukrainian drones near a Russian Black Sea port Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.2 (+0.00%)",
-    "VIX: 15.82",
+    "BRENT: $79.4 (+0.00%)",
+    "VIX: 15.81",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
