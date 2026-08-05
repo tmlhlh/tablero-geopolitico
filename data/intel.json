@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T09:33:40.492101+00:00",
+  "updated_at": "2026-08-05T11:56:18.141219+00:00",
   "market": {
-    "brent_usd": 80.42,
+    "brent_usd": 80.16,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 87.1,
-    "vix": 16.16,
+    "ormuz_flow_pct": 88.6,
+    "vix": 16.66,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $80.42 (+0.00%)",
-    "VIX: 16.16",
+    "BRENT: $80.16 (+0.00%)",
+    "VIX: 16.66",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
