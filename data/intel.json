@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-08-05T11:56:18.141219+00:00",
+  "updated_at": "2026-08-05T14:05:13.601890+00:00",
   "market": {
-    "brent_usd": 80.16,
+    "brent_usd": 79.41,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 88.6,
-    "vix": 16.66,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.4
+    "ormuz_flow_pct": 24.8,
+    "vix": 17.17,
+    "risk_level": "ALTO",
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "05 AUG 2026 · 12:39 UTC",
+      "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
+      "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 AUG 2026 · 12:07 UTC",
+      "headline": "IRAN, OMAN, US ‘CLOSE’ TO HORMUZ DEAL: WHAT DO THEY ALL WANT?",
+      "detail": "An agreement could restore shipping through crucial waterway, paving way for peace talks between Tehran and Washington.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 AUG 2026 · 11:49 UTC",
+      "headline": "TURKISH CARGO SHIP CATCHES FIRE AFTER BLACK SEA DRONE ATTACK",
+      "detail": "A Turkish cargo ship caught fire after a drone attack near Russia’s Black Sea port of Novorossiysk.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "05 AUG 2026 · 09:07 UTC",
       "headline": "HORMUZ DEAL TO GIVE IRAN GREATER CONTROL OVER SHIPPING – AXIOS",
@@ -31,29 +49,11 @@
       "headline": "СARGO SHIP STRUCK IN HORMUZ AFTER TRUMP’S ‘DECAPITATION’ THREAT",
       "detail": "Suspected Iranian attacks in the Strait of Hormuz and Kuwait followed US President Donald Trump’s “decapitation” threat against Tehran Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "04 AUG 2026 · 00:12 UTC",
-      "headline": "TURKISH CARGO SHIP HIT IN SUSPECTED UKRAINIAN ATTACK NEAR RUSSIAN PORT (VIDEOS)",
-      "detail": "A Turkish cargo ship was struck by suspected Ukrainian drones near a Russian Black Sea port Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 AUG 2026 · 10:37 UTC",
-      "headline": "TRUMP CANCELS PLANNED ATTACK ON IRAN",
-      "detail": "Trump has canceled a planned attack on Iran after saying the outlines of a deal had been agreed to reopen the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 JUL 2026 · 22:52 UTC",
-      "headline": "SUSPECTED DRONE HITS US-OWNED GAS TANKER IN EGYPT (VIDEOS)",
-      "detail": "The president also reportedly promised to “beat the f***ing s**t out of” Tehran over the “surprise” missile attack on US forces Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $80.16 (+0.00%)",
-    "VIX: 16.66",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $79.41 (+0.00%)",
+    "VIX: 17.17",
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
