@@ -1,41 +1,29 @@
 {
-  "updated_at": "2026-08-05T06:28:07.016184+00:00",
+  "updated_at": "2026-08-05T09:33:40.492101+00:00",
   "market": {
-    "brent_usd": 79.08,
+    "brent_usd": 80.42,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.9,
-    "vix": 16.5,
+    "ormuz_flow_pct": 87.1,
+    "vix": 16.16,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.3
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
+      "timestamp": "05 AUG 2026 · 09:07 UTC",
+      "headline": "HORMUZ DEAL TO GIVE IRAN GREATER CONTROL OVER SHIPPING – AXIOS",
+      "detail": "The US, Iran, and Oman are close to reaching an interim deal to reopen the Strait of Hormuz, Axios has reported Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "05 AUG 2026 · 03:44 UTC",
       "headline": "TRUMP SAYS IRAN WILL BE 'HIT VERY HARD' IF HORMUZ STRAIT NOT OPEN SOON AS OIL PR",
       "detail": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 02:09 UTC",
-      "headline": "US STOCK MARKET HITS RECORD HIGH AMID HOPES FOR STRAIT OF HORMUZ REOPENING",
-      "detail": "Oil prices fall as US officials tout progress in talks to reopen critical waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN-OMAN TALKS ON HORMUZ ‘POSITIVE’; SHIP HIT IN RED SEA",
-      "detail": "Iran says talks with Oman are proceeding 'positively' as US officials say a deal could be possible soon.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 AUG 2026 · 21:03 UTC",
-      "headline": "SIX YEARS ON, BEIRUT BLAST FAMILIES STILL AWAIT JUSTICE",
-      "detail": "Families of victims of the Beirut port blast marked six years since the explosion by demanding truth and accountability.",
       "severity": "INFO"
     },
     {
@@ -49,11 +37,23 @@
       "headline": "TURKISH CARGO SHIP HIT IN SUSPECTED UKRAINIAN ATTACK NEAR RUSSIAN PORT (VIDEOS)",
       "detail": "A Turkish cargo ship was struck by suspected Ukrainian drones near a Russian Black Sea port Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 AUG 2026 · 10:37 UTC",
+      "headline": "TRUMP CANCELS PLANNED ATTACK ON IRAN",
+      "detail": "Trump has canceled a planned attack on Iran after saying the outlines of a deal had been agreed to reopen the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "29 JUL 2026 · 22:52 UTC",
+      "headline": "SUSPECTED DRONE HITS US-OWNED GAS TANKER IN EGYPT (VIDEOS)",
+      "detail": "The president also reportedly promised to “beat the f***ing s**t out of” Tehran over the “surprise” missile attack on US forces Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.08 (+0.00%)",
-    "VIX: 16.5",
+    "BRENT: $80.42 (+0.00%)",
+    "VIX: 16.16",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
