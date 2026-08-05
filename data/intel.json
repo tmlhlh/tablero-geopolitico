@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-05T03:57:10.187896+00:00",
+  "updated_at": "2026-08-05T06:28:07.016184+00:00",
   "market": {
-    "brent_usd": 78.5,
+    "brent_usd": 79.08,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 46.6,
+    "ormuz_flow_pct": 84.9,
     "vix": 16.5,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "04 AUG 2026 · 20:59 UTC",
-      "headline": "US SAYS DEAL ON REOPENING HORMUZ CLOSE AS IRAN, OMAN HOLD ‘POSITIVE’ TALKS",
-      "detail": "Negotiators are working to expand safe shipping through the strait, though key differences remain unresolved.",
-      "severity": "INFO"
+      "timestamp": "04 AUG 2026 · 10:46 UTC",
+      "headline": "СARGO SHIP STRUCK IN HORMUZ AFTER TRUMP’S ‘DECAPITATION’ THREAT",
+      "detail": "Suspected Iranian attacks in the Strait of Hormuz and Kuwait followed US President Donald Trump’s “decapitation” threat against Tehran Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "04 AUG 2026 · 20:20 UTC",
-      "headline": "ARGENTINA GRAIN EXPORTS HALT AS MARITIME PILOTS STRIKE OVER MILEI DECREE",
-      "detail": "More than 45 vessels have been affected by the strike at Argentinian ports.",
+      "timestamp": "04 AUG 2026 · 00:12 UTC",
+      "headline": "TURKISH CARGO SHIP HIT IN SUSPECTED UKRAINIAN ATTACK NEAR RUSSIAN PORT (VIDEOS)",
+      "detail": "A Turkish cargo ship was struck by suspected Ukrainian drones near a Russian Black Sea port Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $78.5 (+0.00%)",
+    "BRENT: $79.08 (+0.00%)",
     "VIX: 16.5",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
