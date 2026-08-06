@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-06T08:28:41.108027+00:00",
+  "updated_at": "2026-08-06T11:18:46.147506+00:00",
   "market": {
-    "brent_usd": 79.64,
+    "brent_usd": 80.36,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 18.3,
-    "vix": 15.85,
-    "risk_level": "ALTO",
+    "ormuz_flow_pct": 53.8,
+    "vix": 15.95,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "06 AUG 2026 · 10:20 UTC",
+      "headline": "HORMUZ DEAL ‘CLOSE’: WHAT’S THE LATEST ON EACH SIDE’S POSITIONS?",
+      "detail": "US officials say they would not accept any arrangement on the waterway that would leave Iran in control.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 AUG 2026 · 06:40 UTC",
       "headline": "UKRAINE ESCALATES STRIKES ON RUSSIAN SHIPPING",
@@ -33,27 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "06 AUG 2026 · 03:21 UTC",
-      "headline": "MILEI, ANTE EL PELIGRO DE LA “RIGIDEZ TÓXICA”",
-      "detail": "El Gobierno emite señales de agotamiento en distintas dimensiones, mientras un cambio en las preocupaciones de la sociedad pone a prueba la plasticidad del Presidente; el estrecho de Ormuz libertario ",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 AUG 2026 · 02:28 UTC",
-      "headline": "EXPLOSIVE-LADEN DRONE FOUND AT GERMAN AIRPORT HOSTING UKRAINIAN FLEET",
-      "detail": "German authorities are investigating how a drone packed with explosives reached Leipzig/Halle Airport.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "06 AUG 2026 · 01:19 UTC",
       "headline": "IRAN SAYS DEAL WITH OMAN ON STRAIT OF HORMUZ IS IN FINAL STAGES",
       "detail": "Neither the US or Oman have commented on the proposed agreement on the vital waterway.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "05 AUG 2026 · 16:09 UTC",
+      "headline": "IRÁN INSISTE EN MANTENER EL CONTROL DEL ESTRECHO DE ORMUZ MIENTRAS TRUMP AMENAZA",
+      "detail": "Teherán propone a Omán un sistema que le atribuiría la supervisión del tráfico y el cobro de tasas vinculadas a cuestiones de seguridad y el medio ambiente",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.64 (+0.00%)",
-    "VIX: 15.85",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "BRENT: $80.36 (+0.00%)",
+    "VIX: 15.95",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
