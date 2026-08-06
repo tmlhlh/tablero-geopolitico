@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-06T02:31:34.599085+00:00",
+  "updated_at": "2026-08-06T05:44:37.752896+00:00",
   "market": {
-    "brent_usd": 79.82,
+    "brent_usd": 79.11,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 34.2,
+    "ormuz_flow_pct": 24.8,
     "vix": 15.81,
     "risk_level": "ALTO",
     "insurance_spread_pct": 1.1
@@ -15,44 +15,44 @@
   },
   "events": [
     {
+      "timestamp": "06 AUG 2026 · 05:05 UTC",
+      "headline": "STRAIT OF HORMUZ TOLLS WOULD HARM LIVELIHOODS WORLDWIDE, SHIPOWNERS WARN",
+      "detail": "Eight leading shipping organisations sign letter opposing fees in critical waterway.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 04:49 UTC",
+      "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
+      "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 03:21 UTC",
+      "headline": "MILEI, ANTE EL PELIGRO DE LA “RIGIDEZ TÓXICA”",
+      "detail": "El Gobierno emite señales de agotamiento en distintas dimensiones, mientras un cambio en las preocupaciones de la sociedad pone a prueba la plasticidad del Presidente; el estrecho de Ormuz libertario ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 02:28 UTC",
+      "headline": "EXPLOSIVE-LADEN DRONE FOUND AT GERMAN AIRPORT HOSTING UKRAINIAN FLEET",
+      "detail": "German authorities are investigating how a drone packed with explosives reached Leipzig/Halle Airport.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "06 AUG 2026 · 01:19 UTC",
       "headline": "IRAN SAYS DEAL WITH OMAN ON STRAIT OF HORMUZ IS IN FINAL STAGES",
       "detail": "Neither the US or Oman have commented on the proposed agreement on the vital waterway.",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 AUG 2026 · 01:00 UTC",
-      "headline": "MILEI, ANTE EL PELIGRO DE LA “RIGIDEZ TÓXICA”",
-      "detail": "El Gobierno emite señales de agotamiento en distintas dimensiones, mientras un cambio en las preocupaciones de la sociedad pone a prueba la plasticidad del Presidente; el estrecho de Ormuz libertario ",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "06 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN, OMAN CLOSE IN ON HORMUZ DEAL; HOUTHIS ATTACK TANKERS",
+      "headline": "IRAN WAR LIVE: TRUMP DENIES MUNITIONS SHORTAGES; TEHRAN, OMAN NEAR DEAL",
       "detail": "Iran, Oman agree on shipping routes in the Strait of Hormuz, as Houthis attack Saudi tankers and Israel bombs Lebanon.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 20:55 UTC",
-      "headline": "IRAN SAYS HORMUZ TALKS WITH OMAN IN ‘FINAL’ STAGES AS ROUTE APPROVED",
-      "detail": "The geographical coordinates of the route in the waterway have been agreed upon with Oman, according to Tehran.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 16:09 UTC",
-      "headline": "IRÁN INSISTE EN MANTENER EL CONTROL DEL ESTRECHO DE ORMUZ MIENTRAS TRUMP AMENAZA",
-      "detail": "Teherán propone a Omán un sistema que le atribuiría la supervisión del tráfico y el cobro de tasas vinculadas a cuestiones de seguridad y el medio ambiente",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 12:39 UTC",
-      "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
-      "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.82 (+0.00%)",
+    "BRENT: $79.11 (+0.00%)",
     "VIX: 15.81",
     "ORMUZ: DISRUPCIÓN SEVERA"
   ]
