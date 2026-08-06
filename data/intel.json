@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-06T05:44:37.752896+00:00",
+  "updated_at": "2026-08-06T08:28:41.108027+00:00",
   "market": {
-    "brent_usd": 79.11,
+    "brent_usd": 79.64,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 24.8,
-    "vix": 15.81,
+    "ormuz_flow_pct": 18.3,
+    "vix": 15.85,
     "risk_level": "ALTO",
     "insurance_spread_pct": 1.1
   },
@@ -14,6 +14,12 @@
     "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "06 AUG 2026 · 06:40 UTC",
+      "headline": "UKRAINE ESCALATES STRIKES ON RUSSIAN SHIPPING",
+      "detail": "Striking hundreds of targets in a matter of weeks, Ukraine has found a new way to pressure Russia's hold on Crimea",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "06 AUG 2026 · 05:05 UTC",
       "headline": "STRAIT OF HORMUZ TOLLS WOULD HARM LIVELIHOODS WORLDWIDE, SHIPOWNERS WARN",
@@ -43,17 +49,11 @@
       "headline": "IRAN SAYS DEAL WITH OMAN ON STRAIT OF HORMUZ IS IN FINAL STAGES",
       "detail": "Neither the US or Oman have commented on the proposed agreement on the vital waterway.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP DENIES MUNITIONS SHORTAGES; TEHRAN, OMAN NEAR DEAL",
-      "detail": "Iran, Oman agree on shipping routes in the Strait of Hormuz, as Houthis attack Saudi tankers and Israel bombs Lebanon.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.11 (+0.00%)",
-    "VIX: 15.81",
+    "BRENT: $79.64 (+0.00%)",
+    "VIX: 15.85",
     "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
