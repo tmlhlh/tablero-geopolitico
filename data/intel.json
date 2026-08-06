@@ -1,24 +1,36 @@
 {
-  "updated_at": "2026-08-05T23:56:45.884239+00:00",
+  "updated_at": "2026-08-06T02:31:34.599085+00:00",
   "market": {
-    "brent_usd": 79.36,
+    "brent_usd": 79.82,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 69.9,
+    "ormuz_flow_pct": 34.2,
     "vix": 15.81,
-    "risk_level": "MEDIO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
-      "timestamp": "05 AUG 2026 · 21:21 UTC",
-      "headline": "IRAN SAYS IT HAS AGREED STRAIT OF HORMUZ SHIPPING ROUTE WITH OMAN",
-      "detail": "A foreign ministry spokesman did not give details but said an agreement with the Gulf nation was \"in the final stages\".",
+      "timestamp": "06 AUG 2026 · 01:19 UTC",
+      "headline": "IRAN SAYS DEAL WITH OMAN ON STRAIT OF HORMUZ IS IN FINAL STAGES",
+      "detail": "Neither the US or Oman have commented on the proposed agreement on the vital waterway.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 01:00 UTC",
+      "headline": "MILEI, ANTE EL PELIGRO DE LA “RIGIDEZ TÓXICA”",
+      "detail": "El Gobierno emite señales de agotamiento en distintas dimensiones, mientras un cambio en las preocupaciones de la sociedad pone a prueba la plasticidad del Presidente; el estrecho de Ormuz libertario ",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN, OMAN CLOSE IN ON HORMUZ DEAL; HOUTHIS ATTACK TANKERS",
+      "detail": "Iran, Oman agree on shipping routes in the Strait of Hormuz, as Houthis attack Saudi tankers and Israel bombs Lebanon.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "05 AUG 2026 · 20:55 UTC",
@@ -37,23 +49,11 @@
       "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
       "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 09:07 UTC",
-      "headline": "HORMUZ DEAL TO GIVE IRAN GREATER CONTROL OVER SHIPPING – AXIOS",
-      "detail": "The US, Iran, and Oman are close to reaching an interim deal to reopen the Strait of Hormuz, Axios has reported Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "04 AUG 2026 · 10:46 UTC",
-      "headline": "СARGO SHIP STRUCK IN HORMUZ AFTER TRUMP’S ‘DECAPITATION’ THREAT",
-      "detail": "Suspected Iranian attacks in the Strait of Hormuz and Kuwait followed US President Donald Trump’s “decapitation” threat against Tehran Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $79.36 (+0.00%)",
+    "BRENT: $79.82 (+0.00%)",
     "VIX: 15.81",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
