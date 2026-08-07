@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-07T14:10:17.892559+00:00",
+  "updated_at": "2026-08-07T15:52:06.425154+00:00",
   "market": {
-    "brent_usd": 82.3,
+    "brent_usd": 83.43,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 95.8,
-    "vix": 15.04,
+    "ormuz_flow_pct": 96.2,
+    "vix": 14.96,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "07 AUG 2026 · 12:39 UTC",
+      "timestamp": "07 AUG 2026 · 14:53 UTC",
       "headline": "LOS HUTÍES ELEVAN LA TENSIÓN EN EL GOLFO CON NUEVOS ATAQUES CONTRA ARABIA SAUDÍ ",
       "detail": "Riad firma con Estambul e Islamabad un acuerdo de defensa para reforzar la “disuasión colectiva” frente a cualquier acto de agresión",
       "severity": "CRÍTICO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $82.3 (+0.00%)",
-    "VIX: 15.04",
+    "BRENT: $83.43 (+0.00%)",
+    "VIX: 14.96",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
