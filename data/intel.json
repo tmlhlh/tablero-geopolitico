@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-07T09:57:41.100520+00:00",
+  "updated_at": "2026-08-07T10:53:46.119100+00:00",
   "market": {
-    "brent_usd": 82.36,
+    "brent_usd": 81.83,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 94.7,
-    "vix": 15.28,
+    "ormuz_flow_pct": 95.0,
+    "vix": 15.26,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "07 AUG 2026 · 10:00 UTC",
+      "headline": "‘DE-ESCALATION’: EUROPE HESITATES AS US PUSHES FOR HORMUZ NAVAL MISSION",
+      "detail": "The UK and France are not seeking confrontation with Iran in the US-Israeli war Europe largely rejected, say analysts.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "07 AUG 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP SAYS IRAN CAN’T ‘GO ON MUCH LONGER’; HORMUZ DEAL CLOSE",
@@ -43,17 +49,11 @@
       "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
       "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 09:07 UTC",
-      "headline": "HORMUZ DEAL TO GIVE IRAN GREATER CONTROL OVER SHIPPING – AXIOS",
-      "detail": "The US, Iran, and Oman are close to reaching an interim deal to reopen the Strait of Hormuz, Axios has reported Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $82.36 (+0.00%)",
-    "VIX: 15.28",
+    "BRENT: $81.83 (+0.00%)",
+    "VIX: 15.26",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
