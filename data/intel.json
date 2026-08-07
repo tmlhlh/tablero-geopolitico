@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-07T16:50:18.163098+00:00",
+  "updated_at": "2026-08-07T17:44:50.193056+00:00",
   "market": {
-    "brent_usd": 83.64,
+    "brent_usd": 83.12,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 96.4,
-    "vix": 15.0,
+    "ormuz_flow_pct": 96.5,
+    "vix": 14.96,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "07 AUG 2026 · 16:37 UTC",
+      "headline": "IRÁN Y OMÁN ULTIMAN UN ACUERDO SOBRE ORMUZ ENTRE AMENAZAS DE TRUMP",
+      "detail": "Este pacto, que estaría en vigor 60 días, es visto por Teherán como una “soberanía efectiva” sobre el estrecho",
+      "severity": "INFO"
+    },
     {
       "timestamp": "07 AUG 2026 · 14:53 UTC",
       "headline": "LOS HUTÍES ELEVAN LA TENSIÓN EN EL GOLFO CON NUEVOS ATAQUES CONTRA ARABIA SAUDÍ ",
@@ -33,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "07 AUG 2026 · 10:00 UTC",
-      "headline": "‘DE-ESCALATION’: EUROPE HESITATES AS US PUSHES FOR HORMUZ NAVAL MISSION",
-      "detail": "The UK and France are not seeking confrontation with Iran in the US-Israeli war Europe largely rejected, say analysts.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "06 AUG 2026 · 21:02 UTC",
       "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
       "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $83.64 (+0.00%)",
-    "VIX: 15.0",
+    "BRENT: $83.12 (+0.00%)",
+    "VIX: 14.96",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
