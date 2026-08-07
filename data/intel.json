@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-07T10:53:46.119100+00:00",
+  "updated_at": "2026-08-07T11:42:22.364376+00:00",
   "market": {
     "brent_usd": 81.83,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 95.0,
-    "vix": 15.26,
+    "ormuz_flow_pct": 95.2,
+    "vix": 15.22,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "07 AUG 2026 · 10:00 UTC",
-      "headline": "‘DE-ESCALATION’: EUROPE HESITATES AS US PUSHES FOR HORMUZ NAVAL MISSION",
-      "detail": "The UK and France are not seeking confrontation with Iran in the US-Israeli war Europe largely rejected, say analysts.",
+      "timestamp": "07 AUG 2026 · 11:15 UTC",
+      "headline": "TRUMP SAYS WAR ‘CAN’T GO MUCH LONGER’ – WHAT’S THE LATEST ON TALKS?",
+      "detail": "Reports suggest that Tehran is discussing a bill barring US and Israeli vessels from passing the Strait of Hormuz.",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS IRAN CAN’T ‘GO ON MUCH LONGER’; HORMUZ DEAL CLOSE",
-      "detail": "The US, Iran and Oman are close to a temporary deal to reopen the Strait of Hormuz.",
+      "timestamp": "07 AUG 2026 · 10:00 UTC",
+      "headline": "‘DE-ESCALATION’: EUROPE HESITATES AS US PUSHES FOR HORMUZ NAVAL MISSION",
+      "detail": "The UK and France are not seeking confrontation with Iran in the US-Israeli war Europe largely rejected, say analysts.",
       "severity": "INFO"
     },
     {
@@ -53,7 +53,7 @@
   ],
   "ticker_items": [
     "BRENT: $81.83 (+0.00%)",
-    "VIX: 15.26",
+    "VIX: 15.22",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
