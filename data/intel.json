@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-07T11:42:22.364376+00:00",
+  "updated_at": "2026-08-07T12:54:09.933549+00:00",
   "market": {
-    "brent_usd": 81.83,
+    "brent_usd": 81.65,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 95.2,
-    "vix": 15.22,
+    "ormuz_flow_pct": 95.5,
+    "vix": 15.15,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "07 AUG 2026 · 12:39 UTC",
+      "headline": "LOS HUTÍES ELEVAN LA TENSIÓN EN EL GOLFO CON NUEVOS ATAQUES CONTRA ARABIA SAUDÍ ",
+      "detail": "Riad firma con Estambul e Islamabad un acuerdo de defensa para reforzar la “disuasión colectiva” frente a cualquier acto de agresión",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 AUG 2026 · 12:28 UTC",
+      "headline": "IRAN’S GRIP ON TRADE IS A POTENT WEAPON, BUT IT HAS AN EXPIRY DATE",
+      "detail": "Iran can exploit dependence on Hormuz today, but prolonged disruption will erode that leverage",
+      "severity": "INFO"
+    },
     {
       "timestamp": "07 AUG 2026 · 11:15 UTC",
       "headline": "TRUMP SAYS WAR ‘CAN’T GO MUCH LONGER’ – WHAT’S THE LATEST ON TALKS?",
@@ -37,23 +49,11 @@
       "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
       "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 16:09 UTC",
-      "headline": "IRÁN INSISTE EN MANTENER EL CONTROL DEL ESTRECHO DE ORMUZ MIENTRAS TRUMP AMENAZA",
-      "detail": "Teherán propone a Omán un sistema que le atribuiría la supervisión del tráfico y el cobro de tasas vinculadas a cuestiones de seguridad y el medio ambiente",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 12:39 UTC",
-      "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
-      "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $81.83 (+0.00%)",
-    "VIX: 15.22",
+    "BRENT: $81.65 (+0.00%)",
+    "VIX: 15.15",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
