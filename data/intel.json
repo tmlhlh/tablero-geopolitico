@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-08-06T13:56:49.944122+00:00",
+  "updated_at": "2026-08-07T00:38:53.747596+00:00",
   "market": {
-    "brent_usd": 80.79,
+    "brent_usd": 83.71,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 84.8,
-    "vix": 15.85,
+    "ormuz_flow_pct": 91.3,
+    "vix": 15.15,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "06 AUG 2026 · 13:13 UTC",
-      "headline": "WILL THE US-IRAN WAR AND HORMUZ DEADLOCK LAST FOR MONTHS?",
-      "detail": "Will the war on Iran and Hormuz deadlock last for months? Experts analyse the obstacles blocking a lasting deal.",
+      "timestamp": "07 AUG 2026 · 00:00 UTC",
+      "headline": "TRUMP SAYS WAR CAN’T ‘GO MUCH LONGER’, HORMUZ DEAL CLOSE",
+      "detail": "The US, Iran, and Oman are close to a temporary deal to reopen the Strait of Hormuz",
       "severity": "INFO"
     },
     {
-      "timestamp": "06 AUG 2026 · 10:20 UTC",
-      "headline": "HORMUZ DEAL ‘CLOSE’: WHAT’S THE LATEST ON EACH SIDE’S POSITIONS?",
-      "detail": "US officials say they would not accept any arrangement on the waterway that would leave Iran in control.",
+      "timestamp": "06 AUG 2026 · 21:02 UTC",
+      "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
+      "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $80.79 (+0.00%)",
-    "VIX: 15.85",
+    "BRENT: $83.71 (+0.00%)",
+    "VIX: 15.15",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
