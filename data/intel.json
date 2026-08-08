@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T09:33:07.715000+00:00",
+  "updated_at": "2026-08-08T10:27:05.633891+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "08 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: ‘HIGH-LEVEL’ APPROVAL STILL PENDING FROM TEHRAN ON OMAN DEAL",
-      "detail": "Iran, Oman agree on framework regarding Hormuz, with final approval still pending from Tehran.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "07 AUG 2026 · 16:37 UTC",
       "headline": "IRÁN Y OMÁN ULTIMAN UN ACUERDO SOBRE ORMUZ ENTRE AMENAZAS DE TRUMP",
@@ -48,6 +42,12 @@
       "timestamp": "05 AUG 2026 · 12:39 UTC",
       "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
       "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 AUG 2026 · 09:07 UTC",
+      "headline": "HORMUZ DEAL TO GIVE IRAN GREATER CONTROL OVER SHIPPING – AXIOS",
+      "detail": "The US, Iran, and Oman are close to reaching an interim deal to reopen the Strait of Hormuz, Axios has reported Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
