@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-08T17:24:59.610496+00:00",
+  "updated_at": "2026-08-08T18:31:03.502246+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 61.0,
+    "ormuz_flow_pct": 62.8,
     "vix": 14.9,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -39,15 +39,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "07 AUG 2026 · 14:53 UTC",
-      "headline": "LOS HUTÍES ELEVAN LA TENSIÓN EN EL GOLFO CON NUEVOS ATAQUES CONTRA ARABIA SAUDÍ ",
-      "detail": "Riad firma con Estambul e Islamabad un acuerdo de defensa para reforzar la “disuasión colectiva” frente a cualquier acto de agresión",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "06 AUG 2026 · 21:02 UTC",
       "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
       "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 04:49 UTC",
+      "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
+      "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
