@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-08T07:44:37.382048+00:00",
+  "updated_at": "2026-08-08T08:35:16.736975+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 98.4,
+    "ormuz_flow_pct": 98.5,
     "vix": 14.9,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -16,8 +16,8 @@
   "events": [
     {
       "timestamp": "08 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRILATERAL MECCA DEFENCE PACT SIGNED, AS HORMUZ DEAL LOOMS",
-      "detail": "Saudi crown prince, Turkish president and Pakistani prime minister sign a joint defence agreement in Mecca.",
+      "headline": "IRAN WAR LIVE: ‘HIGH-LEVEL’ APPROVAL STILL PENDING FROM TEHRAN ON OMAN DEAL",
+      "detail": "Iran, Oman agree on framework regarding Hormuz, with final approval still pending from Tehran.",
       "severity": "INFO"
     },
     {
