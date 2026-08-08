@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-07T23:29:43.139363+00:00",
+  "updated_at": "2026-08-08T01:16:25.585717+00:00",
   "market": {
     "brent_usd": 82.27,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 97.5,
+    "ormuz_flow_pct": 97.7,
     "vix": 14.9,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "08 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRILATERAL MECCA DEFENCE PACT SIGNED, AS HORMUZ DEAL LOOMS",
+      "detail": "Saudi crown prince, Turkish president and Pakistani prime minister sign a joint defence agreement in Mecca.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "07 AUG 2026 · 16:37 UTC",
       "headline": "IRÁN Y OMÁN ULTIMAN UN ACUERDO SOBRE ORMUZ ENTRE AMENAZAS DE TRUMP",
@@ -42,12 +48,6 @@
       "timestamp": "05 AUG 2026 · 12:39 UTC",
       "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
       "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 09:07 UTC",
-      "headline": "HORMUZ DEAL TO GIVE IRAN GREATER CONTROL OVER SHIPPING – AXIOS",
-      "detail": "The US, Iran, and Oman are close to reaching an interim deal to reopen the Strait of Hormuz, Axios has reported Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
