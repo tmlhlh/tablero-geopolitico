@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-08T19:25:46.593993+00:00",
+  "updated_at": "2026-08-08T20:24:11.393749+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 64.2,
+    "ormuz_flow_pct": 65.8,
     "vix": 14.9,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -39,15 +39,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "07 AUG 2026 · 16:37 UTC",
-      "headline": "IRÁN Y OMÁN ULTIMAN UN ACUERDO SOBRE ORMUZ ENTRE AMENAZAS DE TRUMP",
-      "detail": "Este pacto, que estaría en vigor 60 días, es visto por Teherán como una “soberanía efectiva” sobre el estrecho",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "06 AUG 2026 · 21:02 UTC",
       "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
       "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 04:49 UTC",
+      "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
+      "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
