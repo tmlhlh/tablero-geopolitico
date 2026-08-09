@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-09T06:49:41.699711+00:00",
+  "updated_at": "2026-08-09T07:50:50.843929+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 42.4,
+    "ormuz_flow_pct": 44.5,
     "vix": 14.9,
-    "risk_level": "ALTO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
@@ -28,7 +28,7 @@
     },
     {
       "timestamp": "09 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: PEZESHKIAN SEEKS END TO ‘NO WAR, NO PEACE’ AMID HORMUZ TALKS",
+      "headline": "IRAN WAR LIVE: TEHRAN SETS HORMUZ TERMS, HOUTHIS CLAIM ATTACK ON SAUDI SITE",
       "detail": "IRGC sets conditions to reopen Strait of Hormuz as US seeks commitments to end attacks on ships in the waterway.",
       "severity": "CRÍTICO"
     },
