@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-09T16:28:57.620103+00:00",
+  "updated_at": "2026-08-09T17:27:06.097018+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 50.3,
+    "ormuz_flow_pct": 76.7,
     "vix": 14.9,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -19,12 +19,6 @@
       "headline": "WAR ON IRAN: PHASE II: DAY 29",
       "detail": "Iran says the Strait of Hormuz will remain restricted unless the US meets a series of demands.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 AUG 2026 · 10:55 UTC",
-      "headline": "RUSSIAN FORCES KILL SEVERAL IN UKRAINE, LAUNCH ‘BRUTAL’ ATTACK IN ODESA",
-      "detail": "President Volodymyr Zelenskyy accuses Moscow of harming global food security amid a plate of attacks on Odesa's port.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "09 AUG 2026 · 03:58 UTC",
@@ -48,6 +42,12 @@
       "timestamp": "06 AUG 2026 · 04:49 UTC",
       "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
       "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 AUG 2026 · 12:39 UTC",
+      "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
+      "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
