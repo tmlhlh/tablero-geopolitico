@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-09T01:21:03.593411+00:00",
+  "updated_at": "2026-08-09T03:37:46.719820+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 63.2,
     "vix": 14.9,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
       "timestamp": "09 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN DEMANDS END TO US BLOCKADE TO REOPEN STRAIT OF HORMUZ",
+      "headline": "IRAN WAR LIVE: PEZESHKIAN SEEKS END TO ‘NO WAR, NO PEACE’ AMID HORMUZ TALKS",
       "detail": "IRGC sets conditions to reopen Strait of Hormuz as US seeks commitments to end attacks on ships in the waterway.",
       "severity": "CRÍTICO"
     },
@@ -25,12 +25,6 @@
       "headline": "HORMUZ TALKS POSITIVE, OMAN SAYS, AS IRAN WARNS DEAL WOULD NOT OPEN STRAIT",
       "detail": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 AUG 2026 · 15:01 UTC",
-      "headline": "UAE SAYS IRAN TARGETED ADNOC TANKER IN STRAIT OF HORMUZ, NO CASUALTIES",
-      "detail": "Gulf and Arab governments condemn Iran over missile strike on Emirati tanker.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "06 AUG 2026 · 21:02 UTC",
@@ -49,11 +43,17 @@
       "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
       "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "05 AUG 2026 · 09:07 UTC",
+      "headline": "HORMUZ DEAL TO GIVE IRAN GREATER CONTROL OVER SHIPPING – AXIOS",
+      "detail": "The US, Iran, and Oman are close to reaching an interim deal to reopen the Strait of Hormuz, Axios has reported Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $83.55 (+0.00%)",
     "VIX: 14.9",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
