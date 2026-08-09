@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-09T08:37:00.947034+00:00",
+  "updated_at": "2026-08-09T09:35:01.854101+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 46.0,
+    "ormuz_flow_pct": 47.9,
     "vix": 14.9,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -28,8 +28,8 @@
     },
     {
       "timestamp": "09 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SETS HORMUZ TERMS, HOUTHIS CLAIM ATTACK ON SAUDI SITE",
-      "detail": "IRGC sets conditions to reopen Strait of Hormuz as US seeks commitments to end attacks on ships in the waterway.",
+      "headline": "IRAN WAR LIVE: TEHRAN SEEKS ‘TO CREATE GROUNDS’ FOR TALKS WITH US",
+      "detail": "IRGC sets conditions to reopen the Strait of Hormuz as the US seeks commitments to end attacks on ships in the waterway.",
       "severity": "CRÍTICO"
     },
     {
