@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-09T05:00:15.171395+00:00",
+  "updated_at": "2026-08-09T05:52:15.566582+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 38.7,
+    "ormuz_flow_pct": 40.5,
     "vix": 14.9,
     "risk_level": "ALTO",
     "insurance_spread_pct": 0.8
@@ -14,6 +14,12 @@
     "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "09 AUG 2026 · 05:06 UTC",
+      "headline": "IRAN ISSUES NEW DEMANDS AS PEZESHKIAN SEEKS DEAL",
+      "detail": "Senior Iranian security official sets broader conditions for reopening Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 AUG 2026 · 03:58 UTC",
       "headline": "IRAN MAKES NEW HORMUZ DEMANDS AS MISSILE HITS EMIRATI SHIP",
@@ -42,12 +48,6 @@
       "timestamp": "06 AUG 2026 · 04:49 UTC",
       "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
       "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 AUG 2026 · 12:39 UTC",
-      "headline": "EXPLOSIONS REPORTED IN DUBAI INDUSTRIAL DISTRICT",
-      "detail": "Witnesses in the UAE have reported explosions at Dubai’s Jebel Ali Free Zone, a major industrial and logistics hub in the Persian Gulf Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
