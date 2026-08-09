@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-09T11:24:34.675340+00:00",
+  "updated_at": "2026-08-09T12:41:08.535417+00:00",
   "market": {
     "brent_usd": 83.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 30.0,
+    "ormuz_flow_pct": 42.8,
     "vix": 14.9,
-    "risk_level": "ALTO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
@@ -33,12 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "09 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SEEKS ‘TO CREATE GROUNDS’ FOR TALKS WITH US",
-      "detail": "IRGC sets conditions to reopen the Strait of Hormuz as the US seeks commitments to end attacks on ships in the waterway.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "08 AUG 2026 · 19:18 UTC",
       "headline": "HORMUZ TALKS POSITIVE, OMAN SAYS, AS IRAN WARNS DEAL WOULD NOT OPEN STRAIT",
       "detail": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear.",
@@ -48,6 +42,12 @@
       "timestamp": "06 AUG 2026 · 21:02 UTC",
       "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
       "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 04:49 UTC",
+      "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
+      "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
