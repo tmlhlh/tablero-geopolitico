@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-08-10T01:23:05.769480+00:00",
+  "updated_at": "2026-08-10T03:49:59.196048+00:00",
   "market": {
-    "brent_usd": 84.54,
+    "brent_usd": 84.37,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 19.9,
+    "ormuz_flow_pct": 11.3,
     "vix": 14.9,
-    "risk_level": "ALTO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "CIERRE FACTICIO: Flujo al 11.3%"
   },
   "events": [
+    {
+      "timestamp": "10 AUG 2026 · 03:24 UTC",
+      "headline": "OIL PRICES CLIMB AS IRANIAN DEMANDS CLOUD OUTLOOK FOR STRAIT OF HORMUZ",
+      "detail": "Brent crude prices rise as Tehran says critical waterway will not reopen without major US concessions.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 AUG 2026 · 01:34 UTC",
+      "headline": "HOUTHIS LAUNCH FRESH BALLISTIC MISSILE AND DRONE ATTACKS ON AL-MAKHA PORT",
+      "detail": "Iran-backed Houthis have resumed attacks on Yemen’s al-Makha port in the Red Sea.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "10 AUG 2026 · 00:19 UTC",
       "headline": "HOUTHIS RENEW MISSILE AND DRONE ATTACKS ON YEMEN’S PORT OF AL-MAKHA",
@@ -33,27 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "09 AUG 2026 · 15:46 UTC",
-      "headline": "WAR ON IRAN: PHASE II: DAY 29",
-      "detail": "Iran says the Strait of Hormuz will remain restricted unless the US meets a series of demands.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "09 AUG 2026 · 03:58 UTC",
       "headline": "IRAN MAKES NEW HORMUZ DEMANDS AS MISSILE HITS EMIRATI SHIP",
       "detail": "Iran has presented six conditions to the US for the reopening of the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "08 AUG 2026 · 19:18 UTC",
-      "headline": "HORMUZ TALKS POSITIVE, OMAN SAYS, AS IRAN WARNS DEAL WOULD NOT OPEN STRAIT",
-      "detail": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.54 (+0.00%)",
+    "BRENT: $84.37 (+0.00%)",
     "VIX: 14.9",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 11.3%"
   ]
 }
