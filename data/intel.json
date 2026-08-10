@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-10T09:14:45.327309+00:00",
+  "updated_at": "2026-08-10T11:03:56.685165+00:00",
   "market": {
-    "brent_usd": 84.5,
+    "brent_usd": 84.84,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.46,
+    "vix": 15.45,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.0
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 AUG 2026 · 10:11 UTC",
+      "headline": "WHO IS MOHSEN REZAEI, AND HOW SIGNIFICANT IS HIS APPOINTMENT?",
+      "detail": "Former IRGC commander Rezaei will be taking over as secretary of Iran's top security body amid Hormuz talks.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 AUG 2026 · 03:48 UTC",
       "headline": "TRUMP SIGNALS SHIFT TO ECONOMIC PRESSURE ON IRAN OVER NEW MILITARY STRIKES",
@@ -27,18 +33,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "10 AUG 2026 · 01:34 UTC",
-      "headline": "HOUTHIS LAUNCH FRESH BALLISTIC MISSILE AND DRONE ATTACKS ON AL-MAKHA PORT",
-      "detail": "Iran-backed Houthis have resumed attacks on Yemen’s al-Makha port in the Red Sea.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 00:19 UTC",
-      "headline": "NEW HOUTHI MISSILE AND DRONE ATTACKS KILL SEVEN IN YEMEN’S AL-MAKHA",
-      "detail": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha and its commercial port.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "09 AUG 2026 · 23:52 UTC",
       "headline": "HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
       "detail": "Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the Yemeni port city of Mokha Read Full Article at RT.com",
@@ -49,11 +43,17 @@
       "headline": "IRAN MAKES NEW HORMUZ DEMANDS AS MISSILE HITS EMIRATI SHIP",
       "detail": "Iran has presented six conditions to the US for the reopening of the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "08 AUG 2026 · 19:18 UTC",
+      "headline": "HORMUZ TALKS POSITIVE, OMAN SAYS, AS IRAN WARNS DEAL WOULD NOT OPEN STRAIT",
+      "detail": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.5 (+0.00%)",
-    "VIX: 15.46",
+    "BRENT: $84.84 (+0.00%)",
+    "VIX: 15.45",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
