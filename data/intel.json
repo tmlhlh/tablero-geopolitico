@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-10T03:49:59.196048+00:00",
+  "updated_at": "2026-08-10T05:22:08.967374+00:00",
   "market": {
-    "brent_usd": 84.37,
+    "brent_usd": 84.01,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 11.3,
+    "ormuz_flow_pct": 8.5,
     "vix": 14.9,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 11.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 AUG 2026 · 03:48 UTC",
+      "headline": "TRUMP SIGNALS SHIFT TO ECONOMIC PRESSURE ON IRAN OVER NEW MILITARY STRIKES",
+      "detail": "US relying on sanctions and naval blockade as oil prices stabilise, easing economic strain on American consumers.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "10 AUG 2026 · 03:24 UTC",
       "headline": "OIL PRICES CLIMB AS IRANIAN DEMANDS CLOUD OUTLOOK FOR STRAIT OF HORMUZ",
@@ -28,21 +34,15 @@
     },
     {
       "timestamp": "10 AUG 2026 · 00:19 UTC",
-      "headline": "HOUTHIS RENEW MISSILE AND DRONE ATTACKS ON YEMEN’S PORT OF AL-MAKHA",
-      "detail": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha (Mocha) and its commercial port.",
+      "headline": "NEW HOUTHI MISSILE AND DRONE ATTACKS KILL SEVEN IN YEMEN’S AL-MAKHA",
+      "detail": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha and its commercial port.",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "09 AUG 2026 · 23:52 UTC",
-      "headline": "YEMEN’S HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
-      "detail": "Yemen’s Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the port city of Mokha Read Full Article at RT.com",
+      "headline": "HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
+      "detail": "Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the Yemeni port city of Mokha Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 AUG 2026 · 19:55 UTC",
-      "headline": "LOS HUTÍES INTENSIFICAN SUS ATAQUES CONTRA ARABIA SAUDITA Y YEMEN Y DEJAN AL MEN",
-      "detail": "La ofensiva incluyó misiles y drones contra una refinería de Aramco en Jazan y el puerto de Mokha, donde murieron tres civiles y ocho militares",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "09 AUG 2026 · 03:58 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $84.37 (+0.00%)",
+    "BRENT: $84.01 (+0.00%)",
     "VIX: 14.9",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 11.3%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
