@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-08-09T23:26:39.045803+00:00",
+  "updated_at": "2026-08-10T01:23:05.769480+00:00",
   "market": {
-    "brent_usd": 84.22,
+    "brent_usd": 84.54,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 52.4,
+    "ormuz_flow_pct": 19.9,
     "vix": 14.9,
-    "risk_level": "MEDIO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "10 AUG 2026 · 00:19 UTC",
+      "headline": "HOUTHIS RENEW MISSILE AND DRONE ATTACKS ON YEMEN’S PORT OF AL-MAKHA",
+      "detail": "The latest Houthi attacks come less than 24 hours after an earlier barrage struck al-Makha (Mocha) and its commercial port.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 AUG 2026 · 23:52 UTC",
+      "headline": "YEMEN’S HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
+      "detail": "Yemen’s Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the port city of Mokha Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "09 AUG 2026 · 19:55 UTC",
       "headline": "LOS HUTÍES INTENSIFICAN SUS ATAQUES CONTRA ARABIA SAUDITA Y YEMEN Y DEJAN AL MEN",
@@ -37,23 +49,11 @@
       "headline": "HORMUZ TALKS POSITIVE, OMAN SAYS, AS IRAN WARNS DEAL WOULD NOT OPEN STRAIT",
       "detail": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 AUG 2026 · 21:02 UTC",
-      "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
-      "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 AUG 2026 · 04:49 UTC",
-      "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
-      "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $84.22 (+0.00%)",
+    "BRENT: $84.54 (+0.00%)",
     "VIX: 14.9",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
