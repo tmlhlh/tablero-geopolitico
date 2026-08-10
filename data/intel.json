@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-08-10T17:48:12.539224+00:00",
+  "updated_at": "2026-08-10T18:51:26.687448+00:00",
   "market": {
-    "brent_usd": 87.28,
+    "brent_usd": 87.77,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.2,
-    "vix": 15.26,
+    "ormuz_flow_pct": 5.4,
+    "vix": 15.39,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.2%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.4%"
   },
   "events": [
+    {
+      "timestamp": "10 AUG 2026 · 18:36 UTC",
+      "headline": "IRÁN CONDICIONA LA REAPERTURA DEL ESTRECHO DE ORMUZ A CONCESIONES DE EE.UU. Y LI",
+      "detail": "Teherán exige además compensaciones económicas, la liberación de activos congelados y el fin del bloqueo a sus puertos; la incertidumbre sobre la estratégica vía marítima impulsó al alza los precios d",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 AUG 2026 · 17:24 UTC",
       "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
       "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 16:07 UTC",
-      "headline": "IRÁN CONDICIONA LA REAPERTURA DEL ESTRECHO DE ORMUZ A CONCESIONES DE EE.UU. Y LI",
-      "detail": "Teherán exige además compensaciones económicas, la liberación de activos congelados y el fin del bloqueo a sus puertos; la incertidumbre sobre la estratégica vía marítima impulsó al alza los precios d",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $87.28 (+0.00%)",
-    "VIX: 15.26",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.2%"
+    "BRENT: $87.77 (+0.00%)",
+    "VIX: 15.39",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.4%"
   ]
 }
