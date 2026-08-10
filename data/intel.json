@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-10T16:52:39.492041+00:00",
+  "updated_at": "2026-08-10T17:48:12.539224+00:00",
   "market": {
-    "brent_usd": 86.95,
+    "brent_usd": 87.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 15.21,
+    "ormuz_flow_pct": 5.2,
+    "vix": 15.26,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.2%"
   },
   "events": [
+    {
+      "timestamp": "10 AUG 2026 · 17:24 UTC",
+      "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
+      "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 AUG 2026 · 16:07 UTC",
       "headline": "IRÁN CONDICIONA LA REAPERTURA DEL ESTRECHO DE ORMUZ A CONCESIONES DE EE.UU. Y LI",
@@ -33,27 +39,21 @@
       "severity": "INFO"
     },
     {
+      "timestamp": "10 AUG 2026 · 13:33 UTC",
+      "headline": "IRÁN PIDE QUE EE UU “CORRIJA SU COMPORTAMIENTO” Y LE INDEMNICE PARA REABRIR EL E",
+      "detail": "Teherán mantiene una posición de fuerza y reafirma muchas de las exigencias incluidas en memorándum de junio. Trump dice que la República Islámica acabará cediendo porque el bloqueo naval de EE UU la ",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "09 AUG 2026 · 23:52 UTC",
       "headline": "HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
       "detail": "Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the Yemeni port city of Mokha Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 AUG 2026 · 03:58 UTC",
-      "headline": "IRAN MAKES NEW HORMUZ DEMANDS AS MISSILE HITS EMIRATI SHIP",
-      "detail": "Iran has presented six conditions to the US for the reopening of the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 AUG 2026 · 21:02 UTC",
-      "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
-      "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.95 (+0.00%)",
-    "VIX: 15.21",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $87.28 (+0.00%)",
+    "VIX: 15.26",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.2%"
   ]
 }
