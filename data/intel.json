@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-10T18:51:26.687448+00:00",
+  "updated_at": "2026-08-10T19:52:36.207138+00:00",
   "market": {
-    "brent_usd": 87.77,
+    "brent_usd": 87.57,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.4,
-    "vix": 15.39,
+    "ormuz_flow_pct": 8.5,
+    "vix": 15.45,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.4%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "10 AUG 2026 · 13:33 UTC",
-      "headline": "IRÁN PIDE QUE EE UU “CORRIJA SU COMPORTAMIENTO” Y LE INDEMNICE PARA REABRIR EL E",
-      "detail": "Teherán mantiene una posición de fuerza y reafirma muchas de las exigencias incluidas en memorándum de junio. Trump dice que la República Islámica acabará cediendo porque el bloqueo naval de EE UU la ",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "09 AUG 2026 · 23:52 UTC",
       "headline": "HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
       "detail": "Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the Yemeni port city of Mokha Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "09 AUG 2026 · 03:58 UTC",
+      "headline": "IRAN MAKES NEW HORMUZ DEMANDS AS MISSILE HITS EMIRATI SHIP",
+      "detail": "Iran has presented six conditions to the US for the reopening of the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.77 (+0.00%)",
-    "VIX: 15.39",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.4%"
+    "BRENT: $87.57 (+0.00%)",
+    "VIX: 15.45",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
