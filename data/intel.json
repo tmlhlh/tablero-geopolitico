@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-10T12:58:10.447927+00:00",
+  "updated_at": "2026-08-10T14:20:41.711175+00:00",
   "market": {
-    "brent_usd": 85.06,
+    "brent_usd": 86.23,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 15.43,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.0
+    "ormuz_flow_pct": 71.8,
+    "vix": 15.18,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "10 AUG 2026 · 11:12 UTC",
-      "headline": "LA JUSTICIA PIDE INDAGAR A DUHALDE, VERBITSKY Y OTRAS 30 PERSONAS POR EL VACUNAT",
-      "detail": "Además, una familia porteña necesita $2,5 millones para ser de clase media; estiman que la inflación de julio rondaría el 2%; Irán dice que mantendrá cerrado el estrecho de Ormuz. Estas son las notici",
+      "timestamp": "10 AUG 2026 · 14:00 UTC",
+      "headline": "IRAN CHANGED THE RULES IN HORMUZ. THE GULF IS CHANGING THE RULES FOR IRAN",
+      "detail": "Iran gained leverage in Hormuz, but its neighbours are reshaping regional security to limit what Tehran can do with it.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $85.06 (+0.00%)",
-    "VIX: 15.43",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $86.23 (+0.00%)",
+    "VIX: 15.18",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
