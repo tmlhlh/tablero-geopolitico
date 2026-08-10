@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T20:36:58.878728+00:00",
+  "updated_at": "2026-08-10T21:37:05.879617+00:00",
   "market": {
-    "brent_usd": 87.88,
+    "brent_usd": 87.85,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "10 AUG 2026 · 20:54 UTC",
+      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
+      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "10 AUG 2026 · 18:36 UTC",
       "headline": "IRÁN CONDICIONA LA REAPERTURA DEL ESTRECHO DE ORMUZ A CONCESIONES DE EE.UU. Y LI",
       "detail": "Teherán exige además compensaciones económicas, la liberación de activos congelados y el fin del bloqueo a sus puertos; la incertidumbre sobre la estratégica vía marítima impulsó al alza los precios d",
@@ -24,12 +30,6 @@
       "timestamp": "10 AUG 2026 · 17:24 UTC",
       "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
       "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 15:45 UTC",
-      "headline": "OIL PRICES, STOCKS SURGE AS HORMUZ CLOSURE DRAGS ON",
-      "detail": "US petrol prices dropped nine cents last week but could again surge if the strait closure continues, analysts warn.",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $87.88 (+0.00%)",
+    "BRENT: $87.85 (+0.00%)",
     "VIX: 15.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
