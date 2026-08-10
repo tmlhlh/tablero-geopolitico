@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T21:37:05.879617+00:00",
+  "updated_at": "2026-08-10T22:32:50.665781+00:00",
   "market": {
-    "brent_usd": 87.85,
+    "brent_usd": 87.7,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -19,12 +19,6 @@
       "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
       "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 18:36 UTC",
-      "headline": "IRÁN CONDICIONA LA REAPERTURA DEL ESTRECHO DE ORMUZ A CONCESIONES DE EE.UU. Y LI",
-      "detail": "Teherán exige además compensaciones económicas, la liberación de activos congelados y el fin del bloqueo a sus puertos; la incertidumbre sobre la estratégica vía marítima impulsó al alza los precios d",
-      "severity": "INFO"
     },
     {
       "timestamp": "10 AUG 2026 · 17:24 UTC",
@@ -49,10 +43,16 @@
       "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
       "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 04:49 UTC",
+      "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
+      "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.85 (+0.00%)",
+    "BRENT: $87.7 (+0.00%)",
     "VIX: 15.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
