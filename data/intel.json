@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T23:30:49.688064+00:00",
+  "updated_at": "2026-08-11T01:21:01.190927+00:00",
   "market": {
-    "brent_usd": 87.53,
+    "brent_usd": 87.93,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 AUG 2026 · 00:48 UTC",
+      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
+      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP CLAIMS HORMUZ STRAIT OPEN, SEEKS IRANIAN COMPENSATION",
+      "detail": "US President Donald Trump said he will seek compensation from Iran for casualties in the war.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 AUG 2026 · 20:54 UTC",
       "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
@@ -37,22 +49,10 @@
       "headline": "IRAN MAKES NEW HORMUZ DEMANDS AS MISSILE HITS EMIRATI SHIP",
       "detail": "Iran has presented six conditions to the US for the reopening of the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 AUG 2026 · 21:02 UTC",
-      "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
-      "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "06 AUG 2026 · 04:49 UTC",
-      "headline": "US STATE DECLARES EMERGENCY OVER RUSSIA-UKRAINE DRONE WARFARE",
-      "detail": "The US state of Indiana has declared an energy emergency, citing maritime drone warfare in the Russia-Ukraine conflict Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.53 (+0.00%)",
+    "BRENT: $87.93 (+0.00%)",
     "VIX: 15.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
