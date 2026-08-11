@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-11T01:21:01.190927+00:00",
+  "updated_at": "2026-08-11T03:39:37.706446+00:00",
   "market": {
-    "brent_usd": 87.93,
+    "brent_usd": 87.88,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 AUG 2026 · 02:32 UTC",
+      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN AS TALKS ON STRAIT OF HORMUZ CONTINUE",
+      "detail": "US president seeks payment for '50 years' of alleged damages after Iran conditions opening of Hormuz on war reparations.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 AUG 2026 · 00:48 UTC",
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
@@ -43,16 +49,10 @@
       "headline": "HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
       "detail": "Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the Yemeni port city of Mokha Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 AUG 2026 · 03:58 UTC",
-      "headline": "IRAN MAKES NEW HORMUZ DEMANDS AS MISSILE HITS EMIRATI SHIP",
-      "detail": "Iran has presented six conditions to the US for the reopening of the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.93 (+0.00%)",
+    "BRENT: $87.88 (+0.00%)",
     "VIX: 15.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
