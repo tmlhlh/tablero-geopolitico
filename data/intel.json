@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-08-11T19:59:57.588639+00:00",
+  "updated_at": "2026-08-11T20:55:39.846914+00:00",
   "market": {
-    "brent_usd": 89.13,
+    "brent_usd": 89.2,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 15.26,
+    "ormuz_flow_pct": 3.0,
+    "vix": 15.28,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
+    {
+      "timestamp": "11 AUG 2026 · 20:04 UTC",
+      "headline": "US SAYS HELICOPTER FIRED MISSILES TO DISABLE SHIP BREAKING IRAN BLOCKADE",
+      "detail": "US Central Command says its helicopter hit the engine room of a Panama-flagged cargo vessel in the Gulf of Oman.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 AUG 2026 · 19:58 UTC",
+      "headline": "US MILITARY FIRES ON CARGO VESSEL IT SAID SOUGHT TO BREAK IRAN BLOCKADE",
+      "detail": "CENTCOM says helicopter fired at engine room of Panama-flagged Vela Nova as US-Iran diplomacy remains stalled.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 AUG 2026 · 16:44 UTC",
       "headline": "EE UU DISPARA CONTRA UN BARCO DE PANAMÁ POR TRATAR DE SALTARSE EL BLOQUEO DE LOS",
       "detail": "Tras el fracaso de las conversaciones de paz, la estrategia de Washington pasa por la asfixia económica de Teherán",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "11 AUG 2026 · 14:06 UTC",
-      "headline": "‘ONLY JOB I KNOW’: PHILIPPINE SAILORS RETURN TO SEA DESPITE WARTIME RISKS",
-      "detail": "Despite risks in the Strait of Hormuz and Black Sea, seafarers from the Philippines are still competing for jobs.",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
       "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 AUG 2026 · 23:52 UTC",
-      "headline": "HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
-      "detail": "Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the Yemeni port city of Mokha Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.13 (+0.00%)",
-    "VIX: 15.26",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $89.2 (+0.00%)",
+    "VIX: 15.28",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
