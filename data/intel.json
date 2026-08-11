@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-11T20:55:39.846914+00:00",
+  "updated_at": "2026-08-11T21:41:48.520616+00:00",
   "market": {
-    "brent_usd": 89.2,
+    "brent_usd": 88.95,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "11 AUG 2026 · 20:04 UTC",
+      "timestamp": "11 AUG 2026 · 21:14 UTC",
       "headline": "US SAYS HELICOPTER FIRED MISSILES TO DISABLE SHIP BREAKING IRAN BLOCKADE",
       "detail": "US Central Command says its helicopter hit the engine room of a Panama-flagged cargo vessel in the Gulf of Oman.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 AUG 2026 · 20:35 UTC",
+      "headline": "PAKISTAN INTERIOR MINISTER IN TEHRAN AMID TALKS TO REOPEN HORMUZ",
+      "detail": "Pakistan’s interior minister Mohsin Naqvi has held talks with Iranian Foreign Minister Abbas Araghchi in Tehran.",
       "severity": "INFO"
     },
     {
@@ -43,16 +49,10 @@
       "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
       "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 17:24 UTC",
-      "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
-      "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.2 (+0.00%)",
+    "BRENT: $88.95 (+0.00%)",
     "VIX: 15.28",
     "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
