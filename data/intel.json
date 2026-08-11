@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-11T10:50:13.075839+00:00",
+  "updated_at": "2026-08-11T11:40:42.008222+00:00",
   "market": {
-    "brent_usd": 89.23,
+    "brent_usd": 87.91,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.5,
+    "vix": 15.49,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.0
   },
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "11 AUG 2026 · 06:05 UTC",
-      "headline": "YEMEN’S HOUTHIS LAUNCH BALLISTIC MISSILE ATTACKS ON AL-MAKHA AND MARIB",
-      "detail": "The latest attacks come just a day after Houthi rebels targeted al-Makha and its port, killing seven people.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "11 AUG 2026 · 00:48 UTC",
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
@@ -49,11 +43,17 @@
       "headline": "IRAN MAKES NEW HORMUZ DEMANDS AS MISSILE HITS EMIRATI SHIP",
       "detail": "Iran has presented six conditions to the US for the reopening of the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "06 AUG 2026 · 21:02 UTC",
+      "headline": "IRAN SAYS HORMUZ DEAL ‘NEARING COMPLETION’",
+      "detail": "Iran has said negotiations with Oman on reopening commercial shipping through the Strait of Hormuz have entered the final stage Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.23 (+0.00%)",
-    "VIX: 15.5",
+    "BRENT: $87.91 (+0.00%)",
+    "VIX: 15.49",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
