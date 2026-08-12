@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-12T06:10:34.467145+00:00",
+  "updated_at": "2026-08-12T08:13:23.346727+00:00",
   "market": {
-    "brent_usd": 89.75,
+    "brent_usd": 89.43,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 7.9,
-    "vix": 15.28,
+    "ormuz_flow_pct": 8.5,
+    "vix": 15.33,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 7.9%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
@@ -35,7 +35,7 @@
     {
       "timestamp": "12 AUG 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP CLAIMS US IN ‘TOTAL CONTROL’ OF STRAIT OF HORMUZ",
-      "detail": "Qatar says negotiations between Oman, Iran over future of shipping through Strait of Hormuz are making major progress.",
+      "detail": "US forces disable a Panama-flagged cargo ship attempting to sail towards an Iranian port.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.75 (+0.00%)",
-    "VIX: 15.28",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 7.9%"
+    "BRENT: $89.43 (+0.00%)",
+    "VIX: 15.33",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
