@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-12T14:22:03.116809+00:00",
+  "updated_at": "2026-08-12T15:55:39.914092+00:00",
   "market": {
-    "brent_usd": 88.56,
+    "brent_usd": 88.94,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 14.85,
+    "vix": 14.83,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
@@ -15,8 +15,20 @@
   },
   "events": [
     {
+      "timestamp": "12 AUG 2026 · 15:09 UTC",
+      "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
+      "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 AUG 2026 · 15:07 UTC",
+      "headline": "AS STRAIT OF HORMUZ TRANSIT DROPS, TRUMP AGAIN SAYS US HAS ‘CONTROL’",
+      "detail": "Just eight vessels crossed strait on Tuesday, down from 130 to 140 prior to the war as peace talks stall.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "12 AUG 2026 · 10:27 UTC",
-      "headline": "IRAN REFUTES TRUMP’S CLAIM TO ‘CONTROL’ HORMUZ: WHAT’S THE LATEST IN TALKS?",
+      "headline": "IRAN REJECTS TRUMP’S CLAIM TO ‘CONTROL’ HORMUZ: WHAT’S THE LATEST IN TALKS?",
       "detail": "Iran says Hormuz stays closed until US meets its demands and changes its 'behaviour' as global energy prices rise.",
       "severity": "INFO"
     },
@@ -37,23 +49,11 @@
       "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
       "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 17:24 UTC",
-      "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
-      "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 AUG 2026 · 23:52 UTC",
-      "headline": "HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
-      "detail": "Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the Yemeni port city of Mokha Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.56 (+0.00%)",
-    "VIX: 14.85",
+    "BRENT: $88.94 (+0.00%)",
+    "VIX: 14.83",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
