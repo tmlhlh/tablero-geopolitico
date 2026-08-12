@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-12T17:55:01.150349+00:00",
+  "updated_at": "2026-08-12T18:56:20.389619+00:00",
   "market": {
-    "brent_usd": 88.84,
+    "brent_usd": 88.89,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 4.3,
-    "vix": 14.62,
+    "ormuz_flow_pct": 8.5,
+    "vix": 14.52,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 4.3%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 AUG 2026 · 18:11 UTC",
+      "headline": "TRUMP DESAFÍA A IRÁN Y ASEGURA QUE MANTENDRÁ EL CONTROL DE ORMUZ MIENTRAS SE ALE",
+      "detail": "El mandatario se jactó del poder de EE.UU. sobre el estrecho, pero Teherán asegura que domina gran parte del paso y planea imponer peajes",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 AUG 2026 · 17:47 UTC",
       "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "12 AUG 2026 · 10:27 UTC",
-      "headline": "IRAN REJECTS TRUMP’S CLAIM TO ‘CONTROL’ HORMUZ: WHAT’S THE LATEST IN TALKS?",
-      "detail": "Iran says Hormuz stays closed until US meets its demands and changes its 'behaviour' as global energy prices rise.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "11 AUG 2026 · 21:14 UTC",
       "headline": "US SAYS HELICOPTER FIRED MISSILES TO DISABLE SHIP BREAKING IRAN BLOCKADE",
       "detail": "US Central Command says its helicopter hit the engine room of a Panama-flagged cargo vessel in the Gulf of Oman.",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $88.84 (+0.00%)",
-    "VIX: 14.62",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 4.3%"
+    "BRENT: $88.89 (+0.00%)",
+    "VIX: 14.52",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
