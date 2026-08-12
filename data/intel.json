@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-08-11T23:35:01.973064+00:00",
+  "updated_at": "2026-08-12T01:37:23.045877+00:00",
   "market": {
-    "brent_usd": 89.23,
+    "brent_usd": 89.67,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.9,
+    "ormuz_flow_pct": 3.4,
     "vix": 15.28,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.9%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.4%"
   },
   "events": [
+    {
+      "timestamp": "12 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP CLAIMS US IN ‘TOTAL CONTROL’ OF STRAIT OF HORMUZ",
+      "detail": "Qatar says negotiations between Oman, Iran over future of shipping through Strait of Hormuz are making major progress.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "11 AUG 2026 · 23:57 UTC",
+      "headline": "CARGO SHIP IN FLAMES AFTER HOUTHI ATTACK IN BAB AL-MANDEB STRAIT",
+      "detail": "Footage shows an Egyptian-owned cargo vessel in flames in the Bab al-Mandeb strait after a suspected Houthi attack.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "11 AUG 2026 · 21:14 UTC",
       "headline": "US SAYS HELICOPTER FIRED MISSILES TO DISABLE SHIP BREAKING IRAN BLOCKADE",
@@ -37,23 +49,11 @@
       "headline": "EE UU DISPARA CONTRA UN BARCO DE PANAMÁ POR TRATAR DE SALTARSE EL BLOQUEO DE LOS",
       "detail": "Tras el fracaso de las conversaciones de paz, la estrategia de Washington pasa por la asfixia económica de Teherán",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "11 AUG 2026 · 00:48 UTC",
-      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
-      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 20:54 UTC",
-      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
-      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.23 (+0.00%)",
+    "BRENT: $89.67 (+0.00%)",
     "VIX: 15.28",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.9%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.4%"
   ]
 }
