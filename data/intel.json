@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-12T16:53:57.431052+00:00",
+  "updated_at": "2026-08-12T17:55:01.150349+00:00",
   "market": {
-    "brent_usd": 88.69,
+    "brent_usd": 88.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 14.74,
+    "ormuz_flow_pct": 4.3,
+    "vix": 14.62,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 4.3%"
   },
   "events": [
+    {
+      "timestamp": "12 AUG 2026 · 17:47 UTC",
+      "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
+      "detail": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 AUG 2026 · 16:52 UTC",
       "headline": "MOSCOW’S RESPONSE FOR SEIZING RUSSIAN VESSELS WILL PUT WEST IN ITS PLACE – CARL ",
@@ -43,17 +49,11 @@
       "headline": "US SAYS HELICOPTER FIRED MISSILES TO DISABLE SHIP BREAKING IRAN BLOCKADE",
       "detail": "US Central Command says its helicopter hit the engine room of a Panama-flagged cargo vessel in the Gulf of Oman.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "11 AUG 2026 · 00:48 UTC",
-      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
-      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.69 (+0.00%)",
-    "VIX: 14.74",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $88.84 (+0.00%)",
+    "VIX: 14.62",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 4.3%"
   ]
 }
