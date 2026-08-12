@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T20:54:11.282084+00:00",
+  "updated_at": "2026-08-12T21:40:51.369479+00:00",
   "market": {
-    "brent_usd": 88.33,
+    "brent_usd": 88.37,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "12 AUG 2026 · 15:07 UTC",
-      "headline": "AS STRAIT OF HORMUZ TRANSIT DROPS, TRUMP AGAIN SAYS US HAS ‘CONTROL’",
-      "detail": "Just eight vessels crossed strait on Tuesday, down from 130 to 140 prior to the war as peace talks stall.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "11 AUG 2026 · 21:14 UTC",
       "headline": "US SAYS HELICOPTER FIRED MISSILES TO DISABLE SHIP BREAKING IRAN BLOCKADE",
       "detail": "US Central Command says its helicopter hit the engine room of a Panama-flagged cargo vessel in the Gulf of Oman.",
@@ -49,10 +43,16 @@
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
       "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "10 AUG 2026 · 20:54 UTC",
+      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
+      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.33 (+0.00%)",
+    "BRENT: $88.37 (+0.00%)",
     "VIX: 14.55",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
