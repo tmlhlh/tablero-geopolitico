@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T01:39:54.434958+00:00",
+  "updated_at": "2026-08-13T04:07:28.423301+00:00",
   "market": {
-    "brent_usd": 88.04,
+    "brent_usd": 88.41,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,16 +15,16 @@
   },
   "events": [
     {
+      "timestamp": "13 AUG 2026 · 03:28 UTC",
+      "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
+      "detail": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "13 AUG 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: US, TEHRAN EXCHANGE OPPOSING CLAIMS OVER HORMUZ CONTROL",
       "detail": "President Trump again insists US has 'total control' of strait, while Tehran resolute that the US must meet its demands.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 AUG 2026 · 17:47 UTC",
-      "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
-      "detail": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "12 AUG 2026 · 16:52 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $88.04 (+0.00%)",
+    "BRENT: $88.41 (+0.00%)",
     "VIX: 14.55",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
