@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-13T08:16:54.755618+00:00",
+  "updated_at": "2026-08-13T09:59:51.923588+00:00",
   "market": {
-    "brent_usd": 87.92,
+    "brent_usd": 87.48,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 7.8,
-    "vix": 14.69,
+    "ormuz_flow_pct": 8.5,
+    "vix": 14.66,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 7.8%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
@@ -21,22 +21,10 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "13 AUG 2026 · 05:26 UTC",
-      "headline": "RUSSIAN STRIKE SPARKS FIRE AT UKRAINE PORT; ZELENSKYY SEEKS INTERCEPTORS",
-      "detail": "Ukraine has reported an acute shortage of Patriot interceptors since the US went to war with Iran in February.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "13 AUG 2026 · 03:28 UTC",
       "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
       "detail": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US, TEHRAN EXCHANGE OPPOSING CLAIMS OVER HORMUZ CONTROL",
-      "detail": "President Trump again insists US has 'total control' of strait, while Tehran resolute that the US must meet its demands.",
-      "severity": "INFO"
     },
     {
       "timestamp": "12 AUG 2026 · 16:52 UTC",
@@ -49,11 +37,23 @@
       "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
       "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 AUG 2026 · 00:48 UTC",
+      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
+      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 AUG 2026 · 20:54 UTC",
+      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
+      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.92 (+0.00%)",
-    "VIX: 14.69",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 7.8%"
+    "BRENT: $87.48 (+0.00%)",
+    "VIX: 14.66",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
