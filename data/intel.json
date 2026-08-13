@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-13T06:13:13.136799+00:00",
+  "updated_at": "2026-08-13T08:16:54.755618+00:00",
   "market": {
-    "brent_usd": 88.83,
+    "brent_usd": 87.92,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 14.55,
+    "ormuz_flow_pct": 7.8,
+    "vix": 14.69,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 7.8%"
   },
   "events": [
+    {
+      "timestamp": "13 AUG 2026 · 06:21 UTC",
+      "headline": "WILL THE HOUTHIS SHUT DOWN SAUDI ARABIAN SHIPPING?",
+      "detail": "The announcement of a new naval blockade threatens to restart full-scale war between Yemen's Houthis and Saudi Arabia",
+      "severity": "INFO"
+    },
     {
       "timestamp": "13 AUG 2026 · 05:26 UTC",
       "headline": "RUSSIAN STRIKE SPARKS FIRE AT UKRAINE PORT; ZELENSKYY SEEKS INTERCEPTORS",
@@ -43,17 +49,11 @@
       "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
       "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 AUG 2026 · 00:48 UTC",
-      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
-      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.83 (+0.00%)",
-    "VIX: 14.55",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $87.92 (+0.00%)",
+    "VIX: 14.69",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 7.8%"
   ]
 }
