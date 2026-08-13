@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T23:36:08.039247+00:00",
+  "updated_at": "2026-08-13T01:39:54.434958+00:00",
   "market": {
-    "brent_usd": 88.56,
+    "brent_usd": 88.04,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US, TEHRAN EXCHANGE OPPOSING CLAIMS OVER HORMUZ CONTROL",
+      "detail": "President Trump again insists US has 'total control' of strait, while Tehran resolute that the US must meet its demands.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 AUG 2026 · 17:47 UTC",
       "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
@@ -43,16 +49,10 @@
       "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
       "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 17:24 UTC",
-      "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
-      "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.56 (+0.00%)",
+    "BRENT: $88.04 (+0.00%)",
     "VIX: 14.55",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
