@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T04:07:28.423301+00:00",
+  "updated_at": "2026-08-13T06:13:13.136799+00:00",
   "market": {
-    "brent_usd": 88.41,
+    "brent_usd": 88.83,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "13 AUG 2026 · 05:26 UTC",
+      "headline": "RUSSIAN STRIKE SPARKS FIRE AT UKRAINE PORT; ZELENSKYY SEEKS INTERCEPTORS",
+      "detail": "Ukraine has reported an acute shortage of Patriot interceptors since the US went to war with Iran in February.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "13 AUG 2026 · 03:28 UTC",
       "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
@@ -43,16 +49,10 @@
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
       "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 20:54 UTC",
-      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
-      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.41 (+0.00%)",
+    "BRENT: $88.83 (+0.00%)",
     "VIX: 14.55",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
