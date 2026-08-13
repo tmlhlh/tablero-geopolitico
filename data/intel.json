@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T20:37:38.520077+00:00",
+  "updated_at": "2026-08-13T21:40:20.116315+00:00",
   "market": {
-    "brent_usd": 86.94,
+    "brent_usd": 86.96,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,16 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "13 AUG 2026 · 14:59 UTC",
-      "headline": "IRAN SAYS STRAIT OF HORMUZ UNDER ITS CONTROL, REJECTS TRUMP CLAIMS",
-      "detail": "Iran asserts full control over the Strait of Hormuz, challenging US claims of dominance in the strategic waterway.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 AUG 2026 · 14:29 UTC",
-      "headline": "UKRAINE ATTACKS KEY RUSSIAN GRAIN TERMINAL ON BLACK SEA PORT",
-      "detail": "Ukraine has damaged Russia’s grain export terminals in an attack on the Novorossiysk port.",
-      "severity": "CRÍTICO"
+      "timestamp": "13 AUG 2026 · 21:21 UTC",
+      "headline": "IRÁN DESAFÍA A TRUMP Y ASEGURA QUE MANTIENE EL CONTROL TOTAL DE ORMUZ",
+      "detail": "Teherán afirmó que conserva capacidad para condicionar el tránsito marítimo por la vía clave del Golfo Pérsico, en medio de la escalada con Washington y las amenazas cruzadas entre ambos gobiernos",
+      "severity": "INFO"
     },
     {
       "timestamp": "13 AUG 2026 · 03:28 UTC",
@@ -49,10 +43,16 @@
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
       "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "10 AUG 2026 · 20:54 UTC",
+      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
+      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.94 (+0.00%)",
+    "BRENT: $86.96 (+0.00%)",
     "VIX: 14.63",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
