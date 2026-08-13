@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-13T17:54:22.930455+00:00",
+  "updated_at": "2026-08-13T18:57:33.857432+00:00",
   "market": {
-    "brent_usd": 87.79,
+    "brent_usd": 86.78,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 14.7,
+    "vix": 14.62,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
@@ -27,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 AUG 2026 · 11:56 UTC",
-      "headline": "US-IRAN TALKS IN DEADLOCK – WHAT’S THE LATEST?",
-      "detail": "The US and Iran continue their standoff in the Strait of Hormuz as mediators try to coax talks.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "13 AUG 2026 · 03:28 UTC",
       "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
       "detail": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
@@ -49,11 +43,17 @@
       "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
       "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 AUG 2026 · 00:48 UTC",
+      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
+      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.79 (+0.00%)",
-    "VIX: 14.7",
+    "BRENT: $86.78 (+0.00%)",
+    "VIX: 14.62",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
