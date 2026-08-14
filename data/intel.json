@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T21:20:36.976293+00:00",
+  "updated_at": "2026-08-14T22:17:53.423390+00:00",
   "market": {
     "brent_usd": 88.59,
     "brent_chg": 0.0
@@ -15,7 +15,13 @@
   },
   "events": [
     {
-      "timestamp": "14 AUG 2026 · 20:40 UTC",
+      "timestamp": "14 AUG 2026 · 21:50 UTC",
+      "headline": "TRUMP SAYS HE WILL DECLARE STRAIT OF HORMUZ A US ‘TERRITORY’ AMID IRAN WAR",
+      "detail": "Control over the strait has been a sticking point in the ongoing ceasefire negotiations between the US and Iran.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 AUG 2026 · 21:30 UTC",
       "headline": "DONALD TRUMP DIJO QUE “PRONTO” DECLARARÁ EL ESTRECHO DE ORMUZ COMO TERRITORIO DE",
       "detail": "El mandatario realizó esas declaraciones durante un mitin político en una academia de policía en Nueva York",
       "severity": "INFO"
@@ -43,12 +49,6 @@
       "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
       "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 17:24 UTC",
-      "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
-      "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
