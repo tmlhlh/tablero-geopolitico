@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-14T20:26:21.059364+00:00",
+  "updated_at": "2026-08-14T21:20:36.976293+00:00",
   "market": {
-    "brent_usd": 88.61,
+    "brent_usd": 88.59,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 14.26,
+    "vix": 14.25,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 AUG 2026 · 20:40 UTC",
+      "headline": "DONALD TRUMP DIJO QUE “PRONTO” DECLARARÁ EL ESTRECHO DE ORMUZ COMO TERRITORIO DE",
+      "detail": "El mandatario realizó esas declaraciones durante un mitin político en una academia de policía en Nueva York",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 AUG 2026 · 16:52 UTC",
       "headline": "MOSCOW’S RESPONSE FOR SEIZING RUSSIAN VESSELS WILL PUT WEST IN ITS PLACE – CARL ",
@@ -43,17 +49,11 @@
       "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
       "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "09 AUG 2026 · 23:52 UTC",
-      "headline": "HOUTHIS UNLEASH MISSILE BARRAGE ON SAUDI-BACKED TROOPS (VIDEOS)",
-      "detail": "Houthi rebels have fired ballistic missiles and drones at Saudi-backed forces in the Yemeni port city of Mokha Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.61 (+0.00%)",
-    "VIX: 14.26",
+    "BRENT: $88.59 (+0.00%)",
+    "VIX: 14.25",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
