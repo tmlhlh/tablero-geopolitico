@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-14T16:48:47.410087+00:00",
+  "updated_at": "2026-08-14T17:49:12.409164+00:00",
   "market": {
-    "brent_usd": 87.96,
+    "brent_usd": 88.35,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 14.47,
+    "vix": 14.33,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "14 AUG 2026 · 15:17 UTC",
+      "timestamp": "14 AUG 2026 · 17:40 UTC",
       "headline": "EE.UU. DESAFÍA A IRÁN Y AMENAZA CON AUMENTAR LA PRESIÓN ECONÓMICA TRAS EL ATAQUE",
       "detail": "El secretario del Tesoro, Scott Bessent, advirtió por medidas que “nunca se han visto en la historia del aislamiento económico de un país”, en momentos en que las negociaciones para un alto al fuego s",
       "severity": "CRÍTICO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $87.96 (+0.00%)",
-    "VIX: 14.47",
+    "BRENT: $88.35 (+0.00%)",
+    "VIX: 14.33",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
