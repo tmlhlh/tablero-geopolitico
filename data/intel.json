@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T01:38:23.429327+00:00",
+  "updated_at": "2026-08-14T04:03:54.320517+00:00",
   "market": {
-    "brent_usd": 87.05,
+    "brent_usd": 87.12,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "13 AUG 2026 · 03:28 UTC",
-      "headline": "MAJOR RUSSIAN GRAIN EXPORT TERMINALS HIT IN UKRAINE BLACK SEA PORT ATTACK",
-      "detail": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 AUG 2026 · 16:52 UTC",
       "headline": "MOSCOW’S RESPONSE FOR SEIZING RUSSIAN VESSELS WILL PUT WEST IN ITS PLACE – CARL ",
       "detail": "Russian President Vladimir Putin has vowed to retaliate to Western “piracy” and attacks on commercial shipping in kind Read Full Article at RT.com",
@@ -49,10 +43,16 @@
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
       "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "10 AUG 2026 · 20:54 UTC",
+      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
+      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.05 (+0.00%)",
+    "BRENT: $87.12 (+0.00%)",
     "VIX: 14.63",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
