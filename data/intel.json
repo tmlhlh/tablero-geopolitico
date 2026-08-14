@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-14T14:14:57.697580+00:00",
+  "updated_at": "2026-08-14T15:46:50.121398+00:00",
   "market": {
-    "brent_usd": 87.25,
+    "brent_usd": 87.86,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 14.6,
+    "vix": 14.56,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 AUG 2026 · 15:17 UTC",
+      "headline": "EE.UU. DESAFÍA A IRÁN Y AMENAZA CON AUMENTAR LA PRESIÓN ECONÓMICA TRAS EL ATAQUE",
+      "detail": "El secretario del Tesoro, Scott Bessent, advirtió por medidas que “nunca se han visto en la historia del aislamiento económico de un país”, en momentos en que las negociaciones para un alto al fuego s",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "14 AUG 2026 · 09:28 UTC",
       "headline": "RUSSIA SAYS HIT UKRAINIAN RAILWAY AND PORT FACILITIES IN NEW STRIKES",
@@ -43,17 +49,11 @@
       "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
       "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 17:24 UTC",
-      "headline": "US MILITARY PRESSURE FORCING HORMUZ CLOSURE – IRAN",
-      "detail": "Tehran has said diplomacy alone cannot reopen the Strait of Hormuz, insisting that Washington must first end its blockade of Iranian ports Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.25 (+0.00%)",
-    "VIX: 14.6",
+    "BRENT: $87.86 (+0.00%)",
+    "VIX: 14.56",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
