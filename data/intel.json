@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T22:17:53.423390+00:00",
+  "updated_at": "2026-08-14T23:17:16.208889+00:00",
   "market": {
     "brent_usd": 88.59,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "14 AUG 2026 · 22:58 UTC",
+      "headline": "HOUTHI ATTACK ON PORT KILLS FOUR ERODING TRUCE WITH YEMEN’S GOVERNMENT",
+      "detail": "Six Houthi ballistic missiles struck Yemen's government-held al-Makha port, killing at least four.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "14 AUG 2026 · 22:35 UTC",
+      "headline": "TRUMP RECHAZÓ LA PREOCUPACIONES SOBRE UNA CRISIS A BORDO DEL PORTAAVIONES QUE OP",
+      "detail": "El presidente negó que existan problemas de salud mental y abastecimiento; dijo que “pronto” podría declarar a Ormuz territorio estadounidense; autorizó la construcción de buques en astilleros extranj",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 AUG 2026 · 21:50 UTC",
       "headline": "TRUMP SAYS HE WILL DECLARE STRAIT OF HORMUZ A US ‘TERRITORY’ AMID IRAN WAR",
@@ -36,18 +48,6 @@
       "timestamp": "12 AUG 2026 · 15:09 UTC",
       "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
       "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 AUG 2026 · 00:48 UTC",
-      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
-      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 20:54 UTC",
-      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
-      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
