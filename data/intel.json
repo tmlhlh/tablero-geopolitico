@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T15:15:57.497677+00:00",
+  "updated_at": "2026-08-15T16:18:48.086515+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 AUG 2026 · 15:20 UTC",
+      "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
+      "detail": "Iran says the Strait of Hormuz can’t be seized by tweet or aircraft carrier after Donald Trump vowed to claim the waterway as US territory Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 AUG 2026 · 11:30 UTC",
       "headline": "IS CHINA SEEKING TO COPY IRAN’S STRAIT OF HORMUZ BLOCKADE AROUND TAIWAN?",
@@ -43,12 +49,6 @@
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
       "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 20:54 UTC",
-      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
-      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
