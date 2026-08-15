@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T04:25:04.787384+00:00",
+  "updated_at": "2026-08-15T05:20:47.954612+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 AUG 2026 · 04:44 UTC",
+      "headline": "TAIWAN PASSES DEFENCE BUDGET AFTER RECORD DELAY, RETAINS DRONE FUNDING",
+      "detail": "Taiwan parliament ends deadlock, ensuring vital drone programme funding amid rising cross-strait tensions with Beijing.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "15 AUG 2026 · 04:24 UTC",
+      "headline": "IRAN SAYS NO DECISION YET ON A RETURN TO TALKS WITH THE US",
+      "detail": "FM Abbas Araghchi says Iran is working with Oman on routes, but Hormuz shipping depends on US meeting conditions.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 AUG 2026 · 03:30 UTC",
       "headline": "INESTABILIDAD CRONIFICADA ",
@@ -36,18 +48,6 @@
       "timestamp": "14 AUG 2026 · 22:58 UTC",
       "headline": "HOUTHI ATTACK ON PORT KILLS FOUR ERODING TRUCE WITH YEMEN’S GOVERNMENT",
       "detail": "Six Houthi ballistic missiles struck Yemen's government-held al-Makha port, killing at least four.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 AUG 2026 · 21:50 UTC",
-      "headline": "TRUMP SAYS HE WILL DECLARE STRAIT OF HORMUZ A US ‘TERRITORY’ AMID IRAN WAR",
-      "detail": "Control over the strait has been a sticking point in the ongoing ceasefire negotiations between the US and Iran.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "12 AUG 2026 · 16:52 UTC",
-      "headline": "MOSCOW’S RESPONSE FOR SEIZING RUSSIAN VESSELS WILL PUT WEST IN ITS PLACE – CARL ",
-      "detail": "Russian President Vladimir Putin has vowed to retaliate to Western “piracy” and attacks on commercial shipping in kind Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
