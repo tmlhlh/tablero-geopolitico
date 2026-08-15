@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T02:16:22.064805+00:00",
+  "updated_at": "2026-08-15T03:34:27.464521+00:00",
   "market": {
     "brent_usd": 88.59,
     "brent_chg": 0.0
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "15 AUG 2026 · 02:25 UTC",
+      "headline": "US PRESIDENT TRUMP SAYS HE WILL DECLARE STRAIT OF HORMUZ US TERRITORY",
+      "detail": "US President Donald Trump said he will “soon” declare the Strait of Hormuz a US territory.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "15 AUG 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TRUMP VOWS TO MAKE HORMUZ US TERRITORY ‘PRETTY SOON’",
       "detail": "US President Trump says that 'pretty soon' he will declare the Strait of Hormuz a US territory once Iran is defeated.",
@@ -27,27 +33,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 AUG 2026 · 22:35 UTC",
-      "headline": "TRUMP RECHAZÓ LA PREOCUPACIONES SOBRE UNA CRISIS A BORDO DEL PORTAAVIONES QUE OP",
-      "detail": "El presidente negó que existan problemas de salud mental y abastecimiento; dijo que “pronto” podría declarar a Ormuz territorio estadounidense; autorizó la construcción de buques en astilleros extranj",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "14 AUG 2026 · 21:50 UTC",
       "headline": "TRUMP SAYS HE WILL DECLARE STRAIT OF HORMUZ A US ‘TERRITORY’ AMID IRAN WAR",
       "detail": "Control over the strait has been a sticking point in the ongoing ceasefire negotiations between the US and Iran.",
       "severity": "INFO"
     },
     {
-      "timestamp": "14 AUG 2026 · 21:30 UTC",
-      "headline": "DONALD TRUMP DIJO QUE “PRONTO” DECLARARÁ EL ESTRECHO DE ORMUZ COMO TERRITORIO DE",
-      "detail": "El mandatario realizó esas declaraciones durante un mitin político en una academia de policía en Nueva York",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "12 AUG 2026 · 16:52 UTC",
       "headline": "MOSCOW’S RESPONSE FOR SEIZING RUSSIAN VESSELS WILL PUT WEST IN ITS PLACE – CARL ",
       "detail": "Russian President Vladimir Putin has vowed to retaliate to Western “piracy” and attacks on commercial shipping in kind Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 AUG 2026 · 15:09 UTC",
+      "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
+      "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
