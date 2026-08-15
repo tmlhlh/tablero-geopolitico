@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-15T07:26:20.170672+00:00",
+  "updated_at": "2026-08-15T08:22:08.137806+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 57.7,
+    "ormuz_flow_pct": 8.5,
     "vix": 14.25,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "15 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP VOWS TO MAKE HORMUZ US TERRITORY ‘PRETTY SOON’",
-      "detail": "US President Trump says that 'pretty soon' he will declare the Strait of Hormuz a US territory once Iran is defeated.",
-      "severity": "INFO"
+      "timestamp": "12 AUG 2026 · 16:52 UTC",
+      "headline": "MOSCOW’S RESPONSE FOR SEIZING RUSSIAN VESSELS WILL PUT WEST IN ITS PLACE – CARL ",
+      "detail": "Russian President Vladimir Putin has vowed to retaliate to Western “piracy” and attacks on commercial shipping in kind Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "14 AUG 2026 · 22:58 UTC",
-      "headline": "HOUTHI ATTACK ON PORT KILLS FOUR ERODING TRUCE WITH YEMEN’S GOVERNMENT",
-      "detail": "Six Houthi ballistic missiles struck Yemen's government-held al-Makha port, killing at least four.",
+      "timestamp": "12 AUG 2026 · 15:09 UTC",
+      "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
+      "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $88.52 (+0.00%)",
     "VIX: 14.25",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
