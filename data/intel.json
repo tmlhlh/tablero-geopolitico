@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T12:29:39.783223+00:00",
+  "updated_at": "2026-08-15T13:26:30.831342+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "15 AUG 2026 · 04:24 UTC",
-      "headline": "IRAN SAYS NO DECISION YET ON A RETURN TO TALKS WITH THE US",
-      "detail": "FM Abbas Araghchi says Iran is working with Oman on routes, but Hormuz shipping depends on US meeting conditions.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "15 AUG 2026 · 03:30 UTC",
       "headline": "INESTABILIDAD CRONIFICADA ",
       "detail": "Irán ha hecho valer en Ormuz la tesis clásica de Yves Lacoste de que la geografía es un arma inventada para la guerra",
@@ -49,6 +43,12 @@
       "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
       "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 AUG 2026 · 00:48 UTC",
+      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
+      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
