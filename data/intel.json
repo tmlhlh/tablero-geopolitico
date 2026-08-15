@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T11:16:16.811198+00:00",
+  "updated_at": "2026-08-15T12:29:39.783223+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 AUG 2026 · 11:30 UTC",
+      "headline": "IS CHINA SEEKING TO COPY IRAN’S STRAIT OF HORMUZ BLOCKADE AROUND TAIWAN?",
+      "detail": "Taiwan has long prepared for a Chinese military invasion but wars in Iran and Ukraine expose new potential threats.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "15 AUG 2026 · 04:44 UTC",
       "headline": "TAIWAN PASSES DEFENCE BUDGET AFTER RECORD DELAY, RETAINS DRONE FUNDING",
@@ -30,12 +36,6 @@
       "timestamp": "15 AUG 2026 · 03:30 UTC",
       "headline": "INESTABILIDAD CRONIFICADA ",
       "detail": "Irán ha hecho valer en Ormuz la tesis clásica de Yves Lacoste de que la geografía es un arma inventada para la guerra",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "15 AUG 2026 · 02:25 UTC",
-      "headline": "US PRESIDENT TRUMP SAYS HE WILL DECLARE STRAIT OF HORMUZ US TERRITORY",
-      "detail": "US President Donald Trump said he will “soon” declare the Strait of Hormuz a US territory.",
       "severity": "INFO"
     },
     {
