@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T09:22:59.932040+00:00",
+  "updated_at": "2026-08-16T10:18:48.418108+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "16 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TALKS ON HORMUZ STRAIT CONTINUE; ISRAEL KILLS 11 IN LEBANON",
-      "detail": "Israel kills 11 in deadliest attacks on Lebanon since June truce as Iran and Oman continue talks on Hormuz.",
-      "severity": "CRÍTICO"
+      "timestamp": "16 AUG 2026 · 10:09 UTC",
+      "headline": "THE POST-HORMUZ ERA OFFERS AFRICA A GREAT OPPORTUNITY",
+      "detail": "But to capture its benefits, the continent needs to develop an effective, common maritime policy.",
+      "severity": "INFO"
     },
     {
       "timestamp": "15 AUG 2026 · 15:20 UTC",
