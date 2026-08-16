@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T20:16:29.848275+00:00",
+  "updated_at": "2026-08-16T21:15:12.922534+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
@@ -18,12 +18,6 @@
       "timestamp": "16 AUG 2026 · 19:18 UTC",
       "headline": "ERDOGAN CALLS FOR STRAIT OF HORMUZ REOPENING AMID OIL DISRUPTION",
       "detail": "Turkish President Recep Tayyip Erdogan has called for the Strait of Hormuz to reopen.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 AUG 2026 · 11:14 UTC",
-      "headline": "TRUMP THREATENS TO MAKE THE STRAIT OF HORMUZ A US TERRITORY: CAN HE?",
-      "detail": "US president has yet another outlandish threat for Iran, with no end to war in sight.",
       "severity": "INFO"
     },
     {
@@ -49,6 +43,12 @@
       "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
       "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 AUG 2026 · 00:48 UTC",
+      "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
+      "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
