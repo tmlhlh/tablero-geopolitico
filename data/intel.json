@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T19:18:01.092268+00:00",
+  "updated_at": "2026-08-16T20:16:29.848275+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "16 AUG 2026 · 11:14 UTC",
-      "headline": "TRUMP THREATENS TO MAKE THE STRAIT OF HORMUZ A US TERRITORY: CAN HE?",
-      "detail": "US president has yet another outlandish threat for Iran, with no end to war in sight.",
+      "timestamp": "16 AUG 2026 · 19:18 UTC",
+      "headline": "ERDOGAN CALLS FOR STRAIT OF HORMUZ REOPENING AMID OIL DISRUPTION",
+      "detail": "Turkish President Recep Tayyip Erdogan has called for the Strait of Hormuz to reopen.",
       "severity": "INFO"
     },
     {
-      "timestamp": "16 AUG 2026 · 10:09 UTC",
-      "headline": "THE POST-HORMUZ ERA OFFERS AFRICA A GREAT OPPORTUNITY",
-      "detail": "But to capture its benefits, the continent needs to develop an effective, common maritime policy.",
+      "timestamp": "16 AUG 2026 · 11:14 UTC",
+      "headline": "TRUMP THREATENS TO MAKE THE STRAIT OF HORMUZ A US TERRITORY: CAN HE?",
+      "detail": "US president has yet another outlandish threat for Iran, with no end to war in sight.",
       "severity": "INFO"
     },
     {
