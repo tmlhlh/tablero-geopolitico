@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T23:16:15.055365+00:00",
+  "updated_at": "2026-08-16T01:03:28.103827+00:00",
   "market": {
     "brent_usd": 88.52,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "16 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TALKS ON HORMUZ STRAIT CONTINUE; ISRAEL KILLS 11 IN LEBANON",
+      "detail": "Israel kills 11 in deadliest attacks on Lebanon since June truce as Iran and Oman continue talks on Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 AUG 2026 · 15:20 UTC",
       "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
@@ -43,12 +49,6 @@
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
       "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 AUG 2026 · 20:54 UTC",
-      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
-      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
