@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-08-17T17:22:22.300871+00:00",
+  "updated_at": "2026-08-17T18:32:29.858966+00:00",
   "market": {
-    "brent_usd": 89.79,
+    "brent_usd": 91.09,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 99.9,
-    "vix": 15.23,
+    "vix": 15.12,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "17 AUG 2026 · 17:13 UTC",
-      "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
-      "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
+      "timestamp": "17 AUG 2026 · 18:24 UTC",
+      "headline": "EL FIN DEL CONFLICTO SE ALEJA TRAS EXPIRAR EL ACUERDO ENTRE ESTADOS UNIDOS E IRÁ",
+      "detail": "Washington amenaza con bombardear a su antiguo aliado Omán, que dialoga con Teherán para una reapertura del estrecho de Ormuz, el principal escollo en las negociaciones",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 AUG 2026 · 17:04 UTC",
+      "timestamp": "17 AUG 2026 · 18:04 UTC",
       "headline": "UN ANALISTA INTERNACIONAL OPINÓ SOBRE EL CURSO DE LA GUERRA TRAS EL VENCIMIENTO ",
       "detail": "En comunicación con LN+, Andrés Repetto advirtió sobre la posibilidad de una ofensiva mayor en Medio Oriente; el régimen iraní estableció incentivos económicos por la captura de militares norteamerica",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 AUG 2026 · 17:13 UTC",
+      "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
+      "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
       "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 AUG 2026 · 15:20 UTC",
-      "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
-      "detail": "Iran says the Strait of Hormuz can’t be seized by tweet or aircraft carrier after Donald Trump vowed to claim the waterway as US territory Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.79 (+0.00%)",
-    "VIX: 15.23",
+    "BRENT: $91.09 (+0.00%)",
+    "VIX: 15.12",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
