@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T21:21:19.134235+00:00",
+  "updated_at": "2026-08-17T22:19:34.603571+00:00",
   "market": {
-    "brent_usd": 91.1,
+    "brent_usd": 91.34,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -27,12 +27,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "17 AUG 2026 · 18:04 UTC",
-      "headline": "UN ANALISTA INTERNACIONAL OPINÓ SOBRE EL CURSO DE LA GUERRA TRAS EL VENCIMIENTO ",
-      "detail": "En comunicación con LN+, Andrés Repetto advirtió sobre la posibilidad de una ofensiva mayor en Medio Oriente; el régimen iraní estableció incentivos económicos por la captura de militares norteamerica",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "17 AUG 2026 · 17:13 UTC",
       "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
       "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
@@ -49,10 +43,16 @@
       "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
       "detail": "Iran says the Strait of Hormuz can’t be seized by tweet or aircraft carrier after Donald Trump vowed to claim the waterway as US territory Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 AUG 2026 · 03:30 UTC",
+      "headline": "INESTABILIDAD CRONIFICADA ",
+      "detail": "Irán ha hecho valer en Ormuz la tesis clásica de Yves Lacoste de que la geografía es un arma inventada para la guerra",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.1 (+0.00%)",
+    "BRENT: $91.34 (+0.00%)",
     "VIX: 15.19",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
