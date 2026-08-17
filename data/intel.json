@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17T20:20:51.459431+00:00",
+  "updated_at": "2026-08-17T21:21:19.134235+00:00",
   "market": {
-    "brent_usd": 90.81,
+    "brent_usd": 91.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 99.9,
-    "vix": 15.2,
+    "vix": 15.19,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -39,21 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "17 AUG 2026 · 14:15 UTC",
-      "headline": "IRAN SIGNALS READINESS FOR ‘US GROUND OPERATIONS’ AS STRATEGY SHIFTS GEAR",
-      "detail": "Iran's more offensive posture follows Trump's comment that the US would soon make the Strait of Hormuz its territory.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "17 AUG 2026 · 12:05 UTC",
       "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
       "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 AUG 2026 · 15:20 UTC",
+      "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
+      "detail": "Iran says the Strait of Hormuz can’t be seized by tweet or aircraft carrier after Donald Trump vowed to claim the waterway as US territory Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.81 (+0.00%)",
-    "VIX: 15.2",
+    "BRENT: $91.1 (+0.00%)",
+    "VIX: 15.19",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
