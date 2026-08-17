@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-08-17T16:21:54.623371+00:00",
+  "updated_at": "2026-08-17T17:22:22.300871+00:00",
   "market": {
-    "brent_usd": 88.97,
+    "brent_usd": 89.79,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 15.06,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.8
+    "ormuz_flow_pct": 99.9,
+    "vix": 15.23,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "17 AUG 2026 · 14:59 UTC",
-      "headline": "TRUMP THREATENS TO BOMB US ALLY OMAN IF IT 'GETS IN THE WAY' OVER IRAN ISSUE",
-      "detail": "The US and Oman have separately been negotiating to reopen the Strait of Hormuz, a waterway that has been closed during the US war with Iran.",
+      "timestamp": "17 AUG 2026 · 17:13 UTC",
+      "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
+      "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 AUG 2026 · 14:56 UTC",
+      "timestamp": "17 AUG 2026 · 17:04 UTC",
       "headline": "UN ANALISTA INTERNACIONAL OPINÓ SOBRE EL CURSO DE LA GUERRA TRAS EL VENCIMIENTO ",
       "detail": "En comunicación con LN+, Andrés Repetto advirtió sobre la posibilidad de una ofensiva mayor en Medio Oriente; el régimen iraní estableció incentivos económicos por la captura de militares norteamerica",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 AUG 2026 · 14:15 UTC",
-      "headline": "IRAN SIGNALS READINESS FOR ‘US GROUND OPERATIONS’ AS MOU EXPIRES",
-      "detail": "Iran's more offensive posture follows Trump's comment that the US would soon make the Strait of Hormuz its territory.",
+      "timestamp": "17 AUG 2026 · 16:26 UTC",
+      "headline": "TRUMP THREATENS TO BOMB US ALLY OMAN IF IT 'GETS IN THE WAY' OVER IRAN DEAL",
+      "detail": "Trump's threat on Oman, which has been holding its own talks with Iran to reopen the Strait of Hormuz, comes as a 60-day window for peace negotiations expires.",
       "severity": "INFO"
     },
     {
-      "timestamp": "17 AUG 2026 · 13:38 UTC",
-      "headline": "TRUMP AMENAZA CON BOMBARDEAR OMÁN SI OBSTACULIZA UN ACUERDO CON IRÁN POR EL ESTR",
-      "detail": "El presidente estadounidense exigió además que Teherán “levante la bandera blanca y se rinda”; Irán y Omán avanzan en un entendimiento para reabrir la estratégica ruta marítima; los hutíes reivindicar",
-      "severity": "CRÍTICO"
+      "timestamp": "17 AUG 2026 · 14:15 UTC",
+      "headline": "IRAN SIGNALS READINESS FOR ‘US GROUND OPERATIONS’ AS STRATEGY SHIFTS GEAR",
+      "detail": "Iran's more offensive posture follows Trump's comment that the US would soon make the Strait of Hormuz its territory.",
+      "severity": "INFO"
     },
     {
       "timestamp": "17 AUG 2026 · 12:05 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $88.97 (+0.00%)",
-    "VIX: 15.06",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $89.79 (+0.00%)",
+    "VIX: 15.23",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
