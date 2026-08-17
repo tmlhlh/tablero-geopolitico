@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T03:45:41.523655+00:00",
+  "updated_at": "2026-08-17T04:36:23.192853+00:00",
   "market": {
-    "brent_usd": 88.92,
+    "brent_usd": 88.7,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "16 AUG 2026 · 19:18 UTC",
-      "headline": "ERDOGAN CALLS FOR STRAIT OF HORMUZ REOPENING AMID OIL DISRUPTION",
-      "detail": "Turkish President Recep Tayyip Erdogan has called for the Strait of Hormuz to reopen.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "15 AUG 2026 · 15:20 UTC",
       "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
@@ -49,10 +43,16 @@
       "headline": "TRUMP DEMANDS COMPENSATION FROM IRAN",
       "detail": "Donald Trump has demanded compensation from Iran after Tehran called for reparations as part of negotiations over the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "10 AUG 2026 · 20:54 UTC",
+      "headline": "UKRAINE MUST PAY FOR DEADLY SHIP STRIKE – IRAN",
+      "detail": "Iran has demanded compensation from Ukraine over a deadly attack on an Iranian commercial vessel in the Caspian Sea Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.92 (+0.00%)",
+    "BRENT: $88.7 (+0.00%)",
     "VIX: 14.25",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
