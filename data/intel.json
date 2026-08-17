@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17T14:22:41.675019+00:00",
+  "updated_at": "2026-08-17T15:20:35.056735+00:00",
   "market": {
-    "brent_usd": 88.87,
+    "brent_usd": 88.61,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.01,
+    "vix": 14.97,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 AUG 2026 · 14:56 UTC",
+      "headline": "UN ANALISTA INTERNACIONAL OPINÓ SOBRE EL CURSO DE LA GUERRA TRAS EL VENCIMIENTO ",
+      "detail": "En comunicación con LN+, Andrés Repetto advirtió sobre la posibilidad de una ofensiva mayor en Medio Oriente; el régimen iraní estableció incentivos económicos por la captura de militares norteamerica",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 AUG 2026 · 14:15 UTC",
+      "headline": "IRAN SIGNALS READINESS FOR ‘US GROUND OPERATIONS’ AS MOU EXPIRES",
+      "detail": "Iran's more offensive posture follows Trump's comment that the US would soon make the Strait of Hormuz its territory.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "17 AUG 2026 · 13:38 UTC",
       "headline": "TRUMP AMENAZA CON BOMBARDEAR OMÁN SI OBSTACULIZA UN ACUERDO CON IRÁN POR EL ESTR",
@@ -37,23 +49,11 @@
       "headline": "INESTABILIDAD CRONIFICADA ",
       "detail": "Irán ha hecho valer en Ormuz la tesis clásica de Yves Lacoste de que la geografía es un arma inventada para la guerra",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "12 AUG 2026 · 16:52 UTC",
-      "headline": "MOSCOW’S RESPONSE FOR SEIZING RUSSIAN VESSELS WILL PUT WEST IN ITS PLACE – CARL ",
-      "detail": "Russian President Vladimir Putin has vowed to retaliate to Western “piracy” and attacks on commercial shipping in kind Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 AUG 2026 · 15:09 UTC",
-      "headline": "VANCE DRESSES DOWN ZELENSKY OVER BLACK SEA TANKER ATTACKS – FT",
-      "detail": "The US warned Ukraine against attacking tankers using a Caspian Pipeline Consortium terminal co-owned by American firms, according to the FT Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.87 (+0.00%)",
-    "VIX: 15.01",
+    "BRENT: $88.61 (+0.00%)",
+    "VIX: 14.97",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
