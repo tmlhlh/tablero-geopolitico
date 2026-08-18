@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T05:23:57.142183+00:00",
+  "updated_at": "2026-08-18T06:35:44.833960+00:00",
   "market": {
-    "brent_usd": 91.5,
+    "brent_usd": 91.65,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -16,8 +16,8 @@
   "events": [
     {
       "timestamp": "18 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP REJECTS MOU EXTENSION AS US CLAIMS CONTROL OF HORMUZ",
-      "detail": "US president says Iran should 'put up the white flag of surrender' as the two nations’ MoU expired on Monday.",
+      "headline": "IRAN WAR LIVE: VESSEL STRUCK IN STRAIT OF HORMUZ, CREW MEMBER INJURED",
+      "detail": "A vessel was struck by a projectile in the Strait of Hormuz, leaving a crew member injured, according to the UKMTO.",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $91.5 (+0.00%)",
+    "BRENT: $91.65 (+0.00%)",
     "VIX: 15.19",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
