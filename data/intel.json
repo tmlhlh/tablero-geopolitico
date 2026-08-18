@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-18T14:28:37.847961+00:00",
+  "updated_at": "2026-08-18T15:26:53.522798+00:00",
   "market": {
-    "brent_usd": 90.89,
+    "brent_usd": 91.3,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 58.2,
-    "vix": 15.89,
+    "ormuz_flow_pct": 59.9,
+    "vix": 15.82,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "18 AUG 2026 · 14:32 UTC",
+      "headline": "EN UNA NUEVA PROVOCACIÓN, TRUMP ASEGURA QUE CONTROLA ORMUZ MIENTRAS IRÁN AMENAZA",
+      "detail": "El presidente norteamericano dijo que la vía marítima se encuentra “abierta y operativa”, mientras que Teherán dijo que permanecerá clausurada hasta que Washington modifique su postura",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 AUG 2026 · 14:01 UTC",
       "headline": "NUEVO ATAQUE EN ORMUZ: BOMBARDEARON UN BUQUE Y HAY AL MENOS UN MUERTO  ",
@@ -43,17 +49,11 @@
       "headline": "EL FIN DEL CONFLICTO SE ALEJA TRAS EXPIRAR EL ACUERDO ENTRE ESTADOS UNIDOS E IRÁ",
       "detail": "Washington amenaza con bombardear a su antiguo aliado Omán, que dialoga con Teherán para una reapertura del estrecho de Ormuz, el principal escollo en las negociaciones",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 AUG 2026 · 19:25 UTC",
-      "headline": "TRUMP THREATENS TO BOMB US ALLY OMAN IF IT 'GETS IN THE WAY' OVER IRAN DEAL",
-      "detail": "Trump's threat on Oman, which has been holding its own talks with Iran to reopen the Strait of Hormuz, comes as a 60-day window for peace negotiations expires.",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.89 (+0.00%)",
-    "VIX: 15.89",
+    "BRENT: $91.3 (+0.00%)",
+    "VIX: 15.82",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
