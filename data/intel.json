@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-18T13:38:17.463196+00:00",
+  "updated_at": "2026-08-18T14:28:37.847961+00:00",
   "market": {
-    "brent_usd": 91.31,
+    "brent_usd": 90.89,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
-    "vix": 15.82,
+    "ormuz_flow_pct": 58.2,
+    "vix": 15.89,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "18 AUG 2026 · 14:01 UTC",
+      "headline": "NUEVO ATAQUE EN ORMUZ: BOMBARDEARON UN BUQUE Y HAY AL MENOS UN MUERTO  ",
+      "detail": "Según la agencia marítima británica UKMTO, un proyectil no identificado dañó la sala de máquinas del barco y “provocó una baja” entre la tripulación, que debió ser asistida por la Guardia Costera",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "18 AUG 2026 · 13:26 UTC",
       "headline": "HORMUZ CAN’T BE REPLACED – IRANIAN GENERAL (VIDEO)",
@@ -43,17 +49,11 @@
       "headline": "TRUMP THREATENS TO BOMB US ALLY OMAN IF IT 'GETS IN THE WAY' OVER IRAN DEAL",
       "detail": "Trump's threat on Oman, which has been holding its own talks with Iran to reopen the Strait of Hormuz, comes as a 60-day window for peace negotiations expires.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 AUG 2026 · 17:13 UTC",
-      "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
-      "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.31 (+0.00%)",
-    "VIX: 15.82",
+    "BRENT: $90.89 (+0.00%)",
+    "VIX: 15.89",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
