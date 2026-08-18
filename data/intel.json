@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-18T06:35:44.833960+00:00",
+  "updated_at": "2026-08-18T07:34:20.743917+00:00",
   "market": {
-    "brent_usd": 91.65,
+    "brent_usd": 91.04,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 99.9,
-    "vix": 15.19,
+    "vix": 15.82,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "18 AUG 2026 · 06:35 UTC",
+      "headline": "VESSEL HIT BY ‘UNKNOWN PROJECTILE’ IN STRAIT OF HORMUZ, UKMTO SAYS",
+      "detail": "British maritime agency says the incident caused one casualty and damaged the vessel's engine room.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 AUG 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: VESSEL STRUCK IN STRAIT OF HORMUZ, CREW MEMBER INJURED",
@@ -43,17 +49,11 @@
       "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
       "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 AUG 2026 · 15:20 UTC",
-      "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
-      "detail": "Iran says the Strait of Hormuz can’t be seized by tweet or aircraft carrier after Donald Trump vowed to claim the waterway as US territory Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.65 (+0.00%)",
-    "VIX: 15.19",
+    "BRENT: $91.04 (+0.00%)",
+    "VIX: 15.82",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
