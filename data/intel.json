@@ -1,41 +1,35 @@
 {
-  "updated_at": "2026-08-18T15:26:53.522798+00:00",
+  "updated_at": "2026-08-18T16:26:04.384477+00:00",
   "market": {
-    "brent_usd": 91.3,
+    "brent_usd": 91.39,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 59.9,
-    "vix": 15.82,
+    "ormuz_flow_pct": 100.0,
+    "vix": 15.68,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "18 AUG 2026 · 14:32 UTC",
-      "headline": "EN UNA NUEVA PROVOCACIÓN, TRUMP ASEGURA QUE CONTROLA ORMUZ MIENTRAS IRÁN AMENAZA",
-      "detail": "El presidente norteamericano dijo que la vía marítima se encuentra “abierta y operativa”, mientras que Teherán dijo que permanecerá clausurada hasta que Washington modifique su postura",
+      "timestamp": "18 AUG 2026 · 15:59 UTC",
+      "headline": "TRUMP DECLARES HORMUZ ‘NEW US TERRITORY’",
+      "detail": "President Donald Trump has apparently proclaimed the strategic strait of Hormuz a new US territory, angering Tehran Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
-      "timestamp": "18 AUG 2026 · 14:01 UTC",
-      "headline": "NUEVO ATAQUE EN ORMUZ: BOMBARDEARON UN BUQUE Y HAY AL MENOS UN MUERTO  ",
-      "detail": "Según la agencia marítima británica UKMTO, un proyectil no identificado dañó la sala de máquinas del barco y “provocó una baja” entre la tripulación, que debió ser asistida por la Guardia Costera",
-      "severity": "CRÍTICO"
+      "timestamp": "18 AUG 2026 · 15:41 UTC",
+      "headline": "TRUMP DECLARA EL ESTRECHO DE ORMUZ “NUEVO TERRITORIO DE ESTADOS UNIDOS”",
+      "detail": "El republicano va un paso más allá en sus amenazas de anexión con una imagen publicada en su propia red social",
+      "severity": "INFO"
     },
     {
       "timestamp": "18 AUG 2026 · 13:26 UTC",
       "headline": "HORMUZ CAN’T BE REPLACED – IRANIAN GENERAL (VIDEO)",
       "detail": "In an exclusive interview with RT, IRGC adviser Mohammad Reza Naqdi explains why the Strait of Hormuz is hard to bypass Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 AUG 2026 · 12:56 UTC",
-      "headline": "TRUMP DECLARA EL ESTRECHO DE ORMUZ “NUEVO TERRITORIO DE ESTADOS UNIDOS”",
-      "detail": "El republicano va un paso más allá en sus amenazas de anexión con una imagen publicada en su propia red social",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "EL FIN DEL CONFLICTO SE ALEJA TRAS EXPIRAR EL ACUERDO ENTRE ESTADOS UNIDOS E IRÁ",
       "detail": "Washington amenaza con bombardear a su antiguo aliado Omán, que dialoga con Teherán para una reapertura del estrecho de Ormuz, el principal escollo en las negociaciones",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "17 AUG 2026 · 19:25 UTC",
+      "headline": "TRUMP THREATENS TO BOMB US ALLY OMAN IF IT 'GETS IN THE WAY' OVER IRAN DEAL",
+      "detail": "Trump's threat on Oman, which has been holding its own talks with Iran to reopen the Strait of Hormuz, comes as a 60-day window for peace negotiations expires.",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.3 (+0.00%)",
-    "VIX: 15.82",
+    "BRENT: $91.39 (+0.00%)",
+    "VIX: 15.68",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
