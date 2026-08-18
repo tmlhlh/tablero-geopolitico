@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-18T21:19:16.201129+00:00",
+  "updated_at": "2026-08-18T22:18:09.632866+00:00",
   "market": {
-    "brent_usd": 91.27,
+    "brent_usd": 91.37,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 62.2,
+    "ormuz_flow_pct": 63.8,
     "vix": 15.84,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
@@ -33,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "18 AUG 2026 · 17:02 UTC",
-      "headline": "UAE HALTS ALL TRADE WITH IRAN AFTER ALLEGED ATTACK ON ‘MARITIME NAVIGATION’",
-      "detail": "The UAE has accused Iran of firing two ballistic missiles at it on Tuesday, as the two-month window for US-Iran peace talks expired Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "18 AUG 2026 · 15:59 UTC",
       "headline": "TRUMP DECLARES HORMUZ ‘NEW US TERRITORY’",
       "detail": "President Donald Trump has apparently proclaimed the strategic strait of Hormuz a new US territory, angering Tehran Read Full Article at RT.com",
@@ -49,10 +43,16 @@
       "headline": "TRUMP DECLARA EL ESTRECHO DE ORMUZ “NUEVO TERRITORIO DE ESTADOS UNIDOS”",
       "detail": "El republicano va un paso más allá en sus amenazas de anexión con una imagen publicada en su propia red social",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "18 AUG 2026 · 13:26 UTC",
+      "headline": "HORMUZ CAN’T BE REPLACED – IRANIAN GENERAL (VIDEO)",
+      "detail": "In an exclusive interview with RT, IRGC adviser Mohammad Reza Naqdi explains why the Strait of Hormuz is hard to bypass Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.27 (+0.00%)",
+    "BRENT: $91.37 (+0.00%)",
     "VIX: 15.84",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
