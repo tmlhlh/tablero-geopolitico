@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-18T22:18:09.632866+00:00",
+  "updated_at": "2026-08-18T23:17:33.335052+00:00",
   "market": {
-    "brent_usd": 91.37,
+    "brent_usd": 91.36,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 63.8,
+    "ormuz_flow_pct": 65.3,
     "vix": 15.84,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
@@ -18,12 +18,6 @@
       "timestamp": "18 AUG 2026 · 21:03 UTC",
       "headline": "TRUMP SAYS NO TALKS PLANNED WITH IRAN AMID ANGER OVER IRAN-OMAN HORMUZ DEAL",
       "detail": "US president hits out as states bordering the Strait of Hormuz continue talks on managing the strategic waterway.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 AUG 2026 · 19:24 UTC",
-      "headline": "EN UNA NUEVA PROVOCACIÓN, TRUMP ASEGURA QUE CONTROLA ORMUZ MIENTRAS IRÁN AMENAZA",
-      "detail": "El presidente norteamericano dijo que la vía marítima se encuentra “abierta y operativa”, mientras que Teherán dijo que permanecerá clausurada hasta que Washington modifique su postura",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "HORMUZ CAN’T BE REPLACED – IRANIAN GENERAL (VIDEO)",
       "detail": "In an exclusive interview with RT, IRGC adviser Mohammad Reza Naqdi explains why the Strait of Hormuz is hard to bypass Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "17 AUG 2026 · 19:33 UTC",
+      "headline": "EL FIN DEL CONFLICTO SE ALEJA TRAS EXPIRAR EL ACUERDO ENTRE ESTADOS UNIDOS E IRÁ",
+      "detail": "Washington amenaza con bombardear a su antiguo aliado Omán, que dialoga con Teherán para una reapertura del estrecho de Ormuz, el principal escollo en las negociaciones",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.37 (+0.00%)",
+    "BRENT: $91.36 (+0.00%)",
     "VIX: 15.84",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
