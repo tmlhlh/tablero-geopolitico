@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T05:24:49.338647+00:00",
+  "updated_at": "2026-08-19T06:36:17.977463+00:00",
   "market": {
-    "brent_usd": 91.54,
+    "brent_usd": 91.51,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "18 AUG 2026 · 21:03 UTC",
-      "headline": "TRUMP SAYS NO TALKS PLANNED WITH IRAN AMID ANGER OVER IRAN-OMAN HORMUZ DEAL",
-      "detail": "US president hits out as states bordering the Strait of Hormuz continue talks on managing the strategic waterway.",
+      "timestamp": "19 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: RUBIO DISCUSSES HORMUZ SECURITY WITH UAE OFFICIAL",
+      "detail": "Trump says no talks with Tehran scheduled; Iranian Foreign Minister Abbas Araghchi claims US 'begging' for negotiations.",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $91.54 (+0.00%)",
+    "BRENT: $91.51 (+0.00%)",
     "VIX: 15.84",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
