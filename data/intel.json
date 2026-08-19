@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-18T23:17:33.335052+00:00",
+  "updated_at": "2026-08-19T01:00:18.802601+00:00",
   "market": {
-    "brent_usd": 91.36,
+    "brent_usd": 91.57,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 65.3,
+    "ormuz_flow_pct": 100.0,
     "vix": 15.84,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
@@ -19,12 +19,6 @@
       "headline": "TRUMP SAYS NO TALKS PLANNED WITH IRAN AMID ANGER OVER IRAN-OMAN HORMUZ DEAL",
       "detail": "US president hits out as states bordering the Strait of Hormuz continue talks on managing the strategic waterway.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "18 AUG 2026 · 18:32 UTC",
-      "headline": "ISRAELI STRIKE ON GAZA CITY CAFE KILLS SIX, INCLUDING CHILD",
-      "detail": "An Israeli strike hit a cafe in the port area west of Gaza City, killing six Palestinians, including a child.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "18 AUG 2026 · 15:59 UTC",
@@ -49,10 +43,16 @@
       "headline": "EL FIN DEL CONFLICTO SE ALEJA TRAS EXPIRAR EL ACUERDO ENTRE ESTADOS UNIDOS E IRÁ",
       "detail": "Washington amenaza con bombardear a su antiguo aliado Omán, que dialoga con Teherán para una reapertura del estrecho de Ormuz, el principal escollo en las negociaciones",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "17 AUG 2026 · 17:13 UTC",
+      "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
+      "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.36 (+0.00%)",
+    "BRENT: $91.57 (+0.00%)",
     "VIX: 15.84",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
