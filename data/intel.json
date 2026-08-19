@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-19T17:22:13.430375+00:00",
+  "updated_at": "2026-08-19T18:28:12.363618+00:00",
   "market": {
-    "brent_usd": 92.78,
+    "brent_usd": 91.85,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.17,
+    "vix": 15.16,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "19 AUG 2026 · 14:55 UTC",
-      "headline": "EMIRATOS ÁRABES UNIDOS SUSPENDE SUS VÍNCULOS COMERCIALES CON IRÁN Y TEHERÁN AMEN",
-      "detail": "Ambos países han mantenido estrechos vínculos económicos y culturales pese a sus tensiones políticas; esta semana, Abu Dabi acusó a la república islámica de lanzar misiles contra su territorio",
-      "severity": "INFO"
-    },
     {
       "timestamp": "18 AUG 2026 · 15:59 UTC",
       "headline": "TRUMP DECLARES HORMUZ ‘NEW US TERRITORY’",
@@ -49,11 +43,17 @@
       "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
       "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "15 AUG 2026 · 15:20 UTC",
+      "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
+      "detail": "Iran says the Strait of Hormuz can’t be seized by tweet or aircraft carrier after Donald Trump vowed to claim the waterway as US territory Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.78 (+0.00%)",
-    "VIX: 15.17",
+    "BRENT: $91.85 (+0.00%)",
+    "VIX: 15.16",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
