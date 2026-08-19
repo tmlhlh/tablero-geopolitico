@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-19T14:28:25.706182+00:00",
+  "updated_at": "2026-08-19T15:26:20.068522+00:00",
   "market": {
-    "brent_usd": 91.61,
+    "brent_usd": 92.26,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.35,
+    "vix": 15.14,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "19 AUG 2026 · 14:55 UTC",
+      "headline": "EMIRATOS ÁRABES UNIDOS SUSPENDE SUS VÍNCULOS COMERCIALES CON IRÁN Y TEHERÁN AMEN",
+      "detail": "Ambos países han mantenido estrechos vínculos económicos y culturales pese a sus tensiones políticas; esta semana, Abu Dabi acusó a la república islámica de lanzar misiles contra su territorio",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 AUG 2026 · 15:59 UTC",
       "headline": "TRUMP DECLARES HORMUZ ‘NEW US TERRITORY’",
@@ -43,17 +49,11 @@
       "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
       "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 AUG 2026 · 12:05 UTC",
-      "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
-      "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.61 (+0.00%)",
-    "VIX: 15.35",
+    "BRENT: $92.26 (+0.00%)",
+    "VIX: 15.14",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
