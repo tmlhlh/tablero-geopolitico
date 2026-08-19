@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T08:31:59.922545+00:00",
+  "updated_at": "2026-08-19T09:28:54.873313+00:00",
   "market": {
-    "brent_usd": 91.53,
+    "brent_usd": 92.16,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "19 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: RUBIO DISCUSSES HORMUZ SECURITY WITH UAE OFFICIAL",
-      "detail": "Trump says no talks with Tehran scheduled; Iranian Foreign Minister Abbas Araghchi claims US 'begging' for negotiations.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "18 AUG 2026 · 15:59 UTC",
       "headline": "TRUMP DECLARES HORMUZ ‘NEW US TERRITORY’",
@@ -49,10 +43,16 @@
       "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
       "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "17 AUG 2026 · 12:05 UTC",
+      "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
+      "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.53 (+0.00%)",
+    "BRENT: $92.16 (+0.00%)",
     "VIX: 15.83",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
