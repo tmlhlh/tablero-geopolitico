@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-08-20T14:31:25.710577+00:00",
+  "updated_at": "2026-08-20T15:28:58.455325+00:00",
   "market": {
-    "brent_usd": 93.43,
+    "brent_usd": 93.33,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 16.04,
+    "vix": 15.76,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "20 AUG 2026 · 08:43 UTC",
-      "headline": "ARE SHIPS PASSING HORMUZ MORE WILLING TO DEFY IRAN OR US? WHAT DATA SHOWS",
-      "detail": "Most ships are trying to mask identities while trying to cross the strait. But more seem scared of Iran than of the US.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "18 AUG 2026 · 15:59 UTC",
       "headline": "TRUMP DECLARES HORMUZ ‘NEW US TERRITORY’",
@@ -49,11 +43,17 @@
       "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
       "detail": "Iran says the Strait of Hormuz can’t be seized by tweet or aircraft carrier after Donald Trump vowed to claim the waterway as US territory Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "20 AUG 2026 · 15:28 UTC",
+      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
+      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.43 (+0.00%)",
-    "VIX: 16.04",
+    "BRENT: $93.33 (+0.00%)",
+    "VIX: 15.76",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
