@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T01:03:13.040194+00:00",
+  "updated_at": "2026-08-21T02:58:08.944019+00:00",
   "market": {
-    "brent_usd": 93.43,
+    "brent_usd": 93.71,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -45,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "21 AUG 2026 · 01:03 UTC",
+      "timestamp": "21 AUG 2026 · 02:58 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.43 (+0.00%)",
+    "BRENT: $93.71 (+0.00%)",
     "VIX: 16.01",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
