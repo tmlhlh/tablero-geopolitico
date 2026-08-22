@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T23:18:50.601127+00:00",
+  "updated_at": "2026-08-22T00:59:56.531688+00:00",
   "market": {
     "brent_usd": 93.87,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "22 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS HE VIEWS STRAIT OF HORMUZ AS ‘AMERICAN TERRITORY’",
+      "detail": "US president says Iran 'would love to make a deal, but they’re not ready to make the right deal in my opinion'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "18 AUG 2026 · 15:59 UTC",
       "headline": "TRUMP DECLARES HORMUZ ‘NEW US TERRITORY’",
@@ -42,12 +48,6 @@
       "timestamp": "15 AUG 2026 · 15:20 UTC",
       "headline": "IRAN MOCKS TRUMP’S HORMUZ AMBITIONS AS ‘FANCIFUL DELUSIONS’",
       "detail": "Iran says the Strait of Hormuz can’t be seized by tweet or aircraft carrier after Donald Trump vowed to claim the waterway as US territory Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 AUG 2026 · 23:18 UTC",
-      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
-      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     }
   ],
