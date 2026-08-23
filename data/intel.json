@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T01:04:28.025802+00:00",
+  "updated_at": "2026-08-23T02:58:11.375204+00:00",
   "market": {
     "brent_usd": 94.39,
     "brent_chg": 0.0
@@ -42,12 +42,6 @@
       "timestamp": "17 AUG 2026 · 12:05 UTC",
       "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
       "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 AUG 2026 · 01:04 UTC",
-      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
-      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     }
   ],
