@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T21:16:43.115759+00:00",
+  "updated_at": "2026-08-23T22:17:10.414669+00:00",
   "market": {
     "brent_usd": 94.39,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "23 AUG 2026 · 13:37 UTC",
-      "headline": "THE SUEZ CRISIS STOPPED THE BRITISH EMPIRE. WILL HORMUZ DEFEAT THE US?",
-      "detail": "In the latest episode of Al Jazeera’s new podcast, Deja Vu looks at how oil, shipping and war shape the Gulf.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "23 AUG 2026 · 03:45 UTC",
       "headline": "OMÁN, EL DISCRETO MEDIADOR DE ORIENTE PRÓXIMO AL QUE TRUMP PONE EN LA DIANA",
@@ -48,6 +42,12 @@
       "timestamp": "17 AUG 2026 · 12:05 UTC",
       "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
       "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 AUG 2026 · 22:17 UTC",
+      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
+      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     }
   ],
