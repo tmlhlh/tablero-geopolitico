@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24T13:47:08.804845+00:00",
+  "updated_at": "2026-08-24T14:37:00.385879+00:00",
   "market": {
-    "brent_usd": 93.56,
+    "brent_usd": 92.57,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 63.9,
-    "vix": 15.83,
+    "ormuz_flow_pct": 65.2,
+    "vix": 15.88,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
   },
@@ -15,7 +15,7 @@
   },
   "events": [
     {
-      "timestamp": "24 AUG 2026 · 13:38 UTC",
+      "timestamp": "24 AUG 2026 · 14:10 UTC",
       "headline": "IRÁN AUMENTA LA PRESIÓN SOBRE ORMUZ ANTE EL INMINENTE ANUNCIO DE SANCIONES DE EE",
       "detail": "Teherán advirtió que cualquier escalada por parte de Washington “tendrá sin dudas consecuencias”",
       "severity": "CRÍTICO"
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.56 (+0.00%)",
-    "VIX: 15.83",
+    "BRENT: $92.57 (+0.00%)",
+    "VIX: 15.88",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
