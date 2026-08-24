@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-24T09:41:44.383254+00:00",
+  "updated_at": "2026-08-24T10:33:12.669445+00:00",
   "market": {
-    "brent_usd": 93.08,
+    "brent_usd": 92.72,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
+    "ormuz_flow_pct": 58.5,
     "vix": 15.91,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "24 AUG 2026 · 09:58 UTC",
+      "headline": "US MILITARY SAYS STRIKE ON ALLEGED DRUG-SMUGGLING BOAT KILLS TWO",
+      "detail": "US Southern Command says Sunday's strike targeted vessel operating along established narco-trafficking routes.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "24 AUG 2026 · 03:45 UTC",
       "headline": "EL ‘LOBBY’ PETROLERO PROTRUMP SE HACE DE ORO CON LA GUERRA CONTRA IRÁN",
@@ -43,16 +49,10 @@
       "headline": "TRUMP THREATENS TO ‘BOMB THE SH*T OUT OF’ OMAN",
       "detail": "US President Donald Trump has threatened to bomb Oman, as Muscat and Tehran press ahead with talks aimed at reopening the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 AUG 2026 · 12:05 UTC",
-      "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
-      "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.08 (+0.00%)",
+    "BRENT: $92.72 (+0.00%)",
     "VIX: 15.91",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
