@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-24T20:24:48.398066+00:00",
+  "updated_at": "2026-08-24T21:24:11.464148+00:00",
   "market": {
-    "brent_usd": 91.98,
+    "brent_usd": 91.99,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 58.6,
+    "ormuz_flow_pct": 60.3,
     "vix": 15.85,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
@@ -16,7 +16,7 @@
   "events": [
     {
       "timestamp": "24 AUG 2026 · 19:44 UTC",
-      "headline": "YEMEN’S HOUTHIS REPORT ATTACK ON SAUDI SHIP",
+      "headline": "YEMEN’S HOUTHIS REPORT ATTACK ON SAUDI OIL TANKER IN RED SEA",
       "detail": "Saudi shipping company Bahri confirmed its vessel was struck, all crew members safe.",
       "severity": "CRÍTICO"
     },
@@ -45,14 +45,14 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "24 AUG 2026 · 20:24 UTC",
+      "timestamp": "24 AUG 2026 · 21:24 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $91.98 (+0.00%)",
+    "BRENT: $91.99 (+0.00%)",
     "VIX: 15.85",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
