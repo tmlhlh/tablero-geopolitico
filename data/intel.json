@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T23:16:38.873941+00:00",
+  "updated_at": "2026-08-24T01:02:18.954958+00:00",
   "market": {
-    "brent_usd": 93.51,
+    "brent_usd": 93.1,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "24 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: IRANIAN PARLIAMENT ADVANCES PLANS FOR HORMUZ SERVICE FEES",
+      "detail": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for Tehran's services.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 AUG 2026 · 03:45 UTC",
       "headline": "OMÁN, EL DISCRETO MEDIADOR DE ORIENTE PRÓXIMO AL QUE TRUMP PONE EN LA DIANA",
@@ -43,16 +49,10 @@
       "headline": "‘DARK’ OIL TRADE STILL FLOWING DESPITE HORMUZ DISRUPTION – BLOOMBERG",
       "detail": "Gulf producers are reportedly moving crude through the Strait of Hormuz on tankers with transponders off Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "23 AUG 2026 · 23:16 UTC",
-      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
-      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.51 (+0.00%)",
+    "BRENT: $93.1 (+0.00%)",
     "VIX: 15.13",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
