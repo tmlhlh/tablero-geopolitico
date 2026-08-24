@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T01:02:18.954958+00:00",
+  "updated_at": "2026-08-24T02:58:36.701098+00:00",
   "market": {
-    "brent_usd": 93.1,
+    "brent_usd": 92.86,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.1 (+0.00%)",
+    "BRENT: $92.86 (+0.00%)",
     "VIX: 15.13",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
