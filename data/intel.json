@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T02:58:36.701098+00:00",
+  "updated_at": "2026-08-24T03:57:26.407076+00:00",
   "market": {
-    "brent_usd": 92.86,
+    "brent_usd": 93.18,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "24 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRANIAN PARLIAMENT ADVANCES PLANS FOR HORMUZ SERVICE FEES",
-      "detail": "Draft law says ships of countries permitted to pass through the Strait of Hormuz will pay for Tehran's services.",
+      "timestamp": "24 AUG 2026 · 03:45 UTC",
+      "headline": "EL ‘LOBBY’ PETROLERO PROTRUMP SE HACE DE ORO CON LA GUERRA CONTRA IRÁN",
+      "detail": "El sector fósil estadounidense, gran donante del republicano, multiplica sus beneficios con el cierre de Ormuz y la crisis global de refino",
       "severity": "INFO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $92.86 (+0.00%)",
+    "BRENT: $93.18 (+0.00%)",
     "VIX: 15.13",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
