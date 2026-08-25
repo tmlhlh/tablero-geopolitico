@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-25T16:31:49.900068+00:00",
+  "updated_at": "2026-08-25T17:27:35.230758+00:00",
   "market": {
-    "brent_usd": 87.39,
+    "brent_usd": 87.09,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.51,
+    "vix": 15.53,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.0
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "25 AUG 2026 · 16:39 UTC",
+      "headline": "SANCTIONS OR MISSILES? WHY GULF MAY NOT RELISH TRUMP’S NEW IRAN APPROACH",
+      "detail": "As Washington pressures Tehran, Gulf states weigh sanctions against the risk of escalation.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "25 AUG 2026 · 15:18 UTC",
       "headline": "SWEDISH MILITARY SEEKS TO TAKE OVER RUSSIAN-OWNED ESTATE NEAR NAVAL BASE ",
@@ -33,27 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 AUG 2026 · 16:31 UTC",
+      "timestamp": "25 AUG 2026 · 17:27 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "25 AUG 2026 · 16:31 UTC",
+      "timestamp": "25 AUG 2026 · 17:27 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 AUG 2026 · 16:31 UTC",
-      "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
-      "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.39 (+0.00%)",
-    "VIX: 15.51",
+    "BRENT: $87.09 (+0.00%)",
+    "VIX: 15.53",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
