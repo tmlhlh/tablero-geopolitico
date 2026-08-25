@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T21:23:17.600989+00:00",
+  "updated_at": "2026-08-25T22:21:49.251548+00:00",
   "market": {
-    "brent_usd": 85.86,
+    "brent_usd": 86.15,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
+      "timestamp": "25 AUG 2026 · 22:01 UTC",
+      "headline": "IRÁN DESAFÍA LAS NUEVAS SANCIONES DE ESTADOS UNIDOS Y AMENAZA CON ESCALAR LA PRE",
+      "detail": "Teherán aseguró que resistirá la ofensiva económica de Washington, mientras crecen las amenazas sobre el estrecho de Ormuz, la infraestructura energética del Golfo y posibles ataques cibernéticos cont",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "25 AUG 2026 · 19:47 UTC",
       "headline": "IRAN, OMAN DISCUSS TEMPORARY SHIPPING LANE THROUGH STRAIT OF HORMUZ",
       "detail": "Omani FM hopes the two countries will 'soon announce' a joint temporary transit corridor through the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 AUG 2026 · 16:39 UTC",
-      "headline": "SANCTIONS OR MISSILES? HOW GULF WILL VIEW TRUMP’S NEW IRAN APPROACH",
-      "detail": "As Washington pressures Tehran, Gulf states weigh sanctions against the risk of escalation.",
       "severity": "INFO"
     },
     {
@@ -39,20 +39,20 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 AUG 2026 · 21:23 UTC",
+      "timestamp": "25 AUG 2026 · 22:21 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "25 AUG 2026 · 21:23 UTC",
+      "timestamp": "25 AUG 2026 · 22:21 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.86 (+0.00%)",
+    "BRENT: $86.15 (+0.00%)",
     "VIX: 15.45",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
