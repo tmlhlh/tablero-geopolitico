@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-26T18:56:06.304368+00:00",
+  "updated_at": "2026-08-26T21:37:42.714177+00:00",
   "market": {
-    "brent_usd": 86.8,
+    "brent_usd": 86.56,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.44,
+    "vix": 15.21,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.0
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -27,27 +27,27 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "26 AUG 2026 · 18:56 UTC",
+      "timestamp": "26 AUG 2026 · 21:37 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "26 AUG 2026 · 18:56 UTC",
+      "timestamp": "26 AUG 2026 · 21:37 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     },
     {
-      "timestamp": "26 AUG 2026 · 18:56 UTC",
+      "timestamp": "26 AUG 2026 · 21:37 UTC",
       "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
       "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.8 (+0.00%)",
-    "VIX: 15.44",
+    "BRENT: $86.56 (+0.00%)",
+    "VIX: 15.21",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
