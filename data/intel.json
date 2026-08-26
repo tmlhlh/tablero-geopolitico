@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-08-25T23:21:14.662259+00:00",
+  "updated_at": "2026-08-26T01:03:22.321320+00:00",
   "market": {
-    "brent_usd": 85.86,
+    "brent_usd": 85.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
+    "ormuz_flow_pct": 8.5,
     "vix": 15.45,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "26 AUG 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: IRAN SAYS HORMUZ REMAINS CLOSED DESPITE OMAN ROUTE DEAL",
+      "detail": "Tehran says the agreement with Oman on routes through Hormuz does not indicate that the strait is open.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "25 AUG 2026 · 22:01 UTC",
       "headline": "IRÁN DESAFÍA LAS NUEVAS SANCIONES DE ESTADOS UNIDOS Y AMENAZA CON ESCALAR LA PRE",
@@ -39,21 +45,15 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "25 AUG 2026 · 23:21 UTC",
+      "timestamp": "26 AUG 2026 · 01:03 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 AUG 2026 · 23:21 UTC",
-      "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
-      "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $85.86 (+0.00%)",
+    "BRENT: $85.55 (+0.00%)",
     "VIX: 15.45",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
