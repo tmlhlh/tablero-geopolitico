@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-27T13:41:28.210708+00:00",
+  "updated_at": "2026-08-27T23:31:58.162167+00:00",
   "market": {
-    "brent_usd": 87.73,
+    "brent_usd": 88.63,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.04,
+    "vix": 14.51,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -15,33 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "27 AUG 2026 · 09:29 UTC",
-      "headline": "HOW A 95 PERCENT DROP IN HORMUZ TRAFFIC CHANGED GLOBAL SHIPPING",
-      "detail": "A crisis in one narrow passage has disrupted an industry that carries about 80 percent of the world’s trade.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 AUG 2026 · 13:41 UTC",
+      "timestamp": "27 AUG 2026 · 23:31 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 AUG 2026 · 13:41 UTC",
+      "timestamp": "27 AUG 2026 · 23:31 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     },
     {
-      "timestamp": "27 AUG 2026 · 13:41 UTC",
+      "timestamp": "27 AUG 2026 · 23:31 UTC",
       "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
       "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.73 (+0.00%)",
-    "VIX: 15.04",
+    "BRENT: $88.63 (+0.00%)",
+    "VIX: 14.51",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
