@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T03:03:09.913125+00:00",
+  "updated_at": "2026-08-29T10:42:48.866520+00:00",
   "market": {
-    "brent_usd": 88.29,
+    "brent_usd": 88.1,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "29 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRGC ASSERTS STRAIT CONTROL, US ENFORCES BLOCKADE",
-      "detail": "Iran's IRGC claims decisive control over the Strait of Hormuz as the US maintains its naval blockade.",
+      "timestamp": "29 AUG 2026 · 10:09 UTC",
+      "headline": "IRAN’S LEADERS ACKNOWLEDGE ECONOMIC TOLL OF WAR, PLEDGE DIPLOMACY, DEFENCE",
+      "detail": "Iran's president said sanctions and the US naval blockade had caused exports and imports to slump by nearly 35 percent.",
       "severity": "INFO"
     },
     {
@@ -27,32 +27,26 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "28 AUG 2026 · 03:30 UTC",
-      "headline": "EL ESTRECHO DE ORMUZ TRAS SEIS MESES DE GUERRA: BLOQUEO, DRONES Y BARCOS FANTASM",
-      "detail": "Se suceden los ataques a buques en el estratégico estrecho mientras Irán y Omán ultiman las negociaciones sobre una nueva ruta",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 AUG 2026 · 03:03 UTC",
+      "timestamp": "29 AUG 2026 · 10:42 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "29 AUG 2026 · 03:03 UTC",
+      "timestamp": "29 AUG 2026 · 10:42 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     },
     {
-      "timestamp": "29 AUG 2026 · 03:03 UTC",
+      "timestamp": "29 AUG 2026 · 10:42 UTC",
       "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
       "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.29 (+0.00%)",
+    "BRENT: $88.1 (+0.00%)",
     "VIX: 14.43",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
