@@ -1,24 +1,30 @@
 {
-  "updated_at": "2026-08-29T15:26:39.204239+00:00",
+  "updated_at": "2026-08-29T19:08:00.842949+00:00",
   "market": {
     "brent_usd": 88.1,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 36.1,
     "vix": 14.43,
-    "risk_level": "CRÍTICO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
-      "timestamp": "29 AUG 2026 · 10:09 UTC",
-      "headline": "IRAN’S LEADERS ACKNOWLEDGE ECONOMIC TOLL OF WAR, PLEDGE DIPLOMACY, DEFENCE",
-      "detail": "Iran's president said sanctions and the US naval blockade had caused exports and imports to slump by nearly 35 percent.",
-      "severity": "INFO"
+      "timestamp": "29 AUG 2026 · 17:41 UTC",
+      "headline": "TURKIYE SUMMONS UKRAINE AMBASSADOR OVER BLACK SEA ATTACKS",
+      "detail": "Two Turkish-operated vessels have been struck this week as a result of the war between Russia and Ukraine.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "29 AUG 2026 · 17:30 UTC",
+      "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
+      "detail": "Ankara has summoned Kiev’s envoy after two Turkish-operated vessels were attacked in the Black Sea Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "28 AUG 2026 · 14:57 UTC",
@@ -27,19 +33,19 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "29 AUG 2026 · 15:26 UTC",
+      "timestamp": "29 AUG 2026 · 19:08 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "29 AUG 2026 · 15:26 UTC",
+      "timestamp": "29 AUG 2026 · 19:08 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     },
     {
-      "timestamp": "29 AUG 2026 · 15:26 UTC",
+      "timestamp": "29 AUG 2026 · 19:08 UTC",
       "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
       "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
@@ -48,6 +54,6 @@
   "ticker_items": [
     "BRENT: $88.1 (+0.00%)",
     "VIX: 14.43",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
