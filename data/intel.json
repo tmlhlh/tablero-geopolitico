@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-30T20:28:35.303734+00:00",
+  "updated_at": "2026-08-30T23:06:29.383817+00:00",
   "market": {
-    "brent_usd": 88.1,
+    "brent_usd": 89.8,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 88.3,
+    "ormuz_flow_pct": 89.8,
     "vix": 14.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -27,26 +27,26 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "30 AUG 2026 · 20:28 UTC",
+      "timestamp": "30 AUG 2026 · 23:06 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "30 AUG 2026 · 20:28 UTC",
+      "timestamp": "30 AUG 2026 · 23:06 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
       "severity": "INFO"
     },
     {
-      "timestamp": "30 AUG 2026 · 20:28 UTC",
+      "timestamp": "30 AUG 2026 · 23:06 UTC",
       "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
       "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.1 (+0.00%)",
+    "BRENT: $89.8 (+0.00%)",
     "VIX: 14.43",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
