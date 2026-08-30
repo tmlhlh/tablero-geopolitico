@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-30T06:25:17.797417+00:00",
+  "updated_at": "2026-08-30T12:33:27.733808+00:00",
   "market": {
     "brent_usd": 88.1,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 76.3,
+    "ormuz_flow_pct": 82.5,
     "vix": 14.43,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -15,15 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "30 AUG 2026 · 05:09 UTC",
-      "headline": "MAPPING THE IRAN WAR’S STRIKES ON GULF ENERGY – AND WHAT COMES NEXT FOR OIL",
-      "detail": "US energy companies have reaped billions from rising oil price, but their assets in the region remain at risk.",
+      "timestamp": "30 AUG 2026 · 11:24 UTC",
+      "headline": "SIX MONTHS ON, WHAT DID THE STRIKES ON IRAN ACHIEVE?",
+      "detail": "The US-Israeli bombing of Iran became a fight for the Strait of Hormuz. AJLabs counts the cost of the war.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "30 AUG 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN IN NO RUSH TO OPEN HORMUZ; WEST BANK ATTACKS CONTINUE",
-      "detail": "Deputy foreign minister says Iranian forces have 'full oversight' of movements in the strait.",
+      "timestamp": "30 AUG 2026 · 10:30 UTC",
+      "headline": "IRAN’S KHAMENEI CALLS FOR GULF UNITY AS HORMUZ TENSIONS PERSIST",
+      "detail": "Khamenei urges Gulf rulers to confront their 'real enemy' as Iran keeps Hormuz restricted amid stalled diplomacy.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 AUG 2026 · 05:09 UTC",
+      "headline": "MAPPING IRAN WAR’S STRIKES ON GULF ENERGY AND ITS IMPACT ON FUTURE OF OIL",
+      "detail": "US energy companies have reaped billions from rising oil price, but their assets in the region remain at risk.",
       "severity": "CRÍTICO"
     },
     {
@@ -36,6 +42,12 @@
       "timestamp": "28 AUG 2026 · 14:57 UTC",
       "headline": "TRUMP HAS ‘HORMUZ SCHIZOPHRENIA’ – IRAN",
       "detail": "Trump apparently suffers from delusions as he speaks of the Strait of Hormuz as being a US territory, a senior Iranian diplomat has charged Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 AUG 2026 · 12:33 UTC",
+      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
+      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     }
   ],
