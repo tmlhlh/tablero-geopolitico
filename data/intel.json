@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-08-31T03:19:05.985314+00:00",
+  "updated_at": "2026-08-31T10:26:33.002386+00:00",
   "market": {
-    "brent_usd": 90.19,
+    "brent_usd": 88.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 91.9,
-    "vix": 14.43,
+    "ormuz_flow_pct": 94.5,
+    "vix": 15.22,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.8
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "31 AUG 2026 · 01:57 UTC",
-      "headline": "EE UU E IRÁN INTERCAMBIAN ATAQUES POR PRIMERA VEZ DESDE JULIO",
-      "detail": "Washington bombardea dos lanzaderas en la isla de Larak, que dice que suponían una amenaza en el estrecho de Ormuz, y Teherán responde con el lanzamiento de misiles a Jordania",
+      "timestamp": "31 AUG 2026 · 09:19 UTC",
+      "headline": "IRAN ATTACKS JORDAN, UAE AFTER US BOMBS LARAK ISLAND: WHAT’S THE LATEST?",
+      "detail": "The retaliatory attacks came after the US targeted two Iranian launchers on Larak Island in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "31 AUG 2026 · 08:34 UTC",
+      "headline": "US AND IRAN TRADE STRIKES FOR FIRST TIME IN WEEKS",
+      "detail": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
       "severity": "CRÍTICO"
     },
     {
@@ -33,27 +39,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "31 AUG 2026 · 03:19 UTC",
+      "timestamp": "31 AUG 2026 · 10:26 UTC",
       "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
       "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
       "severity": "INFO"
     },
     {
-      "timestamp": "31 AUG 2026 · 03:19 UTC",
+      "timestamp": "31 AUG 2026 · 10:26 UTC",
       "headline": "PETROLEUM MARKETS RESPONDED TO DISRUPTIONS IN THE MIDDLE EAST IN THE SECOND QUAR",
       "detail": "Petroleum markets in the second quarter of 2026 (2Q26) were characterized by continued disruptions to international crude oil and petroleum product flows through the Strait of Hormuz, contributing to ",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "31 AUG 2026 · 03:19 UTC",
-      "headline": "U.S. EXPORTS OF CRUDE OIL AND PETROLEUM PRODUCTS REACHED RECORD IN APRIL",
-      "detail": "U.S. petroleum exports reached a record in April as disruptions to international crude oil and refined product flows through the Strait of Hormuz increased global demand for U.S. exports. Exports incr",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.19 (+0.00%)",
-    "VIX: 14.43",
+    "BRENT: $88.95 (+0.00%)",
+    "VIX: 15.22",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
