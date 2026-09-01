@@ -1,37 +1,19 @@
 {
-  "updated_at": "2026-09-01T20:28:28.710073+00:00",
+  "updated_at": "2026-09-01T22:57:54.182957+00:00",
   "market": {
-    "brent_usd": 95.28,
+    "brent_usd": 95.29,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 25.5,
-    "vix": 16.35,
-    "risk_level": "ALTO",
+    "ormuz_flow_pct": 99.3,
+    "vix": 16.34,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "01 SEP 2026 · 20:26 UTC",
-      "headline": "US LAUNCHES MORE STRIKES ON IRAN AS STATE MEDIA REPORTS EXPLOSIONS",
-      "detail": "US Central Command accused Iran of targeting commercial shipping and American service members deployed in the region.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 SEP 2026 · 17:57 UTC",
-      "headline": "US LAUNCHES NEW STRIKES ON IRAN",
-      "detail": "The US has begun striking IRGC targets in Iran following alleged attempted attacks on shipping in the Strait of Hormuz, CENTCOM has said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "01 SEP 2026 · 17:56 UTC",
-      "headline": "ESTADOS UNIDOS BOMBARDEA IRÁN POR SEGUNDA VEZ EN 48 HORAS",
-      "detail": "Trump asegura que la negociación con Teherán “es papel mojado” mientras se dispara de nuevo la tensión en el estrecho de Ormuz",
-      "severity": "INFO"
-    },
     {
       "timestamp": "01 SEP 2026 · 03:30 UTC",
       "headline": "LOS PIRATAS DE SOMALIA EXHIBEN SU CRECIENTE PODERÍO CON NUEVOS SECUESTROS DE BUQ",
@@ -39,21 +21,21 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "31 AUG 2026 · 13:47 UTC",
-      "headline": "US AND IRAN TRADE STRIKES FOR FIRST TIME IN WEEKS",
-      "detail": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "29 AUG 2026 · 17:30 UTC",
       "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
       "detail": "Ankara has summoned Kiev’s envoy after two Turkish-operated vessels were attacked in the Black Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "28 AUG 2026 · 14:57 UTC",
+      "headline": "TRUMP HAS ‘HORMUZ SCHIZOPHRENIA’ – IRAN",
+      "detail": "Trump apparently suffers from delusions as he speaks of the Strait of Hormuz as being a US territory, a senior Iranian diplomat has charged Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.28 (+0.00%)",
-    "VIX: 16.35",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "BRENT: $95.29 (+0.00%)",
+    "VIX: 16.34",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
