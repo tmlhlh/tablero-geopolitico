@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-09-01T13:01:04.262965+00:00",
+  "updated_at": "2026-09-01T17:33:02.586563+00:00",
   "market": {
-    "brent_usd": 92.56,
+    "brent_usd": 94.07,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 98.7,
-    "vix": 15.92,
+    "ormuz_flow_pct": 58.2,
+    "vix": 16.04,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "01 SEP 2026 · 16:45 UTC",
+      "headline": "US LAUNCHES NEW STRIKES AGAINST IRAN AS WAR ESCALATES",
+      "detail": "US says it is attacking IRGC targets following 'attempted attacks' on ships in Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "01 SEP 2026 · 15:29 UTC",
+      "headline": "QATAR SAYS EFFORTS UNDER WAY TO END IRAN-US WAR AND REOPEN STRAIT OF HORMUZ",
+      "detail": "Qatar accuses Israel of exploiting regional conflicts to impose new realities in Palestine, Lebanon, and Syria.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "01 SEP 2026 · 03:30 UTC",
       "headline": "LOS PIRATAS DE SOMALIA EXHIBEN SU CRECIENTE PODERÍO CON NUEVOS SECUESTROS DE BUQ",
@@ -37,23 +49,11 @@
       "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
       "detail": "Ankara has summoned Kiev’s envoy after two Turkish-operated vessels were attacked in the Black Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 AUG 2026 · 14:57 UTC",
-      "headline": "TRUMP HAS ‘HORMUZ SCHIZOPHRENIA’ – IRAN",
-      "detail": "Trump apparently suffers from delusions as he speaks of the Strait of Hormuz as being a US territory, a senior Iranian diplomat has charged Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "01 SEP 2026 · 13:01 UTC",
-      "headline": "CHINA'S CRUDE OIL IMPORTS FELL IN THE SECOND QUARTER",
-      "detail": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher crude oil prices that resulted from disrupted flows through the Strait o",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.56 (+0.00%)",
-    "VIX: 15.92",
+    "BRENT: $94.07 (+0.00%)",
+    "VIX: 16.04",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
