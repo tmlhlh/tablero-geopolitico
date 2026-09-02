@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-09-02T18:24:53.078159+00:00",
+  "updated_at": "2026-09-02T21:32:45.804526+00:00",
   "market": {
-    "brent_usd": 95.84,
+    "brent_usd": 95.23,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 58.8,
-    "vix": 15.25,
-    "risk_level": "MEDIO",
+    "ormuz_flow_pct": 23.5,
+    "vix": 15.2,
+    "risk_level": "ALTO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
-      "timestamp": "02 SEP 2026 · 17:56 UTC",
-      "headline": "TRUMP ENVÍA UN MENSAJE A IRÁN Y DICE QUE EL ESTRECHO DE ORMUZ DEBERÍA LLEVAR SU ",
-      "detail": "El mandatario republicano aseguró que Estados Unidos tiene el control sobre el paso, en momentos en que recrudecieron los ataques cruzados",
+      "timestamp": "02 SEP 2026 · 20:12 UTC",
+      "headline": "TRUMP SUGGESTS RENAMING STRAIT OF HORMUZ AS TRUMP STRAIT AMID IRAN WAR",
+      "detail": "Despite renewed fighting with Iran and near daily attacks on ships, Trump says Strait of Hormuz is 'under USA control'.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 SEP 2026 · 19:16 UTC",
+      "headline": "SAUDI ARABIA CONDEMNS DEADLY IRANIAN ATTACK ON TANKER IN STRAIT OF HORMUZ",
+      "detail": "Regional neighbours condemn attack this week that killed two crew members from the Philippines.",
       "severity": "CRÍTICO"
     },
     {
@@ -46,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.84 (+0.00%)",
-    "VIX: 15.25",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $95.23 (+0.00%)",
+    "VIX: 15.2",
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
