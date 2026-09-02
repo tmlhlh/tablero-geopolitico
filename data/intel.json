@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T22:57:54.182957+00:00",
+  "updated_at": "2026-09-02T00:53:14.885526+00:00",
   "market": {
-    "brent_usd": 95.29,
+    "brent_usd": 96.11,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "02 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US BOMBS IRAN, TEHRAN RETALIATES ON GULF NEIGHBOURS, JORDAN",
+      "detail": "Tehran pledges 'severe punishment' and retaliation against Washington following a new wave of US attacks.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "01 SEP 2026 · 03:30 UTC",
       "headline": "LOS PIRATAS DE SOMALIA EXHIBEN SU CRECIENTE PODERÍO CON NUEVOS SECUESTROS DE BUQ",
@@ -34,7 +40,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.29 (+0.00%)",
+    "BRENT: $96.11 (+0.00%)",
     "VIX: 16.34",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
