@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-09-02T10:31:40.108356+00:00",
+  "updated_at": "2026-09-02T14:56:19.985708+00:00",
   "market": {
-    "brent_usd": 94.86,
+    "brent_usd": 94.94,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.6,
-    "vix": 16.71,
+    "ormuz_flow_pct": 99.7,
+    "vix": 15.35,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "02 SEP 2026 · 10:00 UTC",
+      "timestamp": "02 SEP 2026 · 13:16 UTC",
       "headline": "ZELENSKY SAYS AIRLINES SHOULD AVOID RUSSIAN AIRSPACE AS UKRAINE ESCALATES DRONE ",
       "detail": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 SEP 2026 · 11:43 UTC",
+      "headline": "THE US IS GOBBLING UP VENEZUELAN OIL, BUT WILL IT LOWER FUEL PRICES?",
+      "detail": "Analysts say Venezuelan crude is hard to extract and refine, and likely can't replace oil stuck in the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 SEP 2026 · 10:57 UTC",
+      "headline": "WHAT DO WE KNOW ABOUT THE FATAL US BOMBING OF A WEDDING IN IRAN’S SIRIK?",
+      "detail": "A residential building and a telecom tower were struck overnight, as Iran and the US launched more strikes over Hormuz.",
       "severity": "CRÍTICO"
     },
     {
@@ -40,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.86 (+0.00%)",
-    "VIX: 16.71",
+    "BRENT: $94.94 (+0.00%)",
+    "VIX: 15.35",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
