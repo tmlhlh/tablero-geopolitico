@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-02T00:53:14.885526+00:00",
+  "updated_at": "2026-09-02T05:24:10.719344+00:00",
   "market": {
-    "brent_usd": 96.11,
+    "brent_usd": 95.55,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.3,
+    "ormuz_flow_pct": 50.4,
     "vix": 16.34,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.3
@@ -15,16 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "02 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US BOMBS IRAN, TEHRAN RETALIATES ON GULF NEIGHBOURS, JORDAN",
-      "detail": "Tehran pledges 'severe punishment' and retaliation against Washington following a new wave of US attacks.",
+      "timestamp": "02 SEP 2026 · 04:23 UTC",
+      "headline": "ZELENSKY SAYS AIRLINES SHOULD AVOID RUSSIAN AIRSPACE AS UKRAINE ESCALATES DRONE ",
+      "detail": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "01 SEP 2026 · 03:30 UTC",
-      "headline": "LOS PIRATAS DE SOMALIA EXHIBEN SU CRECIENTE PODERÍO CON NUEVOS SECUESTROS DE BUQ",
-      "detail": "Favorecidos por la suma de crisis en el país, el mar Rojo y Ormuz, grupos somalíes han capturado seis barcos desde abril, en el mayor repunte de actividad en años",
-      "severity": "INFO"
+      "timestamp": "02 SEP 2026 · 00:47 UTC",
+      "headline": "MOMENT US STRIKES ON IRANIAN PORT CITY HIT WEDDING PARTY",
+      "detail": "Iran says a series of US strikes near the southern Iranian port city of Sirik has killed at least four people.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "29 AUG 2026 · 17:30 UTC",
@@ -40,7 +40,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.11 (+0.00%)",
+    "BRENT: $95.55 (+0.00%)",
     "VIX: 16.34",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
