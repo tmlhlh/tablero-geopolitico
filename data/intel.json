@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-02T21:32:45.804526+00:00",
+  "updated_at": "2026-09-02T23:48:47.335821+00:00",
   "market": {
-    "brent_usd": 95.23,
+    "brent_usd": 95.25,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 23.5,
+    "ormuz_flow_pct": 27.8,
     "vix": 15.2,
     "risk_level": "ALTO",
     "insurance_spread_pct": 0.9
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.23 (+0.00%)",
+    "BRENT: $95.25 (+0.00%)",
     "VIX: 15.2",
     "ORMUZ: DISRUPCIÓN SEVERA"
   ]
