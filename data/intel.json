@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-02T14:56:19.985708+00:00",
+  "updated_at": "2026-09-02T18:24:53.078159+00:00",
   "market": {
-    "brent_usd": 94.94,
+    "brent_usd": 95.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.7,
-    "vix": 15.35,
+    "ormuz_flow_pct": 58.8,
+    "vix": 15.25,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -15,27 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "02 SEP 2026 · 13:16 UTC",
+      "timestamp": "02 SEP 2026 · 17:56 UTC",
+      "headline": "TRUMP ENVÍA UN MENSAJE A IRÁN Y DICE QUE EL ESTRECHO DE ORMUZ DEBERÍA LLEVAR SU ",
+      "detail": "El mandatario republicano aseguró que Estados Unidos tiene el control sobre el paso, en momentos en que recrudecieron los ataques cruzados",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 SEP 2026 · 17:33 UTC",
+      "headline": "IRANIAN ATTACK ON SAUDI TANKER KILLED TWO FILIPINO SAILORS, SAUDI ARABIA SAYS",
+      "detail": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "02 SEP 2026 · 16:12 UTC",
       "headline": "ZELENSKY SAYS AIRLINES SHOULD AVOID RUSSIAN AIRSPACE AS UKRAINE ESCALATES DRONE ",
       "detail": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 SEP 2026 · 11:43 UTC",
-      "headline": "THE US IS GOBBLING UP VENEZUELAN OIL, BUT WILL IT LOWER FUEL PRICES?",
-      "detail": "Analysts say Venezuelan crude is hard to extract and refine, and likely can't replace oil stuck in the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 SEP 2026 · 10:57 UTC",
-      "headline": "WHAT DO WE KNOW ABOUT THE FATAL US BOMBING OF A WEDDING IN IRAN’S SIRIK?",
-      "detail": "A residential building and a telecom tower were struck overnight, as Iran and the US launched more strikes over Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 SEP 2026 · 08:55 UTC",
-      "headline": "IRAN, US EXCHANGE NEW ATTACKS: WHO WAS HIT IN LATEST STRIKES?",
-      "detail": "Iran says the US bombed a wedding near the Strait of Hormuz; hits Kuwait, Bahrain, and Jordan in retaliation.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.94 (+0.00%)",
-    "VIX: 15.35",
+    "BRENT: $95.84 (+0.00%)",
+    "VIX: 15.25",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
