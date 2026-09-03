@@ -1,41 +1,29 @@
 {
-  "updated_at": "2026-09-03T02:45:23.291453+00:00",
+  "updated_at": "2026-09-03T07:43:00.933761+00:00",
   "market": {
-    "brent_usd": 95.55,
+    "brent_usd": 95.06,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 33.8,
-    "vix": 15.2,
-    "risk_level": "ALTO",
+    "ormuz_flow_pct": 77.6,
+    "vix": 15.3,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "02 SEP 2026 · 20:12 UTC",
-      "headline": "TRUMP SUGGESTS RENAMING STRAIT OF HORMUZ AS TRUMP STRAIT AMID IRAN WAR",
-      "detail": "Despite renewed fighting with Iran and near daily attacks on ships, Trump says Strait of Hormuz is 'under USA control'.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 SEP 2026 · 19:16 UTC",
-      "headline": "SAUDI ARABIA CONDEMNS DEADLY IRANIAN ATTACK ON TANKER IN STRAIT OF HORMUZ",
-      "detail": "Regional neighbours condemn attack this week that killed two crew members from the Philippines.",
-      "severity": "CRÍTICO"
+      "timestamp": "03 SEP 2026 · 04:26 UTC",
+      "headline": "ASIA LOOKS TO STORE OIL, GAS CLOSER TO HOME AFTER STRAIT OF HORMUZ CRISIS",
+      "detail": "Asian economies are racing to build up storage capacity to reduce their exposure to conflict in the Middle East.",
+      "severity": "INFO"
     },
     {
       "timestamp": "02 SEP 2026 · 17:33 UTC",
       "headline": "IRANIAN ATTACK ON SAUDI TANKER KILLED TWO FILIPINO SAILORS, SAUDI ARABIA SAYS",
       "detail": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "02 SEP 2026 · 16:12 UTC",
-      "headline": "ZELENSKY SAYS AIRLINES SHOULD AVOID RUSSIAN AIRSPACE AS UKRAINE ESCALATES DRONE ",
-      "detail": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.55 (+0.00%)",
-    "VIX: 15.2",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "BRENT: $95.06 (+0.00%)",
+    "VIX: 15.3",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
