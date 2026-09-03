@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-03T19:36:48.981453+00:00",
+  "updated_at": "2026-09-03T22:12:44.025512+00:00",
   "market": {
-    "brent_usd": 95.57,
+    "brent_usd": 95.8,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 99.9,
-    "vix": 14.4,
+    "vix": 14.32,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -15,16 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "03 SEP 2026 · 15:38 UTC",
-      "headline": "HOW MUCH OIL IS GOING THROUGH HORMUZ? WHY DATA DOESN’T MATCH US CLAIMS",
-      "detail": "Trump says the US is helping around 30 ships cross the waterway daily, but ship-tracking data suggests it's fewer.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "03 SEP 2026 · 15:35 UTC",
-      "headline": "PANAMA CANAL RESTRICTS TRAFFIC AMID HORMUZ CRISIS: WHY THIS MATTERS",
-      "detail": "Limits on the number of vessels in the canal could create shipping delays and increase freight costs.",
-      "severity": "INFO"
+      "timestamp": "03 SEP 2026 · 20:00 UTC",
+      "headline": "FUNERAL HELD FOR CHILD KILLED IN US STRIKE ON IRANIAN WEDDING",
+      "detail": "Mourners carried the coffin of a child killed in a US strike on a wedding in Kuhestak, along the Strait of Hormuz.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "29 AUG 2026 · 17:30 UTC",
@@ -40,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.57 (+0.00%)",
-    "VIX: 14.4",
+    "BRENT: $95.8 (+0.00%)",
+    "VIX: 14.32",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
