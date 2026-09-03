@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-03T07:43:00.933761+00:00",
+  "updated_at": "2026-09-03T12:32:24.204363+00:00",
   "market": {
-    "brent_usd": 95.06,
+    "brent_usd": 96.33,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 77.6,
-    "vix": 15.3,
+    "ormuz_flow_pct": 99.9,
+    "vix": 15.38,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -14,18 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "03 SEP 2026 · 04:26 UTC",
-      "headline": "ASIA LOOKS TO STORE OIL, GAS CLOSER TO HOME AFTER STRAIT OF HORMUZ CRISIS",
-      "detail": "Asian economies are racing to build up storage capacity to reduce their exposure to conflict in the Middle East.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "02 SEP 2026 · 17:33 UTC",
-      "headline": "IRANIAN ATTACK ON SAUDI TANKER KILLED TWO FILIPINO SAILORS, SAUDI ARABIA SAYS",
-      "detail": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "29 AUG 2026 · 17:30 UTC",
       "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
@@ -40,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.06 (+0.00%)",
-    "VIX: 15.3",
+    "BRENT: $96.33 (+0.00%)",
+    "VIX: 15.38",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
