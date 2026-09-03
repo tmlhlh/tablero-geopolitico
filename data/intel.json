@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-09-03T12:32:24.204363+00:00",
+  "updated_at": "2026-09-03T16:53:25.966246+00:00",
   "market": {
-    "brent_usd": 96.33,
+    "brent_usd": 95.66,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 99.9,
-    "vix": 15.38,
+    "vix": 14.55,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "03 SEP 2026 · 15:38 UTC",
+      "headline": "HOW MUCH OIL IS GOING THROUGH HORMUZ? WHY DATA DOESN’T MATCH US CLAIMS",
+      "detail": "Trump says the US is helping around 30 ships cross the waterway daily, but ship-tracking data suggests it's fewer.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "03 SEP 2026 · 15:35 UTC",
+      "headline": "PANAMA CANAL RESTRICTS TRAFFIC AMID HORMUZ CRISIS: WHY THIS MATTERS",
+      "detail": "Limits on the number of vessels in the canal could create shipping delays and increase freight costs.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "29 AUG 2026 · 17:30 UTC",
       "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
@@ -28,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.33 (+0.00%)",
-    "VIX: 15.38",
+    "BRENT: $95.66 (+0.00%)",
+    "VIX: 14.55",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
