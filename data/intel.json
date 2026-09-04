@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-04T14:44:37.136769+00:00",
+  "updated_at": "2026-09-04T18:02:00.589051+00:00",
   "market": {
-    "brent_usd": 94.51,
+    "brent_usd": 95.74,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 14.07,
+    "vix": 14.26,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -15,12 +15,6 @@
   },
   "events": [
     {
-      "timestamp": "04 SEP 2026 · 12:10 UTC",
-      "headline": "SOUTH KOREA MULLS ‘CONTRIBUTIONS’ IN STRAIT OF HORMUZ",
-      "detail": "Seoul heavily affected by closure of strategic waterway and under heavy US pressure for participation against Iran.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "29 AUG 2026 · 17:30 UTC",
       "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
       "detail": "Ankara has summoned Kiev’s envoy after two Turkish-operated vessels were attacked in the Black Sea Read Full Article at RT.com",
@@ -28,8 +22,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.51 (+0.00%)",
-    "VIX: 14.07",
+    "BRENT: $95.74 (+0.00%)",
+    "VIX: 14.26",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
