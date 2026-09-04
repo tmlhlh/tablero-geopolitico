@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-04T00:41:54.948914+00:00",
+  "updated_at": "2026-09-04T05:25:26.910690+00:00",
   "market": {
-    "brent_usd": 95.66,
+    "brent_usd": 95.49,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "03 SEP 2026 · 20:00 UTC",
-      "headline": "FUNERAL HELD FOR CHILD KILLED IN US STRIKE ON IRANIAN WEDDING",
-      "detail": "Mourners carried the coffin of a child killed in a US strike on a wedding in Kuhestak, along the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "29 AUG 2026 · 17:30 UTC",
       "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
@@ -34,7 +28,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.66 (+0.00%)",
+    "BRENT: $95.49 (+0.00%)",
     "VIX: 14.32",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
