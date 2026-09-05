@@ -1,29 +1,47 @@
 {
-  "updated_at": "2026-09-05T14:29:35.259170+00:00",
+  "updated_at": "2026-09-05T17:05:48.715905+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 65.0,
+    "ormuz_flow_pct": 15.5,
     "vix": 14.53,
-    "risk_level": "MEDIO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "05 SEP 2026 · 16:53 UTC",
+      "headline": "US HITS THREE IRANIAN OIL TANKERS AFTER SAYING ITS WARSHIPS WERE TARGETED",
+      "detail": "The tit-for-tat strikes come nearly a week after fighting between the US and Iran flared again following weeks of relative calm.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 SEP 2026 · 15:49 UTC",
+      "headline": "US SAYS IT HIT THREE IRANIAN OIL TANKERS AFTER ATTACKS ON WARSHIPS",
+      "detail": "US Central Command says its forces struck three Iranian crude oil carriers on Saturday.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 SEP 2026 · 14:49 UTC",
+      "headline": "US SAYS IT HIT IRAN OIL TANKERS HELPING FINANCE ‘REGIONAL PROXIES’",
+      "detail": "US strikes have hit Iranian oil tankers in the Gulf of Oman and near Iran’s Kharg island.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 SEP 2026 · 14:39 UTC",
+      "headline": "ESTADOS UNIDOS BOMBARDEA TRES PETROLEROS IRANÍES, UNO DE ELLOS CERCA DE LA ESTRA",
+      "detail": "Según Washington, la República Islámica lanzó previamente misiles contra dos buques de guerra que patrullaban en la zona",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "05 SEP 2026 · 09:56 UTC",
       "headline": "WHY IS TRUMP THREATENING TO STRIKE IRAN’S PICKAXE MOUNTAIN AGAIN, NOW?",
       "detail": "As oil tanker struck off Kharg island, Trump threatens one of the remaining parts of Iran’s nuclear complex.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 SEP 2026 · 09:31 UTC",
-      "headline": "MEDIOS IRANÍES AFIRMAN QUE ESTADOS UNIDOS ATACÓ UN PETROLERO CERCA DE LA ISLA DE",
-      "detail": "El incidente, que no ha dejado víctimas ni ha sido confirmado por Washington, ocurre en una semana en la que se han reanudado los ataques y multiplicado las amenazas cruzadas",
       "severity": "CRÍTICO"
     },
     {
@@ -36,6 +54,6 @@
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
