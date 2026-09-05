@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-05T11:34:51.698583+00:00",
+  "updated_at": "2026-09-05T14:29:35.259170+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 36.7,
+    "ormuz_flow_pct": 65.0,
     "vix": 14.53,
-    "risk_level": "ALTO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
@@ -22,8 +22,8 @@
     },
     {
       "timestamp": "05 SEP 2026 · 09:31 UTC",
-      "headline": "VARIAS EXPLOSIONES CERCA DE LA ISLA DE JARG, PRINCIPAL TERMINAL DEL CRUDO DE TEH",
-      "detail": "La prensa local afirma que misiles estadounidenses tomaron como blanco un pequeño petrolero iraní",
+      "headline": "MEDIOS IRANÍES AFIRMAN QUE ESTADOS UNIDOS ATACÓ UN PETROLERO CERCA DE LA ISLA DE",
+      "detail": "El incidente, que no ha dejado víctimas ni ha sido confirmado por Washington, ocurre en una semana en la que se han reanudado los ataques y multiplicado las amenazas cruzadas",
       "severity": "CRÍTICO"
     },
     {
@@ -36,6 +36,6 @@
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
