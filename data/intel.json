@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-09-05T21:52:43.746060+00:00",
+  "updated_at": "2026-09-05T23:31:08.778990+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 19.0,
+    "ormuz_flow_pct": 12.5,
     "vix": 14.53,
-    "risk_level": "ALTO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "CIERRE FACTICIO: Flujo al 12.5%"
   },
   "events": [
     {
-      "timestamp": "05 SEP 2026 · 20:41 UTC",
-      "headline": "US HITS THREE IRANIAN OIL TANKERS AFTER SAYING ITS WARSHIPS WERE TARGETED",
-      "detail": "Iran's state media reported that Tehran has launched retaliatory attacks against three US-affiliated vessels; the US is yet to comment.",
+      "timestamp": "05 SEP 2026 · 22:57 UTC",
+      "headline": "US STRIKES THREE IRANIAN CRUDE OIL TANKERS (VIDEO)",
+      "detail": "The US Central Command has reported attacking three Iranian oil tankers in the latest flare-up in the Gulf Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 SEP 2026 · 22:44 UTC",
+      "headline": "US AND IRAN TRADE RETALIATORY ATTACKS ON SHIPS AS CONFLICT FLARES",
+      "detail": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
       "severity": "CRÍTICO"
     },
     {
@@ -33,27 +39,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "05 SEP 2026 · 14:49 UTC",
-      "headline": "US SAYS IT HIT IRAN OIL TANKERS HELPING FINANCE ‘REGIONAL PROXIES’",
-      "detail": "US strikes have hit Iranian oil tankers in the Gulf of Oman and near Iran’s Kharg island.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "05 SEP 2026 · 14:39 UTC",
       "headline": "ESTADOS UNIDOS BOMBARDEA TRES PETROLEROS IRANÍES, UNO DE ELLOS CERCA DE LA ESTRA",
       "detail": "Según Washington, la República Islámica lanzó previamente misiles contra dos buques de guerra que patrullaban en la zona",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "29 AUG 2026 · 17:30 UTC",
-      "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
-      "detail": "Ankara has summoned Kiev’s envoy after two Turkish-operated vessels were attacked in the Black Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 12.5%"
   ]
 }
