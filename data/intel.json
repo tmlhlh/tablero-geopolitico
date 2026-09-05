@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-05T19:51:58.572940+00:00",
+  "updated_at": "2026-09-05T21:52:43.746060+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 27.9,
+    "ormuz_flow_pct": 19.0,
     "vix": 14.53,
     "risk_level": "ALTO",
     "insurance_spread_pct": 0.8
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "05 SEP 2026 · 19:36 UTC",
-      "headline": "EE.UU. ATACÓ TRES PETROLEROS IRANÍES CERCA DE LA ESTRATÉGICA ISLA DE KHARG",
-      "detail": "Las fuerzas norteamericanas dijeron haber atacado los buques tanque en represalia por un ataque con misiles contra navíos de guerra de EE.UU.",
+      "timestamp": "05 SEP 2026 · 20:41 UTC",
+      "headline": "US HITS THREE IRANIAN OIL TANKERS AFTER SAYING ITS WARSHIPS WERE TARGETED",
+      "detail": "Iran's state media reported that Tehran has launched retaliatory attacks against three US-affiliated vessels; the US is yet to comment.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "05 SEP 2026 · 18:48 UTC",
-      "headline": "US HITS THREE IRANIAN OIL TANKERS AFTER SAYING ITS WARSHIPS WERE TARGETED",
-      "detail": "The strikes come nearly a week after fighting between the US and Iran flared again following weeks of relative calm.",
+      "timestamp": "05 SEP 2026 · 19:36 UTC",
+      "headline": "EE.UU. ATACÓ TRES PETROLEROS IRANÍES CERCA DE LA ESTRATÉGICA ISLA DE KHARG",
+      "detail": "Las fuerzas norteamericanas dijeron haber atacado los buques tanque en represalia por un ataque con misiles contra navíos de guerra de EE.UU.",
       "severity": "CRÍTICO"
     },
     {
