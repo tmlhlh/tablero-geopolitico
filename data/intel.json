@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-09-05T07:21:13.287550+00:00",
+  "updated_at": "2026-09-05T11:34:51.698583+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
+    "ormuz_flow_pct": 36.7,
     "vix": 14.53,
-    "risk_level": "MEDIO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "05 SEP 2026 · 09:56 UTC",
+      "headline": "WHY IS TRUMP THREATENING TO STRIKE IRAN’S PICKAXE MOUNTAIN AGAIN, NOW?",
+      "detail": "As oil tanker struck off Kharg island, Trump threatens one of the remaining parts of Iran’s nuclear complex.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 SEP 2026 · 09:31 UTC",
+      "headline": "VARIAS EXPLOSIONES CERCA DE LA ISLA DE JARG, PRINCIPAL TERMINAL DEL CRUDO DE TEH",
+      "detail": "La prensa local afirma que misiles estadounidenses tomaron como blanco un pequeño petrolero iraní",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "29 AUG 2026 · 17:30 UTC",
       "headline": "TÜRKIYE SUMMONS KIEV’S ENVOY OVER ATTACKS ON BLACK SEA SHIPPING",
@@ -24,6 +36,6 @@
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
