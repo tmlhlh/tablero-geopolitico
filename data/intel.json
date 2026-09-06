@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-09-06T17:28:47.051952+00:00",
+  "updated_at": "2026-09-06T19:56:29.319686+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.7,
+    "ormuz_flow_pct": 8.2,
     "vix": 14.53,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.7%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.2%"
   },
   "events": [
+    {
+      "timestamp": "06 SEP 2026 · 19:20 UTC",
+      "headline": "NETANYAHU AMENAZA A IRÁN CON UN GOLPE “QUE NI SIQUIERA PUEDE IMAGINAR” Y REAFIRM",
+      "detail": "El primer ministro israelí elevó el tono frente a Teherán en medio de una nueva escalada militar en el estrecho de Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 SEP 2026 · 17:00 UTC",
       "headline": "IRAN WARNS OF 'FASTER, HEAVIER, MORE PAINFUL RESPONSE' TO US ATTACKS",
@@ -36,6 +42,6 @@
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.7%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.2%"
   ]
 }
