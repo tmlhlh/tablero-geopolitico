@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T11:54:57.707430+00:00",
+  "updated_at": "2026-09-06T14:51:19.703140+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
@@ -30,12 +30,6 @@
       "timestamp": "05 SEP 2026 · 22:44 UTC",
       "headline": "US AND IRAN TRADE RETALIATORY ATTACKS ON SHIPS AS CONFLICT FLARES",
       "detail": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 SEP 2026 · 14:39 UTC",
-      "headline": "ESTADOS UNIDOS BOMBARDEA TRES PETROLEROS IRANÍES, UNO DE ELLOS CERCA DE LA ESTRA",
-      "detail": "Según Washington, la República Islámica lanzó previamente misiles contra dos buques de guerra que patrullaban en la zona",
       "severity": "CRÍTICO"
     }
   ],
