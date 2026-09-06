@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-09-05T23:31:08.778990+00:00",
+  "updated_at": "2026-09-06T02:42:11.660242+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 12.5,
+    "ormuz_flow_pct": 11.1,
     "vix": 14.53,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 12.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 11.1%"
   },
   "events": [
+    {
+      "timestamp": "06 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: IRGC CLAIMS ATTACKS ON 3 OIL TANKERS AND 3 US-LINKED SHIPS",
+      "detail": "IRGC launches new strikes after firing missiles at US warships as standoff in Strait of Hormuz intensifies.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "05 SEP 2026 · 22:57 UTC",
       "headline": "US STRIKES THREE IRANIAN CRUDE OIL TANKERS (VIDEO)",
@@ -27,18 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "05 SEP 2026 · 19:36 UTC",
-      "headline": "EE.UU. ATACÓ TRES PETROLEROS IRANÍES CERCA DE LA ESTRATÉGICA ISLA DE KHARG",
-      "detail": "Las fuerzas norteamericanas dijeron haber atacado los buques tanque en represalia por un ataque con misiles contra navíos de guerra de EE.UU.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 SEP 2026 · 15:49 UTC",
-      "headline": "US SAYS IT HIT THREE IRANIAN OIL TANKERS AFTER ATTACKS ON WARSHIPS",
-      "detail": "US Central Command says its forces struck three Iranian crude oil carriers on Saturday.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "05 SEP 2026 · 14:39 UTC",
       "headline": "ESTADOS UNIDOS BOMBARDEA TRES PETROLEROS IRANÍES, UNO DE ELLOS CERCA DE LA ESTRA",
       "detail": "Según Washington, la República Islámica lanzó previamente misiles contra dos buques de guerra que patrullaban en la zona",
@@ -48,6 +42,6 @@
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 12.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 11.1%"
   ]
 }
