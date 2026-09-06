@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-09-06T14:51:19.703140+00:00",
+  "updated_at": "2026-09-06T17:28:47.051952+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 5.7,
     "vix": 14.53,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.7%"
   },
   "events": [
     {
-      "timestamp": "06 SEP 2026 · 10:49 UTC",
-      "headline": "US, IRAN ENGAGED IN TANKER WAR: WHERE IS THE MONTHS-LONG CONFLICT HEADED?",
-      "detail": "The US and Iran attack tankers in Strait of Hormuz, as the two sides try to exert control over the strategic waterway.",
+      "timestamp": "06 SEP 2026 · 17:00 UTC",
+      "headline": "IRAN WARNS OF 'FASTER, HEAVIER, MORE PAINFUL RESPONSE' TO US ATTACKS",
+      "detail": "The comments came a day after Washington said it had struck Iranian oil tankers in response to Tehran's attacks on US warships in the region.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 SEP 2026 · 16:17 UTC",
+      "headline": "IRAN TOUTS MILITARY RESPONSE AS US MAINTAINS BLOCKADE, HITS TANKERS",
+      "detail": "Tehran says time for proportionate retaliation is over after a US strike on Iranian tankers inside the blockade line.",
       "severity": "CRÍTICO"
     },
     {
@@ -25,17 +31,11 @@
       "headline": "US MISSILE STRIKE SINKS IRANIAN TANKER (VIDEO)",
       "detail": "An Iranian oil tanker has sunk in the Gulf of Oman after being attacked by American forces, US Central Command has said Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "05 SEP 2026 · 22:44 UTC",
-      "headline": "US AND IRAN TRADE RETALIATORY ATTACKS ON SHIPS AS CONFLICT FLARES",
-      "detail": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.7%"
   ]
 }
