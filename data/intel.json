@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-09-06T02:42:11.660242+00:00",
+  "updated_at": "2026-09-06T07:34:05.947784+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 11.1,
+    "ormuz_flow_pct": 23.1,
     "vix": 14.53,
-    "risk_level": "CRÍTICO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 11.1%"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
       "timestamp": "06 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRGC CLAIMS ATTACKS ON 3 OIL TANKERS AND 3 US-LINKED SHIPS",
+      "headline": "IRAN WAR LIVE: IRGC, US TRADE FIRE, ATTACK OIL TANKERS IN HORMUZ",
       "detail": "IRGC launches new strikes after firing missiles at US warships as standoff in Strait of Hormuz intensifies.",
       "severity": "CRÍTICO"
     },
@@ -42,6 +42,6 @@
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 11.1%"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
