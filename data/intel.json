@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-09-06T07:34:05.947784+00:00",
+  "updated_at": "2026-09-06T11:54:57.707430+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 23.1,
+    "ormuz_flow_pct": 8.5,
     "vix": 14.53,
-    "risk_level": "ALTO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "06 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRGC, US TRADE FIRE, ATTACK OIL TANKERS IN HORMUZ",
-      "detail": "IRGC launches new strikes after firing missiles at US warships as standoff in Strait of Hormuz intensifies.",
+      "timestamp": "06 SEP 2026 · 10:49 UTC",
+      "headline": "US, IRAN ENGAGED IN TANKER WAR: WHERE IS THE MONTHS-LONG CONFLICT HEADED?",
+      "detail": "The US and Iran attack tankers in Strait of Hormuz, as the two sides try to exert control over the strategic waterway.",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "05 SEP 2026 · 22:57 UTC",
-      "headline": "US STRIKES THREE IRANIAN CRUDE OIL TANKERS (VIDEO)",
-      "detail": "The US Central Command has reported attacking three Iranian oil tankers in the latest flare-up in the Gulf Read Full Article at RT.com",
+      "headline": "US MISSILE STRIKE SINKS IRANIAN TANKER (VIDEO)",
+      "detail": "An Iranian oil tanker has sunk in the Gulf of Oman after being attacked by American forces, US Central Command has said Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -42,6 +42,6 @@
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
     "VIX: 14.53",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
