@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T18:34:51.782634+00:00",
+  "updated_at": "2026-09-07T21:53:20.909827+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "07 SEP 2026 · 21:17 UTC",
+      "headline": "OIL PRICES SURGE AS US-IRAN STRIKES INTENSIFY IN STRAIT OF HORMUZ",
+      "detail": "Oil prices spike to six-week highs as US-Iran strikes disrupt traffic in the crucial Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "07 SEP 2026 · 17:18 UTC",
       "headline": "IRÁN AFIRMA QUE LA “ERA DE LAS RESPUESTAS PROPORCIONALES” A ESTADOS UNIDOS HA TE",
