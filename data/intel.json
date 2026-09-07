@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T23:34:18.684475+00:00",
+  "updated_at": "2026-09-07T02:39:56.387301+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
@@ -15,6 +15,18 @@
   },
   "events": [
     {
+      "timestamp": "07 SEP 2026 · 00:20 UTC",
+      "headline": "NORTH KOREA DEPLOYS WARSHIP ‘CAPABLE OF ANNIHILATING RETALIATORY STRIKES’",
+      "detail": "Leader Kim Jong Un says vessel will form part of Pyongyang's nuclear response system, strengthen naval forces.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN TO ANNOUNCE NEW HORMUZ SHIPPING ROUTE IN COMING DAYS",
+      "detail": "Move comes as Iran's top negotiator warns of heavier responses to new attacks after US strikes on Iranian oil tankers.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "06 SEP 2026 · 19:20 UTC",
       "headline": "NETANYAHU AMENAZA A IRÁN CON UN GOLPE “QUE NI SIQUIERA PUEDE IMAGINAR” Y REAFIRM",
       "detail": "El primer ministro israelí elevó el tono frente a Teherán en medio de una nueva escalada militar en el estrecho de Ormuz",
@@ -24,12 +36,6 @@
       "timestamp": "06 SEP 2026 · 17:00 UTC",
       "headline": "IRAN WARNS OF 'FASTER, HEAVIER, MORE PAINFUL RESPONSE' TO US ATTACKS",
       "detail": "The comments came a day after Washington said it had struck Iranian oil tankers in response to Tehran's attacks on US warships in the region.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 SEP 2026 · 16:17 UTC",
-      "headline": "IRAN TOUTS MILITARY RESPONSE AS US MAINTAINS BLOCKADE, HITS TANKERS",
-      "detail": "Tehran says time for proportionate retaliation is over after a US strike on Iranian tankers inside the blockade line.",
       "severity": "CRÍTICO"
     },
     {
