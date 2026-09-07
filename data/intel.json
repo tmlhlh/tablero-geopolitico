@@ -1,30 +1,24 @@
 {
-  "updated_at": "2026-09-07T13:55:38.610853+00:00",
+  "updated_at": "2026-09-07T18:34:51.782634+00:00",
   "market": {
     "brent_usd": 96.28,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.12,
+    "vix": 15.3,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.8
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "07 SEP 2026 · 13:05 UTC",
-      "headline": "YEMEN GOV’T FORCES LAUNCH AIR STRIKES ON HOUTHI TARGETS",
-      "detail": "The Houthis and Yemeni government forces are battling for control of the critical Bab al-Mandeb Strait.",
+      "timestamp": "07 SEP 2026 · 17:18 UTC",
+      "headline": "IRÁN AFIRMA QUE LA “ERA DE LAS RESPUESTAS PROPORCIONALES” A ESTADOS UNIDOS HA TE",
+      "detail": "Teherán asegura que cualquier agresión recibirá una réplica “más dolorosa” y que prohibirá a los buques transitar por una nueva zona del estrecho de Ormuz",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 SEP 2026 · 11:37 UTC",
-      "headline": "CAN IRAN ENFORCE A RESTRICTED ZONE IN THE STRAIT OF HORMUZ?",
-      "detail": "Iran unveils plans for a restricted zone, but will Tehran be able to enforce it amid escalating tensions with the US?",
-      "severity": "INFO"
     },
     {
       "timestamp": "07 SEP 2026 · 10:33 UTC",
@@ -41,7 +35,7 @@
   ],
   "ticker_items": [
     "BRENT: $96.28 (+0.00%)",
-    "VIX: 15.12",
+    "VIX: 15.3",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
