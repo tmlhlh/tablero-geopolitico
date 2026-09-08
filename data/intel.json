@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-08T13:17:18.751215+00:00",
+  "updated_at": "2026-09-08T17:43:17.273138+00:00",
   "market": {
-    "brent_usd": 97.6,
+    "brent_usd": 96.94,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.41,
+    "vix": 15.32,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.9
   },
@@ -14,18 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "08 SEP 2026 · 12:44 UTC",
-      "headline": "QATAR SAYS REOPENING STRAIT OF HORMUZ ‘UNCONDITIONALLY’ IS A PRIORITY",
-      "detail": "Qatar's Foreign Ministry says Doha working towards diplomatic solutions to end US war on Iran.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "08 SEP 2026 · 10:00 UTC",
-      "headline": "HOW SOUTH KOREA FINDS ITSELF TRAPPED IN THE US-IRAN WAR",
-      "detail": "Washington is pressuring a reluctant Seoul to support its naval blockade of Iran; Tehran is threatening consequences.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "07 SEP 2026 · 10:33 UTC",
       "headline": "IRAN TO DECLARE NEW ‘RESTRICTED ZONE’ OUTSIDE STRAIT OF HORMUZ – OFFICIAL",
@@ -40,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.6 (+0.00%)",
-    "VIX: 15.41",
+    "BRENT: $96.94 (+0.00%)",
+    "VIX: 15.32",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
