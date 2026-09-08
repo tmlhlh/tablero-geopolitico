@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-07T23:56:21.611038+00:00",
+  "updated_at": "2026-09-08T03:10:19.695017+00:00",
   "market": {
-    "brent_usd": 97.18,
+    "brent_usd": 97.41,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: QATAR WARNS OF ‘INDUSTRIAL CATASTROPHE’ IF CRISIS CONTINUES",
+      "detail": "An average of 10 ships transited Strait of Hormuz daily over past 10 days, the lowest level since May, Kpler data shows.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "07 SEP 2026 · 21:17 UTC",
       "headline": "OIL PRICES SURGE AS US-IRAN STRIKES INTENSIFY IN STRAIT OF HORMUZ",
@@ -40,7 +46,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.18 (+0.00%)",
+    "BRENT: $97.41 (+0.00%)",
     "VIX: 15.3",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
