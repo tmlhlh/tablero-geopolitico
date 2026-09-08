@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-09-08T08:32:30.085519+00:00",
+  "updated_at": "2026-09-08T13:17:18.751215+00:00",
   "market": {
-    "brent_usd": 99.12,
+    "brent_usd": 97.6,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.8,
+    "vix": 15.41,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "08 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: QATAR WARNS OF ‘INDUSTRIAL CATASTROPHE’ IF CRISIS CONTINUES",
-      "detail": "An average of 10 ships transited Strait of Hormuz daily over past 10 days, the lowest level since May, Kpler data shows.",
+      "timestamp": "08 SEP 2026 · 12:44 UTC",
+      "headline": "QATAR SAYS REOPENING STRAIT OF HORMUZ ‘UNCONDITIONALLY’ IS A PRIORITY",
+      "detail": "Qatar's Foreign Ministry says Doha working towards diplomatic solutions to end US war on Iran.",
       "severity": "INFO"
     },
     {
-      "timestamp": "07 SEP 2026 · 17:18 UTC",
-      "headline": "IRÁN AFIRMA QUE LA “ERA DE LAS RESPUESTAS PROPORCIONALES” A ESTADOS UNIDOS HA TE",
-      "detail": "Teherán asegura que cualquier agresión recibirá una réplica “más dolorosa” y que prohibirá a los buques transitar por una nueva zona del estrecho de Ormuz",
-      "severity": "CRÍTICO"
+      "timestamp": "08 SEP 2026 · 10:00 UTC",
+      "headline": "HOW SOUTH KOREA FINDS ITSELF TRAPPED IN THE US-IRAN WAR",
+      "detail": "Washington is pressuring a reluctant Seoul to support its naval blockade of Iran; Tehran is threatening consequences.",
+      "severity": "INFO"
     },
     {
       "timestamp": "07 SEP 2026 · 10:33 UTC",
@@ -40,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $99.12 (+0.00%)",
-    "VIX: 15.8",
+    "BRENT: $97.6 (+0.00%)",
+    "VIX: 15.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
