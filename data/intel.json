@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-09T02:52:02.186949+00:00",
+  "updated_at": "2026-09-09T07:49:45.371813+00:00",
   "market": {
-    "brent_usd": 99.45,
+    "brent_usd": 99.62,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.72,
+    "vix": 15.6,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "09 SEP 2026 · 05:47 UTC",
+      "headline": "WHY US-IRAN WAR OVER HORMUZ IS THREATENING THE GULF’S WATERS",
+      "detail": "US-Iran attacks on tankers around Hormuz are raising fears of devastating oil spills across the Gulf.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "09 SEP 2026 · 04:26 UTC",
+      "headline": "US STRIKES IRANIAN OIL TANKERS AS TEHRAN TARGETS AMERICAN BASE IN JORDAN",
+      "detail": "Oil prices edged closer to $100 a barrel after an escalation in the tit-for-tat strikes between the US and Iran.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "09 SEP 2026 · 00:08 UTC",
-      "headline": "US ATTACKS 5 IRANIAN OIL TANKERS, TEHRAN RETALIATES WITH STRIKES ON JORDAN",
+      "headline": "US STRIKES 5 IRANIAN OIL TANKERS; TEHRAN TARGETS JORDAN BASE, US WARSHIPS",
       "detail": "US military says it struck the five Iranian tankers after the IRGC targeted a US warship twice in two days.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "09 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US HITS IRANIAN TANKERS, IRGC ATTACKS US FORCES IN JORDAN",
-      "detail": "Iran's IRGC urges crews to leave tankers in Kuwait and Bahrain, warning it will target ships following US attack.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 SEP 2026 · 23:59 UTC",
-      "headline": "ESTADOS UNIDOS DESTRUYÓ CINCO BUQUES PETROLEROS IRANÍES Y CRECE LA TENSIÓN EN EL",
-      "detail": "La represalia llegó después de dos intentos de Teherán por alcanzar con misiles balísticos una embarcación militar estadounidense",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "08 SEP 2026 · 21:25 UTC",
       "headline": "IRAN RETALIATES AFTER US STRIKES ON OIL TANKERS (VIDEOS)",
-      "detail": "The Islamic Revolutionary Guard Corps has told crews to “immediately” leave their vessels, warning that they “will be targeted” Read Full Article at RT.com",
+      "detail": "Iran’s Islamic Revolutionary Guard Corps told crews to immediately leave their vessels, warning that they will be targeted Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $99.45 (+0.00%)",
-    "VIX: 15.72",
+    "BRENT: $99.62 (+0.00%)",
+    "VIX: 15.6",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
