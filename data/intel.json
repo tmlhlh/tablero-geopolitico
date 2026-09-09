@@ -1,41 +1,47 @@
 {
-  "updated_at": "2026-09-09T07:49:45.371813+00:00",
+  "updated_at": "2026-09-09T12:41:16.620338+00:00",
   "market": {
-    "brent_usd": 99.62,
+    "brent_usd": 100.88,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.6,
+    "vix": 16.52,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.0
+    "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "09 SEP 2026 · 05:47 UTC",
-      "headline": "WHY US-IRAN WAR OVER HORMUZ IS THREATENING THE GULF’S WATERS",
-      "detail": "US-Iran attacks on tankers around Hormuz are raising fears of devastating oil spills across the Gulf.",
+      "timestamp": "09 SEP 2026 · 11:52 UTC",
+      "headline": "VIDEO: DOZENS PROTEST POTENTIAL STRAIT OF HORMUZ DEPLOYMENT",
+      "detail": "Almost 100 anti-war activists protested on Wednesday outside the Sejong Centre in Seoul.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "09 SEP 2026 · 11:11 UTC",
+      "headline": "EE UU E IRÁN INTERCAMBIAN ATAQUES AÉREOS CONTRA BARCOS EN EL ESTRECHO DE ORMUZ E",
+      "detail": "El mando estadounidense afirma que ha hundido cinco cargueros iraníes. Teherán responde con bombardeos a bases estadounidenses en Jordania",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "09 SEP 2026 · 04:26 UTC",
-      "headline": "US STRIKES IRANIAN OIL TANKERS AS TEHRAN TARGETS AMERICAN BASE IN JORDAN",
-      "detail": "Oil prices edged closer to $100 a barrel after an escalation in the tit-for-tat strikes between the US and Iran.",
-      "severity": "CRÍTICO"
+      "timestamp": "09 SEP 2026 · 11:06 UTC",
+      "headline": "DID IRAN CAPTURE A US SUBMARINE? WHAT WE KNOW ABOUT THE UNDERWATER DRONE",
+      "detail": "Tehran lauds capturing Dive-LD vessel, while Washington insists that the submersible 'had malfunctioned a day ago'.",
+      "severity": "INFO"
     },
     {
-      "timestamp": "09 SEP 2026 · 00:08 UTC",
-      "headline": "US STRIKES 5 IRANIAN OIL TANKERS; TEHRAN TARGETS JORDAN BASE, US WARSHIPS",
-      "detail": "US military says it struck the five Iranian tankers after the IRGC targeted a US warship twice in two days.",
+      "timestamp": "09 SEP 2026 · 09:47 UTC",
+      "headline": "OIL HITS $100 A BARREL FOR FIRST TIME SINCE JULY AFTER US AND HOUTHI STRIKES",
+      "detail": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "08 SEP 2026 · 21:25 UTC",
       "headline": "IRAN RETALIATES AFTER US STRIKES ON OIL TANKERS (VIDEOS)",
-      "detail": "Iran’s Islamic Revolutionary Guard Corps told crews to immediately leave their vessels, warning that they will be targeted Read Full Article at RT.com",
+      "detail": "Iran says it struck two US vessels and eight oil tankers in retaliation for US attacks on Iranian shipping Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRAN TO DECLARE NEW ‘RESTRICTED ZONE’ OUTSIDE STRAIT OF HORMUZ – OFFICIAL",
       "detail": "Iran will announce a “restricted zone” outside the Strait of Hormuz in the coming days, a top security official has said Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 SEP 2026 · 22:57 UTC",
-      "headline": "US MISSILE STRIKE SINKS IRANIAN TANKER (VIDEO)",
-      "detail": "An Iranian oil tanker has sunk in the Gulf of Oman after being attacked by American forces, US Central Command has said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.62 (+0.00%)",
-    "VIX: 15.6",
+    "BRENT: $100.88 (+0.00%)",
+    "VIX: 16.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
