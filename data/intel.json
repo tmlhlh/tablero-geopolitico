@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-09-09T19:40:47.739096+00:00",
+  "updated_at": "2026-09-09T22:13:33.057079+00:00",
   "market": {
-    "brent_usd": 101.22,
+    "brent_usd": 102.2,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.27,
+    "vix": 16.46,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 SEP 2026 · 20:05 UTC",
+      "headline": "YEMEN ENVOY WARNS OF WIDER WAR AS HOUTHIS THREATEN BAB AL-MANDEB STRAIT",
+      "detail": "In an interview with Al Jazeera, Yemen's ambassador warns Houthi attacks threaten global shipping.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "09 SEP 2026 · 16:46 UTC",
       "headline": "OIL HITS $100 A BARREL FOR FIRST TIME SINCE JULY AFTER US AND HOUTHI STRIKES",
@@ -46,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.22 (+0.00%)",
-    "VIX: 16.27",
+    "BRENT: $102.2 (+0.00%)",
+    "VIX: 16.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
