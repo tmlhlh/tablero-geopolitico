@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-09T12:41:16.620338+00:00",
+  "updated_at": "2026-09-09T17:00:08.337761+00:00",
   "market": {
-    "brent_usd": 100.88,
+    "brent_usd": 100.56,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.52,
+    "vix": 16.32,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.3
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "09 SEP 2026 · 16:46 UTC",
+      "headline": "OIL HITS $100 A BARREL FOR FIRST TIME SINCE JULY AFTER US AND HOUTHI STRIKES",
+      "detail": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "09 SEP 2026 · 11:52 UTC",
       "headline": "VIDEO: DOZENS PROTEST POTENTIAL STRAIT OF HORMUZ DEPLOYMENT",
@@ -27,18 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "09 SEP 2026 · 11:06 UTC",
-      "headline": "DID IRAN CAPTURE A US SUBMARINE? WHAT WE KNOW ABOUT THE UNDERWATER DRONE",
-      "detail": "Tehran lauds capturing Dive-LD vessel, while Washington insists that the submersible 'had malfunctioned a day ago'.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "09 SEP 2026 · 09:47 UTC",
-      "headline": "OIL HITS $100 A BARREL FOR FIRST TIME SINCE JULY AFTER US AND HOUTHI STRIKES",
-      "detail": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "08 SEP 2026 · 21:25 UTC",
       "headline": "IRAN RETALIATES AFTER US STRIKES ON OIL TANKERS (VIDEOS)",
       "detail": "Iran says it struck two US vessels and eight oil tankers in retaliation for US attacks on Iranian shipping Read Full Article at RT.com",
@@ -49,11 +43,17 @@
       "headline": "IRAN TO DECLARE NEW ‘RESTRICTED ZONE’ OUTSIDE STRAIT OF HORMUZ – OFFICIAL",
       "detail": "Iran will announce a “restricted zone” outside the Strait of Hormuz in the coming days, a top security official has said Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "05 SEP 2026 · 22:57 UTC",
+      "headline": "US MISSILE STRIKE SINKS IRANIAN TANKER (VIDEO)",
+      "detail": "An Iranian oil tanker has sunk in the Gulf of Oman after being attacked by American forces, US Central Command has said Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.88 (+0.00%)",
-    "VIX: 16.52",
+    "BRENT: $100.56 (+0.00%)",
+    "VIX: 16.32",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
