@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-09T22:13:33.057079+00:00",
+  "updated_at": "2026-09-10T00:47:39.023493+00:00",
   "market": {
-    "brent_usd": 102.2,
+    "brent_usd": 101.48,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 SEP 2026 · 00:03 UTC",
+      "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
+      "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "09 SEP 2026 · 20:05 UTC",
       "headline": "YEMEN ENVOY WARNS OF WIDER WAR AS HOUTHIS THREATEN BAB AL-MANDEB STRAIT",
@@ -43,16 +49,10 @@
       "headline": "IRAN TO DECLARE NEW ‘RESTRICTED ZONE’ OUTSIDE STRAIT OF HORMUZ – OFFICIAL",
       "detail": "Iran will announce a “restricted zone” outside the Strait of Hormuz in the coming days, a top security official has said Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 SEP 2026 · 22:57 UTC",
-      "headline": "US MISSILE STRIKE SINKS IRANIAN TANKER (VIDEO)",
-      "detail": "An Iranian oil tanker has sunk in the Gulf of Oman after being attacked by American forces, US Central Command has said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $102.2 (+0.00%)",
+    "BRENT: $101.48 (+0.00%)",
     "VIX: 16.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
