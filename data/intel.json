@@ -1,35 +1,41 @@
 {
-  "updated_at": "2026-09-10T10:30:47.957050+00:00",
+  "updated_at": "2026-09-10T14:46:03.775096+00:00",
   "market": {
-    "brent_usd": 101.95,
+    "brent_usd": 104.65,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.52,
+    "vix": 17.42,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.3
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "10 SEP 2026 · 04:41 UTC",
-      "headline": "UKRAINIAN DRONES STRIKE RUSSIAN CASPIAN SEA PORT IN DAGESTAN",
-      "detail": "Fires and explosions were seen in Russia’s Dagestan after a Ukrainian drone attack.",
-      "severity": "CRÍTICO"
+      "timestamp": "10 SEP 2026 · 14:34 UTC",
+      "headline": "LOS HUTÍES TOMAN EL PUERTO ESTRATÉGICO DE MOCA Y AMENAZAN CON UN DOBLE ESTRANGUL",
+      "detail": "La milicia yemení amenaza con controlar el estrecho de Bab el Mandeb, abriendo la puerta a un doble bloqueo con Ormuz en plena escalada bélica entre EE UU e Irán",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 SEP 2026 · 13:57 UTC",
+      "headline": "LOS REBELDES DE YEMEN TOMAN UN PUERTO ESTRATÉGICO Y ENCIENDE NUEVAS ALARMAS POR ",
+      "detail": "Los hutíes ganaron más capacidad de presión sobre el estrecho Bab el-Mandeb, una de las rutas marítimas más importantes del mundo",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "10 SEP 2026 · 13:14 UTC",
+      "headline": "HOUTHIS ADVANCE ALONG YEMEN’S SOUTHERN RED SEA COAST",
+      "detail": "Yemen’s Houthi rebels are advancing along the Red Sea coast, to gain more leverage over the Bab el-Mandeb Strait.",
+      "severity": "INFO"
     },
     {
       "timestamp": "10 SEP 2026 · 00:03 UTC",
       "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
       "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "09 SEP 2026 · 11:11 UTC",
-      "headline": "EE UU E IRÁN INTERCAMBIAN ATAQUES AÉREOS CONTRA BARCOS EN EL ESTRECHO DE ORMUZ E",
-      "detail": "El mando estadounidense afirma que ha hundido cinco cargueros iraníes. Teherán responde con bombardeos a bases estadounidenses en Jordania",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRAN TO DECLARE NEW ‘RESTRICTED ZONE’ OUTSIDE STRAIT OF HORMUZ – OFFICIAL",
       "detail": "Iran will announce a “restricted zone” outside the Strait of Hormuz in the coming days, a top security official has said Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 SEP 2026 · 22:57 UTC",
-      "headline": "US MISSILE STRIKE SINKS IRANIAN TANKER (VIDEO)",
-      "detail": "An Iranian oil tanker has sunk in the Gulf of Oman after being attacked by American forces, US Central Command has said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.95 (+0.00%)",
-    "VIX: 16.52",
+    "BRENT: $104.65 (+0.00%)",
+    "VIX: 17.42",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
