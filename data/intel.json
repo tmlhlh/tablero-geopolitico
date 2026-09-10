@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-10T00:47:39.023493+00:00",
+  "updated_at": "2026-09-10T05:33:34.807825+00:00",
   "market": {
-    "brent_usd": 101.48,
+    "brent_usd": 100.97,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "10 SEP 2026 · 00:03 UTC",
-      "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
-      "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
+      "timestamp": "10 SEP 2026 · 04:41 UTC",
+      "headline": "UKRAINIAN DRONES STRIKE RUSSIAN CASPIAN SEA PORT IN DAGESTAN",
+      "detail": "Fires and explosions were seen in Russia’s Dagestan after a Ukrainian drone attack.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "09 SEP 2026 · 20:05 UTC",
-      "headline": "YEMEN ENVOY WARNS OF WIDER WAR AS HOUTHIS THREATEN BAB AL-MANDEB STRAIT",
-      "detail": "In an interview with Al Jazeera, Yemen's ambassador warns Houthi attacks threaten global shipping.",
+      "timestamp": "10 SEP 2026 · 00:03 UTC",
+      "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
+      "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.48 (+0.00%)",
+    "BRENT: $100.97 (+0.00%)",
     "VIX: 16.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
