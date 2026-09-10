@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-10T21:21:56.199470+00:00",
+  "updated_at": "2026-09-10T23:39:47.288624+00:00",
   "market": {
-    "brent_usd": 108.95,
+    "brent_usd": 108.94,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "10 SEP 2026 · 16:05 UTC",
-      "headline": "OIL JUMPS TO $105, PUSHING UP CHANCES OF A US INTEREST RATE INCREASE",
-      "detail": "Prices spiked as attacks on oil tankers escalated amid the US-Iran war.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "10 SEP 2026 · 15:25 UTC",
       "headline": "LOS HUTÍES TOMAN EL PUERTO ESTRATÉGICO DE MOCA Y AMENAZAN CON UN DOBLE ESTRANGUL",
@@ -52,7 +46,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $108.95 (+0.00%)",
+    "BRENT: $108.94 (+0.00%)",
     "VIX: 17.84",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
