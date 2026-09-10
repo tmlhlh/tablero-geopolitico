@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-09-10T14:46:03.775096+00:00",
+  "updated_at": "2026-09-10T18:02:20.009159+00:00",
   "market": {
-    "brent_usd": 104.65,
+    "brent_usd": 107.21,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.42,
+    "vix": 17.55,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "10 SEP 2026 · 14:34 UTC",
-      "headline": "LOS HUTÍES TOMAN EL PUERTO ESTRATÉGICO DE MOCA Y AMENAZAN CON UN DOBLE ESTRANGUL",
-      "detail": "La milicia yemení amenaza con controlar el estrecho de Bab el Mandeb, abriendo la puerta a un doble bloqueo con Ormuz en plena escalada bélica entre EE UU e Irán",
-      "severity": "INFO"
+      "timestamp": "10 SEP 2026 · 16:05 UTC",
+      "headline": "OIL JUMPS TO $105, PUSHING UP CHANCES OF A US INTEREST RATE INCREASE",
+      "detail": "Prices spiked as attacks on oil tankers escalated amid the US-Iran war.",
+      "severity": "CRÍTICO"
     },
     {
-      "timestamp": "10 SEP 2026 · 13:57 UTC",
-      "headline": "LOS REBELDES DE YEMEN TOMAN UN PUERTO ESTRATÉGICO Y ENCIENDE NUEVAS ALARMAS POR ",
-      "detail": "Los hutíes ganaron más capacidad de presión sobre el estrecho Bab el-Mandeb, una de las rutas marítimas más importantes del mundo",
+      "timestamp": "10 SEP 2026 · 15:25 UTC",
+      "headline": "LOS HUTÍES TOMAN EL PUERTO ESTRATÉGICO DE MOCA Y AMENAZAN CON UN DOBLE ESTRANGUL",
+      "detail": "La milicia yemení amenaza con controlar el estrecho de Bab el Mandeb, abriendo la puerta a un doble bloqueo con Ormuz en plena escalada bélica entre EE UU e Irán",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.65 (+0.00%)",
-    "VIX: 17.42",
+    "BRENT: $107.21 (+0.00%)",
+    "VIX: 17.55",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
