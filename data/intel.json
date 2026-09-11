@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-11T19:25:01.857769+00:00",
+  "updated_at": "2026-09-11T22:11:35.546060+00:00",
   "market": {
-    "brent_usd": 104.9,
+    "brent_usd": 104.42,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.86,
+    "vix": 15.84,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.1
   },
@@ -15,15 +15,15 @@
   },
   "events": [
     {
-      "timestamp": "11 SEP 2026 · 18:33 UTC",
-      "headline": "IRAN SAYS WILL DISCUSS STRAIT OF HORMUZ WITH GULF STATES ON MONDAY",
-      "detail": "Iran's Foreign Ministry says the meeting in Oman is to 'promote better understanding among the countries of the region'.",
+      "timestamp": "11 SEP 2026 · 20:16 UTC",
+      "headline": "LA ESCALADA EN EL MAR ROJO OBLIGA A ARABIA SAUDÍ A CERRAR SU ÚNICO OLEODUCTO ALT",
+      "detail": "Los hutíes toman la isla de Mayun horas después de hacerse con el control del puerto yemení de Moca. La superposición de crisis en Oriente Próximo multiplica las amenazas para un mercado petrolero cog",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 SEP 2026 · 14:42 UTC",
-      "headline": "EL POLVORÍN DEL MAR ROJO SE SUMA AL CIERRE DE ORMUZ Y AGRAVA LA CRISIS PETROLERA",
-      "detail": "Los hutíes toman la isla de Mayun tras hacerse horas antes con el puerto yemení de Moca. La superposición de crisis en Oriente Próximo multiplica las amenazas para un mercado energético cogido con alf",
+      "timestamp": "11 SEP 2026 · 18:33 UTC",
+      "headline": "IRAN SAYS WILL DISCUSS STRAIT OF HORMUZ WITH GULF STATES ON MONDAY",
+      "detail": "Iran's Foreign Ministry says the meeting in Oman is to 'promote better understanding among the countries of the region'.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.9 (+0.00%)",
-    "VIX: 15.86",
+    "BRENT: $104.42 (+0.00%)",
+    "VIX: 15.84",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
