@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-11T16:52:28.948059+00:00",
+  "updated_at": "2026-09-11T19:25:01.857769+00:00",
   "market": {
-    "brent_usd": 105.09,
+    "brent_usd": 104.9,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.83,
+    "vix": 15.86,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.1
   },
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "11 SEP 2026 · 16:12 UTC",
-      "headline": "LOS REBELDES HUTÍES AVANZAN SOBRE UNA RUTA CLAVE DEL PETRÓLEO Y ARABIA SAUDITA L",
-      "detail": "Los hutíes tomaron la estratégica isla de Perim, en el estrecho Bab el-Mandeb; el presidente norteamericano le dijo al príncipe saudita que por ahora no planea una acción en la zona",
+      "timestamp": "11 SEP 2026 · 18:33 UTC",
+      "headline": "IRAN SAYS WILL DISCUSS STRAIT OF HORMUZ WITH GULF STATES ON MONDAY",
+      "detail": "Iran's Foreign Ministry says the meeting in Oman is to 'promote better understanding among the countries of the region'.",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.09 (+0.00%)",
-    "VIX: 15.83",
+    "BRENT: $104.9 (+0.00%)",
+    "VIX: 15.86",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
