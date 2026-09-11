@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-09-11T07:44:12.882794+00:00",
+  "updated_at": "2026-09-11T12:33:03.921805+00:00",
   "market": {
-    "brent_usd": 105.64,
+    "brent_usd": 104.1,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.54,
+    "vix": 17.02,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "11 SEP 2026 · 00:24 UTC",
-      "headline": "IRAN CLAIMS TO HAVE CAPTURED A US ‘SAIL DRONE’ NEAR HORMUZ STRAIT",
-      "detail": "Iran’s Revolutionary Guard says its navy struck a US-operated surface drone at the entrance of the Strait of Hormuz.",
+      "timestamp": "11 SEP 2026 · 11:30 UTC",
+      "headline": "EL POLVORÍN DEL MAR ROJO SE SUMA AL CIERRE DE ORMUZ Y AGRAVA LA CRISIS PETROLERA",
+      "detail": "Los hutíes toman la isla de Mayun tras hacerse este jueves con el puerto yemení de Moca. La superposición de crisis en Oriente Próximo multiplica las amenazas para un mercado energético cogido con alf",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRGC ATTACKS US UNMANNED VESSEL IN HORMUZ; TWO SHIPS HIT",
-      "detail": "IRGC says it attacked a US unmanned vessel in Hormuz, while UKMTO says projectiles hit two ships off Oman.",
-      "severity": "CRÍTICO"
+      "timestamp": "11 SEP 2026 · 10:11 UTC",
+      "headline": "HOUTHIS CONTROL KEY SHIPPING ROUTE AFTER GAINS ALONG YEMEN’S RED SEA COAST",
+      "detail": "Rapid advance of Iran-backed force threatens key alternative shipping route to Strait of Hormuz.",
+      "severity": "INFO"
     },
     {
       "timestamp": "10 SEP 2026 · 23:47 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.64 (+0.00%)",
-    "VIX: 17.54",
+    "BRENT: $104.1 (+0.00%)",
+    "VIX: 17.02",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
