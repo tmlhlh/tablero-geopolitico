@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-11T02:47:30.673254+00:00",
+  "updated_at": "2026-09-11T07:44:12.882794+00:00",
   "market": {
-    "brent_usd": 107.7,
+    "brent_usd": 105.64,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.84,
+    "vix": 17.54,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -29,7 +29,7 @@
     {
       "timestamp": "10 SEP 2026 · 23:47 UTC",
       "headline": "IRAN DESTROYS US SPY SAILDRONE IN HORMUZ (VIDEO)",
-      "detail": "Iran’s Islamic Revolutionary Guard Corps (IRGC) says it has destroyed a US Saildrone Explorer reconnaissance vessel in the Strait of Hormuz Read Full Article at RT.com",
+      "detail": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US Saildrone Explorer reconnaissance vessel in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.7 (+0.00%)",
-    "VIX: 17.84",
+    "BRENT: $105.64 (+0.00%)",
+    "VIX: 17.54",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
