@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-09-11T12:33:03.921805+00:00",
+  "updated_at": "2026-09-11T16:52:28.948059+00:00",
   "market": {
-    "brent_usd": 104.1,
+    "brent_usd": 105.09,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.02,
+    "vix": 15.83,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.5
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "11 SEP 2026 · 11:30 UTC",
-      "headline": "EL POLVORÍN DEL MAR ROJO SE SUMA AL CIERRE DE ORMUZ Y AGRAVA LA CRISIS PETROLERA",
-      "detail": "Los hutíes toman la isla de Mayun tras hacerse este jueves con el puerto yemení de Moca. La superposición de crisis en Oriente Próximo multiplica las amenazas para un mercado energético cogido con alf",
+      "timestamp": "11 SEP 2026 · 16:12 UTC",
+      "headline": "LOS REBELDES HUTÍES AVANZAN SOBRE UNA RUTA CLAVE DEL PETRÓLEO Y ARABIA SAUDITA L",
+      "detail": "Los hutíes tomaron la estratégica isla de Perim, en el estrecho Bab el-Mandeb; el presidente norteamericano le dijo al príncipe saudita que por ahora no planea una acción en la zona",
       "severity": "INFO"
     },
     {
-      "timestamp": "11 SEP 2026 · 10:11 UTC",
-      "headline": "HOUTHIS CONTROL KEY SHIPPING ROUTE AFTER GAINS ALONG YEMEN’S RED SEA COAST",
-      "detail": "Rapid advance of Iran-backed force threatens key alternative shipping route to Strait of Hormuz.",
+      "timestamp": "11 SEP 2026 · 14:42 UTC",
+      "headline": "EL POLVORÍN DEL MAR ROJO SE SUMA AL CIERRE DE ORMUZ Y AGRAVA LA CRISIS PETROLERA",
+      "detail": "Los hutíes toman la isla de Mayun tras hacerse horas antes con el puerto yemení de Moca. La superposición de crisis en Oriente Próximo multiplica las amenazas para un mercado energético cogido con alf",
       "severity": "INFO"
     },
     {
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.1 (+0.00%)",
-    "VIX: 17.02",
+    "BRENT: $105.09 (+0.00%)",
+    "VIX: 15.83",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
