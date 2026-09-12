@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T18:54:51.854834+00:00",
+  "updated_at": "2026-09-12T21:10:12.357138+00:00",
   "market": {
     "brent_usd": 104.61,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "12 SEP 2026 · 19:34 UTC",
+      "headline": "BAHRAIN SAYS IT WILL NOT PARTICIPATE IN IRAN’S PROPOSED HORMUZ MEETING",
+      "detail": "Iran tells Al Jazeera that Monday's meeting is a sign of 'good intentions' towards neighbouring countries.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 SEP 2026 · 20:16 UTC",
       "headline": "LA ESCALADA EN EL MAR ROJO OBLIGA A ARABIA SAUDÍ A CERRAR SU ÚNICO OLEODUCTO ALT",
@@ -43,12 +49,6 @@
       "headline": "IRAN TO DECLARE NEW ‘RESTRICTED ZONE’ OUTSIDE STRAIT OF HORMUZ – OFFICIAL",
       "detail": "Iran will announce a “restricted zone” outside the Strait of Hormuz in the coming days, a top security official has said Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 SEP 2026 · 22:57 UTC",
-      "headline": "US MISSILE STRIKE SINKS IRANIAN TANKER (VIDEO)",
-      "detail": "An Iranian oil tanker has sunk in the Gulf of Oman after being attacked by American forces, US Central Command has said Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
