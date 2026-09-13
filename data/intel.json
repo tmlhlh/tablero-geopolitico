@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T07:57:44.503822+00:00",
+  "updated_at": "2026-09-13T13:10:45.846401+00:00",
   "market": {
     "brent_usd": 104.61,
     "brent_chg": 0.0
@@ -21,18 +21,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: COMMERCIAL SHIP ATTACKED IN HORMUZ, KILLING 1, WOUNDING 3",
-      "detail": "Latest strike on cargo vessel comes as Iran leaders plan to meet Gulf officials to discuss control over key waterway.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 SEP 2026 · 21:38 UTC",
-      "headline": "FIRST NAVAL BATTLE BETWEEN DRONES TAKES PLACE IN THE BLACK SEA",
-      "detail": "The first naval battle between two Unmanned Surface Vessels (USVs) has taken place in the Black Sea.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "11 SEP 2026 · 20:16 UTC",
       "headline": "LA ESCALADA EN EL MAR ROJO OBLIGA A ARABIA SAUDÍ A CERRAR SU ÚNICO OLEODUCTO ALT",
       "detail": "Los hutíes toman la isla de Mayun horas después de hacerse con el control del puerto yemení de Moca. La superposición de crisis en Oriente Próximo multiplica las amenazas para un mercado petrolero cog",
@@ -49,6 +37,18 @@
       "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
       "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 SEP 2026 · 21:25 UTC",
+      "headline": "IRAN RETALIATES AFTER US STRIKES ON OIL TANKERS (VIDEOS)",
+      "detail": "Iran says it struck two US vessels and eight oil tankers in retaliation for US attacks on Iranian shipping Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 SEP 2026 · 10:33 UTC",
+      "headline": "IRAN TO DECLARE NEW ‘RESTRICTED ZONE’ OUTSIDE STRAIT OF HORMUZ – OFFICIAL",
+      "detail": "Iran will announce a “restricted zone” outside the Strait of Hormuz in the coming days, a top security official has said Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
