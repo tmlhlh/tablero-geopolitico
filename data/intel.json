@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-09-14T11:39:44.216354+00:00",
+  "updated_at": "2026-09-14T17:34:18.637089+00:00",
   "market": {
-    "brent_usd": 108.08,
+    "brent_usd": 106.24,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.4,
-    "vix": 17.52,
+    "ormuz_flow_pct": 99.6,
+    "vix": 16.83,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "14 SEP 2026 · 16:36 UTC",
+      "headline": "WHY MIDDLE EAST TENSIONS ARE PUSHING OIL PRICES ABOVE $100",
+      "detail": "Brent crude has risen above $100 a barrel as war in Iran disrupts shipping through the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 SEP 2026 · 11:50 UTC",
+      "headline": "TEMPORARY HORMUZ SOLUTION DEFERRED AS IRAN-ARAB SUMMIT FALLS THROUGH",
+      "detail": "Saudi Arabia asked for the meeting to be postponed, but Tehran says it will continue to seek a regionally backed bill.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 SEP 2026 · 11:06 UTC",
       "headline": "US SAYS IT’S CLEARING HORMUZ TRAFFIC: WHY ARE OIL FUTURES BEYOND $100?",
@@ -27,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "13 SEP 2026 · 03:40 UTC",
-      "headline": "TRUMP SE QUEDA SIN TIEMPO PARA REBAJAR EL PRECIO DE LA GASOLINA ANTES DE LAS LEG",
-      "detail": "Incluso si lograse terminar hoy la guerra y reabrir Ormuz, pasarían más de ocho semanas hasta que la caída llegase a los surtidores. Es su gran lastre electoral",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "10 SEP 2026 · 23:47 UTC",
       "headline": "IRAN DESTROYS US SPY SAILDRONE IN HORMUZ (VIDEO)",
       "detail": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US Saildrone Explorer reconnaissance vessel in the Strait of Hormuz Read Full Article at RT.com",
@@ -43,17 +49,11 @@
       "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
       "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 SEP 2026 · 21:25 UTC",
-      "headline": "IRAN RETALIATES AFTER US STRIKES ON OIL TANKERS (VIDEOS)",
-      "detail": "Iran says it struck two US vessels and eight oil tankers in retaliation for US attacks on Iranian shipping Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.08 (+0.00%)",
-    "VIX: 17.52",
+    "BRENT: $106.24 (+0.00%)",
+    "VIX: 16.83",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
