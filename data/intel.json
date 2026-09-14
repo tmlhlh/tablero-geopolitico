@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-09-13T22:49:39.019443+00:00",
+  "updated_at": "2026-09-14T00:39:43.693030+00:00",
   "market": {
-    "brent_usd": 107.77,
+    "brent_usd": 107.72,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 31.7,
+    "ormuz_flow_pct": 61.3,
     "vix": 15.84,
-    "risk_level": "ALTO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "14 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: OMAN SAYS HORMUZ TALKS WITH IRAN, GULF STATES POSTPONED",
+      "detail": "Oman says Hormuz talks with Iran and Gulf states are postponed 'in the interests of consensus'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "13 SEP 2026 · 21:59 UTC",
       "headline": "LOS ATAQUES EN DOS FRENTES EN MEDIO ORIENTE AMENAZAN CON AGRAVAR LAS TURBULENCIA",
@@ -25,12 +31,6 @@
       "headline": "TEHRAN AND MUSCAT DELAY TALKS, CITING REGIONAL CONSENSUS NEED",
       "detail": "Tehran and Muscat agree to delay dialogue to prioritise regional consensus amid tensions in the Strait of Hormuz.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "13 SEP 2026 · 16:11 UTC",
-      "headline": "UKRAINIAN DRONE EVADES RUSSIAN HELICOPTER FIRE TO STRIKE OIL TANKER",
-      "detail": "Ukraine has released footage showing a drone evading fire from a Russian helicopter before striking a Russian oil tanker",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "13 SEP 2026 · 03:40 UTC",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $107.77 (+0.00%)",
+    "BRENT: $107.72 (+0.00%)",
     "VIX: 15.84",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
