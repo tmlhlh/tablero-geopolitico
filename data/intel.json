@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-14T17:34:18.637089+00:00",
+  "updated_at": "2026-09-14T21:23:30.016170+00:00",
   "market": {
-    "brent_usd": 106.24,
+    "brent_usd": 106.15,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.6,
-    "vix": 16.83,
+    "ormuz_flow_pct": 99.7,
+    "vix": 17.1,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
@@ -18,24 +18,6 @@
       "timestamp": "14 SEP 2026 · 16:36 UTC",
       "headline": "WHY MIDDLE EAST TENSIONS ARE PUSHING OIL PRICES ABOVE $100",
       "detail": "Brent crude has risen above $100 a barrel as war in Iran disrupts shipping through the Strait of Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 SEP 2026 · 11:50 UTC",
-      "headline": "TEMPORARY HORMUZ SOLUTION DEFERRED AS IRAN-ARAB SUMMIT FALLS THROUGH",
-      "detail": "Saudi Arabia asked for the meeting to be postponed, but Tehran says it will continue to seek a regionally backed bill.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 SEP 2026 · 11:06 UTC",
-      "headline": "US SAYS IT’S CLEARING HORMUZ TRAFFIC: WHY ARE OIL FUTURES BEYOND $100?",
-      "detail": "Brent crude crosses $107 as Hormuz disruptions and Saudi pipeline shutdown threaten global oil supply.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 SEP 2026 · 10:58 UTC",
-      "headline": "STRAIT OF HORMUZ TALKS POSTPONED DUE TO YEMEN EVENTS, SAYS IRAN",
-      "detail": "Foreign Ministry spokesperson Esmaeil Baghaei says Iran does not interfere in Yemeni affairs.",
       "severity": "INFO"
     },
     {
@@ -49,11 +31,23 @@
       "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
       "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 SEP 2026 · 21:25 UTC",
+      "headline": "IRAN RETALIATES AFTER US STRIKES ON OIL TANKERS (VIDEOS)",
+      "detail": "Iran says it struck two US vessels and eight oil tankers in retaliation for US attacks on Iranian shipping Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "07 SEP 2026 · 10:33 UTC",
+      "headline": "IRAN TO DECLARE NEW ‘RESTRICTED ZONE’ OUTSIDE STRAIT OF HORMUZ – OFFICIAL",
+      "detail": "Iran will announce a “restricted zone” outside the Strait of Hormuz in the coming days, a top security official has said Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.24 (+0.00%)",
-    "VIX: 16.83",
+    "BRENT: $106.15 (+0.00%)",
+    "VIX: 17.1",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
