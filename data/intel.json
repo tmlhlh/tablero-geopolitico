@@ -1,35 +1,29 @@
 {
-  "updated_at": "2026-09-14T05:43:33.637980+00:00",
+  "updated_at": "2026-09-14T11:39:44.216354+00:00",
   "market": {
-    "brent_usd": 107.1,
+    "brent_usd": 108.08,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 69.1,
-    "vix": 15.84,
+    "ormuz_flow_pct": 99.4,
+    "vix": 17.52,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "14 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: OMAN SAYS HORMUZ TALKS WITH IRAN, GULF STATES POSTPONED",
-      "detail": "Oman says Hormuz talks with Iran and Gulf states are postponed 'in the interests of consensus'.",
+      "timestamp": "14 SEP 2026 · 11:06 UTC",
+      "headline": "US SAYS IT’S CLEARING HORMUZ TRAFFIC: WHY ARE OIL FUTURES BEYOND $100?",
+      "detail": "Brent crude crosses $107 as Hormuz disruptions and Saudi pipeline shutdown threaten global oil supply.",
       "severity": "INFO"
     },
     {
-      "timestamp": "13 SEP 2026 · 21:59 UTC",
-      "headline": "LOS ATAQUES EN DOS FRENTES EN MEDIO ORIENTE AMENAZAN CON AGRAVAR LAS TURBULENCIA",
-      "detail": "Un nuevo barco fue alcanzado en Ormuz después de que resultara dañado un oleoducto clave de Arabia Saudita; esperan que suba el precio del crudo",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 SEP 2026 · 21:50 UTC",
-      "headline": "TEHRAN AND MUSCAT DELAY TALKS, CITING REGIONAL CONSENSUS NEED",
-      "detail": "Tehran and Muscat agree to delay dialogue to prioritise regional consensus amid tensions in the Strait of Hormuz.",
+      "timestamp": "14 SEP 2026 · 10:58 UTC",
+      "headline": "STRAIT OF HORMUZ TALKS POSTPONED DUE TO YEMEN EVENTS, SAYS IRAN",
+      "detail": "Foreign Ministry spokesperson Esmaeil Baghaei says Iran does not interfere in Yemeni affairs.",
       "severity": "INFO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
       "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 SEP 2026 · 21:25 UTC",
+      "headline": "IRAN RETALIATES AFTER US STRIKES ON OIL TANKERS (VIDEOS)",
+      "detail": "Iran says it struck two US vessels and eight oil tankers in retaliation for US attacks on Iranian shipping Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.1 (+0.00%)",
-    "VIX: 15.84",
+    "BRENT: $108.08 (+0.00%)",
+    "VIX: 17.52",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
