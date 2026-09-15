@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-09-15T15:28:48.574670+00:00",
+  "updated_at": "2026-09-15T19:29:41.527902+00:00",
   "market": {
-    "brent_usd": 103.08,
+    "brent_usd": 108.47,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.79,
+    "vix": 17.45,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.8
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "15 SEP 2026 · 13:05 UTC",
+      "timestamp": "15 SEP 2026 · 16:13 UTC",
       "headline": "TWO SAILORS MISSING AFTER TANKER ATTACKED IN STRAIT OF HORMUZ, OMAN SAYS",
       "detail": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
       "severity": "CRÍTICO"
@@ -46,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $103.08 (+0.00%)",
-    "VIX: 17.79",
+    "BRENT: $108.47 (+0.00%)",
+    "VIX: 17.45",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
