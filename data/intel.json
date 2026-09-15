@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-09-15T10:58:10.888667+00:00",
+  "updated_at": "2026-09-15T15:28:48.574670+00:00",
   "market": {
-    "brent_usd": 101.8,
+    "brent_usd": 103.08,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.8,
-    "vix": 17.22,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.6
+    "ormuz_flow_pct": 8.5,
+    "vix": 17.79,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 SEP 2026 · 13:05 UTC",
+      "headline": "TWO SAILORS MISSING AFTER TANKER ATTACKED IN STRAIT OF HORMUZ, OMAN SAYS",
+      "detail": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "15 SEP 2026 · 12:31 UTC",
+      "headline": "A NEW STRAIT CRISIS IS BREWING IN THE RED SEA",
+      "detail": "Houthi gains near Bab el-Mandeb are raising new risks for shipping and putting Saudi Arabia under fresh strain Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "10 SEP 2026 · 23:47 UTC",
       "headline": "IRAN DESTROYS US SPY SAILDRONE IN HORMUZ (VIDEO)",
@@ -34,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.8 (+0.00%)",
-    "VIX: 17.22",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $103.08 (+0.00%)",
+    "VIX: 17.79",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
