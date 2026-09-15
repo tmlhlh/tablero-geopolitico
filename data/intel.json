@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-09-15T00:13:00.189776+00:00",
+  "updated_at": "2026-09-15T05:44:52.493164+00:00",
   "market": {
-    "brent_usd": 106.61,
+    "brent_usd": 107.51,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.7,
+    "ormuz_flow_pct": 8.5,
     "vix": 17.1,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: CENTCOM DISPUTES IRGC CLAIM SUPERTANKER STRUCK BY HORMUZ NAV",
+      "detail": "CENTCOM disputes the IRGC claim that the Panama-flagged oil tanker El Gaia hit naval mines in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "10 SEP 2026 · 23:47 UTC",
       "headline": "IRAN DESTROYS US SPY SAILDRONE IN HORMUZ (VIDEO)",
@@ -34,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $106.61 (+0.00%)",
+    "BRENT: $107.51 (+0.00%)",
     "VIX: 17.1",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
