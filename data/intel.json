@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-16T01:01:43.351424+00:00",
+  "updated_at": "2026-09-16T07:08:40.874973+00:00",
   "market": {
-    "brent_usd": 108.32,
+    "brent_usd": 107.47,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -37,16 +37,10 @@
       "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
       "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "08 SEP 2026 · 21:25 UTC",
-      "headline": "IRAN RETALIATES AFTER US STRIKES ON OIL TANKERS (VIDEOS)",
-      "detail": "Iran says it struck two US vessels and eight oil tankers in retaliation for US attacks on Iranian shipping Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.32 (+0.00%)",
+    "BRENT: $107.47 (+0.00%)",
     "VIX: 17.2",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
