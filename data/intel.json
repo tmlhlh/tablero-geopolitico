@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-09-16T20:49:58.216140+00:00",
+  "updated_at": "2026-09-16T23:30:22.066986+00:00",
   "market": {
-    "brent_usd": 105.42,
+    "brent_usd": 105.58,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 68.3,
+    "ormuz_flow_pct": 8.5,
     "vix": 17.71,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "16 SEP 2026 · 23:14 UTC",
+      "headline": "US MILITARY CLAIMS STRAIT OF HORMUZ REMAINS OPEN AMID ONGOING BLOCKADE",
+      "detail": "The comments from a US CENTCOM spokesperson come amid continued tensions over shipping through the vital waterway.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 SEP 2026 · 21:24 UTC",
+      "headline": "WATCH: LEAKED PHOTOS REVEAL EXTENSIVE DAMAGE AT US BASES IN GULF",
+      "detail": "The photos, provided by active military personnel, show a severed radar jet, flattened trailers and severely damaged buildings as a result of Iranian strikes.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "16 SEP 2026 · 14:04 UTC",
       "headline": "PENTAGON ACCUSES IRAN OF TRYING TO STEAL NAVAL SPY DRONE",
@@ -34,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.42 (+0.00%)",
+    "BRENT: $105.58 (+0.00%)",
     "VIX: 17.71",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
