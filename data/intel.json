@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-09-16T13:03:30.912315+00:00",
+  "updated_at": "2026-09-16T17:55:35.319505+00:00",
   "market": {
-    "brent_usd": 107.44,
+    "brent_usd": 105.72,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 16.82,
-    "risk_level": "CRÍTICO",
+    "ormuz_flow_pct": 63.9,
+    "vix": 16.83,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "15 SEP 2026 · 16:13 UTC",
-      "headline": "TWO SAILORS MISSING AFTER TANKER ATTACKED IN STRAIT OF HORMUZ, OMAN SAYS",
-      "detail": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
-      "severity": "CRÍTICO"
+      "timestamp": "16 SEP 2026 · 14:04 UTC",
+      "headline": "PENTAGON ACCUSES IRAN OF TRYING TO STEAL NAVAL SPY DRONE",
+      "detail": "The Pentagon says it thwarted an attempt by the IRGC to seize a Saildrone unmanned surface vessel Read Full Article at RT.com",
+      "severity": "INFO"
     },
     {
       "timestamp": "15 SEP 2026 · 12:31 UTC",
@@ -31,17 +31,11 @@
       "headline": "IRAN DESTROYS US SPY SAILDRONE IN HORMUZ (VIDEO)",
       "detail": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US Saildrone Explorer reconnaissance vessel in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 SEP 2026 · 00:03 UTC",
-      "headline": "TRUMP VOWS TO HIT ‘A LOT MORE’ IRANIAN TANKERS",
-      "detail": "President Donald Trump has claimed that the US has already taken out “about nine” Iranian oil tankers and threatened to attack “a lot more” Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $107.44 (+0.00%)",
-    "VIX: 16.82",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $105.72 (+0.00%)",
+    "VIX: 16.83",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
