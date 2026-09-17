@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-17T03:12:04.719963+00:00",
+  "updated_at": "2026-09-17T09:09:05.658482+00:00",
   "market": {
-    "brent_usd": 105.74,
+    "brent_usd": 104.24,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.71,
+    "vix": 16.11,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -18,12 +18,6 @@
       "timestamp": "17 SEP 2026 · 00:32 UTC",
       "headline": "US CENTCOM TELLS AL JAZEERA HORMUZ BLOCKADE ‘HIGHLY EFFECTIVE’",
       "detail": "The spokesman for US Central Command has told Al Jazeera its blockade of the Strait of Hormuz is ‘highly effective’.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "16 SEP 2026 · 23:14 UTC",
-      "headline": "US MILITARY CLAIMS STRAIT OF HORMUZ REMAINS OPEN AMID ONGOING BLOCKADE",
-      "detail": "The comments from a US CENTCOM spokesperson come amid continued tensions over shipping through the vital waterway.",
       "severity": "INFO"
     },
     {
@@ -52,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.74 (+0.00%)",
-    "VIX: 17.71",
+    "BRENT: $104.24 (+0.00%)",
+    "VIX: 16.11",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
