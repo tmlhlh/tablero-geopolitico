@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-09-17T09:09:05.658482+00:00",
+  "updated_at": "2026-09-17T14:37:59.414417+00:00",
   "market": {
-    "brent_usd": 104.24,
+    "brent_usd": 103.01,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 16.11,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.2
+    "ormuz_flow_pct": 86.8,
+    "vix": 15.73,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "17 SEP 2026 · 00:32 UTC",
-      "headline": "US CENTCOM TELLS AL JAZEERA HORMUZ BLOCKADE ‘HIGHLY EFFECTIVE’",
-      "detail": "The spokesman for US Central Command has told Al Jazeera its blockade of the Strait of Hormuz is ‘highly effective’.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "16 SEP 2026 · 21:24 UTC",
       "headline": "WATCH: LEAKED PHOTOS REVEAL EXTENSIVE DAMAGE AT US BASES IN GULF",
@@ -37,17 +31,11 @@
       "headline": "A NEW STRAIT CRISIS IS BREWING IN THE RED SEA",
       "detail": "Houthi gains near Bab el-Mandeb are raising new risks for shipping and putting Saudi Arabia under fresh strain Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "10 SEP 2026 · 23:47 UTC",
-      "headline": "IRAN DESTROYS US SPY SAILDRONE IN HORMUZ (VIDEO)",
-      "detail": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US Saildrone Explorer reconnaissance vessel in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.24 (+0.00%)",
-    "VIX: 16.11",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $103.01 (+0.00%)",
+    "VIX: 15.73",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
