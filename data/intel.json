@@ -1,37 +1,19 @@
 {
-  "updated_at": "2026-09-18T08:06:13.926627+00:00",
+  "updated_at": "2026-09-18T13:20:31.116445+00:00",
   "market": {
-    "brent_usd": 98.3,
+    "brent_usd": 99.44,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 15.08,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.8
+    "ormuz_flow_pct": 96.1,
+    "vix": 15.5,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "18 SEP 2026 · 06:02 UTC",
-      "headline": "OMAN OIL ESCAPE ROUTE: HOW SHIP-TO-SHIP TRANSFERS WORK — DESPITE BIG RISKS",
-      "detail": "Oman’s Sohar port is becoming a popular spot for ship-to-ship oil transfers amid continued Hormuz blockade.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 SEP 2026 · 05:23 UTC",
-      "headline": "SOUTH KOREA SAYS US-NORTH KOREA TALKS POSSIBLE, RULES OUT HORMUZ DEPLOYMENT",
-      "detail": "South Korean president will facilitate US-North Korea talks but will not deploy troops in US war on Iran.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP WEIGHS ‘BIG DECISION’ ON IRAN, TANKER HIT IN HORMUZ",
-      "detail": "Trump says he faces a 'big decision' on whether to 'annihilate' his Iranian foes, adding that 'anything could happen'.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "16 SEP 2026 · 21:24 UTC",
       "headline": "WATCH: LEAKED PHOTOS REVEAL EXTENSIVE DAMAGE AT US BASES IN GULF",
@@ -52,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.3 (+0.00%)",
-    "VIX: 15.08",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $99.44 (+0.00%)",
+    "VIX: 15.5",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
