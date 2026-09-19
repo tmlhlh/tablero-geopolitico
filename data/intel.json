@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-09-19T15:16:21.099000+00:00",
+  "updated_at": "2026-09-19T18:22:31.512286+00:00",
   "market": {
     "brent_usd": 99.29,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 49.8,
+    "ormuz_flow_pct": 99.2,
     "vix": 14.81,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "19 SEP 2026 · 10:51 UTC",
-      "headline": "RUSSIA KILLS EIGHT PEOPLE IN UKRAINE, ATTACKS TWO VESSELS IN BLACK SEA",
-      "detail": "Ukraine's Air Force says Russia hit the country with dozens of drones and two antiship missiles overnight.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "16 SEP 2026 · 14:04 UTC",
       "headline": "PENTAGON ACCUSES IRAN OF TRYING TO STEAL NAVAL SPY DRONE",
@@ -36,6 +30,6 @@
   "ticker_items": [
     "BRENT: $99.29 (+0.00%)",
     "VIX: 14.81",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
