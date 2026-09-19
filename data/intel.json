@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-18T22:59:23.639943+00:00",
+  "updated_at": "2026-09-19T01:04:22.258329+00:00",
   "market": {
     "brent_usd": 98.77,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 97.7,
+    "ormuz_flow_pct": 97.9,
     "vix": 14.81,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "16 SEP 2026 · 21:24 UTC",
-      "headline": "WATCH: LEAKED PHOTOS REVEAL EXTENSIVE DAMAGE AT US BASES IN GULF",
-      "detail": "The photos, provided by active military personnel, show a severed radar jet, flattened trailers and severely damaged buildings as a result of Iranian strikes.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "16 SEP 2026 · 14:04 UTC",
       "headline": "PENTAGON ACCUSES IRAN OF TRYING TO STEAL NAVAL SPY DRONE",
