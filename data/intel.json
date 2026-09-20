@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-09-19T23:51:37.412344+00:00",
+  "updated_at": "2026-09-20T03:09:52.635775+00:00",
   "market": {
     "brent_usd": 99.29,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.4,
+    "ormuz_flow_pct": 8.5,
     "vix": 14.81,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "20 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN SETS TERMS FOR PEACE; SAUDI FORCES FOIL RIYADH ATTACK",
+      "detail": "Iran security chief says Tehran's demands include an end to war on all fronts and the lifting of US's naval blockade.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "16 SEP 2026 · 14:04 UTC",
       "headline": "PENTAGON ACCUSES IRAN OF TRYING TO STEAL NAVAL SPY DRONE",
@@ -30,6 +36,6 @@
   "ticker_items": [
     "BRENT: $99.29 (+0.00%)",
     "VIX: 14.81",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
