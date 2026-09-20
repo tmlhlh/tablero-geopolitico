@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-20T09:00:52.788127+00:00",
+  "updated_at": "2026-09-20T13:54:18.500944+00:00",
   "market": {
     "brent_usd": 99.29,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 99.7,
     "vix": 14.81,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
@@ -24,12 +24,6 @@
       "timestamp": "20 SEP 2026 · 03:30 UTC",
       "headline": "IRÁN APUNTALA EL CONTROL DE DOS ESTRECHOS CLAVE ANTE LA INACCIÓN DE ESTADOS UNID",
       "detail": "Teherán domina Ormuz desde hace meses y Bab el Mandeb acaba de caer en manos hutíes, una milicia financiada por la República Islámica",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SETS TERMS FOR TALKS; SAUDI FORCES FOIL RIYADH ATTACK",
-      "detail": "Iran security chief says Tehran's demands include an end to war on all fronts and the lifting of the US naval blockade.",
       "severity": "CRÍTICO"
     },
     {
@@ -48,6 +42,6 @@
   "ticker_items": [
     "BRENT: $99.29 (+0.00%)",
     "VIX: 14.81",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
