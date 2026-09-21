@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-21T00:49:30.077926+00:00",
+  "updated_at": "2026-09-21T05:50:40.768285+00:00",
   "market": {
-    "brent_usd": 98.58,
+    "brent_usd": 97.75,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,16 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "20 SEP 2026 · 03:30 UTC",
-      "headline": "EL ESTRECHO INFINITO",
-      "detail": "Un cierre de Ormuz prolongado y desbordado sería el punto de inflexión de unos mercados energéticos al límite y tener efectos políticos duraderos",
+      "timestamp": "21 SEP 2026 · 02:08 UTC",
+      "headline": "HOUTHIS VOW TO SPARE FOREIGN SHIPS AFTER SEIZING KEY RED SEA CHOKEPOINT",
+      "detail": "Yemen’s Houthis have vowed to target only Saudi-linked vessels after seizing strategic positions around the Bab el-Mandeb Strait Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
       "timestamp": "20 SEP 2026 · 03:30 UTC",
-      "headline": "IRÁN APUNTALA EL CONTROL DE DOS ESTRECHOS CLAVE ANTE LA INACCIÓN DE ESTADOS UNID",
-      "detail": "Teherán domina Ormuz desde hace meses y Bab el Mandeb acaba de caer en manos hutíes, una milicia financiada por la República Islámica",
-      "severity": "CRÍTICO"
+      "headline": "EL ESTRECHO INFINITO",
+      "detail": "Un cierre de Ormuz prolongado y desbordado sería el punto de inflexión de unos mercados energéticos al límite y tener efectos políticos duraderos",
+      "severity": "INFO"
     },
     {
       "timestamp": "16 SEP 2026 · 14:04 UTC",
@@ -40,7 +40,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.58 (+0.00%)",
+    "BRENT: $97.75 (+0.00%)",
     "VIX: 14.81",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
