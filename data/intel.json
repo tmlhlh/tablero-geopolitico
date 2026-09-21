@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-21T05:50:40.768285+00:00",
+  "updated_at": "2026-09-21T11:52:51.585923+00:00",
   "market": {
-    "brent_usd": 97.75,
+    "brent_usd": 96.96,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 99.9,
-    "vix": 14.81,
+    "vix": 14.86,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -31,17 +31,11 @@
       "headline": "PENTAGON ACCUSES IRAN OF TRYING TO STEAL NAVAL SPY DRONE",
       "detail": "The Pentagon says it thwarted an attempt by the IRGC to seize a Saildrone unmanned surface vessel Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 SEP 2026 · 12:31 UTC",
-      "headline": "A NEW STRAIT CRISIS IS BREWING IN THE RED SEA",
-      "detail": "Houthi gains near Bab el-Mandeb are raising new risks for shipping and putting Saudi Arabia under fresh strain Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.75 (+0.00%)",
-    "VIX: 14.81",
+    "BRENT: $96.96 (+0.00%)",
+    "VIX: 14.86",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
