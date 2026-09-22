@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-22T10:53:33.414642+00:00",
+  "updated_at": "2026-09-22T15:23:26.428364+00:00",
   "market": {
-    "brent_usd": 97.54,
+    "brent_usd": 100.08,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 66.2,
-    "vix": 14.84,
+    "ormuz_flow_pct": 100.0,
+    "vix": 14.38,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -15,10 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "22 SEP 2026 · 05:32 UTC",
-      "headline": "G7 FOREIGN MINISTERS DEMAND HOUTHIS HALT STRIKES ON SAUDI ARABIA",
-      "detail": "Ministers demand an end to maritime shipping attacks and urge Iran to stop arming the Yemeni group.",
+      "timestamp": "22 SEP 2026 · 12:24 UTC",
+      "headline": "LOS HUTÍES PROSIGUEN SU AVANCE EN YEMEN Y ACARICIAN EL CONTROL TOTAL DEL ESTRECH",
+      "detail": "Pese a los recientes ataques contra Riad y sus instalaciones petroleras, Arabia Saudí promete retomar los envíos de crudo desde Yanbu mientras recibe el apoyo de países occidentales",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 SEP 2026 · 11:31 UTC",
+      "headline": "IRÁN SE MUESTRA DISPUESTO A REABRIR ORMUZ SI TRUMP AFLOJA LA PRESIÓN MILITAR Y L",
+      "detail": "El anuncio de la delegación de Teherán a la Asamblea de la ONU presiona a la baja el precio del petróleo, que cae por debajo de los 100 dólares",
+      "severity": "INFO"
     },
     {
       "timestamp": "21 SEP 2026 · 02:08 UTC",
@@ -34,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.54 (+0.00%)",
-    "VIX: 14.84",
+    "BRENT: $100.08 (+0.00%)",
+    "VIX: 14.38",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
