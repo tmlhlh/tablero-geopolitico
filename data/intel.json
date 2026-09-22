@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-22T05:48:45.472506+00:00",
+  "updated_at": "2026-09-22T10:53:33.414642+00:00",
   "market": {
-    "brent_usd": 97.56,
+    "brent_usd": 97.54,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
-    "vix": 14.87,
+    "ormuz_flow_pct": 66.2,
+    "vix": 14.84,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "22 SEP 2026 · 05:32 UTC",
+      "headline": "G7 FOREIGN MINISTERS DEMAND HOUTHIS HALT STRIKES ON SAUDI ARABIA",
+      "detail": "Ministers demand an end to maritime shipping attacks and urge Iran to stop arming the Yemeni group.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "21 SEP 2026 · 02:08 UTC",
       "headline": "HOUTHIS VOW TO SPARE FOREIGN SHIPS AFTER SEIZING KEY RED SEA CHOKEPOINT",
@@ -25,17 +31,11 @@
       "headline": "EL ESTRECHO INFINITO",
       "detail": "Un cierre de Ormuz prolongado y desbordado sería el punto de inflexión de unos mercados energéticos al límite y tener efectos políticos duraderos",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "16 SEP 2026 · 14:04 UTC",
-      "headline": "PENTAGON ACCUSES IRAN OF TRYING TO STEAL NAVAL SPY DRONE",
-      "detail": "The Pentagon says it thwarted an attempt by the IRGC to seize a Saildrone unmanned surface vessel Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.56 (+0.00%)",
-    "VIX: 14.87",
+    "BRENT: $97.54 (+0.00%)",
+    "VIX: 14.84",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
