@@ -1,28 +1,22 @@
 {
-  "updated_at": "2026-09-23T07:15:56.776778+00:00",
+  "updated_at": "2026-09-23T13:18:27.731794+00:00",
   "market": {
-    "brent_usd": 98.38,
+    "brent_usd": 96.5,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 14.21,
-    "risk_level": "CRÍTICO",
+    "ormuz_flow_pct": 100.0,
+    "vix": 14.29,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "23 SEP 2026 · 04:42 UTC",
-      "headline": "US, IRAN HOLD MEDIATED UNGA TALKS ON ENDING WAR, OPENING STRAIT OF HORMUZ",
-      "detail": "Tehran ties diplomatic progress to lifting shipping blockades and unfreezing assets during New York negotiations.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "23 SEP 2026 · 03:30 UTC",
-      "headline": "LAS GUERRAS EN ORIENTE PRÓXIMO ACERCAN A EUROPA A SU SEGUNDA CRISIS ENERGÉTICA E",
+      "headline": "EUROPA SE ASOMA A SU SEGUNDA CRISIS ENERGÉTICA EN UN LUSTRO",
       "detail": "Ormuz, Bab el Mandeb y el cierre del oleoducto saudí, con los daños en las refinerías rusas como colofón, provocan el mayor estallido de precios desde 2022",
       "severity": "INFO"
     },
@@ -31,12 +25,6 @@
       "headline": "IRAN OFFERS TO REOPEN STRAIT OF HORMUZ – MEDIA",
       "detail": "The Strait of Hormuz could reopen within seven days under a proposal reportedly put forward by Tehran Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "22 SEP 2026 · 12:24 UTC",
-      "headline": "LOS HUTÍES PROSIGUEN SU AVANCE EN YEMEN Y ACARICIAN EL CONTROL TOTAL DEL ESTRECH",
-      "detail": "Pese a los recientes ataques contra Riad y sus instalaciones petroleras, Arabia Saudí promete retomar los envíos de crudo desde Yanbu mientras recibe el apoyo de países occidentales",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "21 SEP 2026 · 02:08 UTC",
@@ -52,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.38 (+0.00%)",
-    "VIX: 14.21",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $96.5 (+0.00%)",
+    "VIX: 14.29",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
