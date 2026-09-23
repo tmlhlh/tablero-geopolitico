@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-09-23T01:12:27.340306+00:00",
+  "updated_at": "2026-09-23T07:15:56.776778+00:00",
   "market": {
-    "brent_usd": 99.13,
+    "brent_usd": 98.38,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
+    "ormuz_flow_pct": 8.5,
     "vix": 14.21,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "22 SEP 2026 · 18:27 UTC",
-      "headline": "QATAR URGES DIPLOMACY, REJECTS STRAIT OF HORMUZ ‘BARGAINING’",
-      "detail": "Qatari Emir Sheikh Tamim bin Hamad Al Thani called for the reopening of the Strait of Hormuz while speaking at the UN.",
+      "timestamp": "23 SEP 2026 · 04:42 UTC",
+      "headline": "US, IRAN HOLD MEDIATED UNGA TALKS ON ENDING WAR, OPENING STRAIT OF HORMUZ",
+      "detail": "Tehran ties diplomatic progress to lifting shipping blockades and unfreezing assets during New York negotiations.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 SEP 2026 · 03:30 UTC",
+      "headline": "LAS GUERRAS EN ORIENTE PRÓXIMO ACERCAN A EUROPA A SU SEGUNDA CRISIS ENERGÉTICA E",
+      "detail": "Ormuz, Bab el Mandeb y el cierre del oleoducto saudí, con los daños en las refinerías rusas como colofón, provocan el mayor estallido de precios desde 2022",
       "severity": "INFO"
     },
     {
@@ -46,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $99.13 (+0.00%)",
+    "BRENT: $98.38 (+0.00%)",
     "VIX: 14.21",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
