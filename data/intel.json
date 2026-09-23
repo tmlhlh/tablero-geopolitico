@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-23T13:18:27.731794+00:00",
+  "updated_at": "2026-09-23T18:12:29.475135+00:00",
   "market": {
-    "brent_usd": 96.5,
+    "brent_usd": 97.68,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 14.29,
+    "vix": 15.1,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "23 SEP 2026 · 15:24 UTC",
+      "headline": "IRAN: STRAIT OF HORMUZ WON’T BE USED TO ‘IMPOSE INSECURITY ON US’",
+      "detail": "Iranian President Masoud Pezeshkian told the UN General Assembly that ‘warfare knows no borders’.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 SEP 2026 · 15:22 UTC",
+      "headline": "IRÁN ABRE LA VÍA DIPLOMÁTICA SIN DESCARTAR SEGUIR ADELANTE CON LA GUERRA ",
+      "detail": "Las autoridades iraníes afirman que el encuentro de su ministro de Exteriores en Nueva York tuvo el objetivo de comunicar las condiciones del país para reabrir Ormuz",
+      "severity": "INFO"
+    },
     {
       "timestamp": "23 SEP 2026 · 03:30 UTC",
       "headline": "EUROPA SE ASOMA A SU SEGUNDA CRISIS ENERGÉTICA EN UN LUSTRO",
@@ -40,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.5 (+0.00%)",
-    "VIX: 14.29",
+    "BRENT: $97.68 (+0.00%)",
+    "VIX: 15.1",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
