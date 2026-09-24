@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-09-24T05:49:37.772017+00:00",
+  "updated_at": "2026-09-24T11:02:10.956280+00:00",
   "market": {
-    "brent_usd": 98.09,
+    "brent_usd": 104.41,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.18,
+    "vix": 16.13,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "23 SEP 2026 · 15:22 UTC",
-      "headline": "IRÁN ABRE LA VÍA DIPLOMÁTICA SIN DESCARTAR SEGUIR ADELANTE CON LA GUERRA ",
-      "detail": "Las autoridades iraníes afirman que el encuentro de su ministro de Exteriores en Nueva York tuvo el objetivo de comunicar las condiciones del país para reabrir Ormuz",
+      "timestamp": "22 SEP 2026 · 15:45 UTC",
+      "headline": "IRAN OFFERS TO REOPEN STRAIT OF HORMUZ – MEDIA",
+      "detail": "The Strait of Hormuz could reopen within seven days under a proposal reportedly put forward by Tehran Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 SEP 2026 · 02:08 UTC",
+      "headline": "HOUTHIS VOW TO SPARE FOREIGN SHIPS AFTER SEIZING KEY RED SEA CHOKEPOINT",
+      "detail": "Yemen’s Houthis have vowed to target only Saudi-linked vessels after seizing strategic positions around the Bab el-Mandeb Strait Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -28,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.09 (+0.00%)",
-    "VIX: 15.18",
+    "BRENT: $104.41 (+0.00%)",
+    "VIX: 16.13",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
