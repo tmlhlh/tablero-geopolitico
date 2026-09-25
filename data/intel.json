@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-25T19:10:08.487824+00:00",
+  "updated_at": "2026-09-25T23:03:21.561167+00:00",
   "market": {
-    "brent_usd": 97.35,
+    "brent_usd": 97.47,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 14.95,
+    "vix": 14.87,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "25 SEP 2026 · 22:33 UTC",
+      "headline": "IRAN TO REOPEN STRAIT OF HORMUZ WITHIN A WEEK IF US AGREES TO PLAN",
+      "detail": "Iran says it has given the US a seven-day plan to reopen the Strait of Hormuz, with the choice to accept now up to them",
+      "severity": "INFO"
+    },
     {
       "timestamp": "25 SEP 2026 · 13:28 UTC",
       "headline": "IRÁN ENVÍA A ESTADOS UNIDOS UN PLAN PARA LA REAPERTURA DEL ESTRECHO DE ORMUZ EN ",
@@ -46,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.35 (+0.00%)",
-    "VIX: 14.95",
+    "BRENT: $97.47 (+0.00%)",
+    "VIX: 14.87",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
