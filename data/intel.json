@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-09-25T09:19:54.003483+00:00",
+  "updated_at": "2026-09-25T14:57:54.516348+00:00",
   "market": {
-    "brent_usd": 97.88,
+    "brent_usd": 99.43,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.32,
+    "vix": 15.66,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "25 SEP 2026 · 13:28 UTC",
+      "headline": "IRÁN ENVÍA A ESTADOS UNIDOS UN PLAN PARA LA REAPERTURA DEL ESTRECHO DE ORMUZ EN ",
+      "detail": "El ministro de Exteriores, Abbas Araqchi, condiciona el desbloqueo de la ruta marítima a que Washington vuelva a los compromisos del memorando de junio",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 SEP 2026 · 10:49 UTC",
+      "headline": "WHAT’S IN IRAN’S SEVEN-DAY PLAN TO REOPEN THE STRAIT OF HORMUZ?",
+      "detail": "Tehran’s offer comes as high fuel prices put pressure on Trump ahead of the US midterm elections.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 SEP 2026 · 09:54 UTC",
+      "headline": "IRAN PITCHES SEVEN-DAY ROADMAP TO END CONFLICT WITH US",
+      "detail": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "24 SEP 2026 · 13:37 UTC",
       "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
@@ -31,17 +49,11 @@
       "headline": "HOUTHIS VOW TO SPARE FOREIGN SHIPS AFTER SEIZING KEY RED SEA CHOKEPOINT",
       "detail": "Yemen’s Houthis have vowed to target only Saudi-linked vessels after seizing strategic positions around the Bab el-Mandeb Strait Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "20 SEP 2026 · 03:30 UTC",
-      "headline": "EL ESTRECHO INFINITO",
-      "detail": "Un cierre de Ormuz prolongado y desbordado sería el punto de inflexión de unos mercados energéticos al límite y tener efectos políticos duraderos",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.88 (+0.00%)",
-    "VIX: 15.32",
+    "BRENT: $99.43 (+0.00%)",
+    "VIX: 15.66",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
