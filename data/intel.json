@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-25T14:57:54.516348+00:00",
+  "updated_at": "2026-09-25T19:10:08.487824+00:00",
   "market": {
-    "brent_usd": 99.43,
+    "brent_usd": 97.35,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.66,
+    "vix": 14.95,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.0
+    "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
@@ -18,18 +18,6 @@
       "timestamp": "25 SEP 2026 · 13:28 UTC",
       "headline": "IRÁN ENVÍA A ESTADOS UNIDOS UN PLAN PARA LA REAPERTURA DEL ESTRECHO DE ORMUZ EN ",
       "detail": "El ministro de Exteriores, Abbas Araqchi, condiciona el desbloqueo de la ruta marítima a que Washington vuelva a los compromisos del memorando de junio",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 SEP 2026 · 10:49 UTC",
-      "headline": "WHAT’S IN IRAN’S SEVEN-DAY PLAN TO REOPEN THE STRAIT OF HORMUZ?",
-      "detail": "Tehran’s offer comes as high fuel prices put pressure on Trump ahead of the US midterm elections.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 SEP 2026 · 09:54 UTC",
-      "headline": "IRAN PITCHES SEVEN-DAY ROADMAP TO END CONFLICT WITH US",
-      "detail": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted.",
       "severity": "INFO"
     },
     {
@@ -49,11 +37,17 @@
       "headline": "HOUTHIS VOW TO SPARE FOREIGN SHIPS AFTER SEIZING KEY RED SEA CHOKEPOINT",
       "detail": "Yemen’s Houthis have vowed to target only Saudi-linked vessels after seizing strategic positions around the Bab el-Mandeb Strait Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "20 SEP 2026 · 03:30 UTC",
+      "headline": "EL ESTRECHO INFINITO",
+      "detail": "Un cierre de Ormuz prolongado y desbordado sería el punto de inflexión de unos mercados energéticos al límite y tener efectos políticos duraderos",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $99.43 (+0.00%)",
-    "VIX: 15.66",
+    "BRENT: $97.35 (+0.00%)",
+    "VIX: 14.95",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
