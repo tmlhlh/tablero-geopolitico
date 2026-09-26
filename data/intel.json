@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T23:03:21.561167+00:00",
+  "updated_at": "2026-09-26T03:17:49.353142+00:00",
   "market": {
     "brent_usd": 97.47,
     "brent_chg": 0.0
@@ -14,6 +14,24 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "26 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN OFFERS US PLAN TO REOPEN HORMUZ WITHIN SEVEN DAYS",
+      "detail": "Iran's FM says the \"choice rests with the US\" to approve the proposed seven-day proposal to reopen Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 SEP 2026 · 23:52 UTC",
+      "headline": "IRAN SAYS IT AWAITS US RESPONSE ON SEVEN-DAY ROADMAP TO END WAR",
+      "detail": "Tehran says the plan would reopen the Strait of Hormuz and resume nuclear talks within a week if Washington agrees.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "25 SEP 2026 · 23:38 UTC",
+      "headline": "IRAN OFFERS US DEAL TO REOPEN STRAIT OF HORMUZ IN SEVEN DAYS",
+      "detail": "Asked about the Iranian offer, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "25 SEP 2026 · 22:33 UTC",
       "headline": "IRAN TO REOPEN STRAIT OF HORMUZ WITHIN A WEEK IF US AGREES TO PLAN",
@@ -30,24 +48,6 @@
       "timestamp": "24 SEP 2026 · 13:37 UTC",
       "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
       "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 SEP 2026 · 15:45 UTC",
-      "headline": "IRAN OFFERS TO REOPEN STRAIT OF HORMUZ – MEDIA",
-      "detail": "The Strait of Hormuz could reopen within seven days under a proposal reportedly put forward by Tehran Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "21 SEP 2026 · 02:08 UTC",
-      "headline": "HOUTHIS VOW TO SPARE FOREIGN SHIPS AFTER SEIZING KEY RED SEA CHOKEPOINT",
-      "detail": "Yemen’s Houthis have vowed to target only Saudi-linked vessels after seizing strategic positions around the Bab el-Mandeb Strait Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 SEP 2026 · 03:30 UTC",
-      "headline": "EL ESTRECHO INFINITO",
-      "detail": "Un cierre de Ormuz prolongado y desbordado sería el punto de inflexión de unos mercados energéticos al límite y tener efectos políticos duraderos",
       "severity": "INFO"
     }
   ],
