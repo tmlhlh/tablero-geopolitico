@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-26T03:17:49.353142+00:00",
+  "updated_at": "2026-09-26T09:02:10.880207+00:00",
   "market": {
-    "brent_usd": 97.47,
+    "brent_usd": 97.44,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,27 +15,21 @@
   },
   "events": [
     {
+      "timestamp": "26 SEP 2026 · 05:03 UTC",
+      "headline": "IRAN OFFERS US DEAL TO REOPEN STRAIT OF HORMUZ IN SEVEN DAYS",
+      "detail": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 SEP 2026 · 04:28 UTC",
+      "headline": "IRAN PITCHES US A SEVEN-DAY END TO THE WAR AT UNGA",
+      "detail": "Iran has pitched a proposal to open the Strait of Hormuz in seven days - if the US meets its conditions.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "26 SEP 2026 · 00:00 UTC",
       "headline": "IRAN WAR LIVE: TEHRAN OFFERS US PLAN TO REOPEN HORMUZ WITHIN SEVEN DAYS",
       "detail": "Iran's FM says the \"choice rests with the US\" to approve the proposed seven-day proposal to reopen Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 SEP 2026 · 23:52 UTC",
-      "headline": "IRAN SAYS IT AWAITS US RESPONSE ON SEVEN-DAY ROADMAP TO END WAR",
-      "detail": "Tehran says the plan would reopen the Strait of Hormuz and resume nuclear talks within a week if Washington agrees.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 SEP 2026 · 23:38 UTC",
-      "headline": "IRAN OFFERS US DEAL TO REOPEN STRAIT OF HORMUZ IN SEVEN DAYS",
-      "detail": "Asked about the Iranian offer, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 SEP 2026 · 22:33 UTC",
-      "headline": "IRAN TO REOPEN STRAIT OF HORMUZ WITHIN A WEEK IF US AGREES TO PLAN",
-      "detail": "Iran says it has given the US a seven-day plan to reopen the Strait of Hormuz, with the choice to accept now up to them",
       "severity": "INFO"
     },
     {
@@ -49,10 +43,16 @@
       "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
       "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "22 SEP 2026 · 15:45 UTC",
+      "headline": "IRAN OFFERS TO REOPEN STRAIT OF HORMUZ – MEDIA",
+      "detail": "The Strait of Hormuz could reopen within seven days under a proposal reportedly put forward by Tehran Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.47 (+0.00%)",
+    "BRENT: $97.44 (+0.00%)",
     "VIX: 14.87",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
