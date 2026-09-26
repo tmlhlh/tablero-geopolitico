@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T14:01:55.263910+00:00",
+  "updated_at": "2026-09-26T18:16:06.918437+00:00",
   "market": {
     "brent_usd": 97.44,
     "brent_chg": 0.0
@@ -15,9 +15,27 @@
   },
   "events": [
     {
-      "timestamp": "26 SEP 2026 · 05:03 UTC",
-      "headline": "IRAN OFFERS US DEAL TO REOPEN STRAIT OF HORMUZ IN SEVEN DAYS",
-      "detail": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+      "timestamp": "26 SEP 2026 · 18:00 UTC",
+      "headline": "TRUMP REJECTS IRANIAN OFFER TO REOPEN STRAIT OF HORMUZ",
+      "detail": "US President Donald Trump has rejected Iran’s latest proposal to reopen the Strait of Hormuz to shipping.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 SEP 2026 · 16:58 UTC",
+      "headline": "TRUMP REJECTS IRAN DEAL TO REOPEN STRAIT OF HORMUZ IN SEVEN DAYS",
+      "detail": "The US president says Tehran had only put forward the proposal because it is losing the war.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 SEP 2026 · 16:00 UTC",
+      "headline": "TRUMP RECHAZÓ LA PROPUESTA DE IRÁN PARA REABRIR EL ESTRECHO DE ORMUZ Y FRENAR LA",
+      "detail": "El régimen islámico había ofrecido abrir el paso a la importante vía marítima y retomar las negociaciones sobre su programa nuclear si Washington flexibiliza las sanciones a las exportaciones y acepta",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "26 SEP 2026 · 14:46 UTC",
+      "headline": "TRUMP REJECTS IRAN’S SEVEN-DAY ROADMAP TO REOPEN STRAIT OF HORMUZ",
+      "detail": "Tehran submitted a proposal via Qatar to reopen the strait and resume nuclear talks within a week if Washington agreed.",
       "severity": "INFO"
     },
     {
@@ -30,18 +48,6 @@
       "timestamp": "24 SEP 2026 · 13:37 UTC",
       "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
       "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 SEP 2026 · 15:45 UTC",
-      "headline": "IRAN OFFERS TO REOPEN STRAIT OF HORMUZ – MEDIA",
-      "detail": "The Strait of Hormuz could reopen within seven days under a proposal reportedly put forward by Tehran Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "20 SEP 2026 · 03:30 UTC",
-      "headline": "EL ESTRECHO INFINITO",
-      "detail": "Un cierre de Ormuz prolongado y desbordado sería el punto de inflexión de unos mercados energéticos al límite y tener efectos políticos duraderos",
       "severity": "INFO"
     }
   ],
