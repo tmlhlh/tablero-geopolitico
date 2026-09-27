@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T00:10:24.012660+00:00",
+  "updated_at": "2026-09-27T06:08:26.052462+00:00",
   "market": {
     "brent_usd": 97.44,
     "brent_chg": 0.0
@@ -15,39 +15,39 @@
   },
   "events": [
     {
+      "timestamp": "27 SEP 2026 · 03:30 UTC",
+      "headline": "LOS CUATRO PASOS MARÍTIMOS QUE TIENEN AL MUNDO EN VILO",
+      "detail": "Al cierre del estrecho de Ormuz y las turbulencias en Bab el Mandeb se suman una sequía persistente en el canal de Panamá y las dudas sobre Malaca",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 SEP 2026 · 02:16 UTC",
+      "headline": "IRAN SAYS IT WILL WAIT FOR OFFICIAL US RESPONSE AFTER TRUMP REJECTS STRAIT OF HO",
+      "detail": "The US president earlier said that Tehran only made the proposal to open the strait within seven days because \"they're losing so badly\".",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 SEP 2026 · 00:50 UTC",
+      "headline": "ARAGHCHI IGNORES TRUMP, WAITS FOR MEDIATORS’ RESPONSE ON HORMUZ",
+      "detail": "Iran says it’s still waiting for an official response from the US on its proposal to reopen the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN VOWS NOT TO BACK DOWN AS TRUMP REJECTS HORMUZ PLAN",
+      "detail": "US president rejects Iran's seven-day plan to reopen the Strait of Hormuz, saying the deal is not 'acceptable'.",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "26 SEP 2026 · 23:49 UTC",
       "headline": "PEZESHKIAN SAYS IRAN ‘NO LONGER TRUSTS TALKS WITH WASHINGTON’",
       "detail": "Iran’s Pezeshkian says Tehran no longer trusts US talks, shortly before Trump rejected its Hormuz proposal.",
       "severity": "INFO"
     },
     {
-      "timestamp": "26 SEP 2026 · 22:15 UTC",
-      "headline": "TRUMP REJECTS IRAN DEAL TO REOPEN STRAIT OF HORMUZ IN SEVEN DAYS",
-      "detail": "Iran's foreign minister acknowledges Trump's comments, but adds that Tehran is waiting for the \"definitive views\" of mediators.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "26 SEP 2026 · 19:00 UTC",
       "headline": "TRUMP RECHAZA LA PROPUESTA DE IRÁN PARA REABRIR EL ESTRECHO DE ORMUZ",
       "detail": "El presidente de Estados Unidos amenaza con nuevos bombardeos tras las elecciones de noviembre",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 SEP 2026 · 18:00 UTC",
-      "headline": "TRUMP REJECTS IRANIAN OFFER TO REOPEN STRAIT OF HORMUZ",
-      "detail": "US President Donald Trump has rejected Iran’s latest proposal to reopen the Strait of Hormuz to shipping.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "25 SEP 2026 · 13:28 UTC",
-      "headline": "IRÁN ENVÍA A ESTADOS UNIDOS UN PLAN PARA LA REAPERTURA DEL ESTRECHO DE ORMUZ EN ",
-      "detail": "El ministro de Exteriores, Abbas Araqchi, condiciona el desbloqueo de la ruta marítima a que Washington vuelva a los compromisos del memorando de junio",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "24 SEP 2026 · 13:37 UTC",
-      "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
-      "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
