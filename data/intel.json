@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-27T20:47:56.459887+00:00",
+  "updated_at": "2026-09-27T23:35:30.946488+00:00",
   "market": {
-    "brent_usd": 97.44,
+    "brent_usd": 98.66,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,18 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "27 SEP 2026 · 15:29 UTC",
-      "headline": "FOR LIBYA, THE HORMUZ CRISIS CAN BE A TRAP OR AN OPPORTUNITY",
-      "detail": "Libyan hydrocarbons are increasingly sought after. To take full advantage, the country needs a new economic strategy.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "27 SEP 2026 · 14:36 UTC",
-      "headline": "STRAIT OF HORMUZ TENSIONS LINGER AS IRAN AND US MOVE FURTHER FROM A DEAL",
-      "detail": "There are fears of renewed fighting between the US and Iran, after President Trump rejected a deal.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "27 SEP 2026 · 14:10 UTC",
       "headline": "IRAN CAPTURES ANOTHER US SPY DRONE IN HORMUZ (VIDEO)",
@@ -49,10 +37,16 @@
       "headline": "TRUMP RECHAZA LA PROPUESTA DE IRÁN PARA REABRIR EL ESTRECHO DE ORMUZ",
       "detail": "El presidente de Estados Unidos amenaza con nuevos bombardeos tras las elecciones de noviembre",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "24 SEP 2026 · 13:37 UTC",
+      "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
+      "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.44 (+0.00%)",
+    "BRENT: $98.66 (+0.00%)",
     "VIX: 14.87",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
