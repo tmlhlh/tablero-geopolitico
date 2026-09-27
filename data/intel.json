@@ -1,23 +1,35 @@
 {
-  "updated_at": "2026-09-27T12:41:24.430858+00:00",
+  "updated_at": "2026-09-27T17:26:08.598716+00:00",
   "market": {
     "brent_usd": 97.44,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 100.0,
     "vix": 14.87,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "27 SEP 2026 · 08:49 UTC",
-      "headline": "IRAN SHIFTS TRADE NORTH TO CASPIAN SEA AS WAR IMPAIRS STRAIT OF HORMUZ",
-      "detail": "Iran is looking for alternatives to export its oil as the US blockades its southern ports.",
+      "timestamp": "27 SEP 2026 · 15:29 UTC",
+      "headline": "FOR LIBYA, THE HORMUZ CRISIS CAN BE A TRAP OR AN OPPORTUNITY",
+      "detail": "Libyan hydrocarbons are increasingly sought after. To take full advantage, the country needs a new economic strategy.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 SEP 2026 · 14:36 UTC",
+      "headline": "STRAIT OF HORMUZ TENSIONS LINGER AS IRAN AND US MOVE FURTHER FROM A DEAL",
+      "detail": "There are fears of renewed fighting between the US and Iran, after President Trump rejected a deal.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "27 SEP 2026 · 14:10 UTC",
+      "headline": "IRAN CAPTURES ANOTHER US SPY DRONE IN HORMUZ (VIDEO)",
+      "detail": "Iran’s IRGC says it captured a US Remus 600 underwater drone allegedly spying in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
     },
     {
@@ -37,23 +49,11 @@
       "headline": "TRUMP RECHAZA LA PROPUESTA DE IRÁN PARA REABRIR EL ESTRECHO DE ORMUZ",
       "detail": "El presidente de Estados Unidos amenaza con nuevos bombardeos tras las elecciones de noviembre",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 SEP 2026 · 13:37 UTC",
-      "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
-      "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 SEP 2026 · 15:45 UTC",
-      "headline": "IRAN OFFERS TO REOPEN STRAIT OF HORMUZ – MEDIA",
-      "detail": "The Strait of Hormuz could reopen within seven days under a proposal reportedly put forward by Tehran Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $97.44 (+0.00%)",
     "VIX: 14.87",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
