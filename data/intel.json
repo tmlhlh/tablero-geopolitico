@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-27T23:35:30.946488+00:00",
+  "updated_at": "2026-09-28T03:23:19.001778+00:00",
   "market": {
-    "brent_usd": 98.66,
+    "brent_usd": 98.27,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "28 SEP 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN SAYS IT’S FULLY PREPARED FOR WAR AMID HORMUZ TENSIONS",
+      "detail": "Abbas Araghchi's warning comes after Washington rejected a seven-day roadmap to end the war and reopen Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "27 SEP 2026 · 14:10 UTC",
       "headline": "IRAN CAPTURES ANOTHER US SPY DRONE IN HORMUZ (VIDEO)",
@@ -46,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.66 (+0.00%)",
+    "BRENT: $98.27 (+0.00%)",
     "VIX: 14.87",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
