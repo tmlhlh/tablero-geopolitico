@@ -1,24 +1,36 @@
 {
-  "updated_at": "2026-09-28T03:23:19.001778+00:00",
+  "updated_at": "2026-09-28T10:28:42.840021+00:00",
   "market": {
-    "brent_usd": 98.27,
+    "brent_usd": 100.8,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
-    "vix": 14.87,
+    "ormuz_flow_pct": 60.1,
+    "vix": 16.42,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.8
+    "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "28 SEP 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN SAYS IT’S FULLY PREPARED FOR WAR AMID HORMUZ TENSIONS",
-      "detail": "Abbas Araghchi's warning comes after Washington rejected a seven-day roadmap to end the war and reopen Strait of Hormuz.",
+      "timestamp": "28 SEP 2026 · 09:17 UTC",
+      "headline": "OIL PRICES SURGE AFTER TRUMP REJECTS IRAN’S PLAN TO REOPEN STRAIT OF HORMUZ",
+      "detail": "Brent crude rises more than 3 percent to top $107 a barrel as Washington dismisses Tehran's proposal to end war.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "28 SEP 2026 · 08:56 UTC",
+      "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
+      "detail": "Eight US Marines were injured in an Iranian missile strike in the Strait of Hormuz, with the Pentagon declining to comment, NBC reports Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "28 SEP 2026 · 03:30 UTC",
+      "headline": "LA ODISEA DE TRANSPORTAR PETRÓLEO POR DOS ESTRECHOS EN GUERRA",
+      "detail": "El tráfico marítimo que sirve para hacer circular gran parte de los recursos energéticos del planeta está bloqueado con la guerra en Irán y los ataques hutíes",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "27 SEP 2026 · 14:10 UTC",
@@ -33,18 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 SEP 2026 · 03:30 UTC",
-      "headline": "LOS CUATRO PASOS MARÍTIMOS QUE TIENEN AL MUNDO EN VILO",
-      "detail": "Al cierre del estrecho de Ormuz y las turbulencias en Bab el Mandeb se suman una sequía persistente en el canal de Panamá y las dudas sobre Malaca",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "26 SEP 2026 · 19:00 UTC",
-      "headline": "TRUMP RECHAZA LA PROPUESTA DE IRÁN PARA REABRIR EL ESTRECHO DE ORMUZ",
-      "detail": "El presidente de Estados Unidos amenaza con nuevos bombardeos tras las elecciones de noviembre",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "24 SEP 2026 · 13:37 UTC",
       "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
       "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.27 (+0.00%)",
-    "VIX: 14.87",
+    "BRENT: $100.8 (+0.00%)",
+    "VIX: 16.42",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
