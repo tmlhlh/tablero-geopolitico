@@ -1,35 +1,41 @@
 {
-  "updated_at": "2026-09-28T10:28:42.840021+00:00",
+  "updated_at": "2026-09-28T18:23:19.876406+00:00",
   "market": {
-    "brent_usd": 100.8,
+    "brent_usd": 97.57,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 60.1,
-    "vix": 16.42,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.3
+    "ormuz_flow_pct": 8.5,
+    "vix": 15.89,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "28 SEP 2026 · 09:17 UTC",
-      "headline": "OIL PRICES SURGE AFTER TRUMP REJECTS IRAN’S PLAN TO REOPEN STRAIT OF HORMUZ",
-      "detail": "Brent crude rises more than 3 percent to top $107 a barrel as Washington dismisses Tehran's proposal to end war.",
+      "timestamp": "28 SEP 2026 · 17:43 UTC",
+      "headline": "IRAN TOUTS HORMUZ ATTACKS AS OIL FLOWS INCREASE DESPITE TENSIONS",
+      "detail": "Mediators are trying to facilitate more talks, but Washington signals faith in its pressure tactics.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "28 SEP 2026 · 13:53 UTC",
+      "headline": "IRAQ LOOKS FOR OIL EXPORT ALTERNATIVES TO THE TROUBLED STRAIT OF HORMUZ",
+      "detail": "The continued blockade of the Strait of Hormuz has forced Iraq to look for alternatives to export its oil.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "28 SEP 2026 · 12:39 UTC",
+      "headline": "ARABIA SAUDÍ VUELVE A EXPORTAR PETRÓLEO POR EL ÚNICO OLEODUCTO QUE LE PERMITE ES",
+      "detail": "El tubo Este-Oeste, atacado con drones de milicias proiraníes y clave para aliviar la crisis mundial de suministro, llevaba más de dos semanas cerrado",
       "severity": "INFO"
     },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
       "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
       "detail": "Eight US Marines were injured in an Iranian missile strike in the Strait of Hormuz, with the Pentagon declining to comment, NBC reports Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 SEP 2026 · 03:30 UTC",
-      "headline": "LA ODISEA DE TRANSPORTAR PETRÓLEO POR DOS ESTRECHOS EN GUERRA",
-      "detail": "El tráfico marítimo que sirve para hacer circular gran parte de los recursos energéticos del planeta está bloqueado con la guerra en Irán y los ataques hutíes",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "IRANIAN MINISTER SAYS ONLY NEGOTIATION CAN END CONFLICT AFTER TRUMP REJECTS HORM",
       "detail": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 SEP 2026 · 13:37 UTC",
-      "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
-      "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $100.8 (+0.00%)",
-    "VIX: 16.42",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $97.57 (+0.00%)",
+    "VIX: 15.89",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
