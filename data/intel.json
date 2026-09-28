@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-28T18:23:19.876406+00:00",
+  "updated_at": "2026-09-28T23:39:21.565732+00:00",
   "market": {
-    "brent_usd": 97.57,
+    "brent_usd": 98.55,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.89,
+    "vix": 16.07,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -19,12 +19,6 @@
       "headline": "IRAN TOUTS HORMUZ ATTACKS AS OIL FLOWS INCREASE DESPITE TENSIONS",
       "detail": "Mediators are trying to facilitate more talks, but Washington signals faith in its pressure tactics.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "28 SEP 2026 · 13:53 UTC",
-      "headline": "IRAQ LOOKS FOR OIL EXPORT ALTERNATIVES TO THE TROUBLED STRAIT OF HORMUZ",
-      "detail": "The continued blockade of the Strait of Hormuz has forced Iraq to look for alternatives to export its oil.",
-      "severity": "INFO"
     },
     {
       "timestamp": "28 SEP 2026 · 12:39 UTC",
@@ -49,11 +43,17 @@
       "headline": "IRANIAN MINISTER SAYS ONLY NEGOTIATION CAN END CONFLICT AFTER TRUMP REJECTS HORM",
       "detail": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "24 SEP 2026 · 13:37 UTC",
+      "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
+      "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $97.57 (+0.00%)",
-    "VIX: 15.89",
+    "BRENT: $98.55 (+0.00%)",
+    "VIX: 16.07",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
