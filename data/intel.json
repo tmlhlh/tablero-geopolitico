@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-09-29T10:35:30.059822+00:00",
+  "updated_at": "2026-09-29T16:46:16.582961+00:00",
   "market": {
-    "brent_usd": 97.5,
+    "brent_usd": 96.83,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 16.1,
-    "risk_level": "CRÍTICO",
+    "ormuz_flow_pct": 91.0,
+    "vix": 16.21,
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "29 SEP 2026 · 04:46 UTC",
-      "headline": "RUBIO, SAUDI ARABIA’S FOREIGN MINISTER HOLD TALKS ON YEMEN, HORMUZ STRAIT",
-      "detail": "Top US and Saudi diplomats discuss cooperation on security challenges, including hostilities with Yemen's Houthis.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "28 SEP 2026 · 12:39 UTC",
-      "headline": "ARABIA SAUDÍ VUELVE A EXPORTAR PETRÓLEO POR EL ÚNICO OLEODUCTO QUE LE PERMITE ES",
-      "detail": "El tubo Este-Oeste, atacado con drones de milicias proiraníes y clave para aliviar la crisis mundial de suministro, llevaba más de dos semanas cerrado",
-      "severity": "INFO"
-    },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
       "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
@@ -46,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.5 (+0.00%)",
-    "VIX: 16.1",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $96.83 (+0.00%)",
+    "VIX: 16.21",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
