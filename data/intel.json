@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-28T23:39:21.565732+00:00",
+  "updated_at": "2026-09-29T03:59:51.286462+00:00",
   "market": {
-    "brent_usd": 98.55,
+    "brent_usd": 99.47,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "28 SEP 2026 · 17:43 UTC",
-      "headline": "IRAN TOUTS HORMUZ ATTACKS AS OIL FLOWS INCREASE DESPITE TENSIONS",
-      "detail": "Mediators are trying to facilitate more talks, but Washington signals faith in its pressure tactics.",
-      "severity": "CRÍTICO"
+      "timestamp": "29 SEP 2026 · 02:36 UTC",
+      "headline": "IRAN’S ARAGHCHI MEETS QATARI MEDIATORS AS US CALLS FOR NUCLEAR TALKS",
+      "detail": "Tehran awaits reply on Hormuz plan as a US official says there will be no deal unless nuclear issues are addressed.",
+      "severity": "INFO"
     },
     {
       "timestamp": "28 SEP 2026 · 12:39 UTC",
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.55 (+0.00%)",
+    "BRENT: $99.47 (+0.00%)",
     "VIX: 16.07",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
