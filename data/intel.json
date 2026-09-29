@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-29T03:59:51.286462+00:00",
+  "updated_at": "2026-09-29T10:35:30.059822+00:00",
   "market": {
-    "brent_usd": 99.47,
+    "brent_usd": 97.5,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.07,
+    "vix": 16.1,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.2
   },
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "29 SEP 2026 · 02:36 UTC",
-      "headline": "IRAN’S ARAGHCHI MEETS QATARI MEDIATORS AS US CALLS FOR NUCLEAR TALKS",
-      "detail": "Tehran awaits reply on Hormuz plan as a US official says there will be no deal unless nuclear issues are addressed.",
+      "timestamp": "29 SEP 2026 · 04:46 UTC",
+      "headline": "RUBIO, SAUDI ARABIA’S FOREIGN MINISTER HOLD TALKS ON YEMEN, HORMUZ STRAIT",
+      "detail": "Top US and Saudi diplomats discuss cooperation on security challenges, including hostilities with Yemen's Houthis.",
       "severity": "INFO"
     },
     {
@@ -39,12 +39,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "27 SEP 2026 · 07:44 UTC",
-      "headline": "IRANIAN MINISTER SAYS ONLY NEGOTIATION CAN END CONFLICT AFTER TRUMP REJECTS HORM",
-      "detail": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments.",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "24 SEP 2026 · 13:37 UTC",
       "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
       "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
@@ -52,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $99.47 (+0.00%)",
-    "VIX: 16.07",
+    "BRENT: $97.5 (+0.00%)",
+    "VIX: 16.1",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
