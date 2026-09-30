@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-30T07:52:59.501867+00:00",
+  "updated_at": "2026-09-30T14:33:06.806713+00:00",
   "market": {
-    "brent_usd": 95.7,
+    "brent_usd": 98.69,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 96.0,
-    "vix": 15.88,
+    "ormuz_flow_pct": 97.2,
+    "vix": 15.78,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.1
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "30 SEP 2026 · 12:05 UTC",
+      "headline": "IS IRAN LOSING ITS LEVERAGE OVER THE STRAIT OF HORMUZ?",
+      "detail": "Crude flows through Hormuz have recovered, but tanker insurance costs and geopolitical risks remain barriers to a return to normality.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
       "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
@@ -25,17 +31,11 @@
       "headline": "IRAN CAPTURES ANOTHER US SPY DRONE IN HORMUZ (VIDEO)",
       "detail": "Iran’s IRGC says it captured a US Remus 600 underwater drone allegedly spying in the Strait of Hormuz Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "24 SEP 2026 · 13:37 UTC",
-      "headline": "US STEPS UP MILITARY ACTIVITY NEAR IRAN – MEDIA",
-      "detail": "US military activity has reportedly increased around the Strait of Hormuz as oil tanker traffic through the key waterway rises Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.7 (+0.00%)",
-    "VIX: 15.88",
+    "BRENT: $98.69 (+0.00%)",
+    "VIX: 15.78",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
