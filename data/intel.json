@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-30T14:33:06.806713+00:00",
+  "updated_at": "2026-09-30T19:46:46.574231+00:00",
   "market": {
-    "brent_usd": 98.69,
+    "brent_usd": 98.15,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 97.2,
-    "vix": 15.78,
-    "risk_level": "MEDIO",
+    "ormuz_flow_pct": 8.5,
+    "vix": 15.98,
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "30 SEP 2026 · 12:05 UTC",
-      "headline": "IS IRAN LOSING ITS LEVERAGE OVER THE STRAIT OF HORMUZ?",
-      "detail": "Crude flows through Hormuz have recovered, but tanker insurance costs and geopolitical risks remain barriers to a return to normality.",
+      "timestamp": "30 SEP 2026 · 18:52 UTC",
+      "headline": "RUSSIA WARNS NATO OF POSSIBLE NUCLEAR RESPONSE IF KALININGRAD IS CUT OFF",
+      "detail": "Moscow claims that NATO is preparing an air and naval blockade in the Baltic Sea.",
       "severity": "INFO"
     },
     {
@@ -34,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.69 (+0.00%)",
-    "VIX: 15.78",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $98.15 (+0.00%)",
+    "VIX: 15.98",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
