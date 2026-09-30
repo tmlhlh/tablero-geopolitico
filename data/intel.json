@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-29T21:14:55.427854+00:00",
+  "updated_at": "2026-09-30T01:00:31.297575+00:00",
   "market": {
-    "brent_usd": 95.67,
+    "brent_usd": 96.13,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 53.8,
+    "ormuz_flow_pct": 94.2,
     "vix": 16.04,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.2
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "29 SEP 2026 · 20:56 UTC",
-      "headline": "EXPLOSIÓN EN UNA PLANTA DE BIODIESEL EN PUERTO SAN MARTÍN: UN MUERTO, TRES HERID",
-      "detail": "El incendio se habría producido en un tanque de metanol; Bomberos trabajan en el lugar para apagar las llamas",
-      "severity": "INFO"
-    },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
       "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
@@ -40,7 +34,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.67 (+0.00%)",
+    "BRENT: $96.13 (+0.00%)",
     "VIX: 16.04",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
