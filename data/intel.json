@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-09-30T23:24:36.914239+00:00",
+  "updated_at": "2026-10-01T03:54:14.815913+00:00",
   "market": {
-    "brent_usd": 97.7,
+    "brent_usd": 97.23,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 57.4,
     "vix": 16.34,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "30 SEP 2026 · 18:52 UTC",
-      "headline": "RUSSIA WARNS NATO OF POSSIBLE NUCLEAR RESPONSE IF KALININGRAD IS CUT OFF",
-      "detail": "Moscow claims that NATO is preparing an air and naval blockade in the Baltic Sea.",
-      "severity": "INFO"
+      "timestamp": "01 OCT 2026 · 03:30 UTC",
+      "headline": "ALGO SE MUEVE EN ORMUZ: EL TRÁNSITO DE PETROLEROS ROZA LAS CIFRAS PREGUERRA",
+      "detail": "El flujo de crudo por esta arteria clave de la energía mundial se recupera con fuerza, pero los ataques a buques continúan e impiden que el precio del crudo descienda",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
@@ -34,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $97.7 (+0.00%)",
+    "BRENT: $97.23 (+0.00%)",
     "VIX: 16.34",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
