@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-10-02T08:01:29.504889+00:00",
+  "updated_at": "2026-10-02T15:18:33.799976+00:00",
   "market": {
-    "brent_usd": 100.8,
+    "brent_usd": 100.68,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.7,
-    "vix": 16.19,
+    "ormuz_flow_pct": 99.8,
+    "vix": 15.59,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.2
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "02 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US MOVES 2,000 MARINES TO MIDDLE EAST, TANKER HIT IN HORMUZ",
-      "detail": "US deploys Roosevelt strike group and 2,000 Marines to the Middle East as part of a wider buildup around Iran.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
       "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
@@ -34,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.8 (+0.00%)",
-    "VIX: 16.19",
+    "BRENT: $100.68 (+0.00%)",
+    "VIX: 15.59",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
