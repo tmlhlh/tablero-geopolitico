@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-03T00:06:48.691124+00:00",
+  "updated_at": "2026-10-03T05:59:05.169603+00:00",
   "market": {
-    "brent_usd": 102.7,
+    "brent_usd": 102.25,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 57.7,
+    "ormuz_flow_pct": 67.2,
     "vix": 15.31,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
@@ -17,7 +17,7 @@
     {
       "timestamp": "02 OCT 2026 · 23:55 UTC",
       "headline": "NORTH KOREA FIRES BALLISTIC MISSILE TOWARDS THE SEA, SOUTH KOREA SAYS",
-      "detail": "A ballistic missile is fired from the North Korean port city of Wonsan, South Korea's military says.",
+      "detail": "A ballistic missile fired from the North Korean port city of Wonsan flies more than 700km, South Korea's military says.",
       "severity": "INFO"
     },
     {
@@ -34,7 +34,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.7 (+0.00%)",
+    "BRENT: $102.25 (+0.00%)",
     "VIX: 15.31",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
