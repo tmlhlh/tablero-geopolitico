@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-02T20:18:13.880569+00:00",
+  "updated_at": "2026-10-03T00:06:48.691124+00:00",
   "market": {
-    "brent_usd": 102.92,
+    "brent_usd": 102.7,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.9,
-    "vix": 15.33,
+    "ormuz_flow_pct": 57.7,
+    "vix": 15.31,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "02 OCT 2026 · 23:55 UTC",
+      "headline": "NORTH KOREA FIRES BALLISTIC MISSILE TOWARDS THE SEA, SOUTH KOREA SAYS",
+      "detail": "A ballistic missile is fired from the North Korean port city of Wonsan, South Korea's military says.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
       "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
@@ -28,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $102.92 (+0.00%)",
-    "VIX: 15.33",
+    "BRENT: $102.7 (+0.00%)",
+    "VIX: 15.31",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
