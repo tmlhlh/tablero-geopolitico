@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-10-04T02:20:51.645160+00:00",
+  "updated_at": "2026-10-04T09:17:06.875139+00:00",
   "market": {
     "brent_usd": 102.25,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
+    "ormuz_flow_pct": 8.5,
     "vix": 15.31,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "04 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: HORMUZ STRAIT CLOSED UNTIL US MEETS SEVEN AGREED CONDITIONS",
+      "detail": "Era of 'wasting time and dictating demands is over'; US must fulfill MoU, top Iranian negotiator says.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
       "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
       "detail": "Eight US Marines were injured in an Iranian missile strike in the Strait of Hormuz, with the Pentagon declining to comment, NBC reports Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "27 SEP 2026 · 14:10 UTC",
-      "headline": "IRAN CAPTURES ANOTHER US SPY DRONE IN HORMUZ (VIDEO)",
-      "detail": "Iran’s IRGC says it captured a US Remus 600 underwater drone allegedly spying in the Strait of Hormuz Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $102.25 (+0.00%)",
     "VIX: 15.31",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
