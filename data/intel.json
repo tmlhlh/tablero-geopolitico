@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-10-04T15:06:28.287524+00:00",
+  "updated_at": "2026-10-04T19:01:02.571734+00:00",
   "market": {
     "brent_usd": 102.25,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 100.0,
     "vix": 15.31,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "04 OCT 2026 · 11:11 UTC",
-      "headline": "IRAN SAYS HORMUZ TO REMAIN CLOSED UNTIL US MEETS CONDITIONS",
-      "detail": "Tehran says reopening Strait of Hormuz has been its main goal, while the US continues to focus on nuclear talks.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "28 SEP 2026 · 08:56 UTC",
       "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
@@ -30,6 +24,6 @@
   "ticker_items": [
     "BRENT: $102.25 (+0.00%)",
     "VIX: 15.31",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
