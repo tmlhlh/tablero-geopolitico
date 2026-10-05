@@ -1,29 +1,47 @@
 {
-  "updated_at": "2026-10-05T08:13:24.031672+00:00",
+  "updated_at": "2026-10-05T17:48:05.176605+00:00",
   "market": {
-    "brent_usd": 101.11,
+    "brent_usd": 100.61,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
-    "vix": 16.27,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.2
+    "ormuz_flow_pct": 8.5,
+    "vix": 15.54,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "05 OCT 2026 · 05:20 UTC",
-      "headline": "MIDDLE EAST OIL EXPORTS SURPASS PRE-WAR LEVELS DESPITE TENSIONS, DATA SHOWS",
-      "detail": "IRGC commander says oil flows through US-supervised route in Hormuz are ‘negligible’.",
+      "timestamp": "05 OCT 2026 · 15:17 UTC",
+      "headline": "ZELENSKY CONDEMNS 'HORRIFIC' RUSSIAN STRIKE ON BOAT CARRYING CORN IN BLACK SEA",
+      "detail": "The vessel's captain was killed and 11 crew members were rescued after the attack on the Turkish-owned ship, Ukraine's leader says.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 OCT 2026 · 13:36 UTC",
+      "headline": "DOS TRIPULANTES MUERTOS Y 11 RESCATADOS TRAS EL ATAQUE CON DRON A UN CARGUERO TU",
+      "detail": "La espiral de agresiones rusas y ucranias a buques mercantes se ha cobrado ya la vida de medio centenar de marineros",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "05 OCT 2026 · 13:11 UTC",
+      "headline": "IS IRAN CHARGING A TOLL TO ALLOW OIL TRAFFIC THROUGH HORMUZ?",
+      "detail": "Crude exports bypassing Hormuz surged in September, yet oil prices remain high. Could a secret fee be the reason?",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 OCT 2026 · 12:48 UTC",
+      "headline": "US WARSHIPS HAVE ‘FLED’ STRAIT OF HORMUZ – IRGC",
+      "detail": "Iran’s IRGC says US warships withdrew from the Strait of Hormuz and nearby waters as the naval blockade and diplomatic deadlock continue Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $101.11 (+0.00%)",
-    "VIX: 16.27",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $100.61 (+0.00%)",
+    "VIX: 15.54",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
