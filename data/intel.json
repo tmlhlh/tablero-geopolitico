@@ -1,22 +1,29 @@
 {
-  "updated_at": "2026-10-05T01:32:44.064077+00:00",
+  "updated_at": "2026-10-05T08:13:24.031672+00:00",
   "market": {
-    "brent_usd": 101.76,
+    "brent_usd": 101.11,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.31,
+    "vix": 16.27,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "05 OCT 2026 · 05:20 UTC",
+      "headline": "MIDDLE EAST OIL EXPORTS SURPASS PRE-WAR LEVELS DESPITE TENSIONS, DATA SHOWS",
+      "detail": "IRGC commander says oil flows through US-supervised route in Hormuz are ‘negligible’.",
+      "severity": "INFO"
+    }
+  ],
   "ticker_items": [
-    "BRENT: $101.76 (+0.00%)",
-    "VIX: 15.31",
+    "BRENT: $101.11 (+0.00%)",
+    "VIX: 16.27",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
