@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-04T22:17:14.811018+00:00",
+  "updated_at": "2026-10-05T01:32:44.064077+00:00",
   "market": {
-    "brent_usd": 102.25,
+    "brent_usd": 101.76,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -13,16 +13,9 @@
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [
-    {
-      "timestamp": "28 SEP 2026 · 08:56 UTC",
-      "headline": "IRANIAN MISSILE STRIKE INJURED EIGHT US MARINES – NBC",
-      "detail": "Eight US Marines were injured in an Iranian missile strike in the Strait of Hormuz, with the Pentagon declining to comment, NBC reports Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    }
-  ],
+  "events": [],
   "ticker_items": [
-    "BRENT: $102.25 (+0.00%)",
+    "BRENT: $101.76 (+0.00%)",
     "VIX: 15.31",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
