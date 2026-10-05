@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-05T17:48:05.176605+00:00",
+  "updated_at": "2026-10-05T23:40:13.376024+00:00",
   "market": {
-    "brent_usd": 100.61,
+    "brent_usd": 100.22,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.54,
+    "vix": 15.52,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.0
   },
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "05 OCT 2026 · 23:28 UTC",
+      "headline": "CRUZARON ORMUZ: LLEGARON LAS PIEZAS QUE PERMITIRÁN EXPORTAR EN BUQUES GIGANTES E",
+      "detail": "Son dos monoboyas fabricadas en Emiratos Árabes Unidos, que permitirán cargar buques de hasta dos millones de barriles; su entrega había generado preocupación por el conflicto en Medio Oriente",
+      "severity": "INFO"
+    },
     {
       "timestamp": "05 OCT 2026 · 15:17 UTC",
       "headline": "ZELENSKY CONDEMNS 'HORRIFIC' RUSSIAN STRIKE ON BOAT CARRYING CORN IN BLACK SEA",
@@ -27,12 +33,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "05 OCT 2026 · 13:11 UTC",
-      "headline": "IS IRAN CHARGING A TOLL TO ALLOW OIL TRAFFIC THROUGH HORMUZ?",
-      "detail": "Crude exports bypassing Hormuz surged in September, yet oil prices remain high. Could a secret fee be the reason?",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "05 OCT 2026 · 12:48 UTC",
       "headline": "US WARSHIPS HAVE ‘FLED’ STRAIT OF HORMUZ – IRGC",
       "detail": "Iran’s IRGC says US warships withdrew from the Strait of Hormuz and nearby waters as the naval blockade and diplomatic deadlock continue Read Full Article at RT.com",
@@ -40,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.61 (+0.00%)",
-    "VIX: 15.54",
+    "BRENT: $100.22 (+0.00%)",
+    "VIX: 15.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
