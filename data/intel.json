@@ -1,24 +1,42 @@
 {
-  "updated_at": "2026-10-06T11:44:04.285347+00:00",
+  "updated_at": "2026-10-06T17:50:58.037097+00:00",
   "market": {
-    "brent_usd": 98.12,
+    "brent_usd": 100.41,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.3,
+    "vix": 15.11,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "06 OCT 2026 · 09:20 UTC",
-      "headline": "DOS BARCOS COMERCIALES SON ATACADOS POR DRONES EN EL MAR NEGRO",
-      "detail": "Uno de ellos se ha hundido y otro ha tenido que ser evacuado un día después de que otra ofensiva matara a dos personas a bordo de un buque en Rumania",
+      "timestamp": "06 OCT 2026 · 17:13 UTC",
+      "headline": "NATO NATION DECRIES DRONE STRIKES ON MERCHANT VESSELS OFF ITS COAST",
+      "detail": "Two merchant vessels have been hit by unknown drones within Bulgaria’s exclusive economic zone in the Black Sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 OCT 2026 · 14:42 UTC",
+      "headline": "WHAT NEW MEASURES IS IRAN TAKING TO COUNTER US ECONOMIC PRESSURE?",
+      "detail": "Iran adopts a new arrangement to tackle economic challenges amid the US-imposed economic war and naval blockades.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "06 OCT 2026 · 14:15 UTC",
+      "headline": "HORMUZ SHIP ATTACKS SURGE: ARE INCREASED OIL EXPORTS SUSTAINABLE?",
+      "detail": "Gulf oil flows surge despite escalating ship attacks in the critical Strait of Hormuz energy corridor.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "06 OCT 2026 · 13:18 UTC",
+      "headline": "YEMEN CONFLICT ESCALATING INTO REGIONAL WAR",
+      "detail": "Saudi-backed Yemeni forces are fighting Houthis for Bab el-Mandeb as Türkiye and Pakistan prepare intervention under “Muslim NATO” framework Read Full Article at RT.com",
+      "severity": "INFO"
     },
     {
       "timestamp": "05 OCT 2026 · 12:48 UTC",
@@ -28,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.12 (+0.00%)",
-    "VIX: 15.3",
+    "BRENT: $100.41 (+0.00%)",
+    "VIX: 15.11",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
