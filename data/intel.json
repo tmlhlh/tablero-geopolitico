@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-05T23:40:13.376024+00:00",
+  "updated_at": "2026-10-06T04:38:30.338240+00:00",
   "market": {
-    "brent_usd": 100.22,
+    "brent_usd": 100.5,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -21,12 +21,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "05 OCT 2026 · 15:17 UTC",
-      "headline": "ZELENSKY CONDEMNS 'HORRIFIC' RUSSIAN STRIKE ON BOAT CARRYING CORN IN BLACK SEA",
-      "detail": "The vessel's captain was killed and 11 crew members were rescued after the attack on the Turkish-owned ship, Ukraine's leader says.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "05 OCT 2026 · 13:36 UTC",
       "headline": "DOS TRIPULANTES MUERTOS Y 11 RESCATADOS TRAS EL ATAQUE CON DRON A UN CARGUERO TU",
       "detail": "La espiral de agresiones rusas y ucranias a buques mercantes se ha cobrado ya la vida de medio centenar de marineros",
@@ -40,7 +34,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.22 (+0.00%)",
+    "BRENT: $100.5 (+0.00%)",
     "VIX: 15.52",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
