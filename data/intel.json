@@ -1,29 +1,23 @@
 {
-  "updated_at": "2026-10-06T04:38:30.338240+00:00",
+  "updated_at": "2026-10-06T11:44:04.285347+00:00",
   "market": {
-    "brent_usd": 100.5,
+    "brent_usd": 98.12,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.52,
+    "vix": 15.3,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.0
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "05 OCT 2026 · 23:28 UTC",
-      "headline": "CRUZARON ORMUZ: LLEGARON LAS PIEZAS QUE PERMITIRÁN EXPORTAR EN BUQUES GIGANTES E",
-      "detail": "Son dos monoboyas fabricadas en Emiratos Árabes Unidos, que permitirán cargar buques de hasta dos millones de barriles; su entrega había generado preocupación por el conflicto en Medio Oriente",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 OCT 2026 · 13:36 UTC",
-      "headline": "DOS TRIPULANTES MUERTOS Y 11 RESCATADOS TRAS EL ATAQUE CON DRON A UN CARGUERO TU",
-      "detail": "La espiral de agresiones rusas y ucranias a buques mercantes se ha cobrado ya la vida de medio centenar de marineros",
+      "timestamp": "06 OCT 2026 · 09:20 UTC",
+      "headline": "DOS BARCOS COMERCIALES SON ATACADOS POR DRONES EN EL MAR NEGRO",
+      "detail": "Uno de ellos se ha hundido y otro ha tenido que ser evacuado un día después de que otra ofensiva matara a dos personas a bordo de un buque en Rumania",
       "severity": "CRÍTICO"
     },
     {
@@ -34,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.5 (+0.00%)",
-    "VIX: 15.52",
+    "BRENT: $98.12 (+0.00%)",
+    "VIX: 15.3",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
