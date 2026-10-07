@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-10-07T17:11:52.504169+00:00",
+  "updated_at": "2026-10-07T22:36:57.414599+00:00",
   "market": {
-    "brent_usd": 100.76,
+    "brent_usd": 101.02,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.35,
+    "vix": 15.08,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "07 OCT 2026 · 22:22 UTC",
+      "headline": "IRAN THREATENS TO BLOCK ‘ILLEGAL’ ROUTES THROUGH STRAIT OF HORMUZ",
+      "detail": "Iran has threatened to block “illegal” traffic through the Strait of Hormuz as the US claims Tehran has lost control of the waterway Read Full Article at RT.com",
+      "severity": "INFO"
+    },
     {
       "timestamp": "06 OCT 2026 · 22:39 UTC",
       "headline": "OIL TANKER ABLAZE AFTER SEA-DRONE ATTACK OFF RUSSIAN BLACK SEA COAST",
@@ -40,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $100.76 (+0.00%)",
-    "VIX: 15.35",
+    "BRENT: $101.02 (+0.00%)",
+    "VIX: 15.08",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
