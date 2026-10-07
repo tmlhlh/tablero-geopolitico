@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-07T09:43:18.000770+00:00",
+  "updated_at": "2026-10-07T17:11:52.504169+00:00",
   "market": {
-    "brent_usd": 101.65,
+    "brent_usd": 100.76,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.31,
+    "vix": 15.35,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 0.9
   },
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "07 OCT 2026 · 03:16 UTC",
-      "headline": "OMAN EVACUATES INJURED CREW FROM ATTACKED TANKER IN STRAIT OF HORMUZ",
-      "detail": "India's Foreign Ministry says 11 out of 12 injured crew members on board the On Peace are Indian nationals.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "06 OCT 2026 · 22:39 UTC",
       "headline": "OIL TANKER ABLAZE AFTER SEA-DRONE ATTACK OFF RUSSIAN BLACK SEA COAST",
@@ -46,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.65 (+0.00%)",
-    "VIX: 15.31",
+    "BRENT: $100.76 (+0.00%)",
+    "VIX: 15.35",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
