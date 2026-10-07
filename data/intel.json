@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-06T22:15:00.312214+00:00",
+  "updated_at": "2026-10-07T02:01:56.007871+00:00",
   "market": {
-    "brent_usd": 101.11,
+    "brent_usd": 101.64,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "06 OCT 2026 · 22:39 UTC",
+      "headline": "OIL TANKER ABLAZE AFTER SEA-DRONE ATTACK OFF RUSSIAN BLACK SEA COAST",
+      "detail": "A Liberian-flagged oil tanker has caught fire after a suspected attack by Ukrainian sea drones off Russia’s Black Sea coast near Sochi Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "06 OCT 2026 · 17:13 UTC",
       "headline": "NATO NATION DECRIES DRONE STRIKES ON MERCHANT VESSELS OFF ITS COAST",
@@ -34,7 +40,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.11 (+0.00%)",
+    "BRENT: $101.64 (+0.00%)",
     "VIX: 15.01",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
