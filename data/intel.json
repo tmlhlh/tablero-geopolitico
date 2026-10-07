@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-10-07T02:01:56.007871+00:00",
+  "updated_at": "2026-10-07T09:43:18.000770+00:00",
   "market": {
-    "brent_usd": 101.64,
+    "brent_usd": 101.65,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.01,
+    "vix": 15.31,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.8
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "07 OCT 2026 · 03:16 UTC",
+      "headline": "OMAN EVACUATES INJURED CREW FROM ATTACKED TANKER IN STRAIT OF HORMUZ",
+      "detail": "India's Foreign Ministry says 11 out of 12 injured crew members on board the On Peace are Indian nationals.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "06 OCT 2026 · 22:39 UTC",
       "headline": "OIL TANKER ABLAZE AFTER SEA-DRONE ATTACK OFF RUSSIAN BLACK SEA COAST",
@@ -28,7 +34,7 @@
     },
     {
       "timestamp": "06 OCT 2026 · 13:18 UTC",
-      "headline": "YEMEN CONFLICT ESCALATING INTO REGIONAL WAR",
+      "headline": "YEMEN CONFLICT ESCALATING INTO REGIONAL WAR: AS IT HAPPENED",
       "detail": "Saudi-backed Yemeni forces are fighting Houthis for Bab el-Mandeb as Türkiye and Pakistan prepare intervention under “Muslim NATO” framework Read Full Article at RT.com",
       "severity": "INFO"
     },
@@ -40,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.64 (+0.00%)",
-    "VIX: 15.01",
+    "BRENT: $101.65 (+0.00%)",
+    "VIX: 15.31",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
