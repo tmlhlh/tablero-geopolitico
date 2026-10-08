@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-10-08T17:09:24.598942+00:00",
+  "updated_at": "2026-10-08T22:48:44.576177+00:00",
   "market": {
-    "brent_usd": 103.56,
+    "brent_usd": 103.69,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.74,
+    "vix": 15.41,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.1
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "08 OCT 2026 · 14:50 UTC",
-      "headline": "MORE KILLED IN KRAMATORSK AS RUSSIA TARGETS UKRAINE’S TRANSPORTATION SYSTEM",
-      "detail": "Russia’s attacks on trains, buses and ports are paralysing Ukraine’s transport network and endangering civilians.",
+      "timestamp": "08 OCT 2026 · 21:01 UTC",
+      "headline": "TRUMP DICE QUE NO ATACARÁ IRÁN HASTA LAS ELECCIONES DE MEDIO TÉRMINO EN EE.UU.",
+      "detail": "El presidente estadounidense descartó nuevos ataques militares antes del 3 de noviembre, aunque mantendrá el bloqueo petrolero",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "08 OCT 2026 · 17:58 UTC",
+      "headline": "HURRICANE ISAIAS CHARGES TOWARDS THE US GULF COAST WITH DANGEROUS WINDS",
+      "detail": "The storm is forecast to strike Florida, Alabama and Mississippi with up to 10 inches of rain this weekend.",
       "severity": "CRÍTICO"
     },
     {
@@ -43,17 +49,11 @@
       "headline": "YEMEN CONFLICT ESCALATING INTO REGIONAL WAR: AS IT HAPPENED",
       "detail": "Saudi-backed Yemeni forces are fighting Houthis for Bab el-Mandeb as Türkiye and Pakistan prepare intervention under “Muslim NATO” framework Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 OCT 2026 · 12:48 UTC",
-      "headline": "US WARSHIPS HAVE ‘FLED’ STRAIT OF HORMUZ – IRGC",
-      "detail": "Iran’s IRGC says US warships withdrew from the Strait of Hormuz and nearby waters as the naval blockade and diplomatic deadlock continue Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $103.56 (+0.00%)",
-    "VIX: 15.74",
+    "BRENT: $103.69 (+0.00%)",
+    "VIX: 15.41",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
