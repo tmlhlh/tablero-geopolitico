@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-10-08T02:26:36.318888+00:00",
+  "updated_at": "2026-10-08T09:53:49.054738+00:00",
   "market": {
-    "brent_usd": 101.95,
+    "brent_usd": 104.25,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 15.08,
+    "vix": 15.67,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 0.8
+    "insurance_spread_pct": 1.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "08 OCT 2026 · 02:48 UTC",
+      "headline": "TANKER HIT BY MULTIPLE PROJECTILES OFF NORTH COAST OF QATAR, UKMTO SAYS",
+      "detail": "The UK maritime agency has reported a rise in attacks on vessels in the vital Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "07 OCT 2026 · 22:22 UTC",
       "headline": "IRAN THREATENS TO BLOCK ‘ILLEGAL’ ROUTES THROUGH STRAIT OF HORMUZ",
@@ -46,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $101.95 (+0.00%)",
-    "VIX: 15.08",
+    "BRENT: $104.25 (+0.00%)",
+    "VIX: 15.67",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
