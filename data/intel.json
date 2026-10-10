@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T15:00:03.023557+00:00",
+  "updated_at": "2026-10-10T19:13:14.417371+00:00",
   "market": {
     "brent_usd": 104.72,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "10 OCT 2026 · 17:51 UTC",
+      "headline": "TRUMP ANIMA A LOS UCRANIOS A QUE “BUSQUEN UN NUEVO LÍDER” TRAS UN ATAQUE DE KIEV",
+      "detail": "“Zelenski podría haber detenido esta guerra muchas, muchas veces, y prefiere que no”, afirma el presidente republicano. Al menos 20 muertos en un bombardeo ruso contra Zaporiyia",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "07 OCT 2026 · 22:22 UTC",
       "headline": "IRAN THREATENS TO BLOCK ‘ILLEGAL’ ROUTES THROUGH STRAIT OF HORMUZ",
