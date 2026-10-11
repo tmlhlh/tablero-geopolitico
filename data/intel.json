@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T23:10:20.508341+00:00",
+  "updated_at": "2026-10-11T03:44:00.643157+00:00",
   "market": {
     "brent_usd": 104.72,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 OCT 2026 · 03:13 UTC",
+      "headline": "US FORCES DISABLE SHIP ‘ATTEMPTING TO RUN’ IRAN BLOCKADE IN GULF OF OMAN",
+      "detail": "US military jet strikes stern of commercial cargo ship 'without harming the crew', CENTCOM says.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "10 OCT 2026 · 17:51 UTC",
       "headline": "TRUMP ANIMA A LOS UCRANIOS A QUE “BUSQUEN UN NUEVO LÍDER” TRAS UN ATAQUE DE KIEV",
@@ -42,12 +48,6 @@
       "timestamp": "06 OCT 2026 · 13:18 UTC",
       "headline": "YEMEN CONFLICT ESCALATING INTO REGIONAL WAR: AS IT HAPPENED",
       "detail": "Saudi-backed Yemeni forces are fighting Houthis for Bab el-Mandeb as Türkiye and Pakistan prepare intervention under “Muslim NATO” framework Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "05 OCT 2026 · 12:48 UTC",
-      "headline": "US WARSHIPS HAVE ‘FLED’ STRAIT OF HORMUZ – IRGC",
-      "detail": "Iran’s IRGC says US warships withdrew from the Strait of Hormuz and nearby waters as the naval blockade and diplomatic deadlock continue Read Full Article at RT.com",
       "severity": "INFO"
     }
   ],
