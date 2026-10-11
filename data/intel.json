@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T03:44:00.643157+00:00",
+  "updated_at": "2026-10-11T10:33:06.349380+00:00",
   "market": {
     "brent_usd": 104.72,
     "brent_chg": 0.0
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "11 OCT 2026 · 08:27 UTC",
+      "headline": "UNA DOCENA DE MUERTOS Y MÁS DE 300 HERIDOS EN UN ATAQUE HUTÍ CONTRA EL AEROPUERT",
+      "detail": "Entre los fallecidos hay cuatro saudíes y un estadounidense. Las autoridades locales han suspendido todas las operaciones aéreas en el aeródromo. Es el bombardeo más letal contra un país del Golfo des",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "11 OCT 2026 · 07:39 UTC",
+      "headline": "US BOMBS CARGO VESSEL IN GULF OF OMAN ‘TRYING TO RUN IRAN BLOCKADE’",
+      "detail": "A US fighter jet bombed a commercial cargo ship in the Gulf of Oman, according to CENTCOM.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "11 OCT 2026 · 03:13 UTC",
       "headline": "US FORCES DISABLE SHIP ‘ATTEMPTING TO RUN’ IRAN BLOCKADE IN GULF OF OMAN",
@@ -37,18 +49,6 @@
       "headline": "OIL TANKER ABLAZE AFTER SEA-DRONE ATTACK OFF RUSSIAN BLACK SEA COAST",
       "detail": "A Liberian-flagged oil tanker has caught fire after a suspected attack by Ukrainian sea drones off Russia’s Black Sea coast near Sochi Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 OCT 2026 · 17:13 UTC",
-      "headline": "NATO NATION DECRIES DRONE STRIKES ON MERCHANT VESSELS OFF ITS COAST",
-      "detail": "Two merchant vessels have been hit by unknown drones within Bulgaria’s exclusive economic zone in the Black Sea Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 OCT 2026 · 13:18 UTC",
-      "headline": "YEMEN CONFLICT ESCALATING INTO REGIONAL WAR: AS IT HAPPENED",
-      "detail": "Saudi-backed Yemeni forces are fighting Houthis for Bab el-Mandeb as Türkiye and Pakistan prepare intervention under “Muslim NATO” framework Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
