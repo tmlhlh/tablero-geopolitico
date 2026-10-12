@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-10-12T16:26:47.087848+00:00",
+  "updated_at": "2026-10-12T23:26:55.598186+00:00",
   "market": {
-    "brent_usd": 106.74,
+    "brent_usd": 106.19,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.13,
+    "vix": 15.21,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.8
+    "insurance_spread_pct": 0.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "12 OCT 2026 · 15:19 UTC",
-      "headline": "OIL TANKER REPORTEDLY ATTACKED IN STRAIT OF HORMUZ REGION",
-      "detail": "Plumes of black smoke rise from a Petro Dolphin oil tanker by a drone attack off the coast of Oman.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 OCT 2026 · 14:25 UTC",
-      "headline": "IRAN SETS CROSSHAIRS ON ‘US-UAE’ OIL SHUTTLE OUT OF STRAIT OF HORMUZ",
-      "detail": "The IRGC is hitting more ships allegedly part of a shuttle operation to move crude oil beyond the Strait of Hormuz.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "12 OCT 2026 · 14:07 UTC",
       "headline": "IRAN WILL DESTROY US DATA CENTERS AND AI FACILITIES IF ATTACKED AGAIN – SECURITY",
@@ -37,17 +25,11 @@
       "headline": "IRAN THREATENS TO BLOCK ‘ILLEGAL’ ROUTES THROUGH STRAIT OF HORMUZ",
       "detail": "Iran has threatened to block “illegal” traffic through the Strait of Hormuz as the US claims Tehran has lost control of the waterway Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "06 OCT 2026 · 22:39 UTC",
-      "headline": "OIL TANKER ABLAZE AFTER SEA-DRONE ATTACK OFF RUSSIAN BLACK SEA COAST",
-      "detail": "A Liberian-flagged oil tanker has caught fire after a suspected attack by Ukrainian sea drones off Russia’s Black Sea coast near Sochi Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $106.74 (+0.00%)",
-    "VIX: 15.13",
+    "BRENT: $106.19 (+0.00%)",
+    "VIX: 15.21",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
