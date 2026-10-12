@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-10-11T20:45:37.657523+00:00",
+  "updated_at": "2026-10-12T00:10:08.148754+00:00",
   "market": {
-    "brent_usd": 104.72,
+    "brent_usd": 103.58,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 99.9,
     "vix": 14.84,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "11 OCT 2026 · 14:04 UTC",
-      "headline": "HORMUZ ATTACKS INTENSIFY AS EFFORTS TO END WAR ON IRAN STALL",
-      "detail": "IRGC warns against ignoring waterway's 'security and rules' as CENTCOM says US disabled vessel trying to run blockade.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "11 OCT 2026 · 08:27 UTC",
       "headline": "UNA DOCENA DE MUERTOS Y MÁS DE 300 HERIDOS EN UN ATAQUE HUTÍ CONTRA EL AEROPUERT",
@@ -52,8 +46,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.72 (+0.00%)",
+    "BRENT: $103.58 (+0.00%)",
     "VIX: 14.84",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
