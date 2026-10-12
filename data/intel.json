@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-12T06:54:27.492581+00:00",
+  "updated_at": "2026-10-12T16:26:47.087848+00:00",
   "market": {
-    "brent_usd": 104.71,
+    "brent_usd": 106.74,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.9,
-    "vix": 14.84,
+    "ormuz_flow_pct": 100.0,
+    "vix": 15.13,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.8
   },
@@ -15,9 +15,21 @@
   },
   "events": [
     {
-      "timestamp": "11 OCT 2026 · 08:27 UTC",
-      "headline": "UNA DOCENA DE MUERTOS Y MÁS DE 300 HERIDOS EN UN ATAQUE HUTÍ CONTRA EL AEROPUERT",
-      "detail": "Entre los fallecidos hay cuatro saudíes y un estadounidense. Las autoridades locales han suspendido todas las operaciones aéreas en el aeródromo. Es el bombardeo más letal contra un país del Golfo des",
+      "timestamp": "12 OCT 2026 · 15:19 UTC",
+      "headline": "OIL TANKER REPORTEDLY ATTACKED IN STRAIT OF HORMUZ REGION",
+      "detail": "Plumes of black smoke rise from a Petro Dolphin oil tanker by a drone attack off the coast of Oman.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "12 OCT 2026 · 14:25 UTC",
+      "headline": "IRAN SETS CROSSHAIRS ON ‘US-UAE’ OIL SHUTTLE OUT OF STRAIT OF HORMUZ",
+      "detail": "The IRGC is hitting more ships allegedly part of a shuttle operation to move crude oil beyond the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "12 OCT 2026 · 14:07 UTC",
+      "headline": "IRAN WILL DESTROY US DATA CENTERS AND AI FACILITIES IF ATTACKED AGAIN – SECURITY",
+      "detail": "Iran’s Mohsen Rezaei warns US data centers, AI facilities and cables in the Gulf could be destroyed if Washington attacks again Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -31,23 +43,11 @@
       "headline": "OIL TANKER ABLAZE AFTER SEA-DRONE ATTACK OFF RUSSIAN BLACK SEA COAST",
       "detail": "A Liberian-flagged oil tanker has caught fire after a suspected attack by Ukrainian sea drones off Russia’s Black Sea coast near Sochi Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 OCT 2026 · 17:13 UTC",
-      "headline": "NATO NATION DECRIES DRONE STRIKES ON MERCHANT VESSELS OFF ITS COAST",
-      "detail": "Two merchant vessels have been hit by unknown drones within Bulgaria’s exclusive economic zone in the Black Sea Read Full Article at RT.com",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "06 OCT 2026 · 13:18 UTC",
-      "headline": "YEMEN CONFLICT ESCALATING INTO REGIONAL WAR: AS IT HAPPENED",
-      "detail": "Saudi-backed Yemeni forces are fighting Houthis for Bab el-Mandeb as Türkiye and Pakistan prepare intervention under “Muslim NATO” framework Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $104.71 (+0.00%)",
-    "VIX: 14.84",
+    "BRENT: $106.74 (+0.00%)",
+    "VIX: 15.13",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
