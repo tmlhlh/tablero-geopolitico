@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-13T13:27:51.584013+00:00",
+  "updated_at": "2026-10-13T20:02:25.512742+00:00",
   "market": {
-    "brent_usd": 105.42,
+    "brent_usd": 106.0,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.3,
+    "vix": 15.33,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 0.9
   },
@@ -19,17 +19,11 @@
       "headline": "IRAN WILL DESTROY US DATA CENTERS AND AI FACILITIES IF ATTACKED AGAIN – SECURITY",
       "detail": "Iran’s Mohsen Rezaei warns US data centers, AI facilities and cables in the Gulf could be destroyed if Washington attacks again Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 OCT 2026 · 22:22 UTC",
-      "headline": "IRAN THREATENS TO BLOCK ‘ILLEGAL’ ROUTES THROUGH STRAIT OF HORMUZ",
-      "detail": "Iran has threatened to block “illegal” traffic through the Strait of Hormuz as the US claims Tehran has lost control of the waterway Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $105.42 (+0.00%)",
-    "VIX: 15.3",
+    "BRENT: $106.0 (+0.00%)",
+    "VIX: 15.33",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
