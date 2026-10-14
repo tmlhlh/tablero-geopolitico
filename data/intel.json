@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-10-14T11:05:08.483580+00:00",
+  "updated_at": "2026-10-14T16:26:07.360253+00:00",
   "market": {
-    "brent_usd": 106.32,
+    "brent_usd": 106.21,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 15.31,
+    "vix": 16.38,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 0.9
+    "insurance_spread_pct": 1.3
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "14 OCT 2026 · 16:08 UTC",
+      "headline": "UN OFFICIAL WARNS OF LOOMING FOOD CRISIS AS HORMUZ FERTILISER PLAN STALLS",
+      "detail": "Without a quick deal to move fertiliser through the strait, agricultural productivity would 'significantly drop'.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "14 OCT 2026 · 15:34 UTC",
+      "headline": "CONTAINER SHIP HIT BY PROJECTILE SINKS IN STRAIT OF HORMUZ, SINGAPORE SAYS",
+      "detail": "All 21 sailors on the Singapore-flagged GFS Pride were evacuated safely after it was hit by an projectile on Tuesday, maritime authorities say.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "12 OCT 2026 · 14:07 UTC",
       "headline": "IRAN WILL DESTROY US DATA CENTERS AND AI FACILITIES IF ATTACKED AGAIN – SECURITY",
@@ -22,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $106.32 (+0.00%)",
-    "VIX: 15.31",
+    "BRENT: $106.21 (+0.00%)",
+    "VIX: 16.38",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
