@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-10-14T20:24:36.926880+00:00",
+  "updated_at": "2026-10-14T23:37:45.225632+00:00",
   "market": {
-    "brent_usd": 106.04,
+    "brent_usd": 105.72,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 58.3,
-    "vix": 16.84,
+    "ormuz_flow_pct": 100.0,
+    "vix": 16.87,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "14 OCT 2026 · 19:56 UTC",
-      "headline": "AUMENTAN LOS ATAQUES EN EL ESTRECHO DE ORMUZ: SE HUNDEN DOS BUQUES Y AUMENTA EL ",
-      "detail": "El GFS Pride sufrió daños antes de naufragar y sus 21 tripulantes fueron rescatados; también se perdió el Cape Dao, con bandera de Antigua y Barbuda",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "14 OCT 2026 · 16:08 UTC",
-      "headline": "UN OFFICIAL WARNS OF LOOMING FOOD CRISIS AS HORMUZ FERTILISER PLAN STALLS",
-      "detail": "Without a quick deal to move fertiliser through the strait, agricultural productivity would 'significantly drop'.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "14 OCT 2026 · 15:34 UTC",
       "headline": "CONTAINER SHIP HIT BY PROJECTILE SINKS IN STRAIT OF HORMUZ, SINGAPORE SAYS",
@@ -40,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $106.04 (+0.00%)",
-    "VIX: 16.84",
+    "BRENT: $105.72 (+0.00%)",
+    "VIX: 16.87",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
