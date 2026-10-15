@@ -1,36 +1,30 @@
 {
-  "updated_at": "2026-10-15T08:10:58.629782+00:00",
+  "updated_at": "2026-10-15T13:53:23.867775+00:00",
   "market": {
-    "brent_usd": 104.14,
+    "brent_usd": 104.88,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.42,
+    "vix": 17.62,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "15 OCT 2026 · 11:12 UTC",
+      "headline": "EIGHT CREW MISSING AFTER DRONE ATTACK LEAVES TANKER ABLAZE OFF ROMANIA'S COAST",
+      "detail": "A search and rescue operation is under way in the Black Sea after the latest attack in the area.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "15 OCT 2026 · 01:00 UTC",
       "headline": "CONTAINER SHIP SINKS AFTER HITTING MINE IN STRAIT OF HORMUZ (VIDEOS)",
       "detail": "A container ship sank after hitting a mine in the Strait of Hormuz as the US released footage of an attack on an alleged Iranian spy vessel Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN VOWS TO FIGHT UNTIL US YIELDS AS SHIPS SINK IN HORMUZ",
-      "detail": "Iran says it does not seek an endless war, but vows to fight until the US accepts its demands as ships sink in Hormuz.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "14 OCT 2026 · 15:34 UTC",
-      "headline": "CONTAINER SHIP HIT BY PROJECTILE SINKS IN STRAIT OF HORMUZ, SINGAPORE SAYS",
-      "detail": "All 21 sailors on the Singapore-flagged GFS Pride were evacuated safely after it was hit by an projectile on Tuesday, maritime authorities say.",
-      "severity": "INFO"
     },
     {
       "timestamp": "12 OCT 2026 · 14:07 UTC",
@@ -40,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.14 (+0.00%)",
-    "VIX: 17.42",
+    "BRENT: $104.88 (+0.00%)",
+    "VIX: 17.62",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
