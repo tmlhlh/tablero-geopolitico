@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-10-14T23:37:45.225632+00:00",
+  "updated_at": "2026-10-15T02:59:48.468323+00:00",
   "market": {
-    "brent_usd": 105.72,
+    "brent_usd": 104.48,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
+    "ormuz_flow_pct": 8.5,
     "vix": 16.87,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 OCT 2026 · 01:00 UTC",
+      "headline": "CONTAINER SHIP SINKS IN HORMUZ MINE STRIKE AMID US-IRAN TENSIONS (VIDEOS)",
+      "detail": "A container ship sank after hitting a mine in the Strait of Hormuz as the US released footage of an attack on an alleged Iranian spy vessel Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "15 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN VOWS TO FIGHT UNTIL US YIELDS AS SHIPS SINK IN HORMUZ",
+      "detail": "Iran says it does not seek an endless war, but vows to fight until the US accepts its demands as ships sink in Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "14 OCT 2026 · 15:34 UTC",
       "headline": "CONTAINER SHIP HIT BY PROJECTILE SINKS IN STRAIT OF HORMUZ, SINGAPORE SAYS",
@@ -28,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.72 (+0.00%)",
+    "BRENT: $104.48 (+0.00%)",
     "VIX: 16.87",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
