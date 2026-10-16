@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-16T05:23:05.881269+00:00",
+  "updated_at": "2026-10-16T10:36:01.803326+00:00",
   "market": {
-    "brent_usd": 105.31,
+    "brent_usd": 105.72,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.46,
+    "vix": 16.11,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.3
+    "insurance_spread_pct": 1.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -18,12 +18,6 @@
       "timestamp": "16 OCT 2026 · 05:00 UTC",
       "headline": "SHIP ATTACK REPORTS NEAR HORMUZ REACH RECORD HIGH AS OIL EXPORTS SLOW",
       "detail": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 OCT 2026 · 20:29 UTC",
-      "headline": "AT LEAST 7 CREW MEMBERS MISSING AFTER DRONE ATTACKS ON SHIPS IN BLACK SEA",
-      "detail": "Emergency teams are searching for 7 missing crew after two chemical tankers were attacked in the Black Sea.",
       "severity": "CRÍTICO"
     },
     {
@@ -46,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $105.31 (+0.00%)",
-    "VIX: 16.46",
+    "BRENT: $105.72 (+0.00%)",
+    "VIX: 16.11",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
