@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T05:28:59.932588+00:00",
+  "updated_at": "2026-10-17T10:05:05.405604+00:00",
   "market": {
     "brent_usd": 109.86,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "17 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRGC SAYS SUPERTANKER HIT NAVAL MINE IN HORMUZ, CATCHES FIRE",
-      "detail": "Iran’s IRGC says an oil supertanker is on fire in the Strait of Hormuz after striking a naval mine.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "16 OCT 2026 · 05:00 UTC",
       "headline": "SHIP ATTACK REPORTS NEAR HORMUZ REACH RECORD HIGH AS OIL EXPORTS SLOW",
