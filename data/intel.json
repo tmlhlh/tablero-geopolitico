@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T17:43:50.669516+00:00",
+  "updated_at": "2026-10-17T20:01:38.802752+00:00",
   "market": {
     "brent_usd": 109.86,
     "brent_chg": 0.0
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "17 OCT 2026 · 12:10 UTC",
-      "headline": "US AND IRAN BOTH CLAIM CONTROL OF STRAIT OF HORMUZ AMID ATTACKS ON VESSELS",
-      "detail": "Two vessels have been struck with naval mines in the Strait of Hormuz this week.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "15 OCT 2026 · 01:00 UTC",
       "headline": "CONTAINER SHIP SINKS AFTER HITTING MINE IN STRAIT OF HORMUZ (VIDEOS)",
