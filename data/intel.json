@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T22:27:24.789636+00:00",
+  "updated_at": "2026-10-17T01:00:04.113993+00:00",
   "market": {
     "brent_usd": 109.69,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP CLAIMS US NAVY BLOCKADE STOPS IRANIAN SHIPS IN HORMUZ",
+      "detail": "Trump says the US Navy blockade has stopped all Iranian ships from crossing the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "16 OCT 2026 · 05:00 UTC",
       "headline": "SHIP ATTACK REPORTS NEAR HORMUZ REACH RECORD HIGH AS OIL EXPORTS SLOW",
