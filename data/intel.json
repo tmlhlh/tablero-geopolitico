@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T10:05:05.405604+00:00",
+  "updated_at": "2026-10-17T14:02:16.222211+00:00",
   "market": {
     "brent_usd": 109.86,
     "brent_chg": 0.0
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "16 OCT 2026 · 05:00 UTC",
-      "headline": "SHIP ATTACK REPORTS NEAR HORMUZ REACH RECORD HIGH AS OIL EXPORTS SLOW",
-      "detail": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
+      "timestamp": "17 OCT 2026 · 12:10 UTC",
+      "headline": "US AND IRAN BOTH CLAIM CONTROL OF STRAIT OF HORMUZ AMID ATTACKS ON VESSELS",
+      "detail": "Two vessels have been struck with naval mines in the Strait of Hormuz this week.",
       "severity": "CRÍTICO"
     },
     {
