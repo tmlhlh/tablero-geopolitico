@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-17T01:00:04.113993+00:00",
+  "updated_at": "2026-10-17T05:28:59.932588+00:00",
   "market": {
-    "brent_usd": 109.69,
+    "brent_usd": 109.86,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -16,20 +16,14 @@
   "events": [
     {
       "timestamp": "17 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP CLAIMS US NAVY BLOCKADE STOPS IRANIAN SHIPS IN HORMUZ",
-      "detail": "Trump says the US Navy blockade has stopped all Iranian ships from crossing the Strait of Hormuz.",
-      "severity": "INFO"
+      "headline": "IRAN WAR LIVE: IRGC SAYS SUPERTANKER HIT NAVAL MINE IN HORMUZ, CATCHES FIRE",
+      "detail": "Iran’s IRGC says an oil supertanker is on fire in the Strait of Hormuz after striking a naval mine.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "16 OCT 2026 · 05:00 UTC",
       "headline": "SHIP ATTACK REPORTS NEAR HORMUZ REACH RECORD HIGH AS OIL EXPORTS SLOW",
       "detail": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 OCT 2026 · 14:51 UTC",
-      "headline": "SEVEN CREW MISSING AFTER DRONE ATTACK LEAVES TANKER ABLAZE OFF ROMANIA'S COAST",
-      "detail": "A search and rescue operation is under way in the Black Sea after the latest attack in the area.",
       "severity": "CRÍTICO"
     },
     {
@@ -46,7 +40,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.69 (+0.00%)",
+    "BRENT: $109.86 (+0.00%)",
     "VIX: 19.99",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
