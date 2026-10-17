@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T20:01:38.802752+00:00",
+  "updated_at": "2026-10-17T22:50:57.864315+00:00",
   "market": {
     "brent_usd": 109.86,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "17 OCT 2026 · 20:02 UTC",
+      "headline": "IRANIAN TV AIRS VIDEO SAID TO SHOW TANKER EXPLOSION IN HORMUZ",
+      "detail": "Iranian state TV aired footage claiming to show an oil tanker exploding after striking a naval mine in Hormuz",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 OCT 2026 · 01:00 UTC",
       "headline": "CONTAINER SHIP SINKS AFTER HITTING MINE IN STRAIT OF HORMUZ (VIDEOS)",
