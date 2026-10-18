@@ -1,19 +1,37 @@
 {
-  "updated_at": "2026-10-17T22:50:57.864315+00:00",
+  "updated_at": "2026-10-18T00:35:37.978288+00:00",
   "market": {
     "brent_usd": 109.86,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 3.9,
     "vix": 19.99,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.9%"
   },
   "events": [
+    {
+      "timestamp": "18 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TANKERS HIT IN HORMUZ; ISRAELI SETTLERS ATTACK EU DIPLOMATS",
+      "detail": "Fires reported on three tankers as masked settlers attack European politicians in the occupied West Bank.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 OCT 2026 · 23:36 UTC",
+      "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
+      "detail": "Tehran says it could reopen the Strait of Hormuz within a week if Washington accepts its peace plan, which Trump previously rejected Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "17 OCT 2026 · 22:55 UTC",
+      "headline": "TWO SUPERTANKERS HIT MINES IN STRAIT OF HORMUZ – IRGC (VIDEO)",
+      "detail": "Two oil supertankers hit naval mines in the Strait of Hormuz on Saturday, Iran’s IRGC has told RT Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "17 OCT 2026 · 20:02 UTC",
       "headline": "IRANIAN TV AIRS VIDEO SAID TO SHOW TANKER EXPLOSION IN HORMUZ",
@@ -25,17 +43,11 @@
       "headline": "CONTAINER SHIP SINKS AFTER HITTING MINE IN STRAIT OF HORMUZ (VIDEOS)",
       "detail": "A container ship sank after hitting a mine in the Strait of Hormuz as the US released footage of an attack on an alleged Iranian spy vessel Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 OCT 2026 · 14:07 UTC",
-      "headline": "IRAN WILL DESTROY US DATA CENTERS AND AI FACILITIES IF ATTACKED AGAIN – SECURITY",
-      "detail": "Iran’s Mohsen Rezaei warns US data centers, AI facilities and cables in the Gulf could be destroyed if Washington attacks again Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $109.86 (+0.00%)",
     "VIX: 19.99",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.9%"
   ]
 }
