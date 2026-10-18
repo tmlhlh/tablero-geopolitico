@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-10-18T00:35:37.978288+00:00",
+  "updated_at": "2026-10-18T05:22:09.113024+00:00",
   "market": {
     "brent_usd": 109.86,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.9,
+    "ormuz_flow_pct": 3.0,
     "vix": 19.99,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.9%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
+      "timestamp": "18 OCT 2026 · 01:54 UTC",
+      "headline": "IRAN SAYS TWO TANKERS CATCH FIRE AFTER HITTING MINES IN STRAIT OF HORMUZ",
+      "detail": "The vessels, each carrying about two million barrels of crude oil, used an unauthorised route, the IRGC says.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "18 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TANKERS HIT IN HORMUZ; ISRAELI SETTLERS ATTACK EU DIPLOMATS",
-      "detail": "Fires reported on three tankers as masked settlers attack European politicians in the occupied West Bank.",
+      "headline": "IRAN WAR LIVE: ISRAELI SETTLERS ATTACK EU DIPLOMATS; DRONES TARGET RIYADH",
+      "detail": "Fires reported on three tankers, as masked settlers attack European politicians in the occupied West Bank.",
       "severity": "CRÍTICO"
     },
     {
@@ -48,6 +54,6 @@
   "ticker_items": [
     "BRENT: $109.86 (+0.00%)",
     "VIX: 19.99",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.9%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
