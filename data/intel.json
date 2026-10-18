@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-10-18T05:22:09.113024+00:00",
+  "updated_at": "2026-10-18T10:18:30.871347+00:00",
   "market": {
     "brent_usd": 109.86,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
+    "ormuz_flow_pct": 8.5,
     "vix": 19.99,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.5
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "18 OCT 2026 · 01:54 UTC",
-      "headline": "IRAN SAYS TWO TANKERS CATCH FIRE AFTER HITTING MINES IN STRAIT OF HORMUZ",
-      "detail": "The vessels, each carrying about two million barrels of crude oil, used an unauthorised route, the IRGC says.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: ISRAELI SETTLERS ATTACK EU DIPLOMATS; DRONES TARGET RIYADH",
-      "detail": "Fires reported on three tankers, as masked settlers attack European politicians in the occupied West Bank.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "17 OCT 2026 · 23:36 UTC",
       "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
@@ -39,12 +27,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "17 OCT 2026 · 20:02 UTC",
-      "headline": "IRANIAN TV AIRS VIDEO SAID TO SHOW TANKER EXPLOSION IN HORMUZ",
-      "detail": "Iranian state TV aired footage claiming to show an oil tanker exploding after striking a naval mine in Hormuz",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "15 OCT 2026 · 01:00 UTC",
       "headline": "CONTAINER SHIP SINKS AFTER HITTING MINE IN STRAIT OF HORMUZ (VIDEOS)",
       "detail": "A container ship sank after hitting a mine in the Strait of Hormuz as the US released footage of an attack on an alleged Iranian spy vessel Read Full Article at RT.com",
@@ -54,6 +36,6 @@
   "ticker_items": [
     "BRENT: $109.86 (+0.00%)",
     "VIX: 19.99",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
