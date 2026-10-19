@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-10-19T11:59:12.184764+00:00",
+  "updated_at": "2026-10-19T18:37:08.751569+00:00",
   "market": {
-    "brent_usd": 108.31,
+    "brent_usd": 109.7,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.91,
+    "vix": 18.23,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "19 OCT 2026 · 09:18 UTC",
-      "headline": "QATAR WARNS GLOBAL ENERGY SHOCKWAVES FROM IRAN WAR HAVE YET TO PEAK",
-      "detail": "Deputy PM calls for dialogue with Tehran, highlights US defence ties and rejects Strait of Hormuz transit fees.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "17 OCT 2026 · 23:36 UTC",
       "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
@@ -40,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $108.31 (+0.00%)",
-    "VIX: 18.91",
+    "BRENT: $109.7 (+0.00%)",
+    "VIX: 18.23",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
