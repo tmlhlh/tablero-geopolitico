@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-10-20T13:16:10.229836+00:00",
+  "updated_at": "2026-10-20T18:17:21.479964+00:00",
   "market": {
-    "brent_usd": 110.4,
+    "brent_usd": 108.54,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 18.72,
+    "vix": 17.36,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "20 OCT 2026 · 16:21 UTC",
+      "headline": "QATAR SAYS ONLY NEGOTIATIONS CAN RESOLVE REGIONAL TENSIONS",
+      "detail": "Qatar says diplomatic efforts are ongoing to de-escalate regional tensions and reopen the Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "17 OCT 2026 · 23:36 UTC",
       "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
@@ -34,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $110.4 (+0.00%)",
-    "VIX: 18.72",
+    "BRENT: $108.54 (+0.00%)",
+    "VIX: 17.36",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
