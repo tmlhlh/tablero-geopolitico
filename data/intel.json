@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-21T12:48:47.367390+00:00",
+  "updated_at": "2026-10-21T17:52:12.311479+00:00",
   "market": {
-    "brent_usd": 108.46,
+    "brent_usd": 108.77,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 17.23,
+    "vix": 16.65,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
@@ -25,17 +25,11 @@
       "headline": "TWO SUPERTANKERS HIT MINES IN STRAIT OF HORMUZ – IRGC (VIDEO)",
       "detail": "Two oil supertankers hit naval mines in the Strait of Hormuz on Saturday, Iran’s IRGC has told RT Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 OCT 2026 · 01:00 UTC",
-      "headline": "CONTAINER SHIP SINKS AFTER HITTING MINE IN STRAIT OF HORMUZ (VIDEOS)",
-      "detail": "A container ship sank after hitting a mine in the Strait of Hormuz as the US released footage of an attack on an alleged Iranian spy vessel Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $108.46 (+0.00%)",
-    "VIX: 17.23",
+    "BRENT: $108.77 (+0.00%)",
+    "VIX: 16.65",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
