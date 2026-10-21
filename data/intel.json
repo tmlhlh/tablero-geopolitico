@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-20T22:02:49.240678+00:00",
+  "updated_at": "2026-10-21T01:13:46.902286+00:00",
   "market": {
-    "brent_usd": 109.12,
+    "brent_usd": 109.94,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "21 OCT 2026 · 00:08 UTC",
+      "headline": "KING CHARLES WELCOMES OMANI SULTAN, HAILS PEACE EFFORTS IN UK STATE VISIT",
+      "detail": "King Charles III pays tribute to Muscat's 'noble efforts' to help reopen the Strait of Hormuz.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: US WARNS PEACE DEAL WITH TEHRAN IS EXTREMELY DIFFICULT",
+      "detail": "Rubio tells US media that reaching a peace deal with Tehran is extremely difficult while Hormuz attacks continue.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "17 OCT 2026 · 23:36 UTC",
       "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
@@ -34,7 +46,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.12 (+0.00%)",
+    "BRENT: $109.94 (+0.00%)",
     "VIX: 17.31",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
