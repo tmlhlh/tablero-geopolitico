@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-10-22T05:42:51.925445+00:00",
+  "updated_at": "2026-10-22T11:04:22.398721+00:00",
   "market": {
-    "brent_usd": 111.2,
+    "brent_usd": 111.94,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 16.68,
+    "vix": 18.13,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.4
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "22 OCT 2026 · 01:45 UTC",
-      "headline": "QATAR, FRANCE CALL FOR OPENING OF HORMUZ AND GAZA CEASEFIRE IMPLEMENTATION",
-      "detail": "Qatari and French leaders stress need to restore freedom of navigation in Strait of Hormuz.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "17 OCT 2026 · 23:36 UTC",
       "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
@@ -34,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $111.2 (+0.00%)",
-    "VIX: 16.68",
+    "BRENT: $111.94 (+0.00%)",
+    "VIX: 18.13",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
