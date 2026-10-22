@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-22T00:23:57.887444+00:00",
+  "updated_at": "2026-10-22T05:42:51.925445+00:00",
   "market": {
-    "brent_usd": 109.98,
+    "brent_usd": 111.2,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "21 OCT 2026 · 21:47 UTC",
-      "headline": "EE.UU. ORDENA LA EVACUACIÓN DE DIPLOMÁTICOS EN ARABIA SAUDITA EN MEDIO DE LA ESC",
-      "detail": "La decisión tras una serie de ataques de los rebeldes de Yemen apoyados por Irán contra el reino petrolero aliado de Washington",
-      "severity": "CRÍTICO"
+      "timestamp": "22 OCT 2026 · 01:45 UTC",
+      "headline": "QATAR, FRANCE CALL FOR OPENING OF HORMUZ AND GAZA CEASEFIRE IMPLEMENTATION",
+      "detail": "Qatari and French leaders stress need to restore freedom of navigation in Strait of Hormuz.",
+      "severity": "INFO"
     },
     {
       "timestamp": "17 OCT 2026 · 23:36 UTC",
@@ -34,7 +34,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.98 (+0.00%)",
+    "BRENT: $111.2 (+0.00%)",
     "VIX: 16.68",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
