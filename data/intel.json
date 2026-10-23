@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-22T23:51:15.016412+00:00",
+  "updated_at": "2026-10-23T03:11:21.911035+00:00",
   "market": {
-    "brent_usd": 113.31,
+    "brent_usd": 113.69,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,12 +14,6 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "22 OCT 2026 · 17:58 UTC",
-      "headline": "IRAN SAYS SEVEN SHIPS HIT IN HORMUZ STRAIT, WARNS US OF WIDER RESPONSE",
-      "detail": "The US has pushed back on the IRGC's claims, dismissing them as an attempt to increase oil prices ahead of US elections.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "22 OCT 2026 · 15:57 UTC",
       "headline": "EL PARLAMENTO EUROPEO PROPONE UNA MISIÓN NAVAL DE LA UE EN EL MAR NEGRO TRAS LOS",
@@ -40,7 +34,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $113.31 (+0.00%)",
+    "BRENT: $113.69 (+0.00%)",
     "VIX: 19.03",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
