@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-10-23T09:02:46.215168+00:00",
+  "updated_at": "2026-10-23T14:37:24.086476+00:00",
   "market": {
-    "brent_usd": 109.06,
+    "brent_usd": 111.34,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.04,
+    "vix": 20.35,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "23 OCT 2026 · 07:37 UTC",
-      "headline": "ARE GLOBAL OIL RESERVES SUFFICIENT TO WITHSTAND RENEWED US-IRAN WAR?",
-      "detail": "With emergency stocks at multidecade lows, analysts say the world may have only a month or two if Hormuz shuts again.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: EUROPEAN, MIDDLE EAST FMS IN ISTANBUL FOR SECURITY TALKS",
-      "detail": "European and Middle East foreign ministers meet in Istanbul for talks on the Strait of Hormuz and regional crises.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "17 OCT 2026 · 23:36 UTC",
       "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
@@ -40,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.06 (+0.00%)",
-    "VIX: 19.04",
+    "BRENT: $111.34 (+0.00%)",
+    "VIX: 20.35",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
