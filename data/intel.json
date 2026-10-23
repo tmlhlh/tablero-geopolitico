@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-23T03:11:21.911035+00:00",
+  "updated_at": "2026-10-23T09:02:46.215168+00:00",
   "market": {
-    "brent_usd": 113.69,
+    "brent_usd": 109.06,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.03,
+    "vix": 19.04,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.2
   },
@@ -15,10 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "22 OCT 2026 · 15:57 UTC",
-      "headline": "EL PARLAMENTO EUROPEO PROPONE UNA MISIÓN NAVAL DE LA UE EN EL MAR NEGRO TRAS LOS",
-      "detail": "Los bombardeos recientes han abierto una grieta en el flanco oriental de la OTAN y han puesto a prueba las defensas de la Alianza en una región cada vez más expuesta a la guerra de Putin contra Ucrani",
-      "severity": "CRÍTICO"
+      "timestamp": "23 OCT 2026 · 07:37 UTC",
+      "headline": "ARE GLOBAL OIL RESERVES SUFFICIENT TO WITHSTAND RENEWED US-IRAN WAR?",
+      "detail": "With emergency stocks at multidecade lows, analysts say the world may have only a month or two if Hormuz shuts again.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "23 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: EUROPEAN, MIDDLE EAST FMS IN ISTANBUL FOR SECURITY TALKS",
+      "detail": "European and Middle East foreign ministers meet in Istanbul for talks on the Strait of Hormuz and regional crises.",
+      "severity": "INFO"
     },
     {
       "timestamp": "17 OCT 2026 · 23:36 UTC",
@@ -34,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $113.69 (+0.00%)",
-    "VIX: 19.03",
+    "BRENT: $109.06 (+0.00%)",
+    "VIX: 19.04",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
