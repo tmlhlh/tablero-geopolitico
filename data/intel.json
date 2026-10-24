@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23T21:48:52.126899+00:00",
+  "updated_at": "2026-10-24T00:13:00.284108+00:00",
   "market": {
     "brent_usd": 111.66,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 96.3,
     "vix": 19.45,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
@@ -25,17 +25,11 @@
       "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
       "detail": "Tehran says it could reopen the Strait of Hormuz within a week if Washington accepts its peace plan, which Trump previously rejected Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "17 OCT 2026 · 22:55 UTC",
-      "headline": "TWO SUPERTANKERS HIT MINES IN STRAIT OF HORMUZ – IRGC (VIDEO)",
-      "detail": "Two oil supertankers hit naval mines in the Strait of Hormuz on Saturday, Iran’s IRGC has told RT Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $111.66 (+0.00%)",
     "VIX: 19.45",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
