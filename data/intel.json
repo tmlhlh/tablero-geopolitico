@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-10-24T00:13:00.284108+00:00",
+  "updated_at": "2026-10-24T05:20:21.250153+00:00",
   "market": {
-    "brent_usd": 111.66,
+    "brent_usd": 111.7,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 96.3,
+    "ormuz_flow_pct": 8.5,
     "vix": 19.45,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "24 OCT 2026 · 04:48 UTC",
+      "headline": "MASSIVE OIL SLICK SEEN WEEKS AFTER TANKER STRUCK OFF UAE’S COAST",
+      "detail": "An oil spill off the UAE coast has prompted beach closures after a vessel reportedly hit a naval mine in early October.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "23 OCT 2026 · 15:30 UTC",
       "headline": "OIL SPILL WASHES UP ON UAE BEACHES AFTER TANKER STRIKE",
       "detail": "Satellite images show oil spreading for miles along the coastline, threatening local marine wildlife",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 OCT 2026 · 23:36 UTC",
-      "headline": "IRAN OFFERS US DEAL TO REOPEN HORMUZ WITHIN A WEEK",
-      "detail": "Tehran says it could reopen the Strait of Hormuz within a week if Washington accepts its peace plan, which Trump previously rejected Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $111.66 (+0.00%)",
+    "BRENT: $111.7 (+0.00%)",
     "VIX: 19.45",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
