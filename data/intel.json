@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-10-24T10:12:23.061807+00:00",
+  "updated_at": "2026-10-24T14:13:13.202588+00:00",
   "market": {
     "brent_usd": 111.7,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 96.3,
     "vix": 19.45,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "24 OCT 2026 · 04:48 UTC",
-      "headline": "MASSIVE OIL SLICK SEEN WEEKS AFTER TANKER STRUCK OFF UAE’S COAST",
-      "detail": "An oil spill off the UAE coast has prompted beach closures after a vessel reportedly hit a naval mine in early October.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "23 OCT 2026 · 15:30 UTC",
       "headline": "OIL SPILL WASHES UP ON UAE BEACHES AFTER TANKER STRIKE",
@@ -30,6 +24,6 @@
   "ticker_items": [
     "BRENT: $111.7 (+0.00%)",
     "VIX: 19.45",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
