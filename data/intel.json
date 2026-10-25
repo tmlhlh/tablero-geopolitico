@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T05:37:06.885582+00:00",
+  "updated_at": "2026-10-25T10:37:13.855653+00:00",
   "market": {
     "brent_usd": 111.7,
     "brent_chg": 0.0
@@ -13,14 +13,7 @@
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [
-    {
-      "timestamp": "23 OCT 2026 · 15:30 UTC",
-      "headline": "OIL SPILL WASHES UP ON UAE BEACHES AFTER TANKER STRIKE",
-      "detail": "Satellite images show oil spreading for miles along the coastline, threatening local marine wildlife",
-      "severity": "CRÍTICO"
-    }
-  ],
+  "events": [],
   "ticker_items": [
     "BRENT: $111.7 (+0.00%)",
     "VIX: 19.45",
