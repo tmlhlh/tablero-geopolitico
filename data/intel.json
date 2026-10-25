@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T14:45:05.194566+00:00",
+  "updated_at": "2026-10-25T18:04:03.862962+00:00",
   "market": {
     "brent_usd": 111.7,
     "brent_chg": 0.0
@@ -13,14 +13,7 @@
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [
-    {
-      "timestamp": "25 OCT 2026 · 12:05 UTC",
-      "headline": "OIL SLICK FROM TANKER IN HORMUZ STRAIT WASHES UP ON UAE BEACHES",
-      "detail": "An oil slick has been filmed washing up on the UAE shoreline, prompting authorities to close beaches in Umm Al Quwain.",
-      "severity": "INFO"
-    }
-  ],
+  "events": [],
   "ticker_items": [
     "BRENT: $111.7 (+0.00%)",
     "VIX: 19.45",
