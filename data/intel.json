@@ -1,22 +1,29 @@
 {
-  "updated_at": "2026-10-26T02:59:21.428213+00:00",
+  "updated_at": "2026-10-26T08:44:39.657125+00:00",
   "market": {
-    "brent_usd": 109.68,
+    "brent_usd": 109.66,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 96.3,
-    "vix": 19.45,
+    "ormuz_flow_pct": 95.9,
+    "vix": 19.61,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "26 OCT 2026 · 04:05 UTC",
+      "headline": "US MILITARY SAYS IT HELPED GULF STATES EXPORT 1.5 BILLION BARRELS OF OIL",
+      "detail": "US Central Command says more than 3,000 commercial vessels have transited the Strait of Hormuz with its support.",
+      "severity": "INFO"
+    }
+  ],
   "ticker_items": [
-    "BRENT: $109.68 (+0.00%)",
-    "VIX: 19.45",
+    "BRENT: $109.66 (+0.00%)",
+    "VIX: 19.61",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
