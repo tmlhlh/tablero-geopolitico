@@ -1,22 +1,29 @@
 {
-  "updated_at": "2026-10-27T11:41:21.168750+00:00",
+  "updated_at": "2026-10-27T17:22:36.658069+00:00",
   "market": {
-    "brent_usd": 109.51,
+    "brent_usd": 109.46,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 17.85,
+    "vix": 17.77,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.8
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "27 OCT 2026 · 15:26 UTC",
+      "headline": "IRAN’S CALCULATIONS AS US ESCALATION LOOMS: TRUST, MIDTERMS, HORMUZ",
+      "detail": "Tehran remains firm on demands despite diplomatic urgency to prevent escalation in the ongoing US-Israeli conflict.",
+      "severity": "INFO"
+    }
+  ],
   "ticker_items": [
-    "BRENT: $109.51 (+0.00%)",
-    "VIX: 17.85",
+    "BRENT: $109.46 (+0.00%)",
+    "VIX: 17.77",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
