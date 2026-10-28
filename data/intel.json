@@ -1,29 +1,22 @@
 {
-  "updated_at": "2026-10-28T13:47:13.762023+00:00",
+  "updated_at": "2026-10-28T19:18:12.506758+00:00",
   "market": {
-    "brent_usd": 111.42,
+    "brent_usd": 111.45,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 100.0,
-    "vix": 17.39,
+    "vix": 17.12,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.6
+    "insurance_spread_pct": 1.5
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [
-    {
-      "timestamp": "28 OCT 2026 · 10:02 UTC",
-      "headline": "HORMUZ OIL SPILL FORCES CLOSURE OF UAE BEACHES",
-      "detail": "An oil spill from a damaged tanker in the Strait of Hormuz has reached the UAE’s beaches, forcing their closure.",
-      "severity": "INFO"
-    }
-  ],
+  "events": [],
   "ticker_items": [
-    "BRENT: $111.42 (+0.00%)",
-    "VIX: 17.39",
+    "BRENT: $111.45 (+0.00%)",
+    "VIX: 17.12",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
