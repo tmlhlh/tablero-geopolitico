@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-28T23:51:16.245779+00:00",
+  "updated_at": "2026-10-29T04:10:22.957279+00:00",
   "market": {
-    "brent_usd": 110.56,
+    "brent_usd": 110.22,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -13,9 +13,16 @@
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "29 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN PRESSES 7-DAY HORMUZ PLAN; TRUMP DENIES PEACE TALKS",
+      "detail": "Araghchi says Iran is in close contact with mediators on ideas to implement its seven-day plan to reopen Hormuz strait.",
+      "severity": "INFO"
+    }
+  ],
   "ticker_items": [
-    "BRENT: $110.56 (+0.00%)",
+    "BRENT: $110.22 (+0.00%)",
     "VIX: 16.91",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
