@@ -1,22 +1,29 @@
 {
-  "updated_at": "2026-10-29T22:34:49.231335+00:00",
+  "updated_at": "2026-10-30T02:22:45.897765+00:00",
   "market": {
-    "brent_usd": 111.55,
+    "brent_usd": 113.31,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
+    "ormuz_flow_pct": 8.5,
     "vix": 17.2,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 1.6
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "30 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: IRGC SAYS FOUR TANKERS STRUCK MINES IN STRAIT OF HORMUZ",
+      "detail": "Iran's IRGC says four tankers have struck naval mines after using \"unauthorised\" Strait of Hormuz routes.",
+      "severity": "CRÍTICO"
+    }
+  ],
   "ticker_items": [
-    "BRENT: $111.55 (+0.00%)",
+    "BRENT: $113.31 (+0.00%)",
     "VIX: 17.2",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
