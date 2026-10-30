@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-10-30T09:32:23.401221+00:00",
+  "updated_at": "2026-10-30T16:30:12.402115+00:00",
   "market": {
-    "brent_usd": 112.58,
+    "brent_usd": 113.96,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.6,
-    "vix": 18.15,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.9
+    "ormuz_flow_pct": 40.5,
+    "vix": 20.12,
+    "risk_level": "ALTO",
+    "insurance_spread_pct": 2.6
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
-      "timestamp": "30 OCT 2026 · 03:23 UTC",
-      "headline": "OPERACIÓN TRONADOR: LA MAYOR MOVILIZACIÓN NAVAL ARGENTINA, EL PLAN DE ATAQUE A C",
-      "detail": "El teniente de navío Pablo Loubet Jambert VGM revive sus días en el sur, en diciembre de 1978, cuando la Armada Argentina estuvo a horas de invadir Chile y conquistar toda la isla de Tierra del Fuego",
+      "timestamp": "30 OCT 2026 · 15:52 UTC",
+      "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
+      "detail": "Dockworkers launch a global anti-war strike targeting Israeli and US military shipments, with actions at 113 ports across five continents Read Full Article at RT.com",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $112.58 (+0.00%)",
-    "VIX: 18.15",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $113.96 (+0.00%)",
+    "VIX: 20.12",
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
