@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-10-30T16:30:12.402115+00:00",
+  "updated_at": "2026-10-30T21:21:21.545306+00:00",
   "market": {
-    "brent_usd": 113.96,
+    "brent_usd": 112.33,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 40.5,
-    "vix": 20.12,
-    "risk_level": "ALTO",
-    "insurance_spread_pct": 2.6
+    "ormuz_flow_pct": 50.4,
+    "vix": 19.42,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "30 OCT 2026 · 20:37 UTC",
+      "headline": "G20 DROPS GROUP PHOTO AS EUROPEANS REFUSE TO STAND WITH LAVROV",
+      "detail": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "30 OCT 2026 · 18:33 UTC",
+      "headline": "OMAN RESCUES 25 FROM BURNING OIL TANKER IN STRAIT OF HORMUZ",
+      "detail": "Incident comes as Iran says three oil tankers were halted while attempting to use 'unauthorised routes' to cross Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
       "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
@@ -22,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $113.96 (+0.00%)",
-    "VIX: 20.12",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "BRENT: $112.33 (+0.00%)",
+    "VIX: 19.42",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
