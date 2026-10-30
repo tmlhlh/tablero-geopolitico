@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-10-30T02:22:45.897765+00:00",
+  "updated_at": "2026-10-30T09:32:23.401221+00:00",
   "market": {
-    "brent_usd": 113.31,
+    "brent_usd": 112.58,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 17.2,
-    "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 1.6
+    "ormuz_flow_pct": 99.6,
+    "vix": 18.15,
+    "risk_level": "MEDIO",
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "30 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRGC SAYS FOUR TANKERS STRUCK MINES IN STRAIT OF HORMUZ",
-      "detail": "Iran's IRGC says four tankers have struck naval mines after using \"unauthorised\" Strait of Hormuz routes.",
+      "timestamp": "30 OCT 2026 · 03:23 UTC",
+      "headline": "OPERACIÓN TRONADOR: LA MAYOR MOVILIZACIÓN NAVAL ARGENTINA, EL PLAN DE ATAQUE A C",
+      "detail": "El teniente de navío Pablo Loubet Jambert VGM revive sus días en el sur, en diciembre de 1978, cuando la Armada Argentina estuvo a horas de invadir Chile y conquistar toda la isla de Tierra del Fuego",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $113.31 (+0.00%)",
-    "VIX: 17.2",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $112.58 (+0.00%)",
+    "VIX: 18.15",
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
