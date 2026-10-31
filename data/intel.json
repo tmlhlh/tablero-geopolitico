@@ -1,35 +1,29 @@
 {
-  "updated_at": "2026-10-31T01:23:59.731306+00:00",
+  "updated_at": "2026-10-31T07:56:54.181564+00:00",
   "market": {
-    "brent_usd": 112.33,
+    "brent_usd": 113.43,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 57.4,
+    "ormuz_flow_pct": 8.5,
     "vix": 19.42,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "31 OCT 2026 · 03:55 UTC",
+      "headline": "IRAN SAYS FOUR TANKERS ON FIRE AFTER STRIKING MINES IN HORMUZ",
+      "detail": "Iran's Revolutionary Guard says four tankers have caught fire in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "31 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: OIL TANKERS HIT IN HORMUZ; TRUMP SAYS CONFLICT WILL END SOON",
+      "headline": "IRAN WAR LIVE: TEHRAN WARNS OF EARTH-SHATTERING BLOW; DRONE TARGETS RIYADH",
       "detail": "IRGC says four tankers hit in Strait of Hormuz, as Trump says war on Iran will 'get wrapped up soon'.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 OCT 2026 · 20:37 UTC",
-      "headline": "G20 DROPS GROUP PHOTO AS EUROPEANS REFUSE TO STAND WITH LAVROV",
-      "detail": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "30 OCT 2026 · 18:33 UTC",
-      "headline": "OMAN RESCUES 25 FROM BURNING OIL TANKER IN STRAIT OF HORMUZ",
-      "detail": "Incident comes as Iran says three oil tankers were halted while attempting to use 'unauthorised routes' to cross Hormuz.",
       "severity": "INFO"
     },
     {
@@ -40,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $112.33 (+0.00%)",
+    "BRENT: $113.43 (+0.00%)",
     "VIX: 19.42",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
