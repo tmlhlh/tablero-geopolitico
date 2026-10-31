@@ -1,31 +1,19 @@
 {
-  "updated_at": "2026-10-31T07:56:54.181564+00:00",
+  "updated_at": "2026-10-31T14:20:18.947666+00:00",
   "market": {
     "brent_usd": 113.43,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 74.9,
     "vix": 19.42,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "31 OCT 2026 · 03:55 UTC",
-      "headline": "IRAN SAYS FOUR TANKERS ON FIRE AFTER STRIKING MINES IN HORMUZ",
-      "detail": "Iran's Revolutionary Guard says four tankers have caught fire in the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "31 OCT 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN WARNS OF EARTH-SHATTERING BLOW; DRONE TARGETS RIYADH",
-      "detail": "IRGC says four tankers hit in Strait of Hormuz, as Trump says war on Iran will 'get wrapped up soon'.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
       "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
@@ -36,6 +24,6 @@
   "ticker_items": [
     "BRENT: $113.43 (+0.00%)",
     "VIX: 19.42",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
