@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-30T21:21:21.545306+00:00",
+  "updated_at": "2026-10-31T01:23:59.731306+00:00",
   "market": {
     "brent_usd": 112.33,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 50.4,
+    "ormuz_flow_pct": 57.4,
     "vix": 19.42,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.3
@@ -14,6 +14,12 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "31 OCT 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: OIL TANKERS HIT IN HORMUZ; TRUMP SAYS CONFLICT WILL END SOON",
+      "detail": "IRGC says four tankers hit in Strait of Hormuz, as Trump says war on Iran will 'get wrapped up soon'.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "30 OCT 2026 · 20:37 UTC",
       "headline": "G20 DROPS GROUP PHOTO AS EUROPEANS REFUSE TO STAND WITH LAVROV",
