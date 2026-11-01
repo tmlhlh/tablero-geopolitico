@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-01T04:04:08.896427+00:00",
+  "updated_at": "2026-11-01T11:37:48.763359+00:00",
   "market": {
     "brent_usd": 113.43,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 85.7,
+    "ormuz_flow_pct": 89.2,
     "vix": 19.42,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.3
@@ -14,12 +14,6 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "01 NOV 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: ARAGHCHI SAYS TALKS UNDER WAY ON 2-DAY PLAN TO REOPEN HORMUZ",
-      "detail": "Top diplomat says Iran and Qatar have reached a plan to reopen Hormuz in two days if the US meets Tehran's conditions.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
       "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
