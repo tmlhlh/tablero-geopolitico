@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-11-02T08:47:45.345930+00:00",
+  "updated_at": "2026-11-02T19:05:44.076413+00:00",
   "market": {
-    "brent_usd": 109.03,
+    "brent_usd": 104.57,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.05,
+    "vix": 20.03,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.2
+    "insurance_spread_pct": 2.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "02 NOV 2026 · 07:30 UTC",
-      "headline": "HORMUZ SHIPPING STILL FACES MAJOR RISKS",
-      "detail": "The Strait of Hormuz remains dangerous and costly for shipping, despite US claims that it is open.",
-      "severity": "INFO"
+      "timestamp": "02 NOV 2026 · 18:28 UTC",
+      "headline": "¿TRUMP ATACARÁ IRÁN? MEDIO ORIENTE SIGUE LAS ELECCIONES EN EE.UU. CON EL TEMOR A",
+      "detail": "Mientras las negociaciones continúan en Qatar, con el foco puesto en el estrecho de Ormuz, la posibilidad de nuevos ataques mantiene en alerta a la región",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "02 NOV 2026 · 04:30 UTC",
@@ -34,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $109.03 (+0.00%)",
-    "VIX: 19.05",
+    "BRENT: $104.57 (+0.00%)",
+    "VIX: 20.03",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
