@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-11-01T21:37:58.643871+00:00",
+  "updated_at": "2026-11-02T01:12:02.785678+00:00",
   "market": {
-    "brent_usd": 113.43,
+    "brent_usd": 111.32,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 92.2,
+    "ormuz_flow_pct": 8.5,
     "vix": 19.42,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "02 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TANKERS HIT IN HORMUZ; TRUMP AGAIN SAYS CONFLICT TO END SOON",
+      "detail": "US president warns Iran to make a deal, as IRGC says two tankers have hit mines and caught fire in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
       "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
@@ -22,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $113.43 (+0.00%)",
+    "BRENT: $111.32 (+0.00%)",
     "VIX: 19.42",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
