@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-11-02T01:12:02.785678+00:00",
+  "updated_at": "2026-11-02T08:47:45.345930+00:00",
   "market": {
-    "brent_usd": 111.32,
+    "brent_usd": 109.03,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 19.42,
+    "vix": 19.05,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.3
+    "insurance_spread_pct": 2.2
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "02 NOV 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TANKERS HIT IN HORMUZ; TRUMP AGAIN SAYS CONFLICT TO END SOON",
-      "detail": "US president warns Iran to make a deal, as IRGC says two tankers have hit mines and caught fire in the Strait of Hormuz.",
+      "timestamp": "02 NOV 2026 · 07:30 UTC",
+      "headline": "HORMUZ SHIPPING STILL FACES MAJOR RISKS",
+      "detail": "The Strait of Hormuz remains dangerous and costly for shipping, despite US claims that it is open.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 NOV 2026 · 04:30 UTC",
+      "headline": "LA TRIPLE PARADOJA DE ORMUZ: MÁS BARCOS CRUZANDO, MÁS ATAQUES Y EL PETRÓLEO POR ",
+      "detail": "La mayor porosidad del estrecho, sobre el que sigue pesando un doble bloqueo, no se traduce en una relajación en los precios",
       "severity": "CRÍTICO"
     },
     {
@@ -28,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $111.32 (+0.00%)",
-    "VIX: 19.42",
+    "BRENT: $109.03 (+0.00%)",
+    "VIX: 19.05",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
