@@ -1,24 +1,30 @@
 {
-  "updated_at": "2026-11-02T19:05:44.076413+00:00",
+  "updated_at": "2026-11-03T01:57:29.754888+00:00",
   "market": {
-    "brent_usd": 104.57,
+    "brent_usd": 104.73,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 20.03,
+    "vix": 21.15,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 2.6
+    "insurance_spread_pct": 3.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "02 NOV 2026 · 18:28 UTC",
-      "headline": "¿TRUMP ATACARÁ IRÁN? MEDIO ORIENTE SIGUE LAS ELECCIONES EN EE.UU. CON EL TEMOR A",
-      "detail": "Mientras las negociaciones continúan en Qatar, con el foco puesto en el estrecho de Ormuz, la posibilidad de nuevos ataques mantiene en alerta a la región",
-      "severity": "CRÍTICO"
+      "timestamp": "03 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: VANCE SEES ‘PROGRESS’, TEHRAN SAYS ‘BALL IS IN US COURT’",
+      "detail": "Tehran says the US must lift its naval blockade and meet its demands in full before any agreement is reached.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "02 NOV 2026 · 18:49 UTC",
+      "headline": "TRUMP SIGNALS PROGRESS ON IRAN DEAL AS TEHRAN PUSHES FASTER CEASEFIRE",
+      "detail": "Iran says its offer to reopen the Strait of Hormuz can be implemented in two days if the US agrees to terms.",
+      "severity": "INFO"
     },
     {
       "timestamp": "02 NOV 2026 · 04:30 UTC",
@@ -34,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.57 (+0.00%)",
-    "VIX: 20.03",
+    "BRENT: $104.73 (+0.00%)",
+    "VIX: 21.15",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
