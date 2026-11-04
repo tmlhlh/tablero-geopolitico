@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03T22:50:05.353483+00:00",
+  "updated_at": "2026-11-04T02:52:24.277199+00:00",
   "market": {
-    "brent_usd": 104.42,
+    "brent_usd": 102.73,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 92.7,
+    "ormuz_flow_pct": 92.8,
     "vix": 20.83,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.8
@@ -15,12 +15,6 @@
   },
   "events": [
     {
-      "timestamp": "03 NOV 2026 · 21:09 UTC",
-      "headline": "EN CHILE LEVANTAN LA GUARDIA ANTE EL VIAJE DE UN BUQUE MERCANTE A LAS MALVINAS, ",
-      "detail": "En círculos diplomáticos y militares trasandino temen que la administración de Milei intercepte y multe a un navío que unirá Punta Arenas con Puerto Argentino; sin embargo, el canciller Quirno fijó un",
-      "severity": "INFO"
-    },
-    {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
       "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
       "detail": "Dockworkers launch a global anti-war strike targeting Israeli and US military shipments, with actions at 113 ports across five continents Read Full Article at RT.com",
@@ -28,7 +22,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $104.42 (+0.00%)",
+    "BRENT: $102.73 (+0.00%)",
     "VIX: 20.83",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
