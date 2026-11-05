@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-05T00:05:18.428062+00:00",
+  "updated_at": "2026-11-05T07:39:22.168476+00:00",
   "market": {
-    "brent_usd": 94.8,
+    "brent_usd": 95.17,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.9,
+    "ormuz_flow_pct": 100.0,
     "vix": 16.61,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 1.4
@@ -15,6 +15,12 @@
   },
   "events": [
     {
+      "timestamp": "05 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: IRGC SAYS TWO OIL TANKERS AND TUGBOAT CAUGHT FIRE IN HORMUZ",
+      "detail": "Iran's IRGC says two tankers and a tugboat caught fire in the Strait of Hormuz after using an \"unauthorised route\".",
+      "severity": "INFO"
+    },
+    {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
       "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
       "detail": "Dockworkers launch a global anti-war strike targeting Israeli and US military shipments, with actions at 113 ports across five continents Read Full Article at RT.com",
@@ -22,7 +28,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.8 (+0.00%)",
+    "BRENT: $95.17 (+0.00%)",
     "VIX: 16.61",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
