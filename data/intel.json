@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-11-05T16:01:28.124772+00:00",
+  "updated_at": "2026-11-05T22:29:25.265792+00:00",
   "market": {
-    "brent_usd": 96.71,
+    "brent_usd": 99.25,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 82.8,
-    "vix": 25.35,
+    "ormuz_flow_pct": 49.0,
+    "vix": 28.18,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.4
+    "insurance_spread_pct": 5.4
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
+    {
+      "timestamp": "05 NOV 2026 · 20:48 UTC",
+      "headline": "SAUDI COALITION INTERCEPTS MISSILE FIRED TOWARDS MEDINA",
+      "detail": "Interception comes after Saudi civil defence agency warned of potential danger near the strategic port of Yanbu.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "05 NOV 2026 · 18:47 UTC",
+      "headline": "IRAN SAYS TANKERS STRUCK IN HORMUZ AMID FEARS OF NEW US ATTACK",
+      "detail": "Iranian forces say five oil tankers and a tugboat have caught fire in several incidents in the Strait of Hormuz.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
       "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
@@ -22,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $96.71 (+0.00%)",
-    "VIX: 25.35",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $99.25 (+0.00%)",
+    "VIX: 28.18",
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
