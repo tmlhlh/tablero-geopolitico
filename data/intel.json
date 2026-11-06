@@ -1,30 +1,24 @@
 {
-  "updated_at": "2026-11-06T03:04:32.109841+00:00",
+  "updated_at": "2026-11-06T11:45:38.131162+00:00",
   "market": {
-    "brent_usd": 99.65,
+    "brent_usd": 98.68,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 54.2,
-    "vix": 28.18,
+    "ormuz_flow_pct": 80.1,
+    "vix": 26.62,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 5.4
+    "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "05 NOV 2026 · 20:48 UTC",
-      "headline": "SAUDI COALITION INTERCEPTS MISSILE FIRED TOWARDS MEDINA",
-      "detail": "Interception comes after Saudi civil defence agency warned of potential danger near the strategic port of Yanbu.",
+      "timestamp": "06 NOV 2026 · 06:06 UTC",
+      "headline": "WHY IS IRAN EXEMPTING INDIA, CHINA, QATAR, IRAQ FROM HORMUZ RESTRICTIONS?",
+      "detail": "Tehran says ships from four countries can cross Hormuz freely, but analysts say the deals carry political risks.",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "05 NOV 2026 · 18:47 UTC",
-      "headline": "IRAN SAYS TANKERS STRUCK IN HORMUZ AMID FEARS OF NEW US ATTACK",
-      "detail": "Iranian forces say five oil tankers and a tugboat have caught fire in several incidents in the Strait of Hormuz.",
-      "severity": "CRÍTICO"
     },
     {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
@@ -34,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $99.65 (+0.00%)",
-    "VIX: 28.18",
+    "BRENT: $98.68 (+0.00%)",
+    "VIX: 26.62",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
