@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-11-06T11:45:38.131162+00:00",
+  "updated_at": "2026-11-06T18:49:19.714257+00:00",
   "market": {
-    "brent_usd": 98.68,
+    "brent_usd": 97.34,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 80.1,
-    "vix": 26.62,
+    "ormuz_flow_pct": 84.2,
+    "vix": 24.67,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 4.9
+    "insurance_spread_pct": 4.2
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
-    {
-      "timestamp": "06 NOV 2026 · 06:06 UTC",
-      "headline": "WHY IS IRAN EXEMPTING INDIA, CHINA, QATAR, IRAQ FROM HORMUZ RESTRICTIONS?",
-      "detail": "Tehran says ships from four countries can cross Hormuz freely, but analysts say the deals carry political risks.",
-      "severity": "INFO"
-    },
     {
       "timestamp": "30 OCT 2026 · 15:52 UTC",
       "headline": "DOCKWORKERS LAUNCH GLOBAL STRIKE AGAINST ISRAELI AND US MILITARY SHIPMENTS (VIDE",
@@ -28,8 +22,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $98.68 (+0.00%)",
-    "VIX: 26.62",
+    "BRENT: $97.34 (+0.00%)",
+    "VIX: 24.67",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
