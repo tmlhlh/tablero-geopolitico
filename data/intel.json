@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-07T17:21:12.957564+00:00",
+  "updated_at": "2026-11-07T21:23:07.835939+00:00",
   "market": {
     "brent_usd": 98.32,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 54.0,
+    "ormuz_flow_pct": 82.2,
     "vix": 25.64,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.5
@@ -13,20 +13,7 @@
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [
-    {
-      "timestamp": "07 NOV 2026 · 14:24 UTC",
-      "headline": "IRAQ’S FM SAYS EXTERNAL PARTIES USING IRAQI SOIL TO ATTACK NEIGHBOURS",
-      "detail": "Iraqi foreign minister tells Al Jazeera that Baghdad is investigating attacks on the Gulf launched from its territory.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "07 NOV 2026 · 12:22 UTC",
-      "headline": "QESHM ISLAND AND HORMUZ HIT, AS MEDIATORS TRY TO PREVENT US-IRAN ESCALATION",
-      "detail": "US strikes have continued on Iran after more ships in the Strait of Hormuz were attacked.",
-      "severity": "CRÍTICO"
-    }
-  ],
+  "events": [],
   "ticker_items": [
     "BRENT: $98.32 (+0.00%)",
     "VIX: 25.64",
