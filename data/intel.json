@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-08T08:30:16.838975+00:00",
+  "updated_at": "2026-11-08T15:44:29.741687+00:00",
   "market": {
     "brent_usd": 98.32,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 82.2,
+    "ormuz_flow_pct": 56.8,
     "vix": 25.64,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 4.5
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "08 NOV 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: US MOVES TO BLOCK LAND SUPPLY ROUTES; UAE RESCUES 22 SAILORS",
-      "detail": "Iranian state media report blasts on Qeshm Island in Strait of Hormuz and the cities of Jask, Sirik and Bandar Abbas.",
-      "severity": "INFO"
+      "timestamp": "08 NOV 2026 · 08:24 UTC",
+      "headline": "US MILITARY ATTACKS CARGO SHIP IN THE GULF OF OMAN",
+      "detail": "The US military says it has fired on and disabled a St. Kitts-flagged cargo ship in the Gulf of Oman.",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
