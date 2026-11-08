@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:23:07.835939+00:00",
+  "updated_at": "2026-11-08T01:01:11.720360+00:00",
   "market": {
     "brent_usd": 98.32,
     "brent_chg": 0.0
@@ -13,7 +13,14 @@
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "08 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: BLASTS HEARD IN QESHM; US MOVES TO BLOCK LAND SUPPLY ROUTES",
+      "detail": "Iranian state media report blasts on Qeshm Island in Strait of Hormuz and the cities of Jask, Sirik and Bandar Abbas.",
+      "severity": "INFO"
+    }
+  ],
   "ticker_items": [
     "BRENT: $98.32 (+0.00%)",
     "VIX: 25.64",
