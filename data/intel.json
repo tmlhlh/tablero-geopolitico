@@ -1,29 +1,22 @@
 {
-  "updated_at": "2026-11-10T01:51:11.392170+00:00",
+  "updated_at": "2026-11-10T09:08:47.194627+00:00",
   "market": {
-    "brent_usd": 91.5,
+    "brent_usd": 90.16,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 95.2,
-    "vix": 19.92,
+    "ormuz_flow_pct": 95.8,
+    "vix": 19.68,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 2.5
+    "insurance_spread_pct": 2.4
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [
-    {
-      "timestamp": "09 NOV 2026 · 22:10 UTC",
-      "headline": "SAUDI ARABIA REPORTS NEW ATTACK ON KEY EAST-WEST PIPELINE",
-      "detail": "The oil pipeline runs through the desert to the coast and is essential for bypassing the Strait of Hormuz.",
-      "severity": "CRÍTICO"
-    }
-  ],
+  "events": [],
   "ticker_items": [
-    "BRENT: $91.5 (+0.00%)",
-    "VIX: 19.92",
+    "BRENT: $90.16 (+0.00%)",
+    "VIX: 19.68",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
