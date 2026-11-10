@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-11-09T18:13:20.917112+00:00",
+  "updated_at": "2026-11-10T01:51:11.392170+00:00",
   "market": {
-    "brent_usd": 93.83,
+    "brent_usd": 91.5,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 59.2,
-    "vix": 20.2,
+    "ormuz_flow_pct": 95.2,
+    "vix": 19.92,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 2.6
+    "insurance_spread_pct": 2.5
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
     {
-      "timestamp": "09 NOV 2026 · 15:10 UTC",
-      "headline": "IRGC STRIKES THREE TANKERS NEAR HORMUZ OVER ‘US LINKS’",
-      "detail": "An oil tanker caught fire near the Strait of Hormuz after Iran’s IRGC said it had struck three tankers on Sunday,",
+      "timestamp": "09 NOV 2026 · 22:10 UTC",
+      "headline": "SAUDI ARABIA REPORTS NEW ATTACK ON KEY EAST-WEST PIPELINE",
+      "detail": "The oil pipeline runs through the desert to the coast and is essential for bypassing the Strait of Hormuz.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $93.83 (+0.00%)",
-    "VIX: 20.2",
+    "BRENT: $91.5 (+0.00%)",
+    "VIX: 19.92",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
