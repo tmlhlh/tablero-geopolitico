@@ -1,22 +1,29 @@
 {
-  "updated_at": "2026-11-11T02:29:11.079646+00:00",
+  "updated_at": "2026-11-11T10:13:44.180617+00:00",
   "market": {
-    "brent_usd": 92.15,
+    "brent_usd": 92.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 96.3,
-    "vix": 19.46,
-    "risk_level": "MEDIO",
-    "insurance_spread_pct": 2.4
+    "ormuz_flow_pct": 8.5,
+    "vix": 18.65,
+    "risk_level": "CRÍTICO",
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "11 NOV 2026 · 08:21 UTC",
+      "headline": "IRAN DENIES TALKS WITH US, SAYS HORMUZ WILL STAY SHUT UNTIL DEMANDS ARE MET",
+      "detail": "Mohsen Rezaei's comments come as the IRGC said at least three ships had hit mines and caught fire in the Hormuz strait.",
+      "severity": "CRÍTICO"
+    }
+  ],
   "ticker_items": [
-    "BRENT: $92.15 (+0.00%)",
-    "VIX: 19.46",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "BRENT: $92.95 (+0.00%)",
+    "VIX: 18.65",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
