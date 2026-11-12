@@ -1,35 +1,22 @@
 {
-  "updated_at": "2026-11-12T01:15:07.412507+00:00",
+  "updated_at": "2026-11-12T09:11:50.857785+00:00",
   "market": {
-    "brent_usd": 92.05,
+    "brent_usd": 92.89,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 61.0,
-    "vix": 17.49,
+    "ormuz_flow_pct": 99.1,
+    "vix": 18.36,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 2.0
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [
-    {
-      "timestamp": "11 NOV 2026 · 23:12 UTC",
-      "headline": "GUERRA CON UCRANIA: RUSIA RECURRE A LAS SILOBOLSAS, UNA TECNOLOGÍA QUE GENERÓ UN",
-      "detail": "Los ataques a puertos y buques en el Mar Negro dejaron los embarques rusos de cereales cerca de un tercio por debajo de su volumen habitual desde principios de julio, según Reuters; la Asociación Rusa",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "11 NOV 2026 · 21:03 UTC",
-      "headline": "HORMUZ STRAIT WILL ‘NEVER RETURN’ TO PRE-WAR STATUS, IRAN’S GHALIBAF SAYS",
-      "detail": "Iran's parliament speaker and top negotiator says Tehran is waiting for an official US response to its seven conditions.",
-      "severity": "INFO"
-    }
-  ],
+  "events": [],
   "ticker_items": [
-    "BRENT: $92.05 (+0.00%)",
-    "VIX: 17.49",
+    "BRENT: $92.89 (+0.00%)",
+    "VIX: 18.36",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
