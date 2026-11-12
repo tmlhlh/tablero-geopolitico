@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-11-12T17:53:14.520944+00:00",
+  "updated_at": "2026-11-12T23:08:49.742391+00:00",
   "market": {
-    "brent_usd": 94.37,
+    "brent_usd": 95.77,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 100.0,
-    "vix": 17.54,
+    "ormuz_flow_pct": 61.4,
+    "vix": 18.7,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 1.7
+    "insurance_spread_pct": 2.1
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "12 NOV 2026 · 20:09 UTC",
+      "headline": "RUSSIAN WARSHIP HIT BY UKRAINIAN DRONE IN GULF OF FINLAND",
+      "detail": "The attack is thought to be the first time Ukrainian drones have attacked a Russian ship in an open stretch of the Baltic Sea.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 NOV 2026 · 13:58 UTC",
       "headline": "EIGHT KILLED IN COLOMBIAN AIR STRIKE TARGETING GULF CLAN GANG",
@@ -22,8 +28,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $94.37 (+0.00%)",
-    "VIX: 17.54",
+    "BRENT: $95.77 (+0.00%)",
+    "VIX: 18.7",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
