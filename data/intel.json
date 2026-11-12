@@ -1,22 +1,29 @@
 {
-  "updated_at": "2026-11-12T09:11:50.857785+00:00",
+  "updated_at": "2026-11-12T17:53:14.520944+00:00",
   "market": {
-    "brent_usd": 92.89,
+    "brent_usd": 94.37,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 99.1,
-    "vix": 18.36,
+    "ormuz_flow_pct": 100.0,
+    "vix": 17.54,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 2.0
+    "insurance_spread_pct": 1.7
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "12 NOV 2026 · 13:58 UTC",
+      "headline": "EIGHT KILLED IN COLOMBIAN AIR STRIKE TARGETING GULF CLAN GANG",
+      "detail": "A suspected gang leader considered a \"priority target\" was among those killed, the Colombian president says.",
+      "severity": "CRÍTICO"
+    }
+  ],
   "ticker_items": [
-    "BRENT: $92.89 (+0.00%)",
-    "VIX: 18.36",
+    "BRENT: $94.37 (+0.00%)",
+    "VIX: 17.54",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
