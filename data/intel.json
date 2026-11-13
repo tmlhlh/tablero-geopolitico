@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-11-13T04:52:06.092882+00:00",
+  "updated_at": "2026-11-13T12:49:27.741119+00:00",
   "market": {
-    "brent_usd": 95.78,
+    "brent_usd": 96.46,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 69.8,
-    "vix": 18.7,
+    "ormuz_flow_pct": 79.7,
+    "vix": 18.26,
     "risk_level": "MEDIO",
-    "insurance_spread_pct": 2.1
+    "insurance_spread_pct": 1.9
   },
   "ormuz_status": {
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "13 NOV 2026 · 10:54 UTC",
+      "headline": "IRAN THREATENS UNLIMITED RESPONSE OVER STRAIT OF HORMUZ AFTER US ATTACK",
+      "detail": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "13 NOV 2026 · 04:40 UTC",
       "headline": "LOS MARINEROS DENUNCIAN LAS NUEVAS TÁCTICAS DE RUSIA Y UCRANIA CONTRA LOS BUQUES",
@@ -21,27 +27,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "13 NOV 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TRUMP SAYS GULF ALLIES URGED PAUSE IN IRAN STRIKES",
-      "detail": "Trump says Gulf countries asked him to hold off on further attacks against Iran as Tehran targets US radar in Bahrain.",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "12 NOV 2026 · 20:09 UTC",
       "headline": "RUSSIAN WARSHIP HIT BY UKRAINIAN DRONE IN GULF OF FINLAND",
       "detail": "The attack is thought to be the first time Ukrainian drones have attacked a Russian ship in an open stretch of the Baltic Sea.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "12 NOV 2026 · 13:58 UTC",
-      "headline": "EIGHT KILLED IN COLOMBIAN AIR STRIKE TARGETING GULF CLAN GANG",
-      "detail": "A suspected gang leader considered a \"priority target\" was among those killed, the Colombian president says.",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $95.78 (+0.00%)",
-    "VIX: 18.7",
+    "BRENT: $96.46 (+0.00%)",
+    "VIX: 18.26",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
