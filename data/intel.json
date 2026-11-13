@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-12T23:08:49.742391+00:00",
+  "updated_at": "2026-11-13T04:52:06.092882+00:00",
   "market": {
-    "brent_usd": 95.77,
+    "brent_usd": 95.78,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 61.4,
+    "ormuz_flow_pct": 69.8,
     "vix": 18.7,
     "risk_level": "MEDIO",
     "insurance_spread_pct": 2.1
@@ -14,6 +14,18 @@
     "summary": "ESTRECHO OPERATIVO"
   },
   "events": [
+    {
+      "timestamp": "13 NOV 2026 · 04:40 UTC",
+      "headline": "LOS MARINEROS DENUNCIAN LAS NUEVAS TÁCTICAS DE RUSIA Y UCRANIA CONTRA LOS BUQUES",
+      "detail": "El mar Negro se ha convertido en la ruta más mortífera del mundo para la marina mercante, con cientos de ataques y más de 70 marineros muertos desde junio",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "13 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TRUMP SAYS GULF ALLIES URGED PAUSE IN IRAN STRIKES",
+      "detail": "Trump says Gulf countries asked him to hold off on further attacks against Iran as Tehran targets US radar in Bahrain.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "12 NOV 2026 · 20:09 UTC",
       "headline": "RUSSIAN WARSHIP HIT BY UKRAINIAN DRONE IN GULF OF FINLAND",
@@ -28,7 +40,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.77 (+0.00%)",
+    "BRENT: $95.78 (+0.00%)",
     "VIX: 18.7",
     "ORMUZ: ESTRECHO OPERATIVO"
   ]
