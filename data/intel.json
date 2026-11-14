@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T08:30:38.936338+00:00",
+  "updated_at": "2026-11-14T15:29:56.076469+00:00",
   "market": {
     "brent_usd": 95.84,
     "brent_chg": 0.0
@@ -15,10 +15,10 @@
   },
   "events": [
     {
-      "timestamp": "14 NOV 2026 · 07:46 UTC",
-      "headline": "UN SAYS 25 SEAFARERS KILLED IN, AROUND HORMUZ SINCE US-ISRAEL WAR ON IRAN",
-      "detail": "'Situation cannot become new normal', says UN's Khaled Khiari, as Iran reports three more vessels hitting mines.",
-      "severity": "CRÍTICO"
+      "timestamp": "14 NOV 2026 · 13:24 UTC",
+      "headline": "HOW DOES IRAN VIEW SHIFT IN US APPROACH AFTER JD VANCE ORDERED AWAY?",
+      "detail": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
