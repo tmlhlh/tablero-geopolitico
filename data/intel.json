@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-14T01:13:30.723820+00:00",
+  "updated_at": "2026-11-14T08:30:38.936338+00:00",
   "market": {
-    "brent_usd": 96.08,
+    "brent_usd": 95.84,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,20 +15,14 @@
   },
   "events": [
     {
-      "timestamp": "13 NOV 2026 · 19:23 UTC",
-      "headline": "IRGC SAYS TANKER CAUGHT FIRE AFTER HITTING MINES IN STRAIT OF HORMUZ",
-      "detail": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "13 NOV 2026 · 04:40 UTC",
-      "headline": "LOS MARINEROS DENUNCIAN LAS NUEVAS TÁCTICAS DE RUSIA Y UCRANIA CONTRA LOS BUQUES",
-      "detail": "El mar Negro se ha convertido en la ruta más mortífera del mundo para la marina mercante, con cientos de ataques y más de 70 marineros muertos desde junio",
+      "timestamp": "14 NOV 2026 · 07:46 UTC",
+      "headline": "UN SAYS 25 SEAFARERS KILLED IN, AROUND HORMUZ SINCE US-ISRAEL WAR ON IRAN",
+      "detail": "'Situation cannot become new normal', says UN's Khaled Khiari, as Iran reports three more vessels hitting mines.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $96.08 (+0.00%)",
+    "BRENT: $95.84 (+0.00%)",
     "VIX: 19.3",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
