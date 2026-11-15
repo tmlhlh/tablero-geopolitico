@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T15:15:53.245695+00:00",
+  "updated_at": "2026-11-15T20:45:32.736552+00:00",
   "market": {
     "brent_usd": 95.84,
     "brent_chg": 0.0
@@ -14,6 +14,12 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "15 NOV 2026 · 20:32 UTC",
+      "headline": "LOS HUTÍES AVANZAN EN YEMEN SOBRE UN ESTRECHO CLAVE Y LE SUMAN PRESIÓN A LOS ALI",
+      "detail": "Las fuerzas respaldadas por Arabia Saudita se replegaron ante el avance de los rebeldes hacia Adén mientras Teherán reivindicó ataques con drones contra una base estadounidense en Bahréin",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 NOV 2026 · 13:42 UTC",
       "headline": "IRAN TARGETS US MILITARY BASE IN BAHRAIN WITH DRONE ATTACK",
