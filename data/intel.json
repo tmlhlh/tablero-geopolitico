@@ -1,22 +1,29 @@
 {
-  "updated_at": "2026-11-15T00:41:01.052231+00:00",
+  "updated_at": "2026-11-15T07:29:26.161160+00:00",
   "market": {
     "brent_usd": 95.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 96.7,
+    "ormuz_flow_pct": 8.5,
     "vix": 19.3,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "ESTRECHO OPERATIVO"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
-  "events": [],
+  "events": [
+    {
+      "timestamp": "15 NOV 2026 · 01:12 UTC",
+      "headline": "US THREATENING TO STARVE IRANIANS – TEHRAN",
+      "detail": "Iran has accused the US of using sanctions and a naval blockade to starve its population Read Full Article at RT.com",
+      "severity": "INFO"
+    }
+  ],
   "ticker_items": [
     "BRENT: $95.84 (+0.00%)",
     "VIX: 19.3",
-    "ORMUZ: ESTRECHO OPERATIVO"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
