@@ -1,29 +1,22 @@
 {
-  "updated_at": "2026-11-14T20:21:26.618402+00:00",
+  "updated_at": "2026-11-15T00:41:01.052231+00:00",
   "market": {
     "brent_usd": 95.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 96.7,
     "vix": 19.3,
-    "risk_level": "CRÍTICO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 2.3
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "ESTRECHO OPERATIVO"
   },
-  "events": [
-    {
-      "timestamp": "14 NOV 2026 · 13:24 UTC",
-      "headline": "HOW DOES IRAN VIEW SHIFT IN US APPROACH AFTER JD VANCE ORDERED AWAY?",
-      "detail": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
-      "severity": "INFO"
-    }
-  ],
+  "events": [],
   "ticker_items": [
     "BRENT: $95.84 (+0.00%)",
     "VIX: 19.3",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: ESTRECHO OPERATIVO"
   ]
 }
