@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T00:41:01.487139+00:00",
+  "updated_at": "2026-11-16T07:36:09.248667+00:00",
   "market": {
-    "brent_usd": 95.6,
+    "brent_usd": 96.25,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -22,20 +22,8 @@
     },
     {
       "timestamp": "16 NOV 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: TEHRAN WARNS IT MAY STRIKE FIRST BEFORE ANOTHER US ATTACK",
-      "detail": "Yemeni army says it is 'repositioning' troops away from the Bab al-Mandeb strait and other key coastal areas.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 NOV 2026 · 20:32 UTC",
-      "headline": "LOS HUTÍES AVANZAN EN YEMEN SOBRE UN ESTRECHO CLAVE Y LE SUMAN PRESIÓN A LOS ALI",
-      "detail": "Las fuerzas respaldadas por Arabia Saudita se replegaron ante el avance de los rebeldes hacia Adén mientras Teherán reivindicó ataques con drones contra una base estadounidense en Bahréin",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "15 NOV 2026 · 13:42 UTC",
-      "headline": "IRAN TARGETS US MILITARY BASE IN BAHRAIN WITH DRONE ATTACK",
-      "detail": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
+      "headline": "IRAN WAR LIVE: THIRD US CARRIER ARRIVES, IRAN SAYS OIL TANKERS HIT MINES",
+      "detail": "The USS Theodore Roosevelt arrives in the Middle East, while IRGC says mines struck tankers in Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
     {
@@ -46,7 +34,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.6 (+0.00%)",
+    "BRENT: $96.25 (+0.00%)",
     "VIX: 19.3",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
