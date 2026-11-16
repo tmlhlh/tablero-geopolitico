@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T20:45:32.736552+00:00",
+  "updated_at": "2026-11-16T00:41:01.487139+00:00",
   "market": {
-    "brent_usd": 95.84,
+    "brent_usd": 95.6,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "16 NOV 2026 · 00:36 UTC",
+      "headline": "HOUTHIS TIGHTEN GRIP ON KEY RED SEA SHIPPING ROUTE (VIDEOS)",
+      "detail": "Saudi-backed Yemeni forces have withdrawn from positions near the Bab el-Mandeb Strait as Houthi advances threaten Aden Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "16 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: TEHRAN WARNS IT MAY STRIKE FIRST BEFORE ANOTHER US ATTACK",
+      "detail": "Yemeni army says it is 'repositioning' troops away from the Bab al-Mandeb strait and other key coastal areas.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "15 NOV 2026 · 20:32 UTC",
       "headline": "LOS HUTÍES AVANZAN EN YEMEN SOBRE UN ESTRECHO CLAVE Y LE SUMAN PRESIÓN A LOS ALI",
@@ -34,7 +46,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $95.84 (+0.00%)",
+    "BRENT: $95.6 (+0.00%)",
     "VIX: 19.3",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
