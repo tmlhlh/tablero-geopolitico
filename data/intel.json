@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-16T17:52:01.040634+00:00",
+  "updated_at": "2026-11-17T01:29:29.571689+00:00",
   "market": {
-    "brent_usd": 93.13,
+    "brent_usd": 91.98,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 21.64,
+    "vix": 22.91,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.1
+    "insurance_spread_pct": 3.6
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "16 NOV 2026 · 15:37 UTC",
-      "headline": "OIL TANKERS HIT SEA MINES IN THE STRAIT OF HORMUZ",
-      "detail": "Oil tankers hit sea mines in the Strait of Hormuz",
+      "timestamp": "16 NOV 2026 · 23:57 UTC",
+      "headline": "LIVE: HOUTHIS ADVANCE IN YEMEN AS TANKERS HIT SEA MINES IN STRAIT OF HORMUZ",
+      "detail": "Iran-aligned Houthi fighters kept up their push in southern Yemen as oil tankers hit sea mines in the Strait of Hormuz.",
       "severity": "CRÍTICO"
     },
     {
@@ -40,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.13 (+0.00%)",
-    "VIX: 21.64",
+    "BRENT: $91.98 (+0.00%)",
+    "VIX: 22.91",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
