@@ -1,30 +1,24 @@
 {
-  "updated_at": "2026-11-17T01:29:29.571689+00:00",
+  "updated_at": "2026-11-17T10:04:58.113884+00:00",
   "market": {
-    "brent_usd": 91.98,
+    "brent_usd": 92.72,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 22.91,
+    "vix": 23.74,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.6
+    "insurance_spread_pct": 3.9
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "16 NOV 2026 · 23:57 UTC",
-      "headline": "LIVE: HOUTHIS ADVANCE IN YEMEN AS TANKERS HIT SEA MINES IN STRAIT OF HORMUZ",
-      "detail": "Iran-aligned Houthi fighters kept up their push in southern Yemen as oil tankers hit sea mines in the Strait of Hormuz.",
+      "timestamp": "17 NOV 2026 · 03:12 UTC",
+      "headline": "TANKERS HIT IN STRAIT OF HORMUZ AS DRONE RAISES ALARM AT IRAQ GAS FIELD",
+      "detail": "Iran reports tanker mine strikes as a drone alert in Iraq and the arrival of a US aircraft carrier raise tensions.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 NOV 2026 · 10:51 UTC",
-      "headline": "LAS FUERZAS DEL GOBIERNO DE YEMEN FRENAN SU OFENSIVA CONTRA LOS HUTÍES Y SE RETI",
-      "detail": "El anuncio interrumpe el avance de las últimas seis semanas, apoyado por Arabia Saudí y destinado a retomar el control de Bab el Mandeb, la principal vía alternativa a Ormuz",
-      "severity": "INFO"
     },
     {
       "timestamp": "16 NOV 2026 · 00:36 UTC",
@@ -40,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $91.98 (+0.00%)",
-    "VIX: 22.91",
+    "BRENT: $92.72 (+0.00%)",
+    "VIX: 23.74",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
