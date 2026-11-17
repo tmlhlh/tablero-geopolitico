@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-11-17T10:04:58.113884+00:00",
+  "updated_at": "2026-11-17T19:33:06.638205+00:00",
   "market": {
-    "brent_usd": 92.72,
+    "brent_usd": 93.04,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 23.74,
+    "vix": 25.48,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.9
+    "insurance_spread_pct": 4.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "17 NOV 2026 · 03:12 UTC",
-      "headline": "TANKERS HIT IN STRAIT OF HORMUZ AS DRONE RAISES ALARM AT IRAQ GAS FIELD",
-      "detail": "Iran reports tanker mine strikes as a drone alert in Iraq and the arrival of a US aircraft carrier raise tensions.",
-      "severity": "CRÍTICO"
+      "timestamp": "17 NOV 2026 · 17:34 UTC",
+      "headline": "IRAQI PM HEADS TO LEBANON AMID PUSH TO EXPLORE OIL ROUTES BEYOND HORMUZ",
+      "detail": "Ali al-Zaidi's talks expected to include proposed project linking Tripoli in Lebanon to Kirkuk-Baniyas pipeline.",
+      "severity": "INFO"
     },
     {
       "timestamp": "16 NOV 2026 · 00:36 UTC",
@@ -34,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $92.72 (+0.00%)",
-    "VIX: 23.74",
+    "BRENT: $93.04 (+0.00%)",
+    "VIX: 25.48",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
