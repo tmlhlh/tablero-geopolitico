@@ -1,30 +1,24 @@
 {
-  "updated_at": "2026-11-18T02:02:32.039075+00:00",
+  "updated_at": "2026-11-18T11:01:15.018289+00:00",
   "market": {
-    "brent_usd": 92.85,
+    "brent_usd": 89.32,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.46,
+    "vix": 23.67,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.5
+    "insurance_spread_pct": 3.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "18 NOV 2026 · 01:04 UTC",
-      "headline": "ECUADORIAN FISHERMEN SUE TRUMP ADMINISTRATION OVER DRONE STRIKE",
-      "detail": "Crew say their boat was attacked by drones launched from US-operated vessel as part of 'manifestly unlawful' campaign.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "17 NOV 2026 · 23:38 UTC",
-      "headline": "KUWAIT REPORTS DRONE ATTACKS AS IRAN, US TRADE ATTACKS ON QESHM AND BAHRAIN",
-      "detail": "Kuwait's military says its air defence was repelling drones as Iran and the US hit out at each other across the Gulf.",
-      "severity": "CRÍTICO"
+      "timestamp": "18 NOV 2026 · 08:12 UTC",
+      "headline": "SHIPS RISK HORMUZ STRAIT DUE TO LIMITED US PROTECTION",
+      "detail": "Elisabeth Braw with the Atlantic Council says US navy cannot protection to every vessel passing the Hormuz Strait.",
+      "severity": "INFO"
     },
     {
       "timestamp": "16 NOV 2026 · 00:36 UTC",
@@ -40,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $92.85 (+0.00%)",
-    "VIX: 25.46",
+    "BRENT: $89.32 (+0.00%)",
+    "VIX: 23.67",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
