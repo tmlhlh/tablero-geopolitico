@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-17T19:33:06.638205+00:00",
+  "updated_at": "2026-11-18T02:02:32.039075+00:00",
   "market": {
-    "brent_usd": 93.04,
+    "brent_usd": 92.85,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 25.48,
+    "vix": 25.46,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.5
   },
@@ -15,10 +15,16 @@
   },
   "events": [
     {
-      "timestamp": "17 NOV 2026 · 17:34 UTC",
-      "headline": "IRAQI PM HEADS TO LEBANON AMID PUSH TO EXPLORE OIL ROUTES BEYOND HORMUZ",
-      "detail": "Ali al-Zaidi's talks expected to include proposed project linking Tripoli in Lebanon to Kirkuk-Baniyas pipeline.",
-      "severity": "INFO"
+      "timestamp": "18 NOV 2026 · 01:04 UTC",
+      "headline": "ECUADORIAN FISHERMEN SUE TRUMP ADMINISTRATION OVER DRONE STRIKE",
+      "detail": "Crew say their boat was attacked by drones launched from US-operated vessel as part of 'manifestly unlawful' campaign.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "17 NOV 2026 · 23:38 UTC",
+      "headline": "KUWAIT REPORTS DRONE ATTACKS AS IRAN, US TRADE ATTACKS ON QESHM AND BAHRAIN",
+      "detail": "Kuwait's military says its air defence was repelling drones as Iran and the US hit out at each other across the Gulf.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "16 NOV 2026 · 00:36 UTC",
@@ -34,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $93.04 (+0.00%)",
-    "VIX: 25.48",
+    "BRENT: $92.85 (+0.00%)",
+    "VIX: 25.46",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
