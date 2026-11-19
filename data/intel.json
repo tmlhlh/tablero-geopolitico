@@ -1,36 +1,24 @@
 {
-  "updated_at": "2026-11-18T19:54:26.444065+00:00",
+  "updated_at": "2026-11-19T01:39:56.915277+00:00",
   "market": {
-    "brent_usd": 89.25,
+    "brent_usd": 89.41,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 24.64,
+    "vix": 24.56,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.2
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "18 NOV 2026 · 19:31 UTC",
-      "headline": "FOUR KILLED AS RUSSIAN STRIKES HIT UKRAINE’S ODESA",
-      "detail": "At least four people have been killed and thirteen more injured after Russian strikes hit Ukraine’s port city of Odesa.",
+      "timestamp": "19 NOV 2026 · 00:01 UTC",
+      "headline": "IRAN WAR LIVE: SAUDI-LED COALITION STRIKES YEMEN; SHIPS ON FIRE IN HORMUZ",
+      "detail": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 NOV 2026 · 16:47 UTC",
-      "headline": "KUWAIT, BAHRAIN FACE NEW IRAN ATTACKS AFTER US STRIKE ON QESHM ISLAND",
-      "detail": "Iranian attacks on the Gulf countries draw condemnation from across the region.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "18 NOV 2026 · 14:47 UTC",
-      "headline": "US OFFICIAL SAYS HORMUZ INSURANCE HITS $64M: IS THE STRAIT REALLY OPEN?",
-      "detail": "Hung Cao says shipping insurance costs have soared to $64m for a single transit, challenging claims the strait is open.",
-      "severity": "INFO"
     },
     {
       "timestamp": "18 NOV 2026 · 13:04 UTC",
@@ -52,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.25 (+0.00%)",
-    "VIX: 24.64",
+    "BRENT: $89.41 (+0.00%)",
+    "VIX: 24.56",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
