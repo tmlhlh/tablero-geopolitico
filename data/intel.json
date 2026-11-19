@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-19T01:39:56.915277+00:00",
+  "updated_at": "2026-11-19T09:48:31.306931+00:00",
   "market": {
-    "brent_usd": 89.41,
+    "brent_usd": 89.12,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 24.56,
+    "vix": 22.39,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.1
+    "insurance_spread_pct": 3.4
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "19 NOV 2026 · 00:01 UTC",
-      "headline": "IRAN WAR LIVE: SAUDI-LED COALITION STRIKES YEMEN; SHIPS ON FIRE IN HORMUZ",
-      "detail": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines.",
+      "timestamp": "19 NOV 2026 · 07:08 UTC",
+      "headline": "‘TOO EARLY’ TO DETERMINE IMPACT OF US BLOCKADE ON IRAN, WITH TEHRAN DEFIANT",
+      "detail": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive.",
       "severity": "CRÍTICO"
     },
     {
@@ -40,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.41 (+0.00%)",
-    "VIX: 24.56",
+    "BRENT: $89.12 (+0.00%)",
+    "VIX: 22.39",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
