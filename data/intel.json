@@ -1,25 +1,19 @@
 {
-  "updated_at": "2026-11-19T09:48:31.306931+00:00",
+  "updated_at": "2026-11-19T18:48:40.159293+00:00",
   "market": {
-    "brent_usd": 89.12,
+    "brent_usd": 89.91,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 22.39,
+    "vix": 27.02,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 3.4
+    "insurance_spread_pct": 5.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
-    {
-      "timestamp": "19 NOV 2026 · 07:08 UTC",
-      "headline": "‘TOO EARLY’ TO DETERMINE IMPACT OF US BLOCKADE ON IRAN, WITH TEHRAN DEFIANT",
-      "detail": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive.",
-      "severity": "CRÍTICO"
-    },
     {
       "timestamp": "18 NOV 2026 · 13:04 UTC",
       "headline": "KUWAIT SAYS IT REPELLED FIRST IRANIAN ATTACK IN TWO MONTHS AFTER US STRIKES ISLA",
@@ -40,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.12 (+0.00%)",
-    "VIX: 22.39",
+    "BRENT: $89.91 (+0.00%)",
+    "VIX: 27.02",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
