@@ -1,23 +1,29 @@
 {
-  "updated_at": "2026-11-20T17:29:40.252936+00:00",
+  "updated_at": "2026-11-20T23:38:04.674800+00:00",
   "market": {
-    "brent_usd": 89.09,
+    "brent_usd": 89.87,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 31.85,
+    "vix": 35.89,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.7
+    "insurance_spread_pct": 8.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
+      "timestamp": "20 NOV 2026 · 22:20 UTC",
+      "headline": "NO COINCIDENCE? NATO SILENT ON BLACK SEA DRONE ATTACKS",
+      "detail": "NATO is stonewalling Bulgaria’s requests for proof of whose naval drones were behind attacks on shipping in the Black sea Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
       "timestamp": "20 NOV 2026 · 13:03 UTC",
       "headline": "RUSIA ATACA LOS PUENTES DE KIEV Y LA INFRAESTRUCTURA ENERGÉTICA DE UCRANIA TRAS ",
-      "detail": "Los bombardeos matan a una decena de personas, hieren a 28 y causan apagones en diez regiones. Francia pide una reunión del Consejo de Seguridad de la ONU tras los ataques a las embajadas de Austria y",
+      "detail": "Los bombardeos matan a ocho personas, hieren a 28 y causan apagones en diez regiones. Francia pide una reunión del Consejo de Seguridad de la ONU tras los ataques a las embajadas de Austria y Países B",
       "severity": "CRÍTICO"
     },
     {
@@ -34,8 +40,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.09 (+0.00%)",
-    "VIX: 31.85",
+    "BRENT: $89.87 (+0.00%)",
+    "VIX: 35.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
