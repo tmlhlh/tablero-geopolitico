@@ -1,29 +1,23 @@
 {
-  "updated_at": "2026-11-20T08:19:54.124713+00:00",
+  "updated_at": "2026-11-20T17:29:40.252936+00:00",
   "market": {
-    "brent_usd": 89.53,
+    "brent_usd": 89.09,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 28.44,
+    "vix": 31.85,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.5
+    "insurance_spread_pct": 6.7
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "20 NOV 2026 · 06:03 UTC",
-      "headline": "US MARITIME AGENCY WARNED IRAN BLOCKADE WAS ADDING TO RISING GULF PREMIUMS",
-      "detail": "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "18 NOV 2026 · 13:04 UTC",
-      "headline": "KUWAIT SAYS IT REPELLED FIRST IRANIAN ATTACK IN TWO MONTHS AFTER US STRIKES ISLA",
-      "detail": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
+      "timestamp": "20 NOV 2026 · 13:03 UTC",
+      "headline": "RUSIA ATACA LOS PUENTES DE KIEV Y LA INFRAESTRUCTURA ENERGÉTICA DE UCRANIA TRAS ",
+      "detail": "Los bombardeos matan a una decena de personas, hieren a 28 y causan apagones en diez regiones. Francia pide una reunión del Consejo de Seguridad de la ONU tras los ataques a las embajadas de Austria y",
       "severity": "CRÍTICO"
     },
     {
@@ -40,8 +34,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.53 (+0.00%)",
-    "VIX: 28.44",
+    "BRENT: $89.09 (+0.00%)",
+    "VIX: 31.85",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
