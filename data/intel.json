@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-20T23:38:04.674800+00:00",
+  "updated_at": "2026-11-21T05:27:02.143745+00:00",
   "market": {
-    "brent_usd": 89.87,
+    "brent_usd": 89.95,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -14,6 +14,18 @@
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "21 NOV 2026 · 04:32 UTC",
+      "headline": "SAUDI-LED COALITION INTERCEPTS THREE HOUTHI MISSILES HEADED FOR RIYADH",
+      "detail": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "21 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: SAUDI-LED COALITION DOWNS HOUTHI MISSILES",
+      "detail": "Saudi-led coalition says it intercepted three missiles, as IRGC claims it downed US MQ-9 drone over Strait of Hormuz.",
+      "severity": "INFO"
+    },
     {
       "timestamp": "20 NOV 2026 · 22:20 UTC",
       "headline": "NO COINCIDENCE? NATO SILENT ON BLACK SEA DRONE ATTACKS",
@@ -40,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $89.87 (+0.00%)",
+    "BRENT: $89.95 (+0.00%)",
     "VIX: 35.89",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
