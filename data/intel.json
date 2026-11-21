@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-21T14:07:09.367215+00:00",
+  "updated_at": "2026-11-21T20:44:53.593898+00:00",
   "market": {
     "brent_usd": 89.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 19.9,
+    "ormuz_flow_pct": 8.5,
     "vix": 35.89,
-    "risk_level": "ALTO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 8.1
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "21 NOV 2026 · 12:45 UTC",
-      "headline": "RUSSIA SAYS KALININGRAD-BOUND SHIP STRUCK BY DRONES IN GULF OF FINLAND",
-      "detail": "Two drones attack a cargo ship close to Russia's maritime border, causing damage and crew evacuation.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 NOV 2026 · 09:30 UTC",
-      "headline": "IRAN SAYS IT DOWNED US DRONES OVER HORMUZ AS BID TO END WAR REMAINS STALLED",
-      "detail": "Iran reiterates conditions for Hormuz reopening as US slaps sanctions on four Iranians it says acted as 'oil trustees'.",
+      "timestamp": "21 NOV 2026 · 19:55 UTC",
+      "headline": "LAS PETROMONARQUÍAS DEL GOLFO PÉRSICO, EN UNA RECESIÓN SIN PRECEDENTES POR LA GU",
+      "detail": "Qatar, uno de los países más ricos del mundo, sufrió una fuerte contracción por la inestabilidad del estrecho de Ormuz; el FMI pronostica que la única región del mundo con recesión este año es el Nort",
       "severity": "INFO"
     },
     {
-      "timestamp": "21 NOV 2026 · 08:39 UTC",
-      "headline": "SWIMMER BRAVES TANKER ATTACKS TO EXPOSE HORMUZ CONTAMINATION",
-      "detail": "As tankers burned in Hormuz, swimmer Lewis Pugh exposed another casualty of the US-Israeli war on Iran: marine life.",
+      "timestamp": "21 NOV 2026 · 19:20 UTC",
+      "headline": "RUSSIA-BOUND SHIP ATTACKED IN GULF OF FINLAND",
+      "detail": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 NOV 2026 · 15:01 UTC",
+      "headline": "TANKERS HIT IN STRAIT OF HORMUZ AS IRAN TIGHTENS GRIP ON SHIPPING",
+      "detail": "British maritime agency reports two incidents near Oman, while Iran says a tanker caught fire due to naval mine.",
       "severity": "CRÍTICO"
     },
     {
@@ -54,6 +54,6 @@
   "ticker_items": [
     "BRENT: $89.95 (+0.00%)",
     "VIX: 35.89",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
