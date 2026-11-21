@@ -1,34 +1,40 @@
 {
-  "updated_at": "2026-11-21T05:27:02.143745+00:00",
+  "updated_at": "2026-11-21T14:07:09.367215+00:00",
   "market": {
     "brent_usd": 89.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 19.9,
     "vix": 35.89,
-    "risk_level": "CRÍTICO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 8.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
-      "timestamp": "21 NOV 2026 · 04:32 UTC",
-      "headline": "SAUDI-LED COALITION INTERCEPTS THREE HOUTHI MISSILES HEADED FOR RIYADH",
-      "detail": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
+      "timestamp": "21 NOV 2026 · 12:45 UTC",
+      "headline": "RUSSIA SAYS KALININGRAD-BOUND SHIP STRUCK BY DRONES IN GULF OF FINLAND",
+      "detail": "Two drones attack a cargo ship close to Russia's maritime border, causing damage and crew evacuation.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 NOV 2026 · 09:30 UTC",
+      "headline": "IRAN SAYS IT DOWNED US DRONES OVER HORMUZ AS BID TO END WAR REMAINS STALLED",
+      "detail": "Iran reiterates conditions for Hormuz reopening as US slaps sanctions on four Iranians it says acted as 'oil trustees'.",
       "severity": "INFO"
     },
     {
-      "timestamp": "21 NOV 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: SAUDI-LED COALITION DOWNS HOUTHI MISSILES",
-      "detail": "Saudi-led coalition says it intercepted three missiles, as IRGC claims it downed US MQ-9 drone over Strait of Hormuz.",
-      "severity": "INFO"
+      "timestamp": "21 NOV 2026 · 08:39 UTC",
+      "headline": "SWIMMER BRAVES TANKER ATTACKS TO EXPOSE HORMUZ CONTAMINATION",
+      "detail": "As tankers burned in Hormuz, swimmer Lewis Pugh exposed another casualty of the US-Israeli war on Iran: marine life.",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "20 NOV 2026 · 22:20 UTC",
-      "headline": "NO COINCIDENCE? NATO SILENT ON BLACK SEA DRONE ATTACKS",
+      "headline": "‘COINCIDENCE?’: NATO CALLED OUT OVER SILENCE ON BLACK SEA DRONE ATTACKS",
       "detail": "NATO is stonewalling Bulgaria’s requests for proof of whose naval drones were behind attacks on shipping in the Black sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
@@ -43,17 +49,11 @@
       "headline": "HOUTHIS TIGHTEN GRIP ON KEY RED SEA SHIPPING ROUTE (VIDEOS)",
       "detail": "Saudi-backed Yemeni forces have withdrawn from positions near the Bab el-Mandeb Strait as Houthi advances threaten Aden Read Full Article at RT.com",
       "severity": "INFO"
-    },
-    {
-      "timestamp": "15 NOV 2026 · 01:12 UTC",
-      "headline": "US THREATENING TO STARVE IRANIANS – TEHRAN",
-      "detail": "Iran has accused the US of using sanctions and a naval blockade to starve its population Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
     "BRENT: $89.95 (+0.00%)",
     "VIX: 35.89",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
