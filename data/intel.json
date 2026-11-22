@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-21T20:44:53.593898+00:00",
+  "updated_at": "2026-11-22T00:53:49.779966+00:00",
   "market": {
     "brent_usd": 89.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 23.3,
     "vix": 35.89,
-    "risk_level": "CRÍTICO",
+    "risk_level": "ALTO",
     "insurance_spread_pct": 8.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "DISRUPCIÓN SEVERA"
   },
   "events": [
     {
-      "timestamp": "21 NOV 2026 · 19:55 UTC",
-      "headline": "LAS PETROMONARQUÍAS DEL GOLFO PÉRSICO, EN UNA RECESIÓN SIN PRECEDENTES POR LA GU",
-      "detail": "Qatar, uno de los países más ricos del mundo, sufrió una fuerte contracción por la inestabilidad del estrecho de Ormuz; el FMI pronostica que la única región del mundo con recesión este año es el Nort",
-      "severity": "INFO"
+      "timestamp": "21 NOV 2026 · 23:59 UTC",
+      "headline": "IRAN WAR LIVE: IRAN TARGETS US BASES IN BAHRAIN; HOUTHI STRIKES CONTINUE",
+      "detail": "Bahrain has condemned Iran's strikes on US military assets in the Gulf country, as Houthis keep Saudi Arabia on edge.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "21 NOV 2026 · 21:40 UTC",
+      "headline": "UN ATAQUE CON DRONES DEJÓ A LA DERIVA A UN BUQUE RUSO EN EL BÁLTICO Y ENCENDIÓ L",
+      "detail": "El incendio del Sparta II se produce en un contexto de creciente actividad militar en el entorno del golfo de Finlandia; Helsinki anunció restricciones temporales al tráfico aéreo y marítimo en la zon",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "21 NOV 2026 · 19:20 UTC",
       "headline": "RUSSIA-BOUND SHIP ATTACKED IN GULF OF FINLAND",
       "detail": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "21 NOV 2026 · 15:01 UTC",
-      "headline": "TANKERS HIT IN STRAIT OF HORMUZ AS IRAN TIGHTENS GRIP ON SHIPPING",
-      "detail": "British maritime agency reports two incidents near Oman, while Iran says a tanker caught fire due to naval mine.",
       "severity": "CRÍTICO"
     },
     {
@@ -54,6 +54,6 @@
   "ticker_items": [
     "BRENT: $89.95 (+0.00%)",
     "VIX: 35.89",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: DISRUPCIÓN SEVERA"
   ]
 }
