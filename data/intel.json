@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-11-22T07:43:26.571879+00:00",
+  "updated_at": "2026-11-22T15:53:02.502663+00:00",
   "market": {
     "brent_usd": 89.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 43.8,
+    "ormuz_flow_pct": 8.5,
     "vix": 35.89,
-    "risk_level": "MEDIO",
+    "risk_level": "CRÍTICO",
     "insurance_spread_pct": 8.1
   },
   "ormuz_status": {
-    "summary": "DISRUPCIÓN SEVERA"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "21 NOV 2026 · 23:59 UTC",
-      "headline": "IRAN WAR LIVE: IRAN TARGETS US BASES IN BAHRAIN; HOUTHI STRIKES CONTINUE",
-      "detail": "Bahrain has condemned Iran's strikes on US military assets in the Gulf country, as Houthis keep Saudi Arabia on edge.",
+      "timestamp": "22 NOV 2026 · 11:46 UTC",
+      "headline": "WHAT’S BEHIND IRAN’S ESCALATION OF ATTACKS IN THE GULF?",
+      "detail": "Tehran has ramped up attacks as the US naval blockade and sanctions campaign hurt the country economically.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "21 NOV 2026 · 19:20 UTC",
-      "headline": "RUSSIA-BOUND SHIP ATTACKED IN GULF OF FINLAND",
+      "timestamp": "22 NOV 2026 · 11:25 UTC",
+      "headline": "RUSSIA-BOUND SHIP STILL ON FIRE AFTER ATTACK IN GULF OF FINLAND",
       "detail": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
       "severity": "CRÍTICO"
     },
@@ -36,6 +36,6 @@
   "ticker_items": [
     "BRENT: $89.95 (+0.00%)",
     "VIX: 35.89",
-    "ORMUZ: DISRUPCIÓN SEVERA"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
