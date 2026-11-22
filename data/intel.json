@@ -1,41 +1,59 @@
 {
-  "updated_at": "2026-11-22T15:53:02.502663+00:00",
+  "updated_at": "2026-11-22T21:28:55.129026+00:00",
   "market": {
     "brent_usd": 89.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
+    "ormuz_flow_pct": 3.9,
     "vix": 35.89,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 8.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.9%"
   },
   "events": [
     {
-      "timestamp": "22 NOV 2026 · 11:46 UTC",
-      "headline": "WHAT’S BEHIND IRAN’S ESCALATION OF ATTACKS IN THE GULF?",
-      "detail": "Tehran has ramped up attacks as the US naval blockade and sanctions campaign hurt the country economically.",
+      "timestamp": "22 NOV 2026 · 20:28 UTC",
+      "headline": "EXPLOSION ON RUSSIAN SHIP AT LIBYA PORT CAUSED BY SUSPECTED DRONE ATTACK, OFFICI",
+      "detail": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 NOV 2026 · 11:25 UTC",
-      "headline": "RUSSIA-BOUND SHIP STILL ON FIRE AFTER ATTACK IN GULF OF FINLAND",
-      "detail": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+      "timestamp": "22 NOV 2026 · 19:50 UTC",
+      "headline": "UNA EXPLOSIÓN HUNDE UN BARCO DE GUERRA RUSO EN LA COSTA ORIENTAL DE LIBIA ",
+      "detail": "Las autoridades locales informan de que el hundimiento pudo ser causado por un ataque con drones. Ucrania no ha asumido por el momento la autoría",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "20 NOV 2026 · 22:20 UTC",
-      "headline": "‘COINCIDENCE?’: NATO CALLED OUT OVER SILENCE ON BLACK SEA DRONE ATTACKS",
-      "detail": "NATO is stonewalling Bulgaria’s requests for proof of whose naval drones were behind attacks on shipping in the Black sea Read Full Article at RT.com",
+      "timestamp": "22 NOV 2026 · 19:44 UTC",
+      "headline": "UN BUQUE RUSO FUE BLANCO DE UN PRESUNTO ATAQUE CON DRONES EN LIBIA MIENTRAS OTRO",
+      "detail": "La explosión ocurrió en una base naval del puerto de Bengasi y dejó varios heridos; continúan las tareas para controlar el incendio a bordo otro carguero ruso anclado en aguas finlandesas",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 NOV 2026 · 18:11 UTC",
+      "headline": "SUSPECTED DRONE ATTACK CAUSES EXPLOSION ON RUSSIAN SHIP IN LIBYA",
+      "detail": "A Russian ship has been struck in a suspected drone attack while docked at Libya’s Benghazi naval base.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 NOV 2026 · 17:18 UTC",
+      "headline": "RUSSIA-BOUND SHIP TOWED AWAY AFTER IT WAS ATTACKED IN GULF OF FINLAND",
+      "detail": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "22 NOV 2026 · 17:12 UTC",
+      "headline": "RUSSIAN VESSEL HIT BY SUSPECTED UKRAINIAN DRONE AT LIBYA’S BENGHAZI PORT",
+      "detail": "There was no immediate reaction from Russia, and no one has claimed responsibility for the suspected attack.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $89.95 (+0.00%)",
     "VIX: 35.89",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.9%"
   ]
 }
