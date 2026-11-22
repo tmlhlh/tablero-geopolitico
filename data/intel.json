@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-22T00:53:49.779966+00:00",
+  "updated_at": "2026-11-22T07:43:26.571879+00:00",
   "market": {
     "brent_usd": 89.95,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 23.3,
+    "ormuz_flow_pct": 43.8,
     "vix": 35.89,
-    "risk_level": "ALTO",
+    "risk_level": "MEDIO",
     "insurance_spread_pct": 8.1
   },
   "ormuz_status": {
@@ -21,12 +21,6 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "21 NOV 2026 · 21:40 UTC",
-      "headline": "UN ATAQUE CON DRONES DEJÓ A LA DERIVA A UN BUQUE RUSO EN EL BÁLTICO Y ENCENDIÓ L",
-      "detail": "El incendio del Sparta II se produce en un contexto de creciente actividad militar en el entorno del golfo de Finlandia; Helsinki anunció restricciones temporales al tráfico aéreo y marítimo en la zon",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "21 NOV 2026 · 19:20 UTC",
       "headline": "RUSSIA-BOUND SHIP ATTACKED IN GULF OF FINLAND",
       "detail": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
@@ -37,18 +31,6 @@
       "headline": "‘COINCIDENCE?’: NATO CALLED OUT OVER SILENCE ON BLACK SEA DRONE ATTACKS",
       "detail": "NATO is stonewalling Bulgaria’s requests for proof of whose naval drones were behind attacks on shipping in the Black sea Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "20 NOV 2026 · 13:03 UTC",
-      "headline": "RUSIA ATACA LOS PUENTES DE KIEV Y LA INFRAESTRUCTURA ENERGÉTICA DE UCRANIA TRAS ",
-      "detail": "Los bombardeos matan a ocho personas, hieren a 28 y causan apagones en diez regiones. Francia pide una reunión del Consejo de Seguridad de la ONU tras los ataques a las embajadas de Austria y Países B",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "16 NOV 2026 · 00:36 UTC",
-      "headline": "HOUTHIS TIGHTEN GRIP ON KEY RED SEA SHIPPING ROUTE (VIDEOS)",
-      "detail": "Saudi-backed Yemeni forces have withdrawn from positions near the Bab el-Mandeb Strait as Houthi advances threaten Aden Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
