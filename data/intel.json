@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-11-22T21:28:55.129026+00:00",
+  "updated_at": "2026-11-23T02:10:12.712006+00:00",
   "market": {
-    "brent_usd": 89.95,
+    "brent_usd": 89.72,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.9,
+    "ormuz_flow_pct": 3.0,
     "vix": 35.89,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 8.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.9%"
+    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
   },
   "events": [
     {
-      "timestamp": "22 NOV 2026 · 20:28 UTC",
-      "headline": "EXPLOSION ON RUSSIAN SHIP AT LIBYA PORT CAUSED BY SUSPECTED DRONE ATTACK, OFFICI",
-      "detail": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+      "timestamp": "23 NOV 2026 · 01:51 UTC",
+      "headline": "LIBYA’S MILITARY SAYS ‘FULLY PREPARED’ AFTER BENGHAZI ATTACKS",
+      "detail": "Libyan military says Benghazi port is ‘under control’ and it is ‘fully prepared’ to respond to threats.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 NOV 2026 · 19:50 UTC",
-      "headline": "UNA EXPLOSIÓN HUNDE UN BARCO DE GUERRA RUSO EN LA COSTA ORIENTAL DE LIBIA ",
-      "detail": "Las autoridades locales informan de que el hundimiento pudo ser causado por un ataque con drones. Ucrania no ha asumido por el momento la autoría",
-      "severity": "CRÍTICO"
+      "timestamp": "22 NOV 2026 · 23:59 UTC",
+      "headline": "IRAN WAR LIVE: TANKERS SET ABLAZE IN HORMUZ AS IRGC WARNS OF UNREST THREAT",
+      "detail": "Iran's navy claims tankers contravening its rules were set ablaze, while the IRGC said 'enemies' sought to stoke unrest.",
+      "severity": "INFO"
     },
     {
-      "timestamp": "22 NOV 2026 · 19:44 UTC",
+      "timestamp": "22 NOV 2026 · 23:17 UTC",
       "headline": "UN BUQUE RUSO FUE BLANCO DE UN PRESUNTO ATAQUE CON DRONES EN LIBIA MIENTRAS OTRO",
       "detail": "La explosión ocurrió en una base naval del puerto de Bengasi y dejó varios heridos; continúan las tareas para controlar el incendio a bordo otro carguero ruso anclado en aguas finlandesas",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 NOV 2026 · 18:11 UTC",
-      "headline": "SUSPECTED DRONE ATTACK CAUSES EXPLOSION ON RUSSIAN SHIP IN LIBYA",
-      "detail": "A Russian ship has been struck in a suspected drone attack while docked at Libya’s Benghazi naval base.",
+      "timestamp": "22 NOV 2026 · 23:02 UTC",
+      "headline": "TRUMP DARES IRAN TO BREACH US NAVAL BLOCKADE",
+      "detail": "The US president has threatened a new bombing campaign amid escalating hostilities and stalled peace talks with Tehran Read Full Article at RT.com",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "22 NOV 2026 · 22:57 UTC",
+      "headline": "TRUMP AMENAZA CON NUEVOS ATAQUES CONTRA IRÁN MIENTRAS SE INTENSIFICAN LOS BOMBAR",
+      "detail": "El presidente estadounidense calificó de “tonterías” las negociaciones con Teherán; un ataque iraní contra una instalación industrial en Bahréin dejó dos heridos",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 NOV 2026 · 17:18 UTC",
-      "headline": "RUSSIA-BOUND SHIP TOWED AWAY AFTER IT WAS ATTACKED IN GULF OF FINLAND",
-      "detail": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "22 NOV 2026 · 17:12 UTC",
-      "headline": "RUSSIAN VESSEL HIT BY SUSPECTED UKRAINIAN DRONE AT LIBYA’S BENGHAZI PORT",
-      "detail": "There was no immediate reaction from Russia, and no one has claimed responsibility for the suspected attack.",
+      "timestamp": "22 NOV 2026 · 22:01 UTC",
+      "headline": "SECOND SHIP TARGETED IN SERIES OF NAVAL DRONE ATTACKS OFF LIBYAN COAST",
+      "detail": "A second attack has been reported on a commercial vessel flying a Maltese flag off Benghazi.",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.95 (+0.00%)",
+    "BRENT: $89.72 (+0.00%)",
     "VIX: 35.89",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.9%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
   ]
 }
