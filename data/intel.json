@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-11-23T02:10:12.712006+00:00",
+  "updated_at": "2026-11-23T11:43:25.918523+00:00",
   "market": {
-    "brent_usd": 89.72,
+    "brent_usd": 88.29,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
-    "vix": 35.89,
+    "ormuz_flow_pct": 14.4,
+    "vix": 30.15,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 8.1
+    "insurance_spread_pct": 6.1
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 14.4%"
   },
   "events": [
     {
-      "timestamp": "23 NOV 2026 · 01:51 UTC",
-      "headline": "LIBYA’S MILITARY SAYS ‘FULLY PREPARED’ AFTER BENGHAZI ATTACKS",
-      "detail": "Libyan military says Benghazi port is ‘under control’ and it is ‘fully prepared’ to respond to threats.",
+      "timestamp": "23 NOV 2026 · 11:10 UTC",
+      "headline": "UKRAINE CLAIMS DRONE STRIKES ON RUSSIAN SHIPS OFF LIBYA: WHAT DO WE KNOW?",
+      "detail": "A series of drone strikes on Russian vessels in Libyan and Finnish territories fuels fears of Ukraine war's spread.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 NOV 2026 · 23:59 UTC",
-      "headline": "IRAN WAR LIVE: TANKERS SET ABLAZE IN HORMUZ AS IRGC WARNS OF UNREST THREAT",
-      "detail": "Iran's navy claims tankers contravening its rules were set ablaze, while the IRGC said 'enemies' sought to stoke unrest.",
-      "severity": "INFO"
+      "timestamp": "23 NOV 2026 · 09:45 UTC",
+      "headline": "UCRANIA ASUME LA AUTORÍA DEL ATAQUE CON DRONES QUE HUNDIÓ EN LIBIA UN BARCO DE G",
+      "detail": "“Se lograron los objetivos previstos”, ha informado este lunes el presidente ucranio, Volodímir Zeleneski. Kiev utilizó siete embarcaciones de ataque no tripuladas",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "22 NOV 2026 · 23:17 UTC",
@@ -33,27 +33,21 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 NOV 2026 · 23:02 UTC",
-      "headline": "TRUMP DARES IRAN TO BREACH US NAVAL BLOCKADE",
-      "detail": "The US president has threatened a new bombing campaign amid escalating hostilities and stalled peace talks with Tehran Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "22 NOV 2026 · 22:57 UTC",
-      "headline": "TRUMP AMENAZA CON NUEVOS ATAQUES CONTRA IRÁN MIENTRAS SE INTENSIFICAN LOS BOMBAR",
-      "detail": "El presidente estadounidense calificó de “tonterías” las negociaciones con Teherán; un ataque iraní contra una instalación industrial en Bahréin dejó dos heridos",
+      "timestamp": "22 NOV 2026 · 17:18 UTC",
+      "headline": "RUSSIA-BOUND SHIP TOWED AWAY AFTER IT WAS ATTACKED IN GULF OF FINLAND",
+      "detail": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "22 NOV 2026 · 22:01 UTC",
-      "headline": "SECOND SHIP TARGETED IN SERIES OF NAVAL DRONE ATTACKS OFF LIBYAN COAST",
-      "detail": "A second attack has been reported on a commercial vessel flying a Maltese flag off Benghazi.",
+      "timestamp": "22 NOV 2026 · 16:50 UTC",
+      "headline": "UN CARGUERO RUSO SANCIONADO SIGUE ARDIENDO UN DÍA DESPUÉS DEL ATAQUE DE UN DRON ",
+      "detail": "Los servicios de emergencia finlandeses, rusos y estonios colaboran para extinguir las llamas, pese a las tensiones por la invasión de Ucrania",
       "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.72 (+0.00%)",
-    "VIX: 35.89",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "BRENT: $88.29 (+0.00%)",
+    "VIX: 30.15",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 14.4%"
   ]
 }
