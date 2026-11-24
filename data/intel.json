@@ -1,29 +1,35 @@
 {
-  "updated_at": "2026-11-24T08:10:22.797481+00:00",
+  "updated_at": "2026-11-24T19:53:57.158357+00:00",
   "market": {
-    "brent_usd": 86.58,
+    "brent_usd": 88.59,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.62,
+    "vix": 26.95,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.9
+    "insurance_spread_pct": 5.0
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "24 NOV 2026 · 00:04 UTC",
-      "headline": "SENIOR LIBYAN OFFICIAL WANTS ZELENSKY ON TERRORISM WATCHLIST OVER DRONE STRIKES",
-      "detail": "Libya’s Presidential Council deputy chairman Musa al-Koni has called for a terrorism designation for Zelensky over naval drone strikes. Read Full Article at RT.com",
+      "timestamp": "24 NOV 2026 · 17:49 UTC",
+      "headline": "FARHAD IBRAGIMOV: ZELENSKY’S ATTACK ON LIBYA WILL COST HIM DEARLY",
+      "detail": "The assault on a port has already been called tantamount to a declaration of war – as Ukraine celebrates it as an achievement Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "24 NOV 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: IRGC SAYS THREE SHIPS CATCH FIRE AFTER HITTING HORMUZ MINES",
-      "detail": "Iran's top negotiator rules out talks until the US meets seven conditions and warns against any enemy miscalculation.",
+      "timestamp": "24 NOV 2026 · 13:16 UTC",
+      "headline": "EL HUNDIMIENTO DE LA CORBETA ‘MERKURY’ PONE EN EVIDENCIA LAS GRIETAS DE LA DEFEN",
+      "detail": "El navío fue presentado por Vladímir Putin durante el Día de la Armada de hace tres años como ejemplo de la modernización de su flota. Varias embarcaciones de ataque ucranias lo llevaron al fondo del ",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "24 NOV 2026 · 00:04 UTC",
+      "headline": "UKRAINIAN DRONE ATTACK AN ACT OF WAR – LIBYAN OFFICIAL",
+      "detail": "Libya’s Presidential Council deputy chairman Musa al-Koni has called for a terrorism designation for Zelensky over naval drone strikes. Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -39,12 +45,6 @@
       "severity": "INFO"
     },
     {
-      "timestamp": "23 NOV 2026 · 13:51 UTC",
-      "headline": "UCRANIA GOLPEA A LA ARMADA RUSA EN LIBIA, A 2.000 KILÓMETROS DE LA LÍNEA DE FREN",
-      "detail": "El presidente ucranio, Volodímir Zelenski, afirma que un ataque con siete drones navales hundió un barco de guerra de Moscú",
-      "severity": "CRÍTICO"
-    },
-    {
       "timestamp": "23 NOV 2026 · 13:31 UTC",
       "headline": "FOUR OIL TANKERS HIT MINES IN STRAIT OF HORMUZ – IRAN",
       "detail": "Four oil tankers have reportedly struck mines in the Strait of Hormuz during an escalating confrontation between Iran and the US Read Full Article at RT.com",
@@ -52,8 +52,8 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $86.58 (+0.00%)",
-    "VIX: 26.62",
+    "BRENT: $88.59 (+0.00%)",
+    "VIX: 26.95",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
