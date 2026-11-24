@@ -1,41 +1,35 @@
 {
-  "updated_at": "2026-11-23T23:18:42.911137+00:00",
+  "updated_at": "2026-11-24T08:10:22.797481+00:00",
   "market": {
-    "brent_usd": 86.64,
+    "brent_usd": 86.58,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 3.0,
+    "ormuz_flow_pct": 8.5,
     "vix": 26.62,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 4.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 3.0%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "23 NOV 2026 · 21:21 UTC",
-      "headline": "KIEV SE ADJUDICÓ LOS ATAQUES CONTRA DOS BARCOS RUSOS EN LIBIA Y LLEVÓ LA GUERRA ",
-      "detail": "Zelensky confirmó que siete drones navales hundieron una corbeta rusa y alcanzaron un carguero que, según Kiev, transportaba armas; en paralelo, otro buque ruso fue atacado en el Báltico",
+      "timestamp": "24 NOV 2026 · 00:04 UTC",
+      "headline": "SENIOR LIBYAN OFFICIAL WANTS ZELENSKY ON TERRORISM WATCHLIST OVER DRONE STRIKES",
+      "detail": "Libya’s Presidential Council deputy chairman Musa al-Koni has called for a terrorism designation for Zelensky over naval drone strikes. Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "24 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: IRGC SAYS THREE SHIPS CATCH FIRE AFTER HITTING HORMUZ MINES",
+      "detail": "Iran's top negotiator rules out talks until the US meets seven conditions and warns against any enemy miscalculation.",
       "severity": "CRÍTICO"
     },
     {
       "timestamp": "23 NOV 2026 · 20:48 UTC",
       "headline": "WHAT STRIKE ON RUSSIAN SHIP IN LIBYA SAYS ABOUT SPREAD OF UKRAINE WAR",
       "detail": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 NOV 2026 · 20:26 UTC",
-      "headline": "IRAN HITS US BASES AND CIVILIAN SITES IN THE GULF AFTER A LULL",
-      "detail": "Tehran has ramped up attacks in recent days as the US naval blockade and sanctions campaign hurt the country.",
-      "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 NOV 2026 · 16:23 UTC",
-      "headline": "RUSSIA WARNS UKRAINE OF ‘DANGEROUS TREND’ AFTER LIBYA AND BALTIC ATTACKS",
-      "detail": "Russia has reacted with fury to Ukraine's continued campaign targeting its naval and merchant shipping.",
       "severity": "CRÍTICO"
     },
     {
@@ -49,11 +43,17 @@
       "headline": "UCRANIA GOLPEA A LA ARMADA RUSA EN LIBIA, A 2.000 KILÓMETROS DE LA LÍNEA DE FREN",
       "detail": "El presidente ucranio, Volodímir Zelenski, afirma que un ataque con siete drones navales hundió un barco de guerra de Moscú",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "23 NOV 2026 · 13:31 UTC",
+      "headline": "FOUR OIL TANKERS HIT MINES IN STRAIT OF HORMUZ – IRAN",
+      "detail": "Four oil tankers have reportedly struck mines in the Strait of Hormuz during an escalating confrontation between Iran and the US Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $86.64 (+0.00%)",
+    "BRENT: $86.58 (+0.00%)",
     "VIX: 26.62",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 3.0%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
