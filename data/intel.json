@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-25T03:19:39.505657+00:00",
+  "updated_at": "2026-11-25T13:50:49.107487+00:00",
   "market": {
-    "brent_usd": 87.47,
+    "brent_usd": 89.36,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.36,
+    "vix": 31.39,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.8
+    "insurance_spread_pct": 6.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
-      "timestamp": "25 NOV 2026 · 00:00 UTC",
-      "headline": "IRAN WAR LIVE: SAUDI-LED COALITION STRIKES YEMEN’S HODEIDAH PORT",
-      "detail": "Houthis vow to target Jeddah and other Saudi ports if Hodeidah is hit, after the coalition issues an evacuation order.",
+      "timestamp": "25 NOV 2026 · 07:56 UTC",
+      "headline": "LIBYAN FORCES VOW RETALIATION OVER UKRAINIAN ATTACK",
+      "detail": "Libyan forces under the command of Khalifa Haftar have vowed to retaliate over a Ukrainian naval drone attack on the port of Benghazi Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -45,15 +45,15 @@
       "severity": "CRÍTICO"
     },
     {
-      "timestamp": "23 NOV 2026 · 20:48 UTC",
-      "headline": "WHAT STRIKE ON RUSSIAN SHIP IN LIBYA SAYS ABOUT SPREAD OF UKRAINE WAR",
-      "detail": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-      "severity": "CRÍTICO"
+      "timestamp": "23 NOV 2026 · 15:53 UTC",
+      "headline": "IRAN TURNS TO RUSSIA TO BYPASS HORMUZ DISRUPTIONS (VIDEO)",
+      "detail": "Iran has expanded trade with Russia through the Caspian Sea amid disruptions in the Strait of Hormuz, RT reports Read Full Article at RT.com",
+      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $87.47 (+0.00%)",
-    "VIX: 26.36",
+    "BRENT: $89.36 (+0.00%)",
+    "VIX: 31.39",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
