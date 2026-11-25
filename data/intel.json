@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-11-24T19:53:57.158357+00:00",
+  "updated_at": "2026-11-25T03:19:39.505657+00:00",
   "market": {
-    "brent_usd": 88.59,
+    "brent_usd": 87.47,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.95,
+    "vix": 26.36,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 5.0
+    "insurance_spread_pct": 4.8
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "25 NOV 2026 · 00:00 UTC",
+      "headline": "IRAN WAR LIVE: SAUDI-LED COALITION STRIKES YEMEN’S HODEIDAH PORT",
+      "detail": "Houthis vow to target Jeddah and other Saudi ports if Hodeidah is hit, after the coalition issues an evacuation order.",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "24 NOV 2026 · 21:17 UTC",
+      "headline": "RT FILMS AT LIBYAN PORT ATTACKED BY UKRAINIAN DRONES (VIDEO)",
+      "detail": "RT has filmed at the Libyan port of Benghazi, where a Russian military vessel reportedly came under attack by Ukrainian sea drones Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "24 NOV 2026 · 17:49 UTC",
       "headline": "FARHAD IBRAGIMOV: ZELENSKY’S ATTACK ON LIBYA WILL COST HIM DEARLY",
@@ -37,23 +49,11 @@
       "headline": "WHAT STRIKE ON RUSSIAN SHIP IN LIBYA SAYS ABOUT SPREAD OF UKRAINE WAR",
       "detail": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 NOV 2026 · 15:53 UTC",
-      "headline": "IRAN TURNS TO RUSSIA TO BYPASS HORMUZ DISRUPTIONS (VIDEO)",
-      "detail": "Iran has expanded trade with Russia through the Caspian Sea amid disruptions in the Strait of Hormuz, RT reports Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 NOV 2026 · 13:31 UTC",
-      "headline": "FOUR OIL TANKERS HIT MINES IN STRAIT OF HORMUZ – IRAN",
-      "detail": "Four oil tankers have reportedly struck mines in the Strait of Hormuz during an escalating confrontation between Iran and the US Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $88.59 (+0.00%)",
-    "VIX: 26.95",
+    "BRENT: $87.47 (+0.00%)",
+    "VIX: 26.36",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
