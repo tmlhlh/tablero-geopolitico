@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-11-25T13:50:49.107487+00:00",
+  "updated_at": "2026-11-25T22:55:03.211195+00:00",
   "market": {
-    "brent_usd": 89.36,
+    "brent_usd": 90.82,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 31.39,
+    "vix": 28.29,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 6.5
+    "insurance_spread_pct": 5.5
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "25 NOV 2026 · 19:15 UTC",
+      "headline": "COULD RENEWED STRIKES ON HODEIDAH PORT WORSEN YEMEN’S HUMANITARIAN CRISIS?",
+      "detail": "Disruptions at Yemen's largest seaport could exacerbate hardships for millions of Yemenis, aid experts warn.",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "25 NOV 2026 · 07:56 UTC",
       "headline": "LIBYAN FORCES VOW RETALIATION OVER UKRAINIAN ATTACK",
@@ -43,17 +49,11 @@
       "headline": "UKRAINIAN DRONE ATTACK AN ACT OF WAR – LIBYAN OFFICIAL",
       "detail": "Libya’s Presidential Council deputy chairman Musa al-Koni has called for a terrorism designation for Zelensky over naval drone strikes. Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 NOV 2026 · 15:53 UTC",
-      "headline": "IRAN TURNS TO RUSSIA TO BYPASS HORMUZ DISRUPTIONS (VIDEO)",
-      "detail": "Iran has expanded trade with Russia through the Caspian Sea amid disruptions in the Strait of Hormuz, RT reports Read Full Article at RT.com",
-      "severity": "INFO"
     }
   ],
   "ticker_items": [
-    "BRENT: $89.36 (+0.00%)",
-    "VIX: 31.39",
+    "BRENT: $90.82 (+0.00%)",
+    "VIX: 28.29",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
