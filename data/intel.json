@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25T22:55:03.211195+00:00",
+  "updated_at": "2026-11-26T04:40:47.034027+00:00",
   "market": {
-    "brent_usd": 90.82,
+    "brent_usd": 91.07,
     "brent_chg": 0.0
   },
   "indicators": {
@@ -15,9 +15,9 @@
   },
   "events": [
     {
-      "timestamp": "25 NOV 2026 · 19:15 UTC",
-      "headline": "COULD RENEWED STRIKES ON HODEIDAH PORT WORSEN YEMEN’S HUMANITARIAN CRISIS?",
-      "detail": "Disruptions at Yemen's largest seaport could exacerbate hardships for millions of Yemenis, aid experts warn.",
+      "timestamp": "25 NOV 2026 · 23:33 UTC",
+      "headline": "HOUTHIS TARGET SAUDI ARABIA’S RED SEA PORTS AS STRIKES ESCALATE",
+      "detail": "Explosion reported in Sanaa after Saudi air defenses intercept ballistic missiles targeting Riyadh.",
       "severity": "CRÍTICO"
     },
     {
@@ -52,7 +52,7 @@
     }
   ],
   "ticker_items": [
-    "BRENT: $90.82 (+0.00%)",
+    "BRENT: $91.07 (+0.00%)",
     "VIX: 28.29",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
