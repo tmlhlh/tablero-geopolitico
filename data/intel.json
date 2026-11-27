@@ -1,19 +1,31 @@
 {
-  "updated_at": "2026-11-27T06:30:04.580564+00:00",
+  "updated_at": "2026-11-27T17:10:40.755847+00:00",
   "market": {
-    "brent_usd": 92.61,
+    "brent_usd": 90.0,
     "brent_chg": 0.0
   },
   "indicators": {
     "ormuz_flow_pct": 8.5,
-    "vix": 26.8,
+    "vix": 24.36,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.9
+    "insurance_spread_pct": 4.1
   },
   "ormuz_status": {
     "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
+    {
+      "timestamp": "27 NOV 2026 · 11:51 UTC",
+      "headline": "ITALIANS KILLED IN KUWAIT: WHY IS IRAN DENYING RESPONSIBILITY?",
+      "detail": "Iran has openly claimed its strikes on Gulf states throughout the war. So why is it denying an attack on Kuwait?",
+      "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "27 NOV 2026 · 11:34 UTC",
+      "headline": "NATO GAVE KIEV NAVAL STRIKE CAPABILITY. THEN THE UKRAINIANS ATTACKED LIBYA",
+      "detail": "The Ukrainian attack on a Russian ship in Libya fits a long pattern of Western military adventurism causing blowback Read Full Article at RT.com",
+      "severity": "CRÍTICO"
+    },
     {
       "timestamp": "25 NOV 2026 · 07:56 UTC",
       "headline": "LIBYAN FORCES VOW RETALIATION OVER UKRAINIAN ATTACK",
@@ -37,23 +49,11 @@
       "headline": "UKRAINIAN DRONE ATTACK AN ACT OF WAR – LIBYAN OFFICIAL",
       "detail": "Libya’s Presidential Council deputy chairman Musa al-Koni has called for a terrorism designation for Zelensky over naval drone strikes. Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "23 NOV 2026 · 15:53 UTC",
-      "headline": "IRAN TURNS TO RUSSIA TO BYPASS HORMUZ DISRUPTIONS (VIDEO)",
-      "detail": "Iran has expanded trade with Russia through the Caspian Sea amid disruptions in the Strait of Hormuz, RT reports Read Full Article at RT.com",
-      "severity": "INFO"
-    },
-    {
-      "timestamp": "23 NOV 2026 · 13:31 UTC",
-      "headline": "FOUR OIL TANKERS HIT MINES IN STRAIT OF HORMUZ – IRAN",
-      "detail": "Four oil tankers have reportedly struck mines in the Strait of Hormuz during an escalating confrontation between Iran and the US Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $92.61 (+0.00%)",
-    "VIX: 26.8",
+    "BRENT: $90.0 (+0.00%)",
+    "VIX: 24.36",
     "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
