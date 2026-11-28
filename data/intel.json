@@ -1,24 +1,30 @@
 {
-  "updated_at": "2026-11-27T17:10:40.755847+00:00",
+  "updated_at": "2026-11-28T01:00:13.580877+00:00",
   "market": {
-    "brent_usd": 90.0,
+    "brent_usd": 90.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 8.5,
-    "vix": 24.36,
+    "ormuz_flow_pct": 5.5,
+    "vix": 23.81,
     "risk_level": "CRÍTICO",
-    "insurance_spread_pct": 4.1
+    "insurance_spread_pct": 3.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 5.5%"
   },
   "events": [
     {
-      "timestamp": "27 NOV 2026 · 11:51 UTC",
-      "headline": "ITALIANS KILLED IN KUWAIT: WHY IS IRAN DENYING RESPONSIBILITY?",
-      "detail": "Iran has openly claimed its strikes on Gulf states throughout the war. So why is it denying an attack on Kuwait?",
+      "timestamp": "28 NOV 2026 · 00:33 UTC",
+      "headline": "US STRIKES ALLEGED IRAN BLOCKADE RUNNER (VIDEO)",
+      "detail": "The US military has released footage of a strike on a bulk carrier accused of breaching Washington’s naval blockade of Iranian ports Read Full Article at RT.com",
       "severity": "CRÍTICO"
+    },
+    {
+      "timestamp": "27 NOV 2026 · 23:55 UTC",
+      "headline": "US DISABLES SHIP ATTEMPTING TO BREACH IRAN BLOCKADE",
+      "detail": "The US military says it disabled a commercial ship after it left an Iranian port and ignored warnings to stop.",
+      "severity": "INFO"
     },
     {
       "timestamp": "27 NOV 2026 · 11:34 UTC",
@@ -43,17 +49,11 @@
       "headline": "FARHAD IBRAGIMOV: ZELENSKY’S ATTACK ON LIBYA WILL COST HIM DEARLY",
       "detail": "The assault on a port has already been called tantamount to a declaration of war – as Ukraine celebrates it as an achievement Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "24 NOV 2026 · 00:04 UTC",
-      "headline": "UKRAINIAN DRONE ATTACK AN ACT OF WAR – LIBYAN OFFICIAL",
-      "detail": "Libya’s Presidential Council deputy chairman Musa al-Koni has called for a terrorism designation for Zelensky over naval drone strikes. Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
-    "BRENT: $90.0 (+0.00%)",
-    "VIX: 24.36",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
+    "BRENT: $90.84 (+0.00%)",
+    "VIX: 23.81",
+    "ORMUZ: CIERRE FACTICIO: Flujo al 5.5%"
   ]
 }
