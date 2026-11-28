@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-28T01:00:13.580877+00:00",
+  "updated_at": "2026-11-28T08:49:20.997871+00:00",
   "market": {
     "brent_usd": 90.84,
     "brent_chg": 0.0
   },
   "indicators": {
-    "ormuz_flow_pct": 5.5,
+    "ormuz_flow_pct": 8.5,
     "vix": 23.81,
     "risk_level": "CRÍTICO",
     "insurance_spread_pct": 3.9
   },
   "ormuz_status": {
-    "summary": "CIERRE FACTICIO: Flujo al 5.5%"
+    "summary": "CIERRE FACTICIO: Flujo al 8.5%"
   },
   "events": [
     {
       "timestamp": "28 NOV 2026 · 00:33 UTC",
       "headline": "US STRIKES ALLEGED IRAN BLOCKADE RUNNER (VIDEO)",
-      "detail": "The US military has released footage of a strike on a bulk carrier accused of breaching Washington’s naval blockade of Iranian ports Read Full Article at RT.com",
+      "detail": "The US military has released footage of a strike on a bulk carrier accused of breaching the naval blockade of Iranian ports Read Full Article at RT.com",
       "severity": "CRÍTICO"
     },
     {
@@ -25,6 +25,12 @@
       "headline": "US DISABLES SHIP ATTEMPTING TO BREACH IRAN BLOCKADE",
       "detail": "The US military says it disabled a commercial ship after it left an Iranian port and ignored warnings to stop.",
       "severity": "INFO"
+    },
+    {
+      "timestamp": "27 NOV 2026 · 23:13 UTC",
+      "headline": "ZELENSKY WALKS BACK CLAIM ABOUT LIBYA ATTACK AFTER REBUKE FROM ITALY",
+      "detail": "Vladimir Zelensky admitted that the military struck a Russian warship in a neutral port without consulting Ukraine’s European backers Read Full Article at RT.com",
+      "severity": "CRÍTICO"
     },
     {
       "timestamp": "27 NOV 2026 · 11:34 UTC",
@@ -43,17 +49,11 @@
       "headline": "RT FILMS AT LIBYAN PORT ATTACKED BY UKRAINIAN DRONES (VIDEO)",
       "detail": "RT has filmed at the Libyan port of Benghazi, where a Russian military vessel reportedly came under attack by Ukrainian sea drones Read Full Article at RT.com",
       "severity": "CRÍTICO"
-    },
-    {
-      "timestamp": "24 NOV 2026 · 17:49 UTC",
-      "headline": "FARHAD IBRAGIMOV: ZELENSKY’S ATTACK ON LIBYA WILL COST HIM DEARLY",
-      "detail": "The assault on a port has already been called tantamount to a declaration of war – as Ukraine celebrates it as an achievement Read Full Article at RT.com",
-      "severity": "CRÍTICO"
     }
   ],
   "ticker_items": [
     "BRENT: $90.84 (+0.00%)",
     "VIX: 23.81",
-    "ORMUZ: CIERRE FACTICIO: Flujo al 5.5%"
+    "ORMUZ: CIERRE FACTICIO: Flujo al 8.5%"
   ]
 }
